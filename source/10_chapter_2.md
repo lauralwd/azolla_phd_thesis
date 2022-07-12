@@ -1,62 +1,62 @@
-# Is there foul play in the leaf pocket? The metagenome of floating fern _Azolla_ reveals endophytes that do not fix N<sub>2</sub> but may denitrify
+# Is there foul play in the leaf pocket? The metagenome of floating fern _Azolla_ reveals endophytes that do not fix N~2~ but may denitrify
 
-Laura W Dijkhuizen<sup>1</sup>,
-Paul Brouwer<sup>1</sup>,
-Henk Bolhuis<sup>2</sup>,
-Gert-Jan Reichart<sup>3</sup>,
-Nils Koppers<sup>4</sup>,
-Bruno Huettel<sup>5</sup>,
-Anthony M Bolger<sup>6</sup>,
-Fay-Wei Li<sup>7,8</sup>,
-Shifeng Cheng<sup>9</sup>,
-Xin Liu<sup>9</sup>,
-Gane Ka-Shu Wong<sup>9,10</sup>,
-Kathleen Pryer<sup>6</sup>,
-Andreas Weber<sup>4</sup>,
-Andrea Bräutigam<sup>4</sup>,
-Henriette Schluepmann<sup>1</sup>.
+Laura W Dijkhuizen^1^,
+Paul Brouwer^1^,
+Henk Bolhuis^2^,
+Gert-Jan Reichart^3^,
+Nils Koppers^4^,
+Bruno Huettel^5^,
+Anthony M Bolger^6^,
+Fay-Wei Li^7,8^,
+Shifeng Cheng^9^,
+Xin Liu^9^,
+Gane Ka-Shu Wong^9,10^,
+Kathleen Pryer^6^,
+Andreas Weber^4^,
+Andrea Bräutigam^4^,
+Henriette Schluepmann^1^.
 
-<sup>1</sup>,Molecular Plant Physiology Department, Utrecht University, Utrecht 3584CH, The Netherlands <br>
-<sup>2</sup>Department of Marine Microbiology and Biogeochemistry, Netherlands Institute for Sea Research (NIOZ), Utrecht University, Den Hoorn 1797SZ, The Netherlands<br>
-<sup>3</sup>Department of Earth Sciences, Utrecht University, Utrecht 3508TA, The Netherlands<br>
-<sup>4</sup>Cluster of Excellence on Plant Sciences (CEPLAS), Department of Plant Biochemistry, Heinrich Heine University, Düsseldorf 40225, Germany<br>
-<sup>5</sup>Max Planck Institute for Plant Breeding ADIS/DNA Core Facility, Cologne 50829, Germany<br>
-<sup>6</sup>Institute for Biology I, Institute for Botany and Molecular Genetics (IBMG), RWTH Aachen University, Aachen, Germany<br>
-<sup>7</sup>Department of Biology, Duke University, Durham, NC 27708, U.S.A<br>
-<sup>8</sup>Boyce Thompson Institute For Plant Research, Cornell University, Ithaca, NY 14853, U.S.A<br>
-<sup>9</sup>Beijing Genomics Institute-Shenzhen, Shenzhen 518083, China<br>
-<sup>10</sup>Department of Biological Sciences, University of Alberta, Edmonton, AB T6G 2E9, Canada.<br>
+^1^,Molecular Plant Physiology Department, Utrecht University, Utrecht 3584CH, The Netherlands <br>
+^2^Department of Marine Microbiology and Biogeochemistry, Netherlands Institute for Sea Research (NIOZ), Utrecht University, Den Hoorn 1797SZ, The Netherlands<br>
+^3^Department of Earth Sciences, Utrecht University, Utrecht 3508TA, The Netherlands<br>
+^4^Cluster of Excellence on Plant Sciences (CEPLAS), Department of Plant Biochemistry, Heinrich Heine University, Düsseldorf 40225, Germany<br>
+^5^Max Planck Institute for Plant Breeding ADIS/DNA Core Facility, Cologne 50829, Germany<br>
+^6^Institute for Biology I, Institute for Botany and Molecular Genetics (IBMG), RWTH Aachen University, Aachen, Germany<br>
+^7^Department of Biology, Duke University, Durham, NC 27708, U.S.A<br>
+^8^Boyce Thompson Institute For Plant Research, Cornell University, Ithaca, NY 14853, U.S.A<br>
+^9^Beijing Genomics Institute-Shenzhen, Shenzhen 518083, China<br>
+^10^Department of Biological Sciences, University of Alberta, Edmonton, AB T6G 2E9, Canada.<br>
 
 manuscript published in new phytologist
 ## Abstract
 Dinitrogen fixation by _Nostoc azollae_ residing in specialized leaf pockets supports prolific growth of the floating fern _Azolla filiculoides_.
 To evaluate contributions by further microorganisms, the _A. filiculoides_ microbiome and nitrogen metabolism in bacteria persistently associated with Azolla ferns were characterized.
-A metagenomic approach was taken complemented by detection of N<sub>2</sub>O released and nitrogen isotope determinations of fern biomass.
+A metagenomic approach was taken complemented by detection of N~2~O released and nitrogen isotope determinations of fern biomass.
 Ribosomal RNA genes in sequenced DNA of natural ferns, their enriched leaf pockets and water filtrate from the surrounding ditch established that bacteria of _A. filiculoides_ differed entirely from surrounding water and revealed species of the order Rhizobiales.
 Analyses of seven cultivated Azolla species confirmed persistent association with Rhizobiales.
 Two distinct near full-length Rhizobiales genomes were identified from leaf-pocket enriched samples from ditch grown _A. filiculoides_.
-Their annotation revealed genes for denitrification but not N<sub>2</sub>-fixation. <sup>15</sup>N<sub>2</sub> incorporation was active in ferns with N. azollae but not in ferns without.
-N<sub>2</sub>O was not detectably released from surface sterilized ferns with the Rhizobiales.
-N<sub>2</sub>-fixing N. azollae, we conclude, dominated the microbiome of Azolla ferns.
-The persistent but less abundant heterotrophic Rhizobiales bacteria possibly contributed to lowering O2 levels in leaf pockets but did not release detectable amounts of the strong greenhouse gas N<sub>2</sub>O.
+Their annotation revealed genes for denitrification but not N~2~-fixation. ^15^N~2~ incorporation was active in ferns with N. azollae but not in ferns without.
+N~2~O was not detectably released from surface sterilized ferns with the Rhizobiales.
+N~2~-fixing N. azollae, we conclude, dominated the microbiome of Azolla ferns.
+The persistent but less abundant heterotrophic Rhizobiales bacteria possibly contributed to lowering O2 levels in leaf pockets but did not release detectable amounts of the strong greenhouse gas N~2~O.
 
 ## Introduction
 Our growing global population is rapidly escalating the demand for nutritious food, requiring highly prolific and sustainable primary production.
 In tandem, the need for renewable feedstocks for the industry derived from primary production is also growing.
 To sustain future food and feedstock production, we need to explore novel crops that comply with limitations imposed by climate change, agrosystem inputs (e.g., water, fertilizers), and available arable land.
 Of particular concern, is the ubiquitous requirement for nitrogen fertilizer in current agriculture that is tied to high input costs and negative climate consequences (Jensen et al., 2012).
-No crop plant is capable of fixing atmospheric dinitrogen (N<sub>2</sub>) autonomously.
+No crop plant is capable of fixing atmospheric dinitrogen (N~2~) autonomously.
 In leguminous crops such as soybean, for example, plants recruit free-living, nitrogen-fixing bacteria ranked in the order Rhizobiales from their environment anew each host generation (Vance, 2002), and it is within the legume’s specialized root nodules that these symbiotic heterotrophic bacteria fix dinitrogen sufficient for host and bacteria.
-N<sub>2</sub>-fixation requires large amounts of energy derived from the oxidation of plant sugars, which are a limiting factor.
+N~2~-fixation requires large amounts of energy derived from the oxidation of plant sugars, which are a limiting factor.
 Under intensive agriculture, therefore, most leguminous crops are supplied with surplus nitrogen fertilizer to improve bean yields beyond 5 t ha-1 a-1.
 
-N<sub>2</sub>-fixing cyanobacteria are known to form symbioses with other plants such as cycads, ferns and bryophytes (Adams et al., 2013).
-These symbiotic cyanobacteria can use light, as well as plant-derived sugars, as an energy source to drive N<sub>2</sub>-fixation.
+N~2~-fixing cyanobacteria are known to form symbioses with other plants such as cycads, ferns and bryophytes (Adams et al., 2013).
+These symbiotic cyanobacteria can use light, as well as plant-derived sugars, as an energy source to drive N~2~-fixation.
 A single fern genus, Azolla, benefits from such a cyanobacterial symbiosis, and stands out for its prolific growth resulting in high protein biomass without nitrogen fertilizer.
 For example, _A. filiculoides_ produced 39 t ha-1 a-1 dry weight (DW) biomass containing up to 25% protein (Becerra et al., 1990, Brouwer et al., 2017), whereas clover, Trifolium pratense, a high–yielding forage legume that is commonly grown with low fertilizer applications (150 kg ha-1 a-1), produced up to 15 t ha-1 a-1 DW biomass containing similar protein amounts (Anglade et al., 2015).
 The cyanobacterial symbiont _Nostoc azollae_ is key to the fern’s remarkable productivity.
 With its genome highly degraded (containing 31.2% pseudogenes and over 600 transposable elements), N. azollae is unable to survive without its host (Ran et al., 2010), and its spores are vertically transmitted to the next fern generation via the fern megaspores (sensu Nagalingum et al., 2006) during sexual reproduction.
-The cyanobacteria reside within specialized leaf pockets of Azolla, where they form heterocysts with high frequency and utilize photosystem I to drive N<sub>2</sub>-fixation.
+The cyanobacteria reside within specialized leaf pockets of Azolla, where they form heterocysts with high frequency and utilize photosystem I to drive N~2~-fixation.
 A colony of motile cyanobacteria typically resides at the meristematic tip of the branch where the leaf pockets of the young developing leaves are still open, allowing cyanobacteria to migrate inside (Perkins & Peters, 1993).
 Such a specialized environment that is attractive to cyanobacteria may also attract other bacteria.
 Electron micrographs of leaf and megasporangiate sori cross sections have revealed the presence of other bacteria in addition to the cyanobacteria (Carrapiço, 1991; Zheng et al., 2009).
@@ -96,7 +96,7 @@ Cultures of different Azolla species were obtained from the International Rice R
 All Azolla species were grown on liquid medium without nitrogen and under long-day light with a far-red component as described in Brouwer et al., 2017, except when stated otherwise.
 To obtain sterilized cultures of _A. filiculoides_, explants (<1 mm3) of leaves from the ditch plants were surface-sterilized using bleach at 1% available chlorine for 40 s, with four consecutive rinses in sterile water prior to cultivation on agar medium (0.6% w/v agarose, Duchefa, Netherlands).
 Azolla without N. azollae (referred to here as _A. filiculoides_-Sterilized) was first cultured on solid agar medium with 60 µg ml-1 erythromycin and 2 mM NH4NO3; the absence of N. azollae was verified using confocal microscopy and by q-PCR, (Fig. 4; Forni et al., 1991; Brouwer et al., 2017).
-Sterilized cultures were grown in enclosed glass containers with a stream of air (78 L h-1) pumped through 0.45 µm filters using aquarium pumps (SuperFish Air flow mini); _A. filiculoides_-Sterilized were used for DNA sequencing, the <sup>15</sup>N<sub>2</sub>-fixation experiments and 15N determinations of Azolla biomass.
+Sterilized cultures were grown in enclosed glass containers with a stream of air (78 L h-1) pumped through 0.45 µm filters using aquarium pumps (SuperFish Air flow mini); _A. filiculoides_-Sterilized were used for DNA sequencing, the ^15^N~2~-fixation experiments and 15N determinations of Azolla biomass.
 DNA extractions from cultured plants was after enrichment for nuclei (Lutz et al., 2011) combined with Genomic-tip 100/G protocol (QIAGEN), for the long read sequencing, or directly using the Genomic-tip 100/G protocol for the short-read Illumina sequencing.
 Sequencing library preparations and sequencing of DNA
 Libraries for short-read sequencing (in paired-end mode) were made after shearing the DNA as per the recommended protocol (TruSeq Nano DNA Library Prep Kit, illumina, Madison, WI, USA).
@@ -122,16 +122,16 @@ Bowtie output was parsed with a custom script to extract position and the common
 In a custom R script, aligned reads were binned (normalized for 0.05 Mb and 1 % ID) and read count per bin was log10 transformed (Wickham, 2011; R core team, 2013; Dowle et al., 2014; Carr et al., 2015).
 Data deposition
 The sequences reported in this paper have been deposited in the ENA database with the study accession number PRJEB19522; the data is separated in three categories: Illumina paired end NextSeq500 sequences (2x 150b) from the environmental samples, Illumina paired end NextSeq500 sequences (2x 150b) short-read sequences sampled at 30 M reads from each of the different species and bacterial scaffolds.
-<sup>15</sup>N<sub>2</sub> fixation, 5N determinations and N<sub>2</sub>O release
+^15^N~2~ fixation, 5N determinations and N~2~O release
 Surface-sterilized ferns (100 mg FW) were placed in enclosed bottles with 43 ml of sterile medium and a residual air space of 262 ml.
-To determine N<sub>2</sub> fixation after 2 h, <sup>15</sup>N<sub>2</sub> (15 ml) was added at 14 h using air-tight syringes whilst overpressure was removed using a release needle; the bottles were then incubated for 2 h under growth conditions as in Bouwer et al., 2017.
-To determine N<sub>2</sub> fixation after 24 h, <sup>15</sup>N<sub>2</sub> (5 ml) was added as well as CO2 (5 ml).
-After the incubation with <sup>15</sup>N<sub>2</sub>, samples were snap frozen in liquid nitrogen, freeze-dried and homogenized before analysis of the dry weights, N content and isotope abundance determinations.
-In both the 2 and 24 h incubation experiments <sup>15</sup>N<sub>2</sub> provided from Sigma was washed with acid to remove ammonia.
+To determine N~2~ fixation after 2 h, ^15^N~2~ (15 ml) was added at 14 h using air-tight syringes whilst overpressure was removed using a release needle; the bottles were then incubated for 2 h under growth conditions as in Bouwer et al., 2017.
+To determine N~2~ fixation after 24 h, ^15^N~2~ (5 ml) was added as well as CO2 (5 ml).
+After the incubation with ^15^N~2~, samples were snap frozen in liquid nitrogen, freeze-dried and homogenized before analysis of the dry weights, N content and isotope abundance determinations.
+In both the 2 and 24 h incubation experiments ^15^N~2~ provided from Sigma was washed with acid to remove ammonia.
 In the 24 h incubation experiment the gas was washed in addition with a base to remove NOx.
 Total N content and stable nitrogen isotopes (δ15N) were analyzed on a ThermoScience Delta Plus isotope ratio mass spectrometer connected on-line to a Carlo Erba Instruments Flash 1112 elemental analyzer.
 We assumed no isotope discrimination during the fixation process and therefore rates of fixation calculated may be underestimated.
-Ferns used for N<sub>2</sub>O measurements included _A. filiculoides_ cultured in the laboratory (non-sterile), surface sterilized ferns with and without N. azollae (_A. filiculoides_-Sterilized) grown under sterile conditions.
+Ferns used for N~2~O measurements included _A. filiculoides_ cultured in the laboratory (non-sterile), surface sterilized ferns with and without N. azollae (_A. filiculoides_-Sterilized) grown under sterile conditions.
 For experiments with non-sterile material 10 g FW fern were used with 200 ml air headspace.
 For experiments including sterile materials 100 mg FW fern were used with 15 ml micro-aerobic (10% v/v O2) head space.  Gas samples of 6 ml were separated on a Hayesep Q column by gas chromatography (GC Hewlett Packard Agilent technologies, Palo Alto, CA, USA) and gases detected with an electron capture detector (ECD 63 Ni).
 
@@ -205,31 +205,31 @@ To evaluate the relatedness of our Sinorhizobium-like genome with the two known 
 Whilst the Sinorhizobium-like genome was well represented in all Azolla samples, reads of all ditch and cultured fern samples mapped less efficiently to both known S. meliloti genomes.
 The Sinorhizobium-like endophyte was thus determined to be a distinct species from S. meliloti.
 Similarly, the Agrobacterium-like endophyte persistently detected in all Azolla ferns (Fig. 4) proved distinct from known Agrobacterium tumefaciens strains.
-Analyses of N-cycle coding genes revealed that both Rhizobiales genomes were lacking the N<sub>2</sub>-fixing nitrogenase but instead encoded proteins from the denitrifying pathway (Fig. 5; Table S2).
+Analyses of N-cycle coding genes revealed that both Rhizobiales genomes were lacking the N~2~-fixing nitrogenase but instead encoded proteins from the denitrifying pathway (Fig. 5; Table S2).
 The Sinorhizobium-like genome contained intact nitrite reductase, nitric oxide reductase and their accessory proteins (Figs. S4, S5).
 The Agrobacterium-like genome did not contain nitrite reductase but contained nitric oxide reductase and nitrous oxide reductase features.
 Closer inspection of the locus and protein alignment, however, revealed insertions of mobile elements in key genes of the nor and nos operons (Figs. S6, S7).
-hizobiales endophytes hosted by Azolla ferns, therefore, did not contribute to N<sub>2</sub>-fixation but may have released N<sub>2</sub>O and possibly also N<sub>2</sub>.
+hizobiales endophytes hosted by Azolla ferns, therefore, did not contribute to N~2~-fixation but may have released N~2~O and possibly also N~2~.
 
-### _A. filiculoides_ lacking cyanobacteria, but with the Rhizobiales present, neither fix nitrogen nor release detectable amounts of N<sub>2</sub>O
-Nitrogen-fixation in surface-sterilized _A. filiculoides_ was examined by supplying <sup>15</sup>N<sub>2</sub> at mid-day for 2 h (Fig. 6a), when both CO2 and N<sub>2</sub> fixation peak (Brouwer et al., 2017). <sup>15</sup>N<sub>2</sub>-fixation was not significant in _A. filiculoides_-Sterilized (Fig. 6a –Cynao+N).
-N<sub>2</sub>-fixation was inhibited by N-fertilizer in the medium required to sustain growth of _A. filiculoides_-Sterilized (Fig. 6a, compare +Cyano-N with +Cyano+N), but _A. filiculoides_ with N. azollae fixed significant amounts of nitrogen already after 2 h (Fig. 6a, +Cyano+N).
-When examining <sup>15</sup>N<sub>2</sub> fixation after one diel cycle of 24 h, 15N of the biomass was still not significantly increased in _A. filiculoides_-Sterilized compared to the boiled control whilst it reached on average 362 in ferns with cyanobacteria (Fig. S8).
-Endophytic Rhizobiales in _A. filiculoides_-Sterilized, therefore, did not fix N<sub>2</sub>.
-This result was consistent with the absence of the N<sub>2</sub>-fixing pathway in our Rhizobiales genomes (Fig. 5).
-In air without <sup>15</sup>N<sub>2</sub> added, biomass15N of the ferns with N. azollae in the absence of N-fertilizer was much higher than with fertilizer (Fig. 6b, +cyano-N versus +cyano+N), consistent with inhibition of N<sub>2</sub>-fixation on media with 2 mM NH4NO3 in Fig. 6a.
-The most negative 15N in _A. filiculoides_-Sterilized confirms absence of N<sub>2</sub>-fixation in these ferns (Fig. 6a).
+### _A. filiculoides_ lacking cyanobacteria, but with the Rhizobiales present, neither fix nitrogen nor release detectable amounts of N~2~O
+Nitrogen-fixation in surface-sterilized _A. filiculoides_ was examined by supplying ^15^N~2~ at mid-day for 2 h (Fig. 6a), when both CO2 and N~2~ fixation peak (Brouwer et al., 2017). ^15^N~2~-fixation was not significant in _A. filiculoides_-Sterilized (Fig. 6a –Cynao+N).
+N~2~-fixation was inhibited by N-fertilizer in the medium required to sustain growth of _A. filiculoides_-Sterilized (Fig. 6a, compare +Cyano-N with +Cyano+N), but _A. filiculoides_ with N. azollae fixed significant amounts of nitrogen already after 2 h (Fig. 6a, +Cyano+N).
+When examining ^15^N~2~ fixation after one diel cycle of 24 h, 15N of the biomass was still not significantly increased in _A. filiculoides_-Sterilized compared to the boiled control whilst it reached on average 362 in ferns with cyanobacteria (Fig. S8).
+Endophytic Rhizobiales in _A. filiculoides_-Sterilized, therefore, did not fix N~2~.
+This result was consistent with the absence of the N~2~-fixing pathway in our Rhizobiales genomes (Fig. 5).
+In air without ^15^N~2~ added, biomass15N of the ferns with N. azollae in the absence of N-fertilizer was much higher than with fertilizer (Fig. 6b, +cyano-N versus +cyano+N), consistent with inhibition of N~2~-fixation on media with 2 mM NH4NO3 in Fig. 6a.
+The most negative 15N in _A. filiculoides_-Sterilized confirms absence of N~2~-fixation in these ferns (Fig. 6a).
 
-N<sub>2</sub>O release was robustly detected when assayed after 6 h in darkness using non-sterile Azolla on medium with 2 mM NH4NO3, but not on medium without nitrogen fertilizer (Fig. 6c), even after much longer than 6 h incubation (data not shown).
-Dependence of N<sub>2</sub>O release on medium with N suggested that if any N<sub>2</sub>O was synthesized in the leaf pockets it would be efficiently converted into N<sub>2</sub>.
-In contrast to non-sterile _A. filiculoides_, N<sub>2</sub>O release was not detected when _A. filiculoides_-Sterilized were grown used on medium with N-fertilizer after 6 h darkness at the end of the night and in a micro-oxic air space (Fig. 6d).
-N<sub>2</sub>O release from non-sterile _A. filiculoides_ therefore likely originated from bacteria loosely associated with the fern surface, not from the endophytes.
+N~2~O release was robustly detected when assayed after 6 h in darkness using non-sterile Azolla on medium with 2 mM NH4NO3, but not on medium without nitrogen fertilizer (Fig. 6c), even after much longer than 6 h incubation (data not shown).
+Dependence of N~2~O release on medium with N suggested that if any N~2~O was synthesized in the leaf pockets it would be efficiently converted into N~2~.
+In contrast to non-sterile _A. filiculoides_, N~2~O release was not detected when _A. filiculoides_-Sterilized were grown used on medium with N-fertilizer after 6 h darkness at the end of the night and in a micro-oxic air space (Fig. 6d).
+N~2~O release from non-sterile _A. filiculoides_ therefore likely originated from bacteria loosely associated with the fern surface, not from the endophytes.
 Results were consistent with the low abundance of the denitrifying Rhizobiales endophytes (Fig. 2).
 
 ## Discussion
-_Nostoc azollae_ is abundant and the only cyanobacterium that fixes N<sub>2</sub> in _A. filiculoides_
+_Nostoc azollae_ is abundant and the only cyanobacterium that fixes N~2~ in _A. filiculoides_
 N. azollae in _A. filiculoides_ from the present study and the published strain from Stockholm (Ran et al., 2010) were the same species based on the above 97% identity of their rRNA.
-did not detect any rRNA from another cyanobacterial species suggesting that in the Utrecht ferns, N. azollae was the only abundant cyanobacterium in the leaf pockets; Fig. 6 and Fig. S8 further demonstrated that N. azollae was responsible for N<sub>2</sub> fixation in the ferns.
+did not detect any rRNA from another cyanobacterial species suggesting that in the Utrecht ferns, N. azollae was the only abundant cyanobacterium in the leaf pockets; Fig. 6 and Fig. S8 further demonstrated that N. azollae was responsible for N~2~ fixation in the ferns.
 The large number of reads that mapped to the N. azollae genome with less than 100% identity in the recruitment analyses (Fig. 4) were likely explained by natural variation in bacterial populations and activity of insertion elements in N. azollae (Vigil-Stenman et al., 2015).
 Previous reports suggesting that several species of cyanobacteria may inhabit the leaf pockets (Gebhardt & Nierzwicki-Bauer, 1991) may have described very low abundance cyanobacteria not detected by our analyses which revealed bacteria with a relative rRNA abundance at relative detection limit of 0.2 %.
 Our analyses confirmed presence of less abundant gram-negative eubacteria in leaf pockets of _A. filiculoides_, in particular, that of an Agrobacterium strain (Plazinski et al., 1990).
@@ -249,25 +249,25 @@ The long-read assembly of bacterial scaffolds combined with recruitment analyses
 With RAST, closest relatives were computed scoring homologies of gene candidates predicted by GLIMMER3 with a set of universal proteins and 200 unduplicated proteins (Overbeek et al., 2014).
 Recruitment analyses further refined this and showed that the Sinorhizobium-like endophytes in _A. filiculoides_ were not the S. meliloti species known (Fig. S4), yet were above 90% identical over the genome length when comparing the differing Azolla species (Fig. 4).
 Furthermore, calculating read counts per kb in Fig. S3 quantified enrichment of Rhizobiales in leaf-pocket content compared to plant samples, thus locating Agrobacterium-like bacteria preferentially in the leaf pockets.
-Unlike the cyanobacteria in the leaf pockets, the Rhizobiales endophytes did not fix N<sub>2</sub> and were present in much lower abundance as judged from the recruitment analyses.
+Unlike the cyanobacteria in the leaf pockets, the Rhizobiales endophytes did not fix N~2~ and were present in much lower abundance as judged from the recruitment analyses.
 A possible role for denitrifying Rhizobiales of the Azolla metagenome
 Persistent Rhizobiales endophytes with denitrifying pathways suggested there may be some wasted cycling of the fixed nitrogen that is not likely to be of direct benefit to Azolla (Fig. 5).
-In the absence of N fertilizer Azolla will thrive entirely on N<sub>2</sub> fixed by N. azollae; this explained the low δ15N of the fern biomass grown without N fertilizer compared to legume biomass reported earlier (Fig. 6; Hipkin et al., 2004) and suggested that growth of Azolla was not limited by nitrogen.
+In the absence of N fertilizer Azolla will thrive entirely on N~2~ fixed by N. azollae; this explained the low δ15N of the fern biomass grown without N fertilizer compared to legume biomass reported earlier (Fig. 6; Hipkin et al., 2004) and suggested that growth of Azolla was not limited by nitrogen.
 Rhizobia are known epiphytes of cyanobacteria heterocysts (Stevenson & Waterbury, 2006).
 Possibly, the heterotrophic Rhizobiales help to lower the massive amounts of O2 released from leaf cell PSII activity at daytime in the leaf pockets, thereby preserving nitrogenase efficiency inside the heterocysts.
 Rhizobia may have adapted to survive the micro-oxic environment they create, particularly at night, by respiring nitrate or nitrite.
-Bradirhizobium japonicum in soybean nodules is responsible for the bulk of N<sub>2</sub>O emissions when flooding soybeans: plants nodulated with B. japonicum mutants with a defect in NapA nitrate reductase producing nitrite emitted less N<sub>2</sub>O whilst plants with a defect in N<sub>2</sub>O reductase emitted more N<sub>2</sub>O (Tortosa et al., 2015).
+Bradirhizobium japonicum in soybean nodules is responsible for the bulk of N~2~O emissions when flooding soybeans: plants nodulated with B. japonicum mutants with a defect in NapA nitrate reductase producing nitrite emitted less N~2~O whilst plants with a defect in N~2~O reductase emitted more N~2~O (Tortosa et al., 2015).
 In Azolla, as in legumes, therefore, the denitrification pathway may present an adaptive advantage even though it may constitute futile cycling: survival of the bacteria when O2 levels are low.
-Direct N<sub>2</sub>O release from surface-sterilized Azolla containing the Rhizobiales genomes could not be detected in this study, however, even in micro-oxic conditions and after a prolonged night.
+Direct N~2~O release from surface-sterilized Azolla containing the Rhizobiales genomes could not be detected in this study, however, even in micro-oxic conditions and after a prolonged night.
 Possibly, endophyte communities co-evolve with Azolla, and the metagenome is the unit that undergoes selection by the environment.
 This would be demonstrated if phylogenetic relationships of Azolla and its endophytes were to mirror one another, and if the endophytes were shown to be transmitted vertically upon sexual reproduction of Azolla by way of spores.
 Vertical transmission has been demonstrated for N. azollae in _A. filiculoides_ (Ran et al., 2010), and it is entirely possible that the rhizobia reported here are similarly transmitted together with N. azollae the megasporangiate sori of A. filiculoides (Carrapiço, 1991; Zheng et al., 2009).
 hylogenetic studies are underway to verify this because, if true, it would imply that crop breeding approaches would have to consider endophytic communities.
 Nitrification: how could nitrate and nitrite be formed from the NH4+ released by N. azollae?
 Because bacterial endophytes from rice roots contained the AmoA (pfam 05145) ammonia monooxygenase (Sessitsch et al., 2012), which converts ammonium into nitrate, it is plausible that Azolla endophytes still awaiting characterization may be capable of converting the ammonium released by N. azollae into nitrate.
-Alternatively, many N<sub>2</sub>-fixing plants are capable of phototrophic nitrification (Hipkin et al. 2004).
+Alternatively, many N~2~-fixing plants are capable of phototrophic nitrification (Hipkin et al. 2004).
 In several leguminous plants, malonate is transformed via monoamide to 3-nitropropionic acid (3-NPA) and then to nitrate and nitrite (Francis et al., 2013). 3-NPA is an inhibitor of mitochondrial succinate dehydrogenase (E.C. 1.3.5.1) and is therefore a strong antigrazing compound.
-It has been shown to accumulate at high levels in aquatic plants that fix N<sub>2</sub> (e.g., Lotus), and is inactivated by the by 3-NPA oxidases detected in a leguminous herb and characterized in Pseudomonas aeruginosa, Burkholderia phytofirmans, and fungi (Nishino et al., 2010; Francis et al., 2013; Salvi et al., 20<sup>1</sup>4).
+It has been shown to accumulate at high levels in aquatic plants that fix N~2~ (e.g., Lotus), and is inactivated by the by 3-NPA oxidases detected in a leguminous herb and characterized in Pseudomonas aeruginosa, Burkholderia phytofirmans, and fungi (Nishino et al., 2010; Francis et al., 2013; Salvi et al., 20^1^4).
 It will be important to decipher whether nitrification reactions occur within the leaf pocket or inside the fern cells.
 The combination of nitrifying and denitrifying endophytes could permit _Azolla_ to cope with surplus levels of NH4+ from N. azollae or micro-oxic ditch waters when phosphate availability is limiting and, therefore, contribute to defining the aquatic fern’s ecological niche.
 
