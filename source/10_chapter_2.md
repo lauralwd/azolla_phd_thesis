@@ -28,6 +28,7 @@ Henriette Schluepmann^1^.
 ^10^Department of Biological Sciences, University of Alberta, Edmonton, AB T6G 2E9, Canada.<br>
 
 manuscript published in new phytologist
+
 ## Abstract
 Dinitrogen fixation by _Nostoc azollae_ residing in specialized leaf pockets supports prolific growth of the floating fern _Azolla filiculoides_.
 To evaluate contributions by further microorganisms, the _A. filiculoides_ microbiome and nitrogen metabolism in bacteria persistently associated with Azolla ferns were characterized.
@@ -79,10 +80,13 @@ Metagenome assembly quality is primarily influenced by number and diversity of o
 Improved assemblies with long scaffolds could be obtained by sub-cloning DNA into fosmids before sequencing or by using long-read technologies such as those that were validated in studies of gut microbes (Mizuno et al., 2013; Leonard et al., 2014).
 The presence of an organism in an environmental sample may then be computed by recruiting short reads from the environmental sample onto the assembled genome of that particular organism, such as what was successfully demonstrated with phage genomes from the ocean or bacterial genomes from salt brines (Mizuno et al., 2013; Pašić, et al., 2009).
 The focus of the present study is to characterize the identity and function of microbes persistently associated with _Azolla filiculoides_ using metagenomics shotgun sequencing of total DNA from samples collected in their natural environment, and also from cultured species of Azolla.
+
 ## Materials and methods
+
 ### Plant materials
 _Azolla filiculoides_ Lam was obtained from the Galgenwaard ditch in Utrecht, The Netherlands.
 In addition, six Azolla species were obtained from the bio-fertilizer germplasm collection at the International Rice Research Institute in the Philippines (Table 1; Watanabe, 1992).
+
 ### Collection and processing of samples from the natural environment
 Whole plants of _A. filiculoides_, its enriched leaf pocket contents, and water filtrates from the surrounding water (13oC, pH 7.2) were collected as triplicate replicates from the Galgenwaard ditch in Utrecht (Table 1) on October 28th 2015.
 Plant and water replicates were carried from the collection site in separate containers and treated separately.
@@ -91,6 +95,7 @@ For whole plant samples, one plant of 200 mg FW and two ø3 mm glass beads were 
 Leaf pocket enriched fractions were prepared from washed ferns as described in Orr & Haselkorn (1982).
 Ditch water (1 L) from every replicate was passed through a 0.45 μm filter, then the biomass on the filter was resuspended in 500 µL water and frozen (-80oC) until DNA extraction.
 DNA was extracted using the Mobio PowerLyzer® PowerSoil® kit (QIAGEN), according to the manufacturer’s protocol.
+
 ### Fern cultures and processing
 Cultures of different Azolla species were obtained from the International Rice Research Institute (Philippines) except for _A. filiculoides_ (Table 1; Watanabe, 1992).
 All Azolla species were grown on liquid medium without nitrogen and under long-day light with a far-red component as described in Brouwer et al., 2017, except when stated otherwise.
@@ -103,6 +108,7 @@ Libraries for short-read sequencing (in paired-end mode) were made after shearin
 For Azolla samples from the ditch, care was taken to shear the DNA to approximately 800 bp (Covaris, Woburn, MA, USA) to improve EMIRGE assemblies.
 Sequencing was performed using the illumina NextSeq500 desktop sequencer, yielding approximately 3 Gb sequence information per replicate (Supporting Information Table S1).  For cultured Azolla samples, libraries were generated sized at 250, 500 and 800 bp and sequenced at high coverage such that the data needed to be sub-sampled to 10 and 30 M reads, for comparison with data obtained from ditch Azolla.
 Libraries for PacBioRS II (Pacific Biosciences, Palo Alto, CA, USA) sequencing of the nuclear DNA from a single plant of _A. filiculoides_-Sterilized (described under “Fern cultures and processing”) were generated after size separation with a cut-off at 14 kb (Blue Pippin, Sage Science, Beverly, MA, USA) according to the PacBio RS II protocol and sequenced using the P5-C3 chemistry, reaching 57 times coverage of the 750 Mb genome.
+
 ### Taxonomic assignments based on small ribosomal RNA (sRNA) sequences
 Short-read sequences were sorted according to biological replicates and paired-end reads were trimmed using Trimmomatic (parameters “LEADING:5 TRAILING:5 SLIDINGWINDOW:4:15 MINLEN:36”; Bolger et al., 2014).
 All reads passing quality control (QC) were processed in parallel by RiboTagger which directly assigns taxonomy from variable regions of rRNA genes found in single reads using a subset of the Silva database containing the V4 to V7 variable regions as reference (Tange, 2011; Xie et al., 2016).
@@ -150,7 +156,6 @@ Over half of the taxa found in water samples were identified as class Betaproteo
 Overlap between Azolla-associated samples and water samples was zero at order level and minimal at class level.
 
 ![Taxonomic diversity revealed in DNA isolated from ditch samples of A. filiculoides. Sequence data originating from leaf pocket-enriched samples (L), whole plants (P), and surrounding ditch water (W) were processed as individual biological triplicates, and as a pool thereof. (a) Relative abundance of bacterial classes derived from rRNA assemblies with EMIRGE combined with taxonomic assignments with Mothur (EMIRGE) or from RiboTagger analyses of reads with rRNA variable regions (RiboTagger). (b) RiboTagger OTU count with increased reads from pooled samples of leaf pocket-enriched samples (L), whole plants (P) and surrounding ditch water (W).](source/figures/fig2_1.pdf "Taxonomic diversity in A. filiculoides Wild samples"){#fig:fig2_1}
-
 
 ### _Nostoc azollae_ is the most abundant endophyte of _A. filiculoides_
 Taxonomic identification revealed a conserved and plant-specific microbial community associated with _A. filiculoides_ (Fig. 1a L, P).
