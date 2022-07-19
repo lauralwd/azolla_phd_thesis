@@ -1,3 +1,5 @@
+\onehalfspacing
+
 # Is there foul play in the leaf pocket? The metagenome of floating fern _Azolla_ reveals endophytes that do not fix N~2~ but may denitrify
 
 Laura W Dijkhuizen^1^,
