@@ -48,7 +48,7 @@ make output a nice manuscript pdf
 ```
 --->
 
-### Abstract
+## Abstract
 Bacteria-host symbioses are present throughout the plant kingdom, and bacteria can contribute all kinds of functions to their host.
 The plant genus _Azolla_ is known to harbour multiple endophytic bacteria, which it transfers systematically to successive generations.
 Here we set out to acquire bacterial genomes of _Azolla_ associated bacteria by re-using non-metagenomic data already available in public repositories.
@@ -58,8 +58,6 @@ The use of binning signals from foreign samples and taxonomy-based signals was h
 We successfully assembled between 12 and 22 bacterial genomes from each _Azolla_ species. The majority belongs to only six taxonomical orders and occurs in most species of the _Azolla_ genus.
 High-quality bacterial genomes can be assembled from repository sequencing data, but this requires manual curation. Re-using public data can be a cost-effective method to acquire such genomes.
 Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus suggests these bacteria may be introduced in some common ancestor of _Azolla_ species and may be selected for in the evolution of the _Azolla_ holobiont.
-
-Keywords: plant-associated bacteria, endophytes, Azolla, metagenomics, MAGs
 
 ## Introduction
 Many bacteria associate with multicellular hosts in symbioses and may convey specific metabolic properties or traits to their hosts.
@@ -743,7 +741,6 @@ Selection for reduced genome size lower in extracellular symbionts than intracel
 
 
 ```
-
 ### Bacteria known to associate with plants (a fast evolving, modular subset of a hologenome?)
 Microbial genomes may encode and convey traits to a host when in symbiosis.
 The most obvious example is _Azolla_ its independence of nitrogen in the surrounding water or sediment, a trait conveyed by _T. azollae_.
@@ -784,8 +781,3 @@ This is such an example, perhaps many plant-microbe associations are.
 The plant genome does add complexity, but other than that ...
 [@Rillig2019]
 ```
-
-## Data availibility
-
-
-## references
