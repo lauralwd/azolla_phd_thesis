@@ -1,5 +1,5 @@
 \onehalfspacing
-
+\setlength{\parindent}{0.0in}
 # Is there foul play in the leaf pocket? The metagenome of floating fern _Azolla_ reveals endophytes that do not fix N~2~ but may denitrify
 
 Laura W Dijkhuizen^1^,
@@ -31,6 +31,7 @@ Henriette Schluepmann^1^.
 
 manuscript published in new phytologist
 \newpage
+\setlength{\parindent}{0.5in}
 
 ## Abstract
 Dinitrogen fixation by _Nostoc azollae_ residing in specialized leaf pockets supports prolific growth of the floating fern _Azolla filiculoides_.

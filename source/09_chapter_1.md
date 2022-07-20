@@ -1,6 +1,6 @@
 \setcounter{page}{1}
 \pagenumbering{arabic}
-\doublespacing
+\onehalfspacing
 \setlength{\parindent}{0.5in}
 
 # Introduction, with a citation
