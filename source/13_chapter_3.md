@@ -245,6 +245,7 @@ The bacterial fraction of the metagenome assembly is of substantial size and was
 ![figure length distributions](figures/figure_filter_length_distributions.png)
 Fig 3: This is a sloppy first version of what I want to show here. I'll pollish this later.
 
+\scriptsize
 
 filter stage    | superkingdom  | contig count | total length (Mb) | median length (kb) | average length (kb)
 ---             |    ---        |  ---  | --- |  ---  |  ---
@@ -258,6 +259,8 @@ host filtered   | no ORFs found | 112519|	762	| 4748	|  6768
 double filtered | no ORFs found | 25323	| 101	| 3282	|  3989
 
 Table: Assembly statistics per superkingdom before and after the second filtering stage. {#tbl:tbl3_1}
+
+\normalsize
 
 ```
 code for the table in assemblies_length_distributions.html
@@ -370,7 +373,7 @@ Make CAT classifications NA & not classified transparent in anvio figure to indi
 add order info to the bins in table 2 to crossref with fig 4
 
 ```
-
+\scriptsize
 
 |order            |MAG      | length_mb | abundance_ratio |anvio_compl | anvio_redun | checkm_compl |checkm_redun
 |---              |---       | ---       | ---             | ---        | --------         | ---          | ---
@@ -393,6 +396,8 @@ add order info to the bins in table 2 to crossref with fig 4
 |`check in anvio` |rest_7          |	1.36	||  0	|  0 |  14 |  0
 
 Table: MAG quality of MAGs assembled from sequencing data derived from the _A. filiculoides_ 'wild' sample. Quality is assessed as approximate genome completion and redundancy by two distint tools: Anvio [ref] and CheckM [ref]. {#tbl:tbl3_2}
+
+\normalsize
 
 ### Binning assemblies from non-metagenomic data is feasible with extragenous binning signals
 Provided with thoroughly filtered metagenome assemblies, the binning process becomes feasible even if the assembly lacks a metagenomic study design.
@@ -440,6 +445,8 @@ The corresponding bins, their size and estimated completeness are shown in table
 rename all MAGS to at least order level to avoid ugly tables
 ```
 
+\scriptsize
+
 |order            | MAG      | length_mb | anvio_compl | anvio_redun | checkm_compl |checkm_redun
 |---              |---       | ---       | ---         | ---         | ---          | ---
 |Acidobacteriaceae|Acidobacteria             |	4.29	|  82	|  4 |	76  |	0
@@ -464,6 +471,8 @@ rename all MAGS to at least order level to avoid ugly tables
 
 Table: MAGs of the _A. microphylla_ metagenome assembly.  {#tbl:tbl3_3}
 
+\normalsize
+
 ### Decontaminated metagenome assemblies provide up to 22 bins per biological sample
 Manual binning with extragenous binning signals yields between 12 and 22 bins for each non-sterilised _Azolla_ sample of which the majority is considered to be a high quality bin (Table 4).
 Automated binning of the same data with metabat2 and concoct performed `make table`
@@ -481,6 +490,8 @@ The point I'd like to examine here, is if I can show in numbers, that the manual
  The biological take-away, the genus wide systematic occurance, is for the next section:
 ```
 
+\scriptsize
+
 Sample | bins total | total-bin-size/over/metagenome-assembly-size | bins passing QC anvio | bins passing QC checkm |
    --  |  --  |  -- |  -- |  --
 Azmex_IRRI_486  |	22
@@ -495,6 +506,8 @@ Azfil_minuscyano |	5
 
 Table: MAG yield per biological sample and their quality as assessed by presence of single copy marker genes via both Anvi'o and CheckM. {#tbl:tbl3_4}
 
+\normalsize
+
 ### Systematic occurence of taxonomical orders in the entire _Azolla_ genus
 Next, we assessed whether MAGs of certain taxonomical orders reoccur systematically in the _Azolla_ genus as contigs did in Fig. 4.
 When counting bins classified to the aforementioned orders across all biological samples, a similar pattern can be seen.
@@ -506,7 +519,7 @@ Both types of evidence support their endophytic status in both _A. filiculoides_
 Caulobacterales were found in all _Azolla_ species except for _A. nilotica_, Nevskiales were found in all species except for _A. nilotica_ and _A. microphylla_, and Sphingomonadales were found in all species except for _A. rubra_.
 These three those orders were not systematically found in all _Azolla_ species, but were found in plants sampled at different locations and sequenced in different labs.
 
-
+\scriptsize
 
 order | Azfil_lab | Azfil_minuscyano | Azfil_wild | Azmex_IRRI_486 | Azmic_IRRI_456 | Aznil_IRRI_479 | Azrub_IRRI_479 | Azspnov_IRRI1_472 | Azspnov_IRRI2_489
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -518,6 +531,8 @@ Rhizobiales	     | 8 | 3 | 5 | 8 | 5 | 6|5|4|5
 Sphingomonadales | 1 | 0 | 0 | 2 | 1 | 1|0|1|1
 
 Table: MAGs present per biological sample per taxonomical order. {#tbl:tbl3_5}
+
+\normalsize
 
 ```
 remake the table above as a heatmap adjacent to the phylogenetic tree of Metzgar.
