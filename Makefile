@@ -48,6 +48,7 @@ pdf:
 		--variable=fontsize:12pt \
 		--variable=papersize:a4paper \
 		--variable=documentclass:report \
+		--variable=mainfont:"Arial" \
 		--pdf-engine=xelatex \
 		"$(INPUTDIR)"/*.md \
 		"$(INPUTDIR)/metadata.yml" \
