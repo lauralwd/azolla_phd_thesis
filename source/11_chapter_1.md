@@ -4,10 +4,3 @@
 \setlength{\parindent}{0.5in}
 
 # General introduction
-
-
-
-
-
-
-## Outline of this thesis

@@ -1,1 +1,1 @@
-# 3 Forever together: One nostoc azollae is symbiont to all Azolla species
+# Forever together: One nostoc azollae is symbiont to all Azolla species
