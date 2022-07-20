@@ -148,6 +148,32 @@ Bacterial scaffolds in the genome assemblies were identified by RNAmmer [@Lagese
 Bacterial scaffolds with a minimum length of 0.1 Mb were extracted and assigned taxonomy based on the 16S rRNA genes in Mothur using the Silva database (Table 2).
 Once identified, the scaffolds were submitted to RAST [@Overbeek2014] for annotation, which scored the nearest neighbour.
 
+| Assembly method[^2_1] | Genus[^2_2]         | Length (bp) [^2_3]| Features (missing genes)[^2_4]                 | Denitrifying (N-metabolism genes)[^2_5] | Closest relative [^2_6]     |
+| ---------------- | ------------------------ | --------------- | -------------------------------------------------- | ------------------------------------- | --------------------------- |
+| Celera           | _Unknown_                | 7478            |                                                    |                                       |                             |
+| Celera           | _Microbacterium_         | 23491           |                                                    |                                       |                             |
+| Celera           | _Hyphomicrobium_         | 16162           |                                                    |                                       |                             |
+| Celera           | _Shinella_               | 283870          | 259                                                | No (0)                                | _Sinorhizobium meliloti_    |
+| Celera           | _Shinella_               | 4962292         | 4811 (36)                                          | Yes (27)                              | _Sinorhizobium meliloti_    |
+| Celera           | _Ralstonia_              | 1425495         | 1312 (18)                                          | Yes (21)                              | _Ralstonia pichettii_       |
+| Celera           | _Ralstonia_              | 2321690         | 2200 (15)                                          | No                                    | _Ralstonia pichettii_       |
+| Celera           | _Rhizobium_              | 28900           | 362                                                | Yes (4)                               | _<br>_                      |
+| Celera           | _Rhizobium_              | 807886          | 758                                                | Yes (6)                               | _Rhizobium leguminosarium_  |
+| Celera           | _Rhizobium_              | 1061533         | 1853                                               | Yes (5)                               | _Rhizobium leguminosarium_  |
+| Celera           | _Rhizobium_              | 3220799         | 3178 (6)                                           | No (9)                                | _Agrobacterium tumefaciens_ |
+| Celera           | _Hydrocarboniphaga_      | 2071427         | 1856                                               | No                                    |
+| Celera           | _Hydrocarboniphaga_      | 3085094         | 2672 (164)                                         | No                                    |
+| Falcon           | _Rhizobium_              | 4138029         | 6897 (31)                                          | Yes (26)                              | _Sinorhizobium meliloti_    |
+
+Table: Bacterial scaffolds found in genome assemblies of A. filiculoides-Sterilized identified by RNAmmer and annotated by RAST. {#tbl:tbl2_2}
+
+[^2_1]: PacBioRSII reads were read-corrected then assembled using either the Celera or the Falcon pipelines. The Sinorhizobium-like scaffold was assembled by both pipelines yielding 4.906 Mb and 4.138 Mb scaffolds respectively for Celera and Falcon. These sequences were largely identical but RAST annotation of the N-metabolism genes differed by one gene (Overbeek et al., 2014).
+[^2_2]: RNAmmer detected rRNA-genes in the scaffolds and taxonomy was based on the rRNA gene sequences with Mothur using the Silva database.
+[^2_3]: Length of the scaffolds in bp
+[^2_4]: Number of features computed by RAST annotation including the number of missing genes in brackets.
+[^2_5]: Presence of genes from the denitrifying pathway with the total number of nitrogen metabolism genes in the scaffold in brackets. Small scaffolds from singleton genera were omitted.
+[^2_6]: The closest relative as computed by RAST.
+
 ### Recruitment analyses
 Short-read sequences were mapped to reference scaffolds and genomes with bowtie2 [v2.2.6; options: `--very-sensitive (-D20-R3-N0-L20-iS1,0.50)`\; @Langmead2012].
 If applicable, fragmented genomes were converted to one sequential sequence for the purpose of visualisation.
