@@ -96,6 +96,21 @@ The focus of the present study is to characterize the identity and function of m
 _Azolla filiculoides_ Lam was obtained from the Galgenwaard ditch in Utrecht, The Netherlands.
 In addition, six Azolla species were obtained from the bio-fertilizer germplasm collection at the International Rice Research Institute in the Philippines [Table 1 in @Watanabe1992].
 
+| **Taxon**                                    | **Origination**                                                                                                      |
+| ---------------------------------------------| ---------------------------------------------------------------------------------------------------------------------|
+| _Azolla filiculoides_ Lam.                   | The Netherlands, Utrecht, Galgenwaard ditch, 52° 4'35.73"N 5° 8'59.05"E                                              |
+| _Azolla filiculoides_-Sterilized             | Same as above; but cultured on erythromycin to remove N. azollae symbiont                                            |
+| _Azolla mexicana_ Schltdl. & Cham. ex Kunze  | [^IRRI]IRRI Accession ME2001; originally from USA, California, Graylodge, collected by D. Rains in 1978              |
+| _Azolla microphylla_ Kaulf.                  | [^IRRI]IRRI Accession MI4021; originally from Ecuador, Galapagos, Santa Cruz Island; collected by T. Lumpkin in 1982 |
+| _Azolla nilotica_ Mett.                      | [^IRRI]IRRI Accession NI5001; originally from Sudan, Kosti; collected by T. Lumpkin in 1982                          |
+| _Azolla caroliniana_ Willd. (accession 1)    | [^IRRI]IRRI Accession CA3017; originally from Brazil, Rio Grande Sul; collected by I. Watanabe in 1987               |
+| _Azolla caroliniana_ (accession 2)           | [^IRRI]IRRI Accession CA3004; originally from Uruguay, Treinta y tres; collected by D. Rains 1982                    |
+| _Azolla rubra_ R. Br.                        | [^IRRI]IRRI Accession RU6502; originally from Australia, Victoria, collected in 1985                                 |
+
+Table: _Azolla_ taxon sampling. {#tbl:tbl2_1}
+
+[^IRRI]: IRRI Bio-Fertilizer Germplasm Collections (www.irri.org; Watanabe, 1992).
+
 ### Collection and processing of samples from the natural environment
 Whole plants of _A. filiculoides_, its enriched leaf pocket contents, and water filtrates from the surrounding water (13°C, pH 7.2) were collected as triplicate replicates from the Galgenwaard ditch in Utrecht (Table 1) on October 28th 2015.
 Plant and water replicates were carried from the collection site in separate containers and treated separately.
