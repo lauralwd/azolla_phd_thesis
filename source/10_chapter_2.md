@@ -232,7 +232,7 @@ hizobiales endophytes hosted by Azolla ferns, therefore, did not contribute to N
 Nitrogen-fixation in surface-sterilized _A. filiculoides_ was examined by supplying ^15^N~2~ at mid-day for 2 h (Fig. 6a), when both CO~2~ and N~2~ fixation peak [@Brouwer2017c].
 ^15^N~2~-fixation was not significant in _A. filiculoides_-Sterilized (Fig. 6a –Cynao+N).
 N~2~-fixation was inhibited by N-fertilizer in the medium required to sustain growth of _A. filiculoides_-Sterilized (Fig. 6a, compare +Cyano-N with +Cyano+N), but _A. filiculoides_ with _N. azollae_ fixed significant amounts of nitrogen already after 2 h (Fig. 6a, +Cyano+N).
-When examining ^15^N~2~ fixation after one diel cycle of 24 h, 15N of the biomass was still not significantly increased in _A. filiculoides_-Sterilized compared to the boiled control whilst it reached on average 362 in ferns with cyanobacteria (Fig. S8).
+When examining ^15^N~2~ fixation after one diel cycle of 24 h, ^15^N of the biomass was still not significantly increased in _A. filiculoides_-Sterilized compared to the boiled control whilst it reached on average 362 in ferns with cyanobacteria (Fig. S8).
 Endophytic Rhizobiales in _A. filiculoides_-Sterilized, therefore, did not fix N~2~.
 This result was consistent with the absence of the N~2~-fixing pathway in our Rhizobiales genomes (Fig. 5).
 In air without ^15^N~2~ added, biomass15N of the ferns with _N. azollae_ in the absence of N-fertilizer was much higher than with fertilizer (Fig. 6b, +cyano-N versus +cyano+N), consistent with inhibition of N~2~-fixation on media with 2 mM NH~4~NO~3~ in Fig. 6a.
