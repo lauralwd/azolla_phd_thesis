@@ -183,7 +183,7 @@ In a custom R script, aligned reads were binned (normalized for 0.05 Mb and 1 % 
 ### Data deposition
 The sequences reported in this paper have been deposited in the ENA database with the study accession number PRJEB19522; the data is separated in three categories: Illumina paired end NextSeq500 sequences (2x 150b) from the environmental samples, Illumina paired end NextSeq500 sequences (2x 150b) short-read sequences sampled at 30 M reads from each of the different species and bacterial scaffolds.
 
-### ^15^N~2~ fixation, 5N determinations and N~2~O release
+### ^15^N~2~ fixation, ^15^N determinations and N~2~O release
 Surface-sterilized ferns (100 mg FW) were placed in enclosed bottles with 43 ml of sterile medium and a residual air space of 262 ml.
 To determine N~2~ fixation after 2 h, ^15^N~2~ (15 ml) was added at 14 h using air-tight syringes whilst overpressure was removed using a release needle; the bottles were then incubated for 2 h under growth conditions as in @Brouwer2017c.
 To determine N~2~ fixation after 24 h, ^15^N~2~ (5 ml) was added as well as CO~2~ (5 ml).
