@@ -103,6 +103,8 @@ The focus of the present study is to characterize the identity and function of m
 _Azolla filiculoides_ Lam was obtained from the Galgenwaard ditch in Utrecht, The Netherlands.
 In addition, six Azolla species were obtained from the bio-fertilizer germplasm collection at the International Rice Research Institute in the Philippines [Table 1 in @Watanabe1992].
 
+\scriptsize
+
 | **Taxon**                                    | **Origination**                                                                                                      |
 | ---------------------------------------------| ---------------------------------------------------------------------------------------------------------------------|
 | _Azolla filiculoides_ Lam.                   | The Netherlands, Utrecht, Galgenwaard ditch, 52° 4'35.73"N 5° 8'59.05"E                                              |
@@ -115,6 +117,7 @@ In addition, six Azolla species were obtained from the bio-fertilizer germplasm 
 | _Azolla rubra_ R. Br.                        | [^IRRI]IRRI Accession RU6502; originally from Australia, Victoria, collected in 1985                                 |
 
 Table: _Azolla_ taxon sampling. {#tbl:tbl2_1}
+\normalsize
 
 [^IRRI]: IRRI Bio-Fertilizer Germplasm Collections (www.irri.org; Watanabe, 1992).
 
@@ -155,6 +158,8 @@ Bacterial scaffolds in the genome assemblies were identified by RNAmmer [@Lagese
 Bacterial scaffolds with a minimum length of 0.1 Mb were extracted and assigned taxonomy based on the 16S rRNA genes in Mothur using the Silva database (Table 2).
 Once identified, the scaffolds were submitted to RAST [@Overbeek2014] for annotation, which scored the nearest neighbour.
 
+\scriptsize
+
 | Assembly method[^2_1] | Genus[^2_2]         | Length (bp) [^2_3]| Features (missing genes)[^2_4]                 | Denitrifying (N-metabolism genes)[^2_5] | Closest relative [^2_6]     |
 | ---------------- | ------------------------ | --------------- | -------------------------------------------------- | ------------------------------------- | --------------------------- |
 | Celera           | _Unknown_                | 7478            |                                                    |                                       |                             |
@@ -173,6 +178,8 @@ Once identified, the scaffolds were submitted to RAST [@Overbeek2014] for annota
 | Falcon           | _Rhizobium_              | 4138029         | 6897 (31)                                          | Yes (26)                              | _Sinorhizobium meliloti_    |
 
 Table: Bacterial scaffolds found in genome assemblies of A. filiculoides-Sterilized identified by RNAmmer and annotated by RAST. {#tbl:tbl2_2}
+
+\normalsize
 
 [^2_1]: PacBioRSII reads were read-corrected then assembled using either the Celera or the Falcon pipelines. The Sinorhizobium-like scaffold was assembled by both pipelines yielding 4.906 Mb and 4.138 Mb scaffolds respectively for Celera and Falcon. These sequences were largely identical but RAST annotation of the N-metabolism genes differed by one gene (Overbeek et al., 2014).
 [^2_2]: RNAmmer detected rRNA-genes in the scaffolds and taxonomy was based on the rRNA gene sequences with Mothur using the Silva database.
