@@ -355,3 +355,11 @@ In several leguminous plants, malonate is transformed via monoamide to 3-nitropr
 It has been shown to accumulate at high levels in aquatic plants that fix N~2~ (e.g., Lotus), and is inactivated by the by 3-NPA oxidases detected in a leguminous herb and characterized in _Pseudomonas aeruginosa_, _Burkholderia phytofirmans_, and fungi [@Nishino2010; @Francis2013; @Salvi2014].
 It will be important to decipher whether nitrification reactions occur within the leaf pocket or inside the fern cells.
 The combination of nitrifying and denitrifying endophytes could permit _Azolla_ to cope with surplus levels of NH~4~+ from _N. azollae_ or micro-oxic ditch waters when phosphate availability is limiting and, therefore, contribute to defining the aquatic fern’s ecological niche.
+
+## Acknowledgement
+We are grateful to Yoichiro Kato, Niño Paul Meynard Banayo and Ranee Mabesa-Telosa (International Rice Research Institute, Philippines) for live Azolla materials, and to Paul Wolf (Utah State University) for his help with import permits.
+We thank Evart de Bruijn from the Utrecht Sequencing Facility, Bas E. Dutilh and Berend Snel for access to the High-Performance Computing cluster, and Mariet Hefting for use of the GC-ECD to measure N2O at Utrecht University (Netherlands).
+Funding was from the Utrecht University Graduate Student Program, the EIT Climate KIC pathfinder project AzoFast, the ZonMW Enabling Technology Hotel grants 435002032 and 40-43500-98-225, the Deutsche Forschungsgemeinschaft (grants EXC 1028 and WE 2231/9-2) and a crowdfunding venture with experiment.com [https://experiment.com/projects/azolla-a-little-fern-with-massive-green-potential](https://experiment.com/projects/azolla-a-little-fern-with-massive-green-potential).
+
+## Supplemental data
+Supplementary figures and information are available online at [https://nph.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fnph.14843&file=nph14843-sup-0001-SupInfo.pdf](https://nph.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fnph.14843&file=nph14843-sup-0001-SupInfo.pdf).
