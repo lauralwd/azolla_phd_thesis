@@ -1,7 +1,8 @@
-\onehalfspacing
+\singlespacing
 \setlength{\parindent}{0.0in}
+\large
 # Is there foul play in the leaf pocket? The metagenome of floating fern _Azolla_ reveals endophytes that do not fix N~2~ but may denitrify
-
+\footnotesize
 Laura W Dijkhuizen^1^,
 Paul Brouwer^1^,
 Henk Bolhuis^2^,
@@ -18,20 +19,26 @@ Andreas Weber^4^,
 Andrea Bräutigam^4^,
 Henriette Schluepmann^1^.
 
-1. ,Molecular Plant Physiology Department, Utrecht University, Utrecht 3584CH, The Netherlands <br>
-2. Department of Marine Microbiology and Biogeochemistry, Netherlands Institute for Sea Research (NIOZ), Utrecht University, Den Hoorn 1797SZ, The Netherlands<br>
-3. Department of Earth Sciences, Utrecht University, Utrecht 3508TA, The Netherlands<br>
-4. Cluster of Excellence on Plant Sciences (CEPLAS), Department of Plant Biochemistry, Heinrich Heine University, Düsseldorf 40225, Germany<br>
-5. Max Planck Institute for Plant Breeding ADIS/DNA Core Facility, Cologne 50829, Germany<br>
-6. Institute for Biology I, Institute for Botany and Molecular Genetics (IBMG), RWTH Aachen University, Aachen, Germany<br>
-7. Department of Biology, Duke University, Durham, NC 27708, U.S.A<br>
-8. Boyce Thompson Institute For Plant Research, Cornell University, Ithaca, NY 14853, U.S.A<br>
-9. Beijing Genomics Institute-Shenzhen, Shenzhen 518083, China<br>
-10. Department of Biological Sciences, University of Alberta, Edmonton, AB T6G 2E9, Canada.<br>
+\scriptsize
 
-manuscript published in new phytologist
+1. Molecular Plant Physiology Department, Utrecht University, Utrecht 3584CH, The Netherlands
+2. Department of Marine Microbiology and Biogeochemistry, Netherlands Institute for Sea Research (NIOZ), Utrecht University, Den Hoorn 1797SZ, The Netherlands
+3. Department of Earth Sciences, Utrecht University, Utrecht 3508TA, The Netherlands
+4. Cluster of Excellence on Plant Sciences (CEPLAS), Department of Plant Biochemistry, Heinrich Heine University, Düsseldorf 40225, Germany
+5. Max Planck Institute for Plant Breeding ADIS/DNA Core Facility, Cologne 50829, Germany
+6. Institute for Biology I, Institute for Botany and Molecular Genetics (IBMG), RWTH Aachen University, Aachen, Germany7. Department of Biology, Duke University, Durham, NC 27708, U.S.A
+8. Boyce Thompson Institute For Plant Research, Cornell University, Ithaca, NY 14853, U.S.A
+9. Beijing Genomics Institute-Shenzhen, Shenzhen 518083, China
+10. Department of Biological Sciences, University of Alberta, Edmonton, AB T6G 2E9, Canada.
+
+\footnotesize
+Chapter adapted from Dijkhuizen, L. W., Brouwer, P., Bolhuis, H., Reichart, G.-J., Koppers, N., Huettel, B., … Schluepmann, H. (2018). Is there foul play in the leaf pocket? The metagenome of floating fern Azolla reveals endophytes that do not fix N~2~ but may denitrify. New Phytologist, 217(1), 453–466. [https://doi.org/10.1111/nph.14843](https://doi.org/10.1111/nph.14843)
+
 \newpage
+\normalsize
+\onehalfspacing
 \setlength{\parindent}{0.5in}
+
 
 ## Abstract
 Dinitrogen fixation by _Nostoc azollae_ residing in specialized leaf pockets supports prolific growth of the floating fern _Azolla filiculoides_.
