@@ -39,7 +39,6 @@ Chapter adapted from Dijkhuizen, L. W., Brouwer, P., Bolhuis, H., Reichart, G.-J
 \onehalfspacing
 \setlength{\parindent}{0.5in}
 
-
 ## Abstract
 Dinitrogen fixation by _Nostoc azollae_ residing in specialized leaf pockets supports prolific growth of the floating fern _Azolla filiculoides_.
 To evaluate contributions by further microorganisms, the _A. filiculoides_ microbiome and nitrogen metabolism in bacteria persistently associated with Azolla ferns were characterized.
@@ -77,7 +76,7 @@ Moreover, the number of species and taxonomy of the cyanobacteria associated wit
 The focus of our present study is to characterize the microbiome associated with _A. filiculoides_.
 
 Plant-microbe interactions research has rapidly evolved over the last decades [@Turner2013].
-Most studies focus on microbial interactions between plant roots and the rhizosphere, whereas microbes in the phyllosphere, the above-ground plant organs, have been less thoroughly examined [@Penuelas2014.
+Most studies focus on microbial interactions between plant roots and the rhizosphere, whereas microbes in the phyllosphere, the above-ground plant organs, have been less thoroughly examined [@Penuelas2014].
 Symbiotic bacterial endophytes, non-pathogenic organisms that colonize intercellular spaces in plants, have been rediscovered with next-generation sequencing approaches that permit in situ studies.
 Endophytes are ubiquitous and frequently found in plant species [@Stone2000c].
 
