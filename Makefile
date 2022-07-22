@@ -25,7 +25,7 @@ help:
 	@echo 'get local templates with: pandoc -D latex/html/etc'
 	@echo 'or generic ones from: https://github.com/jgm/pandoc-templates'
 
-ifeq ($(OS),Windows_NT) 
+ifeq ($(OS),Windows_NT)
 	detected_OS=Windows
 else
 	detected_OS=$(shell sh -c 'uname 2>/dev/null || echo Unknown')
@@ -45,7 +45,7 @@ pdf:
 		--output "$(OUTPUTDIR)/thesis.pdf" \
 		--template="$(STYLEDIR)/template.tex" \
 		--include-in-header="$(STYLEDIR)/preamble.tex" \
-		--variable=fontsize:12pt \
+		--variable=fontsize:10pt \
 		--variable=papersize:a4paper \
 		--variable=documentclass:report \
 		--pdf-engine=xelatex \
