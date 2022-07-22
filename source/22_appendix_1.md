@@ -34,7 +34,7 @@ Uit [Caracal evaluatie IntroBioinfo oktober
 -   *'Laura (very clear, puts energy in explaining, will answer your questions 100 times if necessary).'*
 -   *...I also liked how team-work was encouraged during most of the exercises. I could always ask a fellow student when struggling. ...'*
 
-![](media/image18.png){#fig:bko-1}
+![](source/figures/bko-1.png){#fig:bko-1}
 
 > *De universitair docent is in staat om zich mondeling en schriftelijk goed uit te drukken in de gangbare taal (Nederlands en/of Engels).*
 
@@ -43,7 +43,7 @@ In de verscheidene onderwijs stadia waarin ik heb mogen werken, heb ik gewerkt i
 Uit [Caracal evaluatie IntroBioinfo oktober
 2021](#caracal-evaluatie-introbioinfo-oktober-2021):
 
-![](media/image9.png){#fig:bko-2}
+![](source/figures/bko-2.png){#fig:bko-2}
 
 > *De universitair docent is in staat om gangbare voorzieningen op de werkplek te gebruiken, en zich sociaal en communicatief vaardig op te stellen naar studenten en collega\'s toe.*
 
@@ -57,9 +57,9 @@ Als onderwijs AIO, een PhD kandidaat die ook onderwijs geeft, had ik behoefte aa
 
 In de cursus "Haal meer uit je onderwijs" leerde ik te reflecteren met een focus op het leerproces dat zich afspeelt in de student in plaats van mijn eigen acties. Hoewel dat proces bij uitstek een 'black box' is , is er wel degelijk literatuur en theorie over te vinden in specifieke academische tijdschriften. Zo ging ik tijdens de cursus aan de slag met theorie rondom 'cognitive load'. Did deed ik in de context van een tweedaags practicum metagenomics (Bijlage [Practicum metagenomics](#practicum-metagenomics)). In dit zelf ontworpen computerpracticum doorlopen studenten een volledige workflow van "ruwe" data naar eindresultaat: 6 genomen van bacteriën en de metabolische pathways gecodeerd in deze genomen. Mijn ervaring tijdens het practicum was echter dat de praktische handelingen van het practicum (het schrijven van korte stukjes code) alle aandacht opslokte. De studenten hadden zo veel focus nodig op te snappen hoe een kleine stap moest plaatsvinden, dat ze vergaten wat de plek was van die kleine stap in het grotere geheel. Aan de hand van het 'cognitive load model' probeerde ik beter te begrijpen hoe de studenten leren, en maakte ik een plan om hen te helpen. Deze 'interventie' was als volgt: Tussen het hoorcollege en het practicum liet ik de studenten een flowchart maken van alle stappen die ze gingen uitvoeren. Een fysiek geworden mindmap van de stappen die ze die middag uit zouden voeren. Die middag zelf liet ik hen tijdens het practicum de  mindmap opnieuw maken, om die vervolgens aan het eind van de dag te vergelijken met de eerste. De uitkomst, zoals door studenten zelf omschreven, was dat de mindmap vooraf had geholpen om "de weg niet kwijt te raken" gedurende de dag. Echter hielp het maken van de mindmap tijdens het practicum niet. Mijn theorie is dat deze handeling meer toevoegde aan 'cognitive load' dan dat het 'load' wegnam. Althans, dat concludeer ik uit de mindmaps zelf, die ik met toestemming van de studenten weer heb ingenomen en een exit enquête na afloop van de cursus ([Exit enquête IntroBioinfo maart 2019](#exit-enquête-introbioinfo-maart-2019)). In [diezelfde enquête](#exit-enquête-introbioinfo-oktober-2020), nog voordat ik het coördinatorschap overnam, vroeg ik samen met een aantal mededocenten naar verbeterpunten voor de cursus als geheel en een aantal andere onderdelen. Hieruit kwam naar voren dat de studenten de cursus relevant en passend vonden, maar dat de integratie van verschillende onderwerpen beter kon. Deze feedback werd later het speerpunt van mijn coördinatorschap van deze cursus. Hier schrijf ik meer over onder het kopje [Vakinhoudelijke kwaliteiten](#vakinhoudelijke-kwaliteiten), specifiek onder 'De universitair docent is in staat om dwarsverbanden te leggen met verwante disciplines...'.
 
-![](media/image78.png){#fig:bko-3}
+![](source/figures/bko-3.png){#fig:bko-3}
 
-![](media/image80.png){#fig:bko-4}
+![](source/figures/bko-4.png){#fig:bko-4}
 
 -   *'Every day another teacher and subject did not really make a logical connection between the subjects. Only some parts came back in some of the subjects but there was little connection. Sometimes I even thought that some days were pretty random, like the day about phylogenic trees.'*
 
@@ -80,26 +80,16 @@ Op deze manier heb ik alle cursusonderdelen opnieuw gerangschikt en begon elke d
 Uit [Caracal evaluatie IntroBioinfo oktober
 2021](#caracal-evaluatie-introbioinfo-oktober-2021):
 
-![](media/image51.png){#fig:bko-5}
+![](source/figures/bko-5.png){#fig:bko-5}
 
 Het gemiddelde van onderstaande vraag steeg naar 3.9, vergeleken met een 3.5 in [2021](#caracal-evaluatie-introbioinfo-april-2021) en een 3,2 en 2.8 voor mijn coördinatorschap in [2019](#caracal-evaluatie-introbioinfo-oktober-2019). De 2021 versie werd online gegeven als gevolg van de COVID-19 pandemie.
 
-![](media/image11.png){#fig:bko-6}
+![](source/figures/bko-6.png){#fig:bko-6}
 
-In het verenigen van de cursus slaagde ik beter bij cursusonderdelen die ik zelf volledig overnam, maar niet altijd in cursusonderdelen die ik
-'uitbestede\` in de tweede week van de cursus:
+In het verenigen van de cursus slaagde ik beter bij cursusonderdelen die ik zelf volledig overnam, maar niet altijd in cursusonderdelen die ik 'uitbestede\` in de tweede week van de cursus:
 
--   *'Laura is een buitengewoon goede lecturer. Bij de topics over
- eiwitten en genexpressie miste ik een beetje de 'bigger picture'.
- Het zou helpen als lecturers bruggetjes maken tussen slides. Ik
- had in week 2 moeite met het volgen van het verhaal.'*
--   *... 'I also like the structure of the course. It was done in such a
- way that it created a sufficient challenge for really good
- students but there was also sufficient time for slow learners like
- me to catch up. I have constantly struggled with the pace of the
- courses for most of the GSLS courses, but even though there was a
- lot of new and unfamiliar information, the exercises helped me
- grasped most of the concepts in the lecture slides.' ... *
+-   *'Laura is een buitengewoon goede lecturer. Bij de topics over  eiwitten en genexpressie miste ik een beetje de 'bigger picture'.  Het zou helpen als lecturers bruggetjes maken tussen slides. Ik  had in week 2 moeite met het volgen van het verhaal.'*
+-   *... 'I also like the structure of the course. It was done in such a  way that it created a sufficient challenge for really good  students but there was also sufficient time for slow learners like  me to catch up. I have constantly struggled with the pace of the  courses for most of the GSLS courses, but even though there was a  lot of new and unfamiliar information, the exercises helped me  grasped most of the concepts in the lecture slides.' ... *
 
 > *De universitair docent is in staat om beoordelings-instrumenten en -procedures te ontwikkelen die valide zijn in relatie tot de desbetreffende vakinhoud en leeractiviteit.*
 
@@ -174,9 +164,9 @@ bij hun voorkennis en studenten gaven aan veel geleerd te hebben.
 (Aansluiting bij voorkennis was 3.1 en 3,7 in 2019 en toegenomen begrip
 was 3,5 en 4,2 in 2019)
 
-![](media/image4.png){#fig:bko-7}
+![](source/figures/bko-7.png){#fig:bko-7}
 
-![](media/image11.png){#fig:bko-8}
+![](source/figures/bko-8.png){#fig:bko-8}
 
 Tijdens mijn PhD heb ik mogen bijdragen in allerlei fases van het
 universitair onderwijs en kunnen ervaren hoe deze met elkaar relateren.
@@ -536,19 +526,11 @@ de uiteindelijke cijfers.
 
 Vooraf:
 
-![Forms response chart. Question title: I\'m confident proposing a
-bioinformatics experiment during an internship or course to address a
-specific biological question. (Doesn\'t matter if you can do it, as long
-as you know if it would work or not). Number of responses: 28
-responses.](media/image31.png){#fig:bko-9}
+![Forms response chart. Question title: I\'m confident proposing a bioinformatics experiment during an internship or course to address a specific biological question. (Doesn\'t matter if you can do it, as long as you know if it would work or not). Number of responses: 28 responses.](source/figures/bko-9.png){#fig:bko-9}
 
 Achteraf:
 
-![Forms response chart. Question title: I\'m confident proposing a
-bioinformatics experiment during an internship or course to address a
-specific biological question. (Doesn\'t matter if you can do it, as long
-as you know if it would work or not). Number of responses: 16
-responses.](media/image33.png){#fig:bko-10}
+![Forms response chart. Question title: I\'m confident proposing a bioinformatics experiment during an internship or course to address a specific biological question. (Doesn\'t matter if you can do it, as long as you know if it would work or not). Number of responses: 16 responses.](source/figures/bko-10.png){#fig:bko-10}
 
 Deze toename was voor mij een teken dat ik goed op weg was met deze
 cursus en een duidelijk signaal dat de leerdoelen behaald werden.
@@ -643,9 +625,7 @@ open voor alternatieve vormen om de druk van het tentamen te verlichten.
 In deze zoektocht, heb ik begin 2020 studenten om feedback gevraagd
 omtrent het examen nadat ze hun cijfer terug hadden gekregen:
 
-![Forms response chart. Question title: What do you think about the
-following theses about the exam. Number of responses:
-.](media/image37.png){#fig:bko-11}
+![Forms response chart. Question title: What do you think about the following theses about the exam. Number of responses: .](source/figures/bko-11.png){#fig:bko-11}
 De stellingen in de grafieken hierboven zijn:
 -   The exam was too long
 -   The exam should contain more code
@@ -703,8 +683,8 @@ lijst van acties of criteria waaraan een student ging werken gedurende
 een vaste tijdsperiode. Aan het eind van die periode hadden we opnieuw
 een vergelijkbaar gesprek.
 
-Organisatorische kwaliteiten
-=============
+## Organisatorische kwaliteiten
+
 > *De universitair docent is in staat om de doelstellingen van de cursus(sen) organisatorisch vorm te geven in overeenstemming met de organisatie van het facultaire onderwijs en/of de opleiding. Dit betekent werken in teamverband en overleg plegen met collega\'s of andere relevante personen over inhoud en vorm van het door hen verzorgde onderwijs*
 
 De IntroBioinfo cursus functioneert als een toegangscursus tot veel
@@ -753,13 +733,13 @@ Die duidelijkheid schiep ruimte om tijdens de cursus informeler te handelen en d
 Uit [Caracal evaluatie IntroBioinfo oktober
 2021](#caracal-evaluatie-introbioinfo-oktober-2021):
 
-![](media/image38.png){#fig:bko-12}
+![](source/figures/bko-12.png){#fig:bko-12}
 
 Het percentage 'yes' lag op 66,7% en 50% in de cursussen van 2019.
 
-![](media/image40.png){#fig:bko-13}
-![](media/image79.png){#fig:bko-14}
-![](media/image14.png){#fig:bko-15}
+![](source/figures/bko-13.png){#fig:bko-13}
+![](source/figures/bko-14.png){#fig:bko-14}
+![](source/figures/bko-15.png){#fig:bko-15}
 
 Geïnspireerd door goede en slechte voorbeelden uit mijn onderwijs ervaring ontwikkelde ik mijn eigen communicatiestrategie.
 Om de juiste verwachtingen te creëren licht ik de studenten ruim van te voren in over de onderwijsvormen, vereisten en examinering van mijn cursus.
