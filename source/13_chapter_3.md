@@ -191,13 +191,7 @@ Data of the latter study was acquired from SRA: for the first and last studies v
 Data of the _Azolla_ genome project was made available to our lab before it was uploaded to a repository; here, we refer to the study as a whole.
 In total, this study examines eighteen sequencing libraries, taken from nine biological samples accounting for six _Azolla_ species, treating L1,2,3, P1,2,3 combined as one biological sample.
 
-![input data overview table/figure](figures/data-in-overview.png)
-Table 1: DNA sequencing of the _Azolla_ genus.
-The _Azolla_ genus phylogeny adapted from @Metzgar2007 (A).
-Sequencing data considered here for species in the _Azolla_ genus (B).
-Sequencing data was retrieved from two main studies: the _Azolla_ genome project from @Li2018 with accession nr. PRJNA430527 and from @Dijkhuizen2018 with accession nr. PRJEB19522 abbreviated as α and β respectively in the final column of panel 1B.
-Sampling details are available in the latter paper.
-The original sampling location for _Azolla_ specimens sequenced and considered here (C).
+![DNA sequencing of the _Azolla_ genus. The _Azolla_ genus phylogeny adapted from @Metzgar2007 (A). Sequencing data considered here for species in the _Azolla_ genus (B). Sequencing data was retrieved from two main studies: the _Azolla_ genome project from @Li2018 with accession nr. PRJNA430527 and from @Dijkhuizen2018 with accession nr. PRJEB19522 abbreviated as α and β respectively in the final column of panel 1B. Sampling details are available in the latter paper. The original sampling location for _Azolla_ specimens sequenced and considered here (C).](source/figures/fig3_data-in-overview.pdf){#fig:fig3_data-overview}
 
 ## Results
 
@@ -223,12 +217,7 @@ The double filter typically reduced assembly size by 60% to 70% (Fig. 2B top).
 Reduced assembly size and host DNA contamination make manual binning feasible and metagenome assembly sizes (Fig. 2B top) indicate that all assemblies likely contain multiple bacterial genomes.
 Secondly, removing host DNA from the assembly input reduces input complexity and thereby substantially reduced computational requirements for assembly in terms of peak RAM usage (Fig. 2B RAM usage).
 
-![figure input data](figures/sequencing-filtering-and-assembly.png)
-Figure 2: Filtering and assembly of DNA sequencing of the _Azolla_ genus.
-Sequencing filtering workflow and guide to the graph (A). Quantities of sequencing input in Gbase (B; bottom), corresponding assembly output during the process (B; top), and the peak RAM usage during the assembly process (B; RAM usage).
-The bottom panel shows consequtive sequencing quantities at raw, trimmed, hostfiltered, and double filtered stages.
-At the latter two stages, sequencing data was assembled with SPAdes.
-The upper half of panel B shows assembly RAM usage in Gbyte and assembly sizes in MBase for both filtering stages of single sequencing library assemblies, and for hybrid assemblies if applicable.
+![Filtering and assembly of DNA sequencing of the _Azolla_ genus. Sequencing filtering workflow and guide to the graph (A). Quantities of sequencing input in Gbase (B; bottom), corresponding assembly output during the process (B; top), and the peak RAM usage during the assembly process (B; RAM usage). The bottom panel shows consequtive sequencing quantities at raw, trimmed, hostfiltered, and double filtered stages. At the latter two stages, sequencing data was assembled with SPAdes. The upper half of panel B shows assembly RAM usage in Gbyte and assembly sizes in MBase for both filtering stages of single sequencing library assemblies, and for hybrid assemblies if applicable.](source/figures/fig3_sequencing-filtering-and-assembly.pdf){#fig:fig3_iltering-and-assembly}
 
 ### Filtering reduced eukaryotic DNA content only, but did not increase assembly quality of bacterial DNA
 Filtering input sequencing data reduced assembly size, next we investigate the efficacy of this filtering approach in terms of taxonomic complexity and quality of the assembly.
@@ -240,8 +229,7 @@ Contigs assigned as Archeal in the hostfiltered assembly, were not classified as
 Similarly, viral contigs often were only assembled in the hostfiltered assembly (Fig. 3 Viruses).
 The bacterial fraction of the metagenome assembly is of substantial size and was not negativelly affected by the filtering approach, thereby paving the way to investigate the diversity of bacterial genomes in this fraction.
 
-![figure length distributions](figures/figure_filter_length_distributions.png)
-Fig 3: This is a sloppy first version of what I want to show here. I'll pollish this later.
+![This is a sloppy first version of what I want to show here. I'll pollish this later.](source/figures/fig3_figure-filter-length-distributions.png){#fig:fig3_filter-length-distributions}
 
 \scriptsize
 
@@ -285,23 +273,7 @@ Plotting the contigs of all assemblies by these two characteristics allows to di
 fix contig/scaffold inconsistency
 ```
 
-![Fig 4](figures/Azolla_genus_metagenome-order.png)
-Figure 4:
-Metagenome assemblies of 6 species of the fern genus Azolla (horizontal panels).
-Sequencing data were derived from three public projects: first, the 'Azolla genome project' data: PRJNA430527 second, the 'foul play in the pocket paper' data: PRJEB19522 third, the original sequencing data for the  _T. azollae_ genome paper: PRJNA30807.
-Sequencing reads of the former two projects was rid of host plant DNA reads by mapping to the _A. filiculoides_ genome version 1.1 available at fernbase.org.
-The remaining reads were assembled with SPAdes in metagenome mode, resulting contigs and scaffolds were then assigned an approximate taxonomy with the Contig Annotation Tool (CAT).
-Contigs assigned 'Eukaryote' were then used for a second filtering step of the previously filtered data, then assembled again with SPAdes and assigned taxonomy again with CAT.
-Of the doublefiltered data, hybrid assemblies were generated per plant accession if multiple sequencing libraries were available.
-Using CAT output, a table was generated with contig/scaffold length, depth, details on open reading frames (ORFs) and details on taxonomy.
-To this end, this particular script was used available at the project Github repository.
-The graph displays the metagenome assemblies as a dot-plot with contig/scaffold length on the x-axis and depth in the assembly graph on the y-axis; both are log10 transformed.
-Dot colour represents the order, and dot size represents ORF count.
-For clarity, contigs/scaffolds without ORFs and contigs scaffolds with ORFs found but without taxonomy are filtered out before displaying the plot.
-Second, noisy contigs/scaffolds are omitted by default for clarity.
-The default threshold for noisy is when contigs/scaffolds have fewer than 5 ORFs classified or when a taxonomic group amounts to less than 2Mbase in the entire figure.
-An [online interactive version of this figure](https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/) can be manipulated to modify these filters and assumptions, and to include more assemblies done in the _Azolla_ metagenome project.
-The online version of the figure is also attached as an R shiny app in supplemental file X.
+![Metagenome assemblies of 6 species of the fern genus Azolla (horizontal panels). Sequencing data were derived from three public projects: first, the 'Azolla genome project' data: PRJNA430527 second, the 'foul play in the pocket paper' data: PRJEB19522 third, the original sequencing data for the  _T. azollae_ genome paper: PRJNA30807. Sequencing reads of the former two projects was rid of host plant DNA reads by mapping to the _A. filiculoides_ genome version 1.1 available at fernbase.org. The remaining reads were assembled with SPAdes in metagenome mode, resulting contigs and scaffolds were then assigned an approximate taxonomy with the Contig Annotation Tool (CAT). Contigs assigned 'Eukaryote' were then used for a second filtering step of the previously filtered data, then assembled again with SPAdes and assigned taxonomy again with CAT. Of the doublefiltered data, hybrid assemblies were generated per plant accession if multiple sequencing libraries were available. Using CAT output, a table was generated with contig/scaffold length, depth, details on open reading frames (ORFs) and details on taxonomy. To this end, this particular script was used available at the project Github repository. The graph displays the metagenome assemblies as a dot-plot with contig/scaffold length on the x-axis and depth in the assembly graph on the y-axis; both are log10 transformed. Dot colour represents the order, and dot size represents ORF count. For clarity, contigs/scaffolds without ORFs and contigs scaffolds with ORFs found but without taxonomy are filtered out before displaying the plot. Second, noisy contigs/scaffolds are omitted by default for clarity. The default threshold for noisy is when contigs/scaffolds have fewer than 5 ORFs classified or when a taxonomic group amounts to less than 2Mbase in the entire figure. An [online interactive version of this figure](https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/) can be manipulated to modify these filters and assumptions, and to include more assemblies done in the _Azolla_ metagenome project. The online version of the figure is also attached as an R shiny app in supplemental file X.](source/figures/fig3_Azolla-genus-metagenome-order.png){#fig:fig3_Azolla-genus-metagenome-order}
 
 Even before binning contigs into MAGs, metagenomes of the _Azolla_ genus show clear similarities amongst each other; several taxonomical orders reoccur systematically (Fig 4).
 Most prominently, the Nostocales, which are the most abundant order in all _Azolla_ species except one which was artificially devoid of the cyanobacteria.
@@ -345,22 +317,7 @@ This is the case for MAGs 'Rhizobium','Rhizobiales','Curvibacter', and 'Ferrovib
 The former two are substantialy abundant in PacBio long read sequencing of the _A. filiculoides_ minus_cyano sample, indicating they survived a stringent sterilisation and antibiotic regime removing the main symbiont _T. azollae_.
 In constrast, a second cyanobacterium found in the bins, is present only on the outside of the ferns, and not in the leaf cavity enriched fraction, indicating that this is an epithitic cyanobacterium and consistent with earlier findings that _Azolla_ has only one cyanobacterial symbiont.
 
-![Fig 5](figures/anvio/assembly_Azfil_wild_with_binningsignals.png)
-Figure 5: Anvi'o overview of the _A. filiculoides_ 'wild' metagenome assembly and binning into MAGs.
-The center dendrogram reflects a hierarchical clustering of contigs based on 4-mer profiles and differential abundance in biological samples.
-In the dendrogram, each leaf is one contig (or split in Anvi'o).
-In circles around the dendrogram, metadata about the contigs is displayed.
-This metadata is, in order of inside to outside:
-split-parent,
-contig length,
-contig GC content (dark green),
-contig abundance in leaf cavity enriched samples (blue),
-contig abundance in whole plant samples (light green),
-contig abundance in PacBio reads from the _A. filiculoides_ 'lab' sample.
-Then follow several coloured rings representing taxonomy as determined by CAT, starting at the kingdom level down to species level.
-The before last red ring indicates presence of any ribosomal RNA genes in a contig (drastically influencing depth of the contig and therefore the binning process).
-The final ring indicates in which bin a contig was categorises.
-The corresponding bins, their size and estimated completeness are shown in table X.
+![Anvi'o overview of the _A. filiculoides_ 'wild' metagenome assembly and binning into MAGs. The center dendrogram reflects a hierarchical clustering of contigs based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one contig (or split in Anvi'o). In circles around the dendrogram, metadata about the contigs is displayed. This metadata is, in order of inside to outside: split-parent, contig length, contig GC content (dark green), contig abundance in leaf cavity enriched samples (blue), contig abundance in whole plant samples (light green), contig abundance in PacBio reads from the _A. filiculoides_ 'lab' sample. Then follow several coloured rings representing taxonomy as determined by CAT, starting at the kingdom level down to species level. The before last red ring indicates presence of any ribosomal RNA genes in a contig (drastically influencing depth of the contig and therefore the binning process). The final ring indicates in which bin a contig was categorises. The corresponding bins, their size and estimated completeness are shown in table X.](source/figures/fig3_Azfil-wild-metagenome-binning.png){#fig:fig3_Azfil-wild-binningsignals}
 
 ```
 !colours blue en green are mixed up in the figure!
@@ -421,7 +378,9 @@ Similar results were obtained for all other plant samples and using the same met
 Ideally, I can also upload these somewhere so people can visualise them theirselves.
 ```
 
-![Fig 6](figures/anvio/assembly_Azmic_IRRI_456_with_binningsignals.png)
+![Fig 6](figures/anvio/assembly_Azmic_IRRI_456_with_binningsignals.png){#fig:fig3_Azmic-wild-binningsignals}
+
+
 Figure 5:
 Anvi'o overview of the _A. microphylla_ metagenome assembly and binning into MAGs.
 The center dendrogram reflects a hierarchical clustering of contigs based on 4-mer profiles and differential abundance in biological samples.
