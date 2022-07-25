@@ -172,11 +172,11 @@ Once identified, the scaffolds were submitted to RAST [@Overbeek2014] for annota
 | Celera           | _Rhizobium_              | 807886          | 758                                                | Yes (6)                               | _Rhizobium leguminosarium_  |
 | Celera           | _Rhizobium_              | 1061533         | 1853                                               | Yes (5)                               | _Rhizobium leguminosarium_  |
 | Celera           | _Rhizobium_              | 3220799         | 3178 (6)                                           | No (9)                                | _Agrobacterium tumefaciens_ |
-| Celera           | _Hydrocarboniphaga_      | 2071427         | 1856                                               | No                                    |
-| Celera           | _Hydrocarboniphaga_      | 3085094         | 2672 (164)                                         | No                                    |
+| Celera           | _Hydrocarboniphaga_      | 2071427         | 1856                                               | No                                    |                             |
+| Celera           | _Hydrocarboniphaga_      | 3085094         | 2672 (164)                                         | No                                    |                             |
 | Falcon           | _Rhizobium_              | 4138029         | 6897 (31)                                          | Yes (26)                              | _Sinorhizobium meliloti_    |
 
-Table: Bacterial scaffolds found in genome assemblies of A. filiculoides-Sterilized identified by RNAmmer and annotated by RAST. {#tbl:tbl2_2}
+Table: Bacterial scaffolds found in genome assemblies of _A. filiculoides_-Sterilized identified by RNAmmer and annotated by RAST. {#tbl:tbl2_2}
 
 \normalsize
 
