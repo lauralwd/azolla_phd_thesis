@@ -1,6 +1,7 @@
 \footnotesize
 \singlespacing
 \setlength{\parindent}{0in}
+\setlength{\parskip}{0pt}
 
 <!-- 
 Do not edit this page.
