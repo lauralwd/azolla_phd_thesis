@@ -167,6 +167,7 @@ Bacterial scaffolds with a minimum length of 0.1 Mb were extracted and assigned 
 Once identified, the scaffolds were submitted to RAST [@Overbeek2014] for annotation, which scored the nearest neighbour.
 
 \begin{sidewaystable}
+\begin{threeparttable}
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2}}
@@ -210,6 +211,7 @@ Falcon & \emph{Rhizobium}         & 4138029 & 6897 (31)   & Yes (26)  & \emph{Si
 \bottomrule
 
 \end{longtable}
+\end{threeparttable}
 \end{sidewaystable}
 
 ### Recruitment analyses
