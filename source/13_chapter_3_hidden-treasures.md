@@ -42,11 +42,11 @@ Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus su
 Many bacteria associate with multicellular hosts in symbioses and may convey specific metabolic properties or traits to their hosts.
 Such associations may be temporary, e.g. triggered by abiotic conditions, or they may be practically ubiquitous among a hosts species.
 Symbiotic bacteria may be housed inside host organs, making them endophytes of their host.
-Temporarily associated bacteria are often recruited from the environment of a host.
-Especially in the case of permanent symbioses, hosts may vertically transfer their symbionts and their associated traits to the next generation of hosts.
+Temporarily associated bacteria are often recruited from the environment of a host; whilst ubiquitously present symbionts may be systematically disseminated by a host species.
+Hosts may even vertically transfer their symbionts and their associated traits to the next generation of hosts.
 Such systematic presence in a host species will substantially influence selection pressure on the endophyte genome compared to free-living relatives.
 In such a case, a conglomeration of evolving organisms sharing both genomes and selection pressure can occasionally be seen as a holobiont: a single evolutionary unit comprising several organisms [@Zilber-Rosenberg2008].
-However, the exact scope and applicability of the term remain subject to debate [All holobiont refs?].
+However, the exact scope and applicability of the term remain subject to debate [@Douglas2016].
 Nonetheless, the study of systematically inherited microbes provides opportunities for studying adaptation of bacteria to the symbiotic lifestyle and the traits encoded in a plant's second genome.
 
 Symbiotic endophytes are widespread over the plant kingdom, highly polyphyletic and can attribute various functions to their hosts [@Frank2018; @Hassani2018].
@@ -64,7 +64,7 @@ Simultaneously, such processes often increase the selectiveness of a methodology
 Full metagenomic sequencing would be a less biased assessment to study all organisms in a symbiosis, at least when one expects more endophytic microbes.
 
 Full metagenomics sequencing is inefficient if symbionts are lowly abundant in plant tissue, and hence the method becomes highly cost-inefficient.
-Alternatively, symbiont genomes may be retrieved from sequencing data already available in data repositories, thereby capitalising on opportunities of the FAIR data age.
+Alternatively, symbiont genomes may be retrieved from sequencing data already available in data repositories, thereby capitalising on opportunities of the FAIR data age and the diverity thereoff.
 We demonstrated this before in @Dijkhuizen2018, where we serendipitously found bacterial genomes as a by-product of the _A. filiculoides_ genome assembly.
 @Delmont2016 extracted three bacterial genomes from the tardigrade genome in a similar fashion, using advanced visualisation and multiple sequencing libraries to puzzle apart the contigs of multiple organisms in a single assembly.
 Additionally, a study may benefit from using public data for the scope of the inquiry can be easily widened to include related species and their metagenomes.
