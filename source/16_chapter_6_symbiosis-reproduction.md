@@ -78,9 +78,9 @@ Moreover, AP2/TOE and NIN TF are known to mediate repression of AtSOC1 in Arabid
 The MIKCC SOC1 is further known to control levels of miR319 that inhibits TCP protein functions in the FT-FD complex mediating photoperiod control of IF [@Lucero2017 ; @Li2019].
 Inextricably, therefore, transition to IF is linked to conserved miRNA modules in angiosperms but we know little of miRNA loci in ferns [@Berruezo2017 ; @You2017].
 Systematic research of the symbiosis transition to IS in Azolla is lacking: GA applications did not induce IS, neither did stress treatment [@Kar2002].
-Moreover, fern host and symbiont development are tightly coordinated during the induction of sporocarps: mobile filaments of _N. azollae_ generated in the shoot apical colony move into the developing sporocarp initials in the shoot apex (Figure 1).
-The host SAM developmental transition, therefore, may be influenced by activities of the _N. azollae_ apical colony residing at the SAM (Figure 1A).
-Alternatively, _N. azollae_ development may be controlled by secretions from specialized host trichomes in the SAM, the developing leaf and sporocarp initials [@Cohen2002; @Perkins1993] (Figure 1B-C ).
+Moreover, fern host and symbiont development are tightly coordinated during the induction of sporocarps: mobile filaments of _N. azollae_ generated in the shoot apical colony move into the developing sporocarp initials in the shoot apex (+@fig:fig6_1).
+The host SAM developmental transition, therefore, may be influenced by activities of the _N. azollae_ apical colony residing at the SAM (+@fig:fig6_1\-A).
+Alternatively, _N. azollae_ development may be controlled by secretions from specialized host trichomes in the SAM, the developing leaf and sporocarp initials [@Cohen2002; @Perkins1993] (+@fig:fig6_1\-B-C ).
 We expect elaborate communication given that both genomes co-evolved and that _N. azollae_ is an obligate symbiont with an eroded genome [@Ran2010 ; @Dijkhuizen2018 ; @Li2018 ].
 Transition to IS will, therefore, best characterized by profiling expression of the fern host and the symbiont simultaneously; this requires simultaneous profiling of eukaryote and prokaryote RNA (dual RNA sequencing) and has not been established for cyanobacterial symbioses before.
 Here we identify external cues that induce or inhibit transition to IS in _A. filiculoides_ under laboratory settings.
@@ -191,24 +191,24 @@ Predicted targets were linked to the closest homolog using the Mercator annotati
 ## Results
 
 ### Far-red light and canopy density induce, while nitrogen in the medium represses, the transition to sexual reproduction in _A. filiculoides_
-A young fern growing at low density typically spreads over the water surface (Figure 2A).
-In contrast, a fern that underwent transition to reproductive development in dense canopies formed a three dimensional web characteristic of Azolla mats (Figure 2B).
+A young fern growing at low density typically spreads over the water surface (+@fig:fig6_2\-A).
+In contrast, a fern that underwent transition to reproductive development in dense canopies formed a three dimensional web characteristic of Azolla mats (+@fig:fig6_2\-B).
 Unlike in the glasshouse, _A. filiculoides_ ferns never sporulated under tube light (TL, Supplementary Figure S1A); TL did not emit any photons in the far-red range (FR, Supplementary Figure S1A).
 We, therefore, added FR during the entire 16 h light period (FR, Supplementary Figure S1B).
-This initially resulted in the elongation of the stem internodes of the fern (Figure 2C) and, after 2-3 weeks, in the formation of the sporocarps (Figure 2D).
-Sporocarps were positioned as pairs on the branch side of branch points and were predominantly arranged as a mega- and microsporocarp pair (Figure 2E).
+This initially resulted in the elongation of the stem internodes of the fern (+@fig:fig6_2\-C) and, after 2-3 weeks, in the formation of the sporocarps (+@fig:fig6_2\-D).
+Sporocarps were positioned as pairs on the branch side of branch points and were predominantly arranged as a mega- and microsporocarp pair (+@fig:fig6_2\-E).
 
 ![Far-red light and nitrogen affect the reproductive phase transition in _A. filiculoides_. (A), vegetatively growing ferns. (B), ferns in the reproductive phase with micro (mi) and megaspores (me). (C), growth habit under TL and TL with far-red LED (FR). (D), a mature sporophyte and (E) its schematic representation: a root is formed at each branch point, and sporocarp pairs are found close-by on the branch side of the branch point but not at all branch points. F, sporulation frequencies at increasing plant density (41.7, 128.8 and 208.3 g m-2 dry weight) and with increasing red to far-red light ratios (FR0-FR4). The red to far-red ratios were 19.13 (FR0), 1.16 (FR1), 0.63 (FR2), 0.50 (FR3) and 0.31 (FR4); to obtain the FR4 ratio, the TL intensity was halved. Each data point represents the average of three independent continuous growth replicates. G, induction of sporulation without nitrogen (-N) or with 2 mM NH4NO3 (+N) in the medium, data are averages from three replicates with standard deviations.](source/figures/fig6_2.png){#fig:fig6_2}
 
 To test the optimum light quality for sporocarp induction, decreasing ratios of red to FR were applied to sporophytes first raised in TL light.
 To test canopy density, light quality was also tested on sporophytes maintained at three differing densities (Supplementary Table S2, Supplementary Figure S1C-E).
-FR was required for sporocarp formation regardless of the density of the fern culture (Figure 2F).
+FR was required for sporocarp formation regardless of the density of the fern culture (+@fig:fig6_2\-F).
 Increasing FR whilst keeping a constant photosynthetic active radiation (PAR) yielded more sporocarps per fern mass.
 The sporocarps per fern mass increased with time of exposure to the FR up until five weeks and then decreased, presumably because ripe sporocarps detached.
 The sporocarps per fern mass, furthermore, increased with the density of the fern culture.
-Reducing the PAR at highest FR intensity (Figure 2F, FR4) revealed that PAR-intensity limits the production sporocarps at high FR.
+Reducing the PAR at highest FR intensity (+@fig:fig6_2\-F, FR4) revealed that PAR-intensity limits the production sporocarps at high FR.
 
-Adding 2 mM ammonium nitrate to the medium drastically reduced the spore count when inducing sporocarp formation with FR (Figure 2G).
+Adding 2 mM ammonium nitrate to the medium drastically reduced the spore count when inducing sporocarp formation with FR (+@fig:fig6_2\-G).
 Both ammonium and nitrate added individually inhibited sporocarp formation (data not shown); this inhibition explained why sporophytes without _N. azollae_ kept on various nitrogen sources never sporulated.
 
 The ratio of mega- to microsporocarp was approximately equal over nine weeks of induction with FR (Supplementary Figure S1F).
@@ -241,9 +241,9 @@ We were unable to induce sporulation in sporophytes from the Anzali lagoon, whic
 
 ### Phylogeny-derived species attributions are consistent with those obtained from crosses and reveal that Anzali ferns were not _A. filiculoides_
 To research the taxonomy of the accessions, intergenic regions of the chloroplast rRNA, used for phylogenetic studies previously [@Madeira2016a], were amplified and sequenced to compute phylogenetic relations.
-The regions trnL-trnF (Figure 3A), and trnG-trnR  (Figure 3B) yielded similar trees confirming the close relationship of the _A. filiculoides_ accessions from the Netherlands and Spain.
+The regions trnL-trnF (+@fig:fig6_3\-A), and trnG-trnR  (+@fig:fig6_3\-B) yielded similar trees confirming the close relationship of the _A. filiculoides_ accessions from the Netherlands and Spain.
 The trees further revealed that the Anzali accession clustered along with two accessions from South America that do not cluster within the _A. caroliniana_ group (Southern Brazil and Uruguay, Supplementary Table S1).
-Use of the nuclear ITS region for phylogeny reconstruction proved futile when amplifying the region on the _A. filiculoides_ genome in silico: the _A. filiculoides_ genome assembly contained over 500 copies of the ITS sequence, and the copies of ITS were variable within the same genome (Figure 3C).
+Use of the nuclear ITS region for phylogeny reconstruction proved futile when amplifying the region on the _A. filiculoides_ genome in silico: the _A. filiculoides_ genome assembly contained over 500 copies of the ITS sequence, and the copies of ITS were variable within the same genome (+@fig:fig6_3\-C).
 Variations within any one genome were furthermore large when comparing variations between genomes of Azolla species (Supplementary Figure S3A).
 
 The dorsal side of the upper leaf lobes of the Anzali accession has two-celled, distinctly pointed, papillae unlike _A. filiculoides_ that mostly, but not exclusively, have single-celled and rounded papillae (Supplementary Figure S3B).
@@ -262,13 +262,13 @@ In addition, we learnt from above that species attributions can be misleading.
 We, therefore, decided to first determine how variable the genomes of the _N. azollae_ are within the _A. filiculoides_ species and the Azolla genus.
 The _N. azollae_ Galgenwaard genomes were assembled both from _A. filiculoides_ kept in the laboratory [_A. filiculoides_ lab\; @Li2018], taken from the original sampling location [_A. filiculoides_ wild\; @Dijkhuizen2018] and other Azolla species [@Dijkhuizen2018].
 Assemblies were from short-reads of the entire symbiosis metagenome (MAGs); they were fragmented but highly complete: over 95% complete based on single copy marker genes.
-Moreover, all contigs of _N. azollae_ from the Utrecht _A. filiculoides_ aligned to the _N. azollae_ 0708 reference from _A. filiculoides_ Stockholm [@Ran2010] and were well over 99.5% identical to each other (Figure 4A).
+Moreover, all contigs of _N. azollae_ from the Utrecht _A. filiculoides_ aligned to the _N. azollae_ 0708 reference from _A. filiculoides_ Stockholm [@Ran2010] and were well over 99.5% identical to each other (+@fig:fig6_4\-A).
 This degree of nucleotide identity was well above the maximum mismatch of the STAR-aligner’s default setting which meant that reads could be aligned to the reference taking the NCBI-defined features to derive read-counts for each feature: there we argue are superior to the automated annotation by Prokka [@Seemann2014].
 The PE reads obtained from sequencing libraries made from rRNA-depleted RNA were thus aligned to the Galgenwaard accession nuclear and chloroplast genomes, and the _N. azollae_ 0708 genome, and read counts derived from their GFF annotation files.
-Alignments revealed a high proportion of uniquely mapped reads to the fern nuclear and _N. azollae_ genomes suggesting efficient removal of rRNA (Figure 4B).
+Alignments revealed a high proportion of uniquely mapped reads to the fern nuclear and _N. azollae_ genomes suggesting efficient removal of rRNA (+@fig:fig6_4\-B).
 For the chloroplast, the larger proportion of PE reads mapping to multiple loci in the chloroplast was mostly due to the genes in the repeat with a minor contribution of reads from chloroplast 23S rRNA sequence making up no more than 0.35 % of the reads in the six samples.
 Read counts for the few chloroplast genes were generally high (84 without rRNA and tRNA genes).
-Read counts in genome features further revealed that sense alignments dominated and thus that the libraries were stranded (Figure 4C).
+Read counts in genome features further revealed that sense alignments dominated and thus that the libraries were stranded (+@fig:fig6_4\-C).
 
 Dispersion of sense read count per gene was low which permitted identification of differentially accumulating transcripts [defined as DEseq2 P-adjusted (Padj) <0.1\; @Love2014] comparing ferns on TL and TL with FR: 318 from the fern nucleus, 67 from _N. azollae_ and five from the fern chloroplast (Supplementary Table S4).
 We next wondered whether the changes in transcript abundance reflect adaptations to light quality and the transition to reproductive development.
@@ -340,32 +340,32 @@ Short RNA reads were obtained from sporophytes after a week growth under TL with
 In addition, reads were obtained from sporophytes grown under TL with FR on medium with 2 mM NH4NO3, and from sporophytes without _N. azollae_ on medium with 2 mM NH4NO3.
 All samples were collected two hours into the 16 h light period.
 The sRNA sequencing library preparation chemistry did not distinguish pro- from eukaryote sRNA and therefore was inherently a dual profiling method.
-Reads obtained were aligned to concatenated genomes which yielded small RNA profiles characteristic for the fern nucleus, chloroplast and _N. azollae_ (Figure 5; Supplementary Figure S5).
+Reads obtained were aligned to concatenated genomes which yielded small RNA profiles characteristic for the fern nucleus, chloroplast and _N. azollae_ (+@fig:fig6_5; Supplementary Figure S5).
 
-The most abundant sRNA encoded in the fern nucleus were 21, 20 and 24 nt long, but the most sequence-diverse were 24 nt long (Figure 5A).
+The most abundant sRNA encoded in the fern nucleus were 21, 20 and 24 nt long, but the most sequence-diverse were 24 nt long (+@fig:fig6_5\-A).
 This was consistent with an abundance of 21 nt miRNA discretely cut into one or a very few 21 nt miRNA from a single hair-pin precursor [@Singh2018].
 The higher sequence diversity of the somewhat less abundant 24 nt siRNA was consistent with the multiple cleavage sites on the longer double stranded RNA generated by RNA-dependent polymerase of the siRNA precursors that lead to several different 24 nt siRNA per locus transcribed [@Singh2018].
-The chloroplast most abundant sRNA of 28 nt was also the most sequence diverse, but the chloroplast sRNA have a conspicuous number of sRNA of 34 nt which represent only few different sequences (Figure 5B).
-The sRNA encoded in _N. azollae_ are generally shorter than those of the chloroplast, yet, they have a conspicuous abundance of 42 nt sRNA, consistent in length with CRISPR RNA; these sRNA have not a very varied sequence (Figure 5C).
+The chloroplast most abundant sRNA of 28 nt was also the most sequence diverse, but the chloroplast sRNA have a conspicuous number of sRNA of 34 nt which represent only few different sequences (+@fig:fig6_5\-B).
+The sRNA encoded in _N. azollae_ are generally shorter than those of the chloroplast, yet, they have a conspicuous abundance of 42 nt sRNA, consistent in length with CRISPR RNA; these sRNA have not a very varied sequence (+@fig:fig6_5\-C).
 
 ![The miRNA 172 locus in _A. filiculoides_.  Alignments at the Azfi_miRNA172α locus are visualized using the Integrative Genomics Viewer [@Thorvaldsdottir2013]; S, read summary; i, individual reads. (A), Reads from pre-miRNA at the miR172 locus. RNAseq all conditions, all reads pooled from  the diel RNAseq experiment in [@Brouwer2017c]. (B), Reads of the miR172 in sRNA libraries including those of ferns without _N. azollae_ (sRNAseq-_N. azollae_), ferns grown with and without far-red LED (sRNAseq+FR, sRNAseq TL-FR). (C), Reads of the miR172\*. (D), Azfi_miRNA172α hairpin folded using Vienna RNAfold [@Gruber2008]. RNAfold predicts -104,07 kcal mol-1 at 22 oC upon folding. miRNA (purple) and miRNA\* (pink) stem arms are shown with 3’overhangs.](source/figures/fig6_6.png){#fig:fig6_6}
 
 ### Conserved miRNA in _A. filiculoides_ include miR172 and 396, but only miR319 and miR159 were decreased  in response to FR, whilst miR529 and miR535 were increased
 Fern genome-encoded sRNA reads of 20-25 nt length were used for miRNA predictions allowing a hairpin of maximally 500 bp.
-Loci predicted were then verified against miRNA criteria [@Axtell2018] as, for example, in the case of the miR172 locus Azfi_s0021g15800 (Figure  6): the locus was expressed as a pre-miRNA (Figure 6A, RNAseq all conditions) and both the miRNA and miRNA\* are found in replicate samples and cut precisely with two base overhangs (Figure 6B-C, sRNAseq).
-The miR172 reads were derived from the fern since they were also found in sporophytes without _N. azollae_ (Figure 6, RNAseq -_N. azollae_).
+Loci predicted were then verified against miRNA criteria [@Axtell2018] as, for example, in the case of the miR172 locus Azfi_s0021g15800 (+@fig:fig6_6): the locus was expressed as a pre-miRNA (+@fig:fig6_6\-A, RNAseq all conditions) and both the miRNA and miRNA\* are found in replicate samples and cut precisely with two base overhangs (+@fig:fig6_6\-B-C, sRNAseq).
+The miR172 reads were derived from the fern since they were also found in sporophytes without _N. azollae_ (+@fig:fig6_6, RNAseq -_N. azollae_).
 The locus encoded a stable long hairpin which when folded released -65.76 kcal mol-1 at 37oC.
 miR172 targets in seed plants include the AP2/TOE transcription factors, and alignment of the target sites to all annotated AP2/TOE transcripts from _A. filiculoides_ revealed target sites for the AzfimiR172 (Supplementary Figure S6).
 The miR156a locus was similarly verified (Supplementary Figure S7).
 
-Mature miRNA were compared in miRbase [@Kozomara2019] which identified 11 of the conserved miRNA families of 21 nt in the _A. filiculoides_ genome and thus in the fern lineage (Figure 7A).
+Mature miRNA were compared in miRbase [@Kozomara2019] which identified 11 of the conserved miRNA families of 21 nt in the _A. filiculoides_ genome and thus in the fern lineage (+@fig:fig6_7).
 The list included miR396, as well as miR172, not yet confirmed in other seed-free plant lineages.
 miRNA predictions further uncovered a number of novel miRNA (miRNF).
 
 ![Conserved and FR-responsive miRNA in the fern _A. filiculoides_. (A), Conserved miRNA in the _A. filiculoides_ fern compared to other land plant lineages. miRNA from the fern were predicted computationally by miRDEEP-P2 [@Kuang2019] using sRNA seq reads then curated manually, the remainder of the table was from @Axtell2018. Green, high confidence miRNA; yellow low confidence miRNA. (B), miRNA with altered steady state in response to far-red light. Shown are average read counts per million 20-22 nt reads in samples of sporophytes after one week on TL with FR (f) or without (t); raw read counts were submitted to DESeq2 for statistical analyses yielding P-adjusted values: * indicates Padj <0.1; ^ indicates Padj <0.16.](source/figures/fig6_7.png){#fig:fig6_7}
 
 Differential expression analysis of 20-22 nt reads exhibited more dispersion than the dualRNAseq of long RNA, yet, it reliably identified sRNA with low Padj values when comparing ferns under TL with and without FR (Supplementary Figure 5D-E).
-Reads from miR529c&d and miR535 increased (Padj < 0.1) whilst those of miR159, miR319 and miRNF4 decreased (Padj <0.16) in sporophytes on TL with FR compared to TL light only (Figure 7B).
+Reads from miR529c&d and miR535 increased (Padj < 0.1) whilst those of miR159, miR319 and miRNF4 decreased (Padj <0.16) in sporophytes on TL with FR compared to TL light only (+@fig:fig6_7\-B).
 We conclude that the miR156/miR172 known to reciprocally control flowering are not altered when whole ferns undergoing transition to IS under FR are analyzed.
 
 ### miR319/GAMYB is responsive in sporophytes induced by FR
@@ -378,7 +378,7 @@ Nevertheless, consistent with an increased miR529c&d, the SPL from the Azfi_s017
 In contrast, transcripts of two GAMYB (Azfi_s0004.g008455 and Azfi_s0021.g015882) increased up to 4 fold in sporophytes with decreased miR319 on TL with FR.
 The location of miR319 binding is shown for the GAMYB encoded in Azfi_s0004.g008455 (Supplementary Figure S8).
 
-Phylogenetic analyses revealed that the GAMYB targeted by miR319 were on the same leaf as the GAMYB33 from Arabidopsis and were placed next to each other, probably because they arose from gene duplication (Figure  8).
+Phylogenetic analyses revealed that the GAMYB targeted by miR319 were on the same leaf as the GAMYB33 from Arabidopsis and were placed next to each other, probably because they arose from gene duplication (+@fig:fig6_8).
 This is consistent with the whole genome duplication observed at the base of Azolla fern evolution [@Li2018].
 We conclude, therefore, that miR319/GAMYB is responsive in sporophytes undergoing FR-induced transition to IS.
 
@@ -402,7 +402,7 @@ Phytochromes in ferns radiated separately from those of seed plants [@Li2015a], 
 Nevertheless, fern phytochromes have a similar structure and, as in the case of PHYB in Arabidopsis, may sense temperature as well as red/FR light by thermal reversion from the Pfr into Pr state [@Legris2017; @Klose2020]: initiation of fern, liverwort and bryophyte sporangia is reported as dependent on temperature and photoperiod [@Labouriau1958; @Benson-Evans1961; @Nishihama2015].
 Moreover, thermal reversion of phytochromes from some cyanobacteria was described in vitro as early as 1997 [@Yeh1997].
 Therefore, if FR induces IS in _A. filiculoides_, then differing temperature regimes combined with light quality changes may yet induce IS in the Anzali ferns.
-Anzali ferns were not _A. filiculoides_ but related to species from Uruguay and Southern Brazil which did not cluster with the bulk of the _A. caroliniana_ species (Figure 2), and did not have the single-celled papillae described for _A. caroliniana_ [@Pereira2006](Supplementary Figure S3).
+Anzali ferns were not _A. filiculoides_ but related to species from Uruguay and Southern Brazil which did not cluster with the bulk of the _A. caroliniana_ species (+@fig:fig6_2), and did not have the single-celled papillae described for _A. caroliniana_ [@Pereira2006](Supplementary Figure S3).
 More work is needed to verify whether these south American strains represent a new species of Azolla.
 The phylogenetic position of the Anzali accession analyzed here was consistent with observations of several distinct-looking Azolla in the Anzali lagoon [@Farahpour-Haghani2017], and suggests that not only _A. filiculoides_ may have been released as nitrogen biofertilizer.
 
@@ -412,7 +412,7 @@ Most studies on the transition to IF, therefore, were done with red-light gated 
 FR-dependent flowering is mediated by PHYB and D, eventually leading to SOC1 expression in the meristem [@Halliday1994; @Aukerman1997; @Lazaro2015].
 FT mutant Arabidopsis flowered earlier under incandescent light [@Martinez-Zapater1990] or in FR compared to in TL (Schluepmann et al., unpublished) suggesting that FT is not involved.
 Signaling was also reported via PHYB-regulated PIF4 protein complexes that bind the promoters of miR156/172 directly with interference from PHYA-regulated TF [@Sanchez-Retuerta2018; @Sun2018; @Xie2020].
-In the present study, the highly induced MIKCC turned out to be a paralogue of AtSOC1, and miR156/172 steady states were unaltered by the FR-induced transition to IS in _A. filiculoides_ (Figure 7B; Supplementary Table S6) suggesting that signal transduction leading to IS/IF control in fern and seed plant sporophytes are not conserved.
+In the present study, the highly induced MIKCC turned out to be a paralogue of AtSOC1, and miR156/172 steady states were unaltered by the FR-induced transition to IS in _A. filiculoides_ (+@fig:fig6_7\-B; Supplementary Table S6) suggesting that signal transduction leading to IS/IF control in fern and seed plant sporophytes are not conserved.
 
 FR-induced sexual reproduction in the liverwort gametophytes of _Marchantia polymorpha_ [@Chiyoda2008; @Kubota2014; @Yamaoka2018; @Tsuzuki2019].
 The mechanism in these liverworts involved the MpmiR529c/MpSPL module, which was necessary for the development of reproductive branches.
@@ -422,11 +422,11 @@ Additionally, the specific MpmiR529c sequence involved in _M. polymorpha_ was no
 The pathways thus differ in the two seed-free plants.
 
 Given that gametophyte and sporophyte dominated lineages require FR to initiate formation of dissemination stages, we conclude that repression of IS under dominating red light in Azolla likely reflects a convergent ecological strategy: in open surfaces, where red-light is abundant, there is sufficient space to prolong vegetative development and no need for dispersal.
-Consistently, in addition to FR, density of the _A. filiculoides_ canopy had an additional impact on the number of sporocarps observed per gram plant (Figure 2F); this may stem from alternative cues such as volatile organic compounds released by neighbors [@Vicherova2020].
+Consistently, in addition to FR, density of the _A. filiculoides_ canopy had an additional impact on the number of sporocarps observed per gram plant (+@fig:fig6_2\-F); this may stem from alternative cues such as volatile organic compounds released by neighbors [@Vicherova2020].
 Taken together, results presented in this work signify that, for the first time, IS of the Azolla fern symbiosis is amenable to experimental enquiry.
 
 ### Phylogenetic position of MIKCC TF responsive to IS suggests that control of flowering in seed plants originates from the diploid to haploid transition in the common ancestor of seed plants and ferns
-The GAMYB TF clade arose before land plants evolved, and before GA signaling [@Aya2011; @Bowman2017a; @Jiang2020a] (Figure 8).
+The GAMYB TF clade arose before land plants evolved, and before GA signaling [@Aya2011; @Bowman2017a; @Jiang2020a] (+@fig:fig6_8).
 Azolla GAMYB induced under FR, therefore, likely function in IS by mediating cues perceived by the sporophyte but originating from an ancestral gametophyte regulon.
 Consistently, GAMYB from the moss Physcomytrella patens were required for the formation of antheridiophores by the gametophyte [@Aya2011].
 The lycophyte GAMYB regulon did not play a role in the induction of sporogenic structures.
@@ -461,7 +461,7 @@ An approach could be to study these in free living filamentous cyanobacteria ame
 Manipulation of the symbiont would, however, be preferred.
 Tri-parental mating protocols may be effective on _N. azollae_ in situ if combined with high-frequency RNA-guided integration with Cas12k enzyme complexes [@Strecker2019].
 _N. azollae_ Cas genes were found to be mostly pseudogenes and CRISPR arrays appeared missing [@Cai2013], suggesting that incoming cargo plasmid may not be destroyed by Cas complexes.
-Nevertheless, sRNA profiles from Figure 6 show discrete accumulation of 31 and 42 b sRNA of very low complexity and a functional Cas6 splicing CRISPR precursor RNA was induced on FR (Supplementary Table S4, _N. azollae_).
+Nevertheless, sRNA profiles from +@fig:fig6_6 show discrete accumulation of 31 and 42 b sRNA of very low complexity and a functional Cas6 splicing CRISPR precursor RNA was induced on FR (Supplementary Table S4, _N. azollae_).
 CRISPR arrays may not have been recognized if they contained few repeats due to the sheltered life-style inside the fern.
 Rendering _A. filiculoides_ and _N. azollae_ amenable to genetic manipulation will be crucial to provide evidence for hypotheses generated by transcript profiling in the future.
 

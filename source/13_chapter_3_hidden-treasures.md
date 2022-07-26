@@ -19,38 +19,17 @@ Henriette Schluepmann^1^.
 
 <!---
 
-```
 General notes:
 16-18   rewrite highlights
 check all figure legends
 Final figure binning comparison
-chose journal and structure methods accordingly
 propperly implement citations in latex
-make output a nice manuscript pdf
-```
-```
-## Abstract
-### Skeleton:
- * Context in one sentence
-   * Bacteria-host symbioses are present throughout the plant kingdom and bacteria can contribute all kinds of functions to their host.
-   * The plant genus _Azolla_ is known to harbour multiple endophytic bacteria which it transfers systematically to next generations.
- * What did you want to find out (and perhaps why) in a single sentence
-   * Here we set out to acquire bacterial genomes of _Azolla_ associated bacteria by re-using non-metagenomic data already available in public repositories.
- * What did you do to find this out
-   * _Azolla_ sequencing data of six species was filtered and assembled with a fully reproducible workflow made in the conda and snakemake frameworks.
- * What did you find out
-   * Intensive filtering of host DNA data reduced computational requirements but did not increase assembly quality.
-   * Use of binning signals from foreign samples and taxonomy T. azollae based signals was helpful but requires careful manual curation during the binning process.
-   * We successfully assembled between 12 and 22 bacterial genomes from each _Azolla_ species. The majority belongs to only 6 taxonomical orders and occurs in most species of the _Azolla_ genus.
- * So what
-   * High quality bacterial genomes can be assembled from repository sequencing data, but this requires manual curation. Re-using public data can be a cost-effective method to acquire such genomes.
-   * Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus suggests these bacteria may be introduced in some common ancestor of _Azolla_ species and may be selected for in evolution of the _Azolla_ holobiont.
-```
+
 --->
 
 ## Abstract
 Bacteria-host symbioses are present throughout the plant kingdom, and bacteria can contribute all kinds of functions to their host.
-The plant genus _Azolla_ is known to harbour multiple endophytic bacteria, which it transfers systematically to successive generations.
+The plant genus _Azolla_ is known to host multiple endophytic bacteria, which it transfers systematically to successive generations.
 Here we set out to acquire bacterial genomes of _Azolla_ associated bacteria by re-using non-metagenomic data already available in public repositories.
 Azolla_ sequencing data of six species was filtered and assembled with a fully reproducible workflow made in the conda and snakemake frameworks.
 Intensive filtering of host DNA data reduced computational requirements but did not increase assembly quality.
@@ -62,13 +41,13 @@ Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus su
 ## Introduction
 Many bacteria associate with multicellular hosts in symbioses and may convey specific metabolic properties or traits to their hosts.
 Such associations may be temporary, e.g. triggered by abiotic conditions, or they may be practically ubiquitous among a hosts species.
-Symbiotic bacteria may be housed inside host organs, making them endophytes.
-Symbionts or endophytes could be recruited from the living environment of a host.
-Alternatively, hosts may vertically transfer their symbionts and their associated traits to the next generation of hosts.
+Symbiotic bacteria may be housed inside host organs, making them endophytes of their host.
+Temporarily associated bacteria are often recruited from the environment of a host.
+Especially in the case of permanent symbioses, hosts may vertically transfer their symbionts and their associated traits to the next generation of hosts.
 Such systematic presence in a host species will substantially influence selection pressure on the endophyte genome compared to free-living relatives.
 In such a case, a conglomeration of evolving organisms sharing both genomes and selection pressure can occasionally be seen as a holobiont: a single evolutionary unit comprising several organisms [@Zilber-Rosenberg2008].
 However, the exact scope and applicability of the term remain subject to debate [All holobiont refs?].
-Nonetheless, the study of systematically inherited microbes provides opportunities for studying adaptation to the symbiotic lifestyle and the traits encoded in a plant's second genome.
+Nonetheless, the study of systematically inherited microbes provides opportunities for studying adaptation of bacteria to the symbiotic lifestyle and the traits encoded in a plant's second genome.
 
 Symbiotic endophytes are widespread over the plant kingdom, highly polyphyletic and can attribute various functions to their hosts [@Frank2018; @Hassani2018].
 The two most studied endophytes of plants are mycorrhiza and nitrogen-fixing Rhizobiaceae.
