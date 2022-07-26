@@ -176,26 +176,18 @@ Once identified, the scaffolds were submitted to RAST [@Overbeek2014] for annota
   >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.30}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.22}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.16}}@{}}
-\caption{Bacterial scaffolds found in genome assemblies of \emph{A.
-filiculoides}-Sterilized identified by RNAmmer and annotated by RAST.
-\label{tbl:tbl2_2}}\tabularnewline
+\caption{Bacterial scaffolds found in genome assemblies of \emph{A. filiculoides}-Sterilized identified by RNAmmer and annotated by RAST.
+\label{tbl:tbl2_2}}
+\tabularnewline
 \toprule
-Assembly method\footnote{PacBioRSII reads were read-corrected then
-  assembled using either the Celera or the Falcon pipelines. The
-  Sinorhizobium-like scaffold was assembled by both pipelines yielding
-  4.906 Mb and 4.138 Mb scaffolds respectively for Celera and Falcon.
-  These sequences were largely identical but RAST annotation of the
-  N-metabolism genes differed by one gene (Overbeek et al., 2014).} &
-Genus\footnote{RNAmmer detected rRNA-genes in the scaffolds and taxonomy
-  was based on the rRNA gene sequences with Mothur using the Silva
-  database.} & Length (bp)\footnote{Length of the scaffolds in bp} &
-Features (missing genes)\footnote{Number of features computed by RAST
-  annotation including the number of missing genes in brackets.} &
-Denitrifying (N-metabolism genes)\footnote{Presence of genes from the
-  denitrifying pathway with the total number of nitrogen metabolism
-  genes in the scaffold in brackets. Small scaffolds from singleton
-  genera were omitted.} & Closest relative\footnote{The closest relative
-  as computed by RAST.} \\
+Assembly method\footnote{PacBioRSII reads were read-corrected then assembled using either the Celera or the Falcon pipelines.
+  The \emph{Sinorhizobium}-like scaffold was assembled by both pipelines yielding 4.906 Mb and 4.138 Mb scaffolds respectively for Celera and Falcon.
+  These sequences were largely identical but RAST annotation of the N-metabolism genes differed by one gene (Overbeek et al., 2014).} &
+Genus\footnote{RNAmmer detected rRNA-genes in the scaffolds and taxonomy was based on the rRNA gene sequences with Mothur using the Silva database.} & Length (bp)\footnote{Length of the scaffolds in bp} &
+Features (missing genes)\footnote{Number of features computed by RAST annotation including the number of missing genes in brackets.} &
+Denitrifying (N-metabolism genes)\footnote{Presence of genes from the denitrifying pathway with the total number of nitrogen metabolism genes in the scaffold in brackets.
+  Small scaffolds from singleton  genera were omitted.} &
+Closest relative\footnote{The closest relative as computed by RAST.} \\
 \midrule
 \endfirsthead
 \toprule
