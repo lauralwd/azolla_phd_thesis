@@ -175,23 +175,17 @@ Once identified, the scaffolds were submitted to RAST [@Overbeek2014] for annota
   >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2}}@{}}
+
 \caption{Bacterial scaffolds found in genome assemblies of \emph{A. filiculoides}-Sterilized identified by RNAmmer and annotated by RAST.
 \label{tbl:tbl2_2}}
 \tabularnewline
 \toprule
-Assembly method\footnote{PacBioRSII reads were read-corrected then assembled using either the Celera or the Falcon pipelines.
-  The \emph{Sinorhizobium}-like scaffold was assembled by both pipelines yielding 4.906 Mb and 4.138 Mb scaffolds respectively for Celera and Falcon.
-  These sequences were largely identical but RAST annotation of the N-metabolism genes differed by one gene (Overbeek et al., 2014).} &
-Genus\footnote{RNAmmer detected rRNA-genes in the scaffolds and taxonomy was based on the rRNA gene sequences with Mothur using the Silva database.} & Length (bp)\footnote{Length of the scaffolds in bp} &
-Features (missing genes)\footnote{Number of features computed by RAST annotation including the number of missing genes in brackets.} &
-Denitrifying (N-metabolism genes)\footnote{Presence of genes from the denitrifying pathway with the total number of nitrogen metabolism genes in the scaffold in brackets.
-  Small scaffolds from singleton  genera were omitted.} &
-Closest relative\footnote{The closest relative as computed by RAST.} \\
-\midrule
-\endfirsthead
-\toprule
-Assembly method{} & Genus{} & Length (bp){} & Features (missing genes){}
-& Denitrifying (N-metabolism genes){} & Closest relative{} \\
+Assembly method\tnote{a} &
+Genus\tnote{b} &
+Length\tnote{c} (bp) &
+Features (missing genes)\tnote{d} &
+Denitrifying (N-metabolism genes)\tnote{e} &
+Closest relative\tnote{f} \\
 \midrule
 \endhead
 Celera & \emph{Unknown}           & 7478    &             & & \\
@@ -211,6 +205,15 @@ Falcon & \emph{Rhizobium}         & 4138029 & 6897 (31)   & Yes (26)  & \emph{Si
 \bottomrule
 
 \end{longtable}
+\begin{tablenotes}
+  \footnotesize
+  \item[a] PacBioRSII reads were read-corrected then assembled using either the Celera or the Falcon pipelines. The \emph{Sinorhizobium}-like scaffold was assembled by both pipelines yielding 4.906 Mb and 4.138 Mb scaffolds respectively for Celera and Falcon. These sequences were largely identical but RAST annotation of the N-metabolism genes differed by one gene (Overbeek et al., 2014).
+  \item[b] RNAmmer detected rRNA-genes in the scaffolds and taxonomy was based on the rRNA gene sequences with Mothur using the Silva database.
+  \item[c]{Length of the scaffolds in bp}
+  \item[d]{Number of features computed by RAST annotation including the number of missing genes in brackets.}
+  \item[e]{Presence of genes from the denitrifying pathway with the total number of nitrogen metabolism genes in the scaffold in brackets. Small scaffolds from singleton  genera were omitted.}
+  \item[f]{The closest relative as computed by RAST.}
+\end{tablenotes}
 \end{threeparttable}
 \end{sidewaystable}
 
