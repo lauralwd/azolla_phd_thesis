@@ -232,13 +232,6 @@ Falcon & \emph{Rhizobium} & 4138029 & 6897 (31) & Yes (26) &
 \end{sidewaystable}
 \normalsize
 
-[^2_1]: PacBioRSII reads were read-corrected then assembled using either the Celera or the Falcon pipelines. The Sinorhizobium-like scaffold was assembled by both pipelines yielding 4.906 Mb and 4.138 Mb scaffolds respectively for Celera and Falcon. These sequences were largely identical but RAST annotation of the N-metabolism genes differed by one gene (Overbeek et al., 2014).
-[^2_2]: RNAmmer detected rRNA-genes in the scaffolds and taxonomy was based on the rRNA gene sequences with Mothur using the Silva database.
-[^2_3]: Length of the scaffolds in bp
-[^2_4]: Number of features computed by RAST annotation including the number of missing genes in brackets.
-[^2_5]: Presence of genes from the denitrifying pathway with the total number of nitrogen metabolism genes in the scaffold in brackets. Small scaffolds from singleton genera were omitted.
-[^2_6]: The closest relative as computed by RAST.
-
 ### Recruitment analyses
 Short-read sequences were mapped to reference scaffolds and genomes with bowtie2 [v2.2.6; options: `--very-sensitive (-D20-R3-N0-L20-iS1,0.50)`\; @Langmead2012].
 If applicable, fragmented genomes were converted to one sequential sequence for the purpose of visualisation.
