@@ -68,7 +68,7 @@ For example, _A. filiculoides_ produced 39 t ha-1 a-1 dry weight (DW) biomass co
 The cyanobacterial symbiont _Nostoc azollae_ is key to the fern’s remarkable productivity.
 With its genome highly degraded (containing 31.2% pseudogenes and over 600 transposable elements), _N. azollae_ is unable to survive without its host [@Ran2010], and its spores are vertically transmitted to the next fern generation via the fern megaspores [sensu @Nagalingum2006] during sexual reproduction.
 The cyanobacteria reside within specialized leaf pockets of Azolla, where they form heterocysts with high frequency and utilize photosystem I to drive N~2~-fixation.
-A colony of motile cyanobacteria typically resides at the meristematic tip of the branch where the leaf pockets of the young developing leaves are still open, allowing cyanobacteria to migrate inside [@Perkins1993b].
+A colony of motile cyanobacteria typically resides at the meristematic tip of the branch where the leaf pockets of the young developing leaves are still open, allowing cyanobacteria to migrate inside [@Perkins1993].
 Such a specialized environment that is attractive to cyanobacteria may also attract other bacteria.
 Electron micrographs of leaf and megasporangiate sori cross sections have revealed the presence of other bacteria in addition to the cyanobacteria [@Carrapico1991; @Zheng2009].
 Immuno-histochemical detection of nitrogenase using poly-clonal antisera did not, however, unequivocally reveal nitrogenase in these bacteria [@Braun-Howland1988; @Lindblad1991].
