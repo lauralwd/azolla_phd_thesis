@@ -195,28 +195,20 @@ Assembly method{} & Genus{} & Length (bp){} & Features (missing genes){}
 & Denitrifying (N-metabolism genes){} & Closest relative{} \\
 \midrule
 \endhead
-Celera & \emph{Unknown} & 7478 & & & \\
-Celera & \emph{Microbacterium} & 23491 & & & \\
-Celera & \emph{Hyphomicrobium} & 16162 & & & \\
-Celera & \emph{Shinella} & 283870 & 259 & No (0) & \emph{Sinorhizobium
-meliloti} \\
-Celera & \emph{Shinella} & 4962292 & 4811 (36) & Yes (27) &
-\emph{Sinorhizobium meliloti} \\
-Celera & \emph{Ralstonia} & 1425495 & 1312 (18) & Yes (21) &
-\emph{Ralstonia pichettii} \\
-Celera & \emph{Ralstonia} & 2321690 & 2200 (15) & No & \emph{Ralstonia
-pichettii} \\
-Celera & \emph{Rhizobium} & 28900 & 362 & Yes (4) & \emph{} \\
-Celera & \emph{Rhizobium} & 807886 & 758 & Yes (6) & \emph{Rhizobium
-leguminosarium} \\
-Celera & \emph{Rhizobium} & 1061533 & 1853 & Yes (5) & \emph{Rhizobium
-leguminosarium} \\
-Celera & \emph{Rhizobium} & 3220799 & 3178 (6) & No (9) &
-\emph{Agrobacterium tumefaciens} \\
-Celera & \emph{Hydrocarboniphaga} & 2071427 & 1856 & No & \\
-Celera & \emph{Hydrocarboniphaga} & 3085094 & 2672 (164) & No & \\
-Falcon & \emph{Rhizobium} & 4138029 & 6897 (31) & Yes (26) &
-\emph{Sinorhizobium meliloti} \\
+Celera & \emph{Unknown}           & 7478    &             & & \\
+Celera & \emph{Microbacterium}    & 23491   &             & & \\
+Celera & \emph{Hyphomicrobium}    & 16162   &             & & \\
+Celera & \emph{Shinella}          & 283870  & 259         & No (0)    & \emph{Sinorhizobium meliloti} \\
+Celera & \emph{Shinella}          & 4962292 & 4811 (36)   & Yes (27)  & \emph{Sinorhizobium meliloti} \\
+Celera & \emph{Ralstonia}         & 1425495 & 1312 (18)   & Yes (21)  & \emph{Ralstonia pichettii} \\
+Celera & \emph{Ralstonia}         & 2321690 & 2200 (15)   & No        & \emph{Ralstonia pichettii} \\
+Celera & \emph{Rhizobium}         & 28900   & 362         & Yes (4)   & \\
+Celera & \emph{Rhizobium}         & 807886  & 758         & Yes (6)   & \emph{Rhizobium leguminosarium} \\
+Celera & \emph{Rhizobium}         & 1061533 & 1853        & Yes (5)   & \emph{Rhizobium leguminosarium} \\
+Celera & \emph{Rhizobium}         & 3220799 & 3178 (6)    & No (9)    & \emph{Agrobacterium tumefaciens} \\
+Celera & \emph{Hydrocarboniphaga} & 2071427 & 1856        & No        & \\
+Celera & \emph{Hydrocarboniphaga} & 3085094 & 2672 (164)  & No        & \\
+Falcon & \emph{Rhizobium}         & 4138029 & 6897 (31)   & Yes (26)  & \emph{Sinorhizobium meliloti} \\
 \bottomrule
 \end{longtable}
 
