@@ -166,16 +166,14 @@ Bacterial scaffolds in the genome assemblies were identified by RNAmmer [@Lagese
 Bacterial scaffolds with a minimum length of 0.1 Mb were extracted and assigned taxonomy based on the 16S rRNA genes in Mothur using the Silva database (Table 2).
 Once identified, the scaffolds were submitted to RAST [@Overbeek2014] for annotation, which scored the nearest neighbour.
 
-\scriptsize
 \begin{sidewaystable}
-
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.09}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.14}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.09}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.30}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.22}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.16}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2}}@{}}
 \caption{Bacterial scaffolds found in genome assemblies of \emph{A. filiculoides}-Sterilized identified by RNAmmer and annotated by RAST.
 \label{tbl:tbl2_2}}
 \tabularnewline
@@ -210,11 +208,9 @@ Celera & \emph{Hydrocarboniphaga} & 2071427 & 1856        & No        & \\
 Celera & \emph{Hydrocarboniphaga} & 3085094 & 2672 (164)  & No        & \\
 Falcon & \emph{Rhizobium}         & 4138029 & 6897 (31)   & Yes (26)  & \emph{Sinorhizobium meliloti} \\
 \bottomrule
+
 \end{longtable}
-
-
 \end{sidewaystable}
-\normalsize
 
 ### Recruitment analyses
 Short-read sequences were mapped to reference scaffolds and genomes with bowtie2 [v2.2.6; options: `--very-sensitive (-D20-R3-N0-L20-iS1,0.50)`\; @Langmead2012].
