@@ -74,13 +74,13 @@ When a host has many microbe associations, this increases demands on the experim
 One such multi-partite association is the subject studied here: the aquatic ferns of the _Azolla_ genus.
 
 _Azolla_ ferns are particularly interesting to study from a metagenomic perspective.
-They host substantial quantities of di-nitrogen fixing symbiotic _Trichormus azollae_ protected inside specialised leaf cavities [@Campbell1893; @Nierzwicki-Bauer1989].
+They host substantial quantities of di-nitrogen fixing symbiotic _Nostoc azollae_ protected inside specialised leaf cavities [@Campbell1893; @Nierzwicki-Bauer1989].
 These cavities contain a mucus-like substance [@Forni1998] presumably rich in ammonia [@Newton1976] containing the primary symbiont.
 The appropriate genus of the main _Azolla_ symbiont has been prone to debate; it is also known as _Anabaena azollae_ and _Nostoc azollae_.
-Here, we name the symbiont _T. azollae_ for the phylogenetic evidence in `cite the paper or make a phylogenomic tree myself.`
-High sequence identity amongst _T. azollae_ strains taken from various _Azolla_ strains indicates it was likely introduced once in the symbiosis [@Dijkhuizen2021].
+Here, we name the symbiont _N. azollae_ for the phylogenetic evidence in `cite the paper or make a phylogenomic tree myself.`
+High sequence identity amongst _N. azollae_ strains taken from various _Azolla_ strains indicates it was likely introduced once in the symbiosis [@Dijkhuizen2021].
 Consequently, all cyanobacterial strains endophytic to _Azolla_ are likely are the same cyanobacterial genus, perhaps even species.
-At the fern Shoot Apical Meristem (SAM) lies a -somewhat ironically named- 'seed colony of motile _T. azollae_ filaments [@Campbell1893, @Dijkhuizen2021].
+At the fern Shoot Apical Meristem (SAM) lies a -somewhat ironically named- 'seed colony of motile _N. azollae_ filaments [@Campbell1893, @Dijkhuizen2021].
 Developing leaves encapsulate part of this seed colony as inoculum for every leaf new cavity [@Campbell1893; @Nierzwicki-Bauer1989].
 _Azolla_ ferns systematically transfer their symbiotic cyanobacteria to next generations via their megaspores `supplemental figure on the life cycle? Perhaps one of Erbil?`.
 Recent papers theorised that the symbiont entered the fern megaspores via small channels [@Ran2010; @Zheng2009].
@@ -90,7 +90,7 @@ Microsporocarps lose the symbiont throughout their development.
 Electron and confocal microscopy of cyanobacterial resting stages inside microspores support this theory [@Caiola1992; @Dijkhuizen2021].
 
 _Azolla_ leaves and spores harbour by at least one other bacterium, as was shown in multiple species [@Gates1980; @Wallace1986; @Petro1987; @Caiola1988; @Plazinski1990; @Cohen2004; @Banach2019].
-These additional bacteria are likely limited in number and relatively understudied compared to the main symbiont _T. azollae_.
+These additional bacteria are likely limited in number and relatively understudied compared to the main symbiont _N. azollae_.
 While these bacteria were observed inside leaf pockets and spores by electron microscopy by various labs [@Wallace1986; @Nierzwicki-Bauer1990; @Carrapico1991; @Zheng2009], it remains unknown if they are also present at the SAM seed colony.
 We theorise this is the case, based on their ostensibly systematic presence in multiple _Azolla_ species and increasing abundance in developing _Azolla_ leaves [@Petro1987].
 Culture and electron microscopy-based techniques may also not be so reliable to attribute a species identification to a microbe and have led to uncertainty in comparing results generated the previous century.
@@ -104,10 +104,10 @@ Additionally, we found evidence these microbes may be present in the _Azolla_ ge
 
 Towards the function of _Azolla_ associated bacteria, many theories coexist in the literature that are not mutually exclusive.
 In our previous work [@Dijkhuizen2018], we wondered whether these bacteria are foul players parasitising on the nitrogen fixed in the _Azolla_ symbiosis or if they are a third symbiotic party of benefit to the symbiosis, as did @Carrapico1991.
-The seminal paper on the additional microbes of _Azolla_, @Wallace1986, already found that isolates from _Azolla_ leaves can denitrify NO~3~ to N~2~, indicating these microbes may gain energy from the ammonia fixed by _T. azollae_.
+The seminal paper on the additional microbes of _Azolla_, @Wallace1986, already found that isolates from _Azolla_ leaves can denitrify NO~3~ to N~2~, indicating these microbes may gain energy from the ammonia fixed by _N. azollae_.
 However, in @Dijkhuizen2018, we found that the microbes whose genomes encode this pathway are outside the plant rather than inside the leaf cavities.
 Additionally, we found no pathway to convert NH~4~ to NO~3~ in bacteria associated with _A. filiculoides_.
-A second theory is that the additional bacteria are mucilage producers, possibly facilitating a polysaccharide matrix for the _Azolla_-_Trichormus_ symbiosis [@Forni1992; @Zheng2009].
+A second theory is that the additional bacteria are mucilage producers, possibly facilitating a polysaccharide matrix for the _Azolla_-_Nostoc_ symbiosis [@Forni1992; @Zheng2009].
 This hypothetical function is mainly attributed to a bacterium identified as _Arthrobacter_ [@Forni1992; @Forni1998].
 A third theory is that the additional bacteria inside _Azolla_ leaves may also fix N~2~, mirroring the niche of the cyanobacterial symbiont.
 @Lindblad1991 found these enzymes expressed inside _Azolla_ leaf bacteria by immunogold labelling and TEM.
@@ -160,10 +160,10 @@ In that study, we sampled _A. filiculoides_ from triplicate whole plant fraction
 Secondly, the _Azolla_ genome project [@Li2018] published short-read sequencing data of six _Azolla_ species, including _A. filiculoides_ and long-read sequencing of _A. filiculoides_ (Fig 1B).
 Sequencing data is mainly generated on Illumina platforms with typical insert sizes of 400 to 800bp and typically yielding approximately 30Gbase of DNA, except for the P and L samples which yield 2 to 3Gbase per sample (Fig. 1B).
 Both studies' their _A. filiculoides_ samples originate from the same Ditch in Utrecht, the Netherlands.
-One sample was treated to remove the most abundant symbiont: _T. azollae_ and is indicated as the no-cyano sample (Fig. 1B).
+One sample was treated to remove the most abundant symbiont: _N. azollae_ and is indicated as the no-cyano sample (Fig. 1B).
 All samples acquired from the International Rice Research Institute (IRRI) were maintained for approximately two decades by the IRRI by vegetative propagation [@Watanabe1992] (Fig. 1B).
 These plant strains were sampled at various locations around the globe (Fig 1C): _Azolla nilotica_, _Azolla rubra_, _Azolla mexicana_, _Azolla microphylla_, and two _Azolla_ samples, which were initially classified as _Azolla carolinana_ but are likely a new _Azolla_ species, here termed, _Azolla sp.nov._ @Dijkhuizen2021.
-The third data source is the seminal paper introducing the _T. azollae_ genome sequence [@Ran2010].
+The third data source is the seminal paper introducing the _N. azollae_ genome sequence [@Ran2010].
 This paper includes ion-torrent sequencing of a gradient purified extraction of the primary symbiont of _A. filiculoides_.
 Data of the latter study was acquired from SRA: for the first and last studies via the accession numbers listed in Fig. 1B.
 Data of the _Azolla_ genome project was made available to our lab before it was uploaded to a repository; here, we refer to the study as a whole.
@@ -251,13 +251,13 @@ Plotting the contigs of all assemblies by these two characteristics allows to di
 fix contig/scaffold inconsistency
 ```
 
-![Metagenome assemblies of 6 species of the fern genus Azolla (horizontal panels). Sequencing data were derived from three public projects: first, the 'Azolla genome project' data: PRJNA430527 second, the 'foul play in the pocket paper' data: PRJEB19522 third, the original sequencing data for the  _T. azollae_ genome paper: PRJNA30807. Sequencing reads of the former two projects was rid of host plant DNA reads by mapping to the _A. filiculoides_ genome version 1.1 available at fernbase.org. The remaining reads were assembled with SPAdes in metagenome mode, resulting contigs and scaffolds were then assigned an approximate taxonomy with the Contig Annotation Tool (CAT). Contigs assigned 'Eukaryote' were then used for a second filtering step of the previously filtered data, then assembled again with SPAdes and assigned taxonomy again with CAT. Of the doublefiltered data, hybrid assemblies were generated per plant accession if multiple sequencing libraries were available. Using CAT output, a table was generated with contig/scaffold length, depth, details on open reading frames (ORFs) and details on taxonomy. To this end, this particular script was used available at the project Github repository. The graph displays the metagenome assemblies as a dot-plot with contig/scaffold length on the x-axis and depth in the assembly graph on the y-axis; both are log10 transformed. Dot colour represents the order, and dot size represents ORF count. For clarity, contigs/scaffolds without ORFs and contigs scaffolds with ORFs found but without taxonomy are filtered out before displaying the plot. Second, noisy contigs/scaffolds are omitted by default for clarity. The default threshold for noisy is when contigs/scaffolds have fewer than 5 ORFs classified or when a taxonomic group amounts to less than 2Mbase in the entire figure. An [online interactive version of this figure](https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/) can be manipulated to modify these filters and assumptions, and to include more assemblies done in the _Azolla_ metagenome project. The online version of the figure is also attached as an R shiny app in supplemental file X.](source/figures/fig3_Azolla-genus-metagenome-order.png){#fig:fig3_Azolla-genus-metagenome-order}
+![Metagenome assemblies of 6 species of the fern genus Azolla (horizontal panels). Sequencing data were derived from three public projects: first, the 'Azolla genome project' data: PRJNA430527 second, the 'foul play in the pocket paper' data: PRJEB19522 third, the original sequencing data for the  _N. azollae_ genome paper: PRJNA30807. Sequencing reads of the former two projects was rid of host plant DNA reads by mapping to the _A. filiculoides_ genome version 1.1 available at fernbase.org. The remaining reads were assembled with SPAdes in metagenome mode, resulting contigs and scaffolds were then assigned an approximate taxonomy with the Contig Annotation Tool (CAT). Contigs assigned 'Eukaryote' were then used for a second filtering step of the previously filtered data, then assembled again with SPAdes and assigned taxonomy again with CAT. Of the doublefiltered data, hybrid assemblies were generated per plant accession if multiple sequencing libraries were available. Using CAT output, a table was generated with contig/scaffold length, depth, details on open reading frames (ORFs) and details on taxonomy. To this end, this particular script was used available at the project Github repository. The graph displays the metagenome assemblies as a dot-plot with contig/scaffold length on the x-axis and depth in the assembly graph on the y-axis; both are log10 transformed. Dot colour represents the order, and dot size represents ORF count. For clarity, contigs/scaffolds without ORFs and contigs scaffolds with ORFs found but without taxonomy are filtered out before displaying the plot. Second, noisy contigs/scaffolds are omitted by default for clarity. The default threshold for noisy is when contigs/scaffolds have fewer than 5 ORFs classified or when a taxonomic group amounts to less than 2Mbase in the entire figure. An [online interactive version of this figure](https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/) can be manipulated to modify these filters and assumptions, and to include more assemblies done in the _Azolla_ metagenome project. The online version of the figure is also attached as an R shiny app in supplemental file X.](source/figures/fig3_Azolla-genus-metagenome-order.png){#fig:fig3_Azolla-genus-metagenome-order}
 
 Even before binning contigs into MAGs, metagenomes of the _Azolla_ genus show clear similarities amongst each other; several taxonomical orders reoccur systematically (Fig 4).
 Most prominently, the Nostocales, which are the most abundant order in all _Azolla_ species except one which was artificially devoid of the cyanobacteria.
 Contigs assigned Nostocales have a high variance in abundance, standard deviations vary in the various samples from 300 to 600 (arbitrary unit representing depth in the assembly graph; Fig 4; Supplemental file X or [online R shiny app: https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/](https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/)).
 In contrast, other clearly distinghuishable microbial genomes show a typical depth standard deviation often lower than 1, but in almost all cases lower than 10 (depth variance visible in interactive figure).
-This abundance pattern of _Trichormus azollae_ is typical of a degraded genome with many transpons and reptitive regions and may explain why the assembled length of this MAG is shorter than the reference; 4Mbase rather than 6Mbase (Table 2).
+This abundance pattern of _Nostoc azollae_ is typical of a degraded genome with many transpons and reptitive regions and may explain why the assembled length of this MAG is shorter than the reference; 4Mbase rather than 6Mbase (Table 2).
 Yet, it might also indicate an upper limit of assembly depth.
 `I don't agree with the ploïdy argument, unless different sections of the genome are present in different counts somehow. As long as the polyploid means having the complete genome multiple times in one cell, the line in fig4 should be flat. `
 The second most abundant order accross the genus, is the Rhizobiales, ranging between 16 and 44 Mbase of assembled DNA in the different samples (Fig 4 blue; Supplemental file X or [online R shiny app](https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/)).
@@ -292,7 +292,7 @@ This may be related to the relatively low input of DNA sequencing in the assembl
 Differential sampling, comparing whole plant to leaf cavity enrichments, allows to estimate whether a MAG is more abundant in the leaf cavities.
 The bacteria represented by these MAGs are likely endophytes of _A. filiculoides_ (Fig. 5; blue rings).
 This is the case for MAGs 'Rhizobium','Rhizobiales','Curvibacter', and 'Ferrovibrio' (Fig 5).
-The former two are substantialy abundant in PacBio long read sequencing of the _A. filiculoides_ minus_cyano sample, indicating they survived a stringent sterilisation and antibiotic regime removing the main symbiont _T. azollae_.
+The former two are substantialy abundant in PacBio long read sequencing of the _A. filiculoides_ minus_cyano sample, indicating they survived a stringent sterilisation and antibiotic regime removing the main symbiont _N. azollae_.
 In constrast, a second cyanobacterium found in the bins, is present only on the outside of the ferns, and not in the leaf cavity enriched fraction, indicating that this is an epithitic cyanobacterium and consistent with earlier findings that _Azolla_ has only one cyanobacterial symbiont.
 
 ![Anvi'o overview of the _A. filiculoides_ 'wild' metagenome assembly and binning into MAGs. The center dendrogram reflects a hierarchical clustering of contigs based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one contig (or split in Anvi'o). In circles around the dendrogram, metadata about the contigs is displayed. This metadata is, in order of inside to outside: split-parent, contig length, contig GC content (dark green), contig abundance in leaf cavity enriched samples (blue), contig abundance in whole plant samples (light green), contig abundance in PacBio reads from the _A. filiculoides_ 'lab' sample. Then follow several coloured rings representing taxonomy as determined by CAT, starting at the kingdom level down to species level. The before last red ring indicates presence of any ribosomal RNA genes in a contig (drastically influencing depth of the contig and therefore the binning process). The final ring indicates in which bin a contig was categorises. The corresponding bins, their size and estimated completeness are shown in table X.](source/figures/fig3_Azfil-wild-metagenome-binning.png){#fig:fig3_Azfil-wild-binningsignals}
@@ -319,7 +319,7 @@ add order info to the bins in table 2 to crossref with fig 4
 |Rhizobiales      |Rhizobiales     |	5.34	|| 92  |	 6 |  87 |	3
 |Rhizobiales      |Rhizobium       |	5.25	|| 99  |	11 |	99 |	2
 |Rhodopspirillales|Rhodospirillaceae|5.42	||100	|  1 |	99 |	1
-|Nostocales       |Trichormus      |	4.79  ||	96  |	 3 |	98 |	0
+|Nostocales       |Nostoc      |	4.79  ||	96  |	 3 |	98 |	0
 |`check in anvio` |rest_1          |	2.49	|| 37  |	 7 |  23 |	2
 |`check in anvio` |rest_2	        | 4.19  ||	 0	|  0 |  73 | 13
 |`check in anvio` |rest_3          |	1.09  ||	 0	|  0 |   5 |  0
@@ -335,7 +335,7 @@ Table: MAG quality of MAGs assembled from sequencing data derived from the _A. f
 ### Binning assemblies from non-metagenomic data is feasible with extragenous binning signals
 Provided with thoroughly filtered metagenome assemblies, the binning process becomes feasible even if the assembly lacks a metagenomic study design.
 Typically, binning would depend highly on the depth of contigs in one sequencing library and on k-mer profiles of  contigs.
-Here, we employed a manual method adding extragenous binning signals from the one metagenomic study done on this genus, the seminal paper on the _T. azollae_ genome, and contig taxonomy determined by CAT.
+Here, we employed a manual method adding extragenous binning signals from the one metagenomic study done on this genus, the seminal paper on the _N. azollae_ genome, and contig taxonomy determined by CAT.
 No automated binning algorith can implement these binningsignals while also accounting for the nuances required in interpreting them, hence automated binning algorithms will likely produce false MAGs.
 Using Anvi'o, it is possible to visualise aforementioned extragenous binning signals and bin contigs manually whilst accounting for the nature of different binning signals appropriately.
 Within Anvi'o, all metadata was plotted for every biological sample as in Fig. 6.
@@ -399,7 +399,7 @@ rename all MAGS to at least order level to avoid ugly tables
 |Rhizobiales      |Rhizobiales2              |	5.01	|  94	|  4 |	97  |	1
 |Rhizobiales      |Rhizobiales3              |	2.34	|  28	|  3 |	16  |	1
 |Rhizobiales      |Rhizobiales_1             |	7.15	|  93	|  4 |	95  |	1
-|Nostocales       |Trichormus                |	4.85	|  97	|  4 |	99  |	0
+|Nostocales       |Nostoc                |	4.85	|  97	|  4 |	99  |	0
 |                 |rest                      |	0.53	|  15	|  4 |	11  |	0
 |                 |rest2                     |	0.21	|   0	|  0 |	 6  |	0
 |                 |rest3                     |	1.62	|   0	|  0 |	20  |	0
@@ -541,7 +541,7 @@ In @Delmont2016 the total assembly including host and symbionts was approximatel
 
 To our knowledge, this is the first scholarly publication about the metagenome of a whole genus.
 Inspired by the holobiont concept [@Zilber-Rosenberg2008] and the mechanism for vertical transfer in _Azolla_ ferns, it makes sense to study a symbiosis like _Azolla_ from the genus perspective, rather than a single species.
-To demonstrate vertical transmission of microbes besides _T. azollae_, it would be more fitting to sequence multiple generations of plants and the reproductive organs of those generations.
+To demonstrate vertical transmission of microbes besides _N. azollae_, it would be more fitting to sequence multiple generations of plants and the reproductive organs of those generations.
 However, we argue that rather indirectly, we have sequenced multiple generations of the same population of plants.
 _A. filiculoides_ sequenced by @Li2018 was taken from a Ditch near the Galgenwaard footbal station in Utrecht, the Netherlands in 2012 (@Brouwer2014).
 Several years later, in 2015 we went to the same ditch to sequence _A. filiculoides_ for @Dijkhuizen2018.
@@ -549,7 +549,7 @@ The _Azolla_ population in this ditch doesn't survive the winter, and hence we r
 Secondly, the presence of the same species of microbes in the thoroughly sterilised _A. filiculoides_ minus-cyano provides further indication that these microbes are endophytic and in that way survived the sterilisation process.
 
 _Azolla_ ferns systematically harbour microbes of 6 taxonomical orders.
-The Nostocales order encompasses only the main symbiont _T. azollae_ and was highly abundant in all species, contradicting theories that other cyanobacterial strains may inhibit _Azolla_ ferns at lower abundances [@Papaefthimiou2008].
+The Nostocales order encompasses only the main symbiont _N. azollae_ and was highly abundant in all species, contradicting theories that other cyanobacterial strains may inhibit _Azolla_ ferns at lower abundances [@Papaefthimiou2008].
 The two most prominent orders Burkholderiales and Rhizobiales were already identified in @Dijkhuizen2018 but their genomes acros the entire _Azolla_ genus were not published before, nor was it clear that multiple Rhizobiales and Burkholderiales genomes are systematically associated with single species of the _Azolla_ genus.
 The remaining three orders, Caulobacterales, Nevskiales and Sphingomonadales, were hinted at before, but not substantiated by systematic evidence before, nor where genome sequences available.
 `do any of the published microbes fit in these orders?`
@@ -564,14 +564,14 @@ Second, ferns acquired from the IRRI collection were maintained for long periods
 The latter consideration is somewhat mitigated by the presence of these order in samples acquired both from Utrecht, the Netherlands, and the IRRI collection.
 
 Systematic presence of specific groups of bacteria suggests ferns of the genus _Azolla_ may acquire some fitness benefit from their microbiome and begs the question how these bacteria are systematically transfered.
-The plants may actively retain these bacteria in their ecosystem, and transfer them to subsequent generations via their megaspores as is the case for _T. azollae_.
-Bacteria were seen in mulitple _Azolla_ species their reproductive structures adjacent to _T. azollae_ resting stages [@Carrapico1991] `and also Sandra and Zheng?`.
-@Forni1992 theorised that _Azolla_ associated bacteria may be responsible for the mucus in which both _T. azollae_ and additional microbes are harboured.
+The plants may actively retain these bacteria in their ecosystem, and transfer them to subsequent generations via their megaspores as is the case for _N. azollae_.
+Bacteria were seen in mulitple _Azolla_ species their reproductive structures adjacent to _N. azollae_ resting stages [@Carrapico1991] `and also Sandra and Zheng?`.
+@Forni1992 theorised that _Azolla_ associated bacteria may be responsible for the mucus in which both _N. azollae_ and additional microbes are harboured.
 A similar mucus is found at the apical meristem colony by @Dijkhuizen2021
 Mining the genomes published here may indicate if the genes required for producing this mucus are present.
 
-It is commonly believed that _T. azollae_ bacteria enter the _Azolla_ megasporocarps via small channels `bunch of refs`.
-We theorise however, that _T. azollae_ and additional microbes may be retained in seed colonies near the shoot apical meristem (SAM) of _Azolla_ ferns as we showed in @Dijkhuizen2021.
+It is commonly believed that _N. azollae_ bacteria enter the _Azolla_ megasporocarps via small channels `bunch of refs`.
+We theorise however, that _N. azollae_ and additional microbes may be retained in seed colonies near the shoot apical meristem (SAM) of _Azolla_ ferns as we showed in @Dijkhuizen2021.
 Leaf and sporocarp primordia encapsulate part of this seed colony during early development which functions as innoculum for the forming organ. [@Campbell1893; @Nierzwicki-Bauer1989].
 Microspores loose the cyanobacterial symbionts, and megaspores retain them in the form of akinete resting stages`Anna's results, or published in 19-longago? `.
 Whilst highly likely in some cases, we do not provide definitive proof of endophytism of any bacterium whose genome we have assembled, nor of its presence in the SAM seed colony, nor of vertical transfer via megasporocarps.
@@ -600,23 +600,23 @@ Another idea: the generational bottleneck undermines a major requirement for hig
 More important: the generational bottleneck should imply muller's ratchet unless some genetic exchange is happening.
 Perhaps a semi open system which allows for more microbes to enter and replace damaged ones.
 That's why these microbes don't show signs of degradation...
-How then does _T. azollae_ escape this... Is multiple genome coppies sufficient?
+How then does _N. azollae_ escape this... Is multiple genome coppies sufficient?
 
 The leaf pocket ecosystem:
-_T. azollae_ is an autotroph in a highly closed leaf pocket.
+_N. azollae_ is an autotroph in a highly closed leaf pocket.
 Presumably, all elements that can't be fixed photosynthetically or with energy from photosynthesis, are delivered by the plant.
-What about the excretory and dead _T. azollae_ material however
-It's unreasonable to expect _T. azollae_ has the genetic capacity to completely recycle it's own decaying material.
-Perhaps the plant can remove this organic waste itself, just as it can remove fixed N and supply all nutrients for _T. azollae_
+What about the excretory and dead _N. azollae_ material however
+It's unreasonable to expect _N. azollae_ has the genetic capacity to completely recycle it's own decaying material.
+Perhaps the plant can remove this organic waste itself, just as it can remove fixed N and supply all nutrients for _N. azollae_
 Alternatively, the bacteria inside the leaf pocket may form some closed nutrient cycle.
-The "additional" microbiome feeds of _T. azollae_ waste, decomposing it to inorganic form to be recycled again by _T. azollae_ (or the plant).
+The "additional" microbiome feeds of _N. azollae_ waste, decomposing it to inorganic form to be recycled again by _N. azollae_ (or the plant).
 One wonders if the low abundance of "additional microbes" is sufficient to fulfil that role in the cycle however...
 Again, it may be "waiting" there for a later life stage of the leaf pocket, we sampled material that's "too fresh".
-Also, there is presumablyy no requirement to close the nutrient cycle since the plant has to be able to support _T. azollae_ with nutrients.
+Also, there is presumablyy no requirement to close the nutrient cycle since the plant has to be able to support _N. azollae_ with nutrients.
 Perhaps
 With ideas from [@rillig2019]
 
-Again a completely different hypothesis: The "additional microbiome" adds some function that was lost/damaged in _T. azollae_, perhaps connecting to the reason _T. azollae_ can't be cultered.
+Again a completely different hypothesis: The "additional microbiome" adds some function that was lost/damaged in _N. azollae_, perhaps connecting to the reason _N. azollae_ can't be cultered.
 
 ITSNTS versus "simple altruism"
 
@@ -634,7 +634,7 @@ The main ITSNTS argument against the holobiont is the too-many-parents-means-no-
 However, this argument assumes complete lossy/random inheritance.
 The holobiont argument stands if inheritance is systematic, if the genetic material and phenotype of the child generation represents that of their parent population.
 Counting parents and assuming randomness ignores that the persistance of genetic material can move in a range of strictness.
-On the one hand (near) 100% strict, such as _T. azollae_
+On the one hand (near) 100% strict, such as _N. azollae_
 
 
 If we conclude there is strict holobiont like inheritance of a slection of microbes,
@@ -669,7 +669,7 @@ Nitrogen fixing cyanobacteria should be available in the potential living enviro
 If the host plant provides niches to microbes, thereby defining the processes/songs, and even just a part of microbes is systematic part of that song (permanent singers).
 Then does it even matter if part of the singers is swapped in and out?
 Yes if we're talking about evolution, for selection can only occur if the traits and associated fittness of one generation are transfered to the next generation.
-This may be partially untrue if the song is defined already in advance by the permanent particants/singers (Host and Trichormus).
+This may be partially untrue if the song is defined already in advance by the permanent particants/singers (Host and Nostoc).
 Evolution of these heritable parts of the hologenome may define in advance the niche to be filled, even if the gene to fill that niche is one another genome.
 How then, does this differ from traditional co-evolution...?
 
@@ -680,7 +680,7 @@ Selection for reduced genome size lower in extracellular symbionts than intracel
 ```
 ### Bacteria known to associate with plants (a fast evolving, modular subset of a hologenome?)
 Microbial genomes may encode and convey traits to a host when in symbiosis.
-The most obvious example is _Azolla_ its independence of nitrogen in the surrounding water or sediment, a trait conveyed by _T. azollae_.
+The most obvious example is _Azolla_ its independence of nitrogen in the surrounding water or sediment, a trait conveyed by _N. azollae_.
 Bacterial genomes are substantially more fluid in their structure and content than their eukaryotic hosts and bacterial species may leave or enter the symbiosis.
 Consequently, the functions these genomes convey are more easily lost or acquired.
 This modular and variant subset of the hologenome can provide a bigger pool of genes and functions for the holobiont to be selected on.
@@ -689,7 +689,7 @@ We argue, a holobiont must not be a new concept for a singular species with extr
 `re-read the whole holobiont polemiek thing to make sure I cite stuff appropriately`
 Rather we subscribe to the view of a holobiont as a modular agglomeration of individuals who may move in and out of symbiosis with each other.
 The assocation of those indivuduals may be of differing consistency.
-For example, reliable vertical transfer has been proven as the exclusive method of transfer, as is the case for _T. azollae_, we deem using holobiont as a concept to describe a single unit is justified.
+For example, reliable vertical transfer has been proven as the exclusive method of transfer, as is the case for _N. azollae_, we deem using holobiont as a concept to describe a single unit is justified.
 Just as it is justified to include plastig genomes in the concept of a species' genome.
 In some species, vertical transfer may be established but not as fixed as is the case for _Azolla_ `clam paper`.
 Alternatively, symbionts may need to reinnoculate their host annew every generation as is the case for Rhizobiales-legume symbioses.
@@ -703,7 +703,7 @@ The MAGs assembled and published here, hopefully allow the _Azolla_ research com
 Study approaches that benefit from the whole genus persepective are for example phylogenetics and phylogenomics.
 If any bacterial species was introduced once and retained by the host, the genomes of this one species would have persisted through host speciations, and hence a phylogenetic tree of the symbiont will likely resemble that of the host species.
 By the same reasoning, these bacterial genomes associated with _Azolla_ hosts, will cluster together in a phylogentic tree of a broader selection of related bacteria.
-Persistent symbionts may also show signs of genome degradation as the main symbiont _T. azollae_ does.
+Persistent symbionts may also show signs of genome degradation as the main symbiont _N. azollae_ does.
 Awknoledging again that bacterial genomes are more flexible in their content and structure, we may employ the near complete MAGs published here to study their genetic content rather than the presence or absence of a genome as a whole.
 For example, we may find clusters of genes involved in symbiosis or of particular interest to _Azolla_-Rhizobiales symbiosis by pangenomics of a selection of Rhizobiales species, including those associated with _Azolla_, those in symbioses with legumes, and non-symbiotic species.
 Although our sample size is small, we may attempt to mine the pathways found in _Azolla_ associated bacterial genomes for genes under positive selection.
