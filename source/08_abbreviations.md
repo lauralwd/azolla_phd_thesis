@@ -1,9 +1,14 @@
 # Abbreviations {.unnumbered}
 
 \begin{tabbing}
-\textbf{API}~~~~~~~~~~~~ \= \textbf{A}pplication \textbf{P}rogramming \textbf{I}nterface \\  
-\textbf{JSON} \> \textbf{J}ava\textbf{S}cript \textbf{O}bject \textbf{N}otation \\  
+
+\textbf{ACRONYM}~~~~~~~~~~~~ \= \textbf{A} \textbf{C}oncice \textbf{R}epresentation \textbf{O}f \textbf{N}umerous \textbf{Y}arning \textbf{M}arkings \\  
+
+\textbf{CML}\>  \textbf{C}om-\textbf{M}and \textbf{L}ine \\  
+\textbf{FR}\>  \textbf{F}ar-\textbf{R}ed (light) \\  
+\textbf{MAG}\>  \textbf{M}etagenome \textbf{A}ssembled \textbf{G}enome \\  
+\textbf{WGS}\>  \textbf{W}hole \textbf{G}enome \textbf{S}equencing \\  
+
 \end{tabbing}
 
 \newpage
-
