@@ -1,7 +1,6 @@
 \singlespacing
 \setlength{\parindent}{0.0in}
-\large
-# Far-Red Light-Induced Azolla filiculoides Symbiosis Sexual Reproduction: Responsive Transcripts of Symbiont Nostoc azollae Encode Transporters Whilst Those of the Fern Relate to the Angiosperm Floral Transition
+# It takes two: Far-Red light induces the  _Azolla filiculoides_ symbiosis sexual reproduction; triggering symbiont _Nostoc azollae_ transporters and _A. filiculoides_ GAMYB and MIKCc transcription factors.
 
 \footnotesize
 
