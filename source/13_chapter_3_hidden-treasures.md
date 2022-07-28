@@ -339,7 +339,7 @@ add order info to the bins in table 2 to crossref with fig 4
 |`check in anvio` |rest_6           |	3.40	|     | 30  |	 0  |  42 |  0
 |`check in anvio` |rest_7           |	1.36	|     |  0	|  0  |  14 |  0
 
-Table: MAG quality of MAGs assembled from sequencing data derived from the _A. filiculoides_ 'wild' sample. Quality is assessed as approximate genome completion and redundancy by two distint tools: Anvio [ref] and CheckM [ref]. {#tbl:tbl3_2}
+Table: MAG quality of MAGs assembled from sequencing data derived from the _A. filiculoides_ 'wild' sample. Quality is assessed as approximate genome completion and redundancy by two distint tools: Anvio [@Eren2015] and CheckM [@Horton2014]. {#tbl:tbl3_2}
 
 \normalsize
 
