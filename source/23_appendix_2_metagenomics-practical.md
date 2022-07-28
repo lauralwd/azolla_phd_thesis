@@ -1,2 +1,2 @@
-# metagenomics practicall
+# Metagenomics practical
 \label{metagenomics practical}
