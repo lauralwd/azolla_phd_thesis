@@ -319,25 +319,25 @@ add order info to the bins in table 2 to crossref with fig 4
 ```
 \scriptsize
 
-|order            |MAG      | length_mb | abundance_ratio |anvio_compl | anvio_redun | checkm_compl |checkm_redun
-|---              |---       | ---       | ---             | ---        | --------         | ---          | ---
-|Caulobacterales  |Caulobacter     |	3.97  ||	82  |	 3 |	84 |  2
-|Burkholderiales  |Comamonadaceae  | 4.16	|| 93  |	 4 |	94 |  2
-|Burkholderiales  |Curvibacter     |	3.57  || 96  |	 4 |	97 |  1
-|Nostocales       |Cyanobacteria	  | 5.75	|| 96	|  6 |	98 |  0
-|Rhodopspirillales|Ferrovibrio     |	4.05  ||	66  |	 7 |	86 |  2
-|Burkholderiales  |Polaromonas     |	5.15  ||	75	| 24 |	64 | 11
-|Rhizobiales      |Rhizobiales     |	5.34	|| 92  |	 6 |  87 |	3
-|Rhizobiales      |Rhizobium       |	5.25	|| 99  |	11 |	99 |	2
-|Rhodopspirillales|Rhodospirillaceae|5.42	||100	|  1 |	99 |	1
-|Nostocales       |Nostoc      |	4.79  ||	96  |	 3 |	98 |	0
-|`check in anvio` |rest_1          |	2.49	|| 37  |	 7 |  23 |	2
-|`check in anvio` |rest_2	        | 4.19  ||	 0	|  0 |  73 | 13
-|`check in anvio` |rest_3          |	1.09  ||	 0	|  0 |   5 |  0
-|`check in anvio` |rest_4          |	0.86  || 28  |  6 |  19 |	1
-|`check in anvio` |rest_5          |	3.38  ||	39	| 10 |  26 |  2
-|`check in anvio` |rest_6          |	3.40	|| 30  |	 0 |  42 |  0
-|`check in anvio` |rest_7          |	1.36	||  0	|  0 |  14 |  0
+|order | MAG | contig length (Mbase) | Abundance ratio | Anvi'o completeness | Anvi'o redundancy | CheckM completeness | CheckM redundancy
+| -----           | -----           | ---   | --- | --- | --- | --- | ---
+|Caulobacterales  |Caulobacter      |	3.97  |     |	82  |	 3  |	84 |  2
+|Burkholderiales  |Comamonadaceae   | 4.16	|     | 93  |	 4  |	94 |  2
+|Burkholderiales  |Curvibacter      |	3.57  |     | 96  |	 4  |	97 |  1
+|Nostocales       |Cyanobacteria	  | 5.75	|     | 96	|  6  |	98 |  0
+|Rhodopspirillales|Ferrovibrio      |	4.05  |     |	66  |	 7  |	86 |  2
+|Burkholderiales  |Polaromonas      |	5.15  |     |	75	| 24  |	64 | 11
+|Rhizobiales      |Rhizobiales      |	5.34	|     | 92  |	 6  |  87 |	3
+|Rhizobiales      |Rhizobium        |	5.25	|     | 99  |	11  |	99 |	2
+|Rhodopspirillales|Rhodospirillaceae|5.42	  |     |100	|  1  |	99 |	1
+|Nostocales       |Nostoc           |	4.79  |     |	96  |	 3  |	98 |	0
+|`check in anvio` |rest_1           |	2.49	|     | 37  |	 7  |  23 |	2
+|`check in anvio` |rest_2	          | 4.19  |     |	 0	|  0  |  73 | 13
+|`check in anvio` |rest_3           |	1.09  |     |	 0	|  0  |   5 |  0
+|`check in anvio` |rest_4           |	0.86  |     | 28  |  6  |  19 |	1
+|`check in anvio` |rest_5           |	3.38  |     |	39	| 10  |  26 |  2
+|`check in anvio` |rest_6           |	3.40	|     | 30  |	 0  |  42 |  0
+|`check in anvio` |rest_7           |	1.36	|     |  0	|  0  |  14 |  0
 
 Table: MAG quality of MAGs assembled from sequencing data derived from the _A. filiculoides_ 'wild' sample. Quality is assessed as approximate genome completion and redundancy by two distint tools: Anvio [ref] and CheckM [ref]. {#tbl:tbl3_2}
 
