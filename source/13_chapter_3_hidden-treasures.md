@@ -335,9 +335,9 @@ Typically, binning would depend highly on the depth of scaffolds in one sequenci
 Here, we employed a manual method adding extragenous binning signals from the one metagenomic study done on this genus, the seminal paper on the _N. azollae_ genome, and scaffold taxonomy determined by CAT.
 No automated binning algorith can implement these binningsignals while also accounting for the nuances required in interpreting them, hence automated binning algorithms will likely produce false MAGs.
 Using Anvi'o, it is possible to visualise aforementioned extragenous binning signals and bin scaffolds manually whilst accounting for the nature of different binning signals appropriately.
-Within Anvi'o, all metadata was plotted for every biological sample as in +@fig:fig3_Azmic wild-binningsignals.
+Within Anvi'o, all metadata was plotted for every biological sample as in +@fig:fig3_Azmic-binningsignals.
 Next, scaffolds were binned manually, guided at first by autmated binning methods, but primarily by scaffold depth in the native sequencing libraries for that particular biological sample.
-Contig depth was often the most clear binning signal in these samples (+@fig:fig3_Azmic wild-binningsignals).
+Contig depth was often the most clear binning signal in these samples (+@fig:fig3_Azmic-binningsignals).
 Abundance in _A. filiculoides_ 'wild' sequencing was used carefully when applicable, and checked with anvi'o clustering based only on k-mer profiles.
 Using metagenomic sequencing data from another species in the genus relies on the assumption that a bacterium might be shared among these species and risks not binning genome rearangements that have occured.
 This extragenous binning signal was not informative for most MAGs from non-_A. filiculoides_ species but it was for some for some MAGs, for example in _A. mexicana_ (Supp fig. X) and _A. spnov. (Supp fig. X).
@@ -345,33 +345,12 @@ Finally, scaffold taxonomy was considered as an indication to support specific g
 Contig taxonomy often showed discrete patterns matching the input dendrogram and binning when other binning signals were already distinctive, thereby further solidifying CAT taxonomy as a valuable binning signal.
 
 Manual binning with extragenous binning signals and scaffold taxonomy provided high quality bins for alle metagenome assemblies. [Can I visualise this somehow...]
-For exmple in _A. microphylla_ where are MAGS are poorly distributed on the main dendrogram and hard to distinghuish (+@fig:fig3_Azmic wild-binningsignals).
+For exmple in _A. microphylla_ where are MAGS are poorly distributed on the main dendrogram and hard to distinghuish (+@fig:fig3_Azmic-binningsignals).
 Still, manual binning of _A. microphylla_ yielded ninteen MAGs of which eleven can be considered high quality and four medium quality, all with appropriate genome sizes. (Table),
 Note that the clustering dendrogram was based on sequencing depth in all samples and scaffold kmer profile, but not scaffold taxonomy.
 Similar results were obtained for all other plant samples and using the same methodology (supplemental figures X-X).
-```
-Ideally, I can also upload these somewhere so people can visualise them theirselves.
-```
 
-![Anvi'o overview of the _A. microphylla_ 'wild' metagenome assembly and binning into MAGs. The center dendrogram reflects a hierarchical clustering of scaffolds based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (light green), scaffold abundance in PacBio reads from the _A. filiculoides_ 'lab' sample. Then follow several coloured rings representing taxonomy as determined by CAT, starting at the kingdom level down to species level. The before last red ring indicates presence of any ribosomal RNA genes in a scaffold (drastically influencing depth of the scaffold and therefore the binning process). The final ring indicates in which bin a scaffold was categorises. The corresponding bins, their size and estimated completeness are shown in table X.](figures/anvio/assembly_Azmic_IRRI_456_with_binningsignals.png){#fig:fig3_Azmic-binningsignals}
-
-
-Figure 5:
-Anvi'o overview of the _A. microphylla_ metagenome assembly and binning into MAGs.
-The center dendrogram reflects a hierarchical clustering of scaffolds based on 4-mer profiles and differential abundance in biological samples.
-In the dendrogram, each leaf is one scaffold (or split in Anvi'o).
-In circles around the dendrogram, metadata about the scaffolds is displayed.
-This metadata is, in order of inside to outside:
-split-parent,
-scaffold length,
-scaffold GC content (dark green),
-scaffold abundance in native sequencing samples (black),
-scaffold abundance in _A. filiculoides_ leaf cavity enriched samples (blue),
-scaffold abundance in _A. filiculoides_ whole plant samples (light green).
-Then follow several coloured rings representing taxonomy as determined by CAT, starting at the kingdom level down to species level.
-The before last red ring indicates presence of any ribosomal RNA genes in a scaffold (drastically influencing depth of the scaffold and therefore the binning process).
-The final ring indicates in which bin a scaffold was categorises.
-The corresponding bins, their size and estimated completeness are shown in table X.
+![Anvi'o overview of the _A. microphylla_ 'wild' metagenome assembly and binning into MAGs. The center dendrogram reflects a hierarchical clustering of scaffolds based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (light green), scaffold abundance in PacBio reads from the _A. filiculoides_ 'lab' sample. Then follow several coloured rings representing taxonomy as determined by CAT, starting at the kingdom level down to species level. The before last red ring indicates presence of any ribosomal RNA genes in a scaffold (drastically influencing depth of the scaffold and therefore the binning process). The final ring indicates in which bin a scaffold was categorises. The corresponding bins, their size and estimated completeness are shown in table X.](figures/fig3_azmic-metagenome-binning.png){#fig:fig3_Azmic-binningsignals}
 
 ```
 rename all MAGS to at least order level to avoid ugly tables
@@ -520,7 +499,7 @@ Only when genomes in a metagenome as expected to be shared between two different
 Feasibility of this approach depends on the community complexity, relatedness of the samples available, and similarity of microbes in those samples.
 
 An additional binning signal was scaffold taxonomy determined by CAT.
-CAT classifications often overlapped well with bins demarcated clearly by other binning signals (+@fig:fig3_Azfil-wild-binningsignals, +@fig:fig3_Azmic-binningsignals).
+CAT classifications often overlapped well with bins demarcated clearly by other binning signals (+@fig:fig3_Azfil-wild-binningsignals; +@fig:fig3_Azmic-binningsignals).
 This result further confirms the robustness of CAT scaffold classifications and it's use-case for manual binning when depth and k-mer profiles are lacking.
 Single copy marker gene validation with both CheckM and Anvi'o supported the quality of bins for which CAT classification was instrumental in their reconstruction.
 Our view on t hese methods is that a researcher should bin primarily on the sample-native sequencing libraries and k-mer profiles and then use extragenous binning signals and scaffold taxonomoy only in an advising manner.
