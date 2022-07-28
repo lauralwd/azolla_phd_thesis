@@ -31,19 +31,22 @@ propperly implement citations in latex
 Bacteria-host symbioses are present throughout the plant kingdom, and bacteria can contribute all kinds of functions to their host.
 The plant genus _Azolla_ is known to host multiple endophytic bacteria, which it transfers systematically to successive generations.
 Here we set out to acquire bacterial genomes of _Azolla_ associated bacteria by re-using non-metagenomic data already available in public repositories.
-Azolla_ sequencing data of six species was filtered and assembled with a fully reproducible workflow made in the conda and snakemake frameworks.
+_Azolla_ sequencing data of six species was filtered and assembled with a fully reproducible workflow made in the conda and snakemake frameworks.
 Intensive filtering of host DNA data reduced computational requirements but did not increase assembly quality.
 The use of binning signals from foreign samples and taxonomy-based signals was helpful but required careful manual curation during the binning process.
-We successfully assembled between 12 and 22 bacterial genomes from each _Azolla_ species. The majority belongs to only six taxonomical orders and occurs in most species of the _Azolla_ genus.
-High-quality bacterial genomes can be assembled from repository sequencing data, but this requires manual curation. Re-using public data can be a cost-effective method to acquire such genomes.
+High-quality bacterial genomes can be assembled from repository sequencing data, but this requires manual curation.
+Re-using public data can be a cost-effective method to acquire such genomes.
+We successfully assembled between 12 and 22 bacterial genomes per _Azolla_ species.
+The majority belongs to only six taxonomical orders and occurs in most species of the _Azolla_ genus.
 Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus suggests these bacteria may be introduced in some common ancestor of _Azolla_ species and may be selected for in the evolution of the _Azolla_ holobiont.
 
 ## Introduction
 Many bacteria associate with multicellular hosts in symbioses and may convey specific metabolic properties or traits to their hosts.
-Such associations may be temporary, e.g. triggered by abiotic conditions, or they may be practically ubiquitous among a hosts species.
-Symbiotic bacteria may be housed inside host organs, making them endophytes of their host.
-Temporarily associated bacteria are often recruited from the environment of a host; whilst ubiquitously present symbionts may be systematically disseminated by a host species.
-Hosts may even vertically transfer their symbionts and their associated traits to the next generation of hosts.
+Such associations may be temporary or occosional; these bacteria are often recruited from the environment of a host triggered by certain conditions.
+Alternatively, symbionts may be practically ubiquitous among a hosts species.
+They may be housed inside host organs, making them endophytes of their host.
+These ubiquitously present symbionts may even be vertically transfered over host generations.
+The new host generation thereby inherrits the traits associated with these symbionts.
 Such systematic presence in a host species will substantially influence selection pressure on the endophyte genome compared to free-living relatives.
 In such a case, a conglomeration of evolving organisms sharing both genomes and selection pressure can occasionally be seen as a holobiont: a single evolutionary unit comprising several organisms [@Zilber-Rosenberg2008].
 However, the exact scope and applicability of the term remain subject to debate [@Douglas2016].
@@ -64,12 +67,12 @@ Simultaneously, such processes often increase the selectiveness of a methodology
 Full metagenomic sequencing would be a less biased assessment to study all organisms in a symbiosis, at least when one expects more endophytic microbes.
 
 Full metagenomics sequencing is inefficient if symbionts are lowly abundant in plant tissue, and hence the method becomes highly cost-inefficient.
-Alternatively, symbiont genomes may be retrieved from sequencing data already available in data repositories, thereby capitalising on opportunities of the FAIR data age and the diverity thereoff.
+Alternatively, symbiont genomes may be retrieved from sequencing data already available in data repositories, thereby capitalising on opportunities of the FAIR data age and the diversity thereoff.
 We demonstrated this before in chapter \ref{foul play}, where we serendipitously found bacterial genomes as a by-product of the _A. filiculoides_ genome assembly.
 @Delmont2016 extracted three bacterial genomes from the tardigrade genome in a similar fashion, using advanced visualisation and multiple sequencing libraries to puzzle apart the scaffolds of multiple organisms in a single assembly.
 Additionally, a study may benefit from using public data for the scope of the inquiry can be easily widened to include related species and their metagenomes.
 Naturally, the feasibility of such an undertaking depends on data availability in repositories and the complexity of the bacterial community associated with any host.
-Given that sufficient data is available, the challenge is using metagenomics techniques to retrieve these genomes from data generated in experimental designs not intended for metagenomics.
+Given that sufficient data is available, the challenge remains to use metagenomics techniques to retrieve these genomes from data generated in experimental designs not intended for metagenomics.
 Such data could be sequencing libraries of bulk DNA extractions, combining host DNA and DNA of associated microbes.
 When a host has many microbe associations, this increases demands on the experimental design and variety of input data, especially when these microbes are similar.
 One such multi-partite association is the subject studied here: the aquatic ferns of the _Azolla_ genus.
@@ -83,7 +86,7 @@ High sequence identity amongst _N. azollae_ strains taken from various _Azolla_ 
 Consequently, all cyanobacterial strains endophytic to _Azolla_ are likely are the same cyanobacterial genus, perhaps even species.
 At the fern Shoot Apical Meristem (SAM) lies a -somewhat ironically named- 'seed colony of motile _N. azollae_ filaments [Chapter \ref{it takes two}\; @Dijkhuizen2021, @Campbell1893].
 Developing leaves encapsulate part of this seed colony as inoculum for every leaf new cavity [@Campbell1893; @Nierzwicki-Bauer1989].
-_Azolla_ ferns systematically transfer their symbiotic cyanobacteria to next generations via their megaspores `supplemental figure on the life cycle? Perhaps one of Erbil?`.
+_Azolla_ ferns systematically transfer their symbiotic cyanobacteria to next generations via their megaspores (+@fig:fig1_life-cycle).
 Recent papers theorised that the symbiont entered the fern megaspores via small channels [@Ran2010; @Zheng2009].
 Contrastingly, we theorise that early developing spore primordia of either gender encapsulate part of the cyanobacterial seed-colony based on confocal imagery [Chapter \ref{it takes two}\; @Dijkhuizen2021], thereby mirroring the mechanism by which inoculates leaves.
 Megasporocarps retain the cyanobacteria, which then develop into resting stages called akinetes.
@@ -112,7 +115,7 @@ A second theory is that the additional bacteria are mucilage producers, possibly
 This hypothetical function is mainly attributed to a bacterium identified as _Arthrobacter_ [@Forni1992; @Forni1998].
 A third theory is that the additional bacteria inside _Azolla_ leaves may also fix N~2~, mirroring the niche of the cyanobacterial symbiont.
 @Lindblad1991 found these enzymes expressed inside _Azolla_ leaf bacteria by immunogold labelling and TEM.
-In Chapter \ref{foul play} [@Dijkhuizen2018], we did not find evidence for this process, both in  N~2~^15 labelling experiments and in the analyses of the genomes we sequenced.
+In Chapter \ref{foul play} [@Dijkhuizen2018], we did not find evidence for this process, both in  N~2~^15^ labelling experiments and in the analyses of the genomes we sequenced.
 A fourth theory is that these bacteria produce plant growth-promoting factors such as IAA when provided with tryptophan, theoretically reducing tryptophan-inhibition on nitrogen fixation and promoting plant growth by exporting auxin [@Forni1992b; @Forni1996; @Banach2019 ].
 
 Here, we set out to reconstruct all _Azolla_ associated microbial genomes from public sequencing data; some data is part of a metagenomic study design, most is not.
@@ -134,28 +137,27 @@ Finally, we are glad to share the genomes of all these _Azolla_ associated bacte
 ### Tools and data availability
 In this study, we use various metagenomics tools to acquire genomes of bacterial endophytes associated with an entire genus of hosts
 from publicly available bulk DNA extractions.
-Sequenced DNA of various sources was iteratively filtered and assembled into contigs with SPAdes @Nurk2017.
+Sequenced DNA of various sources was iteratively filtered and assembled into contigs with SPAdes [@Nurk2017].
 Data was filtered in the first filter stage by mapping [@Li2009a] against a curated reference consisting of host nuclear DNA and chloroplast DNA by @Li2018 [Azfiv1.1 fernbase] (hostfiltered).
 For the _Azolla_ genus, only the genome of _Azolla filiculoides_ is available; hence this was used for filtering all _Azolla_ species studied here.
 Before use as a filter, the _Azolla filiculoides_ reference genome's taxonomy was rid of any bacterial contigs with CAT [@VonMeijenfeldt2019].
 CAT assigned an approximate taxonomy to contigs by first finding all open reading frames (ORFs), then blasting these to a custom database consisting of the NCBI blast NR protein database and all high confidence proteins of the _A. filiculoides_ v1.1 genome assembly.
-Only contigs classified as eukaryotic/streptophyta/Pteridophyta `I have to double check` were kept in the filter.
+Only contigs classified as eukaryotic were kept in the filter.
 The reads passing the filter were assembled with SPAdes in metagenomics mode [@Nurk2017].
 This first filtering step was not expected to perform equally well for all _Azolla_ species, especially those more phylogenetically distant to the reference genome.
 Hence in a second filter, eukaryotic contigs were identified in each of the hostfiltered assemblies and used as a second filter tailored to a specific sequencing library.
 These double-filtered reads were then assembled again with SPAdes metagenomics mode, and only after this second filtering step hybrid assemblies were generated when multiple sequencing libraries were available per biological sample.
 After assembly, scaffolds were binned into Metagenome Assembled Genomes (MAGs) with several tools, then curated manually in Anvi'o [@Eren2015].
-To reproducible execute and document these analyses, a bioinformatic workflow was created with snakemake and documented in [Github](https://github.com/lauralwd/azolla_genus_metagenome).
-All tools used in this snakemake workflow are selected and installed from the Bioconda repository of bioinformatics software `find references for conda, Bioconda and conda-forge`.
+To reproducible execute and document these analyses, a bioinformatic workflow was created with snakemake [@Molder2021] and documented in [Github](https://github.com/lauralwd/azolla_genus_metagenome).
+All tools used in this snakemake workflow are selected and installed from the Bioconda repository of bioinformatics software.
 Conda environments used in this study can be found in [github env link](https://github.com/lauralwd/Azolla_genus_metagenome/tree/master/envs).
-All final and intermediate files produced with this workflow are hosted on an Utrecht University Data repository which can be found here: [yoda link]
 
 ### Data
 Sequencing data used here represented six of seven species in the _Azolla_ genus and was generated as part of three studies (+@fig:fig3_data-overview).
 These species are part of two subgenera, the _Rhizosperma_ section of the genus comprising _Azolla pinata_ and _Azolla nilotica_, and the _Euazolla_ section comprising the other four species (+@fig:fig3_data-overview\-A)
 Within the _Euazolla_ section, two subclusters of closely related species can be distinguished; firstly _A. rubra_ and _A. filiculoides_ and secondly _A. mexicana_, _A. microphylla_ and _A. carolinana_.
 These subclusters diverged between 10 and 20M years ago.
-The _Rhizosperma_ section is represented only by A. nilotica_ here and is estimated to have diverged from the _Euazolla_  section approximately 50M years ago (+@fig:fig3_data-overview\-A [@Metzgar2007].
+The _Rhizosperma_ section is represented only by _A. nilotica_ here and is estimated to have diverged from the _Euazolla_  section approximately 50M years ago (+@fig:fig3_data-overview\-A [@Metzgar2007].
 The first published data of _Azolla_ Whole Genome Sequencing (WGS) data was Chapter \ref{foul play} [@Dijkhuizen2018].
 In that study, we sampled _A. filiculoides_ from triplicate whole plant fractions and triplicate leaf-pocket enriched fractions (P1,2,3 and L1,2,3 respectively; +@fig:fig3_data-overview\-B).
 Secondly, the _Azolla_ genome project [@Li2018] published short-read sequencing data of six _Azolla_ species, including _A. filiculoides_ and long-read sequencing of _A. filiculoides_ (+@fig:fig3_data-overview\-B).
@@ -167,15 +169,34 @@ These plant strains were sampled at various locations around the globe (+@fig:fi
 The third data source is the seminal paper introducing the _N. azollae_ genome sequence [@Ran2010].
 This paper includes ion-torrent sequencing of a gradient purified extraction of the primary symbiont of _A. filiculoides_.
 Data of the latter study was acquired from SRA: for the first and last studies via the accession numbers listed in +@fig:fig3_data-overview\-B.
-Data of the _Azolla_ genome project was made available to our lab before it was uploaded to a repository; here, we refer to the study as a whole.
+Data of the _Azolla_ genome project was made available to our lab before it was uploaded to a repository.
+Unfortunately, we cannot link the sample identities of the data made available to us, with those uploaded to NCBI SRA, hence,  we refer to the study as a whole.
 In total, this study examines eighteen sequencing libraries, taken from nine biological samples accounting for six _Azolla_ species, treating L1,2,3, P1,2,3 combined as one biological sample.
 
-![DNA sequencing of the _Azolla_ genus. The _Azolla_ genus phylogeny adapted from @Metzgar2007 (A). Sequencing data considered here for species in the _Azolla_ genus (B). Sequencing data was retrieved from two main studies: the _Azolla_ genome project from @Li2018 with accession nr. PRJNA430527 and from Chapter \ref{foul play} [@Dijkhuizen2018] with accession nr. PRJEB19522 abbreviated as α and β respectively in the final column of panel 1B. Sampling details are available in the latter paper. The original sampling location for _Azolla_ specimens sequenced and considered here (C).](source/figures/fig3_data-in-overview.pdf){#fig:fig3_data-overview}
+\begin{sidewaysfigure}
+\begin{figure}
+\hypertarget{fig:fig3_data-overview}{%
+\centering
+\includegraphics{source/figures/fig3_data-in-overview.pdf}
+\caption{DNA sequencing of the \emph{Azolla} genus. The \emph{Azolla}
+genus phylogeny adapted from Metzgar et al. (2007) (A). Sequencing data
+considered here for species in the \emph{Azolla} genus (B). Sequencing
+data was retrieved from two main studies: the \emph{Azolla} genome
+project from Li et al. (2018) with accession nr. PRJNA430527 and from
+Chapter \ref{foul play} (Dijkhuizen et al. 2018) with accession nr.
+PRJEB19522 abbreviated as α and β respectively in the final column of
+panel 1B. Sampling details are available in the latter paper. The
+original sampling location for \emph{Azolla} specimens sequenced and
+considered here (C).}\label{fig:fig3_data-overview}
+}
+\end{figure}
+\end{sidewaysfigure}
 
 ## Results
 
-### Filtering of _Azolla_ sequencing data against host DNA reduces computational requirements and assembly size
+### Filtering of _Azolla_ sequencing data against host DNA reduces assembly size and the computational requirements thereof
 First, we set out to rid raw WGS data from plant DNA to ease assembly of the bacteria whose genomes are also present in this data.
+Filtering reduces input complexity and hence reduces complexity in the assembly graph, possibly improving metagenome assembly quality.
 The bioinformatic workflow developed here, takes short read DNA sequencing data as a main input, then itteratively removes host reads and finally assembles the remainder into contigs (+@fig:fig3_filtering-and-assembly\-A).
 The first stage of host DNA removal is achieved by mapping DNA reads that passed trimmomatic Quality Control (QC) to a reference genome [@Bolger2014], then assembling the remaining reads into contigs with SPAdes in metagenomics mode [@Nurk2017] (host filtered).
 QC removed on average 4.4% and no more than 7% of reads of any of the sequencing libraries (+@fig:fig3_filtering-and-assembly\-B; bottom).
@@ -198,7 +219,7 @@ Secondly, removing host DNA from the assembly input reduces input complexity and
 
 ![Filtering and assembly of DNA sequencing of the _Azolla_ genus. Sequencing filtering workflow and guide to the graph (A). Quantities of sequencing input in Gbase (B; bottom), corresponding assembly output during the process (B; top), and the peak RAM usage during the assembly process (B; RAM usage). The bottom panel shows consequtive sequencing quantities at raw, trimmed, hostfiltered, and double filtered stages. At the latter two stages, sequencing data was assembled with SPAdes. The upper half of panel B shows assembly RAM usage in Gbyte and assembly sizes in MBase for both filtering stages of single sequencing library assemblies, and for hybrid assemblies if applicable.](source/figures/fig3_sequencing-filtering-and-assembly.pdf){#fig:fig3_filtering-and-assembly}
 
-### Filtering reduced eukaryotic DNA content only, but did not increase assembly quality of bacterial DNA
+### Filtering reduced eukaryotic DNA content but did not increase assembly quality of bacterial DNA
 Filtering input sequencing data reduced assembly size, next we investigate the efficacy of this filtering approach in terms of taxonomic complexity and quality of the assembly.
 The main rationale for this intensive filtering approach was to decrease complexity in the metagenome assembly graph; thereby improving the length and quality of assembled bacterial contigs.
 The double filtering step substantially reduced total assembly size (+@fig:fig3_filtering-and-assembly\-B top) and length distributions of eukaryotic contigs (+@fig:fig3_filter-length-distributions Eukaryota, +@tbl:tbl3_1), as well as contigs which were not assigned a taxonomy or did not yield any open reading frames (+@tbl:tbl3_1).
@@ -212,7 +233,7 @@ The bacterial fraction of the metagenome assembly is of substantial size and was
 
 \scriptsize
 
-filter stage    | superkingdom  | contig count | total length (Mb) | median length (kb) | average length (kb)
+filter stage    | superkingdom  | contig count | total contig length (Mb) | median contig length (kb) | average contig length (kb)
 ---             |    ---        |  ---  | --- |  ---  |  ---
 host filtered   | Bacteria	    |	48500	| 814	| 5666	| 16775
 double filtered | Bacteria      |	48304	| 812	| 5671	| 16816
@@ -228,12 +249,6 @@ Table: Assembly statistics per superkingdom before and after the second filterin
 \normalsize
 
 ```
-code for the table in assemblies_length_distributions.html
-
-Perhaps the table should go if there's a figure now.
-Alternatively, I can make a compound figure with both total assembly size and length distributions;
-for the length distributions don't show terribly well the drastic reduction in size of the eukaryotic fraction...
-
 A good testament of assembly quality is ORF length distributions.
 These are not in my current base tables, but have to be extracted from gffs separately
 ```
@@ -243,7 +258,7 @@ The double filtered assemblies contain numerous bacterial contigs of each _Azoll
 Next, we take a genus perspective and compare these assemblies by the taxonomy and abundance, now counting scaffolds rather than contigs.
 Bacterial scaffolds in all doublefiltered assemblies had a median length of 5671 bp; hence, bacterial genomes in the assembly are highly fragmented.
 Despite this fragmentation, scaffolds group into approximate bacterial genomes quite distinctly when examining them by their abundance, length, and taxonomy as determined by CAT (+@fig:fig3_Azolla-genus-metagenome-order).
-The genomes can be recognised as horizontal clusters of dots representing scaffolds with equal abundance and taxonomy but varying scaffold length (+@fig:fig3_Azolla-genus-metagenome-order).
+The genomes can be recognised as clusters of scaffolds with equal abundance and taxonomy but varying scaffold length (+@fig:fig3_Azolla-genus-metagenome-order).
 All samples but the no-cyano sample (+@fig:fig3_Azolla-genus-metagenome-order Azfil_minuscyano) show the most abundant species in the metagenome is a Nostocales cyanobacterium (+@fig:fig3_Azolla-genus-metagenome-order cyan blue).
 Rhizobiales genomes were found in all _Azolla_ species sampled here, visible as horizontal clusters of dots with identical colour (+@fig:fig3_Azolla-genus-metagenome-order purple).
 Plotting the scaffolds of all assemblies by these two characteristics allows to distinguish individual bacterial genomes in each of the _Azolla_ species sampled here (+@fig:fig3_Azolla-genus-metagenome-order).
@@ -278,9 +293,9 @@ First, metagenome assemblies were binned automatically by both metabat2 and conc
 Then, these automatically generated MAGs were imported into Anvi'o and curated manually while being guided by the automated binning and scaffold taxonomy determined by CAT.
 
 The _A. filiculoides_ wild sample metagenome contains multiple high quality MAGs of which several are likely from species living inside the plant leaf cavities.
-Only sequencing data of the _A. filiculoides_ wild sample was derived from a metagenomic study design.
+Only sequencing data of the _A. filiculoides_ wild sample was derived from a metagenomic study design, including samples of whole plants and leaf-pocket enriched 'juice'.
 Separating the different MAGs in this metagenome assembly benefits from differential sampling and the consequent differental abundance of genomes per sample (+@fig:fig3_Azfil-wild-binningsignals).
-Additionally, the PacBio long read sequencing of the _A. filiculoides_ minus-cyano sample which was used as an additional binning signal to distinghuish MAGs from each other, as this data was also used during the final stages of assembly of the _A. filiculoides_ wild sample.
+Additionally, the PacBio RSIIlong read sequencing of the _A. filiculoides_ minus-cyano sample which was used as an additional binning signal to distinghuish MAGs from each other, as this data was also used during the final stages of assembly of the _A. filiculoides_ wild sample.
 Several MAGs of similar taxonomy, i.e. Rhizobium, Rhizobiales, etc., could be resolved into well distinghuised high quality MAGs.
 Binning yielded 7 high quality bins in total (completeness > 90% redundancy < 10%) with appropriate genome sizes, 3 medium quality MAGs also with appropriate sizes(completeness > 60%), and several low quality bins likely representing partial genomes of low abundant bacteria. (+@tbl:tbl3_2).
 Despite the metagenomic study design, not all bins could be resolved to high quality.
