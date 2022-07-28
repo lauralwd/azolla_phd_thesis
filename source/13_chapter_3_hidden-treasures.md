@@ -138,7 +138,7 @@ Finally, we are glad to share the genomes of all these _Azolla_ associated bacte
 In this study, we use various metagenomics tools to acquire genomes of bacterial endophytes associated with an entire genus of hosts
 from publicly available bulk DNA extractions.
 Sequenced DNA of various sources was iteratively filtered and assembled into contigs with SPAdes [@Nurk2017].
-Data was filtered in the first filter stage by mapping [@Li2009a] against a curated reference consisting of host nuclear DNA and chloroplast DNA by @Li2018 [Azfiv1.1 fernbase] (hostfiltered).
+Data was filtered in the first filter stage by mapping [@Li2009a] against a curated reference consisting of host nuclear DNA and chloroplast DNA by @Li2018 (Azfiv1.1 fernbase) (hostfiltered).
 For the _Azolla_ genus, only the genome of _Azolla filiculoides_ is available; hence this was used for filtering all _Azolla_ species studied here.
 Before use as a filter, the _Azolla filiculoides_ reference genome's taxonomy was rid of any bacterial contigs with CAT [@VonMeijenfeldt2019].
 CAT assigned an approximate taxonomy to contigs by first finding all open reading frames (ORFs), then blasting these to a custom database consisting of the NCBI blast NR protein database and all high confidence proteins of the _A. filiculoides_ v1.1 genome assembly.
@@ -358,7 +358,7 @@ This extragenous binning signal was not informative for most MAGs from non-_A. f
 Finally, scaffold taxonomy was considered as an indication to support specific groupings of scaffolds.
 Contig taxonomy often showed discrete patterns matching the input dendrogram and binning when other binning signals were already distinctive, thereby further solidifying CAT taxonomy as a valuable binning signal.
 
-Manual binning with extragenous binning signals and scaffold taxonomy provided high quality bins for alle metagenome assemblies. [Can I visualise this somehow...]
+Manual binning with extragenous binning signals and scaffold taxonomy provided high quality bins for alle metagenome assemblies. `Can I visualise this somehow...``
 For exmple in _A. microphylla_ where are MAGS are poorly distributed on the main dendrogram and hard to distinghuish (+@fig:fig3_Azmic-binningsignals).
 Still, manual binning of _A. microphylla_ yielded ninteen MAGs of which eleven can be considered high quality and four medium quality, all with appropriate genome sizes. (+@tbl:tbl3_3),
 Note that the clustering dendrogram was based on sequencing depth in all samples and scaffold kmer profile, but not scaffold taxonomy.
