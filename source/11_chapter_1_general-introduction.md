@@ -4,11 +4,34 @@
 \setlength{\parindent}{0.5in}
 
 # General introduction
+\label{introduction}
 
 
 
 \newpage
 ## Outline of this thesis.
+
+<!---
+label sections with LaTeX:
+`\label{hidden treasures}`
+or with markdown:
+`{#sec:foul-play-in-the-pocket}`
+
+Then referece to the full chapter name:
+\nameref{hidden treasures}
+
+the specific page:
+\pageref{hidden treasures}
+
+the chapter number:
+\ref{hidden treasures}
+
+with markdown:
++@sec:hidden-treasures
+
+and for a markdown label only markdown refs work:
++@sec:foul-play-in-the-pocket
+--->
 Chapter two details the initial discovery of prokaryotic DNA sequencing data in the initial _A. filiculoides_ genome assembly and includes the work that inspired this PhD project.
 We identify near complete genomes as whole contigs in this assembly, and study these further.
 These contigs are confirmed to be present in _A. filiculoides_ taken from the wild, as well as other _Azolla_ species for which WGS data is available.
