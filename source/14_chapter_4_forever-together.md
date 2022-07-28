@@ -1,4 +1,5 @@
 # Forever together: One nostoc azollae is symbiont to all Azolla species
+\label{forever together}
 
 ### excerpt
 How similar (dis)similar are all *Nostoc azollae* in all *azolla* species. We take the data of chapter 3 and start comparing them.
