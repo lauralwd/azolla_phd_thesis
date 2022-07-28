@@ -135,16 +135,16 @@ Finally, we are glad to share the genomes of all these _Azolla_ associated bacte
 In this study, we use various metagenomics tools to acquire genomes of bacterial endophytes associated with an entire genus of hosts
 from publicly available bulk DNA extractions.
 Sequenced DNA of various sources was iteratively filtered and assembled into contigs with SPAdes @Nurk2017.
-Data was filtered in the first filter stage by mapping `cite bwa` against a curated reference consisting of host nuclear DNA and chloroplast DNA by @Li2018 [Azfiv1.1 fernbase] (hostfiltered).
+Data was filtered in the first filter stage by mapping [@Li2009a] against a curated reference consisting of host nuclear DNA and chloroplast DNA by @Li2018 [Azfiv1.1 fernbase] (hostfiltered).
 For the _Azolla_ genus, only the genome of _Azolla filiculoides_ is available; hence this was used for filtering all _Azolla_ species studied here.
 Before use as a filter, the _Azolla filiculoides_ reference genome's taxonomy was rid of any bacterial contigs with CAT [@VonMeijenfeldt2019].
 CAT assigned an approximate taxonomy to contigs by first finding all open reading frames (ORFs), then blasting these to a custom database consisting of the NCBI blast NR protein database and all high confidence proteins of the _A. filiculoides_ v1.1 genome assembly.
 Only contigs classified as eukaryotic/streptophyta/Pteridophyta `I have to double check` were kept in the filter.
-The reads passing the filter were assembled with SPAdes in metagenomics mode `cite spades`.
+The reads passing the filter were assembled with SPAdes in metagenomics mode [@Nurk2017].
 This first filtering step was not expected to perform equally well for all _Azolla_ species, especially those more phylogenetically distant to the reference genome.
 Hence in a second filter, eukaryotic contigs were identified in each of the hostfiltered assemblies and used as a second filter tailored to a specific sequencing library.
 These double-filtered reads were then assembled again with SPAdes metagenomics mode, and only after this second filtering step hybrid assemblies were generated when multiple sequencing libraries were available per biological sample.
-After assembly, scaffolds were binned into Metagenome Assembled Genomes (MAGs) with several tools, then curated manually in Anvi'o `cite loads of stuff`.
+After assembly, scaffolds were binned into Metagenome Assembled Genomes (MAGs) with several tools, then curated manually in Anvi'o [@Eren2015].
 To reproducible execute and document these analyses, a bioinformatic workflow was created with snakemake and documented in [Github](https://github.com/lauralwd/azolla_genus_metagenome).
 All tools used in this snakemake workflow are selected and installed from the Bioconda repository of bioinformatics software `find references for conda, Bioconda and conda-forge`.
 Conda environments used in this study can be found in [github env link](https://github.com/lauralwd/Azolla_genus_metagenome/tree/master/envs).
@@ -256,7 +256,6 @@ Contigs assigned Nostocales have a high variance in abundance, standard deviatio
 In contrast, other clearly distinghuishable microbial genomes show a typical depth standard deviation often lower than 1, but in almost all cases lower than 10 (depth variance visible in interactive figure).
 This abundance pattern of _Nostoc azollae_ is typical of a degraded genome with many transpons and reptitive regions and may explain why the assembled length of this MAG is shorter than the reference; 4Mbase rather than 6Mbase (+@tbl:tbl3_2).
 Yet, it might also indicate an upper limit of assembly depth.
-`I don't agree with the ploïdy argument, unless different sections of the genome are present in different counts somehow. As long as the polyploid means having the complete genome multiple times in one cell, the line in fig4 should be flat. `
 The second most abundant order accross the genus, is the Rhizobiales, ranging between 16 and 44 Mbase of assembled DNA in the different samples (+@fig:fig3_Azolla-genus-metagenome-order blue; Supplemental file X or [online R shiny app](https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/)).
 In all host species, multiple Rhizobiales genomes can be distinghuised.
 The third most abundant order is the Burkholderiales (+@fig:fig3_Azolla-genus-metagenome-order yellow), which is present in all host species except for _A. rubra_ and amounts to between 5 and 17 Mbase per assembly (Supplemental file X or [online R shiny app](https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/)).
@@ -271,7 +270,7 @@ An exception to this observation are the _A. filiculoides_ minus_cyano samples, 
 Hybrid assemblies are a second exception to this observation.
 In these assemblies, final graph resolution was aided by PacBio long reads from the _A filiculoides_ minus_cyano sample.
 In this process, low abundant scaffolds were combined into longer scaffolds aided by long read data.
-However, the scaffold abundance remains a reflection of the original Illumina contribution to that scaffold only but it is corrected for the new scaffold length; explaining why such long scaffolds can have such a low abundance. `double check this with spades authors`
+However, the scaffold abundance remains a reflection of the original Illumina contribution to that scaffold only but it is corrected for the new scaffold length; explaining why such long scaffolds can have such a low abundance.
 
 ### _Azolla filiculoides_ contains multiple endophytic bacteria
 Contigs of metagenome assemblies were manually binned into MAGs.
