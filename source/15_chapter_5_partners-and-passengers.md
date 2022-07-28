@@ -1,2 +1,2 @@
 # Partners & Passengers?
-\label{parters and passengers}
+\label{partners and passengers}
