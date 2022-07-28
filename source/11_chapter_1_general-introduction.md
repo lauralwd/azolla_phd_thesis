@@ -7,6 +7,9 @@
 \label{introduction}
 
 
+# Azolla symbiosis life cycle
+
+![Illustration of the _Azolla_ symbiosis life cycle by Erbil Güngör](source/figures/fig1_life-cycle.png){#fig:fig1_life-cycle width=100%}
 
 \newpage
 
