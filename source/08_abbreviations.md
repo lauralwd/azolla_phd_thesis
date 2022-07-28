@@ -2,7 +2,7 @@
 
 \begin{tabbing}
 
-\textbf{ACRONYM}~~~~~~~~~~~~ \= \textbf{A} \textbf{C}oncice \textbf{R}epresentation \textbf{O}f \textbf{N}umerous \textbf{Y}arning \textbf{M}arkings \\  
+\textbf{ACRONYM}~~~~~~~~~~~~ \= \textbf{A} \textbf{C}oncise \textbf{R}epresentation \textbf{O}f \textbf{N}umerous \textbf{Y}arning \textbf{M}arkings \\  
 
 \textbf{CML}\>  \textbf{C}om-\textbf{M}and \textbf{L}ine \\  
 \textbf{FR}\>  \textbf{F}ar-\textbf{R}ed (light) \\  
