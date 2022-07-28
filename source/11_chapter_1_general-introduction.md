@@ -47,6 +47,13 @@ Each respresented species of the _Azolla_ genus yielded between 12 and 22 associ
 The majority of these genomes belong only to six taxonomical orders present in the majority of the entire _Azolla_ genus.
 The systematic presence of these taxonomic groups suggests they be selected for in the _Azolla_ symbiosis and they may be vertically transfered over host generations as is the main symbiont _N. azollae_.
 
+__\nameref{metagenomics practical}__ on page \pageref{metagenomics practical} illustrates a educational practical based on these first two chapters.
+I designed a practical to teach the basic metagenomics principles and techniques to Life Sciences students with some form of coding experience.
+The practical introduces the Bash language and tries to learn the main concepts behind metagenomics through a hands-on approach.
+It starts with a metagenome assembly, and guides the students through DNA mapping, binning, quality control, gene annotation and finally plotting of metabolic pathways.
+Exercises are implemented in JuPyter notebooks, combining code-writing with text instructions.
+The practical is freely available on GitHub here [github.com/lauralwd/metagenomicspractical](https://github.com/lauralwd/metagenomicspractical)
+
 __Chapter \ref{forever together}__ (\nameref{forever together} on page \pageref{forever together}) describes the genomics of the main _Azolla_ symbiont: _N. azollae_, using the genomes assembled in chapter \ref{hidden treasures}.
 All _N. azollae_ share near identical genomes and gene content, indicating they are the same species of _N. azollae_, hosted in various _Azolla_ species.
 Their phylogeny confirms they have co-evolved with their hosts.
