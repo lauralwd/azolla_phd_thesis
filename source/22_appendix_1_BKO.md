@@ -1,4 +1,4 @@
-# bUTQ application / BKO portfolio
+# Appendix A: bUTQ application / BKO portfolio
 \label{BKO}
 
 This chapter contains my application for the University Teaching Qualification or BKO (Basis Kwalificatie Onderwijs).
