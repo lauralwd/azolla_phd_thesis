@@ -138,7 +138,7 @@ In addition, six Azolla species were obtained from the bio-fertilizer germplasm 
 \end{threeparttable}
 
 ### Collection and processing of samples from the natural environment
-Whole plants of _A. filiculoides_, its enriched leaf pocket contents, and water filtrates from the surrounding water (13°C, pH 7.2) were collected as triplicate replicates from the Galgenwaard ditch in Utrecht (Table 1) on October 28th 2015.
+Whole plants of _A. filiculoides_, its enriched leaf pocket contents, and water filtrates from the surrounding water (13°C, pH 7.2) were collected as triplicate replicates from the Galgenwaard ditch in Utrecht (+@tab:tbl2_1) on October 28th 2015.
 Plant and water replicates were carried from the collection site in separate containers and treated separately.
 Ferns were filtered using sieves of 4 mm mesh size to remove contaminating aquatic plants and animals, then washed by vortexing at full speed for 60s in 0.5% Tween-20, in batches of 5 g fresh weight (FW).
 For whole plant samples, one plant of 200 mg FW and two ø3 mm glass beads were placed into tubes, snap frozen, and then homogenized by a TissueLyser II (QIAGEN, Duesseldorf, Germany).
@@ -171,7 +171,7 @@ This was done to evaluate the sensitivity of the taxon detection using either Em
 ### Genome assemblies with long reads
 Long reads (PacBioRS II) from DNA of _A. filiculoides_-Sterilized were read-corrected then assembled into scaffolds by both Celera and Falcon assembler pipelines, yielding two preliminary genome assemblies [[https://github.com/PacificBiosciences/FALCON](https://github.com/PacificBiosciences/FALCON)\; @Myers2000; @Koren2012].
 Bacterial scaffolds in the genome assemblies were identified by RNAmmer [@Lagesen2007].
-Bacterial scaffolds with a minimum length of 0.1 Mb were extracted and assigned taxonomy based on the 16S rRNA genes in Mothur using the Silva database (Table 2).
+Bacterial scaffolds with a minimum length of 0.1 Mb were extracted and assigned taxonomy based on the 16S rRNA genes in Mothur using the Silva database (+@tab:tbl2_2).
 Once identified, the scaffolds were submitted to RAST [@Overbeek2014] for annotation, which scored the nearest neighbour.
 
 \begin{sidewaystable}
@@ -286,21 +286,21 @@ All five assembled Metazoa rRNA genes and Genbank reference FJ867794.1 were trim
 Detection of the weevil and the perfect assembly of the _N. azollae_ rRNA confirmed the accuracy of EMIRGE assemblies and subsequent taxonomic assignments by Mothur.
 The bacterial orders Rhizobiales and Burkholderdiales were found enriched in (L) samples by both methods at 2% and 1% abundance, respectively, and in all but one (L) sample by RiboTagger (+@fig:fig2_2, Environmental).
 
-For the cultured Azolla species, short-read sequencing data obtained from seven different species were also analyzed using EMIRGE and RiboTagger (Table 1).
+For the cultured Azolla species, short-read sequencing data obtained from seven different species were also analyzed using EMIRGE and RiboTagger (+@tab:tbl2_1).
 Cultured ferns included _A. filiculoides_ originating from the same ditch as the environmental sample but cultured for two years so as to be devoid of _N. azollae_ (=_A. filiculoides_-Sterilized).
 The most abundant taxonomic assignments from DNA of cultured Azolla species were Viridiplantae nuclei, chloroplast and cyanobacteria (Fig. S1); these were removed so as to reveal taxa present at a lower abundance (+@fig:fig2_2, Cultured).
 Members of Burkholderiales, present in ditch samples of _A. filiculoides_, were infrequently observed in cultured Azolla species.
 However, they were particularly prominent in _A. filiculoides_-Sterilized.
 Similarly, Caulobacteriales were infrequently observed in cultured Azolla.
 In contrast, Rhizobiales were observed in all cultured and environmental Azolla samples, including those devoid of _N. azollae_ (Fig. S2, _A. filiculoides_-Sterilized).
-Azolla accessions from IRRI had been cultured for many years (Table 1), raising the likelihood that their microbiomes were considerably altered from when first collected in their natural environment.
+Azolla accessions from IRRI had been cultured for many years (+@tab:tbl2_1), raising the likelihood that their microbiomes were considerably altered from when first collected in their natural environment.
 The persistent occurrence of Rhizobiales in environmental, cultured and sterilized ferns, however, suggested that these bacteria are closely associated with the fern and possibly have an added ecological function in the Azolla-Nostoc symbiosis.
 Detection of the rRNA genes from Rhizobiales in DNA from _A. filiculoides_-Sterilized further predicted that the long-read nuclear genome assemblies from this plant likely contained scaffolds of persistent bacterial endophytes.
 
 ![Recruitment summary on bacterial scaffolds obtained by Celera or Falcon assemblies of the _A. filiculoides_ genome. Short reads from cultured Azolla species and environmental samples, A.filiculoides leaf pocket enriched and whole plant (L,P) and water control (W), were recruited onto assembly scaffolds including the _A. filiculoides_ chloroplast as well as on to _E.coli_ (GCA\_000005845.2\_ASM584v2) and _N. azollae_ (NC\_014248.1) reference genomes. Bacterial scaffolds were from _A. filiculoides_ genome assemblies computed with either Celera (C) or Falcon (F) pipelines, length of the scaffolds is in megabases (Mb). Read counts were normalized per kb with colour coding in linear scale (top panel) illustrating the dominance of DNA from chloroplast and _N. azollae_. Normalized read counts were further scaled logarithmically (bottom panel) to reveal differences between the negative control _E. coli_ and presence calls for scaffolds belonging to the bacterial genera _Hydrocarboniphaga_, _Rhizobium_ and _Shinella_.](source/figures/fig2_3.png){#fig:fig2_3 width=100%}
 
 ### Near full-length genomes of two novel Rhizobiales species in assemblies of the _A. filiculoides_ genome are present in all Azolla species
-The Falcon and Celera assemblies from the _A. filiculoides_-Sterilized were scanned for bacterial scaffolds (presence of 16S rRNA) with RNAmmer; scaffold taxonomy was then assigned using Mothur if they were longer than 0.1 Mb (Table 2).
+The Falcon and Celera assemblies from the _A. filiculoides_-Sterilized were scanned for bacterial scaffolds (presence of 16S rRNA) with RNAmmer; scaffold taxonomy was then assigned using Mothur if they were longer than 0.1 Mb (+@tab:tbl2_2).
 Both assemblies reproducibly yielded scaffolds from the genera _Shinella_ and _Rhizobium_ (Rhizobiales).
 
 To differentiate true endophytic partners from bacterial infections due to culture treatments or DNA extractions, recruitment analyses were carried out: short reads of all cultured species and environmental samples were mapped to the bacterial scaffolds extracted from the nuclear genome assemblies, then only hits with an identity over 97% were counted and hit frequency normalized for scaffold length, thus generating a heat map (+@fig:fig2_3).
@@ -320,7 +320,7 @@ In contrast, the 3.2 Mb _Rhizobium_ and 4.9 Mb _Shinella_ scaffolds, were repres
 High identity reads were most abundant in _A. filiculoides_ environmental and cultured samples compared to other Azolla species; nevertheless, these scaffolds were mapped with over 90% identity over their full length in all Azolla species.
 The _Hydrocarboniphaga_ scaffold was only highly represented in fern samples in an area confined to the end of the scaffold; this scaffold therefore was likely an artefact of assembly fused at its end to _A. filiculoides_ genomic DNA (Fig. S4).
 
-![Recruitment analysis using short reads from cultured and environmental Azolla and water samples onto reference genomes of _N. azollae_ (GenBank CP002059.1), _E. coli_ (GCA\_000005845.2\_ASM584v2), the _Shinella_ scaffold and two _S. meliloti_  genomes (AL591688.1 and AKZZ01000000 respectively). Reads were from DNA of cultured ferns or from the ditch samples as in Figs. 1-3 (see also Table 1). All reads were mapped with bowtie (options `–very-sensitive`) and identity scores were calculated with a custom script (Materials and Methods). Reads were binned according to identity score and position on the respective genome, then counted per 50 kb for normalization, counts were log10 transformed.](source/figures/fig2_4.pdf){#fig:fig2_4 width=100%}
+![Recruitment analysis using short reads from cultured and environmental Azolla and water samples onto reference genomes of _N. azollae_ (GenBank CP002059.1), _E. coli_ (GCA\_000005845.2\_ASM584v2), the _Shinella_ scaffold and two _S. meliloti_  genomes (AL591688.1 and AKZZ01000000 respectively). Reads were from DNA of cultured ferns or from the ditch samples as in Figs. 1-3 (see also +@tab:tbl2_1). All reads were mapped with bowtie (options `–very-sensitive`) and identity scores were calculated with a custom script (Materials and Methods). Reads were binned according to identity score and position on the respective genome, then counted per 50 kb for normalization, counts were log10 transformed.](source/figures/fig2_4.pdf){#fig:fig2_4 width=100%}
 
 ### The Rhizobiales endophytes of _A. filiculoides_ contain denitrification enzymes
 To explore possible functions of bacteria from the Azolla microbiomes identified during our recruitment analysis, the combined _Rhizobium_ and combined _Shinella_ scaffolds were submitted for annotation to RAST [@Aziz2008; @Overbeek2014], which computed that the most similar organisms were, respectively, _Agrobacterium tumefaciens_ and _Sinorhizobium meliloti_ (Rhizobiales).
