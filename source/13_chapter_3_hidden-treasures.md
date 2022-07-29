@@ -336,37 +336,66 @@ Similar results were obtained for all other plant samples and using the same met
 
 ![Anvi'o overview of the _A. microphylla_ 'wild' metagenome assembly and binning into MAGs. The center dendrogram reflects a hierarchical clustering of scaffolds based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (light green), scaffold abundance in PacBio reads from the _A. filiculoides_ 'lab' sample. Then follow several coloured rings representing taxonomy as determined by CAT, starting at the kingdom level down to species level. The before last red ring indicates presence of any ribosomal RNA genes in a scaffold (drastically influencing depth of the scaffold and therefore the binning process). The final ring indicates in which bin a scaffold was categorises. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_3.](source/figures/fig3_azmic-metagenome-binning.png){#fig:fig3_Azmic-binningsignals}
 
-```
-rename all MAGS to at least order level to avoid ugly tables
-```
+\newpage
+\begin{threeparttable}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.25}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.30}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.08}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.08}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.05}}@{}}
 
-\scriptsize
+\caption{MAG quality of MAGs assembled from sequencing data derived from the \emph{A. filiculoides} 'wild' sample.
+         Quality is assessed as approximate genome completion and redundancy by two distint tools: Anvio (Eren et al. 2015) and CheckM (Horton et al. 2014).
+\label{tbl:tbl3_2}}\tabularnewline
 
-|order            | MAG      | length_mb | anvio_compl | anvio_redun | checkm_compl |checkm_redun
-|---              |---       | ---       | ---         | ---         | ---          | ---
-|Acidobacteriaceae|Acidobacteria             |	4.29	|  82	|  4 |	76  |	0
-|                 |Actinobacteria            |	3.34	|  92	| 27 |	77  |	4
-|                 |Alphaproteobacteria       |	4.80	|  99	|  4 |	80  |	4
-|                 |Alphaproteobacteria2      |	5.13	|  93	|  4 |	91  |	1
-|Caulobacterales  |Asticcacaulis             |	3.48	|  70	|  1 |	82  |	3
-|Caulobacterales  |Asticcacaulis_taihuensis  |	4.14	|  99	|  0 |	98  |	0
-|Cytophagales     |Bacteriodetes             |	6.37	|  99	|  0 |	97  |	0
-|Burkholderiales  |Herbaspirillum            |	4.81	|  96	|  6 |	86  |	2
-|Rhizobiales      |Bradyrhizobiaceae         |	7.29	| 100	|  0 | 100 	| 0
-|Rhizobiales      |Hyphomicrobium            |	3.67	|  76	| 10 |	72  |	2
-|Nevskiales       |Nevskia                   |	6.01	| 100	|  4 |	98  |	5
-|Sphingomonadales |Novosphingobium           |	4.51	| 100	|  4 |	99  |	1
-|Rhizobiales      |Rhizobiales2              |	5.01	|  94	|  4 |	97  |	1
-|Rhizobiales      |Rhizobiales3              |	2.34	|  28	|  3 |	16  |	1
-|Rhizobiales      |Rhizobiales_1             |	7.15	|  93	|  4 |	95  |	1
-|Nostocales       |Nostoc                |	4.85	|  97	|  4 |	99  |	0
-|                 |rest                      |	0.53	|  15	|  4 |	11  |	0
-|                 |rest2                     |	0.21	|   0	|  0 |	 6  |	0
-|                 |rest3                     |	1.62	|   0	|  0 |	20  |	0
+\toprule
+taxonomical order\tnote{a}    &
+MAG name\tnote{b}             &
+\rotatebox{90}{MAG length (Mbase)}            &
+\rotatebox{90}{abundance ratio\tnote{c}}      &
+\rotatebox{90}{PacBio mean coverage\tnote{d}} &
+\rotatebox{90}{Anvi'o completeness\tnote{e}}  &
+\rotatebox{90}{Anvi'o redundancy\tnote{e}}    &
+\rotatebox{90}{CheckM completeness\tnote{e}}  &
+\rotatebox{90}{CheckM redundancy\tnote{e}} \\
+\midrule
+\endhead
 
-Table: MAGs of the _A. microphylla_ metagenome assembly.  {#tbl:tbl3_3}
+Caulobacterales   & Caulobacter       &  3.97 &  0.09 &   0.79 &  82 &  3 & 84 &  2 \\
+Burkholderiales   & Comamonadaceae    &  4.16 &  0.55 &   9.37 &  93 &  4 & 94 &  2 \\
+Burkholderiales   & Curvibacter       &  3.57 &  2.91 &   4.04 &  96 &  4 & 97 &  1 \\
+Nostocales        & Cyanobacteria     &  5.75 &  0.02 &   0.90 &  96 &  6 & 98 &  0 \\
+Rhodopspirillales & Ferrovibrio       &  4.05 &  5.27 &   0.78 &  66 &  7 & 86 &  2 \\
+Burkholderiales   & Polaromonas       &  5.15 &  1.03 &   2.97 &  75 & 24 & 64 & 11 \\
+Rhizobiales       & Rhizobiales       &  5.34 &  1.17 &  24.66 &  92 &  6 & 87 &  3 \\
+Rhizobiales       & Rhizobium         &  5.25 &  2.18 &  59.73 &  99 & 11 & 99 &  2 \\
+Rhodopspirillales & Rhodospirillaceae &  5.42 &  0.45 &   1.25 & 100 &  1 & 99 &  1 \\
+Nostocales        & Nostoc            &  4.79 &  1.68 &   0.45 &  96 &  3 & 98 &  0 \\
+check in anvio    & rest\_1           &  2.49 &  0.54 &   0.36 &  37 &  7 & 23 &  2 \\
+check in anvio    & rest\_2           &  4.19 &  0.47 & 105.93 &   0 &  0 & 73 & 13 \\
+check in anvio    & rest\_3           &  1.09 &  0.37 &  79.47 &   0 &  0 &  5 &  0 \\
+check in anvio    & rest\_4           &  0.86 &  0.20 &  10.88 &  28 &  6 & 19 &  1 \\
+check in anvio    & rest\_5           &  3.38 &  0.06 &   0.07 &  39 & 10 & 26 &  2 \\
+check in anvio    & rest\_6           &  3.40 &  1.63 &   0.37 &  30 &  0 & 42 &  0 \\
+check in anvio    & rest\_7           &  1.36 &  0.69 &   0.11 &   0 &  0 & 14 &  0 \\
+\bottomrule
+\end{longtable}
 
-\normalsize
+\begin{tablenotes}
+  \footnotesize
+  \item[a] Taxonomic order determined by BAT taxonomy (VonMeijenfeldt \emph{et al.} (2019)
+  \item[b] manually assigned name
+  \item[c] Mean coverage in leaf pocket samples over mean coverage of whole plant samples from the Dijkhuizen. \emph{et al.} (2018) study.
+  \item[d] Mean coverage of PacBio RS II reads from Li \emph{et al.} (2018)
+  \item[e] MAG completeness and redundancy assessed via Single Copy Marker Gene scoring
+  \end{tablenotes}
+
+\end{threeparttable}
 
 ### Decontaminated metagenome assemblies provide up to 22 bins per biological sample
 Manual binning with extragenous binning signals yields between 12 and 22 bins for each non-sterilised _Azolla_ sample of which the majority is considered to be a high quality bin (+@tbl:tbl3_4).
