@@ -313,28 +313,6 @@ add order info to the bins in table 2 to crossref with fig 4
 
 ```
 
-|order | MAG | contig length (Mbase) | Abundance ratio | PacBio mean coverage | Anvi'o completeness | Anvi'o redundancy | CheckM completeness | CheckM redundancy
-| -----           | -----           | ---  | ---  | ---   | --- | --- | --- | ---
-|Caulobacterales  |Caulobacter      |	3.97 | 0.09 |  0.79 | 82  |	 3  |	84 |  2
-|Burkholderiales  |Comamonadaceae   | 4.16 | 0.55 |  9.37 | 93  |	 4  |	94 |  2
-|Burkholderiales  |Curvibacter      |	3.57 | 2.91 |  4.04 | 96  |	 4  |	97 |  1
-|Nostocales       |Cyanobacteria	  | 5.75 | 0.02 |  0.90 | 96	|  6  |	98 |  0
-|Rhodopspirillales|Ferrovibrio      |	4.05 | 5.27 |  0.78 | 66  |	 7  |	86 |  2
-|Burkholderiales  |Polaromonas      |	5.15 | 1.03 |  2.97 | 75	| 24  |	64 | 11
-|Rhizobiales      |Rhizobiales      |	5.34 | 1.17 | 24.66 | 92  |  6  |  87 |	3
-|Rhizobiales      |Rhizobium        |	5.25 | 2.18 | 59.73 | 99  | 11  |	99 |	2
-|Rhodopspirillales|Rhodospirillaceae| 5.42 | 0.45 |  1.25 |100	|  1  |	99 |	1
-|Nostocales       |Nostoc           |	4.79 | 1.68 |  0.45 |	96  |	 3  |	98 |	0
-|`check in anvio` |rest_1           |	2.49 | 0.54 |  0.36 | 37  |	 7  |  23 |	2
-|`check in anvio` |rest_2	          | 4.19 | 0.47 |105.93 |	 0	|  0  |  73 | 13
-|`check in anvio` |rest_3           |	1.09 | 0.37 | 79.47 |	 0	|  0  |   5 |  0
-|`check in anvio` |rest_4           |	0.86 | 0.20 | 10.88 | 28  |  6  |  19 |	1
-|`check in anvio` |rest_5           |	3.38 | 0.06 |  0.07 |	39	| 10  |  26 |  2
-|`check in anvio` |rest_6           |	3.40 | 1.63 |  0.37 | 30  |	 0  |  42 |  0
-|`check in anvio` |rest_7           |	1.36 | 0.69 |  0.11 |  0	|  0  |  14 |  0
-
-Table: MAG quality of MAGs assembled from sequencing data derived from the _A. filiculoides_ 'wild' sample. Quality is assessed as approximate genome completion and redundancy by two distint tools: Anvio [@Eren2015] and CheckM [@Horton2014]. {#tbl:tbl3_2}
-
 ### Binning assemblies from non-metagenomic data is feasible with extragenous binning signals
 Provided with thoroughly filtered metagenome assemblies, the binning process becomes feasible even if the assembly lacks a metagenomic study design.
 Typically, binning would depend highly on the depth of scaffolds in one sequencing library and on k-mer profiles of  scaffolds.
