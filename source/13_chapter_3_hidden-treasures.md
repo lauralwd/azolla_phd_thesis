@@ -423,22 +423,22 @@ The point I'd like to examine here, is if I can show in numbers, that the manual
 \tabularnewline
 
 \toprule
-Species \& Sample                &
+Species \& Sample                               &
 \rotatebox{45}{total nr. of bins}               &
-\rotatebox{45}{metagenome fraction in bins}     &
+\rotatebox{45}{metagenome fraction in bins (%)} &
 \rotatebox{45}{bins passing Anvi'o QC\tnote{a}} &
 \rotatebox{45}{bins passing CheckM QC\tnote{a}} \\
 \midrule
 \endhead
-\emph{Azolla mexicana}                    & 22 &  & 12 & 13 \\
-\emph{Azolla nilotica}                    & 20 &  &  9 & 10 \\
-\emph{Azolla microphylla}                 & 19 &  & 14 & 15 \\
-\emph{Azolla filiculoides} 'wild'         & 18 &  &  8 &  9 \\
-\emph{Azolla filiculoides} 'lab'          & 17 &  & 10 & 13 \\
-\emph{Azolla carolinana} 1                & 15 &  &  9 &  9 \\
-\emph{Azolla carolinana} 2                & 13 &  & 12 & 12 \\
-\emph{Azolla rubra}                       & 12 &  &  9 &  9 \\
-\emph{Azolla filiculoides} 'minus-cyano'  &  5 &  &  5 &  5 \\
+\emph{Azolla mexicana}                    & 22 & 89 & 12 & 13 \\
+\emph{Azolla nilotica}                    & 20 & 84 &  9 & 10 \\
+\emph{Azolla microphylla}                 & 19 & 79 & 14 & 15 \\
+\emph{Azolla filiculoides} 'wild'         & 18 & 36 &  8 &  9 \\
+\emph{Azolla filiculoides} 'lab'          & 17 & 73 & 10 & 13 \\
+\emph{Azolla carolinana} 1                & 15 & 79 &  9 &  9 \\
+\emph{Azolla carolinana} 2                & 13 & 71 & 12 & 12 \\
+\emph{Azolla rubra}                       & 12 & 85 &  9 &  9 \\
+\emph{Azolla filiculoides} 'minus-cyano'  &  5 & 84 &  5 &  5 \\
 \bottomrule
 \end{longtable}
 
