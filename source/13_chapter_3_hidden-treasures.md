@@ -423,11 +423,11 @@ The point I'd like to examine here, is if I can show in numbers, that the manual
 \tabularnewline
 
 \toprule
-Species \& Sample                               &
-\rotatebox{45}{total nr. of bins}               &
-\rotatebox{45}{metagenome fraction in bins (%)} &
-\rotatebox{45}{bins passing Anvi'o QC\tnote{a}} &
-\rotatebox{45}{bins passing CheckM QC\tnote{a}} \\
+Species \& Sample                                         &
+\rotatebox{45}{total nr. of bins}                         &
+\rotatebox{45}{metagenome fraction in bins (\%)\tnote{b}} &
+\rotatebox{45}{bins passing Anvi'o QC\tnote{a}}           &
+\rotatebox{45}{bins passing CheckM QC\tnote{a}}           \\
 \midrule
 \endhead
 \emph{Azolla mexicana}                    & 22 & 89 & 12 & 13 \\
