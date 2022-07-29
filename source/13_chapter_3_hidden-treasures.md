@@ -240,11 +240,6 @@ double filtered | no ORFs found | 25323	| 101	| 3282	|  3989
 
 Table: Assembly statistics per superkingdom before and after the second filtering stage. {#tbl:tbl3_1}
 
-```
-A good testament of assembly quality is ORF length distributions.
-These are not in my current base tables, but have to be extracted from gffs separately
-```
-
 ### Filtered metagenome assemblies contain distinct microbial genomes systematically reoccuring in the _Azolla_ genus
 The double filtered assemblies contain numerous bacterial contigs of each _Azolla_ species sampled here (+@fig:fig3_filter-length-distributions Bacteria).
 Next, we take a genus perspective and compare these assemblies by the taxonomy and abundance, now counting scaffolds rather than contigs.
