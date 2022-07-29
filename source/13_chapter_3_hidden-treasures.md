@@ -409,25 +409,44 @@ The point I'd like to examine here, is if I can show in numbers, that the manual
  This would be the techinal take-away of the methods part of this manuscript
  The biological take-away, the genus wide systematic occurance, is for the next section:
 ```
+\begin{threeparttable}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.05}}@{}}
 
-|Sample        | bins total | total-bin/over/metagenome-assembly-size | bins passing anvi'o QC | bins passing CheckM QC |
-|  ------                             | -- | -- | -- | -- |
-| _Azolla mexicana_                   | 22 |    | 12 | 13 |
-| _Azolla nilotica_                   | 20 |    |  9 | 10 |  
-| _Azolla microphylla_                | 19 |    | 14 | 15 |
-| _Azolla filiculoides_ 'wild'        | 18 |    |  8 |  9 |
-| _Azolla filiculoides_ 'lab'         | 17 |    | 10 | 13 |
-| _Azolla carolinana_ 1               | 15 |    |  9 |  9 |
-| _Azolla carolinana_ 2               | 13 |    | 12 | 12 |
-| _Azolla rubra_                      | 12 |    |  9 |  9 |
-| _Azolla filiculoides_ 'minus-cyano' |  5 |    |  5 |  5 |
+\caption{MAG yield per biological sample and their quality as assessed
+  by presence of single copy marker genes via both Anvi'o and CheckM.
+  \label{tbl:tbl3_4}}
+\tabularnewline
 
-Table: MAG yield per biological sample and their quality as assessed by presence of single copy marker genes via both Anvi'o and CheckM. {#tbl:tbl3_4}
+\toprule
+Species \& Sample                &
+\rotatebox{45}{total nr. of bins}               &
+\rotatebox{45}{metagenome fraction in bins}     &
+\rotatebox{45}{bins passing Anvi'o QC\tnote{a}} &
+\rotatebox{45}{bins passing CheckM QC\tnote{a}} \\
+\midrule
+\endhead
+\emph{Azolla mexicana}                    & 22 &  & 12 & 13 \\
+\emph{Azolla nilotica}                    & 20 &  &  9 & 10 \\
+\emph{Azolla microphylla}                 & 19 &  & 14 & 15 \\
+\emph{Azolla filiculoides} 'wild'         & 18 &  &  8 &  9 \\
+\emph{Azolla filiculoides} 'lab'          & 17 &  & 10 & 13 \\
+\emph{Azolla carolinana} 1                & 15 &  &  9 &  9 \\
+\emph{Azolla carolinana} 2                & 13 &  & 12 & 12 \\
+\emph{Azolla rubra}                       & 12 &  &  9 &  9 \\
+\emph{Azolla filiculoides} 'minus-cyano'  &  5 &  &  5 &  5 \\
+\bottomrule
+\end{longtable}
 
-passing qc >70 completeness and less than 20 redundancy
+\begin{tablenotes}
+  \item[a] Passing QC means over 70 completeness and less than 20 redundancy.
+\end{tablenotes}
 
-
-
+\end{threeparttable}
 
 ### Systematic occurence of taxonomical orders in the entire _Azolla_ genus
 Next, we assessed whether MAGs of certain taxonomical orders reoccur systematically in the _Azolla_ genus as scaffolds did in +@fig:fig3_Azolla-genus-metagenome-order.
