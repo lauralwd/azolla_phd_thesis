@@ -178,16 +178,15 @@ In total, this study examines eighteen sequencing libraries, taken from nine bio
 \hypertarget{fig:fig3_data-overview}{%
 \centering
 \includegraphics{source/figures/fig3_data-in-overview.pdf}
-\caption{DNA sequencing of the \emph{Azolla} genus. The \emph{Azolla}
-genus phylogeny adapted from Metzgar et al. (2007) (A). Sequencing data
-considered here for species in the \emph{Azolla} genus (B). Sequencing
-data was retrieved from two main studies: the \emph{Azolla} genome
-project from Li et al. (2018) with accession nr. PRJNA430527 and from
-Chapter \ref{foul play} (Dijkhuizen et al. 2018) with accession nr.
-PRJEB19522 abbreviated as α and β respectively in the final column of
-panel 1B. Sampling details are available in the latter paper. The
-original sampling location for \emph{Azolla} specimens sequenced and
-considered here (C).}\label{fig:fig3_data-overview}
+\caption{
+  DNA sequencing of the \emph{Azolla} genus. The \emph{Azolla} genus phylogeny adapted from Metzgar et al. (2007) (A). Sequencing data considered here for species in the \emph{Azolla} genus (B).
+  Sequencing data was retrieved from two main studies:
+  the \emph{Azolla} genome project from Li et al. (2018) with accession nr. PRJNA430527 and from
+  Chapter \ref{foul play} (Dijkhuizen et al. 2018) with accession nr. PRJEB19522 abbreviated as α and β
+  respectively in the final column of panel 1B.
+  Sampling details are available in the latter paper.
+  The original sampling location for \emph{Azolla} specimens sequenced and considered here (C).}
+\label{fig:fig3_data-overview}
 }
 \end{figure}
 \end{sidewaysfigure}
