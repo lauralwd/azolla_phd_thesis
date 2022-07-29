@@ -214,7 +214,6 @@ Both ammonium and nitrate added individually inhibited sporocarp formation (data
 The ratio of mega- to microsporocarp was approximately equal over nine weeks of induction with FR (Supplementary Figure S1F).
 Additionally, the marker SOC1-like from _A. filiculoides_ [@Brouwer2014], was maximally induced when sporocarps became visible four weeks after FR induction started (Supplementary Figure S1G).
 
-\scriptsize
 | Megaspores: Massulae   | Galgenwaard | Krommerijn | Hoogwoud | Gran Canaria | Den Bosch | Nijmegen | Nieuwebrug | Groningen |
 | ---------------------- | ----------- | ---------- | -------- | ------------ | --------- | -------- | ---------- | --------- |
 | Galgenwaard            | \>1000      | 17         |          | 1            |           | 13       |            | 2         |
@@ -227,7 +226,6 @@ Additionally, the marker SOC1-like from _A. filiculoides_ [@Brouwer2014], was ma
 | Groningen              |             |            | 1        |              |           |          | 5          |           |
 
 Table: Sporeling counts obtained from random crosses of _A. filiculoides_ strains collected in the Netherlands and Spain (Gran Canaria). {#tbl:tbl6_crosses}
-\normalsize
 
 [^crosses]: crosses involving megaspores from the Gran Canaria strain reproducibly germinated late, generally after 5 weeks instead of 2-3 weeks.
 
@@ -289,7 +287,6 @@ These changes in light harvesting-related transcripts were small, however, compa
 We conclude that a one-week induction of reproductive structures with FR may have caused few and small transcriptional changes reflecting light-harvesting adaptations in _N. azollae_.
 The larger differential accumulation of transporter transcripts may reflect more important changes in metabolite trafficking and communication with the host fern.
 
-\scriptsize
 | _A. filiculoides_ locus | baseMean | Log2Fold Change | DESeq2 padj | Mercator 4.0 annotation              | Closest _Arabidopsis_ Homolog               |
 | ----------------------- | -------- | --------------- | ----------- | ------------------------------------ | ------------------------------------------- |
 | Azfi\_s0028.g024032     | 9        | 7.22            | 0.001       | 15.5.14 MADS/AGL                     | AGL20/SOC1, MIKCC                           |
@@ -308,8 +305,6 @@ The larger differential accumulation of transporter transcripts may reflect more
 | Azfi\_s0182.g056462     | 10       | \-4.46          | 0.049       | 15.5.3 HD-ZIP I/II                   | HB16                                        |
 
 Table: Transcription factors with largest changes in transcript abundance in sporophytes in TL with versus without FR. TF with homology to TF related to flowering are bold type. {#tbl:tbl6_TFs}
-
-\normalsize
 
 [^R2R3]: R2R3 MYB classification according to @Jiang2020a.
 
