@@ -742,3 +742,134 @@ This is such an example, perhaps many plant-microbe associations are.
 The plant genome does add complexity, but other than that ...
 [@Rillig2019]
 ```
+\newpage
+## Supplemental data
+\tiny
+| taxonomical order | MAG name | MAG length (Mbase) | Anvi\'o completeness | Anvi\'o redundancy | CheckM completeness | CheckM redundancy |
+| ----------------- | ------------- | --   | --  | --   | --  | --   |
+| _Azolla rubra_                     | Asticcacaulis             | 4.29       | 100          | 0            | 100           | 1             |
+| _Azolla rubra_                     | Betaproteobacteria        | 3.27       | 99           | 0            | 100           | 1             |
+| _Azolla rubra_                     | Methylovorus              | 3          | 100          | 3            | 100           | 0             |
+| _Azolla rubra_                     | Rhizobiales               | 5.28       | 96           | 0            | 99            | 0             |
+| _Azolla rubra_                     | Rhizobiales2              | 5.09       | 80           | 1            | 100           | 1             |
+| _Azolla rubra_                     | Rhizobiales3              | 4.56       | 100          | 1            | 99            | 0             |
+| _Azolla rubra_                     | Rhizobiales4              | 4.67       | 94           | 0            | 97            | 1             |
+| _Azolla rubra_                     | Rhizobiales5              | 2.45       | 45           | 1            | 29            | 0             |
+| _Azolla rubra_                     | Trichormus                | 4.7        | 97           | 3            | 98            | 0             |
+| _Azolla rubra_                     | alphaproteobacteria       | 6.3        | 100          | 6            | 100           | 0             |
+| _Azolla rubra_                     | proteobacteria            | 4.75       | 70           | 8            | 74            | 3             |
+| _Azolla filiculoides_ 'lab'        | Bacteria                  | 5.05       | 51           | 4            | 44            | 13            |
+| _Azolla filiculoides_ 'lab'        | Bacteriodetes1            | 3.41       | 63           | 4            | 83            | 3             |
+| _Azolla filiculoides_ 'lab'        | Bacteriodetes2            | 0.95       | 85           | 3            | 82            | 0             |
+| _Azolla filiculoides_ 'lab'        | Bacteriodetes3            | 2.29       | 54           | 3            | 42            | 1             |
+| _Azolla filiculoides_ 'lab'        | Bradyrhizobiaceae         | 8.01       | 65           | 11           | 73            | 19            |
+| _Azolla filiculoides_ 'lab'        | Bradyrhizobiaceae2        | 4.95       | 55           | 1            | 63            | 4             |
+| _Azolla filiculoides_ 'lab'        | Bradyrhizobiaceae3        | 5.75       | 73           | 1            | 64            | 5             |
+| _Azolla filiculoides_ 'lab'        | Bradyrhizobium            | 8.8        | 96           | 10           | 94            | 14            |
+| _Azolla filiculoides_ 'lab'        | Burkholderiales           | 5.6        | 87           | 31           | 87            | 13            |
+| _Azolla filiculoides_ 'lab'        | Hyphomicrobium            | 3.84       | 100          | 0            | 97            | 0             |
+| _Azolla filiculoides_ 'lab'        | Ralstonia\_1              | 5.18       | 66           | 6            | 80            | 4             |
+| _Azolla filiculoides_ 'lab'        | Rhizobiaceae\_endophytic  | 5.18       | 100          | 0            | 99            | 0             |
+| _Azolla filiculoides_ 'lab'        | Rhizobiales               | 4.39       | 86           | 0            | 97            | 1             |
+| _Azolla filiculoides_ 'lab'        | Sinobacteraceae           | 3.87       | 97           | 3            | 97            | 1             |
+| _Azolla filiculoides_ 'lab'        | Sphingobacteriales        | 7.75       | 94           | 0            | 99            | 2             |
+| _Azolla filiculoides_ 'lab'        | Sphingomonas              | 4.3        | 94           | 0            | 95            | 1             |
+| _Azolla filiculoides_ 'lab'        | Trichormus\_azollae       | 4.72       | 96           | 3            | 98            | 0             |
+| _Azolla filiculoides_ 'minus-cyano'| Paenibacillus\_lab        | 8.07       | 100          | 6            | 99            | 1             |
+| _Azolla filiculoides_ 'minus-cyano'| Ralstonia\_maybewild      | 5.54       | 100          | 3            | 100           | 1             |
+| _Azolla filiculoides_ 'minus-cyano'| Rhizobiales\_endophytic   | 5.21       | 100          | 0            | 100           | 0             |
+| _Azolla filiculoides_ 'minus-cyano'| Rhizobiales\_lab          | 6.3        | 100          | 0            | 98            | 1             |
+| _Azolla filiculoides_ 'minus-cyano'| Rhizobiales\_wild         | 5.59       | 100          | 0            | 100           | 0             |
+| _Azolla mexicana_                  | Asticcacaulis             | 5.19       | 100          | 0            | 99            | 1             |
+| _Azolla mexicana_                  | Bradyrhizobiaceae         | 6.65       | 54           | 4            | 70            | 2             |
+| _Azolla mexicana_                  | Burkholderiales1          | 3.21       | 66           | 14           | 70            | 11            |
+| _Azolla mexicana_                  | Burkholderiales2          | 7.9        | 161          | 39           | 108           | 18            |
+| _Azolla mexicana_                  | Herbaspirillum            | 5.17       | 100          | 1            | 100           | 0             |
+| _Azolla mexicana_                  | Methylophilaceae          | 2.62       | 56           | 3            | 94            | 1             |
+| _Azolla mexicana_                  | Methylophilaceae2         | 3.03       | 94           | 1            | 97            | 0             |
+| _Azolla mexicana_                  | Nevskia\_soli             | 5.44       | 97           | 6            | 93            | 5             |
+| _Azolla mexicana_                  | Novosphingobium           | 4.07       | 97           | 0            | 97            | 0             |
+| _Azolla mexicana_                  | Rhizobiales               | 4.59       | 61           | 6            | 95            | 1             |
+| _Azolla mexicana_                  | Rhizobiales2\_1           | 4.29       | 94           | 0            | 95            | 1             |
+| _Azolla mexicana_                  | Rhizobiales3              | 5.45       | 61           | 0            | 98            | 0             |
+| _Azolla mexicana_                  | Rhizobiales4              | 4.38       | 100          | 4            | 100           | 2             |
+| _Azolla mexicana_                  | Sphingomonadaceae         | 4.3        | 100          | 0            | 99            | 0             |
+| _Azolla mexicana_                  | Sphingomonadaceae2        | 4.59       | 94           | 0            | 90            | 1             |
+| _Azolla mexicana_                  | Trichormus                | 4.87       | 97           | 4            | 99            | 0             |
+| _Azolla mexicana_                  | rest\_1                   | 0.98       | 73           | 24           | 59            | 17            |
+| _Azolla mexicana_                  | rest\_2                   | 2.05       | 45           | 0            | 9             | 0             |
+| _Azolla mexicana_                  | rest\_3                   | 4.37       | 61           | 1            | 28            | 2             |
+| _Azolla mexicana_                  | rest\_4                   | 3.65       | 42           | 17           | 30            | 8             |
+| _Azolla mexicana_                  | rest\_5                   | 6.68       | 0            | 0            | 39            | 9             |
+| _Azolla microphylla_               | Acidobacteria             | 4.29       | 82           | 4            | 76            | 0             |
+| _Azolla microphylla_               | Actinobacteria            | 3.34       | 92           | 27           | 77            | 4             |
+| _Azolla microphylla_               | Alphaproteobacteria       | 4.8        | 99           | 4            | 80            | 4             |
+| _Azolla microphylla_               | Alphaproteobacteria2      | 5.13       | 93           | 4            | 91            | 1             |
+| _Azolla microphylla_               | Asticcacaulis             | 3.48       | 70           | 1            | 82            | 3             |
+| _Azolla microphylla_               | Asticcacaulis\_taihuensis | 4.14       | 99           | 0            | 98            | 0             |
+| _Azolla microphylla_               | Bacteriodetes             | 6.37       | 99           | 0            | 97            | 0             |
+| _Azolla microphylla_               | Bradyrhizobiaceae         | 7.29       | 100          | 0            | 100           | 0             |
+| _Azolla microphylla_               | Herbaspirillum            | 4.81       | 96           | 6            | 86            | 2             |
+| _Azolla microphylla_               | Hyphomicrobium            | 3.67       | 76           | 10           | 72            | 2             |
+| _Azolla microphylla_               | Nevskia                   | 6.01       | 100          | 4            | 98            | 5             |
+| _Azolla microphylla_               | Novosphingobium           | 4.51       | 100          | 4            | 99            | 1             |
+| _Azolla microphylla_               | Rhizobiales2              | 5.01       | 94           | 4            | 97            | 1             |
+| _Azolla microphylla_               | Rhizobiales3              | 2.34       | 28           | 3            | 16            | 1             |
+| _Azolla microphylla_               | Rhizobiales\_1            | 7.15       | 93           | 4            | 95            | 1             |
+| _Azolla microphylla_               | Trichormus                | 4.85       | 97           | 4            | 99            | 0             |
+| _Azolla microphylla_               | rest                      | 0.53       | 15           | 4            | 11            | 0             |
+| _Azolla microphylla_               | rest2                     | 0.21       | 0            | 0            | 6             | 0             |
+| _Azolla microphylla_               | rest3                     | 1.62       | 0            | 0            | 20            | 0             |
+| _Azolla nilotica_                  | Bacteria                  | 4.32       | 97           | 0            | 100           | 1             |
+| _Azolla nilotica_                  | Bacteria2                 | 4.33       | 86           | 10           | 68            | 1             |
+| _Azolla nilotica_                  | Bacteriodetes             | 3.51       | 99           | 4            | 97            | 1             |
+| _Azolla nilotica_                  | Bacteroidetes2            | 3.64       | 96           | 1            | 99            | 0             |
+| _Azolla nilotica_                  | Bradyrhizobiaceae         | 6.66       | 63           | 6            | 84            | 9             |
+| _Azolla nilotica_                  | Bradyrhizobiaceae2        | 4.63       | 61           | 11           | 67            | 12            |
+| _Azolla nilotica_                  | Burkholderiaceae          | 3.35       | 39           | 3            | 43            | 3             |
+| _Azolla nilotica_                  | Comamonadaceae            | 3.62       | 100          | 1            | 98            | 0             |
+| _Azolla nilotica_                  | Mesorhizobium             | 6.39       | 94           | 1            | 98            | 1             |
+| _Azolla nilotica_                  | Rhizobiales               | 4.43       | 62           | 1            | 83            | 0             |
+| _Azolla nilotica_                  | Rhizobiales2              | 4.77       | 56           | 3            | 25            | 1             |
+| _Azolla nilotica_                  | Sphingomonas              | 4.53       | 97           | 0            | 99            | 3             |
+| _Azolla nilotica_                  | Trichormus                | 4.76       | 97           | 4            | 98            | 0             |
+| _Azolla nilotica_                  | bacteriodetes3            | 3.61       | 89           | 7            | 78            | 0             |
+| _Azolla nilotica_                  | betaproteobactera         | 9.82       | 58           | 31           | 74            | 48            |
+| _Azolla nilotica_                  | rest1                     | 0.52       | 46           | 18           | 18            | 7             |
+| _Azolla nilotica_                  | rest2                     | 3.95       | 34           | 6            | 32            | 0             |
+| _Azolla nilotica_                  | rest\_3                   | 0.88       | 32           | 17           | 4             | 0             |
+| _Azolla nilotica_                  | rest\_4                   | 2.02       | 0            | 0            | 14            | 0             |
+| _Azolla nilotica_                  | rest\_5                   | 0.24       | 0            | 0            | 3             | 0             |
+| _Azolla caroliniana_ 1             | Alphaproteobacteria       | 2.48       | 34           | 3            | 33            | 0             |
+| _Azolla caroliniana_ 1             | Asticacaulis              | 4.48       | 69           | 0            | 68            | 0             |
+| _Azolla caroliniana_ 1             | Bacteria                  | 2.49       | 59           | 4            | 49            | 1             |
+| _Azolla caroliniana_ 1             | Bacteria2                 | 4.97       | 100          | 0            | 95            | 1             |
+| _Azolla caroliniana_ 1             | Bradyrhizobiaceae         | 3.43       | 70           | 1            | 97            | 0             |
+| _Azolla caroliniana_ 1             | Bradyrhizobium            | 8.31       | 100          | 1            | 100           | 1             |
+| _Azolla caroliniana_ 1             | Burkholderiales           | 6.09       | 65           | 0            | 98            | 1             |
+| _Azolla caroliniana_ 1             | Caulobacter               | 4.15       | 100          | 0            | 100           | 0             |
+| _Azolla caroliniana_ 1             | Chitinophaga              | 8.03       | 100          | 0            | 100           | 1             |
+| _Azolla caroliniana_ 1             | Nevskia\_ramosa           | 3.14       | 0            | 0            | 34            | 0             |
+| _Azolla caroliniana_ 1             | Nevskia\_soli             | 6.12       | 94           | 4            | 97            | 5             |
+| _Azolla caroliniana_ 1             | Rhizobiales               | 4.9        | 73           | 7            | 59            | 3             |
+| _Azolla caroliniana_ 1             | Rhizobiales2              | 5.07       | 100          | 3            | 100           | 1             |
+| _Azolla caroliniana_ 1             | Sphingomonadaceae         | 3.01       | 46           | 3            | 44            | 2             |
+| _Azolla caroliniana_ 1             | Trichormus                | 4.7        | 97           | 4            | 98            | 0             |
+| _Azolla caroliniana_ 2             | Alphaproteobacteria       | 6.74       | 56           | 7            | 38            | 3             |
+| _Azolla caroliniana_ 2             | Asticcacaulis             | 3.7        | 99           | 0            | 98            | 0             |
+| _Azolla caroliniana_ 2             | Asticcacaulis2            | 4.9        | 89           | 4            | 95            | 3             |
+| _Azolla caroliniana_ 2             | Asticcacaulis\_taihuensis | 3.84       | 89           | 0            | 100           | 0             |
+| _Azolla caroliniana_ 2             | Bradyrhizobium            | 7.53       | 100          | 0            | 100           | 0             |
+| _Azolla caroliniana_ 2             | Caulobacterales           | 4.66       | 89           | 0            | 100           | 2             |
+| _Azolla caroliniana_ 2             | Methylovorus              | 2.85       | 99           | 1            | 100           | 0             |
+| _Azolla caroliniana_ 2             | Nevskia\_soli             | 5.79       | 92           | 6            | 94            | 5             |
+| _Azolla caroliniana_ 2             | Novosphingobium           | 4.51       | 97           | 0            | 98            | 2             |
+| _Azolla caroliniana_ 2             | Rhizobiales               | 5.42       | 100          | 7            | 100           | 9             |
+| _Azolla caroliniana_ 2             | Rhizobiales2              | 5.57       | 94           | 8            | 92            | 2             |
+| _Azolla caroliniana_ 2             | Rhizobiales3              | 4.03       | 100          | 6            | 98            | 1             |
+| _Azolla caroliniana_ 2             | Trichormus                | 4.72       | 97           | 4            | 98            | 0             |
+
+Table: MAG statistics for all samples except those _A. filiculoides_ 'wild' which are shown in +@tbl:tbl3_2 {#tbl:tbl3_all_MAGs}
+
+\normalsize
+Anvio figs...
