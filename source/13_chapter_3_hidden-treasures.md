@@ -443,7 +443,9 @@ Species \& Sample                                         &
 \end{longtable}
 
 \begin{tablenotes}
+  \footnotesize
   \item[a] Passing QC means over 70 completeness and less than 20 redundancy.
+  \item[b] Calculated as the percentage of bases from scaffolds over 2.5kbp that are part of any bin.
 \end{tablenotes}
 
 \end{threeparttable}
