@@ -6,10 +6,35 @@
 # General introduction
 \label{introduction}
 
+## basically: food
+
+* current challenges
+  - Nitrogen
+* the case for novel crops
+
+### Societial solutions and technology solutions
+
+### Novel crops as solutions
+* breeding, how novel crops lag behind
+
+
+## Making a case for Azolla
 
 ### Azolla symbiosis life cycle
 
+* fern, heterospory
+* nostocs general
+  - nostocs in fern
+
 ![Illustration of the _Azolla_ symbiosis life cycle by Erbil Güngör](source/figures/fig1_life-cycle.png){#fig:fig1_life-cycle width=100%}
+
+### breeding a Symbiosis
+
+### establishing the genetics
+
+## fundamental scope?
+* study of symbioses in general with meta-omics
+* study of ferns in general
 
 \newpage
 
