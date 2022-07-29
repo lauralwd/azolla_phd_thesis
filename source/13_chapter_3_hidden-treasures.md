@@ -307,7 +307,6 @@ Not all shades of blue and green match in all Anvio figures.
 Make CAT classifications NA & not classified transparent in anvio figure to indicate lack of taxonomic signal
 
 add order info to the bins in table 2 to crossref with fig 4
-
 ```
 
 ### Binning assemblies from non-metagenomic data is feasible with extragenous binning signals
