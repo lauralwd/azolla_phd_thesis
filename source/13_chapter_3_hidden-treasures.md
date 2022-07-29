@@ -231,7 +231,7 @@ The bacterial fraction of the metagenome assembly is of substantial size and was
 ![This is a sloppy first version of what I want to show here. I'll pollish this later.](source/figures/fig3_figure-filter-length-distributions.png){#fig:fig3_filter-length-distributions}
 
 filter stage    | superkingdom  | contig count | total contig length (Mb) | median contig length (kb) | average contig length (kb)
----             |    ---        |  ---  | --- |  ---  |  ---
+-----           |    -----      |  ---  | --- |  ---  |  ---
 host filtered   | Bacteria	    |	48500	| 814	| 5666	| 16775
 double filtered | Bacteria      |	48304	| 812	| 5671	| 16816
 host filtered   | Eukaryota	    |	70273	| 636	| 5588	|  9045
