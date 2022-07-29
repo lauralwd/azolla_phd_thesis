@@ -741,7 +741,7 @@ The plant genome does add complexity, but other than that ...
 ## Supplemental data
 \tiny
 | taxonomical order | MAG name | MAG length (Mbase) | Anvi\'o completeness | Anvi\'o redundancy | CheckM completeness | CheckM redundancy |
-| ----------------- | ------------- | --   | --  | --   | --  | --   |
+| --------- | --------- | --   | --  | --   | --  | --   |
 | _Azolla rubra_                     | Asticcacaulis             | 4.29       | 100          | 0            | 100           | 1             |
 | _Azolla rubra_                     | Betaproteobacteria        | 3.27       | 99           | 0            | 100           | 1             |
 | _Azolla rubra_                     | Methylovorus              | 3          | 100          | 3            | 100           | 0             |
