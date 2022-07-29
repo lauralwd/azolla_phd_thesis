@@ -18,13 +18,10 @@ Henriette Schluepmann^1^.
 \setlength{\parindent}{0.5in}
 
 <!---
-
 General notes:
 16-18   rewrite highlights
 check all figure legends
 Final figure binning comparison
-propperly implement citations in latex
-
 --->
 
 ## Abstract
