@@ -353,13 +353,13 @@ Similar results were obtained for all other plant samples and using the same met
 \toprule
 taxonomical order\tnote{a}    &
 MAG name\tnote{b}             &
-\rotatebox{90}{MAG length (Mbase)}            &
-\rotatebox{90}{abundance ratio\tnote{c}}      &
-\rotatebox{90}{PacBio mean coverage\tnote{d}} &
-\rotatebox{90}{Anvi'o completeness\tnote{e}}  &
-\rotatebox{90}{Anvi'o redundancy\tnote{e}}    &
-\rotatebox{90}{CheckM completeness\tnote{e}}  &
-\rotatebox{90}{CheckM redundancy\tnote{e}} \\
+\rotatebox{45}{MAG length (Mbase)}            &
+\rotatebox{45}{abundance ratio\tnote{c}}      &
+\rotatebox{45}{PacBio mean coverage\tnote{d}} &
+\rotatebox{45}{Anvi'o completeness\tnote{e}}  &
+\rotatebox{45}{Anvi'o redundancy\tnote{e}}    &
+\rotatebox{45}{CheckM completeness\tnote{e}}  &
+\rotatebox{45}{CheckM redundancy\tnote{e}} \\
 \midrule
 \endhead
 
