@@ -414,19 +414,23 @@ The point I'd like to examine here, is if I can show in numbers, that the manual
  The biological take-away, the genus wide systematic occurance, is for the next section:
 ```
 
-Sample | bins total | total-bin-size/over/metagenome-assembly-size | bins passing QC anvio | bins passing QC checkm |
-   --  |  --  |  -- |  -- |  --
-Azmex_IRRI_486  |	22
-Aznil_IRRI_479 |	20
-Azmic_IRRI_456 |	19
-Azfil_wild |	18
-Azfil_lab |	17
-Azspnov_IRRI1_472 |	15
-Azspnov_IRRI2_489 |	13
-Azrub_IRRI_479 |	12
-Azfil_minuscyano |	5
+|Sample        | bins total | total-bin/over/metagenome-assembly-size | bins passing anvi'o QC | bins passing CheckM QC |
+|  ------                             | -- | -- | -- | -- |
+| _Azolla mexicana_                   | 22 |    | 12 | 13 |
+| _Azolla nilotica_                   | 20 |    |  9 | 10 |  
+| _Azolla microphylla_                | 19 |    | 14 | 15 |
+| _Azolla filiculoides_ 'wild'        | 18 |    |  8 |  9 |
+| _Azolla filiculoides_ 'lab'         | 17 |    | 10 | 13 |
+| _Azolla carolinana_ 1               | 15 |    |  9 |  9 |
+| _Azolla carolinana_ 2               | 13 |    | 12 | 12 |
+| _Azolla rubra_                      | 12 |    |  9 |  9 |
+| _Azolla filiculoides_ 'minus-cyano' |  5 |    |  5 |  5 |
 
 Table: MAG yield per biological sample and their quality as assessed by presence of single copy marker genes via both Anvi'o and CheckM. {#tbl:tbl3_4}
+
+passing qc >70 completeness and less than 20 redundancy
+
+
 
 
 ### Systematic occurence of taxonomical orders in the entire _Azolla_ genus
