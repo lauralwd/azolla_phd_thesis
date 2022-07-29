@@ -459,21 +459,43 @@ Both types of evidence support their endophytic status in both _A. filiculoides_
 Caulobacterales were found in all _Azolla_ species except for _A. nilotica_, Nevskiales were found in all species except for _A. nilotica_ and _A. microphylla_, and Sphingomonadales were found in all species except for _A. rubra_.
 These three those orders were not systematically found in all _Azolla_ species, but were found in plants sampled at different locations and sequenced in different labs.
 
-order | Azfil_lab | Azfil_minuscyano | Azfil_wild | Azmex_IRRI_486 | Azmic_IRRI_456 | Aznil_IRRI_479 | Azrub_IRRI_479 | Azspnov_IRRI1_472 | Azspnov_IRRI2_489
---- | --- | --- | --- | --- | --- | --- | --- | --- | ---
-Burkholderiales	 | 2 | 1 | 6 | 4 | 2 | 5|1|1|0
-Caulobacterales  | 0 | 0 | 1 | 1 | 3 | 0|1|2|4
-Nevskiales	     | 1 | 0 | 1 | 1 | 0 | 0|1|2|1
-Nostocales	     | 1 | 0 | 1 | 1 | 1 | 1|1|1|1
-Rhizobiales	     | 8 | 3 | 5 | 8 | 5 | 6|5|4|5
-Sphingomonadales | 1 | 0 | 0 | 2 | 1 | 1|0|1|1
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.3}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.05}}@{}}
 
-Table: MAGs present per biological sample per taxonomical order. {#tbl:tbl3_5}
+\caption{MAGs present per biological sample per taxonomical order.
+\label{tbl:tbl3_5}}
+\tabularnewline
 
-```
-remake the table above as a heatmap adjacent to the phylogenetic tree of Metzgar.
-Alternatively, make a phylogenetic tree myself, or keep this for chapter 3...
-```
+\toprule
+order &
+\rotatebox{45}{\emph{Azolla filiculoides} 'lab' }       &
+\rotatebox{45}{\emph{Azolla filiculoides} 'minus-cyano'}&
+\rotatebox{45}{\emph{Azolla filiculoides} 'wild'}       &
+\rotatebox{45}{\emph{Azolla mexicana}}                  &
+\rotatebox{45}{\emph{Azolla microphylla}}               &
+\rotatebox{45}{\emph{Azolla nilotica}}                  &
+\rotatebox{45}{\emph{Azolla rubra}}                     &
+\rotatebox{45}{\emph{Azolla carolinana} 1}              &
+\rotatebox{45}{\emph{Azolla carolinana} 2}              \\
+\midrule
+\endhead
+Burkholderiales   & 2 & 1 & 6 & 4 & 2 & 5 & 1 & 1 & 0 \\
+Caulobacterales   & 0 & 0 & 1 & 1 & 3 & 0 & 1 & 2 & 4 \\
+Nevskiales        & 1 & 0 & 1 & 1 & 0 & 0 & 1 & 2 & 1 \\
+Nostocales        & 1 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+Rhizobiales       & 8 & 3 & 5 & 8 & 5 & 6 & 5 & 4 & 5 \\
+Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
+\bottomrule
+\end{longtable}
 
 ## Discussion
 In this study, we acquired high quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (+@fig:fig3_data-overview) through a process of thorough filtering (+@fig:fig3_filtering-and-assembly) thereby substantially reducing the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (+@fig:fig3_filter-length-distributions).
