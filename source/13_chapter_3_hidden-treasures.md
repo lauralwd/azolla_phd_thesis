@@ -262,7 +262,25 @@ All samples but the no-cyano sample (+@fig:fig3_Azolla-genus-metagenome-order Az
 Rhizobiales genomes were found in all _Azolla_ species sampled here, visible as horizontal clusters of dots with identical colour (+@fig:fig3_Azolla-genus-metagenome-order purple).
 Plotting the scaffolds of all assemblies by these two characteristics allows to distinguish individual bacterial genomes in each of the _Azolla_ species sampled here (+@fig:fig3_Azolla-genus-metagenome-order).
 
-![Metagenome assemblies of 6 species of the fern genus Azolla (horizontal panels). Sequencing data were derived from three public projects: first, the 'Azolla genome project' data: PRJNA430527 second, the 'foul play in the pocket paper' data: PRJEB19522 third, the original sequencing data for the  _N. azollae_ genome paper: PRJNA30807. Sequencing reads of the former two projects was rid of host plant DNA reads by mapping to the _A. filiculoides_ genome version 1.1 available at fernbase.org. The remaining reads were assembled with SPAdes in metagenome mode, resulting scaffolds were then assigned an approximate taxonomy with the Contig Annotation Tool (CAT). Contigs assigned 'Eukaryote' were then used for a second filtering step of the previously filtered data, then assembled again with SPAdes and assigned taxonomy again with CAT. Of the doublefiltered data, hybrid assemblies were generated per plant accession if multiple sequencing libraries were available. Using CAT output, a table was generated with scaffold length, depth, details on open reading frames (ORFs) and details on taxonomy. To this end, this particular script was used available at the project Github repository. The graph displays the metagenome assemblies as a dot-plot with scaffold length on the x-axis and depth in the assembly graph on the y-axis; both are log10 transformed. Dot colour represents the order, and dot size represents ORF count. For clarity, scaffolds without ORFs and scaffolds with ORFs found but without taxonomy are filtered out before displaying the plot. Second, noisy scaffolds are omitted by default for clarity. The default threshold for noisy is when scaffolds have fewer than 5 ORFs classified or when a taxonomic group amounts to less than 2Mbase in the entire figure. An [online interactive version of this figure](https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/) can be manipulated to modify these filters and assumptions, and to include more assemblies done in the _Azolla_ metagenome project. The online version of the figure is also attached as an R shiny app in supplemental file X.](source/figures/fig3_Azolla-genus-metagenome-order.png){#fig:fig3_Azolla-genus-metagenome-order}
+\begin{sidewaysfigure}
+\begin{figure}
+\hypertarget{fig:fig3_Azolla-genus-metagenome-order}{%
+  \centering
+  \includegraphics{source/figures/fig3_Azolla-genus-metagenome-order.png}
+  \caption{Metagenome assemblies of 6 species of the fern genus Azolla (horizontal panels).
+    Sequencing data was derived from three public projects \cref{fig:fig3_data-overview}.
+    Sequencing reads were rid of host plant DNA reads and assembled with SPAdes in metagenome mode \cref{fig:fig3_filtering-and-assembly}-A.
+    Resulting scaffolds were then assigned an approximate taxonomy with CAT (VonMeijenfeldt \emph{et al}. (2019)).
+    Metagenome assembly scaffolds are displayed as dot plots with length on the x-axis and depth in the assembly graph on the y-axis; both log10 transformed.
+    Dot colour represents the taxonomical order and dot size represents ORF count.
+    Scaffolds without ORFs and scaffolds without taxonomy are filtered out for clarity.
+    Additionally, scaffolds are filtered if they have less than 5 ORFs classified or when a taxonomic group amounts to less than 2Mbase in the entire figure.
+    An \href{https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/}{online interactive version of this figure} can be manipulated to modify these filters and assumptions, and to include more assemblies done in the \emph{Azolla} metagenome project.
+    }
+    \label{fig:fig3_Azolla-genus-metagenome-order}
+}
+\end{figure}
+\end{sidewaysfigure}
 
 Even before binning scaffolds into MAGs, metagenomes of the _Azolla_ genus show clear similarities amongst each other; several taxonomical orders reoccur systematically (+@fig:fig3_Azolla-genus-metagenome-order).
 Most prominently, the Nostocales, which are the most abundant order in all _Azolla_ species except one which was artificially devoid of the cyanobacteria.
