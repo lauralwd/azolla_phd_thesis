@@ -397,13 +397,13 @@ Rhizobiales       & Rhizobiales       &  5.34 &  1.17 &  24.66 &  92 &  6 & 87 &
 Rhizobiales       & Rhizobium         &  5.25 &  2.18 &  59.73 &  99 & 11 & 99 &  2 \\
 Rhodopspirillales & Rhodospirillaceae &  5.42 &  0.45 &   1.25 & 100 &  1 & 99 &  1 \\
 Nostocales        & Nostoc            &  4.79 &  1.68 &   0.45 &  96 &  3 & 98 &  0 \\
-check in anvio    & rest\_1           &  2.49 &  0.54 &   0.36 &  37 &  7 & 23 &  2 \\
-check in anvio    & rest\_2           &  4.19 &  0.47 & 105.93 &   0 &  0 & 73 & 13 \\
-check in anvio    & rest\_3           &  1.09 &  0.37 &  79.47 &   0 &  0 &  5 &  0 \\
-check in anvio    & rest\_4           &  0.86 &  0.20 &  10.88 &  28 &  6 & 19 &  1 \\
-check in anvio    & rest\_5           &  3.38 &  0.06 &   0.07 &  39 & 10 & 26 &  2 \\
-check in anvio    & rest\_6           &  3.40 &  1.63 &   0.37 &  30 &  0 & 42 &  0 \\
-check in anvio    & rest\_7           &  1.36 &  0.69 &   0.11 &   0 &  0 & 14 &  0 \\
+Burkholderiales   & rest\_1           &  2.49 &  0.54 &   0.36 &  37 &  7 & 23 &  2 \\
+Nevskiales        & rest\_2           &  4.19 &  0.47 & 105.93 &   0 &  0 & 73 & 13 \\
+NA                & rest\_3           &  1.09 &  0.37 &  79.47 &   0 &  0 &  5 &  0 \\
+Rhizobiales       & rest\_4           &  0.86 &  0.20 &  10.88 &  28 &  6 & 19 &  1 \\
+Burkholderiales   & rest\_5           &  3.38 &  0.06 &   0.07 &  39 & 10 & 26 &  2 \\
+Rhizobiales       & rest\_6           &  3.40 &  1.63 &   0.37 &  30 &  0 & 42 &  0 \\
+Rhizobiales       & rest\_7           &  1.36 &  0.69 &   0.11 &   0 &  0 & 14 &  0 \\
 \bottomrule
 \end{longtable}
 
