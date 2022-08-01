@@ -203,7 +203,7 @@ Assemblies after this first filtering step (host filtered) were typically around
 
 To further improve filtering efficiency, a second filtering strategy was applied.
 Assembled contigs of all hostfiltered assemblies were classified with CAT [@VonMeijenfeldt2019], and contigs classified as eukaryotic were used as a second filter specific for that particular sequencing library.
-Contigs classified as eukaryotic did not contain substantial amounts (1Mbase or higher in all assemblies combined; `supplemental figure online`) of DNA classified as anything other than streptophyta hence the assemblies contain only one eukaryote: _Azolla_ ferns.
+Contigs classified as eukaryotic did not contain substantial amounts (1Mbase or higher in all assemblies combined; [lauradijkhuizen.com/blog/AGMB](lauradijkhuizen.com/blog/AGMB)) of DNA classified as anything other than streptophyta hence the assemblies contain only one eukaryote: _Azolla_ ferns.
 The efficacy of this second stage of host DNA removal was typically opposite to the former stage: being least effective for _A. filiculoides_ (no more than 11%) and _A. rubra_ (25%), whilst most effective for those farther removed in the phylogeny; i.e. 42% for _A. microphylla_ and 56% of _A. nilotica_ (+@fig:fig3_filtering-and-assembly\-B bottom filtered vs. double filtered).
 Combined, both filtering approaches removed between 50% and 64% of reads from plant samples that were maintained in the lab and not experimentally treated (+@fig:fig3_filtering-and-assembly\-B trimmed vs double filtered).
 The double filtered reads were assembled again with SPAdes in metagenomics mode, both as single libraries or as hybrid assemblies when multiple sequencing libraries or read types were available per biological sample (+@fig:fig3_filtering-and-assembly\-B top; H).
@@ -266,13 +266,13 @@ Plotting the scaffolds of all assemblies by these two characteristics allows to 
 
 Even before binning scaffolds into MAGs, metagenomes of the _Azolla_ genus show clear similarities amongst each other; several taxonomical orders reoccur systematically (+@fig:fig3_Azolla-genus-metagenome-order).
 Most prominently, the Nostocales, which are the most abundant order in all _Azolla_ species except one which was artificially devoid of the cyanobacteria.
-Contigs assigned Nostocales have a high variance in abundance, standard deviations vary in the various samples from 300 to 600 (arbitrary unit representing depth in the assembly graph; +@fig:fig3_Azolla-genus-metagenome-order; Supplemental file X or [online R shiny app: https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/](https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/)).
+Contigs assigned Nostocales have a high variance in abundance, standard deviations vary in the various samples from 300 to 600 (arbitrary unit representing depth in the assembly graph; +@fig:fig3_Azolla-genus-metagenome-order; [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB)).
 In contrast, other clearly distinghuishable microbial genomes show a typical depth standard deviation often lower than 1, but in almost all cases lower than 10 (depth variance visible in interactive figure).
 This abundance pattern of _Nostoc azollae_ is typical of a degraded genome with many transpons and reptitive regions and may explain why the assembled length of this MAG is shorter than the reference; 4Mbase rather than 6Mbase (+@tbl:tbl3_2).
 Yet, it might also indicate an upper limit of assembly depth.
-The second most abundant order accross the genus, is the Rhizobiales, ranging between 16 and 44 Mbase of assembled DNA in the different samples (+@fig:fig3_Azolla-genus-metagenome-order blue; Supplemental file X or [online R shiny app](https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/)).
+The second most abundant order accross the genus, is the Rhizobiales, ranging between 16 and 44 Mbase of assembled DNA in the different samples (+@fig:fig3_Azolla-genus-metagenome-order blue; [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB)).
 In all host species, multiple Rhizobiales genomes can be distinghuised.
-The third most abundant order is the Burkholderiales (+@fig:fig3_Azolla-genus-metagenome-order yellow), which is present in all host species except for _A. rubra_ and amounts to between 5 and 17 Mbase per assembly (Supplemental file X or [online R shiny app](https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/)).
+The third most abundant order is the Burkholderiales (+@fig:fig3_Azolla-genus-metagenome-order yellow), which is present in all host species except for _A. rubra_ and amounts to between 5 and 17 Mbase per assembly ([lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB)).
 Other notable orders that reoocur in several metagenome assemblies are the Caulobacterales, Nevsiales and Sphingomonadales.
 Each of these last three orders occurs in at least five of the six samples host species, and are found in data from different studies.
 
