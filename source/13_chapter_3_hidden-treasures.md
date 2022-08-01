@@ -326,11 +326,8 @@ In constrast, a second cyanobacterium found in the bins, is present only on the 
 ![Anvi'o overview of the _A. filiculoides_ 'wild' metagenome assembly and binning into MAGs. The center dendrogram reflects a hierarchical clustering of scaffolds based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (light green), scaffold abundance in PacBio reads from the _A. filiculoides_ 'lab' sample (yellow). Then follow several coloured rings representing taxonomy as determined by CAT, starting at the kingdom level down to species level. The before last red ring indicates presence of any ribosomal RNA genes in a scaffold (drastically influencing depth of the scaffold and therefore the binning process). The final ring indicates in which bin a scaffold was categorises. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_2.](source/figures/fig3_Azfil-wild-metagenome-binning.png){#fig:fig3_Azfil-wild-binningsignals}
 
 ```
-Make sure bin names and capitalisation is systematic throughout all Anvio figures.
-Not all shades of blue and green match in all Anvio figures.
+Not all shades of blue and green match in all Anvio figures. I think they do actuall... it's just the transparant binning shade that makes it seem otherwise.
 Make CAT classifications NA & not classified transparent in anvio figure to indicate lack of taxonomic signal
-
-add order info to the bins in table 2 to crossref with fig 4
 ```
 
 ### Binning assemblies from non-metagenomic data is feasible with extragenous binning signals
