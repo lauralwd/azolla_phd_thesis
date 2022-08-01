@@ -225,18 +225,18 @@ Contigs assigned as Archeal in the hostfiltered assembly, were not classified as
 Similarly, viral contigs often were only assembled in the hostfiltered assembly (+@fig:fig3_filter-length-distributions Viruses).
 The bacterial fraction of the metagenome assembly is of substantial size and was not negativelly affected by the filtering approach, thereby paving the way to investigate the diversity of bacterial genomes in this fraction.
 
-filter stage    | superkingdom  | contig count | total contig length (Mb) | median contig length (kb) | average contig length (kb)
------           |    -----      |  ---  | --- |  ---  |  ---
-host filtered   | Bacteria	    |	48500	| 814	| 5666	| 16775
-double filtered | Bacteria      |	48304	| 812	| 5671	| 16816
-host filtered   | Eukaryota	    |	70273	| 636	| 5588	|  9045
-double filtered | Eukaryota     |	960	  |   4	| 3382	|  4068
-host filtered   | not classified| 2302	|  21 |	5470  |	 8914
-double filtered | not classified| 536	  |   3 |	3626	|  4971
-host filtered   | no ORFs found | 112519|	762	| 4748	|  6768
-double filtered | no ORFs found | 25323	| 101	| 3282	|  3989
+filter stage    | superkingdom  | contig count | |scaffold count | total scaffold length (Mb) | median scaffold length (kb) | average scaffold length (kb)
+-----           |    -----      | ---   |  ---  | --- |  ---  |  ---
+host filtered   | Bacteria	    |	44861 | 48500	| 814	| 5666	| 16775
+double filtered | Bacteria      |	44742 | 48304	| 812	| 5671	| 16816
+host filtered   | Eukaryota	    |	70168 | 70273	| 636	| 5588	|  9045
+double filtered | Eukaryota     |	  612 |   960	|   4	| 3382	|  4068
+host filtered   | not classified|  2872 |  2302	|  21 |	5470  |	 8914
+double filtered | not classified|   507 |   536	|   3 |	3626	|  4971
+host filtered   | no ORFs found |120555 |112519 |	762	| 4748	|  6768
+double filtered | no ORFs found | 19523 | 25323	| 101	| 3282	|  3989
 
-Table: Assembly statistics per superkingdom before and after the second filtering stage. {#tbl:tbl3_1}
+Table: Assembly statistics per superkingdom before and after the second filtering stage. Only contigs and scaffolds longer than 2.5kbp are included. {#tbl:tbl3_1}
 
 \begin{sidewaysfigure}
 \begin{figure}
