@@ -225,8 +225,6 @@ Contigs assigned as Archeal in the hostfiltered assembly, were not classified as
 Similarly, viral contigs often were only assembled in the hostfiltered assembly (+@fig:fig3_filter-length-distributions Viruses).
 The bacterial fraction of the metagenome assembly is of substantial size and was not negativelly affected by the filtering approach, thereby paving the way to investigate the diversity of bacterial genomes in this fraction.
 
-![Length distrubtions of _Azolla_ sp. metagenome assembles per kingdom before and after two stages of filtering. Metagenome assemblies of individual sequencing libraries (+@fig:fig3_data-overview) were filtered with the Host genome (Host filtered; red) and with a library specific subset of eukaryotic contigs (Double filtered; blue; +@fig:fig3_filtering-and-assembly). Scaffolds of metagenome assemblies were assigned taxonomy with CAT (Von Meijenfeldt _et al_. 2019) and their length distributions were plotted as boxplot per taxonomic kingdom (vertical pannels: Virusses, Eukaryota, Bacteria and Archae) per sequencing library (horizontal pannels). Width of the boxplot is propportional to the amount of scaffolds represented (+@tbl:tbl3_1).](source/figures/fig3_figure-filter-length-distributions.png){#fig:fig3_filter-length-distributions}
-
 filter stage    | superkingdom  | contig count | total contig length (Mb) | median contig length (kb) | average contig length (kb)
 -----           |    -----      |  ---  | --- |  ---  |  ---
 host filtered   | Bacteria	    |	48500	| 814	| 5666	| 16775
@@ -239,6 +237,28 @@ host filtered   | no ORFs found | 112519|	762	| 4748	|  6768
 double filtered | no ORFs found | 25323	| 101	| 3282	|  3989
 
 Table: Assembly statistics per superkingdom before and after the second filtering stage. {#tbl:tbl3_1}
+
+\begin{sidewaysfigure}
+\begin{figure}
+\hypertarget{fig:fig3_filter-length-distributions}{%
+\centering
+\includegraphics{source/figures/fig3_figure-filter-length-distributions.pdf}
+\caption{Length distrubtions of \emph{Azolla} sp. metagenome assembles
+per kingdom before and after two stages of filtering. Metagenome
+assemblies of individual sequencing libraries
+(\cref{fig:fig3_data-overview}) were filtered with the Host genome (Host
+filtered; red) and with a library specific subset of eukaryotic contigs
+(Double filtered; blue; \cref{fig:fig3_filtering-and-assembly}).
+Scaffolds of metagenome assemblies were assigned taxonomy with CAT (Von
+Meijenfeldt \emph{et al}. 2019) and their length distributions were
+plotted as boxplot per taxonomic kingdom (vertical pannels: Virusses,
+Eukaryota, Bacteria and Archae) per sequencing library (horizontal
+pannels). Width of the boxplot is propportional to the amount of
+scaffolds represented
+(\cref{tbl:tbl3_1}).}\label{fig:fig3_filter-length-distributions}
+}
+\end{figure}
+\end{sidewaysfigure}
 
 ### Filtered metagenome assemblies contain distinct microbial genomes systematically reoccuring in the _Azolla_ genus
 The double filtered assemblies contain numerous bacterial contigs of each _Azolla_ species sampled here (+@fig:fig3_filter-length-distributions Bacteria).
