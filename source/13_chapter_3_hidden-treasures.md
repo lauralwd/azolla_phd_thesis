@@ -225,7 +225,7 @@ Contigs assigned as Archeal in the hostfiltered assembly, were not classified as
 Similarly, viral contigs often were only assembled in the hostfiltered assembly (+@fig:fig3_filter-length-distributions Viruses).
 The bacterial fraction of the metagenome assembly is of substantial size and was not negativelly affected by the filtering approach, thereby paving the way to investigate the diversity of bacterial genomes in this fraction.
 
-filter stage    | superkingdom  | contig count | |scaffold count | total scaffold length (Mb) | median scaffold length (kb) | average scaffold length (kb)
+filter stage    | superkingdom  | contig count |scaffold count | total scaffold length (Mb) | median scaffold length (kb) | average scaffold length (kb)
 -----           |    -----      | ---   |  ---  | --- |  ---  |  ---
 host filtered   | Bacteria	    |	44861 | 48500	| 814	| 5666	| 16775
 double filtered | Bacteria      |	44742 | 48304	| 812	| 5671	| 16816
