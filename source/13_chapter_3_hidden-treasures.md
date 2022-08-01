@@ -219,8 +219,8 @@ Secondly, removing host DNA from the assembly input reduces input complexity and
 Filtering input sequencing data reduced assembly size, next we investigate the efficacy of this filtering approach in terms of taxonomic complexity and quality of the assembly.
 The main rationale for this intensive filtering approach was to decrease complexity in the metagenome assembly graph; thereby improving the length and quality of assembled bacterial contigs.
 The double filtering step substantially reduced total assembly size (+@fig:fig3_filtering-and-assembly\-B top) and length distributions of eukaryotic contigs (+@fig:fig3_filter-length-distributions Eukaryota, +@tbl:tbl3_1), as well as contigs which were not assigned a taxonomy or did not yield any open reading frames (+@tbl:tbl3_1).
-The _A. filiculoides_ wild single libraries are an exception to this, but we attribute this variation to the low sequencing input (~3 Gbase per sample; +@fig:fig3_data-overview\-B ).
-In contrast, bacterial assembly size and length distributions were practically identical between the two different filtering stages (+@fig:fig3_filter-length-distributions Bacteria).
+These latter two taxonomical categories often had similar depth/length distributions as scaffolds assigned Eukaryota ([lauradijkhuizen.com/blog/AGMB](lauradijkhuizen.com/blog/AGMB)).
+In contrast, bacterial assembly size and length distributions were practically identical between the two different filtering stages (+@fig:fig3_filter-length-distributions Bacteria), although the average and median scaffold size did increase slightly (+@tbl:tbl3_1 Bacteria).
 Contigs assigned as Archeal in the hostfiltered assembly, were not classified as such in the doublefiltered assembly (+@fig:fig3_filter-length-distributions Archaea).
 Similarly, viral contigs often were only assembled in the hostfiltered assembly (+@fig:fig3_filter-length-distributions Viruses).
 The bacterial fraction of the metagenome assembly is of substantial size and was not negativelly affected by the filtering approach, thereby paving the way to investigate the diversity of bacterial genomes in this fraction.
