@@ -340,7 +340,7 @@ This extragenous binning signal was not informative for most MAGs from non-_A. f
 Finally, scaffold taxonomy was considered as an indication to support specific groupings of scaffolds.
 Contig taxonomy often showed discrete patterns matching the input dendrogram and binning when other binning signals were already distinctive, thereby further solidifying CAT taxonomy as a valuable binning signal.
 
-Manual binning with extragenous binning signals and scaffold taxonomy provided high quality bins for alle metagenome assemblies. `Can I visualise this somehow...``
+Manual binning with extragenous binning signals and scaffold taxonomy provided high quality bins for alle metagenome assemblies (+@tbl:tbl3_all_MAGs). `Can I visualise this somehow...  Fig 7 if that works out.`
 For exmple in _A. microphylla_ where are MAGS are poorly distributed on the main dendrogram and hard to distinghuish (+@fig:fig3_Azmic-binningsignals).
 Still, manual binning of _A. microphylla_ yielded ninteen MAGs of which eleven can be considered high quality and four medium quality, all with appropriate genome sizes. (+@tbl:tbl3_3),
 Note that the clustering dendrogram was based on sequencing depth in all samples and scaffold kmer profile, but not scaffold taxonomy.
