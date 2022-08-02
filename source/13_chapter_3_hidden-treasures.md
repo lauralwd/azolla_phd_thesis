@@ -318,7 +318,7 @@ Binning yielded 7 high quality bins in total (completeness > 90% redundancy < 10
 Despite the metagenomic study design, not all bins could be resolved to high quality.
 This may be related to the relatively low input of DNA sequencing in the assembly, hence not allowing to resolve lowly abundant microbial genomes sufficiently.
 Differential sampling, comparing whole plant to leaf cavity enrichments, allows to estimate whether a MAG is more abundant in the leaf cavities.
-The bacteria represented by these MAGs are likely endophytes of _A. filiculoides_ (+@fig:fig3_Azfil-wild-binningsignals; blue rings).
+The bacteria represented by these MAGs are likely endophytes of _A. filiculoides_ (+@fig:fig3_Azfil_wild_binning blue rings).
 This is the case for MAGs 'Rhizobium','Rhizobiales','Curvibacter', and 'Ferrovibrio' (+@fig:fig3_Azfil-wild-binningsignals).
 The former two are substantialy abundant in PacBio long read sequencing of the _A. filiculoides_ minus_cyano sample, indicating they survived a stringent sterilisation and antibiotic regime removing the main symbiont _N. azollae_.
 In constrast, a second cyanobacterium found in the bins, is present only on the outside of the ferns, and not in the leaf cavity enriched fraction, indicating that this is an epithitic cyanobacterium and consistent with earlier findings that _Azolla_ has only one cyanobacterial symbiont.
@@ -331,9 +331,9 @@ Typically, binning would depend highly on the depth of scaffolds in one sequenci
 Here, we employed a manual method adding extragenous binning signals from the one metagenomic study done on this genus, the seminal paper on the _N. azollae_ genome, and scaffold taxonomy determined by CAT.
 No automated binning algorith can implement these binningsignals while also accounting for the nuances required in interpreting them, hence automated binning algorithms will likely produce false MAGs.
 Using Anvi'o, it is possible to visualise aforementioned extragenous binning signals and bin scaffolds manually whilst accounting for the nature of different binning signals appropriately.
-Within Anvi'o, all metadata was plotted for every biological sample as in +@fig:fig3_Azmic-binningsignals.
+Within Anvi'o, all metadata was plotted for every biological sample as in +@fig:fig3_Azmic_binning.
 Next, scaffolds were binned manually, guided at first by autmated binning methods, but primarily by scaffold depth in the native sequencing libraries for that particular biological sample.
-Contig depth was often the most clear binning signal in these samples (+@fig:fig3_Azmic-binningsignals).
+Contig depth was often the most clear binning signal in these samples (+@fig:fig3_Azmic_binning).
 Abundance in _A. filiculoides_ 'wild' sequencing was used carefully when applicable, and checked with anvi'o clustering based only on k-mer profiles.
 Using metagenomic sequencing data from another species in the genus relies on the assumption that a bacterium might be shared among these species and risks not binning genome rearangements that have occured.
 This extragenous binning signal was not informative for most MAGs from non-_A. filiculoides_ species but it was for some for some MAGs, for example in _A. mexicana_ (Supp fig. X) and _A. spnov. (Supp fig. X).
@@ -341,7 +341,7 @@ Finally, scaffold taxonomy was considered as an indication to support specific g
 Contig taxonomy often showed discrete patterns matching the input dendrogram and binning when other binning signals were already distinctive, thereby further solidifying CAT taxonomy as a valuable binning signal.
 
 Manual binning with extragenous binning signals and scaffold taxonomy provided high quality bins for alle metagenome assemblies (+@tbl:tbl3_all_MAGs). `Can I visualise this somehow...  Fig 7 if that works out.`
-For exmple in _A. microphylla_ where are MAGS are poorly distributed on the main dendrogram and hard to distinghuish (+@fig:fig3_Azmic-binningsignals).
+For exmple in _A. microphylla_ where are MAGS are poorly distributed on the main dendrogram and hard to distinghuish (+@fig:fig3_Azmic_binning).
 Still, manual binning of _A. microphylla_ yielded ninteen MAGs of which eleven can be considered high quality and four medium quality, all with appropriate genome sizes. (+@tbl:tbl3_3),
 Note that the clustering dendrogram was based on sequencing depth in all samples and scaffold kmer profile, but not scaffold taxonomy.
 Similar results were obtained for all other plant samples and using the same methodology (supplemental figures X-X).
@@ -518,7 +518,7 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 ## Discussion
 In this study, we acquired high quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (+@fig:fig3_data-overview) through a process of thorough filtering (+@fig:fig3_filtering-and-assembly) thereby substantially reducing the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (+@fig:fig3_filter-length-distributions).
 Each species' metagenome assemblie contained several distinct bacterial genomes and these assemblies resembled each other in terms of taxonomy (+@fig:fig3_Azolla-genus-metagenome-order).
-Manual binning allowed to retrieve these MAGs `better than automated binning approaches` and provide them to the _Azolla_ and plant-microbe research community (+@fig:fig3_Azfil-wild-binningsignals; +@fig:fig3_Azmic-binningsignals).
+Manual binning allowed to retrieve these MAGs `better than automated binning approaches` and provide them to the _Azolla_ and plant-microbe research community (+@fig:fig3_Azfil_wild_binning +@fig:fig3_Azmic_binning).
 
 
 ### Metagenome assemblies can be retrieved from publicly available non-metagenomic data
@@ -564,7 +564,7 @@ Only when genomes in a metagenome as expected to be shared between two different
 Feasibility of this approach depends on the community complexity, relatedness of the samples available, and similarity of microbes in those samples.
 
 An additional binning signal was scaffold taxonomy determined by CAT.
-CAT classifications often overlapped well with bins demarcated clearly by other binning signals (+@fig:fig3_Azfil-wild-binningsignals; +@fig:fig3_Azmic-binningsignals).
+CAT classifications often overlapped well with bins demarcated clearly by other binning signals (+@fig:fig3_Azfil_wild_binning +@fig:fig3_Azmic_binning).
 This result further confirms the robustness of CAT scaffold classifications and it's use-case for manual binning when depth and k-mer profiles are lacking.
 Single copy marker gene validation with both CheckM and Anvi'o supported the quality of bins for which CAT classification was instrumental in their reconstruction.
 Our view on t hese methods is that a researcher should bin primarily on the sample-native sequencing libraries and k-mer profiles and then use extragenous binning signals and scaffold taxonomoy only in an advising manner.
@@ -596,7 +596,7 @@ The remaining three orders, Caulobacterales, Nevskiales and Sphingomonadales, we
 The new availibility of all MAG sequences allows to study the bacteria of the _Azolla_ genus through the perspective of comparative genomics.
 Classes alfa/beta/gamma proteobacteria, Actinobacteria, Bacillales, have all been seen as endophytes to plants before @Frank2018.
 The diversity of _Azolla_ associated microbes is not exhausted in this study.
-All assemblies except for _A. filiculoides_ minus_cyano contained many scaffolds near the lower abundance limit of assembly (+@fig:fig3_Azolla-genus-metagenome-order) and in concordance binning yielded many bins with only fractions of genomes (+@fig:fig3_Azfil-wild-binningsignals; +@tbl:tbl3_2).
+All assemblies except for _A. filiculoides_ minus_cyano contained many scaffolds near the lower abundance limit of assembly (+@fig:fig3_Azolla-genus-metagenome-order) and in concordance binning yielded many bins with only fractions of genomes (+@fig:fig3_Azfil_wild_binning +@tbl:tbl3_2).
 Despite that, it is perhaps more interesting to wonder which microbes are endophytes of the _Azolla_ genus and which microbes share a common ancestor and common introduction in the _Azolla_ genus.
 The nature of the data presented here does warrant caution on two important fronts.
 First, except for the _A. filiculoides_ 'wild' sample, no judgement can be made wether the MAGs presented here belong to endophytic or epithitic bacteria.
