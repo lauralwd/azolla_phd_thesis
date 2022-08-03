@@ -446,15 +446,15 @@ Species \& Sample                                         &
 \rotatebox{45}{bins passing CheckM QC\tnote{a}}           \\
 \midrule
 \endhead
-\emph{Azolla mexicana}                    & 22 & 89 & 12 & 13 \\
-\emph{Azolla nilotica}                    & 20 & 84 &  9 & 10 \\
-\emph{Azolla microphylla}                 & 19 & 79 & 14 & 15 \\
-\emph{Azolla filiculoides} 'wild'         & 18 & 36 &  8 &  9 \\
-\emph{Azolla filiculoides} 'lab'          & 17 & 73 & 10 & 13 \\
-\emph{Azolla carolinana} 1                & 15 & 79 &  9 &  9 \\
-\emph{Azolla carolinana} 2                & 13 & 71 & 12 & 12 \\
-\emph{Azolla rubra}                       & 12 & 85 &  9 &  9 \\
-\emph{Azolla filiculoides} 'minus-cyano'  &  5 & 84 &  5 &  5 \\
+\emph{Azolla mexicana}                    & 22 &100 & 12 & 13 \\
+\emph{Azolla nilotica}                    & 20 & 96 &  9 & 10 \\
+\emph{Azolla microphylla}                 & 19 & 95 & 14 & 15 \\
+\emph{Azolla filiculoides} 'wild'         & 18 & 97 &  8 &  9 \\
+\emph{Azolla filiculoides} 'lab'          & 17 & 95 & 10 & 13 \\
+\emph{Azolla carolinana} 1                & 15 & 99 &  9 &  9 \\
+\emph{Azolla carolinana} 2                & 13 & 99 & 12 & 12 \\
+\emph{Azolla rubra}                       & 12 &100 &  9 &  9 \\
+\emph{Azolla filiculoides} 'minus-cyano'  &  5 &100 &  5 &  5 \\
 \bottomrule
 \end{longtable}
 
