@@ -408,6 +408,63 @@ Similar results were obtained for all other plant samples and using the same met
 
 ![Anvi'o overview of the _A. microphylla_ metagenome assembly and binning into MAGs. The center dendrogram reflects a hierarchical clustering of scaffolds based on 4-mer profiles but not differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. microphylla_ sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy as determined by CAT, starting at the kingdom level down to species level. The before last red ring indicates presence of any ribosomal RNA genes in a scaffold (drastically influencing depth of the scaffold and therefore the binning process). The final ring indicates in which bin a scaffold was categorises. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_3.](source/figures/fig3_Azmic_binning.pdf ){#fig:fig3_Azmic_binning}
 
+\begin{threeparttable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.30}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.35}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.05}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.05}}@{}}
+
+\caption{MAG quality of MAGs assembled from sequencing data derived from \emph{A. microphylla}.
+    Quality is assessed as approximate genome completion and redundancy by two distint tools: (Eren et al. 2015) and CheckM (Parks et al. 2015).
+    \label{tbl:tbl3_MAGs_azmic}}
+\tabularnewline
+
+\toprule
+taxonomical order\tnote{a}    &
+MAG name\tnote{b}             &
+\rotatebox{45}{MAG length (Mbase)}            &
+\rotatebox{45}{Anvi'o completeness\tnote{c}}  &
+\rotatebox{45}{Anvi'o redundancy\tnote{c}}    &
+\rotatebox{45}{CheckM completeness\tnote{c}}  &
+\rotatebox{45}{CheckM redundancy\tnote{c}} \\
+\midrule
+\endhead
+Acidobacteriaceae   & Acidobacteria             & 4.29 &  82 &  4 &  76 & 0 \\
+Micrococcales       & Actinobacteria            & 3.34 &  92 & 27 &  77 & 4 \\
+Caulobacterales     & Alphaproteobacteria       & 4.80 &  99 &  4 &  80 & 4 \\
+                    & Alphaproteobacteria2      & 5.13 &  93 &  4 &  91 & 1 \\
+Caulobacterales     & Asticcacaulis             & 3.48 &  70 &  1 &  82 & 3 \\
+Caulobacterales     & Asticcacaulis\_taihuensis & 4.14 &  99 &  0 &  98 & 0 \\
+Cytophagales        & Bacteriodetes             & 6.37 &  99 &  0 &  97 & 0 \\
+Burkholderiales     & Herbaspirillum            & 4.81 &  96 &  6 &  86 & 2 \\
+Rhizobiales         & Bradyrhizobiaceae         & 7.29 & 100 &  0 & 100 & 0 \\
+Rhizobiales         & Hyphomicrobium            & 3.67 &  76 & 10 &  72 & 2 \\
+Nevskiales          & Nevskia                   & 6.01 & 100 &  4 &  98 & 5 \\
+Sphingomonadales    & Novosphingobium           & 4.51 & 100 &  4 &  99 & 1 \\
+Rhizobiales         & Rhizobiales2              & 5.01 &  94 &  4 &  97 & 1 \\
+Rhizobiales         & Rhizobiales3              & 2.34 &  28 &  3 &  16 & 1 \\
+Rhizobiales         & Rhizobiales\_1            & 7.15 &  93 &  4 &  95 & 1 \\
+Nostocales          & Trichormus                & 4.85 &  97 &  4 &  99 & 0 \\
+Cytophagales        & rest                      & 0.53 &  15 &  4 &  11 & 0 \\
+                    & rest2                     & 0.21 &   0 &  0 &   6 & 0 \\
+Burkholderiales     & rest3                     & 1.62 &   0 &  0 &  20 & 0 \\
+\bottomrule
+\end{longtable}
+
+\begin{tablenotes}
+  \footnotesize
+  \item[a] Taxonomic order determined by BAT taxonomy (VonMeijenfeldt \emph{et al.} (2019)
+  \item[b] manually assigned name
+  \item[c] MAG completeness and redundancy assessed via Single Copy Marker Gene scoring
+\end{tablenotes}
+
+\end{threeparttable}
+
 ### Decontaminated metagenome assemblies provide up to 22 bins per biological sample
 Manual binning with extragenous binning signals yields between 12 and 22 bins for each non-sterilised _Azolla_ sample of which the majority is considered to be a high quality bin (+@tbl:tbl3_4).
 Automated binning of the same data with metabat2 and concoct performed `make table`
