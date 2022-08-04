@@ -387,18 +387,24 @@ Rhizobiales       & rest\_7           &  1.36 &  0.69 &   0.11 &   0 &  0 & 14 &
 
 ### Binning assemblies from non-metagenomic data is feasible with extragenous binning signals
 Provided with thoroughly filtered metagenome assemblies, the binning process becomes feasible even if the assembly lacks a metagenomic study design.
-Typically, binning would depend highly on the depth of scaffolds in one sequencing library and on k-mer profiles of  scaffolds.
-Here, we employed a manual method adding extragenous binning signals from the one metagenomic study done on this genus, the seminal paper on the _N. azollae_ genome, and scaffold taxonomy determined by CAT.
+Typically, binning would depend highly on differential abundance of scaffolds over various sequencing libraries and to lesser extent on on k-mer profiles of scaffolds.
+However, several _Azolla_ species sequenced have only one sample, one sequencing library available, hence binning cannot use differential abundance over various samples.
+Within the _Azolla_ genus, we assume that several microbes or close relatives thereof may be shared amoungst several _Azolla_ species.
+Under this assumption, we employed a manual method adding extragenous binning signals from the one metagenomic study done on this genus, the seminal paper on the _N. azollae_ genome, and scaffold taxonomy determined by CAT.
 No automated binning algorith can implement these binningsignals while also accounting for the nuances required in interpreting them, hence automated binning algorithms will likely produce false MAGs.
-Using Anvi'o, it is possible to visualise aforementioned extragenous binning signals and bin scaffolds manually whilst accounting for the nature of different binning signals appropriately.
-Within Anvi'o, all metadata was plotted for every biological sample as in +@fig:fig3_Azmic_binning.
+Using Anvi'o [@Eren2015], it is possible to visualise aforementioned extragenous binning signals and bin scaffolds manually whilst accounting for the nature of different binning signals appropriately.
+Within Anvi'o, all metadata was plotted per metagenome assembly.
 Next, scaffolds were binned manually, guided at first by autmated binning methods, but primarily by scaffold depth in the native sequencing libraries for that particular biological sample.
 Contig depth was often the most clear binning signal in these samples (+@fig:fig3_Azmic_binning).
 Abundance in _A. filiculoides_ 'wild' sequencing was used carefully when applicable, and checked with anvi'o clustering based only on k-mer profiles.
-Using metagenomic sequencing data from another species in the genus relies on the assumption that a bacterium might be shared among these species and risks not binning genome rearangements that have occured.
-This extragenous binning signal was not informative for most MAGs from non-_A. filiculoides_ species but it was for some for some MAGs, for example in _A. mexicana_ (Supp fig. X) and _A. spnov. (Supp fig. X).
+
+In some metagenomes, the extragenous binningsignals provided some helpfull information for some bins, for example in _A. rubra_ and _A. mexicana_ (+@fig:fig3_Azrub_binning; +@fig:fig3_Azmex_binning).
+In other metagenomes, like _A. microphylla_, the extragenous binningsignals provided little to no additional information for clustering (+@fig:fig3_Azmic_binning).
+In such cases, abundance in the native sequencing library and k-mer clustering were used to disentangle bins from oneanother.
+Exceptionally, clustering dendograms showed better clusters when clustering only on k-mer content and not on andunance data (+@fig:fig3_Aznil_binning; +@fig:fig3_Azcar_1_binning).
 Finally, scaffold taxonomy was considered as an indication to support specific groupings of scaffolds.
 Contig taxonomy often showed discrete patterns matching the input dendrogram and binning when other binning signals were already distinctive, thereby further solidifying CAT taxonomy as a valuable binning signal.
+CAT taxonomy helped considerably when other binning signals were lacking, for example in the case of the _A. caroliniana_ '2' metagenome (+@fig:fig3_Azcar_2_binning).
 
 Manual binning with extragenous binning signals and scaffold taxonomy provided high quality bins for alle metagenome assemblies (+@tbl:tbl3_all_MAGs). `Can I visualise this somehow...  Fig 7 if that works out.`
 For exmple in _A. microphylla_ where are MAGS are poorly distributed on the main dendrogram and hard to distinghuish (+@fig:fig3_Azmic_binning).
