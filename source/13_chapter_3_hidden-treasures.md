@@ -312,7 +312,7 @@ Then, these automatically generated MAGs were imported into Anvi'o and curated m
 The _A. filiculoides_ wild sample metagenome contains multiple high quality MAGs of which several are likely from species living inside the plant leaf cavities.
 Only sequencing data of the _A. filiculoides_ wild sample was derived from a metagenomic study design, including samples of whole plants and leaf-pocket enriched 'juice'.
 Separating the different MAGs in this metagenome assembly benefits from differential sampling and the consequent differental abundance of genomes per sample (+@fig:fig3_Azfil_wild_binning).
-Additionally, the PacBio RSIIlong read sequencing of the _A. filiculoides_ minus-cyano sample which was used as an additional binning signal to distinghuish MAGs from each other, as this data was also used during the final stages of assembly of the _A. filiculoides_ wild sample.
+Additionally, the PacBio RSII long read sequencing of the _A. filiculoides_ minus-cyano sample which was used as an additional binning signal to distinghuish MAGs from each other, as this data was also used during the final stages of assembly of the _A. filiculoides_ wild sample.
 Several MAGs of similar taxonomy, i.e. Rhizobium, Rhizobiales, etc., could be resolved into well distinghuised high quality MAGs.
 Binning yielded 7 high quality bins in total (completeness > 90% redundancy < 10%) with appropriate genome sizes, 3 medium quality MAGs also with appropriate sizes(completeness > 60%), and several low quality bins likely representing partial genomes of low abundant bacteria. (+@tbl:tbl3_2).
 Despite the metagenomic study design, not all bins could be resolved to high quality.
