@@ -437,7 +437,7 @@ MAG name\tnote{b}             &
 Acidobacteriaceae   & Acidobacteria             & 4.29 &  82 &  4 &  76 & 0 \\
 Micrococcales       & Actinobacteria            & 3.34 &  92 & 27 &  77 & 4 \\
 Caulobacterales     & Alphaproteobacteria       & 4.80 &  99 &  4 &  80 & 4 \\
-                    & Alphaproteobacteria2      & 5.13 &  93 &  4 &  91 & 1 \\
+NA                  & Alphaproteobacteria2      & 5.13 &  93 &  4 &  91 & 1 \\
 Caulobacterales     & Asticcacaulis             & 3.48 &  70 &  1 &  82 & 3 \\
 Caulobacterales     & Asticcacaulis\_taihuensis & 4.14 &  99 &  0 &  98 & 0 \\
 Cytophagales        & Bacteriodetes             & 6.37 &  99 &  0 &  97 & 0 \\
@@ -451,7 +451,7 @@ Rhizobiales         & Rhizobiales3              & 2.34 &  28 &  3 &  16 & 1 \\
 Rhizobiales         & Rhizobiales\_1            & 7.15 &  93 &  4 &  95 & 1 \\
 Nostocales          & Trichormus                & 4.85 &  97 &  4 &  99 & 0 \\
 Cytophagales        & rest                      & 0.53 &  15 &  4 &  11 & 0 \\
-                    & rest2                     & 0.21 &   0 &  0 &   6 & 0 \\
+NA                  & rest2                     & 0.21 &   0 &  0 &   6 & 0 \\
 Burkholderiales     & rest3                     & 1.62 &   0 &  0 &  20 & 0 \\
 \bottomrule
 \end{longtable}
