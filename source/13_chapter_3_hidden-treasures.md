@@ -524,8 +524,9 @@ Species \& Sample                                         &
 \end{threeparttable}
 
 ### Systematic occurence of taxonomical orders in the entire _Azolla_ genus
-Next, we assessed whether MAGs of certain taxonomical orders reoccur systematically in the _Azolla_ genus as scaffolds did in +@fig:fig3_Azolla-genus-metagenome-order.
-When counting bins classified to the aforementioned orders across all biological samples, a similar pattern can be seen.
+Next, we assessed whether bins of certain taxonomical orders reoccur systematically in the _Azolla_ genus as scaffolds did in +@fig:fig3_Azolla-genus-metagenome-order.
+Since the binning process has concluded satisfactory, bins are now termed MAGs.
+When counting MAGs classified to the aforementioned orders across all biological samples, a similar pattern can be seen.
 Rhizobiales bacteria can be found in multiple bins associated with any of the _Azolla_ species examined, ranging from 4 to 8 bins.
 Burkholderiales bacteria can be found in all but one biological sample, and in all of the examined species.
 These two orders of bacteria are also the two orders present in the _A. filiculoides_ minus_cyano sample, and hence survived intensive sterilisation and antibiotic treatment.
