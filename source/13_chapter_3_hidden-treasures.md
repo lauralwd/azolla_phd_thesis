@@ -615,7 +615,7 @@ Researchers interested in metagenomes may use a similar method as demonstrated h
 This is especially interesting if a host species is already known or suspected to host bacteria, or if bacterial DNA was previously identified in reads or assemblies of a sequencing run as was the case for _Azolla_.
 However, not all eukaryotic species or DNA extractions will encompass substantial fractions of DNA from associated bacteria.
 Before thorough and costly filtering and assembly, sequencing data may be searched for signs of bacterial genomes as we have done in Chapter \ref{foul play} [@Dijkhuizen2018].
-Such signals could be extracted from raw sequencing data for example by searching for rRNA reads (emirge, ribotagger, many more), for bacterial genes (RAT Tina) or by kmer based approaches such as kraken2.
+Such signals could be extracted from raw sequencing data for example by searching for rRNA reads (emirge, ribotagger, many more), for bacterial genes `(RAT Tina)` or by kmer based approaches such as kraken2.
 This approach allows us to find bacteria associated with host species we have already studied in the past and hence mine host-bacteria interactions in a great variety of data of past experiments and from a variety of labs as demonstrated here.
 
 Many plant species are known to interact with bacteria systematically and even transmit these systematically [@Frank2018; @Pinto-Carbo2018], but the mechanisms underpinning symbiosis are often unclear.
