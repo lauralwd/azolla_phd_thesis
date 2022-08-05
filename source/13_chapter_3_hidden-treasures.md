@@ -477,7 +477,7 @@ The method yields between 12 and 21 bins for each non-sterilised _Azolla_ sample
 Manual binning explains between 95 and 100% of each metagenome assembly (+@tbl:tbl3_4).
 Automated binning approaches like Concoct within Anvi'o [@Eren2015] and Metabat2 were often near-equally good in distinghuishing bins of high quality (+@fig:fig3_binning_QC_anvio & +@fig:fig3_binning_QC_checkm) as the manual approach.
 The manual approach however, succedes in improving bin quality of those bins of medium quality (i.e. +@fig:fig3_binning_QC_anvio; _A. filiculoides_ 'minus-cyano') and low quality (i.e. +@fig:fig3_binning_QC_anvio; _A. mexicana_).
-Additionally, the manual method manages to less bins compared to the automated methods (+@fig:fig3_binning_QC_anvio; black numbers: Concoct & Metabat2 vs Manual), while the amount of bins of high quality increases or remains stable (+@fig:fig3_binning_QC_anvio; green numbers).
+Additionally, the manual method creates fewer bins compared to the automated methods (+@fig:fig3_binning_QC_anvio; black numbers: Concoct & Metabat2 vs Manual), while the amount of bins of high quality increases or remains stable (+@fig:fig3_binning_QC_anvio; green numbers).
 This effectively means the diversity in a metagenome is explained with fewer genomes and of higher quality.
 Hence, the manual method allows to more reliably study the genomes of more bacteria associated with a sample.
 
