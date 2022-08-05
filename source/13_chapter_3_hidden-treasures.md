@@ -606,7 +606,8 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 ## Discussion
 In this study, we acquired high quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (+@fig:fig3_data-overview) through a process of thorough filtering (+@fig:fig3_filtering-and-assembly) thereby substantially reducing the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (+@fig:fig3_filter-length-distributions).
 Each species' metagenome assemblie contained several distinct bacterial genomes and these assemblies resembled each other in terms of taxonomy (+@fig:fig3_Azolla-genus-metagenome-order).
-
+Manual binning (+@fig:fig3_Azfil_wild_binning +@fig:fig3_Azmic_binning) allowed to retrieve these MAGs better than automated binning approaches (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_no_taxonomy) and provide them to the _Azolla_ and plant-microbe research community.
+Several orders of bacteria are systematically associated with the _Azolla_ genus as a whole (+@fig:fig:fig3_binning_all_taxonomy; order).
 
 ### Metagenome assemblies can be retrieved from publicly available non-metagenomic data
 Acquiring metagenomes from public sequencing data not originally meant for metagenome assembly is feasible and may be further applied to shed light on the mechanisms of host-microbe symbioses.
