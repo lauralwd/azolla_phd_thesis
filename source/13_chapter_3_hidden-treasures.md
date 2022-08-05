@@ -391,7 +391,8 @@ Rhizobiales       & rest\_7           &  1.36 &  0.69 &   0.11 &   0 &  0 & 14 &
 ### Binning assemblies from non-metagenomic data is feasible with extragenous binning signals
 Provided with thoroughly filtered metagenome assemblies, the binning process becomes feasible even if the assembly lacks a metagenomic study design.
 Typically, binning would depend highly on differential abundance of scaffolds over various sequencing libraries and to lesser extent on on k-mer profiles of scaffolds.
-However, several _Azolla_ species sequenced have only one sample, one sequencing library available, hence binning cannot use differential abundance over various samples.
+However, several _Azolla_ species sequenced have only one sample, hence one sequencing library available.
+Therefore, binning cannot use differential abundance over various samples.
 Within the _Azolla_ genus, we assume that several microbes or close relatives thereof may be shared amoungst several _Azolla_ species.
 Under this assumption, we employed a manual method adding extragenous binning signals from the one metagenomic study done on this genus, the seminal paper on the _N. azollae_ genome, and scaffold taxonomy determined by CAT.
 No automated binning algorith can implement these binningsignals while also accounting for the nuances required in interpreting them, hence automated binning algorithms will likely produce false MAGs.
