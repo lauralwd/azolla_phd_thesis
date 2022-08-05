@@ -151,29 +151,29 @@ All tools used in this snakemake workflow are selected and installed from the Bi
 Conda environments used in this study can be found in [github env link](https://github.com/lauralwd/Azolla_genus_metagenome/tree/master/envs).
 
 ### Data
-Sequencing data used here represented six of seven species in the _Azolla_ genus and was generated as part of three studies (+@fig:fig3_data-overview).
-These species are part of two subgenera, the _Rhizosperma_ section of the genus comprising _Azolla pinata_ and _Azolla nilotica_, and the _Euazolla_ section comprising the other four species (+@fig:fig3_data-overview\-A)
+Sequencing data used here represented six of seven species in the _Azolla_ genus and was generated as part of three studies (+@fig:fig3_data_overview).
+These species are part of two subgenera, the _Rhizosperma_ section of the genus comprising _Azolla pinata_ and _Azolla nilotica_, and the _Euazolla_ section comprising the other four species (+@fig:fig3_data_overview\-A)
 Within the _Euazolla_ section, two subclusters of closely related species can be distinguished; firstly _A. rubra_ and _A. filiculoides_ and secondly _A. mexicana_, _A. microphylla_ and _A. carolinana_.
 These subclusters diverged between 10 and 20M years ago.
-The _Rhizosperma_ section is represented only by _A. nilotica_ here and is estimated to have diverged from the _Euazolla_  section approximately 50M years ago (+@fig:fig3_data-overview\-A [@Metzgar2007].
+The _Rhizosperma_ section is represented only by _A. nilotica_ here and is estimated to have diverged from the _Euazolla_  section approximately 50M years ago (+@fig:fig3_data_overview\-A [@Metzgar2007].
 The first published data of _Azolla_ Whole Genome Sequencing (WGS) data was Chapter \ref{foul play} [@Dijkhuizen2018].
-In that study, we sampled _A. filiculoides_ from triplicate whole plant fractions and triplicate leaf-pocket enriched fractions (P1,2,3 and L1,2,3 respectively; +@fig:fig3_data-overview\-B).
-Secondly, the _Azolla_ genome project [@Li2018] published short-read sequencing data of six _Azolla_ species, including _A. filiculoides_ and long-read sequencing of _A. filiculoides_ (+@fig:fig3_data-overview\-B).
-Sequencing data is mainly generated on Illumina platforms with typical insert sizes of 400 to 800bp and typically yielding approximately 30Gbase of DNA, except for the P and L samples which yield 2 to 3Gbase per sample (+@fig:fig3_data-overview\-B).
+In that study, we sampled _A. filiculoides_ from triplicate whole plant fractions and triplicate leaf-pocket enriched fractions (P1,2,3 and L1,2,3 respectively; +@fig:fig3_data_overview\-B).
+Secondly, the _Azolla_ genome project [@Li2018] published short-read sequencing data of six _Azolla_ species, including _A. filiculoides_ and long-read sequencing of _A. filiculoides_ (+@fig:fig3_data_overview\-B).
+Sequencing data is mainly generated on Illumina platforms with typical insert sizes of 400 to 800bp and typically yielding approximately 30Gbase of DNA, except for the P and L samples which yield 2 to 3Gbase per sample (+@fig:fig3_data_overview\-B).
 Both studies' their _A. filiculoides_ samples originate from the same Ditch in Utrecht, the Netherlands.
-One sample was treated to remove the most abundant symbiont: _N. azollae_ and is indicated as the no-cyano sample (+@fig:fig3_data-overview\-B).
-All samples acquired from the International Rice Research Institute (IRRI) were maintained for approximately two decades by the IRRI by vegetative propagation [@Watanabe1992] (+@fig:fig3_data-overview\-B).
-These plant strains were sampled at various locations around the globe (+@fig:fig3_data-overview\-C): _Azolla nilotica_, _Azolla rubra_, _Azolla mexicana_, _Azolla microphylla_, and two _Azolla_ samples, which were initially classified as _Azolla carolinana_ but are likely a new _Azolla_ species, here termed, _Azolla sp.nov._ [Chapter \ref{it takes two}\; @Dijkhuizen2021]
+One sample was treated to remove the most abundant symbiont: _N. azollae_ and is indicated as the no-cyano sample (+@fig:fig3_data_overview\-B).
+All samples acquired from the International Rice Research Institute (IRRI) were maintained for approximately two decades by the IRRI by vegetative propagation [@Watanabe1992] (+@fig:fig3_data_overview\-B).
+These plant strains were sampled at various locations around the globe (+@fig:fig3_data_overview\-C): _Azolla nilotica_, _Azolla rubra_, _Azolla mexicana_, _Azolla microphylla_, and two _Azolla_ samples, which were initially classified as _Azolla carolinana_ but are likely a new _Azolla_ species, here termed, _Azolla sp.nov._ [Chapter \ref{it takes two}\; @Dijkhuizen2021]
 The third data source is the seminal paper introducing the _N. azollae_ genome sequence [@Ran2010].
 This paper includes ion-torrent sequencing of a gradient purified extraction of the primary symbiont of _A. filiculoides_.
-Data of the latter study was acquired from SRA: for the first and last studies via the accession numbers listed in +@fig:fig3_data-overview\-B.
+Data of the latter study was acquired from SRA: for the first and last studies via the accession numbers listed in +@fig:fig3_data_overview\-B.
 Data of the _Azolla_ genome project was made available to our lab before it was uploaded to a repository.
 Unfortunately, we cannot link the sample identities of the data made available to us, with those uploaded to NCBI SRA, hence,  we refer to the study as a whole.
 In total, this study examines eighteen sequencing libraries, taken from nine biological samples accounting for six _Azolla_ species, treating L1,2,3, P1,2,3 combined as one biological sample.
 
 \begin{sidewaysfigure}
 \begin{figure}
-\hypertarget{fig:fig3_data-overview}{%
+\hypertarget{fig:fig3_data_overview}{%
 \centering
 \includegraphics{source/figures/fig3_data-in-overview.pdf}
 \caption{
@@ -184,7 +184,7 @@ In total, this study examines eighteen sequencing libraries, taken from nine bio
   respectively in the final column of panel 1B.
   Sampling details are available in the latter paper.
   The original sampling location for \emph{Azolla} specimens sequenced and considered here (C).}
-\label{fig:fig3_data-overview}
+\label{fig:fig3_data_overview}
 }
 \end{figure}
 \end{sidewaysfigure}
@@ -194,36 +194,36 @@ In total, this study examines eighteen sequencing libraries, taken from nine bio
 ### Filtering of _Azolla_ sequencing data against host DNA reduces assembly size and the computational requirements thereof
 First, we set out to rid raw WGS data from plant DNA to ease assembly of the bacteria whose genomes are also present in this data.
 Filtering reduces input complexity and hence reduces complexity in the assembly graph, possibly improving metagenome assembly quality.
-The bioinformatic workflow developed here, takes short read DNA sequencing data as a main input, then itteratively removes host reads and finally assembles the remainder into contigs (+@fig:fig3_filtering-and-assembly\-A).
+The bioinformatic workflow developed here, takes short read DNA sequencing data as a main input, then itteratively removes host reads and finally assembles the remainder into contigs (+@fig:fig3_filtering_and_assembly\-A).
 The first stage of host DNA removal is achieved by mapping DNA reads that passed trimmomatic Quality Control (QC) to a reference genome [@Bolger2014], then assembling the remaining reads into contigs with SPAdes in metagenomics mode [@Nurk2017] (host filtered).
-QC removed on average 4.4% and no more than 7% of reads of any of the sequencing libraries (+@fig:fig3_filtering-and-assembly\-B; bottom).
-Filtering with the reference genome reduced read input substantially for _A. filiculoides_ (51% of reads for lab samples and 79% for no-cyano samples; +@fig:fig3_filtering-and-assembly\-B; bottom; _Azolla filiculoides_).
-Filtering efficiency deminished substantially even for species phylogenetically close (+@fig:fig3_data-overview\-A) to the reference genome such as _A. rubra_ 24% (+@fig:fig3_filtering-and-assembly\-B; bottom; _Azolla rubra_), and other species in the _Azolla_ section of the genus (between 18% and 20%) (+@fig:fig3_filtering-and-assembly\-B; bottom).
-This first filtering step removed only 8% of reads for the phylogenetically distant _A. nilotica_ (+@fig:fig3_filtering-and-assembly\-B; bottom; _Azolla nilotica_).
-Assemblies after this first filtering step (host filtered) were typically around 600 Mbase and hence likely contain substantial amounts of host DNA still (+@fig:fig3_filtering-and-assembly\-B; top).
+QC removed on average 4.4% and no more than 7% of reads of any of the sequencing libraries (+@fig:fig3_filtering_and_assembly\-B; bottom).
+Filtering with the reference genome reduced read input substantially for _A. filiculoides_ (51% of reads for lab samples and 79% for no-cyano samples; +@fig:fig3_filtering_and_assembly\-B; bottom; _Azolla filiculoides_).
+Filtering efficiency deminished substantially even for species phylogenetically close (+@fig:fig3_data_overview\-A) to the reference genome such as _A. rubra_ 24% (+@fig:fig3_filtering_and_assembly\-B; bottom; _Azolla rubra_), and other species in the _Azolla_ section of the genus (between 18% and 20%) (+@fig:fig3_filtering_and_assembly\-B; bottom).
+This first filtering step removed only 8% of reads for the phylogenetically distant _A. nilotica_ (+@fig:fig3_filtering_and_assembly\-B; bottom; _Azolla nilotica_).
+Assemblies after this first filtering step (host filtered) were typically around 600 Mbase and hence likely contain substantial amounts of host DNA still (+@fig:fig3_filtering_and_assembly\-B; top).
 
 To further improve filtering efficiency, a second filtering strategy was applied.
 Assembled contigs of all hostfiltered assemblies were classified with CAT [@VonMeijenfeldt2019], and contigs classified as eukaryotic were used as a second filter specific for that particular sequencing library.
 Contigs classified as eukaryotic did not contain substantial amounts (1Mbase or higher in all assemblies combined; [lauradijkhuizen.com/blog/AGMB](lauradijkhuizen.com/blog/AGMB)) of DNA classified as anything other than streptophyta hence the assemblies contain only one eukaryote: _Azolla_ ferns.
-The efficacy of this second stage of host DNA removal was typically opposite to the former stage: being least effective for _A. filiculoides_ (no more than 11%) and _A. rubra_ (25%), whilst most effective for those farther removed in the phylogeny; i.e. 42% for _A. microphylla_ and 56% of _A. nilotica_ (+@fig:fig3_filtering-and-assembly\-B bottom filtered vs. double filtered).
-Combined, both filtering approaches removed between 50% and 64% of reads from plant samples that were maintained in the lab and not experimentally treated (+@fig:fig3_filtering-and-assembly\-B trimmed vs double filtered).
-The double filtered reads were assembled again with SPAdes in metagenomics mode, both as single libraries or as hybrid assemblies when multiple sequencing libraries or read types were available per biological sample (+@fig:fig3_filtering-and-assembly\-B top; H).
-Assembly sizes were reduced substantially after the second filtering step for all species except for _A. filiculoides_ samples with lower insert sizes (+@fig:fig3_filtering-and-assembly\-B top).
-Metagenome Assembly sizes typically varied from 160 to  250 Mbase, with exceptions for the _A. filiculoides_ wild sample (738 Mbase), the sterilised _A. filiculoides_ no-cyano sample (60 Mbase), and the _A. spnov._ 2 sample (456 Mbase) (+@fig:fig3_filtering-and-assembly\-B top).
-The double filter typically reduced assembly size by 60% to 70% (+@fig:fig3_filtering-and-assembly\-B top).
-Reduced assembly size and host DNA contamination make manual binning feasible and metagenome assembly sizes (+@fig:fig3_filtering-and-assembly\-B top) indicate that all assemblies likely contain multiple bacterial genomes.
-Secondly, removing host DNA from the assembly input reduces input complexity and thereby substantially reduced computational requirements for assembly in terms of peak RAM usage (+@fig:fig3_filtering-and-assembly\-B RAM usage).
+The efficacy of this second stage of host DNA removal was typically opposite to the former stage: being least effective for _A. filiculoides_ (no more than 11%) and _A. rubra_ (25%), whilst most effective for those farther removed in the phylogeny; i.e. 42% for _A. microphylla_ and 56% of _A. nilotica_ (+@fig:fig3_filtering_and_assembly\-B bottom filtered vs. double filtered).
+Combined, both filtering approaches removed between 50% and 64% of reads from plant samples that were maintained in the lab and not experimentally treated (+@fig:fig3_filtering_and_assembly\-B trimmed vs double filtered).
+The double filtered reads were assembled again with SPAdes in metagenomics mode, both as single libraries or as hybrid assemblies when multiple sequencing libraries or read types were available per biological sample (+@fig:fig3_filtering_and_assembly\-B top; H).
+Assembly sizes were reduced substantially after the second filtering step for all species except for _A. filiculoides_ samples with lower insert sizes (+@fig:fig3_filtering_and_assembly\-B top).
+Metagenome Assembly sizes typically varied from 160 to  250 Mbase, with exceptions for the _A. filiculoides_ wild sample (738 Mbase), the sterilised _A. filiculoides_ no-cyano sample (60 Mbase), and the _A. spnov._ 2 sample (456 Mbase) (+@fig:fig3_filtering_and_assembly\-B top).
+The double filter typically reduced assembly size by 60% to 70% (+@fig:fig3_filtering_and_assembly\-B top).
+Reduced assembly size and host DNA contamination make manual binning feasible and metagenome assembly sizes (+@fig:fig3_filtering_and_assembly\-B top) indicate that all assemblies likely contain multiple bacterial genomes.
+Secondly, removing host DNA from the assembly input reduces input complexity and thereby substantially reduced computational requirements for assembly in terms of peak RAM usage (+@fig:fig3_filtering_and_assembly\-B RAM usage).
 
-![Filtering and assembly of DNA sequencing of the _Azolla_ genus. Sequencing filtering workflow and guide to the graph (A). Quantities of sequencing input in Gbase (B; bottom), corresponding assembly output during the process (B; top), and the peak RAM usage during the assembly process (B; RAM usage). The bottom panel shows consequtive sequencing quantities at raw, trimmed, hostfiltered, and double filtered stages. At the latter two stages, sequencing data was assembled with SPAdes. The upper half of panel B shows assembly RAM usage in Gbyte and assembly sizes in MBase for both filtering stages of single sequencing library assemblies, and for hybrid assemblies if applicable.](source/figures/fig3_sequencing-filtering-and-assembly.pdf){#fig:fig3_filtering-and-assembly}
+![Filtering and assembly of DNA sequencing of the _Azolla_ genus. Sequencing filtering workflow and guide to the graph (A). Quantities of sequencing input in Gbase (B; bottom), corresponding assembly output during the process (B; top), and the peak RAM usage during the assembly process (B; RAM usage). The bottom panel shows consequtive sequencing quantities at raw, trimmed, hostfiltered, and double filtered stages. At the latter two stages, sequencing data was assembled with SPAdes. The upper half of panel B shows assembly RAM usage in Gbyte and assembly sizes in MBase for both filtering stages of single sequencing library assemblies, and for hybrid assemblies if applicable.](source/figures/fig3_sequencing-filtering-and-assembly.pdf){#fig:fig3_filtering_and_assembly}
 
 ### Filtering reduced eukaryotic DNA content but did not increase assembly quality of bacterial DNA
 Filtering input sequencing data reduced assembly size, next we investigate the efficacy of this filtering approach in terms of taxonomic complexity and quality of the assembly.
 The main rationale for this intensive filtering approach was to decrease complexity in the metagenome assembly graph; thereby improving the length and quality of assembled bacterial contigs.
-The double filtering step substantially reduced total assembly size (+@fig:fig3_filtering-and-assembly\-B top) and length distributions of eukaryotic contigs (+@fig:fig3_filter-length-distributions Eukaryota, +@tbl:tbl3_1), as well as contigs which were not assigned a taxonomy or did not yield any open reading frames (+@tbl:tbl3_1).
+The double filtering step substantially reduced total assembly size (+@fig:fig3_filtering_and_assembly\-B top) and length distributions of eukaryotic contigs (+@fig:fig3_filter_length_distributions Eukaryota, +@tbl:tbl3_1), as well as contigs which were not assigned a taxonomy or did not yield any open reading frames (+@tbl:tbl3_1).
 These latter two taxonomical categories often had similar depth/length distributions as scaffolds assigned Eukaryota ([lauradijkhuizen.com/blog/AGMB](lauradijkhuizen.com/blog/AGMB)).
-In contrast, bacterial assembly size and length distributions were practically identical between the two different filtering stages (+@fig:fig3_filter-length-distributions Bacteria), although the average and median scaffold size did increase slightly (+@tbl:tbl3_1 Bacteria).
-Contigs assigned as Archeal in the hostfiltered assembly, were not classified as such in the doublefiltered assembly (+@fig:fig3_filter-length-distributions Archaea).
-Similarly, viral contigs often were only assembled in the hostfiltered assembly (+@fig:fig3_filter-length-distributions Viruses).
+In contrast, bacterial assembly size and length distributions were practically identical between the two different filtering stages (+@fig:fig3_filter_length_distributions Bacteria), although the average and median scaffold size did increase slightly (+@tbl:tbl3_1 Bacteria).
+Contigs assigned as Archeal in the hostfiltered assembly, were not classified as such in the doublefiltered assembly (+@fig:fig3_filter_length_distributions Archaea).
+Similarly, viral contigs often were only assembled in the hostfiltered assembly (+@fig:fig3_filter_length_distributions Viruses).
 The bacterial fraction of the metagenome assembly is of substantial size and was not negativelly affected by the filtering approach, thereby paving the way to investigate the diversity of bacterial genomes in this fraction.
 
 filter stage    | superkingdom  | contig count |scaffold count | total scaffold length (Mb) | median scaffold length (kb) | average scaffold length (kb)
@@ -241,36 +241,36 @@ Table: Assembly statistics per superkingdom before and after the second filterin
 
 \begin{sidewaysfigure}
 \begin{figure}
-\hypertarget{fig:fig3_filter-length-distributions}{%
+\hypertarget{fig:fig3_filter_length_distributions}{%
 \centering
 \includegraphics{source/figures/fig3_figure-filter-length-distributions.pdf}
 \caption{Length distrubtions of \emph{Azolla} sp. metagenome assembles per kingdom before and after two stages of filtering.
-  Metagenome assemblies of individual sequencing libraries (\cref{fig:fig3_data-overview}) were filtered with the Host genome (Host filtered; red) and with a library specific subset of eukaryotic contigs (Double filtered; blue; \cref{fig:fig3_filtering-and-assembly}).
+  Metagenome assemblies of individual sequencing libraries (\cref{fig:fig3_data_overview}) were filtered with the Host genome (Host filtered; red) and with a library specific subset of eukaryotic contigs (Double filtered; blue; \cref{fig:fig3_filtering_and_assembly}).
   Scaffolds of metagenome assemblies were assigned taxonomy with CAT (Von Meijenfeldt \emph{et al}. 2019) and their length distributions were plotted as boxplot per taxonomic kingdom (vertical pannels: Virusses, Eukaryota, Bacteria and Archae) per sequencing library (horizontal pannels).
   Width of the boxplot is propportional to the amount of scaffolds represented (\cref{tbl:tbl3_1}).}
-\label{fig:fig3_filter-length-distributions}
+\label{fig:fig3_filter_length_distributions}
 }
 \end{figure}
 \end{sidewaysfigure}
 
 ### Filtered metagenome assemblies contain distinct microbial genomes systematically reoccuring in the _Azolla_ genus
-The double filtered assemblies contain numerous bacterial contigs of each _Azolla_ species sampled here (+@fig:fig3_filter-length-distributions Bacteria).
+The double filtered assemblies contain numerous bacterial contigs of each _Azolla_ species sampled here (+@fig:fig3_filter_length_distributions Bacteria).
 Next, we take a genus perspective and compare these assemblies by the taxonomy and abundance, now counting scaffolds rather than contigs.
 Bacterial scaffolds in all doublefiltered assemblies had a median length of 5671 bp; hence, bacterial genomes in the assembly are highly fragmented.
-Despite this fragmentation, scaffolds group into approximate bacterial genomes quite distinctly when examining them by their abundance, length, and taxonomy as determined by CAT (+@fig:fig3_Azolla-genus-metagenome-order).
-The genomes can be recognised as clusters of scaffolds with equal abundance and taxonomy but varying scaffold length (+@fig:fig3_Azolla-genus-metagenome-order).
-All samples but the no-cyano sample (+@fig:fig3_Azolla-genus-metagenome-order Azfil_minuscyano) show the most abundant species in the metagenome is a Nostocales cyanobacterium (+@fig:fig3_Azolla-genus-metagenome-order cyan blue).
-Rhizobiales genomes were found in all _Azolla_ species sampled here, visible as horizontal clusters of dots with identical colour (+@fig:fig3_Azolla-genus-metagenome-order purple).
-Plotting the scaffolds of all assemblies by these two characteristics allows to distinguish individual bacterial genomes in each of the _Azolla_ species sampled here (+@fig:fig3_Azolla-genus-metagenome-order).
+Despite this fragmentation, scaffolds group into approximate bacterial genomes quite distinctly when examining them by their abundance, length, and taxonomy as determined by CAT (+@fig:fig3_Azolla_genus_metagenome_order).
+The genomes can be recognised as clusters of scaffolds with equal abundance and taxonomy but varying scaffold length (+@fig:fig3_Azolla_genus_metagenome_order).
+All samples but the no-cyano sample (+@fig:fig3_Azolla_genus_metagenome_order Azfil_minuscyano) show the most abundant species in the metagenome is a Nostocales cyanobacterium (+@fig:fig3_Azolla_genus_metagenome_order cyan blue).
+Rhizobiales genomes were found in all _Azolla_ species sampled here, visible as horizontal clusters of dots with identical colour (+@fig:fig3_Azolla_genus_metagenome_order purple).
+Plotting the scaffolds of all assemblies by these two characteristics allows to distinguish individual bacterial genomes in each of the _Azolla_ species sampled here (+@fig:fig3_Azolla_genus_metagenome_order).
 
 \begin{sidewaysfigure}
 \begin{figure}
-\hypertarget{fig:fig3_Azolla-genus-metagenome-order}{%
+\hypertarget{fig:fig3_Azolla_genus_metagenome_order}{%
   \centering
-  \includegraphics{source/figures/fig3_Azolla-genus-metagenome-order.png}
+  \includegraphics{source/figures/fig3_Azolla_genus_metagenome_order.png}
   \caption{Metagenome assemblies of 6 species of the fern genus Azolla (horizontal panels).
-    Sequencing data was derived from three public projects \cref{fig:fig3_data-overview}.
-    Sequencing reads were rid of host plant DNA reads and assembled with SPAdes in metagenome mode \cref{fig:fig3_filtering-and-assembly}-A.
+    Sequencing data was derived from three public projects \cref{fig:fig3_data_overview}.
+    Sequencing reads were rid of host plant DNA reads and assembled with SPAdes in metagenome mode \cref{fig:fig3_filtering_and_assembly}-A.
     Resulting scaffolds were then assigned an approximate taxonomy with CAT (VonMeijenfeldt \emph{et al}. (2019)).
     Metagenome assembly scaffolds are displayed as dot plots with length on the x-axis and depth in the assembly graph on the y-axis; both log10 transformed.
     Dot colour represents the taxonomical order and dot size represents ORF count.
@@ -278,20 +278,20 @@ Plotting the scaffolds of all assemblies by these two characteristics allows to 
     Additionally, scaffolds are filtered if they have less than 5 ORFs classified or when a taxonomic group amounts to less than 2Mbase in the entire figure.
     An \href{https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/}{online interactive version of this figure} can be manipulated to modify these filters and assumptions, and to include more assemblies done in the \emph{Azolla} metagenome project.
     }
-    \label{fig:fig3_Azolla-genus-metagenome-order}
+    \label{fig:fig3_Azolla_genus_metagenome_order}
 }
 \end{figure}
 \end{sidewaysfigure}
 
-Even before binning scaffolds into MAGs, metagenomes of the _Azolla_ genus show clear similarities amongst each other; several taxonomical orders reoccur systematically (+@fig:fig3_Azolla-genus-metagenome-order).
+Even before binning scaffolds into MAGs, metagenomes of the _Azolla_ genus show clear similarities amongst each other; several taxonomical orders reoccur systematically (+@fig:fig3_Azolla_genus_metagenome_order).
 Most prominently, the Nostocales, which are the most abundant order in all _Azolla_ species except one which was artificially devoid of the cyanobacteria.
-Contigs assigned Nostocales have a high variance in abundance, standard deviations vary in the various samples from 300 to 600 (arbitrary unit representing depth in the assembly graph; +@fig:fig3_Azolla-genus-metagenome-order; [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB)).
+Contigs assigned Nostocales have a high variance in abundance, standard deviations vary in the various samples from 300 to 600 (arbitrary unit representing depth in the assembly graph; +@fig:fig3_Azolla_genus_metagenome_order; [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB)).
 In contrast, other clearly distinghuishable microbial genomes show a typical depth standard deviation often lower than 1, but in almost all cases lower than 10 (depth variance visible in interactive figure).
 This abundance pattern of _Nostoc azollae_ is typical of a degraded genome with many transpons and reptitive regions and may explain why the assembled length of this MAG is shorter than the reference; 4Mbase rather than 6Mbase (+@tbl:tbl3_2).
 Yet, it might also indicate an upper limit of assembly depth.
-The second most abundant order accross the genus, is the Rhizobiales, ranging between 16 and 44 Mbase of assembled DNA in the different samples (+@fig:fig3_Azolla-genus-metagenome-order blue; [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB)).
+The second most abundant order accross the genus, is the Rhizobiales, ranging between 16 and 44 Mbase of assembled DNA in the different samples (+@fig:fig3_Azolla_genus_metagenome_order blue; [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB)).
 In all host species, multiple Rhizobiales genomes can be distinghuised.
-The third most abundant order is the Burkholderiales (+@fig:fig3_Azolla-genus-metagenome-order yellow), which is present in all host species except for _A. rubra_ and amounts to between 5 and 17 Mbase per assembly ([lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB)).
+The third most abundant order is the Burkholderiales (+@fig:fig3_Azolla_genus_metagenome_order yellow), which is present in all host species except for _A. rubra_ and amounts to between 5 and 17 Mbase per assembly ([lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB)).
 Other notable orders that reoocur in several metagenome assemblies are the Caulobacterales, Nevsiales and Sphingomonadales.
 Each of these last three orders occurs in at least five of the six samples host species, and are found in data from different studies.
 
@@ -529,14 +529,14 @@ Next, we assessed bin taxonomy and used successful taxonomic classification as a
 Bins were processed with CAT [@VonMeijenfeldt2019] mode for bins: BAT.
 Since taxonomy is now determined for long bins, rather than short scaffolds, classification is likely more acurate.
 First, we compare the amount of bins without classification over all host species, and for the three different binning methods.
-Again, the manual method outperforms the two automated methods, creating less bins without taxonomy on practically all levels of taxonomy in all metagenome assemblies (+@fig:fig3_binning_no_taxonomy).
+Again, the manual method outperforms the two automated methods, creating less bins without taxonomy on practically all levels of taxonomy in all metagenome assemblies (+@fig:fig3_binning_QC_no_taxonomy).
 At the level of order, nearly all bins are assigned a taxonomy in all samples.
 Given the high generaly QC scores and assigned taxonomy, these binned metagenomes are ready to be studied in more detail.
 
-![Counts of bins without taxonomic classifaction. Bin taxonomy was determined with BAT [@VonMeijenfeldt2019], then counts of bins without taxonomy are shown as line plots for various levels of taxonomy (x axis) and for individual metagenome assemblies (vertical pannels). Different binning methods (Concoct, Metabat2, Manual) are depicted in red, green and blue respectively.](source/figures/fig3_binning_QC_no_taxonomy.pdf){#fig:fig3_binning_no_taxonomy}
+![Counts of bins without taxonomic classifaction. Bin taxonomy was determined with BAT [@VonMeijenfeldt2019], then counts of bins without taxonomy are shown as line plots for various levels of taxonomy (x axis) and for individual metagenome assemblies (vertical pannels). Different binning methods (Concoct, Metabat2, Manual) are depicted in red, green and blue respectively.](source/figures/fig3_binning_QC_no_taxonomy.pdf){#fig:fig3_binning_QC_no_taxonomy}
 
 ### Systematic occurence of taxonomical orders in the entire _Azolla_ genus
-Next, we assessed whether bins of certain taxonomical orders reoccur systematically in the _Azolla_ genus as scaffolds did in +@fig:fig3_Azolla-genus-metagenome-order.
+Next, we assessed whether bins of certain taxonomical orders reoccur systematically in the _Azolla_ genus as scaffolds did in +@fig:fig3_Azolla_genus_metagenome_order.
 Since the binning process has concluded satisfactory, bins are now termed MAGs.
 When counting MAGs classified to the aforementioned orders across all biological samples, a similar pattern can be seen.
 At the level of Phylum, the common denominator consists of cyanobacteria and proteobacteria (+@fig:fig:fig3_binning_all_taxonomy; phylum), the latter being dominated by Alphaproteobacteria at the class level (+@fig:fig:fig3_binning_all_taxonomy; class).
@@ -605,10 +605,10 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 \end{sidewaysfigure}
 
 ## Discussion
-In this study, we acquired high quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (+@fig:fig3_data-overview) through a process of thorough filtering (+@fig:fig3_filtering-and-assembly) thereby substantially reducing the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (+@fig:fig3_filter-length-distributions).
-Each species' metagenome assemblie contained several distinct bacterial genomes and these assemblies resembled each other in terms of taxonomy (+@fig:fig3_Azolla-genus-metagenome-order).
+In this study, we acquired high quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (+@fig:fig3_data_overview) through a process of thorough filtering (+@fig:fig3_filtering_and_assembly) thereby substantially reducing the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (+@fig:fig3_filter_length_distributions).
+Each species' metagenome assembly contained several distinct bacterial genomes and these assemblies resembled each other in terms of taxonomy (+@fig:fig3_Azolla_genus_metagenome_order).
 Manual binning (+@fig:fig3_Azfil_wild_binning +@fig:fig3_Azmic_binning) allowed to retrieve these MAGs better than automated binning approaches (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_no_taxonomy) and provide them to the _Azolla_ and plant-microbe research community.
-Several orders of bacteria are systematically associated with the _Azolla_ genus as a whole (+@fig:fig:fig3_binning_all_taxonomy; order).
+Several orders of bacteria are systematically associated with the _Azolla_ genus as a whole (+@fig:fig:fig3_binning_QC_all_taxonomy; order).
 
 ### Metagenome assemblies can be retrieved from publicly available non-metagenomic data
 Acquiring metagenomes from public sequencing data not originally meant for metagenome assembly is feasible and may be further applied to shed light on the mechanisms of host-microbe symbioses.
@@ -625,8 +625,8 @@ But other symbioses, like Cuanobacteria-plant symbises and ... , are not facilit
 Mining the genomes of symbiotic bacteria already hidden away in host sequencing data may allow comparative genomics of symbionts on a large scale and further elucidation of the mechanisms of plant-microbe symbioses.
 
 High quality MAGs can be assembled from bulk DNA extractions with minimal filtering, but this process requires manual curation and interpretation.
-The doublefiltering of bulk DNA sequencing proved effective in removing host DNA even if no host genome was available (+@fig:fig3_filtering-and-assembly) and provided clean metagenome assemblies with distinct clusters of scaffolds resemling single bacterial genomes (+@fig:fig3_Azolla-genus-metagenome-order).
-The approach was however unnessicarily costly, for assembly quality did not increase due to reduced complexity of the assembly graph (+@fig:fig3_filter-length-distributions; +@tbl:tbl3_1).
+The doublefiltering of bulk DNA sequencing proved effective in removing host DNA even if no host genome was available (+@fig:fig3_filtering_and_assembly) and provided clean metagenome assemblies with distinct clusters of scaffolds resemling single bacterial genomes (+@fig:fig3_Azolla_genus_metagenome_order).
+The approach was however unnessicarily costly, for assembly quality did not increase due to reduced complexity of the assembly graph (+@fig:fig3_filter_length_distributions; +@tbl:tbl3_1).
 The k-mer spaces in which these genomes are assembled are presumably so distinct that they do not overlap in a De-Bruijn-graph even before filtering and hence would never create ambiguities which could not be solved by the assembler.
 By this argument, filtering of the bulk DNA extraction may even be obsolete; @Delmont2016 showed that bacterial genomes could be extracted from a bulk assembly of host and symbionts.
 However, especially for larger scale mining of bacterial symbionts, removing host DNA with a single hostfiltering step may be the preferable and faster approach than (re)assembling the genome of the host in the process, especially for bigger host genomes.
@@ -685,7 +685,7 @@ The remaining three orders, Caulobacterales, Nevskiales and Sphingomonadales, we
 The new availibility of all MAG sequences allows to study the bacteria of the _Azolla_ genus through the perspective of comparative genomics.
 Classes alfa/beta/gamma proteobacteria, Actinobacteria, Bacillales, have all been seen as endophytes to plants before @Frank2018.
 The diversity of _Azolla_ associated microbes is not exhausted in this study.
-All assemblies except for _A. filiculoides_ minus_cyano contained many scaffolds near the lower abundance limit of assembly (+@fig:fig3_Azolla-genus-metagenome-order) and in concordance binning yielded many bins with only fractions of genomes (+@fig:fig3_Azfil_wild_binning +@tbl:tbl3_2).
+All assemblies except for _A. filiculoides_ minus_cyano contained many scaffolds near the lower abundance limit of assembly (+@fig:fig3_Azolla_genus_metagenome_order) and in concordance binning yielded many bins with only fractions of genomes (+@fig:fig3_Azfil_wild_binning +@tbl:tbl3_2).
 Despite that, it is perhaps more interesting to wonder which microbes are endophytes of the _Azolla_ genus and which microbes share a common ancestor and common introduction in the _Azolla_ genus.
 The nature of the data presented here does warrant caution on two important fronts.
 First, except for the _A. filiculoides_ 'wild' sample, no judgement can be made wether the MAGs presented here belong to endophytic or epithitic bacteria.
