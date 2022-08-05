@@ -478,18 +478,9 @@ Burkholderiales     & rest3                     & 1.62 &   0 &  0 &  20 & 0 \\
 Manual binning with extragenous binning signals yields between 12 and 22 bins for each non-sterilised _Azolla_ sample of which the majority is considered to be a high quality bin (+@tbl:tbl3_4).
 Automated binning of the same data with metabat2 and concoct performed `make table`
 
+![Binning quality control in Anvi'o [@Eren2015] of various binning methods. Quality of bins was assessed as completeness (dark green) and redundancy (red) by ways of scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies, comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual). Numbers in the panels show the total amount of bins created by a particular method for a particular assembly (black) and the amount of those bins passing QC criteria of completeness above 90% and redudancy below 10% (Dark green). These thresholds are also indicated by grey lines in the figure. Similar statistics were generated with CheckM [@Parks2015] utilising a different set of SCMGs. See +@fig:fig3_binning_QC_checkm](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_anvio}
 
-Fig 7: visual summary of completeness, redundance per metagenome (per binning method?)
 
-```
-The point I'd like to examine here, is if I can show in numbers, that the manual binning does better quality wise then:
- 1. automated binning.
- 2. single-(host) filtered binning
- I'm quite sure that is the case, but need to show that in numbers here first.
- The double filtering workflow did not improve assembly quality of the bacterial fraction, but it does enable manual binning and hence improves quality of the final bins.
- This would be the techinal take-away of the methods part of this manuscript
- The biological take-away, the genus wide systematic occurance, is for the next section:
-```
 \begin{threeparttable}
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3}}
@@ -967,3 +958,6 @@ Table: MAG statistics for all samples except those _A. filiculoides_ 'wild' whic
 ![Anvi'o overview of the _A. carolinana_ '1' metagenome assembly and binning into MAGs. The center dendrogram reflects a hierarchical clustering of scaffolds based on 4-mer profiles but not differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. carolinana_ '1' sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy as determined by CAT, starting at the kingdom level down to species level. The before last red ring indicates presence of any ribosomal RNA genes in a scaffold (drastically influencing depth of the scaffold and therefore the binning process). The final ring indicates in which bin a scaffold was categorises. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_all_MAGs.](source/figures/fig3_Azcar_1_binning.pdf ){#fig:fig3_Azcar_1_binning}
 
 ![Anvi'o overview of the _A. carolinana_ '2' metagenome assembly and binning into MAGs. The center dendrogram reflects a hierarchical clustering of scaffolds based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. carolinana_ '2' sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy as determined by CAT, starting at the kingdom level down to species level. The before last red ring indicates presence of any ribosomal RNA genes in a scaffold (drastically influencing depth of the scaffold and therefore the binning process). The final ring indicates in which bin a scaffold was categorises. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_all_MAGs.](source/figures/fig3_Azcar_2_binning.pdf ){#fig:fig3_Azcar_2_binning}
+
+
+![Binning quality control in CheckM [@Parks2015] of various binning methods. Quality of bins was assessed as completeness (dark green) and redundancy (red) by ways of scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies, comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual). Numbers in the panels show the total amount of bins created by a particular method for a particular assembly (black) and the amount of those bins passing QC criteria of completeness above 90% and redudancy below 10% (Dark green). These thresholds are also indicated by grey lines in the figure.](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_checkm}
