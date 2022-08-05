@@ -13,6 +13,7 @@ Henriette Schluepmann^1^.
 1. Molecular Plant Physiology Department, Utrecht University, Utrecht 3584CH, The Netherlands
 
 \newpage
+\linenumbers
 \normalsize
 \onehalfspacing
 \setlength{\parindent}{0.5in}
@@ -991,3 +992,5 @@ Table: MAG statistics for all samples except those _A. filiculoides_ 'wild' whic
 
 
 ![Binning quality control in CheckM [@Parks2015] of various binning methods. Quality of bins was assessed as completeness (dark green) and redundancy (red) by ways of scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies, comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual). Numbers in the panels show the total amount of bins created by a particular method for a particular assembly (black) and the amount of those bins passing QC criteria of completeness above 90% and redudancy below 10% (Dark green). These thresholds are also indicated by grey lines in the figure.](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_checkm}
+
+\nolinenumbers
