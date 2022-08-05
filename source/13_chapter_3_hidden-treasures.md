@@ -529,6 +529,8 @@ Bins were processed with CAT [@VonMeijenfeldt2019] mode for bins: BAT.
 Since taxonomy is now determined for long bins, rather than short scaffolds, classification is likely more acurate.
 First, we compare the amount of bins without classification over all host species, and for the three different binning methods.
 Again, the manual method outperforms the two automated methods, creating less bins without taxonomy on practically all levels of taxonomy in all metagenome assemblies (+@fig:fig3_binning_no_taxonomy).
+At the level of order, nearly all bins are assigned a taxonomy in all samples.
+Given the high generaly QC scores and assigned taxonomy, these binned metagenomes are ready to be studied in more detail.
 
 ![Counts of bins without taxonomic classifaction. Bin taxonomy was determined with BAT [@VonMeijenfeldt2019], then counts of bins without taxonomy are shown as line plots for various levels of taxonomy (x axis) and for individual metagenome assemblies (vertical pannels). Different binning methods (Concoct, Metabat2, Manual) are depicted in red, green and blue respectively.](source/figures/fig3_binning_QC_no_taxonomy.pdf){#fig:fig3_binning_no_taxonomy}
 
