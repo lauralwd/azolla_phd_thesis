@@ -457,7 +457,7 @@ Nevskiales          & Nevskia                   & 6.01 & 100 &  4 &  98 & 5 \\
 Sphingomonadales    & Novosphingobium           & 4.51 & 100 &  4 &  99 & 1 \\
 Rhizobiales         & Rhizobiales2              & 5.01 &  94 &  4 &  97 & 1 \\
 Rhizobiales         & Rhizobiales3              & 2.34 &  28 &  3 &  16 & 1 \\
-Rhizobiales         & Rhizobiales\_1            & 7.15 &  93 &  4 &  95 & 1 \\
+Rhizobiales         & Rhizobiales1              & 7.15 &  93 &  4 &  95 & 1 \\
 Nostocales          & Trichormus                & 4.85 &  97 &  4 &  99 & 0 \\
 Cytophagales        & rest                      & 0.53 &  15 &  4 &  11 & 0 \\
 NA                  & rest2                     & 0.21 &   0 &  0 &   6 & 0 \\
