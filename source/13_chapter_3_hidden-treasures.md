@@ -482,8 +482,6 @@ Hence, the manual method allows to more reliably study the genomes of more bacte
 
 ![Binning quality control in Anvi'o [@Eren2015] of various binning methods. Quality of bins was assessed as completeness (dark green) and redundancy (red) by ways of scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies, comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual). Numbers in the panels show the total amount of bins created by a particular method for a particular assembly (black) and the amount of those bins passing QC criteria of completeness above 90% and redudancy below 10% (Dark green). These thresholds are also indicated by grey lines in the figure. Similar statistics were generated with CheckM [@Parks2015] utilising a different set of SCMGs. See +@fig:fig3_binning_QC_checkm](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_anvio}
 
-### Decontaminated metagenome assemblies provide up to 22 bins per biological sample
-
 \begin{threeparttable}
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3}}
