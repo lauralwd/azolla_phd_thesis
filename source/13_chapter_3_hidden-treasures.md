@@ -583,7 +583,7 @@ order &
 \endhead
 Burkholderiales   & 2 & 1 & 6 & 4 & 2 & 5 & 1 & 1 & 0 \\
 Caulobacterales   & 0 & 0 & 1 & 1 & 3 & 0 & 1 & 2 & 4 \\
-Nevskiales        & 1 & 0 & 1 & 1 & 0 & 0 & 1 & 2 & 1 \\
+Nevskiales        & 1 & 0 & 1 & 1 & 1 & 0 & 1 & 2 & 1 \\
 Nostocales        & 1 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
 Rhizobiales       & 8 & 3 & 5 & 8 & 5 & 6 & 5 & 4 & 5 \\
 Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
