@@ -524,6 +524,14 @@ Species \& Sample                                         &
 
 \end{threeparttable}
 
+Next, we assessed bin taxonomy and used successful taxonomic classification as a quality metric.
+Bins were processed with CAT [@VonMeijenfeldt2019] mode for bins: BAT.
+Since taxonomy is now determined for long bins, rather than short scaffolds, classification is likely more acurate.
+First, we compare the amount of bins without classification over all host species, and for the three different binning methods.
+Again, the manual method outperforms the two automated methods, creating less bins without taxonomy on practically all levels of taxonomy in all metagenome assemblies (+@fig:fig3_binning_no_taxonomy).
+
+![Counts of bins without taxonomic classifaction. Bin taxonomy was determined with BAT [@VonMeijenfeldt2019], then counts of bins without taxonomy are shown as line plots for various levels of taxonomy (x axis) and for individual metagenome assemblies (vertical pannels). Different binning methods (Concoct, Metabat2, Manual) are depicted in red, green and blue respectively.](source/figures/fig3_binning_QC_no_taxonomy.pdf){#fig:fig3_binning_no_taxonomy}
+
 ### Systematic occurence of taxonomical orders in the entire _Azolla_ genus
 Next, we assessed whether bins of certain taxonomical orders reoccur systematically in the _Azolla_ genus as scaffolds did in +@fig:fig3_Azolla-genus-metagenome-order.
 Since the binning process has concluded satisfactory, bins are now termed MAGs.
@@ -536,7 +544,7 @@ Both types of evidence support their endophytic status in both _A. filiculoides_
 Caulobacterales were found in all _Azolla_ species except for _A. nilotica_, Nevskiales were found in all species except for _A. nilotica_ and _A. microphylla_, and Sphingomonadales were found in all species except for _A. rubra_.
 These three those orders were not systematically found in all _Azolla_ species, but were found in plants sampled at different locations and sequenced in different labs.
 
-![](source/figures/fig3_binning_no_taxonomy.pdf ){#fig:fig3_binning_no_taxonomy}
+
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.3}}
