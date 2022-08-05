@@ -590,7 +590,17 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 \bottomrule
 \end{longtable}
 
-![](source/figures/fig3_binning_all_taxonomy.pdf ){#fig:fig3_binning_all_taxonomy}
+\begin{sidewaysfigure}
+\begin{figure}
+\hypertarget{fig:fig3_binning_all_taxonomy}{%
+\centering
+\includegraphics{source/figures/fig3_binning_QC_all_taxonomy.pdf}
+\caption{
+  }
+\label{fig:fig3_binning_all_taxonomy}
+}
+\end{figure}
+\end{sidewaysfigure}
 
 ## Discussion
 In this study, we acquired high quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (+@fig:fig3_data-overview) through a process of thorough filtering (+@fig:fig3_filtering-and-assembly) thereby substantially reducing the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (+@fig:fig3_filter-length-distributions).
