@@ -471,12 +471,14 @@ Burkholderiales     & rest3                     & 1.62 &   0 &  0 &  20 & 0 \\
 
 \end{threeparttable}
 
-### Manual binning outperformed automated binning with extragenous binning signals
-Manual binning with extragenous binning signals and scaffold taxonomy provided high quality bins for alle metagenome assemblies (+@tbl:tbl3_all_MAGs).
-Automated binning approaches like Concoct within Anvi'o [@Eren2015] and Metabat2 were often near-equally good in distinghuishing bins of high quality (+@fig:fig3_binning_QC_anvio & +@fig:fig3_binning_QC_checkm).
-The manual approach detailed here, succedes in improving bin quality of those bins of medium quality (+@fig:fig3_binning_QC_anvio; _A. filiculoides_ 'minus-cyano') and low quality (+@fig:fig_3_binning_QC_anvio; _A. mexicana_).
-Hence the manual method allows to more reliably study the genomes of more bacteria associated with one sample.
-Manual binning with extragenous binning signals yields between 12 and 21 bins for each non-sterilised _Azolla_ sample of which the majority is considered to be a high quality bin (+@tbl:tbl3_4).
+### Manual binning yields up to 21 bins per sample, outperforming automated binning with extragenous binning signals
+Manual binning with extragenous binning signals and scaffold taxonomy provided high quality bins for all metagenome assemblies (+@tbl:tbl3_4).
+The method yields between 12 and 21 bins for each non-sterilised _Azolla_ sample of which the majority is considered to be a high quality bin (+@tbl:tbl3_4).
+Automated binning approaches like Concoct within Anvi'o [@Eren2015] and Metabat2 were often near-equally good in distinghuishing bins of high quality (+@fig:fig3_binning_QC_anvio & +@fig:fig3_binning_QC_checkm) as the manual approach.
+The manual approach however, succedes in improving bin quality of those bins of medium quality (i.e. +@fig:fig3_binning_QC_anvio; _A. filiculoides_ 'minus-cyano') and low quality (i.e. +@fig:fig_3_binning_QC_anvio; _A. mexicana_).
+Additionally, the manual method manages to less bins compared to the automated methods (+@fig:fig_3_binning_QC_anvio; black numbers: Concoct & Metabat2 vs Manual), while the amount of bins of high quality increases or remains stable.
+This effectively means the diversity in a metagenome is explained with fewer genomes and of higher quality.
+Hence, the manual method allows to more reliably study the genomes of more bacteria associated with a sample.
 
 ![Binning quality control in Anvi'o [@Eren2015] of various binning methods. Quality of bins was assessed as completeness (dark green) and redundancy (red) by ways of scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies, comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual). Numbers in the panels show the total amount of bins created by a particular method for a particular assembly (black) and the amount of those bins passing QC criteria of completeness above 90% and redudancy below 10% (Dark green). These thresholds are also indicated by grey lines in the figure. Similar statistics were generated with CheckM [@Parks2015] utilising a different set of SCMGs. See +@fig:fig3_binning_QC_checkm](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_anvio}
 
