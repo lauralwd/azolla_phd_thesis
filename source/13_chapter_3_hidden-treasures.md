@@ -596,7 +596,8 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 \hypertarget{fig:fig3_binning_all_taxonomy}{%
 \centering
 \includegraphics{source/figures/fig3_binning_QC_all_taxonomy.pdf}
-\caption{
+\caption{heatmap of MAG taxonomy (horizontal axis) for all metagenome assemblies (vertical axis) for various levels of taxonomy (horintal pannels).
+  Quantity is indicated as a shade ranging from dark blue to bright yellow.
   }
 \label{fig:fig3_binning_all_taxonomy}
 }
