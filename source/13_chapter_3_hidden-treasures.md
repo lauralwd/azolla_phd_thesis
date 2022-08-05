@@ -401,20 +401,15 @@ Within Anvi'o, all metadata was plotted per metagenome assembly.
 Next, scaffolds were binned manually, guided at first by autmated binning methods, but primarily by scaffold depth in the native sequencing libraries for that particular biological sample.
 Contig depth was often the most clear binning signal in these samples (+@fig:fig3_Azmic_binning).
 Abundance in _A. filiculoides_ 'wild' sequencing was used carefully when applicable, and checked with anvi'o clustering based only on k-mer profiles.
+Manual binning of _A. microphylla_ yielded ninteen MAGs of which eleven can be considered high quality and four medium quality, all with appropriate genome sizes. (+@tbl:tbl3_MAGs_azmic),
 
 In some metagenomes, the extragenous binningsignals provided some helpfull information for some bins, for example in _A. rubra_ and _A. mexicana_ (+@fig:fig3_Azrub_binning; +@fig:fig3_Azmex_binning).
 In other metagenomes, like _A. microphylla_, the extragenous binningsignals provided little to no additional information for clustering (+@fig:fig3_Azmic_binning).
 In such cases, abundance in the native sequencing library and k-mer clustering were used to disentangle bins from oneanother.
 Exceptionally, clustering dendograms showed better clusters when clustering only on k-mer content and not on andunance data (+@fig:fig3_Aznil_binning; +@fig:fig3_Azcar_1_binning).
 Finally, scaffold taxonomy was considered as an indication to support specific groupings of scaffolds.
-Contig taxonomy often showed discrete patterns matching the input dendrogram and binning when other binning signals were already distinctive, thereby further solidifying CAT taxonomy as a valuable binning signal.
+Scaffold taxonomy often showed discrete patterns matching the input dendrogram and binning when other binning signals were already distinctive, thereby further solidifying CAT taxonomy as a valuable binning signal.
 CAT taxonomy helped considerably when other binning signals were lacking, for example in the case of the _A. caroliniana_ '2' metagenome (+@fig:fig3_Azcar_2_binning).
-
-Manual binning with extragenous binning signals and scaffold taxonomy provided high quality bins for alle metagenome assemblies (+@tbl:tbl3_all_MAGs). `Can I visualise this somehow...  Fig 7 if that works out.`
-For exmple in _A. microphylla_ where are MAGS are poorly distributed on the main dendrogram and hard to distinghuish (+@fig:fig3_Azmic_binning).
-Still, manual binning of _A. microphylla_ yielded ninteen MAGs of which eleven can be considered high quality and four medium quality, all with appropriate genome sizes. (+@tbl:tbl3_MAGs_azmic),
-Note that the clustering dendrogram was based on sequencing depth in all samples and scaffold kmer profile, but not scaffold taxonomy.
-Similar results were obtained for all other plant samples and using the same methodology (supplemental figures X-X).
 
 ![Anvi'o overview of the _A. microphylla_ metagenome assembly and binning into MAGs. The center dendrogram reflects a hierarchical clustering of scaffolds based on 4-mer profiles but not differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. microphylla_ sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy as determined by CAT, starting at the kingdom level down to species level. The before last red ring indicates presence of any ribosomal RNA genes in a scaffold (drastically influencing depth of the scaffold and therefore the binning process). The final ring indicates in which bin a scaffold was categorises. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_MAGs_azmic.](source/figures/fig3_Azmic_binning.pdf ){#fig:fig3_Azmic_binning}
 
