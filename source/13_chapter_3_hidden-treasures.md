@@ -538,15 +538,19 @@ Given the high generaly QC scores and assigned taxonomy, these binned metagenome
 Next, we assessed whether bins of certain taxonomical orders reoccur systematically in the _Azolla_ genus as scaffolds did in +@fig:fig3_Azolla-genus-metagenome-order.
 Since the binning process has concluded satisfactory, bins are now termed MAGs.
 When counting MAGs classified to the aforementioned orders across all biological samples, a similar pattern can be seen.
-Rhizobiales bacteria can be found in multiple bins associated with any of the _Azolla_ species examined, ranging from 4 to 8 bins.
+At the level of Phylum, the common denominator consists of cyanobacteria and proteobacteria (+@fig:fig:fig3_binning_all_taxonomy; phylum), the latter being dominated by Alphaproteobacteria at the class level (+@fig:fig:fig3_binning_all_taxonomy; class).
+Yet, betaproteobactera are also present in all _Azolla_ samples, and gammaproteobacteria in all non-sterilised samples in the _Euazolla_ section of the _Azolla_ genus (+@fig:fig3_data-in-overview).
+Specifally at the level of order (+@tbl:tbl3_5; +@fig:fig:fig3_binning_all_taxonomy; order), Rhizobiales bacteria can be found in multiple bins associated with any of the _Azolla_ species examined, ranging from 4 to 8 bins.
 Burkholderiales bacteria can be found in all but one biological sample, and in all of the examined species.
 These two orders of bacteria are also the two orders present in the _A. filiculoides_ minus_cyano sample, and hence survived intensive sterilisation and antibiotic treatment.
 Bins of these orders were also found to be endophytic in _A. filiculoides_ 'wild'.
 Both types of evidence support their endophytic status in both _A. filiculoides_ and the _Azolla_ genus as a whole.
-Caulobacterales were found in all _Azolla_ species except for _A. nilotica_, Nevskiales were found in all species except for _A. nilotica_ and _A. microphylla_, and Sphingomonadales were found in all species except for _A. rubra_.
-These three those orders were not systematically found in all _Azolla_ species, but were found in plants sampled at different locations and sequenced in different labs.
-
-
+Caulobacterales and Nevskiales were found in all _Azolla_ species in the _Euazolla_ section;'all species except for _A. nilotica_.
+Finally, the Sphingomonadales order was found in all species except for _A. rubra_.
+The latter three those orders were not systematically found in all _Azolla_ species, but were found in plants sampled at different locations and sequenced in different labs.
+At the level of family and genus, few common denominators remain.
+The main symbiont is distinghuisable as Nostocaceae or Trichormus respectively.
+Bacterial families that stand out are Sinobacteraceae, Bradyrhizobiaceae and Calubacetaceae.
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.3}}
