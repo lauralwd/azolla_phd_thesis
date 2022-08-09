@@ -222,7 +222,7 @@ The main rationale for this intensive filtering approach was to decrease complex
 The double filtering step substantially reduced total assembly size (+@fig:fig3_filtering_and_assembly\-B top) and length distributions of eukaryotic contigs (+@fig:fig3_filter_length_distributions Eukaryota, +@tbl:tbl3_1), as well as contigs which were not assigned a taxonomy or did not yield any open reading frames (+@tbl:tbl3_1).
 These latter two taxonomical categories often had similar depth/length distributions as scaffolds assigned Eukaryota ([lauradijkhuizen.com/blog/AGMB](lauradijkhuizen.com/blog/AGMB)).
 In contrast, bacterial assembly size and length distributions were practically identical between the two different filtering stages (+@fig:fig3_filter_length_distributions Bacteria), although the average and median scaffold size did increase slightly (+@tbl:tbl3_1 Bacteria).
-Contigs assigned as Archeal in the hostfiltered assembly, were not classified as such in the doublefiltered assembly (+@fig:fig3_filter_length_distributions Archaea).
+Contigs assigned as Archeal in the hostfiltered assembly, were not classified as such in the double filtered assembly (+@fig:fig3_filter_length_distributions Archaea).
 Similarly, viral contigs often were only assembled in the hostfiltered assembly (+@fig:fig3_filter_length_distributions Viruses).
 The bacterial fraction of the metagenome assembly is of substantial size and was not negativelly affected by the filtering approach, thereby paving the way to investigate the diversity of bacterial genomes in this fraction.
 
@@ -256,7 +256,7 @@ Table: Assembly statistics per superkingdom before and after the second filterin
 ### Filtered metagenome assemblies contain distinct microbial genomes systematically reoccuring in the _Azolla_ genus
 The double filtered assemblies contain numerous bacterial contigs of each _Azolla_ species sampled here (+@fig:fig3_filter_length_distributions Bacteria).
 Next, we take a genus perspective and compare these assemblies by the taxonomy and abundance, now counting scaffolds rather than contigs.
-Bacterial scaffolds in all doublefiltered assemblies had a median length of 5671 bp; hence, bacterial genomes in the assembly are highly fragmented.
+Bacterial scaffolds in all double filtered assemblies had a median length of 5671 bp; hence, bacterial genomes in the assembly are highly fragmented.
 Despite this fragmentation, scaffolds group into approximate bacterial genomes quite distinctly when examining them by their abundance, length, and taxonomy as determined by CAT (+@fig:fig3_Azolla_genus_metagenome_order).
 The genomes can be recognised as clusters of scaffolds with equal abundance and taxonomy but varying scaffold length (+@fig:fig3_Azolla_genus_metagenome_order).
 All samples but the no-cyano sample (+@fig:fig3_Azolla_genus_metagenome_order Azfil_minuscyano) show the most abundant species in the metagenome is a Nostocales cyanobacterium (+@fig:fig3_Azolla_genus_metagenome_order cyan blue).
@@ -539,9 +539,9 @@ Given the high generaly QC scores and assigned taxonomy, these binned metagenome
 Next, we assessed whether bins of certain taxonomical orders reoccur systematically in the _Azolla_ genus as scaffolds did in +@fig:fig3_Azolla_genus_metagenome_order.
 Since the binning process has concluded satisfactory, bins are now termed MAGs.
 When counting MAGs classified to the aforementioned orders across all biological samples, a similar pattern can be seen.
-At the level of Phylum, the common denominator consists of cyanobacteria and proteobacteria (+@fig:fig:fig3_binning_all_taxonomy; phylum), the latter being dominated by Alphaproteobacteria at the class level (+@fig:fig:fig3_binning_all_taxonomy; class).
+At the level of Phylum, the common denominator consists of cyanobacteria and proteobacteria (+@fig:fig:fig3_binning_QC_all_taxonomy; phylum), the latter being dominated by Alphaproteobacteria at the class level (+@fig:fig:fig3_binning_QC_all_taxonomy; class).
 Yet, betaproteobactera are also present in all _Azolla_ samples, and gammaproteobacteria in all non-sterilised samples in the _Euazolla_ section of the _Azolla_ genus (+@fig:fig3_data-in-overview).
-Specifally at the level of order (+@tbl:tbl3_5; +@fig:fig:fig3_binning_all_taxonomy; order), Rhizobiales bacteria can be found in multiple bins associated with any of the _Azolla_ species examined, ranging from 4 to 8 bins.
+Specifally at the level of order (+@tbl:tbl3_5; +@fig:fig3_binning_QC_all_taxonomy; order), Rhizobiales bacteria can be found in multiple bins associated with any of the _Azolla_ species examined, ranging from 4 to 8 bins.
 Burkholderiales bacteria can be found in all but one biological sample, and in all of the examined species.
 These two orders of bacteria are also the two orders present in the _A. filiculoides_ minus_cyano sample, and hence survived intensive sterilisation and antibiotic treatment.
 Bins of these orders were also found to be endophytic in _A. filiculoides_ 'wild'.
@@ -593,13 +593,13 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 
 \begin{sidewaysfigure}
 \begin{figure}
-\hypertarget{fig:fig3_binning_all_taxonomy}{%
+\hypertarget{fig:fig3_binning_QC_all_taxonomy}{%
 \centering
 \includegraphics{source/figures/fig3_binning_QC_all_taxonomy.pdf}
 \caption{heatmap of MAG taxonomy (horizontal axis) for all metagenome assemblies (vertical axis) for various levels of taxonomy (horintal pannels).
   Quantity is indicated as a shade ranging from dark blue to bright yellow.
   }
-\label{fig:fig3_binning_all_taxonomy}
+\label{fig:fig3_binning_QC_all_taxonomy}
 }
 \end{figure}
 \end{sidewaysfigure}
