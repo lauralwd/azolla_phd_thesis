@@ -606,7 +606,7 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 
 ## Discussion
 In this study, we acquired high quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (+@fig:fig3_data_overview) through a process of thorough filtering (+@fig:fig3_filtering_and_assembly) thereby substantially reducing the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (+@fig:fig3_filter_length_distributions).
-Each species' metagenome assembly contained several distinct bacterial genomes and these assemblies resembled each other in terms of taxonomy (+@fig:fig3_Azolla_genus_metagenome_order).
+Each species' metagenome assembly contained several distinct bacterial genomes and these metagenomes resembled each other in terms of taxonomy (+@fig:fig3_Azolla_genus_metagenome_order).
 Manual binning (+@fig:fig3_Azfil_wild_binning +@fig:fig3_Azmic_binning) allowed to retrieve these MAGs better than automated binning approaches (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_no_taxonomy) and provide them to the _Azolla_ and plant-microbe research community.
 Several orders of bacteria are systematically associated with the _Azolla_ genus as a whole (+@fig:fig:fig3_binning_QC_all_taxonomy; order).
 
@@ -616,118 +616,107 @@ Researchers interested in metagenomes may use a similar method as demonstrated h
 This is especially interesting if a host species is already known or suspected to host bacteria, or if bacterial DNA was previously identified in reads or assemblies of a sequencing run as was the case for _Azolla_.
 However, not all eukaryotic species or DNA extractions will encompass substantial fractions of DNA from associated bacteria.
 Before thorough and costly filtering and assembly, sequencing data may be searched for signs of bacterial genomes as we have done in Chapter \ref{foul play} [@Dijkhuizen2018].
-Such signals could be extracted from raw sequencing data for example by searching for rRNA reads (emirge, ribotagger, many more), for bacterial genes `(RAT Tina)` or by kmer based approaches such as kraken2.
-This approach allows us to find bacteria associated with host species we have already studied in the past and hence mine host-bacteria interactions in a great variety of data of past experiments and from a variety of labs as demonstrated here.
-
-Many plant species are known to interact with bacteria systematically and even transmit these systematically [@Frank2018; @Pinto-Carbo2018], but the mechanisms underpinning symbiosis are often unclear.
-The best known mechanism is termed the common symbiosis pathway, variations of this common pathway facilitate both Rhizobiales-legume and mycohorriza symbiosis [@Genre2016].
-But other symbioses, like Cuanobacteria-plant symbises and ... , are not facilitated by this pathway [@Li2018] `more examples would be nice`.
-Mining the genomes of symbiotic bacteria already hidden away in host sequencing data may allow comparative genomics of symbionts on a large scale and further elucidation of the mechanisms of plant-microbe symbioses.
+Such signals could be extracted from raw sequencing data for example by searching for rRNA reads [@Miller2011; @Xie2016], for bacterial genes similarly to @VonMeijenfeldt2019 or by kmer based approaches such as kraken2 [@Wood2019].
+This approach allowed us to find bacteria associated with hosts studied in the past and paves the way to further mine host-bacteria interactions in a great variety of data of past experiments and from a variety of labs as demonstrated here.
 
 High quality MAGs can be assembled from bulk DNA extractions with minimal filtering, but this process requires manual curation and interpretation.
-The doublefiltering of bulk DNA sequencing proved effective in removing host DNA even if no host genome was available (+@fig:fig3_filtering_and_assembly) and provided clean metagenome assemblies with distinct clusters of scaffolds resemling single bacterial genomes (+@fig:fig3_Azolla_genus_metagenome_order).
-The approach was however unnessicarily costly, for assembly quality did not increase due to reduced complexity of the assembly graph (+@fig:fig3_filter_length_distributions; +@tbl:tbl3_1).
+The double filtering of bulk DNA sequencing proved effective in removing host DNA even if only a related host genome was available (+@fig:fig3_filtering_and_assembly).
+Metagenome assembiles of double filtered data showed clean and distinct clusters of scaffolds resemling single bacterial genomes (+@fig:fig3_Azolla_genus_metagenome_order).
+The approach was however unnessicarily costly, for assembly quality did not increase (+@fig:fig3_filter_length_distributions; +@tbl:tbl3_1).
 The k-mer spaces in which these genomes are assembled are presumably so distinct that they do not overlap in a De-Bruijn-graph even before filtering and hence would never create ambiguities which could not be solved by the assembler.
 By this argument, filtering of the bulk DNA extraction may even be obsolete; @Delmont2016 showed that bacterial genomes could be extracted from a bulk assembly of host and symbionts.
-However, especially for larger scale mining of bacterial symbionts, removing host DNA with a single hostfiltering step may be the preferable and faster approach than (re)assembling the genome of the host in the process, especially for bigger host genomes.
-At the very least, hostfiltering allows to assemble a metagenome with less resources `RAM reduction`.
-The doublefiltered approach is especially intensive, and may easily be ommitted in future workflows.
-This step is only required when sequencing libraries including host DNA are too big for hybrid assembly.
-Alternatively, scaffold taxonomy of the hostfiltered assembly could be classified with CAT, and then scaffolds that are not of interest may be removed before the binning process.
-This would greatly reduce binning input, hence simplifying the process of either manual or automated binning.
-The beneficial effect would be equal as the double filtering step.
+Particularly for very big host genomes, as is the case for the _Azolla_ genus, removing host DNA with a single hostfiltering step may be the preferable and faster approach than (re)assembling the genome of the host in the process.
+At the very least, hostfiltering allows to assemble a metagenome with less RAM resources (+@fig:fig3_filtering_and_assembly\-B; RAM usage) and hence allow for bigger hybrid assemblies.
+Alternatively, host scaffolds can be removed after assembly using CAT taxonomy, thereby relaxing resource requirements for the manual binning process.
+The Anvi'o interactive interface was essential in manual binning but feasibility of this process reduced substantially with very big metagenome assemblies such as that of _A. rubra_ at 200 MBase.
+We estimate the beneficial effect of filtering after assembly on manual binning feasibility would be equal to double filtering step.
 
 In the methods presented here, we diliberately don't provide a single tool to the community.
 We do aim to make the method as open and reproducible as possible by documenting the workflow on Github and discussing the benefits and costs of several aspects of our approach in this manuscript.
 
 ### Manual curation allowed for high quality bins
-Binning of non-metagenomic assemblies is possible and may be supplemented with extragenous binning signals and scaffold taxonomy.
+Binning of non-metagenomic assemblies is possible and may be aided by extragenous binning signals and scaffold taxonomy.
 Here, we assemble DNA extracted from bulk plant samples and retrieve MAGs of bacteria associated with those plants.
 Ideally, differential sampling of various fractions or biological replicates allows to distinguish scaffolds of the various genomes from each other.
 In the data used here, this differential sampling is often not present.
 Instead, we build on the assumption that some microbes may be shared amongst different _Azolla_ species and use sequencing data of related species to differentiate different microbial genomes from each other.
 Such extragenous binning signals may provide false motivation to exclude a certain part of a microbe's genome that is present in the assembly, but not in the data used as binning signal.
 Therefore, we consider manual curation a requirement when using such binning signals, while appropriately valueing and crossreferencing the different binningsignals available.
-In binning the _Azolla_ species studied here, binning signals of related samples were occasionally informative in the manual binning process (Supp. mexicana) but in some samples not (Supp fig _A. microphylla_).
-Only when genomes in a metagenome as expected to be shared between two different host DNA extractions, then this method can be informative.
+In binning the _Azolla_ species studied here, binning signals of related samples were occasionally informative in the manual binning process (+@fig:fig3_Azmex_binning) but in some samples not (+@fig:fig3_Azmic_binning).
+Only when genomes in a metagenome are expected to be shared between two different host DNA extractions, then this method can be informative.
 Feasibility of this approach depends on the community complexity, relatedness of the samples available, and similarity of microbes in those samples.
 
-An additional binning signal was scaffold taxonomy determined by CAT.
-CAT classifications often overlapped well with bins demarcated clearly by other binning signals (+@fig:fig3_Azfil_wild_binning +@fig:fig3_Azmic_binning).
+Scaffold taxonomy determined by CAT proved to be a valuable additional binning signal when differential abundance was lacking.
+CAT classifications often overlapped well with bins demarcated clearly by other binning signals (+@fig:fig3_Azfil_wild_binning; +@fig:fig3_Azmic_binning; +@fig:fig3_Azfil_lab_binning; +@fig:fig3_Azfil_minus_cyano_binning; +@fig:fig3_Azmex_binning; +@fig:fig3_Aznil_binning; +@fig:fig3_Azrub_binning; +@fig:fig3_Azcar_1_binning; +@fig:fig3_Azcar_2_binning).
 This result further confirms the robustness of CAT scaffold classifications and it's use-case for manual binning when depth and k-mer profiles are lacking.
+The specificity of CAT taxonomy differed substantially: some bins were reliably and reproducibly classified at the genus level (+@fig:fig3_Azmic_binning; Nevskia) while others only were classified at the phylum level (+@fig:fig3_Azmic_binning; Bacteriodetes).
+Database bias surely plays a role in this specificity issue, but our results show that per bin, both the taxonomy and specificity thereof are consistent.
 Single copy marker gene validation with both CheckM and Anvi'o supported the quality of bins for which CAT classification was instrumental in their reconstruction.
-Our view on t hese methods is that a researcher should bin primarily on the sample-native sequencing libraries and k-mer profiles and then use extragenous binning signals and scaffold taxonomoy only in an advising manner.
-Additionally, when using extragenous binning signals, these potential MAGs should be cross-referenced with k-mer profile only clustering of scaffolds.
-`possibly more info based on different binning performances benchmarking`
 
-While the filtering did not improve assembly quality, it does ease the process of manual binning in Anvi'o.
-The Anvi'o interactive interface was essential in manual binning but feasibility of this process reduced substantially with very big assemblies (numbers).
-In @Delmont2016 the total assembly including host and symbionts was approximately 252 Mbase; `compare to assembly sizes here`.
-`Open question still: cleanness of the Assembly allows for better binning`
+Our view on these methods is that a researcher should bin primarily on the differential abundance in sample-native sequencing libraries and scaffold k-mer profiles.
+When those primary binning signals are unclear, extragenous binning signals and scaffold taxonomoy may be used in an advising manner.
+Additionally, when using extragenous binning signals, these potential MAGs should be cross-referenced with k-mer profile only clustering of scaffolds to resolve any conflicts.
+This manual approach yielded us fewer bins per metagenome, and these bins were of higher quaility as determined by SCMG analyses (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_checkm; manual vs. Metabat2 and Concoct).
+Additionally, the specificity of the taxonomy of these bins as determined by BAT increased (+@fig:fig3_binning_QC_no_taxonomy; Manual vs Metabat2 and Concoct); indicating that the complete gene content of these bins was more alike known genomes of similar taxonomy.
+Manual binning and manual curation of extagenous binning signals allowed for a more parsimonious solution of the _Azolla_ genus metagenome providing MAGs of higher quality.
 
-### Azolla genus-wide metagenome and vertical transmission of the whole metagenome
-`root nodule bacteria diversity; disporiensis diversity`
+Despite intensive sequencing efforts, the diversity of _Azolla_ associated microbes is not exhausted in this study.
+All assemblies except for _A. filiculoides_ minus_cyano contained many scaffolds near the lower abundance limit of assembly (+@fig:fig3_Azolla_genus_metagenome_order) and in concordance binning yielded many bins with only fractions of genomes (+@fig:fig3_Azfil_wild_binning +@tbl:tbl3_2).
+Still, in total, between 11 and 21 bacterial genomes were found with any _Azolla_ species analysed here (+@tbl:tbl3_4).
 
-To our knowledge, this is the first scholarly publication about the metagenome of a whole genus.
-Inspired by the holobiont concept [@Zilber-Rosenberg2008] and the mechanism for vertical transfer in _Azolla_ ferns, it makes sense to study a symbiosis like _Azolla_ from the genus perspective, rather than a single species.
-To demonstrate vertical transmission of microbes besides _N. azollae_, it would be more fitting to sequence multiple generations of plants and the reproductive organs of those generations.
+### microbiome vertical transmission in _Azolla_
+To our knowledge, this is the first scholarly publication about the metagenome of a whole genus with a clear mechanism vertical transfer mechanism of the microbiome.
+This mechanism is demonstrated for _N. azollae_, but more microbes have been seen in _Azolla_ ferns their leaf pockets and megasporocarps via electron microscopy [@Wallace1986; @Nierzwicki-Bauer1990; @Carrapico1991; @Zheng2009].
+To demonstrate vertical transmission of microbes besides _N. azollae_, it may be more fitting to sequence multiple generations of plants and the reproductive organs of those generations.
 However, we argue that rather indirectly, we have sequenced multiple generations of the same population of plants.
 _A. filiculoides_ sequenced by @Li2018 was taken from a Ditch near the Galgenwaard footbal station in Utrecht, the Netherlands in 2012 (@Brouwer2014).
 Several years later, in 2015 we went to the same ditch to sequence _A. filiculoides_ for Chapter \ref{foul play} [@Dijkhuizen2018].
-The _Azolla_ population in this ditch doesn't survive the winter, and hence we reason the microbes found in the data sequenced by Chapter \ref{foul play} [@Dijkhuizen2018] has survived 3 generations, either through direct vertical transfer via the ferns megaspores, or via reinnoculation from the surrounding environment.
+The _Azolla_ population in this ditch doesn't survive the winter, and hence we reason the microbes sequenced in Chapter \ref{foul play} [@Dijkhuizen2018] have survived 3 generations, either through direct vertical transfer via the ferns megaspores, or via reinnoculation from the surrounding environment.
 Secondly, the presence of the same species of microbes in the thoroughly sterilised _A. filiculoides_ minus-cyano provides further indication that these microbes are endophytic and in that way survived the sterilisation process.
+The genomes and names of these genomes present in both 2012 and 2015 _A. filiculoides_ are most easily extracted from the binning overview of the _A. filiculoides_ 'lab' strain (+@fig:fig3_Azfil_lab_binning).
+Several MAGs are clearly present in the native 'lab' strain sequencing (black), the 'wild' strain sequencing leaf pocket (blue) and whole plant (green), and finaly in the 'minus-cyano' strain (yellow).
+These MAGs are the 'Rhizobiaceae endophytic', 'Ralstonia 1', and 'Burkholderiales'.
+Other MAGs might also be endophytic and vertically transmitted, but their abundance is lower than the detection limit in the sequencing of \ref{foul play} [@Dijkhuizen2018].
 
-_Azolla_ ferns systematically harbour microbes of 6 taxonomical orders.
+Two theories are currently present in literature about how _N. azollae_ enters _Azolla_ megasporocarps.
+Recently, motile _N. azollae_ filaments were observed with confocal microscopy in small channels of the _Azolla_ megasporocarp indusium cap [@Zheng2009; @Ran2010].
+We theorise however, that both _N. azollae_ and additional microbes may be retained in seed colonies near the shoot apical meristem (SAM) of _Azolla_ ferns as we showed Chapter \ref{it takes two} [@Dijkhuizen2021].
+Leaf and sporocarp primordia use trichomes to encapsulate _N. azollae_ from this seed colony during early development which functions as innoculum for the forming organ. [@Campbell1893; @Nierzwicki-Bauer1989; @Perkins1993].
+We prefer this mechanism supported by many electron microscopy studies for its parsimonious solution to _N. azollae_ desimination over _Azolla_ organs.
+This hypothesised mechanism of microbiome transfer does not explain motile cyanobacterial filaments often observed in a channel of the megaspores' indusium caps in [@Ran2010; @Zheng2009].
+
+Despite both sporocarps gaining _N. azollae_ collonies, microsporocarps lose the cyanobacterial symbionts while megasporocarps retain them in the form of akinete resting stages `Anna's confocal pictures in the \ref{forever together} chapter?`.
+In our data, we cannot definitevely prove that the three endophytic MAGs, nor any other systematically associated order of bacteria is endophytic, vertically transfered, or presentat the SAM seed colony.
+We do consider it however, extremely likely to be so, especially supported by the metagenome data on all _A. filiculoides_ strains and the reproducible presence of bacteria in fern megasporocarps..
+Sequencing the SAM and reproductive stages could provide furhter information on the mechanism of microbiome vertical transfer in _Azolla_.
+Alternatively, FISH may be used to pinpoint the exact location of the bacteria of which the genomes were assembled here, either in the SAM, the leaves or the sporocarps.
+
+### Azolla genus-wide metagenome
+Inspired by the holobiont concept [@Zilber-Rosenberg2008] and the mechanism for vertical transfer in _Azolla_ ferns, it makes sense to study a symbiosis like _Azolla_ from the genus perspective, rather than a single species.
+Systematically _Azolla_ associated bacteria besides the main symbiont are predominantly proteobacteria, mostly Alphaproteobacteria and Betaproteobacteria (fig:fig3_binning_QC_all_taxonomy; phylum & class).
+These classes have often been seen as endophytes to plants before @Frank2018.
+More specifically, _Azolla_ ferns systematically harbour microbes of six taxonomical orders (+@tbl:tbl3_5; fig:fig3_binning_QC_all_taxonomy; order).
+Beyond the level of order, no clear taxonomical pattern is distinghuisable other than the main symbiont _N. azollae_ (fig:fig3_binning_QC_all_taxonomy; family & genus).
 The Nostocales order encompasses only the main symbiont _N. azollae_ and was highly abundant in all species, contradicting theories that other cyanobacterial strains may inhibit _Azolla_ ferns at lower abundances [@Papaefthimiou2008].
 The two most prominent orders Burkholderiales and Rhizobiales were already identified in Chapter \ref{foul play} [@Dijkhuizen2018] but their genomes acros the entire _Azolla_ genus were not published before, nor was it clear that multiple Rhizobiales and Burkholderiales genomes are systematically associated with single species of the _Azolla_ genus.
-The remaining three orders, Caulobacterales, Nevskiales and Sphingomonadales, were hinted at before, but not substantiated by systematic evidence before, nor where genome sequences available.
-`do any of the published microbes fit in these orders?`
+The remaining three orders, Caulobacterales, Nevskiales and Sphingomonadales, were seen before in \ref{foul play} [@Dijkhuizen2018] (+@fig:fig2_2; +@fig:fig2_3), but not as whole genomes acros the entire genus.
+
 The new availibility of all MAG sequences allows to study the bacteria of the _Azolla_ genus through the perspective of comparative genomics.
-Classes alfa/beta/gamma proteobacteria, Actinobacteria, Bacillales, have all been seen as endophytes to plants before @Frank2018.
-The diversity of _Azolla_ associated microbes is not exhausted in this study.
-All assemblies except for _A. filiculoides_ minus_cyano contained many scaffolds near the lower abundance limit of assembly (+@fig:fig3_Azolla_genus_metagenome_order) and in concordance binning yielded many bins with only fractions of genomes (+@fig:fig3_Azfil_wild_binning +@tbl:tbl3_2).
-Despite that, it is perhaps more interesting to wonder which microbes are endophytes of the _Azolla_ genus and which microbes share a common ancestor and common introduction in the _Azolla_ genus.
+We may now inquire, for example, if _Azolla_ associated bacteria share a common ancestor and common introduction in the _Azolla_ genus, if their metabolism is similar, and if their genomes have adapted to the symbiotic lifestyle.
 The nature of the data presented here does warrant caution on two important fronts.
 First, except for the _A. filiculoides_ 'wild' sample, no judgement can be made wether the MAGs presented here belong to endophytic or epithitic bacteria.
 Second, ferns acquired from the IRRI collection were maintained for long periods in close vacinity to each other and cross contamination is a realistic risk
 The latter consideration is somewhat mitigated by the presence of these order in samples acquired both from Utrecht, the Netherlands, and the IRRI collection.
 
-Systematic presence of specific groups of bacteria suggests ferns of the genus _Azolla_ may acquire some fitness benefit from their microbiome and begs the question how these bacteria are systematically transfered.
-The plants may actively retain these bacteria in their ecosystem, and transfer them to subsequent generations via their megaspores as is the case for _N. azollae_.
-Bacteria were seen in mulitple _Azolla_ species their reproductive structures adjacent to _N. azollae_ resting stages [@Carrapico1991] `and also Sandra and Zheng?`.
+Systematic presence of specific groups of bacteria suggests ferns of the genus _Azolla_ may acquire some fitness benefit from their microbiome.
 @Forni1992 theorised that _Azolla_ associated bacteria may be responsible for the mucus in which both _N. azollae_ and additional microbes are harboured.
 A similar mucus is found at the apical meristem colony in Chapter \ref{it takes two} [@Dijkhuizen2021].
 Mining the genomes published here may indicate if the genes required for producing this mucus are present.
-
-It is commonly believed that _N. azollae_ bacteria enter the _Azolla_ megasporocarps via small channels `bunch of refs`.
-We theorise however, that _N. azollae_ and additional microbes may be retained in seed colonies near the shoot apical meristem (SAM) of _Azolla_ ferns as we showed Chapter \ref{it takes two} [@Dijkhuizen2021].
-Leaf and sporocarp primordia encapsulate part of this seed colony during early development which functions as innoculum for the forming organ. [@Campbell1893; @Nierzwicki-Bauer1989].
-Microspores loose the cyanobacterial symbionts, and megaspores retain them in the form of akinete resting stages`Anna's results, or published in 19-longago? `.
-Whilst highly likely in some cases, we do not provide definitive proof of endophytism of any bacterium whose genome we have assembled, nor of its presence in the SAM seed colony, nor of vertical transfer via megasporocarps.
-Also, this hypothesis on the mechanism of microbiome transfer over the plant organs and over plant generations does not explain motile cyanobacterial filaments often observed in a channel of the megaspores' indusium caps in [@Ran2010;] `any more papers?`
-Sequencing the SAM and reproductive stages could provide furhter information on the mechanism of microbiome vertical transfer in _Azolla_.
-Alternatively, FISH may be used to pinpoint the exact location of the bacteria of which the genomes were assembled here, either in the SAM, the leaves or the sporocarps.
-
 Systematic presence, and possible systematic vertial transmission, are no requirement to consider a microbe as a symbiont.
 Alternatively, microbes may associate with _Azolla_ but live in environment as well as is the case with Rhizobiales-legume symbioses.
-This would allow for a less direct inheritance of microbial symbionts as is the case in clams `find that paper`.
+This would allow for a less direct inheritance of microbial symbionts as is often the case in marine eukaryote-bacterial symbioses [@Russell2020].
 
-### Bacteria known to associate with plants (a fast evolving, modular subset of a hologenome?)
-Microbial genomes may encode and convey traits to a host when in symbiosis.
-The most obvious example is _Azolla_ its independence of nitrogen in the surrounding water or sediment, a trait conveyed by _N. azollae_.
-Bacterial genomes are substantially more fluid in their structure and content than their eukaryotic hosts and bacterial species may leave or enter the symbiosis.
-Consequently, the functions these genomes convey are more easily lost or acquired.
-This modular and variant subset of the hologenome can provide a bigger pool of genes and functions for the holobiont to be selected on.
-Arguably, current ecological and evolutionary terminology may be sufficient to describe and understand a host and symbionts as individual units [@Douglas2016].
-We argue, a holobiont must not be a new concept for a singular species with extra elements per say.
-`re-read the whole holobiont polemiek thing to make sure I cite stuff appropriately`
-Rather we subscribe to the view of a holobiont as a modular agglomeration of individuals who may move in and out of symbiosis with each other.
-The assocation of those indivuduals may be of differing consistency.
-For example, reliable vertical transfer has been proven as the exclusive method of transfer, as is the case for _N. azollae_, we deem using holobiont as a concept to describe a single unit is justified.
-Just as it is justified to include plastig genomes in the concept of a species' genome.
-In some species, vertical transfer may be established but not as fixed as is the case for _Azolla_ `clam paper`.
-Alternatively, symbionts may need to reinnoculate their host annew every generation as is the case for Rhizobiales-legume symbioses.
-No particular mode of transmission of genetic material is more or less relevant to be included in a hologenome, instead the holobiont term must be a usefull concept in research applied appropriately.
+...
 
 In this manuscript, we chose to characterise the components of the _Azolla_ holobiont from the perspective of the entire genus rather than a single species.
 This broader perspective ideally will allow us to identify parts that are persistently present in the genus or parts thereoff.
@@ -741,7 +730,7 @@ Persistent symbionts may also show signs of genome degradation as the main symbi
 Awknoledging again that bacterial genomes are more flexible in their content and structure, we may employ the near complete MAGs published here to study their genetic content rather than the presence or absence of a genome as a whole.
 For example, we may find clusters of genes involved in symbiosis or of particular interest to _Azolla_-Rhizobiales symbiosis by pangenomics of a selection of Rhizobiales species, including those associated with _Azolla_, those in symbioses with legumes, and non-symbiotic species.
 Although our sample size is small, we may attempt to mine the pathways found in _Azolla_ associated bacterial genomes for genes under positive selection.
-We might wonder how microbes evade the plant immune system, perhaps studying type 3 and 4 secretion systems encoded in their genomes [ @DeMeyer2019; @Frank2018].
+We might wonder how microbes evade the plant immune system, perhaps studying type 3 and 4 secretion systems encoded in their genomes [@DeMeyer2019; @Frank2018].
 
 Possible study directions of the _Azolla_ genus metagenome are numerous and the previous list of examples is not exhaustive.
 We gladly share all genomes of bacteria associated with the _Azolla_ genus with the research community to study this remarkable symbiosis.
