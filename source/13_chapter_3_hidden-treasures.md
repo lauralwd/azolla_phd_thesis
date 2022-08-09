@@ -29,13 +29,12 @@ Final figure binning comparison
 Bacteria-host symbioses are present throughout the plant kingdom, and bacteria can contribute all kinds of functions to their host.
 The plant genus _Azolla_ is known to host multiple endophytic bacteria, which it transfers systematically to successive generations.
 Here we set out to acquire bacterial genomes of _Azolla_ associated bacteria by re-using non-metagenomic data already available in public repositories.
-_Azolla_ sequencing data of six species was filtered and assembled with a fully reproducible workflow made in the conda and snakemake frameworks.
-Intensive filtering of host DNA data reduced computational requirements but did not increase assembly quality.
-The use of binning signals from foreign samples and taxonomy-based signals was helpful but required careful manual curation during the binning process.
-High-quality bacterial genomes can be assembled from repository sequencing data, but this requires manual curation.
-Re-using public data can be a cost-effective method to acquire such genomes.
-We successfully assembled between 12 and 22 bacterial genomes per _Azolla_ species.
-The majority belongs to only six taxonomical orders and occurs in most species of the _Azolla_ genus.
+Sequencing data of six _Azolla_ species was filtered and assembled with a fully reproducible workflow made in the conda and snakemake frameworks.
+Intensive filtering of host DNA data reduced computational requirements but did not increase assembly quality of bacteria.
+Binning signals from foreign samples and taxonomy-based signals increased binning quality but required careful manual curation during the binning process.
+This method yielded between 11 and 21 bacterial genomes per _Azolla_ species.
+The majority belongs to only six taxonomical orders (Burkholderiales, Caulobacteriales, Nevskiales, Nostocales, Rhizobiales and Sphingomonadales) and occurs in most species of the _Azolla_ genus.
+Rhizobiales and Burkholderiales bacteria were found to be transfered over generations in _A. filiculoides_.
 Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus suggests these bacteria may be introduced in some common ancestor of _Azolla_ species and may be selected for in the evolution of the _Azolla_ holobiont.
 
 ## Introduction
