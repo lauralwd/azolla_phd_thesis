@@ -26,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,13 +43,13 @@
      inkscape:window-height="1136"
      id="namedview11955"
      showgrid="false"
-     inkscape:zoom="0.65511743"
-     inkscape:cx="368.37148"
-     inkscape:cy="320.32692"
+     inkscape:zoom="3.9956113"
+     inkscape:cx="578.0193"
+     inkscape:cy="658.79629"
      inkscape:window-x="1674"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -41562,6 +41562,7 @@
        id="text56684"><tspan
    style="font-style:italic;stroke-width:0.09905646"
    id="tspan318744">A. filiculoides</tspan>
+
  wild leaf 3</text>
     <text
        transform="scale(0.99386596,1.0061719)"
@@ -41572,6 +41573,7 @@
        id="text56686"><tspan
    style="font-style:italic;stroke-width:0.09905646"
    id="tspan318746">A. filiculoides</tspan>
+
  wild leaf 2</text>
     <text
        transform="scale(0.99386596,1.0061719)"
@@ -41582,6 +41584,7 @@
        id="text56688"><tspan
    style="font-style:italic;stroke-width:0.09905646"
    id="tspan318748">A. filiculoides</tspan>
+
  wild leaf 1</text>
     <text
        transform="scale(0.99386596,1.0061719)"
@@ -41592,6 +41595,7 @@
        id="text56690"><tspan
    style="font-style:italic;stroke-width:0.09905646"
    id="tspan318750">A. filiculoides</tspan>
+
  wild whole plant 3</text>
     <text
        transform="scale(0.99386596,1.0061719)"
@@ -41602,6 +41606,7 @@
        id="text56692"><tspan
    style="font-style:italic;stroke-width:0.09905646"
    id="tspan318752">A. filiculoides</tspan>
+
  wild whole plant 2</text>
     <text
        transform="scale(0.99386596,1.0061719)"
@@ -41612,6 +41617,7 @@
        id="text56694"><tspan
    style="font-style:italic;stroke-width:0.09905646"
    id="tspan318754">A. filiculoides</tspan>
+
  wild whole plant 1</text>
     <text
        transform="scale(0.99386596,1.0061719)"
@@ -41622,7 +41628,7 @@
        id="text56696"><tspan
    style="font-style:italic;stroke-width:0.09905646"
    id="tspan318756">A. filiculoides</tspan>
- lab Pacbio reads</text>
+ minus-cyano Pacbio reads</text>
     <text
        transform="scale(0.99386595,1.0061719)"
        style="font-size:16.54737091px;font-family:'Helvetica Neue', Helvetica, Arial, 'sans-serif;';text-anchor:start;fill:#000000;stroke-width:0.09905646;text-rendering:optimizeLegibility"
@@ -41737,14 +41743,10 @@
        y="364.80399"
        x="923.27051"
        style="font-size:16.547369px;font-family:'Helvetica Neue', Helvetica, Arial, 'sans-serif;';text-anchor:start;fill:#000000;stroke-width:0.09905646;text-rendering:optimizeLegibility"
-       transform="scale(0.99386596,1.0061719)">
-      <tspan
-         id="tspan37763"
-         style="font-style:italic;fill:#000000;stroke-width:0.09905646">A. filiculoides</tspan>
-      <tspan
-         style="fill:#000000"
-         id="tspan37769">minuscyano 350</tspan>
-    </text>
+       transform="scale(0.99386596,1.0061719)"><tspan
+   id="tspan37763"
+   style="font-style:italic;fill:#000000;stroke-width:0.09905646">A. filiculoides </tspan>
+minus-cyano 350</text>
     <text
        transform="scale(0.99386596,1.0061719)"
        style="font-size:16.547369px;font-family:'Helvetica Neue', Helvetica, Arial, 'sans-serif;';text-anchor:start;fill:#000000;stroke-width:0.09905646;text-rendering:optimizeLegibility"
@@ -41753,8 +41755,8 @@
        pointer-events="none"
        id="text37775"><tspan
    style="font-style:italic;fill:#000000;stroke-width:0.09905646"
-   id="tspan37771">A. filiculoides</tspan>
-minuscyano 170</text>
+   id="tspan37771">A. filiculoides </tspan>
+minus-cyano 170</text>
     <text
        id="text37781"
        pointer-events="none"
@@ -41764,9 +41766,11 @@ minuscyano 170</text>
        transform="scale(0.99386596,1.0061719)"><tspan
    style="font-style:italic;fill:#1e92a8;fill-opacity:0.93333333"
    id="tspan37783">N. azollae</tspan>
+
  Ran <tspan
    style="font-style:italic;fill:#1e92a8;fill-opacity:0.93333333"
    id="tspan37785">et al</tspan>
+
 . 2010</text>
   </g>
 </svg>
