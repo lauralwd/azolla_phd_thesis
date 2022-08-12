@@ -10,7 +10,7 @@
    viewBox="0 0 712.80 554.40"
    version="1.1"
    id="svg17220"
-   sodipodi:docname="fig_3_Azolla_genus_metagenome-order.svg"
+   sodipodi:docname="fig3_Azolla_genus_metagenome_order.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    inkscape:export-filename="/home/laura/gitprojects/phd_thesis_markdown/source/figures/fig3_Azolla-genus-metagenome-order.png"
    inkscape:export-xdpi="400"
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,18 +61,6 @@
     }
   ]]></style>
   </defs>
-  <rect
-     width="100%"
-     height="100%"
-     style="stroke: none; fill: #FFFFFF;"
-     id="rect6" />
-  <rect
-     x="0.00"
-     y="0.00"
-     width="712.80"
-     height="554.40"
-     style="stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;"
-     id="rect8" />
   <defs
      id="defs13">
     <clipPath
@@ -85,14 +73,6 @@
          id="rect10" />
     </clipPath>
   </defs>
-  <rect
-     x="54.93"
-     y="40.92"
-     width="65.65"
-     height="346.23"
-     style="stroke-width: 1.07; stroke: none; fill: #FFFFFF;"
-     clip-path="url(#cpNTQuOTN8MTIwLjU4fDM4Ny4xNXw0MC45Mg==)"
-     id="rect15" />
   <defs
      id="defs1974">
     <clipPath
@@ -117,14 +97,6 @@
          id="rect1976" />
     </clipPath>
   </defs>
-  <rect
-     x="126.06"
-     y="40.92"
-     width="65.65"
-     height="346.23"
-     style="stroke-width: 1.07; stroke: none; fill: #FFFFFF;"
-     clip-path="url(#cpMTI2LjA2fDE5MS43MXwzODcuMTV8NDAuOTI=)"
-     id="rect1981" />
   <defs
      id="defs3807">
     <clipPath
@@ -149,14 +121,6 @@
          id="rect3809" />
     </clipPath>
   </defs>
-  <rect
-     x="197.19"
-     y="40.92"
-     width="65.65"
-     height="346.23"
-     style="stroke-width: 1.07; stroke: none; fill: #FFFFFF;"
-     clip-path="url(#cpMTk3LjE5fDI2Mi44NHwzODcuMTV8NDAuOTI=)"
-     id="rect3814" />
   <defs
      id="defs6108">
     <clipPath
@@ -181,14 +145,6 @@
          id="rect6110" />
     </clipPath>
   </defs>
-  <rect
-     x="268.32"
-     y="40.92"
-     width="65.65"
-     height="346.23"
-     style="stroke-width: 1.07; stroke: none; fill: #FFFFFF;"
-     clip-path="url(#cpMjY4LjMyfDMzMy45NnwzODcuMTV8NDAuOTI=)"
-     id="rect6115" />
   <defs
      id="defs8467">
     <clipPath
@@ -213,14 +169,6 @@
          id="rect8469" />
     </clipPath>
   </defs>
-  <rect
-     x="339.44"
-     y="40.92"
-     width="65.65"
-     height="346.23"
-     style="stroke-width: 1.07; stroke: none; fill: #FFFFFF;"
-     clip-path="url(#cpMzM5LjQ0fDQwNS4wOXwzODcuMTV8NDAuOTI=)"
-     id="rect8474" />
   <defs
      id="defs10954">
     <clipPath
@@ -245,14 +193,6 @@
          id="rect10956" />
     </clipPath>
   </defs>
-  <rect
-     x="410.57"
-     y="40.92"
-     width="65.65"
-     height="346.23"
-     style="stroke-width: 1.07; stroke: none; fill: #FFFFFF;"
-     clip-path="url(#cpNDEwLjU3fDQ3Ni4yMnwzODcuMTV8NDAuOTI=)"
-     id="rect10961" />
   <defs
      id="defs11241">
     <clipPath
@@ -277,14 +217,6 @@
          id="rect11243" />
     </clipPath>
   </defs>
-  <rect
-     x="481.70"
-     y="40.92"
-     width="65.65"
-     height="346.23"
-     style="stroke-width: 1.07; stroke: none; fill: #FFFFFF;"
-     clip-path="url(#cpNDgxLjcwfDU0Ny4zNHwzODcuMTV8NDAuOTI=)"
-     id="rect11248" />
   <defs
      id="defs13318">
     <clipPath
@@ -309,14 +241,6 @@
          id="rect13320" />
     </clipPath>
   </defs>
-  <rect
-     x="552.82"
-     y="40.92"
-     width="65.65"
-     height="346.23"
-     style="stroke-width: 1.07; stroke: none; fill: #FFFFFF;"
-     clip-path="url(#cpNTUyLjgyfDYxOC40N3wzODcuMTV8NDAuOTI=)"
-     id="rect13325" />
   <defs
      id="defs14025">
     <clipPath
@@ -341,14 +265,6 @@
          id="rect14027" />
     </clipPath>
   </defs>
-  <rect
-     x="623.95"
-     y="40.92"
-     width="65.65"
-     height="346.23"
-     style="stroke-width: 1.07; stroke: none; fill: #FFFFFF;"
-     clip-path="url(#cpNjIzLjk1fDY4OS42MHwzODcuMTV8NDAuOTI=)"
-     id="rect14032" />
   <defs
      id="defs16450">
     <clipPath
@@ -1272,7 +1188,7 @@
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g16920"
-     transform="translate(2)">
+     transform="rotate(90,58.8799,416.89609)">
     <text
        transform="rotate(-40,595.77142,158.64343)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1282,18 +1198,19 @@
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="g16924">
+     id="g16924"
+     transform="rotate(90,87.692475,415.96642)">
     <text
-       transform="translate(67.25,420.07) rotate(-40)"
-       style="font-size: 12.00px; fill: #4D4D4D; font-family: Liberation Sans;"
-       textLength="33.70px"
+       transform="rotate(-40,610.69142,117.65107)"
+       style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
+       textLength="33.700001"
        lengthAdjust="spacingAndGlyphs"
        id="text16922">1e+05</text>
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g16928"
-     transform="translate(-2)">
+     transform="rotate(90,116.51641,414.94928)">
     <text
        transform="rotate(-40,625.61142,76.658709)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1324,7 +1241,7 @@
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g16940"
-     transform="translate(2)">
+     transform="rotate(90,129.9999,416.89609)">
     <text
        transform="rotate(-40,631.33142,60.943138)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1334,18 +1251,19 @@
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="g16944">
+     id="g16944"
+     transform="rotate(90,158.81248,415.96642)">
     <text
-       transform="translate(138.37,420.07) rotate(-40)"
-       style="font-size: 12.00px; fill: #4D4D4D; font-family: Liberation Sans;"
-       textLength="33.70px"
+       transform="rotate(-40,646.25142,19.950775)"
+       style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
+       textLength="33.700001"
        lengthAdjust="spacingAndGlyphs"
        id="text16942">1e+05</text>
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g16948"
-     transform="translate(-2)">
+     transform="rotate(90,187.63641,414.94928)">
     <text
        transform="rotate(-40,661.17142,-21.041588)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1376,7 +1294,7 @@
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g16960"
-     transform="translate(2)">
+     transform="rotate(90,201.1299,416.89609)">
     <text
        transform="rotate(-40,666.89642,-36.770897)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1386,18 +1304,19 @@
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="g16964">
+     id="g16964"
+     transform="rotate(90,229.94247,415.96642)">
     <text
-       transform="translate(209.50,420.07) rotate(-40)"
-       style="font-size: 12.00px; fill: #4D4D4D; font-family: Liberation Sans;"
-       textLength="33.70px"
+       transform="rotate(-40,681.81642,-77.76326)"
+       style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
+       textLength="33.700001"
        lengthAdjust="spacingAndGlyphs"
        id="text16962">1e+05</text>
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g16968"
-     transform="translate(-2)">
+     transform="rotate(90,258.76641,414.94929)">
     <text
        transform="rotate(-40,696.73642,-118.75562)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1427,7 +1346,8 @@
      id="polyline16976" />
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="g16980">
+     id="g16980"
+     transform="rotate(90,273.2599,415.89608)">
     <text
        transform="rotate(-40,703.46142,-137.23241)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1437,18 +1357,19 @@
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="g16984">
+     id="g16984"
+     transform="rotate(90,301.07248,415.96642)">
     <text
-       transform="translate(280.63,420.07) rotate(-40)"
-       style="font-size: 12.00px; fill: #4D4D4D; font-family: Liberation Sans;"
-       textLength="33.70px"
+       transform="rotate(-40,717.38142,-175.47729)"
+       style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
+       textLength="33.700001"
        lengthAdjust="spacingAndGlyphs"
        id="text16982">1e+05</text>
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g16988"
-     transform="translate(-2)">
+     transform="rotate(90,329.89641,414.94928)">
     <text
        transform="rotate(-40,732.30142,-216.46966)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1479,7 +1400,7 @@
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g17000"
-     transform="translate(2)">
+     transform="rotate(90,343.3799,416.89609)">
     <text
        transform="rotate(-40,738.02142,-232.18523)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1489,18 +1410,19 @@
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="g17004">
+     id="g17004"
+     transform="rotate(90,372.19248,415.96642)">
     <text
-       transform="translate(351.75,420.07) rotate(-40)"
-       style="font-size: 12.00px; fill: #4D4D4D; font-family: Liberation Sans;"
-       textLength="33.70px"
+       transform="rotate(-40,752.94142,-273.17759)"
+       style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
+       textLength="33.700001"
        lengthAdjust="spacingAndGlyphs"
        id="text17002">1e+05</text>
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g17008"
-     transform="translate(-2)">
+     transform="rotate(90,401.01642,414.94929)">
     <text
        transform="rotate(-40,767.86142,-314.16995)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1531,7 +1453,7 @@
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g17020"
-     transform="translate(2)">
+     transform="rotate(90,414.5099,416.89609)">
     <text
        transform="rotate(-40,773.58642,-329.89926)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1541,18 +1463,19 @@
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="g17024">
+     id="g17024"
+     transform="rotate(90,443.32247,415.96642)">
     <text
-       transform="translate(422.88,420.07) rotate(-40)"
-       style="font-size: 12.00px; fill: #4D4D4D; font-family: Liberation Sans;"
-       textLength="33.70px"
+       transform="rotate(-40,788.50642,-370.89163)"
+       style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
+       textLength="33.700001"
        lengthAdjust="spacingAndGlyphs"
        id="text17022">1e+05</text>
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g17028"
-     transform="translate(-2)">
+     transform="rotate(90,472.14641,414.94928)">
     <text
        transform="rotate(-40,803.42642,-411.88399)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1583,7 +1506,7 @@
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g17040"
-     transform="translate(2)">
+     transform="rotate(90,485.6399,416.89609)">
     <text
        transform="rotate(-40,809.15142,-427.6133)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1593,18 +1516,19 @@
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="g17044">
+     id="g17044"
+     transform="rotate(90,514.45247,415.96642)">
     <text
-       transform="translate(494.01,420.07) rotate(-40)"
-       style="font-size: 12.00px; fill: #4D4D4D; font-family: Liberation Sans;"
-       textLength="33.70px"
+       transform="rotate(-40,824.07142,-468.60566)"
+       style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
+       textLength="33.700001"
        lengthAdjust="spacingAndGlyphs"
        id="text17042">1e+05</text>
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g17048"
-     transform="translate(-2)">
+     transform="rotate(90,543.27641,414.94929)">
     <text
        transform="rotate(-40,838.99142,-509.59802)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1635,7 +1559,7 @@
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g17060"
-     transform="translate(2)">
+     transform="rotate(90,556.7699,416.89609)">
     <text
        transform="rotate(-40,844.71642,-525.32733)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1645,18 +1569,19 @@
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="g17064">
+     id="g17064"
+     transform="rotate(90,585.58248,415.96642)">
     <text
-       transform="translate(565.14,420.07) rotate(-40)"
-       style="font-size: 12.00px; fill: #4D4D4D; font-family: Liberation Sans;"
-       textLength="33.70px"
+       transform="rotate(-40,859.63642,-566.31969)"
+       style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
+       textLength="33.700001"
        lengthAdjust="spacingAndGlyphs"
        id="text17062">1e+05</text>
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g17068"
-     transform="translate(-2)">
+     transform="rotate(90,614.40641,414.94928)">
     <text
        transform="rotate(-40,874.55642,-607.31206)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1687,7 +1612,7 @@
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g17080"
-     transform="translate(2)">
+     transform="rotate(90,627.8899,416.89609)">
     <text
        transform="rotate(-40,880.27642,-623.02763)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1697,18 +1622,19 @@
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="g17084">
+     id="g17084"
+     transform="rotate(90,656.70248,415.96642)">
     <text
-       transform="translate(636.26,420.07) rotate(-40)"
-       style="font-size: 12.00px; fill: #4D4D4D; font-family: Liberation Sans;"
-       textLength="33.70px"
+       transform="rotate(-40,895.19642,-664.01999)"
+       style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
+       textLength="33.700001"
        lengthAdjust="spacingAndGlyphs"
        id="text17082">1e+05</text>
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g17088"
-     transform="translate(-2)">
+     transform="rotate(90,686.52642,415.94928)">
     <text
        transform="rotate(-40,910.11642,-705.01235)"
        style="font-size:12px;font-family:'Liberation Sans';fill:#4d4d4d"
@@ -1771,43 +1697,41 @@
      id="polyline17108" />
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="g17112">
+     id="g17112"
+     transform="translate(0,4)">
     <text
-       x="327.76"
+       x="327.76001"
        y="433.47"
-       style="font-size: 12.00px; font-family: 12;"
-       textLength="89.01px"
+       style="font-size:12px;font-family:'12';stroke-width:0.88500732"
+       textLength="89.010002"
        lengthAdjust="spacingAndGlyphs"
-       id="text17110">scaffold length</text>
+       id="text17110"
+       transform="matrix(1.2767512,0,0,1,-102.98479,0)">scaffold length (bp)</text>
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="g17116">
+     id="g17116"
+     transform="rotate(180,13.919453,214.02913)">
     <text
-       transform="translate(14.23,267.27) rotate(-90)"
-       style="font-size: 12.00px; font-family: 12;"
-       textLength="106.47px"
+       transform="rotate(-90,140.75,126.52)"
+       style="font-size:12px;font-family:'12'"
+       textLength="106.47"
        lengthAdjust="spacingAndGlyphs"
        id="text17114">scaffold coverage</text>
   </g>
-  <rect
-     x="267.23"
-     y="446.92"
-     width="210.08"
-     height="28.24"
-     style="stroke-width: 1.07; stroke: none; fill: #FFFFFF;"
-     clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="rect17118" />
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="g17122">
+     id="g17122"
+     transform="matrix(0.87224131,0,0,1,38.837691,0)"
+     style="stroke-width:1.07073414">
     <text
-       x="272.71"
-       y="465.17"
-       style="font-size: 12.00px; font-family: Liberation Sans;"
-       textLength="31.33px"
+       x="272.70999"
+       y="465.17001"
+       style="font-size:12px;font-family:'Liberation Sans';stroke-width:0.74872208"
+       textLength="31.33"
        lengthAdjust="spacingAndGlyphs"
-       id="text17120">ORFs</text>
+       id="text17120"
+       transform="matrix(2.0451353,0,0,1,-317.71331,0)">ORF count</text>
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
@@ -1842,14 +1766,6 @@
        lengthAdjust="spacingAndGlyphs"
        id="text17138">3000</text>
   </g>
-  <rect
-     x="95.19"
-     y="486.12"
-     width="554.15"
-     height="62.80"
-     style="stroke-width: 1.07; stroke: none; fill: #FFFFFF;"
-     clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="rect17142" />
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
      id="g17174">
@@ -1962,12 +1878,13 @@
   </g>
   <g
      clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-     id="g17214">
+     id="g17214"
+     transform="translate(5.6287156e-6,9.2968156e-6)">
     <text
        x="541.12"
-       y="521.65"
-       style="font-size: 12.00px; font-family: Liberation Sans;"
-       textLength="102.07px"
+       y="521.65002"
+       style="font-size:12px;font-family:'Liberation Sans'"
+       textLength="102.07"
        lengthAdjust="spacingAndGlyphs"
        id="text17212">Sphingobacteriales</text>
   </g>
