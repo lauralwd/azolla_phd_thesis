@@ -488,8 +488,6 @@ Additionally, the manual method creates fewer bins compared to the automated met
 This effectively means the diversity in a metagenome is explained with fewer genomes and of higher quality.
 Hence, the manual method allows to more reliably study the genomes of more bacteria associated with a sample.
 
-![Binning quality control in Anvi'o [@Eren2015] of various binning methods. The quality of bins was assessed as completeness (dark green) and redundancy (red) by scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies (horizontal panels), comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual; vertical panels). Numbers in the panels show the total number of bins created by a particular method for a particular assembly (black) and those bins passing QC criteria of completeness above 90% and redundancy below 10% (Dark green). Grey lines in the figure also indicate these thresholds. Similar statistics were generated with CheckM [@Parks2015], utilising a different set of SCMGs. See +@fig:fig3_binning_QC_checkm](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_anvio}
-
 \begin{threeparttable}
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3}}
@@ -530,6 +528,8 @@ Species \& Sample                                         &
 \end{tablenotes}
 
 \end{threeparttable}
+
+![Binning quality control in Anvi'o [@Eren2015] of various binning methods. The quality of bins was assessed as completeness (dark green) and redundancy (red) by scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies (horizontal panels), comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual; vertical panels). Numbers in the panels show the total number of bins created by a particular method for a particular assembly (black) and those bins passing QC criteria of completeness above 90% and redundancy below 10% (Dark green). Grey lines in the figure also indicate these thresholds. Similar statistics were generated with CheckM [@Parks2015], utilising a different set of SCMGs. See +@fig:fig3_binning_QC_checkm](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_anvio}
 
 Next, we assessed bin taxonomy and used successful taxonomic classification as a quality metric.
 Bins were processed with CAT [@VonMeijenfeldt2019] mode for bins: BAT.
