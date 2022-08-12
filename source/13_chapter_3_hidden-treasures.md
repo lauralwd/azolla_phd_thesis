@@ -747,7 +747,7 @@ We gladly share all genomes of bacteria associated with the _Azolla_ genus with 
 ## Supplemental data
 \tiny
 | Host sample                       | Taxonomical order  | MAG name                  | MAG length (MBase) | Anvi'o completeness | Anvi'o redundancy | CheckM completeness | CheckM redundancy |
-| --------------------------------- | ------------------ | ------------------------- | ---------- | ------------ | ------------ | ------------- | ------------- |
+| --------------------------------- | ------------------ | ------------------------- | -------    | ---------    | ---------    | ----------    | ----------    |
 | _Azolla rubra_                    | Caulobacterales    | Asticcacaulis             | 4.29       | 100          | 0            | 100           | 1             |
 | _Azolla rubra_                    | Burkholderiales    | Betaproteobacteria        | 3.27       | 99           | 0            | 100           | 1             |
 | _Azolla rubra_                    | Nitrosomonadales   | Methylovorus              | 3          | 100          | 3            | 100           | 0             |
