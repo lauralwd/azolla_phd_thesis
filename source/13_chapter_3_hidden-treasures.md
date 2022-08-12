@@ -239,7 +239,9 @@ These latter two taxonomical categories often had similar depth/length distribut
 In contrast, bacterial assembly size and length distributions were practically identical between the two different filtering stages (+@fig:fig3_filter_length_distributions Bacteria), although the average and median scaffold size did increase slightly (+@tbl:tbl3_1 Bacteria).
 Contigs assigned as Archeal in the host filtered assembly were not classified as such in the double filtered assembly (+@fig:fig3_filter_length_distributions Archaea).
 Similarly, viral contigs often were only assembled in the host filtered assembly (+@fig:fig3_filter_length_distributions Viruses).
-The bacterial fraction of the metagenome assembly is of substantial size and was not negatively affected by the filtering approach, thereby paving the way to investigate the diversity of bacterial genomes in this fraction.
+These classifications were rare in all assembled metagenomes and may be false classifications or derived from viral fragments incorporated into genomes of either _Azolla_ species or of associated bacteria.
+The bacterial fraction of the metagenome assembly is of substantial size.
+The filtering approach did not substantially improve assembly quality of prokaryote genome fragments, but also had no negative effect.
 
 \begin{sidewaysfigure}
 \begin{figure}
@@ -257,13 +259,19 @@ The bacterial fraction of the metagenome assembly is of substantial size and was
 
 ### Filtered metagenome assemblies contain distinct microbial genomes systematically reoccurring in the _Azolla_ genus
 The double filtered assemblies contain numerous bacterial contigs of each _Azolla_ species sampled here (+@fig:fig3_filter_length_distributions Bacteria).
-Next, we take a genus perspective and compare these assemblies by taxonomy and abundance, now counting scaffolds rather than contigs.
-Bacterial scaffolds in all double filtered assemblies had a median length of 5671 bp; hence, bacterial genomes in the assembly are highly fragmented.
-Despite this fragmentation, scaffolds group into approximate bacterial genomes quite distinctly when examining them by their abundance, length, and taxonomy as determined by CAT (+@fig:fig3_Azolla_genus_metagenome_order).
-The genomes can be recognised as clusters of scaffolds with equal abundance and taxonomy but varying scaffold lengths (+@fig:fig3_Azolla_genus_metagenome_order).
+Next, we take a genus perspective and inquire wether we can summarise a whole genus' metagenome considering its taxonomy and abundance, now assessing scaffolds rather than contigs.
+We developped an interactive tool to browse through the various metagenome assemblies by filtering stage and by taxonomy; a snapshot of which is depicted in +@fig:fig3_Azolla_genus_metagenome_order summarising the _Azolla_ genus-wide metagenome at the order level.
+The online version is browsable at [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB).
+The metagenomes of the _Azolla_ genus group into approximate bacterial genomes quite distinctly when examining them by their abundance, length, and taxonomy as determined by CAT (+@fig:fig3_Azolla_genus_metagenome_order).
+These genomes can be recognised as clusters of scaffolds with equal abundance and taxonomy but varying scaffold lengths.
+For example; many Rhizobiales genomes were found in all _Azolla_ species sampled here (+@fig:fig3_Azolla_genus_metagenome_order blue).
 All samples but the no-cyano sample (+@fig:fig3_Azolla_genus_metagenome_order Azfil_minuscyano) show the most abundant species in the metagenome is a Nostocales cyanobacterium (+@fig:fig3_Azolla_genus_metagenome_order cyan blue).
-Rhizobiales genomes were found in all _Azolla_ species sampled here, visible as horizontal clusters of dots with identical colour (+@fig:fig3_Azolla_genus_metagenome_order purple).
+Scaffolds assigned Nostocales have a high variance in abundance; standard deviations vary in the various samples from 300 to 600 (arbitrary unit representing depth in the assembly graph; +@fig:fig3_Azolla_genus_metagenome_order; [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB); Draw selection over cluster -> Selection details table).
+In contrast, other distinguishable microbial genomes show a typical depth standard deviation often lower than 1, but in almost all cases lower than 10 ([lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB); Draw selection over cluster -> Selection details table).
+This abundance pattern of _Nostoc azollae_ is typical of a degraded genome with many transposons and repetitive regions and may explain why the assembled length of this MAG is shorter than the reference; 4Mbase rather than 6Mbase (+@tbl:tbl3_2).
+Nevertheless, it might also indicate an upper limit of assembly depth.
 Plotting the scaffolds of all assemblies by these two characteristics allows one to distinguish individual bacterial genomes in each of the _Azolla_ species sampled here (+@fig:fig3_Azolla_genus_metagenome_order).
+The interactive online figure allows us to browse through this genus-wide metagenome its diversity before binning into MAGs has occured.
 
 \begin{sidewaysfigure}
 \begin{figure}
@@ -286,17 +294,21 @@ Plotting the scaffolds of all assemblies by these two characteristics allows one
 \end{figure}
 \end{sidewaysfigure}
 
-Even before binning scaffolds into MAGs, metagenomes of the _Azolla_ genus show clear similarities; several taxonomical orders reoccur systematically (+@fig:fig3_Azolla_genus_metagenome_order).
-Most prominently, the Nostocales are the most abundant order in all _Azolla_ species except one, which was artificially devoid of the cyanobacteria.
-Contigs assigned Nostocales have a high variance in abundance; standard deviations vary in the various samples from 300 to 600 (arbitrary unit representing depth in the assembly graph; +@fig:fig3_Azolla_genus_metagenome_order; [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB)).
-In contrast, other distinguishable microbial genomes show a typical depth standard deviation often lower than 1, but in almost all cases lower than 10 (depth variance visible in the interactive figure).
-This abundance pattern of _Nostoc azollae_ is typical of a degraded genome with many transposons and repetitive regions and may explain why the assembled length of this MAG is shorter than the reference; 4Mbase rather than 6Mbase (+@tbl:tbl3_2).
-Nevertheless, it might also indicate an upper limit of assembly depth.
-The second most abundant order across the genus is the Rhizobiales, ranging between 16 and 44 Mbase of assembled DNA in the different samples (+@fig:fig3_Azolla_genus_metagenome_order blue; [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB)).
-In all host species, multiple Rhizobiales genomes can be distinguished.
-The third most abundant order is the Burkholderiales (+@fig:fig3_Azolla_genus_metagenome_order yellow), which is present in all host species except for _A. rubra_ and amounts to between 5 and 17 Mbase per assembly ([lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB)).
-Other notable orders reoccurring in several metagenome assemblies are the Caulobacterales, Nevsiales and Sphingomonadales.
-Each of these last three orders occurs in at least five of the six host species and is found in data from different studies.
+Now we are able to visualy summarise a whole genus' metagenome, we ponder if certain patterns can be observed.
+Metagenomes of the _Azolla_ genus show clear similarities in terms of taxonomy at the order level (+@fig:fig3_Azolla_genus_metagenome_order).
+Taxonomy of bacteria is represented by coloured clusters of scaffolds which often reoccur within the same sample.
+Comparing the various _Azolla_ species (+@fig:fig3_Azolla_genus_metagenome_order vertical panels), these clusters are often similar in number and taxonomy, indicating these metagenomes resemble each other at least at this level of taxonomy.
+After the Nostocales, the most abundant order across the genus is the Rhizobiales; it is often the most abundant cluster besides the Nostocales (+@fig:fig3_Azolla_genus_metagenome_order blue).
+In all host species, multiple Rhizobiales genomes can be distinguished at various levels of abundance.
+The total amount of Rhizobiales DNA ranges from 16 to 44 Mbase over the different samples ([lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB) taxa table).
+The third most abundant order is the Burkholderiales (+@fig:fig3_Azolla_genus_metagenome_order mustard yellow).
+Burkholderiales are rarely the most abudant but they are present in all host species except for _A. rubra_; amounting for up to 17 Mbase per assembly ([lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB) taxa table) in one or two clusters per sample.
+Three other notable orders reoccurring in several metagenome assemblies are the Caulobacterales, Nevsiales and Sphingomonadales (+@fig:fig3_Azolla_genus_metagenome_order light green, dark green and prink respectively).
+Each of these last three orders occurs in at least five of the six host species, accounts for one or two clusters per sample.
+All these orders of bacteria are found in data from different studies (+@fig:fig3_data_overview), reducing the odds that these are artificial contaminants of the lab extracting DNA or growth facilities maintaining the ferns.
+Conversely, several orders do not systematically reoccur in multiple species.
+The bacillales, Rhodopspirillales, and Sphingomonadales occur only in one biological sample each.
+These bacteria may be epiphites that were not properly washed off, or endophytes not shared by any other host species.
 
 Metagenome assemblies likely do not fully represent all bacteria in the original plant samples.
 When approaching the least abundant scaffolds, scaffold length diminishes to less than 1Kb, indicating the lower abundance limit of assembly.
@@ -310,28 +322,39 @@ In this process, low abundant scaffolds were combined into longer scaffolds aide
 However, the scaffold abundance remains a reflection of the original Illumina contribution to that scaffold only, but it is corrected for the new scaffold length, explaining why such long scaffolds can have such a low abundance.
 
 ### _Azolla filiculoides_ contains multiple endophytic bacteria
-Contigs of metagenome assemblies were manually binned into MAGs.
+With the knowledge that the metagenome assemblies of the _Azolla_ genus contain multiple bacterial genomes each, we set out to accurately cluster these into MAGs.
+Creating these MAGs allows us to examine the metabolic pathways encoded within them, and, when the study design allows, infer their location on or in the host plant.
+In the process of gathering the DNA scaffolds, we call these clusters: bins.
 First, metagenome assemblies were binned automatically by both metabat2 and concoct based on their 4mer profiles and differential abundance in various sequencing libraries.
-Then, these automatically generated MAGs were imported into Anvi'o and curated manually while being guided by the automated binning and scaffold taxonomy determined by CAT.
+Then, these automatically generated bins were imported into Anvi'o and curated manually while being guided by the automated binning and scaffold taxonomy determined by CAT.
 
-The _A. filiculoides_ wild sample metagenome contains multiple high-quality MAGs, several likely from species living inside the plant leaf cavities.
-Only sequencing data of the _A. filiculoides_ wild sample was derived from a metagenomic study design, including samples of whole plants and leaf-pocket enriched 'juice'.
-Separating the different MAGs in this metagenome assembly benefits from differential sampling and the consequent differential abundance of genomes per sample (+@fig:fig3_Azfil_wild_binning).
-Additionally, the PacBio RSII long-read sequencing of the _A. filiculoides_ minus-cyano sample was used as an additional binning signal to distinguish MAGs; this data was used for scaffolding the assembly of the _A. filiculoides_ wild sample.
-Several MAGs of similar taxonomy, i.e. Rhizobium and Rhizobiales, could be resolved into well distinguished high-quality MAGs.
-Binning yielded seven high-quality bins in total (completeness > 90% redundancy < 10%) with appropriate genome sizes, three medium-quality MAGs also with appropriate sizes(completeness > 60%), and several low-quality bins likely representing partial genomes of low abundant bacteria. (+@tbl:tbl3_2).
+We first examine the sample of which the data was derived from a metagenomic study design, and hence the binning process is likely the most reiable: _A. filiculoides_ 'wild'.
+The study design includes samples of whole plants and leaf-pocket enriched 'juice'.
+Separating the different bins in this metagenome assembly benefits from differential sampling and the consequent differential abundance of genomes per sample (+@fig:fig3_Azfil_wild_binning).
+Additionally, the PacBio RSII long-read sequencing of the _A. filiculoides_ minus-cyano sample was used as an additional binning signal to distinguish bins; this data was used for scaffolding the assembly of the _A. filiculoides_ wild sample.
+The _A. filiculoides_ 'wild' sample metagenome contains multiple high-quality bins (+@tbl:tbl3_2), many of taxonomical orders seen in +@fig:fig3_Azolla_genus_metagenome_order.
+Binning yielded seven high-quality bins in total (completeness > 90% redundancy < 10%) with appropriate genome sizes, three medium-quality bins also with appropriate sizes (completeness > 60%), and several low-quality bins likely representing partial genomes of low abundant bacteria. (+@tbl:tbl3_2).
 Despite the metagenomic study design, not all bins could be resolved to high quality.
 This may be related to the relatively low input of DNA sequencing in the assembly, hence not allowing to sufficiently resolve lowly abundant microbial genomes.
-Differential sampling, comparing the whole plant to leaf cavity enrichments, allows estimating whether a MAG is more abundant in the leaf cavities.
-The bacteria represented by these MAGs are likely endophytes of _A. filiculoides_ (+@fig:fig3_Azfil_wild_binning blue rings).
-This is the case for MAGs 'Rhizobium','Rhizobiales','Curvibacter', and 'Ferrovibrio' (+@fig:fig3_Azfil_wild_binning).
-The former two are abundant in PacBio long-read sequencing of the _A. filiculoides_ minus_cyano sample, indicating they survived stringent sterilisation and antibiotic regime removing the main symbiont _N. azollae_.
-Conversely, MAGs of similar taxonomy are detected in the _A. filiculoides_ 'lab' (+@fig:fig3_Azfil_lab_binning) and 'minus-cyano' assemblies (+@fig:fig3_Azfil_minus_cyano_binning)
-These bins, specifically the Rhizobiales and Burkholderiales orders, recruit reads from the _A. filiculoides_  'wild' binning signals (blue and green rings in +@fig:fig3_Azfil_lab_binning \& +@fig:fig3_Azfil_minus_cyano_binning).
-In contrast, a second cyanobacterium in the _A. filiculoides_ 'wild' assembly is present only outside the ferns and not in the leaf cavity enriched fraction nor in the lab-derived assemblies.
-This difference indicates that this particular cyanobacterium is epiphytic, consistent with earlier findings that _Azolla_ has only one cyanobacterial symbiont.
 
-![Anvi'o overview of the _A. filiculoides_ 'wild' metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 179Mbase of DNA in 26120 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (light green), scaffold abundance in PacBio reads from the _A. filiculoides_ 'lab' sample (yellow). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_2.](source/figures/fig3_Azfil_wild_binning.pdf){#fig:fig3_Azfil_wild_binning}
+Next we attempt to assess if certain bins may be endophytic in _A. filiculoides_.
+Differential sampling, comparing the whole plant to leaf cavity enrichments, allows estimating whether a bin is more abundant in the leaf cavities (+@fig:fig3_Azfil_wild_binning green rings vs blue rings).
+The bacteria represented by these bins are likely endophytes of _A. filiculoides_.
+Their abundance ratio is also shown in +@tbl:tbl3_2 (abundance ratio).
+Several bins enriched in the leaf pockets are 'Rhizobium','Rhizobiales','Curvibacter', and 'Ferrovibrio' (+@fig:fig3_Azfil_wild_binning ; +@tbl:tbl3_2 abundance ratio).
+Rhizobium and Curvibacter are also two of the most abundant bins besides the Cyanobacterial symbiont.
+The former three are abundant in PacBio long-read sequencing of the _A. filiculoides_ minus-cyano sample as is the 'rest 2' bin.
+This abundance indicates these bacteria survived stringent sterilisation and antibiotic regime removing the main symbiont _N. azollae_.
+Conversely, MAGs of similar taxonomy are detected in the _A. filiculoides_ 'lab' (+@fig:fig3_Azfil_lab_binning) and 'minus-cyano' assemblies (+@fig:fig3_Azfil_minus_cyano_binning)
+In the _A. filiculoides_ 'minus-cyano' sample, specifically the Rhizobiales and Burkholderiales orders recruit reads from the _A. filiculoides_  'wild' binning signals (blue and green rings in +@fig:fig3_Azfil_lab_binning \& +@fig:fig3_Azfil_minus_cyano_binning).
+The Burkholderiales and Rhizobiales orders that many _A. filiculoides_ bins belong to (+@tbl:tbl3_2 taxonomical order) were also systematically present in all _Azolla_ species (+@fig:fig3_Azolla_genus_metagenome_order), further supporting their tightly associated status with the genus as a whole.
+In contrast, a second cyanobacterium in the _A. filiculoides_ 'wild' assembly is present only outside the ferns and not in the leaf cavity enriched fraction nor in the lab-derived assemblies.
+Additionally, a Caulobacter bin, of which the corresponding order was present throughout the _Azolla_ genus, is epiphytic (+@fig:fig3_Azfil_wild_binning; Caulobacter).
+The differential sampling approach further allows us to recognise singleton bins present in only one biological replicate like 'rest 5'.
+The 'rest 2' bin was not assigned a taxonomical name due to bad SCMG quality in Anvi'o (+@tbl:tbl3_2 Anvi'o completeness).
+CheckM quality of this bin is however, OK (+@tbl:tbl3_2 CheckM completeness), and it is remarkably abundant in the stringently sterilised minus-cyano sample (+@tbl:tbl3_2 PacBio mean coverage).
+Taxonomy of the 'rest 2' bin is assigned as the Nevsiales order which often occurs in other _Azolla_ species.
+Despite this bin not being enriched in leaf pocket samples, it may be an endophyte still.
 
 \begin{threeparttable}
 \begin{longtable}[]{@{}
@@ -695,11 +718,21 @@ We prefer this mechanism supported by many electron microscopy studies for its p
 This hypothesised mechanism of microbiome transfer does not explain motile cyanobacterial filaments often observed in a channel of the megaspores' indusium caps in [@Ran2010; @Zheng2009].
 
 ```
+fragments from Results:
+
 We theorise this is the case, based on their ostensibly systematic presence in
 multiple _Azolla_ species and increasing abundance in developing _Azolla_ leaves [@Petro1987].
 
 Nonetheless, _Arthrobacter_ is the most well-known genus associated with _Azolla_
 ferns in these studies [@Petro1987].
+
+Multiple bac per order per sample, genetic exchange keeps the genomes 'young'?
+Possible loss/reinnoculation like in the @Russell2020
+
+This difference indicates that this particular cyanobacterium is epiphytic,
+consistent with earlier findings that _Azolla_ has only one cyanobacterial symbiont.
+
+
 ```
 
 Despite both sporocarps gaining _N. azollae_ colonies, microsporocarps lose the cyanobacterial symbionts while megasporocarps retain them in the form of akinete resting stages `Anna's confocal pictures in the \ref{forever together} chapter?`.
