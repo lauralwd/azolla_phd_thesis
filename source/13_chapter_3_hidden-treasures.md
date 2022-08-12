@@ -192,9 +192,9 @@ In total, this study examines eighteen sequencing libraries, taken from nine bio
 
 ### Filtering of _Azolla_ sequencing data against host DNA reduces assembly size and the computational requirements thereof
 First, we set out to rid raw WGS data from plant DNA to ease the assembly of the bacteria whose genomes are also present in this data.
-Filtering reduces input complexity and hence reduces complexity in the assembly graph, possibly improving metagenome assembly quality.
+Filtering DNA reads reduces input diversity and hence reduces complexity in the assembly graph, possibly improving metagenome assembly quality.
 The bioinformatic workflow developed here takes short-read DNA sequencing data as the main input, then iteratively removes host reads and finally assembles the remainder into contigs (+@fig:fig3_filtering_and_assembly\-A).
-The first stage of host DNA removal is achieved by mapping DNA reads that passed trimmomatic Quality Control (QC) to a reference genome [@Bolger2014], then assembling the remaining reads into contigs with SPAdes in metagenomics mode [@Nurk2017] (host filtered).
+The first stage of host DNA removal is achieved by mapping DNA reads that passed trimmomatic Quality Control (QC) to the _A. filiculoides_ reference genome [@Bolger2014; @Li2009; @Li2018], then assembling the remaining reads into contigs with SPAdes in metagenomics mode [@Nurk2017] (host filtered).
 QC removed, on average, 4.4% and no more than 7% of reads of any sequencing libraries (+@fig:fig3_filtering_and_assembly\-B; bottom).
 Filtering with the reference genome reduced read input substantially for _A. filiculoides_ (51% of reads for lab samples and 79% for no-cyano samples; +@fig:fig3_filtering_and_assembly\-B; bottom; _Azolla filiculoides_).
 Filtering efficiency diminished substantially even for species phylogenetically close (+@fig:fig3_data_overview\-A) to the reference genome such as _A. rubra_ 24% (+@fig:fig3_filtering_and_assembly\-B; bottom; _Azolla rubra_), and other species in the _Azolla_ section of the genus (between 18% and 20%) (+@fig:fig3_filtering_and_assembly\-B; bottom).
@@ -202,20 +202,22 @@ This first filtering step removed only 8% of reads for the phylogenetically dist
 After this first filtering step (host filtered), assemblies were typically around 600 Mbase and likely contained substantial amounts of host DNA (+@fig:fig3_filtering_and_assembly\-B; top).
 
 To further improve filtering efficiency, a second filtering strategy was applied.
-Assembled contigs of all host filtered assemblies were classified with CAT [@VonMeijenfeldt2019], and contigs classified as eukaryotic were used as a second filter specific for that particular sequencing library.
-Contigs classified as eukaryotic did not contain substantial amounts (1Mbase or higher in all assemblies combined; [lauradijkhuizen.com/blog/AGMB](lauradijkhuizen.com/blog/AGMB)) of DNA classified as anything other than streptophyta hence the assemblies contain only one eukaryote: _Azolla_ ferns.
+Assembled contigs of all host filtered assemblies were classified with CAT [@VonMeijenfeldt2019]
+Next, contigs classified as eukaryotic were used as a second filter specific for that particular sequencing library.
+These contigs did not contain substantial amounts (1Mbase or higher in all assemblies combined; [lauradijkhuizen.com/blog/AGMB](lauradijkhuizen.com/blog/AGMB)) of DNA classified as anything other than streptophyta hence the assemblies contain only one eukaryote: _Azolla_ ferns.
 The efficacy of this second stage of host DNA removal was typically opposite to the former stage: being least effective for _A. filiculoides_ (no more than 11%) and _A. rubra_ (25%), whilst most effective for those farther removed in the phylogeny; i.e. 42% for _A. microphylla_ and 56% of _A. nilotica_ (+@fig:fig3_filtering_and_assembly\-B bottom filtered vs double filtered).
 Combined, both filtering approaches removed between 50% and 64% of reads from plant samples maintained in the lab and not experimentally treated (+@fig:fig3_filtering_and_assembly\-B trimmed vs double filtered).
 The double filtered reads were assembled again with SPAdes in metagenomics mode, both as single libraries or hybrid assemblies when multiple sequencing libraries or read types were available per biological sample (+@fig:fig3_filtering_and_assembly\-B top; H).
 Assembly sizes were reduced substantially after the second filtering step for all species except for _A. filiculoides_ samples with lower insert sizes (+@fig:fig3_filtering_and_assembly\-B top).
-Metagenome Assembly sizes typically varied from 160 to  250 Mbase, except for the _A. filiculoides_ wild sample (738 Mbase), the sterilised _A. filiculoides_ no-cyano sample (60 Mbase), and the _A. caroliniana_ 2 sample (456 Mbase) (+@fig:fig3_filtering_and_assembly\-B top).
+Metagenome assembly sizes typically varied from 160 to  250 Mbase, except for the _A. filiculoides_ wild sample (738 Mbase), the sterilised _A. filiculoides_ no-cyano sample (60 Mbase), and the _A. caroliniana_ 2 sample (456 Mbase) (+@fig:fig3_filtering_and_assembly\-B top).
 The double filter reduced assembly size by 60% to 70% (+@fig:fig3_filtering_and_assembly\-B top).
 Reduced assembly size and host DNA contamination make manual binning feasible, and metagenome assembly sizes (+@fig:fig3_filtering_and_assembly\-B top) indicate that all assemblies likely contain multiple bacterial genomes.
-Secondly, removing host DNA from the assembly input reduces input complexity and thereby substantially reduces computational requirements for assembly in terms of peak RAM usage (+@fig:fig3_filtering_and_assembly\-B RAM usage).
+Secondly, removing host DNA from the assembly input substantially reduces computational requirements for assembly in terms of peak RAM usage (+@fig:fig3_filtering_and_assembly\-B RAM usage).
+Likely due to a reduced size of the assembly graph.
 
 ![Filtering and assembly of DNA sequencing of the _Azolla_ genus. Sequencing filtering workflow and guide to the graph (A). Quantities of sequencing input in Gbase (B; bottom), corresponding assembly output during the process (B; top), and the peak RAM usage during the assembly process (B; RAM usage). The bottom panel shows consecutive sequencing quantities at raw, trimmed, host filtered, and double filtered stages. At the latter two stages, sequencing data was assembled with SPAdes. The upper half of panel B shows assembly RAM usage in Gbyte and assembly sizes in MBase for both filtering stages of single sequencing library assemblies and hybrid assemblies if applicable.](source/figures/fig3_sequencing-filtering-and-assembly.pdf){#fig:fig3_filtering_and_assembly}
 
-### Filtering reduced eukaryotic DNA content but did not increase the assembly quality of bacterial DNA
+### Filtering reduced the eukaryotic fraction of the metagenome assembly content but did not increase the assembly quality of the bacterial fraction
 Filtering input sequencing data reduced assembly size.
 Next, we investigate the efficacy of this filtering approach in terms of taxonomic complexity and quality of the assembly.
 The main rationale for this intensive filtering approach was to decrease complexity in the metagenome assembly graph, thereby improving the length and quality of assembled bacterial contigs.
