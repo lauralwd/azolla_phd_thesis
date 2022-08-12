@@ -130,23 +130,23 @@ Finally, we are glad to share the genomes of all these _Azolla_ associated bacte
 ## Methods
 
 ### Tools and data availability
-In this study, we use various metagenomics tools to acquire genomes of bacterial endophytes associated with an entire genus of hosts
-from publicly available bulk DNA extractions.
-Sequenced DNA of various sources was iteratively filtered and assembled into contigs with SPAdes [@Nurk2017].
-Data was filtered in the first filter stage by mapping [@Li2009a] against a curated reference consisting of host nuclear DNA and chloroplast DNA by @Li2018 (Azfiv1.1 fernbase) (host filtered).
+In this study, we use various metagenomics tools to acquire genomes of bacterial endophytes associated with an entire genus of hosts from publicly available bulk DNA extractions (+@fig:fig3_data_overview).
+Sequenced DNA of various sources was iteratively filtered with BWA [@Li2009a] and assembled into contigs with SPAdes [@Nurk2017].
+Data was filtered in the first filter stage by mapping against a curated reference consisting of host nuclear DNA and chloroplast DNA by @Li2018 (Azfiv1.1 fernbase) (host filtered).
 For the _Azolla_ genus, only the genome of _Azolla filiculoides_ is available; hence this was used for filtering all _Azolla_ species studied here.
 Before using as a filter, the _Azolla filiculoides_ reference genome's taxonomy was rid of any bacterial contigs with CAT [@VonMeijenfeldt2019].
 CAT assigned an approximate taxonomy to contigs by first finding all open reading frames (ORFs), then blasting these to a custom database consisting of the NCBI blast NR protein database and all high confidence proteins of the _A. filiculoides_ v1.1 genome assembly.
 Only contigs classified as eukaryotic were kept in the filter.
-The reads passing the filter were assembled with SPAdes in metagenomics mode [@Nurk2017].
+The reads passing the filter were assembled with SPAdes in metagenomics mode.
 This first filtering step was not expected to perform equally well for all _Azolla_ species, especially those more phylogenetically distant to the reference genome.
 Hence in a second filter, eukaryotic contigs were identified in each of the host filtered assemblies and used as a second filter tailored to a specific sequencing library.
-These double-filtered reads were then assembled again with SPAdes metagenomics mode.
+These double-filtered reads were then assembled again with SPAdes metagenomics mode (+@fig:fig3_filtering_and_assembly\-A).
 Only after this second filtering, step hybrid assemblies were generated when multiple sequencing libraries were available per biological sample.
+
 After assembly, scaffolds were binned into Metagenome Assembled Genomes (MAGs) with several tools, then curated manually in Anvi'o [@Eren2015].
-To reproducible execute and document these analyses, a bioinformatic workflow was created with snakemake [@Molder2021] and documented in [Github](https://github.com/lauralwd/azolla_genus_metagenome).
+To reproducible execute and document these analyses, a bioinformatic workflow was created with snakemake [@Molder2021] and documented in [github.com/lauralwd/azolla_genus_metagenome](https://github.com/lauralwd/azolla_genus_metagenome).
 All tools used in this snakemake workflow are selected and installed from the Bioconda repository of bioinformatics software.
-Conda environments used in this study can be found in [github env link](https://github.com/lauralwd/Azolla_genus_metagenome/tree/master/envs).
+Conda environments used in this study can be found in [github.com/lauralwd/Azolla_genus_metagenome/tree/master/envs](https://github.com/lauralwd/Azolla_genus_metagenome/tree/master/envs).
 
 \begin{sidewaysfigure}
 \begin{figure}
@@ -171,7 +171,7 @@ Sequencing data used here represented six of seven species in the _Azolla_ genus
 These species are part of two subgenera, the _Rhizosperma_ section of the genus comprising _Azolla pinata_ and _Azolla nilotica_, and the _Euazolla_ section comprising the other four species (+@fig:fig3_data_overview\-A)
 Within the _Euazolla_ section, two subclusters of closely related species can be distinguished; firstly _A. rubra_ and _A. filiculoides_ and secondly _A. mexicana_, _A. microphylla_ and _A. carolinana_.
 These subclusters diverged between 10 and 20M years ago.
-The _Rhizosperma_ section is represented only by _A. nilotica_ here and is estimated to have diverged from the _Euazolla_  section approximately 50M years ago (+@fig:fig3_data_overview\-A [@Metzgar2007].
+The _Rhizosperma_ section is represented only by _A. nilotica_ here and is estimated to have diverged from the _Euazolla_  section approximately 50M years ago (+@fig:fig3_data_overview\-A) [@Metzgar2007].
 The first published data of _Azolla_ Whole Genome Sequencing (WGS) data was Chapter \ref{foul play} [@Dijkhuizen2018].
 In that study, we sampled _A. filiculoides_ from triplicate whole plant fractions and triplicate leaf-pocket enriched fractions (P1,2,3 and L1,2,3 respectively; +@fig:fig3_data_overview\-B).
 Secondly, the _Azolla_ genome project [@Li2018] published short-read sequencing data of six _Azolla_ species, including _A. filiculoides_ and long-read sequencing of _A. filiculoides_ (+@fig:fig3_data_overview\-B).
@@ -179,9 +179,9 @@ Sequencing data is mainly generated on Illumina platforms with typical insert si
 Both studies' their _A. filiculoides_ samples originate from the same Ditch in Utrecht, the Netherlands.
 One sample was treated to remove the most abundant symbiont: _N. azollae_; it is indicated as the no-cyano sample (+@fig:fig3_data_overview\-B).
 All samples acquired from the International Rice Research Institute (IRRI) were maintained for approximately two decades by the IRRI by vegetative propagation [@Watanabe1992] (+@fig:fig3_data_overview\-B).
-These plant strains were sampled at various locations around the globe (+@fig:fig3_data_overview\-C): _Azolla nilotica_, _Azolla rubra_, _Azolla mexicana_, _Azolla microphylla_, and two _Azolla_ samples, which were initially classified as _Azolla carolinana_ but are likely a new _Azolla_ species, here termed, _Azolla sp.nov._ [Chapter \ref{it takes two}\; @Dijkhuizen2021]
+These plant strains were sampled at various locations around the globe (+@fig:fig3_data_overview\-C): _Azolla nilotica_, _Azolla rubra_, _Azolla mexicana_, _Azolla microphylla_ and two _Azolla carolinana_ samples which may actualy be a new species [Chapter \ref{it takes two}\; @Dijkhuizen2021].
 The third data source is the seminal paper introducing the _N. azollae_ genome sequence [@Ran2010].
-This paper includes ion-torrent sequencing of a gradient purified extraction of the primary symbiont of _A. filiculoides_.
+This paper includes ion-torrent sequencing of the primary symbiont of _A. filiculoides_ which was extracted and purified on a sorbitol gradient.
 Data of the latter study was acquired from SRA: for the first and last studies via the accession numbers listed in +@fig:fig3_data_overview\-B.
 Data from the _Azolla_ genome project was made available to our lab before it was uploaded to a repository.
 Unfortunately, we cannot link the sample identities of the data made available to us with those uploaded to NCBI SRA.
