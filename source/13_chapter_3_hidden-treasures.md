@@ -37,15 +37,15 @@ Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus su
 
 ## Introduction
 Many bacteria associate with multicellular hosts in symbioses and may convey specific metabolic properties or traits to their hosts.
-Such associations may be temporary or occasional; these bacteria are often recruited from the environment of a host triggered by certain conditions.
+Such associations may be temporary; these bacteria are often recruited from the environment of a host triggered by certain conditions.
 Alternatively, symbionts may be practically ubiquitous among a host species.
 They may be housed inside host organs, making them endophytes of their host.
 These ubiquitously present symbionts may even be vertically transferred over host generations.
 The new host generation thereby inherits the traits associated with these symbionts.
 Such systematic presence in a host species will substantially influence selection pressure on the endophyte genome compared to free-living relatives.
-In such a case, a conglomeration of evolving organisms sharing both genomes and selection pressure can occasionally be seen as a holobiont: a single evolutionary unit comprising several organisms [@Zilber-Rosenberg2008].
+In such a case, a conglomeration of evolving organisms sharing both genomes and selection pressure can occasionally be seen as a holobiont: a single evolutionary unit comprising several organisms which shares selection presure [@Zilber-Rosenberg2008].
 However, the exact scope and applicability of the term remain subject to debate [@Douglas2016].
-Nonetheless, studying systematically inherited microbes provides opportunities for studying the adaptation of bacteria to the symbiotic lifestyle and the traits encoded in a plant's second genome.
+Regardless the semantics, studying systematically inherited microbes provides opportunities for studying the adaptation of bacteria to the symbiotic lifestyle and the traits encoded in a plant's second genome.
 
 Symbiotic endophytes are widespread over the plant kingdom, highly polyphyletic and can attribute various functions to their hosts [@Frank2018; @Hassani2018].
 The two most studied endophytes of plants are mycorrhiza and nitrogen-fixing Rhizobiaceae.
@@ -61,8 +61,8 @@ Such enrichments substantially improve the efficiency of sequencing the endophyt
 Simultaneously, such processes often increase the selectiveness of a methodology, leaving out any additional organisms to a host-endophyte symbiosis.
 Full metagenomic sequencing would be a less biased assessment to study all organisms in a symbiosis, at least when one expects more endophytic microbes.
 
-Full metagenomics sequencing is inefficient if symbionts are lowly abundant in plant tissue; hence, the method becomes highly cost-inefficient.
-Alternatively, symbiont genomes may be retrieved from sequencing data already available in data repositories, thereby capitalising on opportunities of the FAIR data age and the diversity thereof.
+Full metagenomics sequencing is inefficient if symbionts are lowly abundant in plant tissue; hence, the method becomes cost-inefficient.
+Alternatively, symbiont genomes may be retrieved from sequencing data already available in data repositories; capitalising on opportunities of the FAIR data age and its diversity.
 We demonstrated this before in chapter \ref{foul play}, where we serendipitously found bacterial genomes as a by-product of the _A. filiculoides_ genome assembly.
 @Delmont2016 extracted three bacterial genomes from the tardigrade genome similarly, using advanced visualisation and multiple sequencing libraries to puzzle apart the scaffolds of multiple organisms in a single assembly.
 Additionally, a study may benefit from using public data for the scope of the inquiry can be easily widened to include related species and their metagenomes.
@@ -76,23 +76,23 @@ _Azolla_ ferns are particularly interesting to study from a metagenomic perspect
 They host substantial quantities of di-nitrogen fixing symbiotic _Nostoc azollae_ protected inside specialised leaf cavities [@Campbell1893; @Nierzwicki-Bauer1989].
 These cavities contain a mucus-like substance [@Forni1998], presumably rich in ammonia [@Newton1976], containing the primary symbiont.
 The appropriate genus of the main _Azolla_ symbiont has been prone to debate; it is also known as _Anabaena azollae_ and _Trichormus azollae_.
-Here, we name the symbiont _N. azollae_ for consistency with our earlier work.
+Here, we name the symbiont _N. azollae_ for consistency with our earlier work and consider the alternate names synonymous.
 High sequence identity amongst _N. azollae_ genomes taken from various _Azolla_ species indicates _N. azollae_ was likely introduced once in the symbiosis [Chapter \ref{it takes two}\; @Dijkhuizen2021].
 Consequently, all cyanobacterial strains endophytic to _Azolla_ are likely the same cyanobacterial genus, perhaps even species.
-At the fern Shoot Apical Meristem (SAM) lies a -somewhat ironically named- 'seed colony of motile _N. azollae_ filaments [Chapter \ref{it takes two}\; @Dijkhuizen2021, @Campbell1893].
-Developing leaves encapsulate part of this seed colony as inoculum for every leaf's new cavity [@Campbell1893; @Nierzwicki-Bauer1989].
+At the fern Shoot Apical Meristem (SAM) lies a -somewhat ironically named- seed colony of motile _N. azollae_ filaments [Chapter \ref{it takes two}\; @Dijkhuizen2021, @Campbell1893].
+Developing leaves encapsulate part of this seed colony as inoculum for every leaf's new cavity [@Campbell1893; @Nierzwicki-Bauer1989; @Perkins1993].
 _Azolla_ ferns systematically transfer their symbiotic cyanobacteria to the next generations via their megaspores (+@fig:fig1_life-cycle).
-Recent papers theorised that the symbiont entered the fern megaspores via small channels [@Ran2010; @Zheng2009].
+The method of innoculation of these megasporocarps is thought to be similar to that of leaves [@Campbell1893; @Nierzwicki-Bauer1989; @Perkins1993].
+However, recent papers theorised that the symbiont entered the fern megaspores via small channels [@Ran2010; @Zheng2009].
 We theorise that early developing spore primordia of either gender encapsulate part of the cyanobacterial seed-colony based on confocal imagery [Chapter \ref{it takes two}\; @Dijkhuizen2021], thereby mirroring the mechanism by which inoculates leaves.
-Megasporocarps retain the cyanobacteria, which then develop into resting stages called akinetes.
+Regardless the method of innoculation, _Azolla_ megasporocarps retain the cyanobacteria, which then develop into resting stages called akinetes.
 Microsporocarps lose the symbiont throughout their development.
 Electron and confocal microscopy of cyanobacterial resting stages inside microspores support this theory [Chapter \ref{it takes two}\; @Dijkhuizen2021, @Caiola1992].
 
 _Azolla_ leaves and spores harbour by at least one other bacterium, as was shown in multiple species [@Gates1980; @Wallace1986; @Petro1987; @Caiola1988; @Plazinski1990; @Cohen2004; @Banach2019].
-These additional bacteria are likely limited in number and relatively understudied compared to the main symbiont _N. azollae_.
+These additional bacteria are likely limited in number and remain relatively understudied compared to the main symbiont _N. azollae_.
 While these bacteria were observed inside leaf pockets and spores by electron microscopy by various labs [@Wallace1986; @Nierzwicki-Bauer1990; @Carrapico1991; @Zheng2009], it remains unknown if they are also present in the SAM seed colony.
-We theorise this is the case, based on their ostensibly systematic presence in multiple _Azolla_ species and increasing abundance in developing _Azolla_ leaves [@Petro1987].
-Culture and electron microscopy-based techniques may also not be so reliable in attributing a species identification to a microbe and have led to uncertainty in comparing results generated in the previous century.
+Culture and electron microscopy-based techniques may be unreliable in attributing a species identification to a microbe and have led to uncertainty in comparing results generated in the previous century.
 Conversely, the apparent benefit of culture-based techniques is the availability of bioassays and transformation, as in @Banach2019 and @Plazinski1990.
 The uncertainty in classifying bacteria to a genus or species complicates estimating the identity and diversity of microbes endophytic to _Azolla_ [@Nierzwicki-Bauer1991; @Leonardi1993].
 Nonetheless, _Arthrobacter_ is the most well-known genus associated with _Azolla_ ferns in these studies [@Petro1987].
@@ -691,6 +691,14 @@ We theorise, however, that both _N. azollae_ and other microbes may be retained 
 Leaf and sporocarp primordia use trichomes to encapsulate _N. azollae_ from this seed colony during early development, which functions as inoculum for the forming organ. [@Campbell1893; @Nierzwicki-Bauer1989; @Perkins1993].
 We prefer this mechanism supported by many electron microscopy studies for its parsimonious solution to _N. azollae_ desimination over _Azolla_ organs.
 This hypothesised mechanism of microbiome transfer does not explain motile cyanobacterial filaments often observed in a channel of the megaspores' indusium caps in [@Ran2010; @Zheng2009].
+
+```
+We theorise this is the case, based on their ostensibly systematic presence in
+multiple _Azolla_ species and increasing abundance in developing _Azolla_ leaves [@Petro1987].
+
+Nonetheless, _Arthrobacter_ is the most well-known genus associated with _Azolla_
+ferns in these studies [@Petro1987].
+```
 
 Despite both sporocarps gaining _N. azollae_ colonies, microsporocarps lose the cyanobacterial symbionts while megasporocarps retain them in the form of akinete resting stages `Anna's confocal pictures in the \ref{forever together} chapter?`.
 In our data, we cannot definitively prove that the three endophytic MAGs, nor any other systematically associated order of bacteria, are endophytic, vertically transferred or present at the SAM seed colony.
