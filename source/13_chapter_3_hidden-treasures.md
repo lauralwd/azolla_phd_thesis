@@ -267,7 +267,7 @@ Plotting the scaffolds of all assemblies by these two characteristics allows one
 \begin{figure}
 \hypertarget{fig:fig3_Azolla_genus_metagenome_order}{%
   \centering
-  \includegraphics{source/figures/fig3_Azolla_genus_metagenome_order.png}
+  \includegraphics{source/figures/fig3_Azolla_genus_metagenome_order.pdf}
   \caption{Metagenome assemblies of 6 species of the fern genus Azolla (horizontal panels).
     Sequencing data was derived from three public projects \cref{fig:fig3_data_overview}.
     Sequencing reads were rid of host plant DNA reads and assembled with SPAdes in metagenome mode \cref{fig:fig3_filtering_and_assembly}-A.
