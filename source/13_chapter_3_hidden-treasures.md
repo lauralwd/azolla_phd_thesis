@@ -24,7 +24,7 @@ check all figure legends
 --->
 
 ## Abstract
-Bacteria-host symbioses are present throughout the plant kingdom, and bacteria can contribute all kinds of functions to their host.
+Bacteria-host symbioses are present throughout the plant kingdom, and bacteria can contribute all kinds of functions to their hosts.
 The plant genus _Azolla_ is known to host multiple endophytic bacteria, which it transfers systematically to successive generations.
 Here we set out to acquire bacterial genomes of _Azolla_ associated bacteria by re-using non-metagenomic data already available in public repositories.
 Sequencing data of six _Azolla_ species was filtered and assembled with a fully reproducible workflow made in the conda and snakemake frameworks.
@@ -33,7 +33,7 @@ Binning signals from foreign samples and taxonomy-based signals increased binnin
 This method yielded between 11 and 21 bacterial genomes per _Azolla_ species.
 The majority belongs to only six taxonomical orders (Burkholderiales, Caulobacteriales, Nevskiales, Nostocales, Rhizobiales and Sphingomonadales). They occur in most species of the _Azolla_ genus.
 Rhizobiales and Burkholderiales were transferred over generations in _A. filiculoides_.
-Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus suggests these bacteria may be introduced in some common ancestor of _Azolla_ species and may be selected for in the evolution of the _Azolla_ holobiont.
+Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus suggests these bacteria may be introduced in some common ancestor of _Azolla_ species and that they may be selected for in the evolution of the _Azolla_ holobiont.
 
 ## Introduction
 Many bacteria associate with multicellular hosts in symbioses and may convey specific metabolic properties or traits to their hosts.
