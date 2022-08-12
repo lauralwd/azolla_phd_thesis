@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,9 +40,9 @@
      inkscape:window-height="1136"
      id="namedview9340"
      showgrid="false"
-     inkscape:zoom="1.7279942"
-     inkscape:cx="356.39999"
-     inkscape:cy="277.20001"
+     inkscape:zoom="1.2218764"
+     inkscape:cx="326.3685"
+     inkscape:cy="329.55603"
      inkscape:window-x="1674"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -29627,521 +29627,601 @@
      inkscape:label="context"
      style="display:inline">
     <g
-       clip-path="url(#cpNDIuNTh8NzUuNDh8OTIuOTB8NS40OA==)"
-       id="g8680"
-       transform="translate(0,2)">
+       clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
+       id="g9306"
+       transform="rotate(180,10.206006,300.05272)">
       <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,52.45329,78.339917)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
+         transform="matrix(0,-1.6210646,1.2,0,13.618799,358.87811)"
+         style="font-size:11px;font-family:'Liberation Sans';stroke-width:0.71698356"
+         textLength="72.769997"
          lengthAdjust="spacingAndGlyphs"
-         id="text8678">A.</text>
+         id="text9304">Scaffold length (kbp)</text>
     </g>
     <g
-       clip-path="url(#cpNDIuNTh8NzUuNDh8OTIuOTB8NS40OA==)"
-       id="g8684"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,53.940656,70.169084)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="46.130001"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8682">filiculoides</text>
+       id="g5595"
+       transform="rotate(180,58.11767,46.995195)">
+      <g
+         transform="translate(0,2)"
+         id="g8680"
+         clip-path="url(#cpNDIuNTh8NzUuNDh8OTIuOTB8NS40OA==)">
+        <text
+           id="text8678"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,52.45329,78.339917)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8684"
+         clip-path="url(#cpNDIuNTh8NzUuNDh8OTIuOTB8NS40OA==)">
+        <text
+           id="text8682"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="46.130001"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,53.940656,70.169084)">filiculoides</text>
+      </g>
+      <g
+         transform="translate(2)"
+         id="g8688"
+         clip-path="url(#cpNDIuNTh8NzUuNDh8OTIuOTB8NS40OA==)">
+        <text
+           id="text8686"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="33.360001"
+           style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,63.029776,70.244458)">lab-250</text>
+      </g>
     </g>
     <g
-       clip-path="url(#cpNDIuNTh8NzUuNDh8OTIuOTB8NS40OA==)"
-       id="g8688"
-       transform="translate(2)">
+       id="g5587"
+       transform="rotate(180,96.507672,46.995194)">
+      <g
+         transform="translate(0,2)"
+         id="g8703"
+         clip-path="url(#cpODAuOTZ8MTEzLjg2fDkyLjkwfDUuNDg=)">
+        <text
+           id="text8701"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,90.84329,78.339916)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8707"
+         clip-path="url(#cpODAuOTZ8MTEzLjg2fDkyLjkwfDUuNDg=)">
+        <text
+           id="text8705"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="46.130001"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,92.320656,70.169084)">filiculoides</text>
+      </g>
+      <g
+         transform="translate(2)"
+         id="g8711"
+         clip-path="url(#cpODAuOTZ8MTEzLjg2fDkyLjkwfDUuNDg=)">
+        <text
+           id="text8709"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="33.360001"
+           style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,101.41978,70.244459)">lab-500</text>
+      </g>
+    </g>
+    <g
+       id="g5579"
+       transform="rotate(180,134.88767,46.995194)">
+      <g
+         transform="translate(0,2)"
+         id="g8726"
+         clip-path="url(#cpMTE5LjM0fDE1Mi4yNXw5Mi45MHw1LjQ4)">
+        <text
+           id="text8724"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,129.22329,78.339913)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8730"
+         clip-path="url(#cpMTE5LjM0fDE1Mi4yNXw5Mi45MHw1LjQ4)">
+        <text
+           id="text8728"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="46.130001"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,130.70066,70.169086)">filiculoides</text>
+      </g>
+      <g
+         transform="translate(2)"
+         id="g8734"
+         clip-path="url(#cpMTE5LjM0fDE1Mi4yNXw5Mi45MHw1LjQ4)">
+        <text
+           id="text8732"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="33.360001"
+           style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,139.79978,70.244459)">lab-800</text>
+      </g>
+    </g>
+    <g
+       id="g5571"
+       transform="rotate(180,175.45465,49.641748)">
+      <g
+         transform="translate(0,2)"
+         id="g8749"
+         clip-path="url(#cpMTU3LjcyfDE5MC42M3w5Mi45MHw1LjQ4)">
+        <text
+           id="text8747"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,167.60329,78.339912)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8753"
+         clip-path="url(#cpMTU3LjcyfDE5MC42M3w5Mi45MHw1LjQ4)">
+        <text
+           id="text8751"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="46.130001"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,169.08066,70.169087)">filiculoides</text>
+      </g>
       <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,63.029776,70.244458)"
+         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,175.52263,95.851651)"
          style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="33.360001"
+         textLength="76.699997"
          lengthAdjust="spacingAndGlyphs"
-         id="text8686">lab-250</text>
+         id="text8755">minus-cyano-170</text>
     </g>
     <g
-       clip-path="url(#cpODAuOTZ8MTEzLjg2fDkyLjkwfDUuNDg=)"
-       id="g8703"
-       transform="translate(0,2)">
+       id="g5564"
+       transform="rotate(180,213.83465,49.641748)">
+      <g
+         transform="translate(0,2)"
+         id="g8772"
+         clip-path="url(#cpMTk2LjExfDIyOS4wMXw5Mi45MHw1LjQ4)">
+        <text
+           id="text8770"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,205.98329,78.339913)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8776"
+         clip-path="url(#cpMTk2LjExfDIyOS4wMXw5Mi45MHw1LjQ4)">
+        <text
+           id="text8774"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="46.130001"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,207.47066,70.169086)">filiculoides</text>
+      </g>
       <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,90.84329,78.339916)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8701">A.</text>
-    </g>
-    <g
-       clip-path="url(#cpODAuOTZ8MTEzLjg2fDkyLjkwfDUuNDg=)"
-       id="g8707"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,92.320656,70.169084)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="46.130001"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8705">filiculoides</text>
-    </g>
-    <g
-       clip-path="url(#cpODAuOTZ8MTEzLjg2fDkyLjkwfDUuNDg=)"
-       id="g8711"
-       transform="translate(2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,101.41978,70.244459)"
+         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,213.90263,95.851651)"
          style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="33.360001"
+         textLength="76.699997"
          lengthAdjust="spacingAndGlyphs"
-         id="text8709">lab-500</text>
+         id="text8778">minus-cyano-350</text>
     </g>
     <g
-       clip-path="url(#cpMTE5LjM0fDE1Mi4yNXw5Mi45MHw1LjQ4)"
-       id="g8726"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,129.22329,78.339913)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8724">A.</text>
+       id="g5557"
+       transform="rotate(180,250.05138,46.995193)">
+      <g
+         transform="translate(0,2)"
+         id="g8795"
+         clip-path="url(#cpMjM0LjQ5fDI2Ny4zOXw5Mi45MHw1LjQ4)">
+        <text
+           id="text8793"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,244.36329,78.339913)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8799"
+         clip-path="url(#cpMjM0LjQ5fDI2Ny4zOXw5Mi45MHw1LjQ4)">
+        <text
+           id="text8797"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="46.130001"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,245.85066,70.169085)">filiculoides</text>
+      </g>
+      <g
+         transform="translate(2)"
+         id="g8803"
+         clip-path="url(#cpMjM0LjQ5fDI2Ny4zOXw5Mi45MHw1LjQ4)">
+        <text
+           id="text8801"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="36.119999"
+           style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,254.54783,71.797064)">wild-E-1</text>
+      </g>
     </g>
     <g
-       clip-path="url(#cpMTE5LjM0fDE1Mi4yNXw5Mi45MHw1LjQ4)"
-       id="g8730"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,130.70066,70.169086)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="46.130001"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8728">filiculoides</text>
+       id="g5549"
+       transform="rotate(180,288.43499,46.995194)">
+      <g
+         transform="translate(0,2)"
+         id="g8818"
+         clip-path="url(#cpMjcyLjg3fDMwNS43N3w5Mi45MHw1LjQ4)">
+        <text
+           id="text8816"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,282.75329,78.339913)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8822"
+         clip-path="url(#cpMjcyLjg3fDMwNS43N3w5Mi45MHw1LjQ4)">
+        <text
+           id="text8820"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="46.130001"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,284.23066,70.169086)">filiculoides</text>
+      </g>
+      <g
+         transform="translate(2)"
+         id="g8826"
+         clip-path="url(#cpMjcyLjg3fDMwNS43N3w5Mi45MHw1LjQ4)">
+        <text
+           id="text8824"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="36.119999"
+           style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,292.9281,71.797395)">wild-E-2</text>
+      </g>
     </g>
     <g
-       clip-path="url(#cpMTE5LjM0fDE1Mi4yNXw5Mi45MHw1LjQ4)"
-       id="g8734"
-       transform="translate(2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,139.79978,70.244459)"
-         style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="33.360001"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8732">lab-800</text>
+       id="g5541"
+       transform="rotate(180,326.87393,46.995195)">
+      <g
+         transform="translate(0,2)"
+         id="g8841"
+         clip-path="url(#cpMzExLjI1fDM0NC4xNnw5Mi45MHw1LjQ4)">
+        <text
+           id="text8839"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,321.13328,78.339914)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8845"
+         clip-path="url(#cpMzExLjI1fDM0NC4xNnw5Mi45MHw1LjQ4)">
+        <text
+           id="text8843"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="46.130001"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,322.61066,70.169087)">filiculoides</text>
+      </g>
+      <g
+         transform="translate(2)"
+         id="g8849"
+         clip-path="url(#cpMzExLjI1fDM0NC4xNnw5Mi45MHw1LjQ4)">
+        <text
+           id="text8847"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="36.119999"
+           style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,331.29737,71.803647)">wild-E-3</text>
+      </g>
     </g>
     <g
-       clip-path="url(#cpMTU3LjcyfDE5MC42M3w5Mi45MHw1LjQ4)"
-       id="g8749"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,167.60329,78.339912)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8747">A.</text>
+       id="g5533"
+       transform="rotate(180,365.19638,46.995196)">
+      <g
+         transform="translate(0,2)"
+         id="g8864"
+         clip-path="url(#cpMzQ5LjY0fDM4Mi41NHw5Mi45MHw1LjQ4)">
+        <text
+           id="text8862"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,359.51328,78.339916)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8868"
+         clip-path="url(#cpMzQ5LjY0fDM4Mi41NHw5Mi45MHw1LjQ4)">
+        <text
+           id="text8866"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="46.130001"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,360.99065,70.169088)">filiculoides</text>
+      </g>
+      <g
+         transform="translate(2)"
+         id="g8872"
+         clip-path="url(#cpMzQ5LjY0fDM4Mi41NHw5Mi45MHw1LjQ4)">
+        <text
+           id="text8870"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="36.119999"
+           style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,369.68784,71.797059)">wild-P-1</text>
+      </g>
     </g>
     <g
-       clip-path="url(#cpMTU3LjcyfDE5MC42M3w5Mi45MHw1LjQ4)"
-       id="g8753"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,169.08066,70.169087)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="46.130001"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8751">filiculoides</text>
-    </g>
-    <text
-       id="text8755"
-       lengthAdjust="spacingAndGlyphs"
-       textLength="76.699997"
-       style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-       transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,175.52263,95.851651)">minus-cyano-170</text>
-    <g
-       clip-path="url(#cpMTk2LjExfDIyOS4wMXw5Mi45MHw1LjQ4)"
-       id="g8772"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,205.98329,78.339913)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8770">A.</text>
-    </g>
-    <g
-       clip-path="url(#cpMTk2LjExfDIyOS4wMXw5Mi45MHw1LjQ4)"
-       id="g8776"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,207.47066,70.169086)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="46.130001"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8774">filiculoides</text>
-    </g>
-    <text
-       id="text8778"
-       lengthAdjust="spacingAndGlyphs"
-       textLength="76.699997"
-       style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-       transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,213.90263,95.851651)">minus-cyano-350</text>
-    <g
-       clip-path="url(#cpMjM0LjQ5fDI2Ny4zOXw5Mi45MHw1LjQ4)"
-       id="g8795"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,244.36329,78.339913)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8793">A.</text>
+       id="g5525"
+       transform="rotate(180,403.57998,46.995193)">
+      <g
+         transform="translate(0,2)"
+         id="g8887"
+         clip-path="url(#cpMzg4LjAyfDQyMC45Mnw5Mi45MHw1LjQ4)">
+        <text
+           id="text8885"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,397.89329,78.339908)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8891"
+         clip-path="url(#cpMzg4LjAyfDQyMC45Mnw5Mi45MHw1LjQ4)">
+        <text
+           id="text8889"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="46.130001"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,399.38065,70.169089)">filiculoides</text>
+      </g>
+      <g
+         transform="translate(2)"
+         id="g8895"
+         clip-path="url(#cpMzg4LjAyfDQyMC45Mnw5Mi45MHw1LjQ4)">
+        <text
+           id="text8893"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="36.119999"
+           style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,408.07809,71.797397)">wild-P-2</text>
+      </g>
     </g>
     <g
-       clip-path="url(#cpMjM0LjQ5fDI2Ny4zOXw5Mi45MHw1LjQ4)"
-       id="g8799"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,245.85066,70.169085)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="46.130001"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8797">filiculoides</text>
+       id="g5517"
+       transform="rotate(180,442.02394,46.995194)">
+      <g
+         transform="translate(0,2)"
+         id="g8910"
+         clip-path="url(#cpNDI2LjQwfDQ1OS4zMHw5Mi45MHw1LjQ4)">
+        <text
+           id="text8908"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,436.28329,78.339909)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8914"
+         clip-path="url(#cpNDI2LjQwfDQ1OS4zMHw5Mi45MHw1LjQ4)">
+        <text
+           id="text8912"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="46.130001"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,437.76065,70.16909)">filiculoides</text>
+      </g>
+      <g
+         transform="translate(2)"
+         id="g8918"
+         clip-path="url(#cpNDI2LjQwfDQ1OS4zMHw5Mi45MHw1LjQ4)">
+        <text
+           id="text8916"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="36.119999"
+           style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,446.44737,71.80365)">wild-P-3</text>
+      </g>
     </g>
     <g
-       clip-path="url(#cpMjM0LjQ5fDI2Ny4zOXw5Mi45MHw1LjQ4)"
-       id="g8803"
-       transform="translate(2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,254.54783,71.797064)"
-         style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="36.119999"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8801">wild-E-1</text>
+       id="g5509"
+       transform="rotate(180,480.98994,48.003123)">
+      <g
+         transform="translate(0,2)"
+         id="g8933"
+         clip-path="url(#cpNDY0Ljc4fDQ5Ny42OXw5Mi45MHw1LjQ4)">
+        <text
+           id="text8931"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,479.36329,77.479915)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8937"
+         clip-path="url(#cpNDY0Ljc4fDQ5Ny42OXw5Mi45MHw1LjQ4)">
+        <text
+           id="text8935"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="42.799999"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,480.72965,68.951095)">mexicana</text>
+      </g>
     </g>
     <g
-       clip-path="url(#cpMjcyLjg3fDMwNS43N3w5Mi45MHw1LjQ4)"
-       id="g8818"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,282.75329,78.339913)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8816">A.</text>
+       id="g5503"
+       transform="rotate(180,519.65312,47.624536)">
+      <g
+         transform="translate(0,2)"
+         id="g8952"
+         clip-path="url(#cpNTAzLjE3fDUzNi4wN3w5Mi45MHw1LjQ4)">
+        <text
+           id="text8950"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,517.07329,81.30992)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8956"
+         clip-path="url(#cpNTAzLjE3fDUzNi4wN3w5Mi45MHw1LjQ4)">
+        <text
+           id="text8954"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="50.57"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,518.29864,73.546299)">microphylla</text>
+      </g>
     </g>
     <g
-       clip-path="url(#cpMjcyLjg3fDMwNS43N3w5Mi45MHw1LjQ4)"
-       id="g8822"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,284.23066,70.169086)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="46.130001"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8820">filiculoides</text>
+       id="g5497"
+       transform="rotate(180,557.69422,48.574123)">
+      <g
+         transform="translate(0,2)"
+         id="g8971"
+         clip-path="url(#cpNTQxLjU1fDU3NC40NXw5Mi45MHw1LjQ4)">
+        <text
+           id="text8969"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,557.14329,71.729922)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8975"
+         clip-path="url(#cpNTQxLjU1fDU3NC40NXw5Mi45MHw1LjQ4)">
+        <text
+           id="text8973"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="31.129999"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,558.78997,62.051833)">nilotica</text>
+      </g>
     </g>
     <g
-       clip-path="url(#cpMjcyLjg3fDMwNS43N3w5Mi45MHw1LjQ4)"
-       id="g8826"
-       transform="translate(2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,292.9281,71.797395)"
-         style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="36.119999"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8824">wild-E-2</text>
+       id="g5491"
+       transform="rotate(180,595.9815,48.963476)">
+      <g
+         transform="translate(0,2)"
+         id="g8990"
+         clip-path="url(#cpNTc5LjkzfDYxMi44M3w5Mi45MHw1LjQ4)">
+        <text
+           id="text8988"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,596.20329,67.899918)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g8994"
+         clip-path="url(#cpNTc5LjkzfDYxMi44M3w5Mi45MHw1LjQ4)">
+        <text
+           id="text8992"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="23.34"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,597.92779,57.454669)">rubra</text>
+      </g>
     </g>
     <g
-       clip-path="url(#cpMzExLjI1fDM0NC4xNnw5Mi45MHw1LjQ4)"
-       id="g8841"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,321.13328,78.339914)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8839">A.</text>
+       id="g5485"
+       transform="rotate(180,632.2266,46.958644)">
+      <g
+         transform="translate(0,2)"
+         id="g9009"
+         clip-path="url(#cpNjE4LjMxfDY1MS4yMnw5Mi45MHw1LjQ4)">
+        <text
+           id="text9007"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,627.9933,79.439915)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g9013"
+         clip-path="url(#cpNjE4LjMxfDY1MS4yMnw5Mi45MHw1LjQ4)">
+        <text
+           id="text9011"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="48.360001"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,629.26078,71.47283)">caroliniana</text>
+      </g>
+      <g
+         transform="translate(2)"
+         id="g9017"
+         clip-path="url(#cpNjE4LjMxfDY1MS4yMnw5Mi45MHw1LjQ4)">
+        <text
+           id="text9015"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="5.5599999"
+           style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,641.63625,53.813946)">1</text>
+      </g>
     </g>
     <g
-       clip-path="url(#cpMzExLjI1fDM0NC4xNnw5Mi45MHw1LjQ4)"
-       id="g8845"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,322.61066,70.169087)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="46.130001"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8843">filiculoides</text>
-    </g>
-    <g
-       clip-path="url(#cpMzExLjI1fDM0NC4xNnw5Mi45MHw1LjQ4)"
-       id="g8849"
-       transform="translate(2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,331.29737,71.803647)"
-         style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="36.119999"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8847">wild-E-3</text>
-    </g>
-    <g
-       clip-path="url(#cpMzQ5LjY0fDM4Mi41NHw5Mi45MHw1LjQ4)"
-       id="g8864"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,359.51328,78.339916)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8862">A.</text>
-    </g>
-    <g
-       clip-path="url(#cpMzQ5LjY0fDM4Mi41NHw5Mi45MHw1LjQ4)"
-       id="g8868"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,360.99065,70.169088)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="46.130001"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8866">filiculoides</text>
-    </g>
-    <g
-       clip-path="url(#cpMzQ5LjY0fDM4Mi41NHw5Mi45MHw1LjQ4)"
-       id="g8872"
-       transform="translate(2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,369.68784,71.797059)"
-         style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="36.119999"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8870">wild-P-1</text>
-    </g>
-    <g
-       clip-path="url(#cpMzg4LjAyfDQyMC45Mnw5Mi45MHw1LjQ4)"
-       id="g8887"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,397.89329,78.339908)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8885">A.</text>
-    </g>
-    <g
-       clip-path="url(#cpMzg4LjAyfDQyMC45Mnw5Mi45MHw1LjQ4)"
-       id="g8891"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,399.38065,70.169089)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="46.130001"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8889">filiculoides</text>
-    </g>
-    <g
-       clip-path="url(#cpMzg4LjAyfDQyMC45Mnw5Mi45MHw1LjQ4)"
-       id="g8895"
-       transform="translate(2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,408.07809,71.797397)"
-         style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="36.119999"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8893">wild-P-2</text>
-    </g>
-    <g
-       clip-path="url(#cpNDI2LjQwfDQ1OS4zMHw5Mi45MHw1LjQ4)"
-       id="g8910"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,436.28329,78.339909)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8908">A.</text>
-    </g>
-    <g
-       clip-path="url(#cpNDI2LjQwfDQ1OS4zMHw5Mi45MHw1LjQ4)"
-       id="g8914"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,437.76065,70.16909)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="46.130001"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8912">filiculoides</text>
-    </g>
-    <g
-       clip-path="url(#cpNDI2LjQwfDQ1OS4zMHw5Mi45MHw1LjQ4)"
-       id="g8918"
-       transform="translate(2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,446.44737,71.80365)"
-         style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="36.119999"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8916">wild-P-3</text>
-    </g>
-    <g
-       clip-path="url(#cpNDY0Ljc4fDQ5Ny42OXw5Mi45MHw1LjQ4)"
-       id="g8933"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,479.36329,77.479915)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8931">A.</text>
-    </g>
-    <g
-       clip-path="url(#cpNDY0Ljc4fDQ5Ny42OXw5Mi45MHw1LjQ4)"
-       id="g8937"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,480.72965,68.951095)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="42.799999"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8935">mexicana</text>
-    </g>
-    <g
-       clip-path="url(#cpNTAzLjE3fDUzNi4wN3w5Mi45MHw1LjQ4)"
-       id="g8952"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,517.07329,81.30992)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8950">A.</text>
-    </g>
-    <g
-       clip-path="url(#cpNTAzLjE3fDUzNi4wN3w5Mi45MHw1LjQ4)"
-       id="g8956"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,518.29864,73.546299)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="50.57"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8954">microphylla</text>
-    </g>
-    <g
-       clip-path="url(#cpNTQxLjU1fDU3NC40NXw5Mi45MHw1LjQ4)"
-       id="g8971"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,557.14329,71.729922)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8969">A.</text>
-    </g>
-    <g
-       clip-path="url(#cpNTQxLjU1fDU3NC40NXw5Mi45MHw1LjQ4)"
-       id="g8975"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,558.78997,62.051833)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="31.129999"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8973">nilotica</text>
-    </g>
-    <g
-       clip-path="url(#cpNTc5LjkzfDYxMi44M3w5Mi45MHw1LjQ4)"
-       id="g8990"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,596.20329,67.899918)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8988">A.</text>
-    </g>
-    <g
-       clip-path="url(#cpNTc5LjkzfDYxMi44M3w5Mi45MHw1LjQ4)"
-       id="g8994"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,597.92779,57.454669)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="23.34"
-         lengthAdjust="spacingAndGlyphs"
-         id="text8992">rubra</text>
-    </g>
-    <g
-       clip-path="url(#cpNjE4LjMxfDY1MS4yMnw5Mi45MHw1LjQ4)"
-       id="g9009"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,627.9933,79.439915)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text9007">A.</text>
-    </g>
-    <g
-       clip-path="url(#cpNjE4LjMxfDY1MS4yMnw5Mi45MHw1LjQ4)"
-       id="g9013"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,629.26078,71.47283)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="48.360001"
-         lengthAdjust="spacingAndGlyphs"
-         id="text9011">caroliniana</text>
-    </g>
-    <g
-       clip-path="url(#cpNjE4LjMxfDY1MS4yMnw5Mi45MHw1LjQ4)"
-       id="g9017"
-       transform="translate(2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,641.63625,53.813946)"
-         style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="5.5599999"
-         lengthAdjust="spacingAndGlyphs"
-         id="text9015">1</text>
-    </g>
-    <g
-       clip-path="url(#cpNjU2LjcwfDY4OS42MHw5Mi45MHw1LjQ4)"
-       id="g9032"
-       transform="translate(0,2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,666.38329,79.439915)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="9.4499998"
-         lengthAdjust="spacingAndGlyphs"
-         id="text9030">A.</text>
-    </g>
-    <g
-       clip-path="url(#cpNjU2LjcwfDY4OS42MHw5Mi45MHw1LjQ4)"
-       id="g9036"
-       transform="translate(1.1574113,-1.7106472)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,667.64078,71.472831)"
-         style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="48.360001"
-         lengthAdjust="spacingAndGlyphs"
-         id="text9034">caroliniana</text>
-    </g>
-    <g
-       clip-path="url(#cpNjU2LjcwfDY4OS42MHw5Mi45MHw1LjQ4)"
-       id="g9040"
-       transform="translate(2)">
-      <text
-         transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,680.03109,53.788807)"
-         style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-         textLength="5.5599999"
-         lengthAdjust="spacingAndGlyphs"
-         id="text9038">2</text>
+       id="g5477"
+       transform="rotate(180,670.61749,46.958644)">
+      <g
+         transform="translate(0,2)"
+         id="g9032"
+         clip-path="url(#cpNjU2LjcwfDY4OS42MHw5Mi45MHw1LjQ4)">
+        <text
+           id="text9030"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="9.4499998"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,666.38329,79.439915)">A.</text>
+      </g>
+      <g
+         transform="translate(1.1574113,-1.7106472)"
+         id="g9036"
+         clip-path="url(#cpNjU2LjcwfDY4OS42MHw5Mi45MHw1LjQ4)">
+        <text
+           id="text9034"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="48.360001"
+           style="font-style:italic;font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,667.64078,71.472831)">caroliniana</text>
+      </g>
+      <g
+         transform="translate(2)"
+         id="g9040"
+         clip-path="url(#cpNjU2LjcwfDY4OS42MHw5Mi45MHw1LjQ4)">
+        <text
+           id="text9038"
+           lengthAdjust="spacingAndGlyphs"
+           textLength="5.5599999"
+           style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
+           transform="matrix(0.20837781,-1.1817693,1.1817693,0.20837781,680.03109,53.788807)">2</text>
+      </g>
     </g>
     <text
        id="text9055"
        lengthAdjust="spacingAndGlyphs"
        textLength="37.25"
        style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
-       transform="matrix(0,-1.2,1.2,0,701.57484,130.49695)">Archaea</text>
+       transform="matrix(0,1.2,-1.2,0,692.99671,85.773508)">Archaea</text>
     <g
        clip-path="url(#cpNjg5LjYwfDcwNy4zMnwzMjMuNzR8MTMyLjg3)"
-       id="g9074">
+       id="g9074"
+       transform="rotate(180,697.28578,227.89989)">
       <text
          transform="matrix(0,-1.2,1.2,0,701.57484,250.40002)"
          style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
@@ -30151,7 +30231,8 @@
     </g>
     <g
        clip-path="url(#cpNjg5LjYwfDcwNy4zMnw0NTguNjF8MzI5LjIy)"
-       id="g9091">
+       id="g9091"
+       transform="rotate(180,698.27455,393.50988)">
       <text
          transform="matrix(0,-1.2,1.2,0,701.37709,421.01402)"
          style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
@@ -30161,7 +30242,8 @@
     </g>
     <g
        clip-path="url(#cpNjg5LjYwfDcwNy4zMnw1MDYuOTh8NDY0LjA5)"
-       id="g9108">
+       id="g9108"
+       transform="rotate(180,697.28578,485.69953)">
       <text
          transform="matrix(0,-1.2,1.2,0,701.57484,505.51209)"
          style="font-size:10px;font-family:'Liberation Sans';fill:#1a1a1a;stroke-width:0.83333331"
@@ -30324,16 +30406,6 @@
          lengthAdjust="spacingAndGlyphs"
          id="text9294"
          transform="matrix(1.2,0,0,1.2,-6.5836621,-95.204138)">10</text>
-    </g>
-    <g
-       clip-path="url(#cpMC4wMHw3MTIuODB8NTU0LjQwfDAuMDA=)"
-       id="g9306">
-      <text
-         transform="matrix(0,-1.2,1.2,0,13.618799,343.58546)"
-         style="font-size:11px;font-family:'Liberation Sans';stroke-width:0.83333331"
-         textLength="72.769997"
-         lengthAdjust="spacingAndGlyphs"
-         id="text9304">Scaffold length</text>
     </g>
     <polyline
        points="51.55,509.72 51.55,506.98 "
