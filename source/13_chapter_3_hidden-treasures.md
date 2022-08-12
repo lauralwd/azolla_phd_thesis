@@ -505,9 +505,9 @@ Hence, the manual method allows to more reliably study the genomes of more bacte
 \toprule
 Species \& Sample                                         &
 \rotatebox{45}{total nr. of bins}                         &
-\rotatebox{45}{metagenome fraction in bins (\%)\tnote{b}} &
-\rotatebox{45}{bins passing Anvi'o QC\tnote{a}}           &
-\rotatebox{45}{bins passing CheckM QC\tnote{a}}           \\
+\rotatebox{45}{metagenome fraction in bins (\%)\tnote{a}} &
+\rotatebox{45}{bins passing Anvi'o QC\tnote{b}}           &
+\rotatebox{45}{bins passing CheckM QC\tnote{b}}           \\
 \midrule
 \endhead
 \emph{Azolla mexicana}                    & 21 &100 & 10 & 13 \\
@@ -524,8 +524,8 @@ Species \& Sample                                         &
 
 \begin{tablenotes}
   \footnotesize
-  \item[a] Passing QC means over 90% completeness and less than 10% redundancy.
-  \item[b] Calculated as the percentage of bases from scaffolds over 2.5kbp that are part of any bin.
+  \item[a] Calculated as the percentage of bases from scaffolds over 2.5kbp that are part of any bin.
+  \item[b] Passing QC means over 90% completeness and less than 10% redundancy.
 \end{tablenotes}
 
 \end{threeparttable}
