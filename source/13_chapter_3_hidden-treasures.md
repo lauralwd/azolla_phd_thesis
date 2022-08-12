@@ -342,8 +342,10 @@ This difference indicates that this particular cyanobacterium is epiphytic, cons
   >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.05}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.05}}@{}}
 
-\caption{MAG quality of MAGs assembled from sequencing data derived from the \emph{A. filiculoides} 'wild' sample.
-         Quality is assessed as approximate genome completion and redundancy by two distinct tools: Anvio (Eren et al. 2015) and CheckM (Horton et al. 2014).
+\caption{Quality, taxonomy and abundance of MAGs assembled from sequencing data
+         derived from the \emph{A. filiculoides} 'wild' sample.
+         Quality is assessed as approximate genome completion and redundancy by two
+         distinct tools: Anvio (Eren et al. 2015) and CheckM (Horton et al. 2014).
 \label{tbl:tbl3_2}}\tabularnewline
 
 \toprule
@@ -427,8 +429,10 @@ In no case of manual metagenome binning was CAT taxonomy used as input for the c
   >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.05}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.05}}@{}}
 
-\caption{MAG quality of MAGs assembled from sequencing data derived from \emph{A. microphylla}.
-    Quality is assessed as approximate genome completion and redundancy by two distinct tools: (Eren et al. 2015) and CheckM (Parks et al. 2015).
+\caption{Quality and taxonomy bins/MAGs assembled from sequencing data derived
+         from \emph{A. microphylla}.
+         Quality is assessed as approximate genome completion and redundancy by
+         two distinct tools: (Eren et al. 2015) and CheckM (Parks et al. 2015).
     \label{tbl:tbl3_MAGs_azmic}}
 \tabularnewline
 
