@@ -201,6 +201,8 @@ Filtering efficiency diminished substantially even for species phylogenetically 
 This first filtering step removed only 8% of reads for the phylogenetically distant _A. nilotica_ (+@fig:fig3_filtering_and_assembly\-B; bottom; _Azolla nilotica_).
 After this first filtering step (host filtered), assemblies were typically around 600 Mbase and likely contained substantial amounts of host DNA (+@fig:fig3_filtering_and_assembly\-B; top).
 
+![Filtering and assembly of DNA sequencing of the _Azolla_ genus. Sequencing filtering workflow and guide to the graph (A). Quantities of sequencing input in Gbase (B; bottom), corresponding assembly output during the process (B; top), and the peak RAM usage during the assembly process (B; RAM usage). The bottom panel shows consecutive sequencing quantities at raw, trimmed, host filtered, and double filtered stages. At the latter two stages, sequencing data was assembled with SPAdes. The upper half of panel B shows assembly RAM usage in Gbyte and assembly sizes in MBase for both filtering stages of single sequencing library assemblies and hybrid assemblies if applicable.](source/figures/fig3_sequencing-filtering-and-assembly.pdf){#fig:fig3_filtering_and_assembly}
+
 To further improve filtering efficiency, a second filtering strategy was applied.
 Assembled contigs of all host filtered assemblies were classified with CAT [@VonMeijenfeldt2019]
 Next, contigs classified as eukaryotic were used as a second filter specific for that particular sequencing library.
@@ -215,19 +217,6 @@ Reduced assembly size and host DNA contamination make manual binning feasible, a
 Secondly, removing host DNA from the assembly input substantially reduces computational requirements for assembly in terms of peak RAM usage (+@fig:fig3_filtering_and_assembly\-B RAM usage).
 Likely due to a reduced size of the assembly graph.
 
-![Filtering and assembly of DNA sequencing of the _Azolla_ genus. Sequencing filtering workflow and guide to the graph (A). Quantities of sequencing input in Gbase (B; bottom), corresponding assembly output during the process (B; top), and the peak RAM usage during the assembly process (B; RAM usage). The bottom panel shows consecutive sequencing quantities at raw, trimmed, host filtered, and double filtered stages. At the latter two stages, sequencing data was assembled with SPAdes. The upper half of panel B shows assembly RAM usage in Gbyte and assembly sizes in MBase for both filtering stages of single sequencing library assemblies and hybrid assemblies if applicable.](source/figures/fig3_sequencing-filtering-and-assembly.pdf){#fig:fig3_filtering_and_assembly}
-
-### Filtering reduced the eukaryotic fraction of the metagenome assembly content but did not increase the assembly quality of the bacterial fraction
-Filtering input sequencing data reduced assembly size.
-Next, we investigate the efficacy of this filtering approach in terms of taxonomic complexity and quality of the assembly.
-The main rationale for this intensive filtering approach was to decrease complexity in the metagenome assembly graph, thereby improving the length and quality of assembled bacterial contigs.
-The double filtering step substantially reduced total assembly size (+@fig:fig3_filtering_and_assembly\-B top) and length distributions of eukaryotic contigs (+@fig:fig3_filter_length_distributions Eukaryota, +@tbl:tbl3_1), as well as contigs which were not assigned a taxonomy or did not yield any open reading frames (+@tbl:tbl3_1).
-These latter two taxonomical categories often had similar depth/length distributions as scaffolds assigned Eukaryota ([lauradijkhuizen.com/blog/AGMB](lauradijkhuizen.com/blog/AGMB)).
-In contrast, bacterial assembly size and length distributions were practically identical between the two different filtering stages (+@fig:fig3_filter_length_distributions Bacteria), although the average and median scaffold size did increase slightly (+@tbl:tbl3_1 Bacteria).
-Contigs assigned as Archeal in the host filtered assembly were not classified as such in the double filtered assembly (+@fig:fig3_filter_length_distributions Archaea).
-Similarly, viral contigs often were only assembled in the host filtered assembly (+@fig:fig3_filter_length_distributions Viruses).
-The bacterial fraction of the metagenome assembly is of substantial size and was not negatively affected by the filtering approach, thereby paving the way to investigate the diversity of bacterial genomes in this fraction.
-
 filter stage    | superkingdom  | contig count |scaffold count | total scaffold length (Mb) | median scaffold length (kb) | average scaffold length (kb)
 -----           |    -----      | ---   |  ---  | --- |  ---  |  ---
 host filtered   | Bacteria	    |	44861 | 48500	| 814	| 5666	| 16775
@@ -240,6 +229,17 @@ host filtered   | no ORFs found |120555 |112519 |	762	| 4748	|  6768
 double filtered | no ORFs found | 19523 | 25323	| 101	| 3282	|  3989
 
 Table: Assembly statistics per superkingdom before and after the second filtering stage. Only contigs and scaffolds longer than 2.5kbp are included. {#tbl:tbl3_1}
+
+### Filtering reduced the eukaryotic fraction of the metagenome assembly content but did not increase the assembly quality of the bacterial fraction
+Filtering input sequencing data reduced assembly size.
+Next, we investigate the efficacy of this filtering approach in terms of taxonomic complexity and quality of the assembly.
+The main rationale for this intensive filtering approach was to decrease complexity in the metagenome assembly graph, thereby improving the length and quality of assembled bacterial contigs.
+The double filtering step substantially reduced total assembly size (+@fig:fig3_filtering_and_assembly\-B top) and length distributions of eukaryotic contigs (+@fig:fig3_filter_length_distributions Eukaryota, +@tbl:tbl3_1), as well as contigs which were not assigned a taxonomy or did not yield any open reading frames (+@tbl:tbl3_1).
+These latter two taxonomical categories often had similar depth/length distributions as scaffolds assigned Eukaryota ([lauradijkhuizen.com/blog/AGMB](lauradijkhuizen.com/blog/AGMB)).
+In contrast, bacterial assembly size and length distributions were practically identical between the two different filtering stages (+@fig:fig3_filter_length_distributions Bacteria), although the average and median scaffold size did increase slightly (+@tbl:tbl3_1 Bacteria).
+Contigs assigned as Archeal in the host filtered assembly were not classified as such in the double filtered assembly (+@fig:fig3_filter_length_distributions Archaea).
+Similarly, viral contigs often were only assembled in the host filtered assembly (+@fig:fig3_filter_length_distributions Viruses).
+The bacterial fraction of the metagenome assembly is of substantial size and was not negatively affected by the filtering approach, thereby paving the way to investigate the diversity of bacterial genomes in this fraction.
 
 \begin{sidewaysfigure}
 \begin{figure}
