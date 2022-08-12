@@ -148,6 +148,24 @@ To reproducible execute and document these analyses, a bioinformatic workflow wa
 All tools used in this snakemake workflow are selected and installed from the Bioconda repository of bioinformatics software.
 Conda environments used in this study can be found in [github env link](https://github.com/lauralwd/Azolla_genus_metagenome/tree/master/envs).
 
+\begin{sidewaysfigure}
+\begin{figure}
+\hypertarget{fig:fig3_data_overview}{%
+\centering
+\includegraphics{source/figures/fig3_data-in-overview.pdf}
+\caption{
+  DNA sequencing of the \emph{Azolla} genus. The \emph{Azolla} genus phylogeny is adapted from Metzgar et al. (2007) (A). Sequencing data considered here for species in the \emph{Azolla} genus (B).
+  Sequencing data was retrieved from two main studies:
+  the \emph{Azolla} genome project from Li et al. (2018) with accession nr. PRJNA430527 and from
+  Chapter \ref{foul play} (Dijkhuizen et al. 2018) with accession nr. PRJEB19522 abbreviated as α and β
+  respectively in the final column of panel 1B.
+  Sampling details are available in the latter paper.
+  The original sampling location for \emph{Azolla} specimens sequenced and considered here (C).}
+\label{fig:fig3_data_overview}
+}
+\end{figure}
+\end{sidewaysfigure}
+
 ### Data
 Sequencing data used here represented six of seven species in the _Azolla_ genus and was generated as part of three studies (+@fig:fig3_data_overview).
 These species are part of two subgenera, the _Rhizosperma_ section of the genus comprising _Azolla pinata_ and _Azolla nilotica_, and the _Euazolla_ section comprising the other four species (+@fig:fig3_data_overview\-A)
@@ -169,24 +187,6 @@ Data from the _Azolla_ genome project was made available to our lab before it wa
 Unfortunately, we cannot link the sample identities of the data made available to us with those uploaded to NCBI SRA.
 Hence,  we refer to the study as a whole.
 In total, this study examines eighteen sequencing libraries, taken from nine biological samples accounting for six _Azolla_ species, treating L1,2,3, P1,2,3 combined as one biological sample.
-
-\begin{sidewaysfigure}
-\begin{figure}
-\hypertarget{fig:fig3_data_overview}{%
-\centering
-\includegraphics{source/figures/fig3_data-in-overview.pdf}
-\caption{
-  DNA sequencing of the \emph{Azolla} genus. The \emph{Azolla} genus phylogeny is adapted from Metzgar et al. (2007) (A). Sequencing data considered here for species in the \emph{Azolla} genus (B).
-  Sequencing data was retrieved from two main studies:
-  the \emph{Azolla} genome project from Li et al. (2018) with accession nr. PRJNA430527 and from
-  Chapter \ref{foul play} (Dijkhuizen et al. 2018) with accession nr. PRJEB19522 abbreviated as α and β
-  respectively in the final column of panel 1B.
-  Sampling details are available in the latter paper.
-  The original sampling location for \emph{Azolla} specimens sequenced and considered here (C).}
-\label{fig:fig3_data_overview}
-}
-\end{figure}
-\end{sidewaysfigure}
 
 ## Results
 
