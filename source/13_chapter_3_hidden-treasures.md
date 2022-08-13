@@ -515,9 +515,13 @@ Burkholderiales     & rest3                     & 1.62 &   0 &  0 &  20 & 0 \\
 \end{threeparttable}
 
 ### Manual binning yields up to 21 bins per sample, outperforming automated binning with extraneous binning signals
-Manual binning with extraneous binning signals and scaffold taxonomy provided high-quality bins for all metagenome assemblies (+@tbl:tbl3_4).
-The method yields between 12 and 21 bins for each non-sterilised _Azolla_ sample, of which the majority are considered high-quality bins.
-Manual binning explains between 95 and 100% of each metagenome assembly (+@tbl:tbl3_4).
+Manual binning with extraneous binning signals worked well for individual metagenome assemblies.
+Now, we aim to validate that this method produced high quality bins for all metagenomes binned here, and to compare the method against automated binning approaches algorithms.
+Validation of binning is considered a prerequisite before continuing analyses.
+Binning quality is assessed via SCMG scoring in two separate programs: Anvi'o and CheckM.
+Manual binning provided between 12 and 21 bins for all metagenome assemblies which were not sterilised in the lab (+@tbl:tbl3_4).
+These bins together explain between 95 and 100% of each metagenome assembly (+@tbl:tbl3_4 metagenome fraction in bins).
+The majority of these are considered high-quality bins (+@tbl:tbl3_4 bins passing QC).
 Automated binning approaches like Concoct within Anvi'o [@Eren2015] and Metabat2 were often near-equally good in distinguishing bins of high quality (+@fig:fig3_binning_QC_anvio & +@fig:fig3_binning_QC_checkm) as the manual approach.
 The manual approach, however, succeeds in improving bin quality of those bins of medium quality (i.e. +@fig:fig3_binning_QC_anvio; _A. filiculoides_ 'minus-cyano') and low quality (i.e. +@fig:fig3_binning_QC_anvio; _A. mexicana_).
 Additionally, the manual method creates fewer bins compared to the automated methods (+@fig:fig3_binning_QC_anvio; black numbers: Concoct & Metabat2 vs Manual), while the amount of bins of high-quality increases or remains stable (+@fig:fig3_binning_QC_anvio; green numbers).
@@ -567,13 +571,13 @@ Species \& Sample                                         &
 
 ![Binning quality control in Anvi'o [@Eren2015] of various binning methods. The quality of bins was assessed as completeness (dark green) and redundancy (red) by scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies (horizontal panels), comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual; vertical panels). Numbers in the panels show the total number of bins created by a particular method for a particular assembly (black) and those bins passing QC criteria of completeness above 90% and redundancy below 10% (Dark green). Grey lines in the figure also indicate these thresholds. Similar statistics were generated with CheckM [@Parks2015], utilising a different set of SCMGs. See +@fig:fig3_binning_QC_checkm](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_anvio}
 
-Next, we assessed bin taxonomy and used successful taxonomic classification as a quality metric.
+Next, we assessed bin taxonomy and used successful taxonomic classification as an additional quality metric.
 Bins were processed with CAT [@VonMeijenfeldt2019] mode for bins: BAT.
-Since taxonomy is now determined for long bins rather than short scaffolds, classification is likely more accurate.
-First, we compare the number of bins without classification for all host species and the three different binning methods.
-Again, the manual method outperforms the two automated methods, creating fewer bins without taxonomy on practically all levels of taxonomy in all metagenome assemblies (+@fig:fig3_binning_QC_no_taxonomy).
+Since taxonomy is now determined for long bins rather than short scaffolds, classification is likely more specific since more ORFs can be taken into account in the classification process.
+We compare the number of bins without classification for all host species and the three different binning methods.
+The manual method outperforms the two automated methods, creating fewer bins without taxonomy on practically all levels of taxonomy in all metagenome assemblies (+@fig:fig3_binning_QC_no_taxonomy).
 Nearly all bins are assigned a taxonomy in all samples at the order level.
-Given the high generally QC scores and assigned taxonomy, these binned metagenomes are ready to be studied in more detail.
+Given the high generally QC scores and increased specificity of taxonomy, these binned metagenomes are ready to be studied in more detail.
 
 ![Counts of bins without taxonomic classification. Bin taxonomy was determined with BAT [@VonMeijenfeldt2019], and then counts of bins without taxonomy are shown as line plots for various levels of taxonomy (x-axis) and individual metagenome assemblies (vertical panels). Different binning methods (Concoct, Metabat2, Manual) are depicted in red, green and blue, respectively.](source/figures/fig3_binning_QC_no_taxonomy.pdf){#fig:fig3_binning_QC_no_taxonomy}
 
