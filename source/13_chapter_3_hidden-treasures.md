@@ -322,17 +322,18 @@ In this process, low abundant scaffolds were combined into longer scaffolds aide
 However, the scaffold abundance remains a reflection of the original Illumina contribution to that scaffold only, but it is corrected for the new scaffold length, explaining why such long scaffolds can have such a low abundance.
 
 ### _Azolla filiculoides_ contains multiple endophytic bacteria
-With the knowledge that the metagenome assemblies of the _Azolla_ genus contain multiple bacterial genomes each, we set out to accurately cluster these into MAGs.
-Creating these MAGs allows us to examine the metabolic pathways encoded within them, and, when the study design allows, infer their location on or in the host plant.
-In the process of gathering the DNA scaffolds, we call these clusters: bins.
+With the knowledge that the metagenome assemblies of the _Azolla_ genus contain multiple bacterial genomes each, we set out to carefully collect these genomic fragments into MAGs.
+Creating MAGs allows us to examine the metabolic pathways encoded within them, and, when the study design allows, infer their location on or in the host plant.
+In the process of clustering the DNA scaffolds into genomes, we call these clusters: bins.
 First, metagenome assemblies were binned automatically by both metabat2 and concoct based on their 4mer profiles and differential abundance in various sequencing libraries.
 Then, these automatically generated bins were imported into Anvi'o and curated manually while being guided by the automated binning and scaffold taxonomy determined by CAT.
 
-We first examine the sample of which the data was derived from a metagenomic study design, and hence the binning process is likely the most reiable: _A. filiculoides_ 'wild'.
+We first examine the sample of which the data was derived from a metagenomic study design; the sample for which the binning process is likely the most reliable: _A. filiculoides_ 'wild'.
 The study design includes samples of whole plants and leaf-pocket enriched 'juice'.
-Separating the different bins in this metagenome assembly benefits from differential sampling and the consequent differential abundance of genomes per sample (+@fig:fig3_Azfil_wild_binning).
-Additionally, the PacBio RSII long-read sequencing of the _A. filiculoides_ minus-cyano sample was used as an additional binning signal to distinguish bins; this data was used for scaffolding the assembly of the _A. filiculoides_ wild sample.
-The _A. filiculoides_ 'wild' sample metagenome contains multiple high-quality bins (+@tbl:tbl3_2), many of taxonomical orders seen in +@fig:fig3_Azolla_genus_metagenome_order.
+Separating the different bins in this metagenome assembly benefits from differential sampling of biological replicates and the consequent differential abundance of genomes per sample (+@fig:fig3_Azfil_wild_binning).
+Additionally, the PacBio RSII long-read sequencing of the _A. filiculoides_ minus-cyano sample was used as an additional binning signal to distinguish bins; this data was also used for scaffolding the assembly of the _A. filiculoides_ wild sample.
+The _A. filiculoides_ 'wild' sample metagenome contains multiple high-quality bins (+@tbl:tbl3_2).
+The taxonomical orders of these bins correspond often to those seen in +@fig:fig3_Azolla_genus_metagenome_order.
 Binning yielded seven high-quality bins in total (completeness > 90% redundancy < 10%) with appropriate genome sizes, three medium-quality bins also with appropriate sizes (completeness > 60%), and several low-quality bins likely representing partial genomes of low abundant bacteria. (+@tbl:tbl3_2).
 Despite the metagenomic study design, not all bins could be resolved to high quality.
 This may be related to the relatively low input of DNA sequencing in the assembly, hence not allowing to sufficiently resolve lowly abundant microbial genomes.
@@ -340,19 +341,22 @@ This may be related to the relatively low input of DNA sequencing in the assembl
 Next we attempt to assess if certain bins may be endophytic in _A. filiculoides_.
 Differential sampling, comparing the whole plant to leaf cavity enrichments, allows estimating whether a bin is more abundant in the leaf cavities (+@fig:fig3_Azfil_wild_binning green rings vs blue rings).
 The bacteria represented by these bins are likely endophytes of _A. filiculoides_.
-Their abundance ratio is also shown in +@tbl:tbl3_2 (abundance ratio).
+Bin abundance ratio is also shown in +@tbl:tbl3_2 (abundance ratio).
 Several bins enriched in the leaf pockets are 'Rhizobium','Rhizobiales','Curvibacter', and 'Ferrovibrio' (+@fig:fig3_Azfil_wild_binning ; +@tbl:tbl3_2 abundance ratio).
 Rhizobium and Curvibacter are also two of the most abundant bins besides the Cyanobacterial symbiont.
 The former three are abundant in PacBio long-read sequencing of the _A. filiculoides_ minus-cyano sample as is the 'rest 2' bin.
 This abundance indicates these bacteria survived stringent sterilisation and antibiotic regime removing the main symbiont _N. azollae_.
-Conversely, MAGs of similar taxonomy are detected in the _A. filiculoides_ 'lab' (+@fig:fig3_Azfil_lab_binning) and 'minus-cyano' assemblies (+@fig:fig3_Azfil_minus_cyano_binning)
+Conversely, MAGs of similar taxonomy are detected in the _A. filiculoides_ 'lab' (+@fig:fig3_Azfil_lab_binning) and 'minus-cyano' assemblies (+@fig:fig3_Azfil_minus_cyano_binning).
 In the _A. filiculoides_ 'minus-cyano' sample, specifically the Rhizobiales and Burkholderiales orders recruit reads from the _A. filiculoides_  'wild' binning signals (blue and green rings in +@fig:fig3_Azfil_lab_binning \& +@fig:fig3_Azfil_minus_cyano_binning).
 The Burkholderiales and Rhizobiales orders that many _A. filiculoides_ bins belong to (+@tbl:tbl3_2 taxonomical order) were also systematically present in all _Azolla_ species (+@fig:fig3_Azolla_genus_metagenome_order), further supporting their tightly associated status with the genus as a whole.
+The 'Ferrovibrio' bin is 4 times more abundant in leaf pocket samples (+@tbl:tbl3_2 Ferrovibrio), and is present in the minus-cyano sample.
+The order Ferrovibrio belongs to is Rhodopspirillales, as does the 'Rhodospirillaceae' bin.
+This order is only present in _A. filiculoides_ (+@fig:fig3_Azolla_genus_metagenome_order), hence this particular bacterium is likely an endophyte of _A. filiculoides_ only.
 In contrast, a second cyanobacterium in the _A. filiculoides_ 'wild' assembly is present only outside the ferns and not in the leaf cavity enriched fraction nor in the lab-derived assemblies.
 Additionally, a Caulobacter bin, of which the corresponding order was present throughout the _Azolla_ genus, is epiphytic (+@fig:fig3_Azfil_wild_binning; Caulobacter).
 The differential sampling approach further allows us to recognise singleton bins present in only one biological replicate like 'rest 5'.
 The 'rest 2' bin was not assigned a taxonomical name due to bad SCMG quality in Anvi'o (+@tbl:tbl3_2 Anvi'o completeness).
-CheckM quality of this bin is however, OK (+@tbl:tbl3_2 CheckM completeness), and it is remarkably abundant in the stringently sterilised minus-cyano sample (+@tbl:tbl3_2 PacBio mean coverage).
+CheckM quality of this bin is however, sufficient (+@tbl:tbl3_2 CheckM completeness), and it is remarkably abundant in the stringently sterilised minus-cyano sample (+@tbl:tbl3_2 PacBio mean coverage).
 Taxonomy of the 'rest 2' bin is assigned as the Nevsiales order which often occurs in other _Azolla_ species.
 Despite this bin not being enriched in leaf pocket samples, it may be an endophyte still.
 
@@ -732,6 +736,7 @@ Possible loss/reinnoculation like in the @Russell2020
 This difference indicates that this particular cyanobacterium is epiphytic,
 consistent with earlier findings that _Azolla_ has only one cyanobacterial symbiont.
 
+Ferrovibrio only in Afil, multiple generations. Recent introduction.
 
 ```
 
