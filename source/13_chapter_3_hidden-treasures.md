@@ -294,7 +294,7 @@ The interactive online figure allows us to browse through this genus-wide metage
 \end{figure}
 \end{sidewaysfigure}
 
-Now we are able to visualy summarise a whole genus' metagenome, we ponder if certain patterns can be observed.
+Now we are able to visually summarise a whole genus' metagenome, we ponder if certain patterns can be observed.
 Metagenomes of the _Azolla_ genus show clear similarities in terms of taxonomy at the order level (+@fig:fig3_Azolla_genus_metagenome_order).
 Taxonomy of bacteria is represented by coloured clusters of scaffolds which often reoccur within the same sample.
 Comparing the various _Azolla_ species (+@fig:fig3_Azolla_genus_metagenome_order vertical panels), these clusters are often similar in number and taxonomy, indicating these metagenomes resemble each other at least at this level of taxonomy.
@@ -423,18 +423,24 @@ Rhizobiales       & rest\_7           &  1.36 &  0.69 &   0.11 &   0 &  0 & 14 &
 \end{threeparttable}
 
 ### Binning assemblies from non-metagenomic data is feasible with extraneous binning signals
-Provided with thoroughly filtered metagenome assemblies, the binning process becomes feasible even if the assembly lacks a metagenomic study design.
+The manual binning approach worked well on data of a metagenomic study design.
+Next we apply this method to the double filtered data taken from non-metagenomic studies.
 Typically, binning would depend highly on the differential abundance of scaffolds over various sequencing libraries and, to a lesser extent, on k-mer profiles of scaffolds.
 However, several _Azolla_ species sequenced have only one sample, hence one sequencing library available.
 Therefore, binning cannot use differential abundance over various samples.
+Instead, we use other binning signals to aid the manual binning process: extraneous binning signals and scaffold taxonomy.
+
 Within the _Azolla_ genus, we assume several microbes or close relatives may be shared among several _Azolla_ species.
 Under this assumption, we employed a manual method adding extraneous binning signals from the one metagenomic study done on this genus, the seminal paper on the _N. azollae_ genome, and scaffold taxonomy determined by CAT.
-No automated binning algorithm can implement these binding signals while accounting for the nuances required in interpreting them; hence automated binning algorithms will likely produce false MAGs.
+No automated binning algorithm can implement these binding signals while accounting for the nuances required in interpreting them; hence, we reason automated binning algorithms will likely produce false MAGs.
 Using Anvi'o [@Eren2015], it is possible to visualise the aforementioned extraneous binning signals and bin scaffolds manually whilst accounting for the nature of different binning signals appropriately.
-Within Anvi'o, all metadata was plotted per metagenome assembly.
-Next, scaffolds were binned manually, guided at first by automated binning methods but primarily by scaffold depth in the native sequencing libraries for that particular biological sample.
-Contig depth was often the clearest binning signal in these samples (+@fig:fig3_Azmic_binning).
-Abundance in _A. filiculoides_ 'wild' sequencing was used carefully when applicable and checked with anvi'o clustering based only on k-mer profiles.
+Within Anvi'o, scaffolds were binned manually, guided at first by automated binning methods but primarily by scaffold depth in the native sequencing libraries for that particular biological sample.
+Scaffold depth was often the clearest binning signal in these samples (i.e. +@fig:fig3_Azmic_binning _A. microphylla_).
+Abundance in _A. filiculoides_ 'wild' sequencing was used carefully when applicable and cross-referenced with Anvi'o clustering based only on k-mer profiles.
+Abundance in the _A. filiculoides_ 'wild' samples was not informative for most bins, but it was for some.
+The 'Rhizobiales1' bin (+@fig:fig3_Azmic_binning Rhizobiales1) recruited reads from all _A. filiculoides_ 'wild' sequencing samples, indicating it may be a shared bacterium between the two host species.
+The 'Bradyrhizobiaceae' bin is nearly as abundant as the main cyanobacterium, but recruits no reads from extraneous binning signals.
+The third most abundant bin is 'Nevskia' from the Nevskiales order.
 Manual binning of _A. microphylla_ yielded nineteen MAGs, of which eleven can be considered high quality and four medium quality, all with appropriate genome sizes. (+@tbl:tbl3_MAGs_azmic),
 
 In some metagenomes, the extraneous binning signals provided helpful information for some bins, for example, in _A. rubra_ and _A. mexicana_ (+@fig:fig3_Azrub_binning; +@fig:fig3_Azmex_binning).
@@ -443,7 +449,8 @@ In such cases, abundance in the native sequencing library and k-mer clustering w
 Exceptionally, clustering dendrograms showed better clusters when clustering only on k-mer content and not on abundance data (+@fig:fig3_Aznil_binning; +@fig:fig3_Azcar_1_binning).
 Finally, scaffold taxonomy was considered as an indication to support specific groupings of scaffolds.
 Scaffold taxonomy often showed discrete patterns matching the input dendrogram and binning when other binning signals were already distinctive, further solidifying CAT taxonomy as a valuable binning signal.
-CAT taxonomy helped considerably when other binning signals were lacking, for example, in the case of the _A. caroliniana_ '2' metagenome (+@fig:fig3_Azcar_2_binning).
+Few exceptions do exist in the data, for example _A. filiculoides_ 'wild' bins 'rest4', 'rest2' and 'Polaromonas', warranting caution in using CAT taxonomy without crossreferencing with other data.
+Regardless these exceptions, CAT taxonomy helped considerably when other binning signals were lacking, for example, in the case of the _A. caroliniana_ '2' metagenome (+@fig:fig3_Azcar_2_binning).
 In no case of manual metagenome binning was CAT taxonomy used as input for the clustering dendrograms in any of the Anvi'o figures.
 
 ![Anvi'o overview of the _A. microphylla_ metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 184 Mbase of DNA in 17965 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. microphylla_ sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_MAGs_azmic.](source/figures/fig3_Azmic_binning.pdf ){#fig:fig3_Azmic_binning}
