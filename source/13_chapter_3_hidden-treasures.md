@@ -516,13 +516,13 @@ Burkholderiales     & rest3                     & 1.62 &   0 &  0 &  20 & 0 \\
 
 ### Manual binning yields up to 21 bins per sample, outperforming automated binning with extraneous binning signals
 Manual binning with extraneous binning signals worked well for individual metagenome assemblies.
-Now, we aim to validate that this method produced high quality bins for all metagenomes binned here, and to compare the method against automated binning approaches algorithms.
+Next, we validate that this method produced high quality bins for all metagenomes binned here and compare it against automated binning approaches algorithms.
 Validation of binning is considered a prerequisite before continuing analyses.
-Binning quality is assessed via SCMG scoring in two separate programs: Anvi'o and CheckM.
-Manual binning provided between 12 and 21 bins for all metagenome assemblies which were not sterilised in the lab (+@tbl:tbl3_4).
+Binning quality is assessed via SCMG scoring in two separate programs: Anvi'o [@Eren2015]and CheckM [@Parks2015].
+Manual binning provided between 12 and 21 bins for all metagenome assemblies which were not sterilised in the lab (+@tbl:tbl3_4 total nr. of bins).
 These bins together explain between 95 and 100% of each metagenome assembly (+@tbl:tbl3_4 metagenome fraction in bins).
 The majority of these are considered high-quality bins (+@tbl:tbl3_4 bins passing QC).
-Automated binning approaches like Concoct within Anvi'o [@Eren2015] and Metabat2 were often near-equally good in distinguishing bins of high quality (+@fig:fig3_binning_QC_anvio & +@fig:fig3_binning_QC_checkm) as the manual approach.
+Automated binning approaches like Concoct within Anvi'o and Metabat2 were often near-equally good in distinguishing bins of high quality (+@fig:fig3_binning_QC_anvio & +@fig:fig3_binning_QC_checkm) as the manual approach.
 The manual approach, however, succeeds in improving bin quality of those bins of medium quality (i.e. +@fig:fig3_binning_QC_anvio; _A. filiculoides_ 'minus-cyano') and low quality (i.e. +@fig:fig3_binning_QC_anvio; _A. mexicana_).
 Additionally, the manual method creates fewer bins compared to the automated methods (+@fig:fig3_binning_QC_anvio; black numbers: Concoct & Metabat2 vs Manual), while the amount of bins of high-quality increases or remains stable (+@fig:fig3_binning_QC_anvio; green numbers).
 This effectively means the diversity in a metagenome is explained with fewer genomes and of higher quality.
@@ -571,9 +571,9 @@ Species \& Sample                                         &
 
 ![Binning quality control in Anvi'o [@Eren2015] of various binning methods. The quality of bins was assessed as completeness (dark green) and redundancy (red) by scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies (horizontal panels), comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual; vertical panels). Numbers in the panels show the total number of bins created by a particular method for a particular assembly (black) and those bins passing QC criteria of completeness above 90% and redundancy below 10% (Dark green). Grey lines in the figure also indicate these thresholds. Similar statistics were generated with CheckM [@Parks2015], utilising a different set of SCMGs. See +@fig:fig3_binning_QC_checkm](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_anvio}
 
-Next, we assessed bin taxonomy and used successful taxonomic classification as an additional quality metric.
+Next, we assessed if we could specificity of bin taxonomy as an additional quality metric.
 Bins were processed with CAT [@VonMeijenfeldt2019] mode for bins: BAT.
-Since taxonomy is now determined for long bins rather than short scaffolds, classification is likely more specific since more ORFs can be taken into account in the classification process.
+Since taxonomy is now determined for long bins rather than short scaffolds, classification is likely more specific since more ORFs can be taken into account in the classification process when classifying bins.
 We compare the number of bins without classification for all host species and the three different binning methods.
 The manual method outperforms the two automated methods, creating fewer bins without taxonomy on practically all levels of taxonomy in all metagenome assemblies (+@fig:fig3_binning_QC_no_taxonomy).
 Nearly all bins are assigned a taxonomy in all samples at the order level.
@@ -584,20 +584,23 @@ Given the high generally QC scores and increased specificity of taxonomy, these 
 ### Systematic occurrence of taxonomical orders in the entire _Azolla_ genus
 Next, we assessed whether bins of certain taxonomical orders reoccur systematically in the _Azolla_ genus as scaffolds did in +@fig:fig3_Azolla_genus_metagenome_order.
 Since the binning process has concluded satisfactory, bins are now termed MAGs.
-A similar pattern can be seen when counting MAGs classified to the aforementioned orders across all biological samples.
-At the level of Phylum, the common denominator consists of cyanobacteria and proteobacteria (+@fig:fig:fig3_binning_QC_all_taxonomy; Phylum), the latter being dominated by Alphaproteobacteria at the class level (+@fig:fig:fig3_binning_QC_all_taxonomy; class).
-However, betaproteobactera are also present in all _Azolla_ samples, and gammaproteobacteria in all non-sterilised samples in the _Euazolla_ section of the _Azolla_ genus (+@fig:fig3_data-in-overview).
+At the level of Phylum, The majority of bins are classified as cyanobacteria and proteobacteria (+@fig:fig3_binning_QC_all_taxonomy; Phylum), the latter being dominated by Alphaproteobacteria at the class level (+@fig:fig3_binning_QC_all_taxonomy; class).
+This is concordant with the unbinned metagenome assemblies ([lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB); Taxonomy level=Phylum ; Taxonomy level=class).
+However, betaproteobactera are also present in all _Azolla_ samples, and gammaproteobacteria in all non-sterilised samples in the _Euazolla_ section of the _Azolla_ genus (+@fig:fig3_data_overview).
 Specifically, at the order level (+@tbl:tbl3_5; +@fig:fig3_binning_QC_all_taxonomy; order), Rhizobiales bacteria can be found in multiple bins associated with any of the _Azolla_ species examined, ranging from 4 to 8 bins.
 Burkholderiales bacteria can be found in all but one biological sample and in all of the examined species.
-These two orders of bacteria are also the two orders present in the _A. filiculoides_ minus_cyano sample, and hence survived intensive sterilisation and antibiotic treatment.
-Bins of these orders were also found to be endophytic in _A. filiculoides_ 'wild'.
-Both types of evidence support their endophytic status in both _A. filiculoides_ and the _Azolla_ genus as a whole.
+These two orders of bacteria are also the two orders present in the _A. filiculoides_ minus-cyano sample (+@fig:fig3_Azfil_minus_cyano_binning), and were found to be endophytic in _A. filiculoides_ 'wild' (+@tbl:tbl3_2).
+Both types of evidence support their endophytic status in both _A. filiculoides_ and possibly the _Azolla_ genus as a whole.
 Caulobacterales and Nevskiales were found in all _Azolla_ species in the _Euazolla_ section; all species except for _A. nilotica_.
-Finally, the Sphingomonadales order was found in all species except for _A. rubra_.
-The latter three those orders were not systematically found in all _Azolla_ species but were found in plants sampled at different locations and sequenced in different labs.
+The former is found to be epiphytic in _A. filiculoides_, the later may be endophytic (+@tbl:tbl3_2).
+Additionally, the Sphingomonadales order was found in all species except for _A. rubra_.
+The latter three orders were not systematically found in all _Azolla_ species but were found in plants sampled at different locations and sequenced in different labs.
 At the level of family and genus, few common denominators remain.
 The primary symbiont is distinguishable as Nostocaceae or Trichormus, respectively.
 Bacterial families that stand out are Sinobacteraceae, Bradyrhizobiaceae and Calubacetaceae.
+Despite sharing some taxonomic similarity, these bacteria are likely distinct species associated with any _Azolla_ species.
+Finally, several general orders occurred only once in the _Azolla_ genus-wide metagenome: Bacillales, Cytophagales, Rhodocyclales, Rhodospirillales and Shingobacteriales.
+These orders may be false classifications, or they may be singleton observations; bacteria associated transiently with any _Azolla_ species.
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.3}}
@@ -654,7 +657,7 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 In this study, we acquired high-quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (+@fig:fig3_data_overview) through a process of thorough filtering (+@fig:fig3_filtering_and_assembly), thereby substantially reducing the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (+@fig:fig3_filter_length_distributions).
 Each species' metagenome assembly contained several distinct bacterial genomes, and these metagenomes resembled each other in terms of taxonomy (+@fig:fig3_Azolla_genus_metagenome_order).
 Manual binning (+@fig:fig3_Azfil_wild_binning +@fig:fig3_Azmic_binning) allowed to retrieve these MAGs better than automated binning approaches (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_no_taxonomy) and provide them to the _Azolla_ and plant-microbe research community.
-Several orders of bacteria are systematically associated with the _Azolla_ genus as a whole (+@fig:fig:fig3_binning_QC_all_taxonomy; order).
+Several orders of bacteria are systematically associated with the _Azolla_ genus as a whole (+@fig:fig3_binning_QC_all_taxonomy; order).
 
 ### Metagenome assemblies can be retrieved from publicly available non-metagenomic data
 Acquiring metagenomes from public sequencing data not originally meant for metagenome assembly is feasible and may be further applied to shed light on the mechanisms of host-microbe symbioses.
