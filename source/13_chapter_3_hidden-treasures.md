@@ -441,7 +441,7 @@ Abundance in the _A. filiculoides_ 'wild' samples was not informative for most b
 The 'Rhizobiales1' bin (+@fig:fig3_Azmic_binning Rhizobiales1) recruited reads from all _A. filiculoides_ 'wild' sequencing samples, indicating it may be a shared bacterium between the two host species.
 The 'Bradyrhizobiaceae' bin is nearly as abundant as the main cyanobacterium, but recruits no reads from extraneous binning signals.
 The third most abundant bin is 'Nevskia' from the Nevskiales order.
-Manual binning of _A. microphylla_ yielded nineteen MAGs, of which eleven can be considered high quality and four medium quality, all with appropriate genome sizes. (+@tbl:tbl3_MAGs_azmic),
+Manual binning of _A. microphylla_ yielded nineteen MAGs, of which eleven can be considered high quality and four medium quality, all with appropriate genome sizes (+@tbl:tbl3_MAGs_azmic).
 
 In some metagenomes, the extraneous binning signals provided helpful information for some bins, for example, in _A. rubra_ and _A. mexicana_ (+@fig:fig3_Azrub_binning; +@fig:fig3_Azmex_binning).
 In other metagenomes, like _A. microphylla_, the extraneous binning signals provided little to no additional information for clustering (+@fig:fig3_Azmic_binning).
