@@ -518,10 +518,11 @@ Burkholderiales     & rest3                     & 1.62 &   0 &  0 &  20 & 0 \\
 Manual binning with extraneous binning signals worked well for individual metagenome assemblies.
 Next, we validate that this method produced high quality bins for all metagenomes binned here and compare it against automated binning approaches algorithms.
 Validation of binning is considered a prerequisite before continuing analyses.
-Binning quality is assessed via SCMG scoring in two separate programs: Anvi'o [@Eren2015]and CheckM [@Parks2015].
 Manual binning provided between 12 and 21 bins for all metagenome assemblies which were not sterilised in the lab (+@tbl:tbl3_4 total nr. of bins).
 These bins together explain between 95 and 100% of each metagenome assembly (+@tbl:tbl3_4 metagenome fraction in bins).
-The majority of these are considered high-quality bins (+@tbl:tbl3_4 bins passing QC).
+Binning quality is assessed via SCMG scoring in two separate programs: Anvi'o [@Eren2015]and CheckM [@Parks2015], resulting in a completeness and redundancy percentage per bin per method.
+The majority of bins resulting from the manual method are considered high-quality bins (+@tbl:tbl3_4 bins passing QC).
+In order to compare automated methods to the manual appraoch, we plotted the completeness and rundancy percentages per method, per metagenome, ranked by completeness.
 Automated binning approaches like Concoct within Anvi'o and Metabat2 were often near-equally good in distinguishing bins of high quality (+@fig:fig3_binning_QC_anvio & +@fig:fig3_binning_QC_checkm) as the manual approach.
 The manual approach, however, succeeds in improving bin quality of those bins of medium quality (i.e. +@fig:fig3_binning_QC_anvio; _A. filiculoides_ 'minus-cyano') and low quality (i.e. +@fig:fig3_binning_QC_anvio; _A. mexicana_).
 Additionally, the manual method creates fewer bins compared to the automated methods (+@fig:fig3_binning_QC_anvio; black numbers: Concoct & Metabat2 vs Manual), while the amount of bins of high-quality increases or remains stable (+@fig:fig3_binning_QC_anvio; green numbers).
