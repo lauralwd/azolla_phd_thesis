@@ -667,7 +667,16 @@ The approach is especially interesting if a host species is already known or sus
 However, not all eukaryotic species or DNA extractions will encompass substantial fractions of DNA from associated bacteria.
 Before thorough and costly filtering and assembly, sequencing data may be searched for signs of bacterial genomes as we have done in Chapter \ref{foul play} [@Dijkhuizen2018].
 Such signals could be extracted from raw sequencing data, for example, by searching for rRNA reads [@Miller2011; @Xie2016], for bacterial genes similarly to @VonMeijenfeldt2019 or by kmer-based approaches such as kraken2 [@Wood2019].
-This approach allowed us to find bacteria associated with hosts studied in the past and paves the way to further mine host-bacteria interactions in a great variety of data from past experiments and multiple labs, as demonstrated here.
+
+Our approach allowed us to find bacteria associated with hosts studied in the past and paved the way to further mine host-bacteria interactions in _Azolla_ specifically.
+In particular, the approach allowed us to broaden our scope from only _A. filiculoides_ as in ref{foul play} [@Dijkhuizen2018], to the entire _Azolla_ genus.
+This broadened perspective allowed to identify commonalities even at the level of taxonomy (+@fig:fig3_Azolla_genus_metagenome_order; +@fig:fig3_binning_QC_all_taxonomy).
+Since whole genomes are available, we can now wonder what pathways are shared between the genomes that are ostensibly shared between hosts.
+Expanding this method beyond _Azolla_ to other host species known to host bacterial symbionts may allow to gather a broad pallete of host-associated metagenomes.
+Comparative genomics of thise of host-associated bacteria can shed light on the commonalities of the associations, albeit genes, pathways or their taxonomy.
+These genomes can be mined for genes of the Common Symbiosis Pathay, or alternatives thereoff @Genre2016.
+Alternatively there might be certain metabolites or excretion systems shared amongst them.
+Possibly, these symbiosis facilitating genes differ per host, hence the anaysis may need to consider host-range as well.
 
 High-quality MAGs can be assembled from bulk DNA extractions with minimal filtering, but this process requires manual curation and interpretation.
 The double filtering of bulk DNA sequencing proved effective in removing host DNA even if only a related host genome was available (+@fig:fig3_filtering_and_assembly).
@@ -703,6 +712,7 @@ This result further confirms the robustness of CAT scaffold classifications and 
 The specificity of CAT taxonomy differed substantially: some bins were reliably and reproducibly classified at the genus level (+@fig:fig3_Azmic_binning; Nevskia) while others only were classified at the phylum level (+@fig:fig3_Azmic_binning; Bacteriodetes).
 Database bias surely plays a role in this specificity issue, but our results show that per bin, both the taxonomy and specificity thereof are consistent.
 Single copy marker gene validation with both CheckM and Anvi'o supported the quality of bins for which CAT classification was instrumental in their reconstruction.
+Manual binning even proved more effective compoared to automated binning approaches; explaining metagenomes in less bins of higher quality (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_checkm)
 
 Our view on these methods is that a researcher should bin primarily on the differential abundance in sample-native sequencing libraries and scaffold k-mer profiles.
 When those primary binning signals are unclear, extraneous binning signals and scaffold taxonomy may be used in an advising manner.
@@ -711,12 +721,8 @@ This manual approach yielded fewer bins per metagenome, which were of higher qua
 Additionally, the specificity of the taxonomy of these bins as determined by BAT increased (+@fig:fig3_binning_QC_no_taxonomy; Manual vs Metabat2 and Concoct), indicating that the complete gene content of these bins was more like known genomes of similar taxonomy.
 Manual binning and manual curation of extraneous binning signals allowed for a more parsimonious solution of the _Azolla_ genus metagenome, providing MAGs of higher quality.
 
-Despite intensive sequencing efforts, this study does not exhaust the diversity of _Azolla_ associated microbes.
-All assemblies except for _A. filiculoides_ minus_cyano contained many scaffolds near the lower abundance limit of assembly (+@fig:fig3_Azolla_genus_metagenome_order) and in concordance binning yielded many bins with only fractions of genomes (+@fig:fig3_Azfil_wild_binning +@tbl:tbl3_2).
-Still, between 11 and 21 bacterial genomes were found with any _Azolla_ species analysed here (+@tbl:tbl3_4).
-
 ### microbiome vertical transmission in _Azolla_
-To our knowledge, this is the first scholarly publication about the metagenome of a whole genus with a clear mechanism vertical transfer mechanism of the microbiome.
+To our knowledge, this is the first scholarly publication about the metagenome of a whole genus; especially a genus known for its mechanism of microbiome vertical transfer.
 This mechanism is demonstrated for _N. azollae_, but more microbes have been seen in _Azolla_ ferns their leaf pockets and megasporocarps via electron microscopy [@Wallace1986; @Nierzwicki-Bauer1990; @Carrapico1991; @Zheng2009].
 To demonstrate vertical transmission of microbes besides _N. azollae_, it may be more fitting to sequence multiple generations of plants and the reproductive organs of those generations.
 However, we argue that rather indirectly, we have sequenced multiple generations of the same population of plants.
@@ -728,6 +734,12 @@ The genomes present in both 2012 and 2015 _A. filiculoides_ are most easily extr
 Several MAGs are clearly present in the native 'lab' strain sequencing (black), the 'wild' strain sequencing leaf pocket (blue) and whole plant (green), and finally in the 'minus-cyano' strain (yellow).
 These MAGs are the 'Rhizobiaceae endophytic', 'Ralstonia 1', and 'Burkholderiales'.
 Other MAGs might also be endophytic and vertically transmitted, but their abundance is lower than the detection limit in the sequencing of \ref{foul play} [@Dijkhuizen2018].
+
+```
+Paragraph about genus wide orders and wether they could be endophytic yes or no.
+
+Contrast with singletons like Rhodo, and clear epi-phytes like Caulobacteriales
+```
 
 Two theories currently coexist in the literature about how _N. azollae_ enters _Azolla_ megasporocarps.
 Recently, motile _N. azollae_ filaments were observed with confocal microscopy in small channels of the _Azolla_ megasporocarp indusium cap [@Zheng2009; @Ran2010].
@@ -787,7 +799,11 @@ Systematic presence, and possible systematic vertical transmission, are no requi
 Alternatively, microbes may associate with _Azolla_ but live in the environment, as is the case with Rhizobiales-legume symbioses.
 This would allow for a less direct inheritance of microbial symbionts, as is often the case in marine eukaryote-bacterial symbioses [@Russell2020].
 
-...
+```
+Despite intensive sequencing efforts, this study does not exhaust the diversity of _Azolla_ associated microbes.
+All assemblies except for _A. filiculoides_ minus_cyano contained many scaffolds near the lower abundance limit of assembly (+@fig:fig3_Azolla_genus_metagenome_order) and in concordance binning yielded many bins with only fractions of genomes (+@fig:fig3_Azfil_wild_binning +@tbl:tbl3_2).
+Still, between 11 and 21 bacterial genomes were found with any _Azolla_ species analysed here (+@tbl:tbl3_4).
+```
 
 In this manuscript, we characterise the _Azolla_ holobiont from the perspective of the entire genus rather than a single species.
 This broader perspective ideally will allow us to identify parts that are persistently present in the genus or parts thereof.
