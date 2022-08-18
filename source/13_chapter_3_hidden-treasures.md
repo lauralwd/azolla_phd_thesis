@@ -459,7 +459,7 @@ Manual binning of _A. microphylla_ yielded nineteen MAGs, of which eleven can be
 In some metagenomes, the extraneous binning signals provided helpful information for some bins, for example, in _A. rubra_ and _A. mexicana_ (+@fig:fig3_Azrub_binning; +@fig:fig3_Azmex_binning).
 In other metagenomes, like _A. microphylla_, the extraneous binning signals provided little to no additional information for clustering (+@fig:fig3_Azmic_binning).
 In such cases, abundance in the native sequencing library and k-mer clustering were used to disentangle bins from one another.
-Exceptionally, clustering dendrograms showed better clusters when clustering only on k-mer content and not on abundance data, in particular for the most distantly related species of the rhizosperma section of the _Azolla_ genus, _A. nilotica_ (+@fig:fig3_Aznil_binning; +@fig:fig3_Azcar_1_binning).
+Exceptionally, clustering dendrograms showed better clusters when clustering only on k-mer content and not on abundance data, in particular for _A. nilotica_ and _A. carolinana_ '1' (+@fig:fig3_Aznil_binning; +@fig:fig3_Azcar_1_binning).
 Finally, scaffold taxonomy was considered as an indication to support specific groupings of scaffolds.
 Scaffold taxonomy often showed discrete patterns matching the input dendrogram and binning when other binning signals were already distinctive, further solidifying CAT taxonomy as a valuable binning signal.
 Few exceptions do exist in the data, for example _A. filiculoides_ 'wild' bins 'rest4', 'rest2' and 'Polaromonas', warranting caution in using CAT taxonomy without crossreferencing with other data.
