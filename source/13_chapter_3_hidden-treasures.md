@@ -336,7 +336,7 @@ First, metagenome assemblies were binned automatically by both metabat2 and conc
 Then, these automatically generated bins were imported into Anvi'o and curated manually while being guided by the automated binning and scaffold taxonomy determined by CAT.
 
 We first examine the species for which the sequencing data was designed for a metagenome study, and hence the binning process likely the most reliable: _A. filiculoides_ 'wild'.
-The study design includes replicate samples of whole plants and leaf-pocket enriched 'juice'.
+The study design includes biological replicate samples of whole plants and leaf-pocket enriched 'juice'.
 Separating the different bins in this metagenome assembly benefits from differential sampling and the consequent differential abundance of genomes per sample (+@fig:fig3_Azfil_wild_binning).
 Additionally, the PacBio RSII long-read sequencing of the _A. filiculoides_ minus-cyano sample was used as an additional binning signal to distinguish bins; this data was used for scaffolding the assembly of the _A. filiculoides_ wild sample.
 The _A. filiculoides_ 'wild' sample metagenome contains multiple high-quality bins (+@tbl:tbl3_2), many of taxonomical orders seen in +@fig:fig3_Azolla_genus_metagenome_order.
@@ -352,16 +352,21 @@ Several bins enriched in the leaf pockets are 'Rhizobium','Rhizobiales','Curviba
 Rhizobium and Curvibacter are also two of the most abundant bins besides the Cyanobacterial symbiont.
 The former three are abundant in PacBio long-read sequencing of the _A. filiculoides_ minus-cyano sample as is the 'rest 2' bin.
 This abundance indicates these bacteria survived stringent surface sterilisation and antibiotic (Erythromycin) regime removing the main symbiont _N. azollae_.
-Conversely, MAGs of similar taxonomy are detected in the _A. filiculoides_ 'lab' (+@fig:fig3_Azfil_lab_binning) and 'minus-cyano' assemblies (+@fig:fig3_Azfil_minus_cyano_binning)
+Conversely, MAGs of similar taxonomy are detected in the _A. filiculoides_ 'lab' (+@fig:fig3_Azfil_lab_binning) and 'minus-cyano' assemblies (+@fig:fig3_Azfil_minus_cyano_binning).
 In the _A. filiculoides_ 'minus-cyano' sample, specifically the Rhizobiales and Burkholderiales orders recruit reads from the _A. filiculoides_  'wild' binning signals (blue and green rings in +@fig:fig3_Azfil_lab_binning \& +@fig:fig3_Azfil_minus_cyano_binning).
-The Burkholderiales and Rhizobiales orders that many _A. filiculoides_ bins belong to (+@tbl:tbl3_2 taxonomical order) were also systematically present in all other _Azolla_ species (+@fig:fig3_Azolla_genus_metagenome_order), further support the notion that bacteria from these orders have been associating with _Azolla_ species systematically.
+The Burkholderiales and Rhizobiales orders that many _A. filiculoides_ bins belong to (+@tbl:tbl3_2 taxonomical order) were also systematically present in all other _Azolla_ species (+@fig:fig3_Azolla_genus_metagenome_order)
+Their presence supports the notion that bacteria from these orders have been associating with _Azolla_ species systematically.
 In contrast, a second cyanobacterium species in the _A. filiculoides_ 'wild' assembly is present only outside the ferns and not in the leaf cavity-enriched fraction nor in the lab-derived assemblies.
-Additionally, a Caulobacter bin, of which the corresponding order was present throughout the _Azolla_ genus, is not enriched in the leaf-juice reflecting th leaf cavity contents and therefore likely located elsewhere in the fern; it may possibly be epiphytic (+@fig:fig3_Azfil_wild_binning; Caulobacter).
+Additionally, a Caulobacter bin, of which the corresponding order was present throughout the _Azolla_ genus, is not enriched in the leaf-juice reflecting the leaf cavity contents.
+It is therefore likely located elsewhere in the fern; it may possibly be epiphytic (+@fig:fig3_Azfil_wild_binning; Caulobacter).
+Finally, the Ferrovibrio bin is four times more abundant in leaf juice samples and the bin recruits reads from the _A. filiculoides_ 'minus-cyano' sample.
+This bin belongs to the Rhodopspirillales order, as does the Rhodospirillaceae bin.
+This order may be unique to _A. filiculoides_ (+@fig:fig3_Azolla_genus_metagenome_order Purple).
 The differential sampling approach further allows us to recognise singleton bins present in only one biological replicate like 'rest 5'.
 The 'rest 2' bin was not assigned a taxonomical name due to bad SCMG quality in Anvi'o (+@tbl:tbl3_2 Anvi'o completeness).
 CheckM quality of this bin is good, however(+@tbl:tbl3_2 CheckM completeness), and it is remarkably abundant in the stringently sterilised minus-cyano sample (+@tbl:tbl3_2 PacBio mean coverage).
 Taxonomy of the 'rest 2' bin is assigned as the Nevsiales order which often occurs in other _Azolla_ species.
-Despite this bin not being enriched in leaf pocket samples, it may be an endophyte still (!explain why you speculate this!).
+Despite this bin not being enriched in leaf pocket samples, it may be an endophyte still for it survived the stringent sterilisation process that the _A. filiculoides_ 'minus-cyano' sample was subjected to.
 
 \begin{threeparttable}
 \begin{longtable}[]{@{}
