@@ -735,14 +735,27 @@ The _Azolla_ population in this ditch does not survive the winter, and hence we 
 Secondly, the presence of the same microbes in the thoroughly sterilised _A. filiculoides_ minus-cyano provides further indication that these microbes are endophytic and, in that way, survived the sterilisation process.
 The genomes present in both 2012 and 2015 _A. filiculoides_ are most easily extracted from the binning overview of the _A. filiculoides_ 'lab' strain (+@fig:fig3_Azfil_lab_binning).
 Several MAGs are clearly present in the native 'lab' strain sequencing (black), the 'wild' strain sequencing leaf pocket (blue) and whole plant (green), and finally in the 'minus-cyano' strain (yellow).
-These MAGs are the 'Rhizobiaceae endophytic', 'Ralstonia 1', and 'Burkholderiales'.
+These MAGs are the 'Rhizobiaceae endophytic', 'Ralstonia 1', and 'Burkholderiales' (+@fig:fig3_Azfil_lab_binning).
+The former two are also clearly present in the _A. filiculoides_ minus-cyano data (+@fig:fig3_Azfil_lab_binning yellow).
+Bins of the same taxonomy are also present in the metagenome of _A. filiculoides_ minus-cyano (+@fig:fig3_Azfil_minus_cyano_binning).
+These results and the visual detection of bacteria in _Azolla_ megaspores, make it very likely that these bacteria are indeed vertically transmitted, at the very least in _A. filiculoides_.
 Other MAGs might also be endophytic and vertically transmitted, but their abundance is lower than the detection limit in the sequencing of \ref{foul play} [@Dijkhuizen2018].
 
-```
-Paragraph about genus wide orders and wether they could be endophytic yes or no.
-
-Contrast with singletons like Rhodo, and clear epi-phytes like Caulobacteriales
-```
+Systematic association of a taxonomic group with the _Azolla_ genus may -given the known mechanism of transfer- imply these bacteria are endophytic and vertically transmitted as well. 
+The two most abundant orders in the whole _Azolla_ genus were found to be endophyic in _A. filiculoides_ 'wild': Rhizobiales and Burkholderiales (+@fig:fig3_Azfil_wild_binning).
+However, especially the Rhizobiales order was represented by many MAGs, not all endophytic (+@tbl:tbl3_2).
+The Nevskiales order may also be endophytic, since it survived stringent sterilisation of the _A. filiculoides_ 'minus-cyano' sample (+@fig:fig3_Azfil_wild_binning rest2).
+These three orders are all widely reoccuring throughout the entire genus (+@fig:fig3_binning_QC_all_taxonomy order).
+It is tempting, perhaps reasonable, to then extrapolate that bacterial order persistent in the entire genus are endophytes of _Azolla_ ferns too.
+The Spingomondadales for example, may be subject to this reasonoing for it is present in all but one _Azolla_ host, and on a deeper level of taxonomy only accounts for two genera: Novosphingobium and Sphingomonas.
+Yet, a counter-example also exits within our data; Caulobacteriales are an exception to this theory.
+Caulobacterales are associated with all _Azolla_ species, but it's genome was found to be epi-phytic in _A. filiculoides_ 'wild' (+@tbl:tbl3_2 Caulobacter).
+Another exception to the theory are the Rhodospirillales.
+This group is endophytic to _A. filiculoides_ 'wild' (+@tbl:tbl3_2 Rhodospirillales) yet unique to this host (+@fig:fig3_binning_QC_all_taxonomy).
+Concluding, we propose the following.
+We theorise that some bacteria are, like the main symbiont _N. azollae_, capable of being vertically transmitted; specifically bacteria in the Rhizobiales Burkholderiales and Nevskiales orders.
+The symbionts are low in diversity, but the leaf pocket ecosystem is not impervious to additional bacteria like Rhodospirillales in _A. filiculoides_.
+mode of transmission: some permanent partners, some passing passengers
 
 Two theories currently coexist in the literature about how _N. azollae_ enters _Azolla_ megasporocarps.
 Recently, motile _N. azollae_ filaments were observed with confocal microscopy in small channels of the _Azolla_ megasporocarp indusium cap [@Zheng2009; @Ran2010].
