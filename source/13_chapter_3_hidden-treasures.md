@@ -34,7 +34,8 @@ The method consisting in automatic workflow and manual curation yielded between 
 The majority of these genomes belongs to only six taxonomical orders (Burkholderiales, Caulobacteriales, Nevskiales, Nostocales, Rhizobiales and Sphingomonadales).
 Bacteria from these orders occured in most species of the _Azolla_ genus.
 Rhizobiales and Burkholderiales were transferred over generations in _A. filiculoides_.
-Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus suggests these bacteria may be introduced in some common ancestor of _Azolla_ species and that they may be selected for in the evolution of the _Azolla_ holobiont.
+Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus suggests these bacteria may be introduced in some common ancestor of _Azolla_ species.
+Consequently, they may be selected for in the evolution of the _Azolla_ holobiont.
 
 ## Introduction
 Many bacteria associate with multicellular hosts and may convey specific metabolic properties or traits of benefit to their hosts.
@@ -235,7 +236,8 @@ Table: Assembly statistics per superkingdom before and after the second filterin
 Filtering input sequencing data reduced assembly size.
 Next, we investigate the efficacy of this filtering approach in terms of taxonomic complexity and quality of the assembly.
 The main rationale for this intensive filtering approach was to decrease complexity in the metagenome assembly graph, thereby improving the length and quality of assembled bacterial contigs.
-The double filtering step substantially reduced total assembly size (+@fig:fig3_filtering_and_assembly\-B top) and length distributions of eukaryotic contigs (+@fig:fig3_filter_length_distributions Eukaryota, +@tbl:tbl3_1), as well as contigs which were not assigned a taxonomy or did not yield any open reading frames (+@tbl:tbl3_1).
+The double filtering step substantially reduced total assembly size (+@fig:fig3_filtering_and_assembly\-B top) and length distributions of eukaryotic contigs (+@fig:fig3_filter_length_distributions Eukaryota, +@tbl:tbl3_1).
+This also applied to contigs which were not assigned a taxonomy or did not yield any open reading frames (+@tbl:tbl3_1).
 These latter two taxonomical categories often had similar depth/length distributions as scaffolds assigned Eukaryota ([lauradijkhuizen.com/blog/AGMB](lauradijkhuizen.com/blog/AGMB)).
 In contrast, bacterial assembly size and length distributions were practically identical between the two different filtering stages (+@fig:fig3_filter_length_distributions Bacteria), although the average and median scaffold size did increase slightly (+@tbl:tbl3_1 Bacteria).
 Contigs assigned as Archeal in the host filtered assembly were not classified as such in the double filtered assembly (+@fig:fig3_filter_length_distributions Archaea).
@@ -266,7 +268,8 @@ Abundance here, is abundance in the assembly graph.
 We choose to continue here with scaffolds rather than contigs.
 Scaffolds are combinations of contiguous (contigs) pieces of DNA.
 These combinations are supported by molecular evidence like Illumina read pairs or long read sequencing when applicable.
-With the genus perspective in mind, we developped an interactive tool to browse through the metagenome assemblies obtained after the differing filtering, plotting scaffold size, abundance and taxonomy at any level; a snapshot of a result using this tool is depicted in +@fig:fig3_Azolla_genus_metagenome_order summarising the _Azolla_ genus-wide metagenome at the order level.
+With the genus perspective in mind, we developped an interactive tool to browse through the metagenome assemblies obtained after the differing filtering, plotting scaffold size, abundance and taxonomy at any level.
+A snapshot of a result using this tool is depicted in +@fig:fig3_Azolla_genus_metagenome_order summarising the _Azolla_ genus-wide metagenome at the order level.
 The online version may be browsed at [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB).
 The metagenomes of the _Azolla_ genus group into approximate bacterial genomes quite distinctly when examining them by their abundance, length, and taxonomy as determined by CAT (+@fig:fig3_Azolla_genus_metagenome_order).
 These genomes can be recognised as clusters of scaffolds with equal abundance and taxonomy but varying scaffold lengths.
@@ -665,7 +668,8 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 \end{sidewaysfigure}
 
 ## Discussion
-In this study, we assembled high-quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (+@fig:fig3_data_overview) through a process of thorough filtering (+@fig:fig3_filtering_and_assembly), thereby substantially reducing the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (+@fig:fig3_filter_length_distributions).
+In this study, we assembled high-quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (+@fig:fig3_data_overview) through a process of thorough filtering (+@fig:fig3_filtering_and_assembly).
+Filtering substantially reduced the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (+@fig:fig3_filter_length_distributions).
 Each species' metagenome assembly contained several distinct bacterial genomes, and these metagenomes resembled each other in terms of taxonomy (+@fig:fig3_Azolla_genus_metagenome_order).
 Manual binning (+@fig:fig3_Azfil_wild_binning; +@fig:fig3_Azmic_binning) allowed to retrieve these MAGs better than automated binning approaches (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_no_taxonomy) and provide them to the _Azolla_ and plant-microbe research community.
 Several orders of bacteria are systematically associated with the _Azolla_ genus as a whole (+@fig:fig3_binning_QC_all_taxonomy; order).
