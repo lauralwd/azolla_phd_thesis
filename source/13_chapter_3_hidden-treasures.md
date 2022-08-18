@@ -585,6 +585,7 @@ Species \& Sample                                         &
 \end{threeparttable}
 
 ![Binning quality control in Anvi'o [@Eren2015] of various binning methods. The quality of bins was assessed as completeness (dark green) and redundancy (red) by scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies (horizontal panels), comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual; vertical panels). Numbers in the panels show the total number of bins created by a particular method for a particular assembly (black) and those bins passing QC criteria of completeness above 90% and redundancy below 10% (Dark green). Grey lines in the figure also indicate these thresholds. Similar statistics were generated with CheckM [@Parks2015], utilising a different set of SCMGs. See +@fig:fig3_binning_QC_checkm](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_anvio}
+
 Next, we assessed if we could specificity of bin taxonomy as an additional quality metric.
 Bins were processed with CAT [@VonMeijenfeldt2019] mode for bins: BAT.
 Since taxonomy is now determined for long bins rather than short scaffolds, classification is likely more specific since more ORFs can be taken into account in the classification process when classifying bins.
@@ -789,7 +790,7 @@ Alternatively, FISH may pinpoint the exact location of the bacteria whose genome
 ### Azolla genus-wide metagenome
 Inspired by the holobiont concept [@Zilber-Rosenberg2008] and the mechanism for vertical transfer in _Azolla_ ferns, it makes sense to study a symbiosis like _Azolla_ from the genus perspective rather than a single species.
 Systematically _Azolla_ associated bacteria besides the primary symbiont are predominantly proteobacteria, mostly Alphaproteobacteria and Betaproteobacteria (fig:fig3_binning_QC_all_taxonomy; Phylum & class).
-These classes have often been seen as endophytes to plants before @Frank2018.
+These classes have often been seen as endophytes to plants before [@Frank2018].
 More specifically, _Azolla_ ferns systematically harbour microbes of six taxonomical orders (+@tbl:tbl3_5; fig:fig3_binning_QC_all_taxonomy; order).
 Beyond the level of order, no clear taxonomical pattern is distinguishable other than the main symbiont _N. azollae_ (fig:fig3_binning_QC_all_taxonomy; family & genus).
 The Nostocales order encompasses only the main symbiont _N. azollae_ and was highly abundant in all species, contradicting theories that other cyanobacterial strains may inhibit _Azolla_ ferns at lower abundances [@Papaefthimiou2008].
