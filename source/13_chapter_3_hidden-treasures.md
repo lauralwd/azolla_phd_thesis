@@ -343,7 +343,7 @@ The study design includes biological replicate samples of whole plants and leaf-
 Separating the different bins in this metagenome assembly benefits from differential sampling and the consequent differential abundance of genomes per sample (+@fig:fig3_Azfil_wild_binning).
 Additionally, the PacBio RSII long-read sequencing of the _A. filiculoides_ minus-cyano sample was used as an additional binning signal to distinguish bins; this data was used for scaffolding the assembly of the _A. filiculoides_ wild sample.
 The _A. filiculoides_ 'wild' sample metagenome contains multiple high-quality bins (+@tbl:tbl3_2), many of taxonomical orders seen in +@fig:fig3_Azolla_genus_metagenome_order.
-Binning yielded seven high-quality bins in total (completeness > 90% redundancy < 10%) with appropriate genome sizes (!qualify what is appropriate!), three medium-quality bins also with appropriate sizes (completeness > 60%), and several low-quality bins likely representing partial genomes of low abundant bacteria. (+@tbl:tbl3_2).
+Binning yielded seven high-quality bins in total (completeness > 90% redundancy < 10%), three medium-quality bins (completeness > 60%), and several low-quality bins likely representing partial genomes of low abundant bacteria. (+@tbl:tbl3_2).
 Despite the metagenomic study design, not all bins could be resolved to high quality.
 This may be related to the relatively low input of DNA sequencing data in the assembly, hence not allowing to sufficiently resolve lowly abundant microbial genomes.
 
