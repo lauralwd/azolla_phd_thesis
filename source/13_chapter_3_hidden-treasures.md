@@ -25,14 +25,15 @@ check all figure legends
 
 ## Abstract
 Bacteria-host symbioses are present throughout the plant kingdom, and bacteria can contribute all kinds of functions to their hosts.
-The plant genus _Azolla_ is known to host multiple endophytic bacteria, of which the main cyanobacterial species _Nostoc azollae_ is known to be transfered systematically to successive generations.
-Here we set out to assemble the genomes of bacteria associated with_Azolla_by re-using non-metagenomic data already available in public repositories.
+The plant genus _Azolla_ is known to host multiple endophytic bacteria, which it transfers systematically to successive generations.
+Here we set out to assemble the genomes of bacteria associated with _Azolla_ by re-using non-metagenomic data already available in public repositories.
 Sequencing data from six _Azolla_ species was filtered and assembled with a fully reproducible workflow made in the conda and snakemake frameworks.
 Intensive filtering of host DNA data reduced computational requirements but did not increase assembly quality of the bacterial genomes.
 Binning signals from differing _Azolla_ strains or even species, and taxonomy-based signals increased binning quality but required careful manual curation during the binning process.
-The method consisting in automatic workflowand manual curation yielded between 11 and 21 bacterial genomes per _Azolla_ species.
-The majority of these genomes belongs to only six taxonomical orders (Burkholderiales, Caulobacteriales, Nevskiales, Nostocales, Rhizobiales and Sphingomonadales). Bacteria from these orders occured in most species of the _Azolla_ genus.
-Phylogenetic analyses indicate that bacteria from the Rhizobiales and Burkholderiales were transferred over generations in _A. filiculoides_. 
+The method consisting in automatic workflow and manual curation yielded between 11 and 21 bacterial genomes per _Azolla_ species.
+The majority of these genomes belongs to only six taxonomical orders (Burkholderiales, Caulobacteriales, Nevskiales, Nostocales, Rhizobiales and Sphingomonadales).
+Bacteria from these orders occured in most species of the _Azolla_ genus.
+Rhizobiales and Burkholderiales were transferred over generations in _A. filiculoides_.
 Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus suggests these bacteria may be introduced in some common ancestor of _Azolla_ species and that they may be selected for in the evolution of the _Azolla_ holobiont.
 
 ## Introduction
