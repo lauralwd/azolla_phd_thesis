@@ -259,9 +259,14 @@ The filtering approach, we conclude, did not substantially improve assembly qual
 \end{sidewaysfigure}
 
 ### Filtered metagenome assemblies contain distinct microbial genomes systematically reoccurring in the _Azolla_ genus
-The double filtered assemblies contain numerous bacterial contigs of each _Azolla_ species sampled here (+@fig:fig3_filter_length_distributions Bacteria), we therefore wondered whether contigs and then scaffolds may be related to individual bacterial species. 
-Next, therefore, we take a genus perspective and inquire wether we can summarise a whole genus' metagenome considering its contig taxonomy and abundance (!perhaps we can define this somehow? relative proportion of reads mapping to the contig!), now assessing scaffolds rather than contigs (!explain how you then get from contog toscaffold succinctly!).
-With this perspective in mind, we developped an interactive tool to browse through the metagenome assemblies obtained after the differing filtering, plotting scaffold size, abundance and taxonomy at differing ; a snapshot of a result using this tool is depicted in +@fig:fig3_Azolla_genus_metagenome_order summarising the _Azolla_ genus-wide metagenome at the order level.
+The double filtered assemblies contain numerous bacterial contigs of each _Azolla_ species sampled here (+@fig:fig3_filter_length_distributions Bacteria).
+Next, we wondered if these contigs may be attributed to a specific taxonomy.
+In doing so, we take a genus perspective and inquire wether we can summarise a whole genus' metagenome considering its contig taxonomy and abundance, now assessing scaffolds rather than contigs.
+Abundance here, is abundance in the assembly graph.
+We choose to continue here with scaffolds rather than contigs.
+Scaffolds are combinations of contiguous (contigs) pieces of DNA.
+These combinations are supported by molecular evidence like Illumina read pairs or long read sequencing when applicable.
+With the genus perspective in mind, we developped an interactive tool to browse through the metagenome assemblies obtained after the differing filtering, plotting scaffold size, abundance and taxonomy at any level; a snapshot of a result using this tool is depicted in +@fig:fig3_Azolla_genus_metagenome_order summarising the _Azolla_ genus-wide metagenome at the order level.
 The online version may be browsed at [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB).
 The metagenomes of the _Azolla_ genus group into approximate bacterial genomes quite distinctly when examining them by their abundance, length, and taxonomy as determined by CAT (+@fig:fig3_Azolla_genus_metagenome_order).
 These genomes can be recognised as clusters of scaffolds with equal abundance and taxonomy but varying scaffold lengths.
