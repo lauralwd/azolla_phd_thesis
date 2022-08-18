@@ -315,7 +315,9 @@ Conversely, several orders do not systematically reoccur in multiple species.
 The bacillales, Rhodopspirillales, and Sphingomonadales occur only in one biological sample each.
 These bacteria may be epiphytes that were not properly washed off, or endophytes not shared by any other host species.
 
-Metagenome assemblies likely do not fully represent all bacteria in the original plant samples. (!Here a statement on the range of abundance in your study, this is an important result!)
+Metagenome assemblies likely do not fully represent all bacteria in the original plant samples.
+All assemblies contain highly abundant bacterial genome fragments, _N. azollae_ contigs are typically covered 500 times in the SPAdes assembly graph (+@fig:fig3_Azolla_genus_metagenome_order cyan blue).
+Yet all but the _A. filiculoides_ 'minus-cyano' assembly contain scaffolds covered between one and two times.
 When approaching the least abundant scaffolds, scaffold length diminishes to less than 1Kb, reflecting the lower abundance limit of assembly.
 This lower limit region contains a substantial amount of scaffolds from different orders of taxonomy.
 This diversity indicates that several lowly abundant microbes were too lowly abundant to assemble properly; hence, the current assemblies are likely incomplete representations of the microbial diversity associated with the plants.
