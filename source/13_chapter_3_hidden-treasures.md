@@ -794,9 +794,15 @@ These classes have often been seen as endophytes to plants before [@Frank2018].
 More specifically, _Azolla_ ferns systematically harbour microbes of six taxonomical orders (+@tbl:tbl3_5; fig:fig3_binning_QC_all_taxonomy; order).
 Beyond the level of order, no clear taxonomical pattern is distinguishable other than the main symbiont _N. azollae_ (fig:fig3_binning_QC_all_taxonomy; family & genus).
 The Nostocales order encompasses only the main symbiont _N. azollae_ and was highly abundant in all species, contradicting theories that other cyanobacterial strains may inhibit _Azolla_ ferns at lower abundances [@Papaefthimiou2008].
+This one other cyanobacterial bin found associated with _A. filiculoides_ 'wild' was epiphytic.
 The two most prominent orders, Burkholderiales and Rhizobiales, were already identified in Chapter \ref{foul play} [@Dijkhuizen2018].
 However, their genomes across the entire _Azolla_ genus were not published before, nor was it clear that multiple Rhizobiales and Burkholderiales genomes are systematically associated with single species of the _Azolla_ genus.
 The remaining three orders, Caulobacterales, Nevskiales and Sphingomonadales, were seen before in \ref{foul play} [@Dijkhuizen2018] (+@fig:fig2_2; +@fig:fig2_3), but not as whole genomes across the entire genus.
+Only the Nevskiales may be endophytic for it survived stringed sterilisation of _A. filiculoides_ 'minus-cyano' (+@tbl:tbl3_2 rest2)
+
+Despite intensive sequencing efforts, this study does not exhaust the diversity of _Azolla_ associated microbes.
+All assemblies except for _A. filiculoides_ minus_cyano contained many scaffolds near the lower abundance limit of assembly (+@fig:fig3_Azolla_genus_metagenome_order) and in concordance binning yielded many bins with only fractions of genomes (+@fig:fig3_Azfil_wild_binning +@tbl:tbl3_2).
+Still, between 11 and 21 bacterial genomes were found with any _Azolla_ species analysed here (+@tbl:tbl3_4).
 
 The new availability of all MAG sequences allows for studying the bacteria of the _Azolla_ genus through the perspective of comparative genomics.
 We may now inquire, for example, if _Azolla_ associated bacteria share a common ancestor and a common introduction in the _Azolla_ genus, if their metabolism is similar, and if their genomes have adapted to the symbiotic lifestyle.
@@ -809,35 +815,22 @@ The systematic presence of specific groups of bacteria suggests that ferns of th
 @Forni1992 theorised that _Azolla_ associated bacteria may be responsible for the mucus in which both _N. azollae_ and other microbes are harboured.
 A similar mucus is found at the apical meristem colony in Chapter \ref{it takes two} [@Dijkhuizen2021].
 Mining the genomes published here may indicate if the genes required for producing this mucus are present.
+@Wallace1986 identified an _Arthrobacter_ bacterium endophyic to _A. carolinana_, _A. filiculoides_ and _A. mexicana_.
+Besides its presence in multiple _Azolla_ species, its abundance increased with the age of _Azolla_ leaves [@Petro1987].
+The _Arthrobacter_ genus is part of the Micrococcales order, which is only present in _A. microphylla_ in our analyses.
+However, one can wonder if the methods by which this bacterium was named then, and the methods now, would produce the same result at the genus level.
+
 Systematic presence, and possible systematic vertical transmission, are no requirements to consider a microbe as a symbiont.
 Alternatively, microbes may associate with _Azolla_ but live in the environment, as is the case with Rhizobiales-legume symbioses.
 This would allow for a less direct inheritance of microbial symbionts, as is often the case in marine eukaryote-bacterial symbioses [@Russell2020].
-
-
-```
-fragments from Results:
-
-We theorise this is the case, based on their ostensibly systematic presence in
-multiple _Azolla_ species and increasing abundance in developing _Azolla_ leaves [@Petro1987].
-
-Nonetheless, _Arthrobacter_ is the most well-known genus associated with _Azolla_
-ferns in these studies [@Petro1987].
-
-Multiple bac per order per sample, genetic exchange keeps the genomes 'young'?
-Possible loss/reinnoculation like in the @Russell2020
-
-This difference indicates that this particular cyanobacterium is epiphytic,
-consistent with earlier findings that _Azolla_ has only one cyanobacterial symbiont.
-
-Ferrovibrio only in Afil, multiple generations. Recent introduction.
-
-```
-
-```
-Despite intensive sequencing efforts, this study does not exhaust the diversity of _Azolla_ associated microbes.
-All assemblies except for _A. filiculoides_ minus_cyano contained many scaffolds near the lower abundance limit of assembly (+@fig:fig3_Azolla_genus_metagenome_order) and in concordance binning yielded many bins with only fractions of genomes (+@fig:fig3_Azfil_wild_binning +@tbl:tbl3_2).
-Still, between 11 and 21 bacterial genomes were found with any _Azolla_ species analysed here (+@tbl:tbl3_4).
-```
+This may be the case for the seemingly epiphytically associated Caulbacterales order.
+Alternatively, facultative, or passing symbionts, may provide a pool of genetic material that may be exchanged with the permanent partners in de symbiosis.
+All _Azolla_ metagenomes considered here contain multiple Rhizobiales genomes.
+In _A. filiculoides_, several of these are considered endophytic, and several epiphytic.
+The symbiotic lifestyle can cause genome degradation of bacterial symbionts.
+Genome degradation of _N. azollae_ can even be seen by its varying abundance profile (+@fig:fig3_Azolla_genus_metagenome_order cyan blue).
+No other bacterial genome shows this pattern, yet some of them are likely endophytic and vertically transmitted over generations.
+Inflow of genetic material of related bacteria may be a method for _Azolla_ to keep its Rhizobiales endophytes young and free of genome degradation, similarly as was described for shellfish in @Russell2020.
 
 In this manuscript, we characterise the _Azolla_ holobiont from the perspective of the entire genus rather than a single species.
 This broader perspective ideally will allow us to identify parts that are persistently present in the genus or parts thereof.
