@@ -431,7 +431,8 @@ Rhizobiales       & rest\_7           &  1.36 &  0.69 &   0.11 &   0 &  0 & 14 &
 \end{threeparttable}
 
 ### Binning assemblies from non-metagenomic data is feasible with binning signals obtained from samples of different species and alltogether diffrent experiments
-Provided thoroughly filtered metagenome assemblies, the binning process becomes feasible even if the assembly lacks a metagenomic study design (!here you come to the comclusion at the onset of your paragraph-this should be your conclusion!- so first remaind the reader that you got well resolved highly completegenome bins with A. filiculoidesand that you next wondered whether you can generate the same with the sequencing data from the other species, then describe your strategy).
+The manual binning approach worked well on data of a metagenomic study design.
+Next we apply this method to the double filtered data taken from non-metagenomic studies.
 Typically, binning would depend highly on the differential abundance of scaffolds over various sequencing libraries and, to a lesser extent, on k-mer profiles of scaffolds.
 However, several _Azolla_ species sequenced have only one sample, hence one sequencing library available.
 Therefore, binning cannot use differential abundance over various samples.
