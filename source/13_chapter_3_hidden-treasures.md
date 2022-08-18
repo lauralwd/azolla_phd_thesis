@@ -659,7 +659,7 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 ## Discussion
 In this study, we acquired high-quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (+@fig:fig3_data_overview) through a process of thorough filtering (+@fig:fig3_filtering_and_assembly), thereby substantially reducing the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (+@fig:fig3_filter_length_distributions).
 Each species' metagenome assembly contained several distinct bacterial genomes, and these metagenomes resembled each other in terms of taxonomy (+@fig:fig3_Azolla_genus_metagenome_order).
-Manual binning (+@fig:fig3_Azfil_wild_binning +@fig:fig3_Azmic_binning) allowed to retrieve these MAGs better than automated binning approaches (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_no_taxonomy) and provide them to the _Azolla_ and plant-microbe research community.
+Manual binning (+@fig:fig3_Azfil_wild_binning; +@fig:fig3_Azmic_binning) allowed to retrieve these MAGs better than automated binning approaches (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_no_taxonomy) and provide them to the _Azolla_ and plant-microbe research community.
 Several orders of bacteria are systematically associated with the _Azolla_ genus as a whole (+@fig:fig3_binning_QC_all_taxonomy; order).
 
 ### Metagenome assemblies can be retrieved from publicly available non-metagenomic data
@@ -671,10 +671,10 @@ Before thorough and costly filtering and assembly, sequencing data may be search
 Such signals could be extracted from raw sequencing data, for example, by searching for rRNA reads [@Miller2011; @Xie2016], for bacterial genes similarly to @VonMeijenfeldt2019 or by kmer-based approaches such as kraken2 [@Wood2019].
 
 Our approach allowed us to find bacteria associated with hosts studied in the past and paved the way to further mine host-bacteria interactions in _Azolla_ specifically.
-In particular, the approach allowed us to broaden our scope from only _A. filiculoides_ as in ref{foul play} [@Dijkhuizen2018], to the entire _Azolla_ genus.
+In particular, the approach allowed us to broaden our scope from only _A. filiculoides_ as in \ref{foul play} [@Dijkhuizen2018], to the entire _Azolla_ genus.
 This broadened perspective allowed to identify commonalities even at the level of taxonomy (+@fig:fig3_Azolla_genus_metagenome_order; +@fig:fig3_binning_QC_all_taxonomy).
 Since whole genomes are available, we can now wonder what pathways are shared between the genomes that are ostensibly shared between hosts.
-Expanding this method beyond _Azolla_ to other host species known to host bacterial symbionts may allow to gather a broad pallete of host-associated metagenomes.
+Expanding this method beyond _Azolla_ to other host species known to host bacterial symbionts may allow to gather a broad pallete of host-associated metagenomes without the need to specifically extract these bacteria from their biological enviroment.
 Comparative genomics of thise of host-associated bacteria can shed light on the commonalities of the associations, albeit genes, pathways or their taxonomy.
 These genomes can be mined for genes of the Common Symbiosis Pathay, or alternatives thereoff @Genre2016.
 Alternatively there might be certain metabolites or excretion systems shared amongst them.
@@ -712,9 +712,10 @@ Scaffold taxonomy determined by CAT proved to be a valuable additional binning s
 CAT classifications often overlapped well with bins demarcated clearly by other binning signals (+@fig:fig3_Azfil_wild_binning; +@fig:fig3_Azmic_binning; +@fig:fig3_Azfil_lab_binning; +@fig:fig3_Azfil_minus_cyano_binning; +@fig:fig3_Azmex_binning; +@fig:fig3_Aznil_binning; +@fig:fig3_Azrub_binning; +@fig:fig3_Azcar_1_binning; +@fig:fig3_Azcar_2_binning).
 This result further confirms the robustness of CAT scaffold classifications and its use case for manual binning when depth and k-mer profiles are lacking.
 The specificity of CAT taxonomy differed substantially: some bins were reliably and reproducibly classified at the genus level (+@fig:fig3_Azmic_binning; Nevskia) while others only were classified at the phylum level (+@fig:fig3_Azmic_binning; Bacteriodetes).
-Database bias surely plays a role in this specificity issue, but our results show that per bin, both the taxonomy and specificity thereof are consistent.
+Database bias surely plays a role in this specificity issue.
+Despite this bias, our results show that for the scaffolds within a single bin, both the taxonomy and specificity thereof are consistent.
 Single copy marker gene validation with both CheckM and Anvi'o supported the quality of bins for which CAT classification was instrumental in their reconstruction.
-Manual binning even proved more effective compoared to automated binning approaches; explaining metagenomes in less bins of higher quality (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_checkm)
+Manual binning even proved more effective compoared to automated binning approaches; explaining metagenomes in less bins of higher quality (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_checkm).
 
 Our view on these methods is that a researcher should bin primarily on the differential abundance in sample-native sequencing libraries and scaffold k-mer profiles.
 When those primary binning signals are unclear, extraneous binning signals and scaffold taxonomy may be used in an advising manner.
