@@ -241,7 +241,7 @@ In contrast, bacterial assembly size and length distributions were practically i
 Contigs assigned as Archeal in the host filtered assembly were not classified as such in the double filtered assembly (+@fig:fig3_filter_length_distributions Archaea).
 Similarly, viral contigs often were only assembled in the host filtered assembly (+@fig:fig3_filter_length_distributions Viruses).
 These classifications were rare in all assembled metagenomes and may be false classifications or derived from viral fragments incorporated into genomes of either _Azolla_ species or of associated bacteria.
-The bacterial fraction of the metagenome assembly is of substantial size _!(give the size range here! it is a major result), because it allows to guess how many genomes may be found_ 
+The bacterial fractions of the various metagenome assemblies ranges bewteen 46 and 89 Mbp, counting scaffolds longer than 2.5 kbp only.
 The filtering approach, we conclude, did not substantially improve assembly quality of prokaryote genome fragments, but also had no negative effect.
 
 \begin{sidewaysfigure}
