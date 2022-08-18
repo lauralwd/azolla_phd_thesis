@@ -360,6 +360,8 @@ CheckM quality of this bin is however, sufficient (+@tbl:tbl3_2 CheckM completen
 Taxonomy of the 'rest 2' bin is assigned as the Nevsiales order which often occurs in other _Azolla_ species.
 Despite this bin not being enriched in leaf pocket samples, it may be an endophyte still.
 
+![Anvi'o overview of the _A. filiculoides_ 'wild' metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 179Mbase of DNA in 26120 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (light green), scaffold abundance in PacBio reads from the _A. filiculoides_ 'lab' sample (yellow). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_2.](source/figures/fig3_Azfil_wild_binning.pdf){#fig:fig3_Azfil_wild_binning}
+
 \begin{threeparttable}
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.25}}
