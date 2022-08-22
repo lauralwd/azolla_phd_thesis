@@ -11,6 +11,7 @@ _Nostoc azollae_ main symbiont of _Azolla_
 Symbiosis co-evolution. How does _N. azollae_ compare to other known examples.
  * very strict inheritance
  * Exception in Li et al tree?
+   - compare to chloroplast, how about mitochondrium?
  * Common introduction in the genus.
 
 _N. azollae_ was first sequenced by @Ran2010, taken from _Azolla filiculoides_.
@@ -26,17 +27,24 @@ Finally, we add sequencing data of an Azolla strain of unknown taxonomy to us bu
 ### Results
 **Get more data**
 Let's get more info with nanopore Sequencing
- * we have single chromosomes and single plasmids!
+ * Nostoc: We have single chromosomes and single plasmids!
+   - except for Bordeaux, not sufficient data
  * assemble all chloroplasts for comparative trees co-evolution
- * assemble all mitochondria too...
+ * assemble all mitochondria too
+   - find mito scaffolds in Azfi assembly
+   - recruit nanopore reads
+   - assemble, reduce, assemble
 
 **Azolla genus**
 * How similar (dis)similar are all *Nostoc azollae* in all *azolla* species. We take the data of chapter 3 and start comparing them.
     - anvio pangenomics and ANI figure. Gene content is the same
-    - phylogenomic tree Azolla genus Nostocs only, mirror with chloroplast tree
-    - all but _A. nilotica_ are the same.
+    - phylogenomic tree Azolla genus Nostocs only
+    - All the same except _A. nilotica_ and possibly _A. pinnata_.
+      - long branches Nanopore assemblies, hard to say anything about phylogeny without polishing with illumina data.
+        - Can I do some nanopore specific polishing? Didn't see much benefit from this in the anabaena project though...
       - nilotica is different OTU (stricly speaking)
       - Different in pangenomics as well?
+        - Any enrichment in the specific clusters
 
 All nostocs are alike in terms of genome structure and gene content. Being more than 99% similar, they are one species.  
 
@@ -45,6 +53,7 @@ All nostocs are alike in terms of genome structure and gene content. Being more 
 
 **genomics/synteny**
 whole genome alignment figure:
+* Sync and scaffold assemblies to reference.
 * How similar are they genomically
    - single introduction in Azolla genus
 * Is the published structure correct, complete, and unchanged
