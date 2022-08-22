@@ -20,9 +20,22 @@ _N. azollae_ was first sequenced by @Ran2010, taken from _Azolla filiculoides_.
 
 Here we gather and supplement data of N. azollae and plasmids assocated with the entire Azolla genus.
 We add long-read data to further resolve the structure of the fragmented _N. azollae_ genome assembly associated with _A. filiculoides_.
-We also add long read data of _A. piniata_, the only Azolla species that has not been sequenced yet.
+We also add long read data of _A. pinnata_, the only Azolla species that has not been sequenced yet.
 Add long read data of Azolla anzali, taken from the Anzali lake and suspected to be a new species.
 Finally, we add sequencing data of an Azolla strain of unknown taxonomy to us but likely rubra: Bordeaux after its sampling location.
+
+### Methods
+Anvio pangenomics
+IQtree
+all scripts, snakemake on github
+
+#### data
+table on the mags we have from chapter \ref{hidden treasures}
+
+table on chloroplasts
+
+read data, same as chap3, but skipping Afiliculoides since that is the reference already.
+When multiple samples are available, taking the longest insert size.
 
 ### Results
 **Get more data**
