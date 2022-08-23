@@ -7,6 +7,8 @@ Cyanobacterial symbiosis in general.
 _Nostoc azollae_ main symbiont of _Azolla_
  * Main symbiont, N-fixation.
  * present in All _Azolla_
+ * cap exchange experiments
+ * genus name debate
 
 Symbiosis co-evolution. How does _N. azollae_ compare to other known examples.
  * very strict inheritance
@@ -18,11 +20,14 @@ _N. azollae_ was first sequenced by @Ran2010, taken from _Azolla filiculoides_.
  * Its genome is heavily degraded
  * Symbiosis bottleneck, did this occur in _Azolla's_  main symbiont? At what stage in the symbiosis.
 
-Here we gather and supplement data of N. azollae and plasmids assocated with the entire Azolla genus.
-We add long-read data to further resolve the structure of the fragmented _N. azollae_ genome assembly associated with _A. filiculoides_.
+Here we gather and supplement data of _N. azollae_ and _Azolla_ plasmids associated with the _Azolla_ genus and study their evolution.
+We add long-read data to further resolve the structure of the fragmented _N. azollae_ genome assembly associated with _A. filiculoides_ as sequenced in chapter \ref{hidden treasures}.
 We also add long read data of _A. pinnata_, the only Azolla species that has not been sequenced yet.
-Add long read data of Azolla anzali, taken from the Anzali lake and suspected to be a new species.
-Finally, we add sequencing data of an Azolla strain of unknown taxonomy to us but likely rubra: Bordeaux after its sampling location.
+Finally, we add sequencing data of an Azolla strain of unknown taxonomy to us namded Bordeaux after its sampling location.
+With this data on _N. azollae_ and the _Azolla_ genus plastids, we describe the genomic variety of the main symbiont and its co-evolution with its host.
+We assess the degradation that _N. azollae_ underwent in becoming a obligate symbiont, how this degradation diversified in the various host species, and we attempt to time degradation in the _N. azollae_ phylogeny.
+Finally, we aim to embed the _N. azollae_ evolution in a broader perspective of Nostocales taxonomy, hopefully solving the issue of the _N. azollae_ genus name.
+Within this broader perspective of Nostocales genomes, some symbiotic, some not, we hope to identify clusters of genes shared by symbiotic Nostocales Cyanobacteria and perhaps shared by N. azollae specifically.
 
 ### Methods
 Anvio pangenomics
@@ -87,6 +92,8 @@ About pseudogenes and transposons:
 
 Transposon position is conserved and the symbiosis formed rapidly in the common ancestor of all Azolla species, after which evolution of the symbiont came to a standstill and the different azolla strains speciated.
 
+```
+Likely to be skipped
 **genomics Dual RNAseq data**
 About genomics of a symbiont:
 * RNAseq data, compared to gene models, expression data.
@@ -97,6 +104,7 @@ About genomics of a symbiont:
 **Other stuff:**
 * Sufficient data for puryfying selection? Likely not.
 * Crispr: lacking immunity in N. azollae -> plant must keep its house clean
+```
 
 **Evolution**
 * Is the gene content of N. azollae special, symbiotic toolkit?
@@ -116,24 +124,28 @@ Likely to be skipped:
 ```
 
 ## Discussion
+**Nostoc in the Azolla symbiosis**
+N. azollae rappid introduction and degradation solidified its presence in the Azolla symbiosis.
+* Co-evolution is ... awaiting trees ...
+* N. azollae is basically one species, except for pinnata and nilotica, but what does that even mean...
 * Pseudogenation has come to a standstill
 
+How does the symbiont remain stable
 * bottleneck effect, Muellers ratchet?
    - might polyploidy be involved.
 
-polyploidy in *N. azollae*
-
-is there restructuring in the resting stages of *Nostoc azollae*
-
-A new co-evolution tree between nostoc and chloroplast with the two novel species nicely separate and based on several SCMG
-
 conservedness --> selection presure of presumable symbiosis important genes
 
-embed in nostoc/trichormus/anabaena tree for more definitive placing.
+**nostocales**
+Embed in nostoc/trichormus/anabaena tree for more definitive placing.
+Single introduction, this is a ... genus ...
+Symbiotic gene kit
 
+**future work**
+is there restructuring in the resting stages of *Nostoc azollae*
+
+```
+skipped
 * Do we find more expressed regions with the RNAseq data
    - We do, needs propper annotation.
-
-How does it retain genome stability with (plant) generation bottleneck
-
-Are cyanobacteria often polyploïd,  
+```
