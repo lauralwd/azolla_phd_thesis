@@ -6,6 +6,20 @@
 # General introduction
 \label{introduction}
 
+
+1. Food, Novel crops, Azolla symbiosis
+
+2. Genetics of a novel crop, genetics of a symbiosis
+
+3. Bioinformatics and plant biology 
+  - Teaching? 
+
+4. Open science, share and re-use resources, how to bring a small field forward
+  - share methods, data, workflows
+  - Collaboration and outreach
+
+5. 
+
 ## basically: food
 
 * current challenges
