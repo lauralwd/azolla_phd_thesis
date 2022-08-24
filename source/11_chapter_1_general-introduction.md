@@ -7,48 +7,45 @@
 \label{introduction}
 
 
+#### framework
 1. Food, Novel crops, Azolla symbiosis
-
 2. Genetics of a novel crop, genetics of a symbiosis
-
-3. Bioinformatics and plant biology 
-  - Teaching? 
-
+3. Bioinformatics and plant biology
+  - Teaching?
 4. Open science, share and re-use resources, how to bring a small field forward
   - share methods, data, workflows
   - Collaboration and outreach
+5.
 
-5. 
+#### H framework
+1. Some thoughts about your intro with only 4 headings:
+2. Why you are so motivated to study a symbiosis
+3. In particular Azolla
+4. You personal development in this field using bioinformatic approaches
+5. One key development during the short time of your activity: How to document reproducibility in bio informatic studies
 
-## basically: food
+#### old framework
+1. basically: food
+  * current challenges
+    - Nitrogen
+  * the case for novel crops
+2. Societial solutions and technology solutions
 
-* current challenges
-  - Nitrogen
-* the case for novel crops
-
-### Societial solutions and technology solutions
-
-### Novel crops as solutions
-* breeding, how novel crops lag behind
-
-
-## Making a case for Azolla
-
-### Azolla symbiosis life cycle
-
-* fern, heterospory
-* nostocs general
-  - nostocs in fern
+3. Novel crops as solutions
+  * breeding, how novel crops lag behind
+4. Making a case for Azolla
+5. Azolla symbiosis life cycle
+  * fern, heterospory
+  * nostocs general
+    - nostocs in fern
+6. breeding a Symbiosis
+7. establishing the genetics
+8. fundamental scope?
+  * study of symbioses in general with meta-omics
+  * study of ferns in general
 
 ![Illustration of the _Azolla_ symbiosis life cycle by Erbil Güngör](source/figures/fig1_life-cycle.png){#fig:fig1_life-cycle width=100%}
 
-### breeding a Symbiosis
-
-### establishing the genetics
-
-## fundamental scope?
-* study of symbioses in general with meta-omics
-* study of ferns in general
 
 \newpage
 
