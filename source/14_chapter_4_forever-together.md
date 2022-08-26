@@ -87,7 +87,7 @@ Idea, I can make a many panel figure displaying the various bandage images
 and their similarity to references, but I don't think it is important enough...
 ```
 
-Next, we aim to subdivide the nanopore reads by organellar genome, _N. azollae_ genome, or fern nuclear genome.
+For efficient assembly, we aim to subdivide the nanopore reads by organellar genome, _N. azollae_ genome, or fern nuclear genome.
 An extended _A filiculoides_ reference genome was constructed from the _A. filiculoides_ nuclear genome and chloroplast [@Li2018], _N. azollae_ [@Ran2010], and the draft mitochondrial genome constructed here.
 Nanopore sequencing reads were selected by mapping against this reference a with minimap2 `ref minimap2` and samtools [@Li2009] and then assembled with flye `ref flye`.
 These de-novo assemblies were then examined in Bandage for homology to their reference.
