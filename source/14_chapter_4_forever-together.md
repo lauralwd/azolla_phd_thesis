@@ -54,11 +54,8 @@ all scripts, snakemake on github
 flowcells,
 postprocessing
 
-
 ### data
 table on the mags we have from chapter \ref{hidden treasures}
-
-table on chloroplasts
 
 read data, same as chap3, but skipping Afiliculoides since that is the reference already.
 When multiple samples are available, taking the longest insert size.
