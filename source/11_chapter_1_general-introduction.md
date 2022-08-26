@@ -7,12 +7,14 @@
 \label{introduction}
 
 ## Plant biology for the twentyfirst century
-With the advent of climate change, dramatic global population growth, and major loss of rurable land, the field of plant biology plays a particularly important role securing a sustainable and healty future for humanity on plant earth.
+These days, scientists, -humanity itself- is challenged with the advent of climate change, dramatic global population growth, and major loss of rurable land.
+The field of plant biology plays a particularly important role securing a sustainable and healty future for humanity on plant earth.
 IPCC
 IPCC
 FAO
 
 Challenges that plant biologist may tackle
+
 
 Efforts include improving existing crops
 
