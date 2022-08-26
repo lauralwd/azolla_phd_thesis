@@ -6,14 +6,41 @@
 # General introduction
 \label{introduction}
 
+## Plant biology for the twentyfirst century
+With the advent of climate change, dramatic global population growth, and major loss of rurable land, the field of plant biology plays a particularly important role securing a sustainable and healty future for humanity on plant earth.
+IPCC
+IPCC
+FAO
+
+Challenges that plant biologist may tackle
+
+Efforts include improving existing crops
+
+Novel crops
+
+### Azolla
+Ferns of the genus _Azolla_ have several key advantages
+
+_Nostoc azollae_ Nitrogen independence
+
+## Establishing the genetics of a novel crop symbiosis
+
+### Domestication
+
+### Breeding arrearage
+
+### Breeding a symbiosis
+
+### Challenges of Azolla
+
 #### framework
-1. Plant biology: Food, Novel crops, Azolla symbiosis
+1. ~~Plant biology: Food, Novel crops, Azolla symbiosis
   - X challenges, solutions in novel crops
-  - opportunities Azolla
-2. Genetics of a novel crop, breeding a Symbiosis
+  - opportunities Azolla~~
+2. ~~Genetics of a novel crop, breeding a Symbiosis
   - What questions need to be answered for novel crop
   - and for a symbiosis specifically
-  - Challenges Azolla, fern life cycle, heterospory, nostocs
+  - Challenges Azolla, fern life cycle, heterospory, nostocs~~
 3. Bioinformatics and plant biology
   - The study of information in biological systems
   - Comparative genomics to speed-up breeding arrearage
