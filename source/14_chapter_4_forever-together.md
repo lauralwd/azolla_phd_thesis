@@ -127,6 +127,43 @@ insert table with Illumina assembly stats
 * hits to reference
 * coverage min,mean,max?
 
+### All _N. azollae_ are highly similar in terms of ANI and gene content but have some unique features
+Armed with _N. azollae_ of all known _Azolla_ strains, we wonder how similar these genomes are in gene content, and if they can be considered separate species or if they are the same.
+All available _N. azollae_ genomes and the reference from @Ran2010 were processed in an Anvi'o pangenomics workflow [GitHub page].
+This workflow finds ORFs, tries to functionally annotate these via either NCBI COGs or KEGG KOFAMS, and then maps all ORFs to all ORFs with blastp to then cluster these genes in gene clusters that systematically co-occur in the various genomes.
+Additionally, Average Nucleotide Identity (ANI) was determined over all regions of the entire genomes that mapped to each other.
+
+
+All genomes of _N. azollae_ taken from various _Azolla_ hosts are highly similar both in ANI and in gene content but have some unique features. 
+All genomes count similar amount of gene clusters except the Bordeaux strain.
+The Euazolla section is very similar in ANI `over ...%` but both rhizosperma species are no more than `...%` similar to any other _N. azollae_.
+Strictly speaking, this means that the _N. azollae_ from _A. pinnata_ and _A. nilotica_ are separate species from the _N. azollae_ in the Eukazolla section.
+For the manuscript, we chose not do make this disctinction.
+The Bordeaux strain genome assembly stands out for it misses many of the genes shared by other _N. azollae_.
+These are likely missing due to the poor assembly quality, data input was minimal in this assembly and well below the recommended coverage for assembly with flye (10x vs 40x minimum).
+Regardless, all genomes show low redundancy and high completion scores. 
+A big majority of genes is shared amongst all N. azollae. (N. azollae core), not regarding any genes missing in the Bordeaux strain.
+Within this core genome, a substantial amount of genes has functional annotation (ncbi COG or KEGG KOFAM). `count percentage`
+Outside this group, the frequency of functional annotation is less. `count percentage`
+
+The _N. azollae_ genomes show some unique gene clusters (at least with these clustering parameters).
+The Rhizosperma section does share a unique set of genes despite their relatively low ANI (+@fig:fig4_Nazollae_pangenome Rhizosperma accessory).
+`functional enrichment?`
+_N. azollae_ from _A. filiculoides_ and _A. rubra_ share some genes unique to them, and a smaller selection shared with microphylla/mexicana (+@fig:fig4_Nazollae_pangenome _mexicana_/_microphylla_ accessory).
+`functional enrichment?`
+Finally, the two _A. caroliniana_ strains are not identical, but do share their own specific subset of genes (+@fig:fig4_Nazollae_pangenome Caroliniana accessory)..
+The Bordeaux strain clusters with these two _A. caroliniana_ strains in the phylogenomic tree.
+
+From all genes in the pangenome, I select a subset of genes that occur in all genomes only once, that have no more than 10% gaps when aligned, and that are no more than 95% identical in sequence. The resulting 27 genes are used for a phylogenomic tree. The resulting phylogeny fits with that already published of the _Azolla_ genus [@Metzgar2007] and matches with the ANI of the pangenome.
+The result then is (preliminary): All N. azollae are very similar, the pinnata and nilotica strain both are quite different (but still very similar). The difference is reflected in annotated genes, but no specific function can be attributed to these genes unique for a group.
+
+```
+The same analysis is running over the weekend of the chloroplast and mitochondrium, trees should mirror. That will be the next results sub-section. Do these trees mirror.
+
+#todo still: 
+  - Add colours/groupings to the different genomes for functional enrichment. 
+  - long branches Nanopore assemblies, hard to say anything about phylogeny without polishing with illumina data.
+```
 
 **co-evolution**
 * Wierd co-evolution tree in @Li2018. Let's do this again and assembly the chloroplasts anew. (and mito to get rid of that too...)
