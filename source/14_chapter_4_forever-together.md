@@ -96,8 +96,6 @@ The _A. pinnata_ assembly consisted of a circular chromosome and several small f
 The _A. sp._ genome assembly was highly fragmented due to low coverage, but still contained major parts of the _N. azollae_ genome.
 `genome sizes in table`
 
-Illumina assemblies
-
 insert table with
 * strain
 * Nanopore sequencing yield
@@ -114,18 +112,21 @@ The _A. filiculoides_ mitochondrium assembled into one linear piece, the _A sp._
 The _A. sp._ chloroplast assembled into one circular piece, the _A. filiculoides_ chloroplast in three pieces interconnected in the assembly graph, and the _A. pinnata_ chloroplast into 4 bigger fragments and several small ones, also all interconnected in the assembly graph.
 We assess these assemblies as sufficient and proceed to assembly Illumina assemblies as well.
 
-**Azolla genus**
-* How similar (dis)similar are all *Nostoc azollae* in all *azolla* species. We take the data of chapter 3 and start comparing them.
-    - anvio pangenomics and ANI figure. Gene content is the same
-    - phylogenomic tree Azolla genus Nostocs only
-    - All the same except _A. nilotica_ and possibly _A. pinnata_.
-      - long branches Nanopore assemblies, hard to say anything about phylogeny without polishing with illumina data.
-        - Can I do some nanopore specific polishing? Didn't see much benefit from this in the anabaena project though...
-      - nilotica is different OTU (stricly speaking)
-      - Different in pangenomics as well?
-        - Any enrichment in the specific clusters
+Illumina sequencing based assemblies of _N. azollae were taken from chapter \ref{hidden treasures}, but those of the plasteds still have to be assembled.
+Illumina reads were mapped to the combined reference genome with bwa [@Li2009a], selected with samtools [@Li2009, and then assembled with SPAdes.
+De-novo assemblies of plastids turned out to be highly fragmented (over 300 contigs), hence we opted for a reference guided assembly.
+Assemblies still running...
 
-All nostocs are alike in terms of genome structure and gene content. Being more than 99% similar, they are one species.  
+insert table with Illumina assembly stats
+* strain
+* Nazollae/chlorplast/mito
+* Illumina read pairs
+* Assembly Contigs
+* length
+* (N50)
+* hits to reference
+* coverage min,mean,max?
+
 
 **co-evolution**
 * Wierd co-evolution tree in @Li2018. Let's do this again and assembly the chloroplasts anew. (and mito to get rid of that too...)
