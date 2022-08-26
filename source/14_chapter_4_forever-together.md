@@ -1,7 +1,23 @@
 # Forever together: One nostoc azollae is symbiont to all Azolla species
 \label{forever together}
 
-### Introduction
+\footnotesize
+
+Laura W Dijkhuizen^1^,
+Michelle Verstraaten^1^,,
+Henriette Schluepmann^1^.
+
+\scriptsize
+
+1. Molecular Plant Physiology Department, Utrecht University, Utrecht 3584CH, The Netherlands
+
+\newpage
+\linenumbers
+\normalsize
+\onehalfspacing
+\setlength{\parindent}{0.5in}
+
+## Introduction
 Cyanobacterial symbiosis in general.
 
 _Nostoc azollae_ main symbiont of _Azolla_
