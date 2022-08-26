@@ -45,12 +45,17 @@ We assess the degradation that _N. azollae_ underwent in becoming a obligate sym
 Finally, we aim to embed the _N. azollae_ evolution in a broader perspective of Nostocales taxonomy, hopefully solving the issue of the _N. azollae_ genus name.
 Within this broader perspective of Nostocales genomes, some symbiotic, some not, we hope to identify clusters of genes shared by symbiotic Nostocales Cyanobacteria and perhaps shared by N. azollae specifically.
 
-### Methods
+## Methods
 Anvio pangenomics
 IQtree
 all scripts, snakemake on github
 
-#### data
+### nanopore sequencing
+flowcells,
+postprocessing
+
+
+### data
 table on the mags we have from chapter \ref{hidden treasures}
 
 table on chloroplasts
@@ -58,7 +63,6 @@ table on chloroplasts
 read data, same as chap3, but skipping Afiliculoides since that is the reference already.
 When multiple samples are available, taking the longest insert size.
 
-### Results
 **Get more data**
 Let's get more info with nanopore Sequencing
  * Nostoc: We have single chromosomes and single plasmids!
@@ -68,6 +72,7 @@ Let's get more info with nanopore Sequencing
    - find mito scaffolds in Azfi assembly
    - recruit nanopore reads
    - assemble, reduce, assemble
+## Results
 
 **Azolla genus**
 * How similar (dis)similar are all *Nostoc azollae* in all *azolla* species. We take the data of chapter 3 and start comparing them.
