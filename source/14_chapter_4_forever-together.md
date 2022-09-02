@@ -66,7 +66,7 @@ When multiple samples are available, taking the longest insert size.
 We aim to to perform comparative genomes and study co-evolution of _N. azollae_ and its host.
 To achieve this, we gather all _N. azollae_ and _Azolla_ plastid genomes that are not available publicly yet.
 First, we use nanopore sequencing to assemble chromosome length assemblies of _N. azollae_ taken the from: the _A. filiculoides_ Galgenwaard strain, from _A. pinnata_, and from _A. sp_ indicated as Bordeaux.
-_A pinnata_ is the only _Azolla_ species that has not been sequenced yet, and it is relativelly far removed from _A. filiculoides_ in the _Azolla_ genus phylogeny (+@fig:fig3_data_overview).
+_A pinnata_ is the only _Azolla_ species that has not been sequenced yet, and it is relativelly far removed from _A. filiculoides_ in the _Azolla_ genus phylogeny (+@fig:fig3_data_overview) [@Metzgar2007].
 We extracted DNA of whole plant fronts using procol `nanopore community protocol`.
 DNA was made into a library with protocol `protocol` and sequenced on a `flowcell` flowcell.
 Sequencing data was basecalled with guppy `guppy version` and uploaded to EBI ENA under accession `EBI accession`.
