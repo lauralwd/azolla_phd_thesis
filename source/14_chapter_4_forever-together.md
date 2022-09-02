@@ -63,24 +63,34 @@ When multiple samples are available, taking the longest insert size.
 ## Results
 
 ### De novo assembly of missing _N. azollae_ strains and _Azolla_ chloroplasts and mitochondria.
-We aim to to perform comparative genomes and study co-evolution of _N. azollae_ and its host.
+We aim to study co-evolution of _N. azollae_ and its host via comparative genomics.
 To achieve this, we gather all _N. azollae_ and _Azolla_ plastid genomes that are not available publicly yet.
-First, we use nanopore sequencing to assemble chromosome length assemblies of _N. azollae_ taken the from: the _A. filiculoides_ Galgenwaard strain, from _A. pinnata_, and from _A. sp_ indicated as Bordeaux.
+We build further upon the _N. azollae_ Metagenome Assembled Genomes (MAGs) assembled in \ref{hidden treasures}.
+Then, we use nanopore sequencing to assemble chromosome length assemblies of _N. azollae_ taken the from: the _A. filiculoides_ Galgenwaard strain, from _A. pinnata_, and from _A. sp_ indicated as Bordeaux.
 _A pinnata_ is the only _Azolla_ species that has not been sequenced yet, and it is relativelly far removed from _A. filiculoides_ in the _Azolla_ genus phylogeny (+@fig:fig3_data_overview) [@Metzgar2007].
 We extracted DNA of whole plant fronts using procol `nanopore community protocol`.
 DNA was made into a library with protocol `protocol` and sequenced on a `flowcell` flowcell.
 Sequencing data was basecalled with guppy `guppy version` and uploaded to EBI ENA under accession `EBI accession`.
 
-Next, we set out to assemble for the first time the _A. filiculoides_ mitochondrial genome.
 The _A. filiculoides_ chloroplast reference genome is available at fernbase [@Li2018] and the _N. azollae_ genome was published by @Ran2010, but the mitochondrial sequence remains unknown.
+Hence, we set out to assemble for the first time the _A. filiculoides_ mitochondrial genome.
 The mitochondrial genome did not appear in the metagenome analysis of chapter \ref{hidden treasures}, hence we start looking for it in the latest _A. filiculoides_ genome assembly.
 We took the _A filiculoides_ genome assembly version 2 [@gungur2022], alligned _A.filiculoides_ Illumina reads to it [@Li2018] and performed metagenomic binning on this assembly.
 Contigs of these bins were mapped with blastn to known fern mitochondrial genomes of _Ophioglossum californicum_ and _Psilotum nudum_ `ref`.
 One bin stood out in particular but was many times the expected size of a mitochondrium (`get nr`).
 Since assembly with PacBio RSII reeds had been unsuccessful in assembling the _A. filiculoides_ mitochondrial genome, we now opted to use the newly acquired nanopore reads of _A. filiculoides_.
-Nanopore reads were selected by mapping to the bin with suspected mitochondrial sequences with minimap2 `ref` and then assembled with flye.
+Nanopore reads were selected by mapping to the bin with suspected mitochondrial sequences with minimap2 [@Li2018a] and then assembled with flye [@Kolmogorov2019].
 This assembly was much smaller `get nrs` than the PacBio RSII one, but still fragmented.
 Redundant contigs were idintified via blast all-vs-all and then removed, resulting in `nr` contigs together constituting the first draft genome of an _Azolla_ mitochondrium.
+The mitochondrial assembly was then annotated using the chlorobox online interface `chlorobox`.
+
+The _A. filiculoides_ chloroplast reference sequence was taken from fernbase, but chloroplasts of other _Azolla_ species are not publicly available.
+These sequences were assembled by @Li2018 for comparative phylogenomics of fern and _N. azollae_, but these are not publicly available via fernbase.
+Therefore, we set out to assemble these de-novo with nanopore or Illumina reads.
+Chloropast nanopore reads were baited in a similar fashion as the mitochondrial nanopore reads and assembled and filtered with flye and Bandage.
+`something about the quality of these assemblies`
+Chloroplast illumina reads were also baited and selected
+
 
 ```
 Idea, I can make a many panel figure displaying the various bandage images
@@ -114,8 +124,16 @@ We assess these assemblies as sufficient and proceed to assembly Illumina assemb
 
 Illumina sequencing based assemblies of _N. azollae were taken from chapter \ref{hidden treasures}, but those of the plasteds still have to be assembled.
 Illumina reads were mapped to the combined reference genome with bwa [@Li2009a], selected with samtools [@Li2009, and then assembled with SPAdes.
-De-novo assemblies of plastids turned out to be highly fragmented (over 300 contigs), hence we opted for a reference guided assembly.
-Assemblies still running...
+De-novo assemblies of plastids turned out to be highly fragmented (over 300 contigs), even when reference sequences were taken into account during assembly using the SPAdes `--trusted-contigs` option.
+We next resorted to assembly via NOVOplasty.
+NOVOplasty itteratively extends a seed sequence known to be from a plastid.
+For chloroplast assembly, a Rubisco DNA sequence was used to assemble chlotoplasts, resulting in circular de-novo chlorplast sequences in x cases namely: .
+Mitochondrial assembly proved to more elusive.
+A seed sequence for maturase K (MatK) yieded in assemblies shorter than 1kb.
+An alternative seed sequence was found in cox1, taken directly from the draft mitochondrial genome assembly of _A. filiculoides_.
+Using this seed sequence, assemblies of appropreate lengts were acquired, except for _A. nilotica_.
+
+`external gene calls for mito?`
 
 insert table with Illumina assembly stats
 * strain
