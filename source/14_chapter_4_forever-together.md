@@ -177,6 +177,8 @@ The same analysis is running over the weekend of the chloroplast and mitochondri
 **co-evolution**
 * Wierd co-evolution tree in @Li2018. Let's do this again and assembly the chloroplasts anew. (and mito to get rid of that too...)
 
+![Coevolution trees pased on phylogenomic core gene set determined in pangenomic analyses.](source/figures/fig4_coevolution_trees.pdf){#fig:fig4_coevolution_tree}
+
 **genomics/synteny**
 whole genome alignment figure:
 * Sync and scaffold assemblies to reference.
