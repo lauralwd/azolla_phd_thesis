@@ -88,6 +88,28 @@ Redundant contigs were idintified via blast all-vs-all and then removed, resulti
 The mitochondrial assembly was then annotated using the chlorobox online interface `chlorobox`.
 
 ![Sequencing and assembly summary of all _N. azollae_ and plastid genomes of the _Azolla_ genus.](source/figures/fig4_assembly_stats.pdf){#fig:fig4_assembly_stats}
+
+For efficient assembly of Nanopore reads, we bait them by organellar genome, _N. azollae_ genome, or fern nuclear genome.
+An extended _A. filiculoides_ reference genome was constructed from the _A. filiculoides_ nuclear genome and chloroplast [@Li2018], _N. azollae_ [@Ran2010], and the draft mitochondrial genome constructed here.
+Nanopore sequencing reads were selected by mapping against this reference a with minimap2 [@Li2018a] and samtools [@Li2009] and then assembled with flye [@Kolmogorov2019].
+These de-novo assemblies were then examined in Bandage `bandage` for homology to their reference.
+The amount of DNA per genome differed substantially in the bulk nanopore library.
+_N. azollae_ sequencing was the most abundant, ranging between 65Mbase and 2.7Gbase (+@fig:fig4_assembly_stats; Sequencing input; _N. azollae_).
+Chloroplast DNA was the second most abundant, ranging between 24 and 240Mbase (+@fig:fig4_assembly_stats; Sequencing input; chloroplast) but still amounting to over 100x coverage over the short genome (+@fig:fig4_assembly_stats; Coverage; chloroplast).
+Mitochondrial DNA however, was very sparse in the DNA extraction ranging between ,3 and 3Mbase (+@fig:fig4_assembly_stats; Sequencing input; mitochondrium), ammounting to no more than 1.5% compared to the _N. azollae_ and nomore than 10x Coverage (+@fig:fig4_assembly_stats; Coverage; mitochondrium).
+Nanopore reads had an N50 between 7 and 13kb, except for the _A. sp._ 'Bordeaux' sample.
+These long reads wil aid in resolving the fragmented assemblies as seen in chapter \ref{hidden treasures}.
+
+With reads subdivided per genome, we set out to assemble the _N. azollae_ genomes first and compare these to earlier acquired _N. azollae_ MAGs.
+the _A. filiculoides_ and _A. pinnata_ assembiles consisted of very few fragments and the majority of the assemblies were contained in one big scaffold for the N50 approached the full genome size (+@fig:fig4_assembly_stats; _N. azollae_ ; Assembled contig count & Assembled length & Assembled N50).
+The _A. filiculoides_ 'lab' nanopore assembly consisted of a circular chromosome and two circular plasmids amounting to 5.5MB in total just as the @Ran2010 assembly (+@fig:fig4_Nazollae_nanopore_assemblies; _Azolla filiculoides_ 'lab').
+The _A. pinnata_ assembly consisted of a circular chromosome and several small fragments (+@fig:fig4_Nazollae_nanopore_assemblies; _Azolla pinnata_).
+The circular chromosome indicates however that this assembly is likely near complete, only missing partial plasmids.
+The _A. sp._ 'Bordeaux' genome assembly was highly fragmented due to low coverage and input data, but still ammounts to 3Mbase and may thus contain half of the _N. azollae_ genome still.
+The nanopore assemblies of _N. azollae_ were much smaller than the MAGs acquired from chapter \ref{hidden treasures}.
+The latter were often between 6.4 and 8Mbase and had much lower N50 values; typically no more than 80kb.
+The full chromosome length assembly of the _A. filiculoides_ lab strain of _N. azollae_ allows us to study chromosomal reconformation in _N. azollae_ on the short term.
+The _A. pinnata_ strain of _N. azollae_ allows us to study the same phenomonen on a longer evolutionary time scale.
 The _A. filiculoides_ chloroplast reference sequence was taken from fernbase, but chloroplasts of other _Azolla_ species are not publicly available.
 These sequences were assembled by @Li2018 for comparative phylogenomics of fern and _N. azollae_, but these are not publicly available via fernbase.
 Therefore, we set out to assemble these de-novo with nanopore or Illumina reads.
