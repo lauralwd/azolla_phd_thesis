@@ -72,8 +72,11 @@ We extracted DNA of whole plant fronts using procol `nanopore community protocol
 DNA was made into a library with protocol `protocol` and sequenced on a `flowcell` flowcell.
 Sequencing data was basecalled with guppy `guppy version` and uploaded to EBI ENA under accession `EBI accession`.
 
+Armed with sequencing data for all _Azolla_ species, we set out to reconstruct the genomes of _N. azollae_, and the _Azolla_ chloroplasts and mitochondria.
+In doing so, we chose de-novo assembly algorithms and supply these with baited reads.
+Baited reads are selected based on their homology to a reference genome of the cyanobacterium or a plastid.
 The _A. filiculoides_ chloroplast reference genome is available at fernbase [@Li2018] and the _N. azollae_ genome was published by @Ran2010, but the mitochondrial sequence remains unknown.
-Hence, we set out to assemble for the first time the _A. filiculoides_ mitochondrial genome.
+Hence, we first set out to assemble for the first time the _A. filiculoides_ mitochondrial genome.
 The mitochondrial genome did not appear in the metagenome analysis of chapter \ref{hidden treasures}, hence we start looking for it in the latest _A. filiculoides_ genome assembly.
 We took the _A filiculoides_ genome assembly version 2 [@gungur2022], alligned _A.filiculoides_ Illumina reads to it [@Li2018] and performed metagenomic binning on this assembly.
 Contigs of these bins were mapped with blastn to known fern mitochondrial genomes of _Ophioglossum californicum_ and _Psilotum nudum_ `ref`.
