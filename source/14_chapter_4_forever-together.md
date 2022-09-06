@@ -110,30 +110,21 @@ The nanopore assemblies of _N. azollae_ were much smaller than the MAGs acquired
 The latter were often between 6.4 and 8Mbase and had much lower N50 values; typically no more than 80kb.
 The full chromosome length assembly of the _A. filiculoides_ lab strain of _N. azollae_ allows us to study chromosomal reconformation in _N. azollae_ on the short term.
 The _A. pinnata_ strain of _N. azollae_ allows us to study the same phenomonen on a longer evolutionary time scale.
+
+Next, we assemble the _Azolla_ chloroplast and mitochondrium genomes from nanopore data.
 The _A. filiculoides_ chloroplast reference sequence was taken from fernbase, but chloroplasts of other _Azolla_ species are not publicly available.
-These sequences were assembled by @Li2018 for comparative phylogenomics of fern and _N. azollae_, but these are not publicly available via fernbase.
-Therefore, we set out to assemble these de-novo with nanopore or Illumina reads.
-Chloropast nanopore reads were baited in a similar fashion as the mitochondrial nanopore reads and assembled and filtered with flye and Bandage.
-`something about the quality of these assemblies`
-Chloroplast illumina reads were also baited and selected
-
-
-
-For efficient assembly, we aim to subdivide the nanopore reads by organellar genome, _N. azollae_ genome, or fern nuclear genome.
-An extended _A filiculoides_ reference genome was constructed from the _A. filiculoides_ nuclear genome and chloroplast [@Li2018], _N. azollae_ [@Ran2010], and the draft mitochondrial genome constructed here.
-Nanopore sequencing reads were selected by mapping against this reference a with minimap2 `ref minimap2` and samtools [@Li2009] and then assembled with flye `ref flye`.
-These de-novo assemblies were then examined in Bandage for homology to their reference.
-First assissing the cyanobacterial assemblies, the _A. filiculoides_ assembly consisted of a circular chromosome and two circular plasmids just as the @Ran2010 assembly.
-The _A. pinnata_ assembly consisted of a circular chromosome and several small fragments.
-The _A. sp._ genome assembly was highly fragmented due to low coverage, but still contained major parts of the _N. azollae_ genome.
-`genome sizes in table`
-
-
-Reads of the chloroplast and mitochondrial genomes were selected and assembled similarly.
-These de-novo assemblies were then examined in Bandage too and rid of any contaminants.
-The _A. filiculoides_ mitochondrium assembled into one linear piece, the _A sp._ in two, and the _A. pinnata_ in multiple smaller pieces.
-The _A. sp._ chloroplast assembled into one circular piece, the _A. filiculoides_ chloroplast in three pieces interconnected in the assembly graph, and the _A. pinnata_ chloroplast into 4 bigger fragments and several small ones, also all interconnected in the assembly graph.
-We assess these assemblies as sufficient and proceed to assembly Illumina assemblies as well.
+These sequences were assembled by @Li2018 for comparative phylogenomics of fern and _N. azollae_, but these are not publicly available.
+Therefore, we set out to assemble these de-novo with nanopore first, and then with Illumina reads.
+Nanopore reads were processed as for _N. azollae_.
+Chloroplast nanopore assemblies were resolved to no more than 9 fragments, and to chromosome scale only in the case of _A. sp._ 'Bordeaux' (+@fig:fig4_assembly_stats; chloroplast ; Assembled contig count & Assembled N50).
+Despite being fragmented, these assembly graphs were circular and have a size approximate to that of the reference.
+This indicates some repetitive regions are not resolved propperly in the assembly process, but the draft genomes are most likely complete (+@fig:fig4_chloroplast_nanopore_assemblies).
+Nanopore read coverage exceeds any minimum threshold for trusting these assemblies (+@fig:fig4_assembly_stats; chloroplast; Coverage).
+Mitochondrium nanopore assemblies are troubled by very limited data input and hence insufficient coverage for assembly (+@fig:fig4_assembly_stats; mitochondrium; Sequencing input & Coverage).
+Still, nanopore assemblies of the mitochondrial genome are resolved to no more than 8 contigs (+@fig:fig4_assembly_stats; mitochondrium; Assembled contig count) although these are not interconnected (+@fig:fig4_mitochondrium_nanopore_assemblies).
+The low coverage and noisy character of nanopore reads suggests that these assemblies may contain a substantial amount of errors.
+We assess the chloroplast assemblies as sufficient and proceed to assemble Illumina assemblies as well.
+In the process, we will also attempt to assemble the mitochondrial genome from Illumina data and compare it to the nanopore assembled mitochondrial genomes.
 
 Illumina sequencing based assemblies of _N. azollae were taken from chapter \ref{hidden treasures}, but those of the plasteds still have to be assembled.
 Illumina reads were mapped to the combined reference genome with bwa [@Li2009a], selected with samtools [@Li2009, and then assembled with SPAdes.
