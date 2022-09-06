@@ -84,6 +84,7 @@ This assembly was much smaller `get nrs` than the PacBio RSII one, but still fra
 Redundant contigs were idintified via blast all-vs-all and then removed, resulting in `nr` contigs together constituting the first draft genome of an _Azolla_ mitochondrium.
 The mitochondrial assembly was then annotated using the chlorobox online interface `chlorobox`.
 
+![Sequencing and assembly summary of all _N. azollae_ and plastid genomes of the _Azolla_ genus.](source/figures/fig4_assembly_stats.pdf){#fig:fig4_assembly_stats}
 The _A. filiculoides_ chloroplast reference sequence was taken from fernbase, but chloroplasts of other _Azolla_ species are not publicly available.
 These sequences were assembled by @Li2018 for comparative phylogenomics of fern and _N. azollae_, but these are not publicly available via fernbase.
 Therefore, we set out to assemble these de-novo with nanopore or Illumina reads.
@@ -102,15 +103,6 @@ The _A. pinnata_ assembly consisted of a circular chromosome and several small f
 The _A. sp._ genome assembly was highly fragmented due to low coverage, but still contained major parts of the _N. azollae_ genome.
 `genome sizes in table`
 
-insert table with
-* strain
-* Nanopore sequencing yield
-* Nazollae/chlorplast/mito
-* Assembly Contigs
-* length
-* N50
-* hits to reference
-* coverage min,mean,max?
 
 Reads of the chloroplast and mitochondrial genomes were selected and assembled similarly.
 These de-novo assemblies were then examined in Bandage too and rid of any contaminants.
@@ -129,17 +121,12 @@ A seed sequence for maturase K (MatK) yieded in assemblies shorter than 1kb.
 An alternative seed sequence was found in cox1, taken directly from the draft mitochondrial genome assembly of _A. filiculoides_.
 Using this seed sequence, assemblies of appropreate lengts were acquired, except for _A. nilotica_.
 
-`external gene calls for mito?`
 
-insert table with Illumina assembly stats
-* strain
-* Nazollae/chlorplast/mito
-* Illumina read pairs
-* Assembly Contigs
-* length
-* (N50)
-* hits to reference
-* coverage min,mean,max?
+
+
+
+
+
 
 ### All _N. azollae_ are highly similar in terms of ANI and gene content but have some unique features
 Armed with _N. azollae_ of all known _Azolla_ strains, we wonder how similar these genomes are in gene content, and if they can be considered separate species or if they are the same.
