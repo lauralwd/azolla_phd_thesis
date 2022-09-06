@@ -126,23 +126,28 @@ The low coverage and noisy character of nanopore reads suggests that these assem
 We assess the chloroplast assemblies as sufficient and proceed to assemble Illumina assemblies as well.
 In the process, we will also attempt to assemble the mitochondrial genome from Illumina data and compare it to the nanopore assembled mitochondrial genomes.
 
-Illumina sequencing based assemblies of _N. azollae were taken from chapter \ref{hidden treasures}, but those of the plasteds still have to be assembled.
-Illumina reads were mapped to the combined reference genome with bwa [@Li2009a], selected with samtools [@Li2009, and then assembled with SPAdes.
-De-novo assemblies of plastids turned out to be highly fragmented (over 300 contigs), even when reference sequences were taken into account during assembly using the SPAdes `--trusted-contigs` option.
-We next resorted to assembly via NOVOplasty.
-NOVOplasty itteratively extends a seed sequence known to be from a plastid.
-For chloroplast assembly, a Rubisco DNA sequence was used to assemble chlotoplasts, resulting in circular de-novo chlorplast sequences in x cases namely: .
-Mitochondrial assembly proved to more elusive.
-A seed sequence for maturase K (MatK) yieded in assemblies shorter than 1kb.
+Finally, we attempt to assemble the plastids' genomes from Illumina data.
+Plastid Illumina reads were baited in a similar fashion as the nanopore reads but using BWA [@Li2009a] rather than minimap2 and then assembled with SPAdes [@Nurk2017].
+De-novo assemblies of plastids turned out to be highly fragmented and too big compared to the reference, even when reference sequences were taken into account during assembly using the SPAdes `--trusted-contigs` option (+@fig:fig4_chloroplast_spades_assemblies).
+The de-novo SPAdes algorithm seemed to be too cautious in collapsing similar contigs into one, and hence created bubbles in the assembly graph.
+The resulting fragmented assembly contains gene fragments and duplicates and hence is unsuited for phylogenomic analyses as we aim to perform here.
+SPAdes assemblies of the mitochondrium were plagued by similar issues (data not shown).
+Hence, we resorted to an alternative method for assembling plastid genomes: NOVOplasty `NOVOplasty`.
+NOVOplasty is not a graph assembler but itteratively extends a seed sequence known to be from a plastid; a Rubisco DNA sequence in the case of the chloroplast.
+It does not rely on baiting reads, but can work with bulk DNA from a WGS project.
+This method resulted in chloroplast assemblies of appropriate length for all _Azolla_ species included here (+@fig:fig4_assembly_stats; chloroplast; Assembled length) and the majority of these assemblies was contained within a single contig in all cases (+@fig:fig4_assembly_stats; chloroplast; Assembled N50).
+Two novoplasty chloroplast assemblies were succesfully circularised, namely: _A. caroliniana_ '2' and _A. rubra_.
+Mitochondrial assembly proved to more elusive however.
+A seed sequence for maturase K (MatK) yieded in assemblies shorter than 1kb (data not shown).
 An alternative seed sequence was found in cox1, taken directly from the draft mitochondrial genome assembly of _A. filiculoides_.
-Using this seed sequence, assemblies of appropreate lengts were acquired, except for _A. nilotica_.
-
-
-
-
-
-
-
+Using this seed sequence, assemblies of appropreate lengts were acquired, except for _A. nilotica_ (+@fig:fig4_assembly_stats; mitochondrium; Assembled length).
+Notably, the Illumina assembly lengths are longer than the nanopore assemblies.
+In contrast to the chloroplast nanopore assemblies, the mitochondrium nanopore assemblies were not circular,
+These observations indicate that the nanopore assemblies may be incomplete.
+The mitochondrium Illumina assemblies are still quite fragmented compared to their nanopore counterparts (+@fig:fig4_assembly_stats; mitochondrium; Assembled contig count & Assembled N50).
+Overall, the chloroplast assemblies of nanopore and Illumina origin are of high quality, near complete and suitable for futher analyses.
+The mitochodrium genomes assembled here are likely incomplete and fragmented.
+Still, these are the very first Azolla mitochondrial draft genomes now publicly available.
 
 ### All _N. azollae_ are highly similar in terms of ANI and gene content but have some unique features
 Armed with _N. azollae_ of all known _Azolla_ strains, we wonder how similar these genomes are in gene content, and if they can be considered separate species or if they are the same.
