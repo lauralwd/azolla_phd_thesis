@@ -75,8 +75,8 @@ When multiple samples are available, taking the longest insert size.
 
 ### De novo assembly of missing _N. azollae_ strains and _Azolla_ chloroplasts and mitochondria.
 We aim to study co-evolution of _N. azollae_ and its host via comparative genomics.
-To achieve this, we gather all _N. azollae_ and _Azolla_ plastid genomes that are not available publicly yet.
-We build further upon the _N. azollae_ Metagenome Assembled Genomes (MAGs) assembled in \ref{hidden treasures}.
+To achieve this, we gather _N. azollae_ and _Azolla_ plastid genomes of all _Azolla_ species
+We build further upon the _N. azollae_ Metagenome Assembled Genomes (MAGs) assembled in chapter \ref{hidden treasures}.
 Then, we use nanopore sequencing to assemble chromosome length assemblies of _N. azollae_ taken the from: the _A. filiculoides_ Galgenwaard strain, from _A. pinnata_, and from _A. sp_ indicated as Bordeaux.
 _A pinnata_ is the only _Azolla_ species that has not been sequenced yet, and it is relativelly far removed from _A. filiculoides_ in the _Azolla_ genus phylogeny (+@fig:fig3_data_overview) [@Metzgar2007].
 We extracted DNA of whole plant fronts using procol `nanopore community protocol`.
