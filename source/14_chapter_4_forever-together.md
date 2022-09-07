@@ -263,6 +263,11 @@ Likely to be skipped:
 ```
 
 ## Discussion
+
+beta-lactam antibiotic genes, rhizosperma may have different way of keeping their leafpocket clean and this is aided by N. azollae. Nazollae defends its niche?
+
+DNA repair and maintainance enriched in rhizosperma --> diversified degradation bewteen rhizosperma and Eukazolla?
+
 **Nostoc in the Azolla symbiosis**
 N. azollae rappid introduction and degradation solidified its presence in the Azolla symbiosis.
 * Co-evolution is ... awaiting trees ...
