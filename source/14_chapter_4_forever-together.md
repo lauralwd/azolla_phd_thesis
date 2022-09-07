@@ -177,21 +177,25 @@ All genomes count similar amount of gene clusters except the Bordeaux strain, 
 The Euazolla section is very similar in ANI; over 97%, but both rhizosperma species are no more than 94% similar to any other _N. azollae_ (+@fig:fig4_Nazollae_pangenome; ANI heatmap).
 Strictly speaking, this means that the _N. azollae_ from _A. pinnata_ and _A. nilotica_ are separate species from the _N. azollae_ in the Eukazolla section.
 For the manuscript, we chose not do make this disctinction.
-_N. azollae_ from _A. filiculoides_ and _A. rubra_ share some genes unique to them, and a smaller selection shared with microphylla/mexicana (+@fig:fig4_Nazollae_pangenome _mexicana_/_microphylla_ accessory).
-`functional enrichment?`
-Finally, the two _A. caroliniana_ strains are not identical, but do share their own specific subset of genes (+@fig:fig4_Nazollae_pangenome Caroliniana accessory)..
-The Bordeaux strain clusters with these two _A. caroliniana_ strains in the phylogenomic tree.
+Regardless, all genomes show low redundancy and high completion scores, supporting both Illumina and nanopore based assemblies are complete.
+A big majority of genes is shared amongst all _N. azollae_. (+@fig:fig4_Nazollae_pangenome; N. azollae core), not regarding any genes missing in the Bordeaux strain.
+Within this core genome, a substantial amount of genes has functional annotation (ncbi COG or KEGG KOFAM).
+Outside this group, the frequency of functional annotation is less.
 
-From all genes in the pangenome, I select a subset of genes that occur in all genomes only once, that have no more than 10% gaps when aligned, and that are no more than 95% identical in sequence. The resulting 27 genes are used for a phylogenomic tree. The resulting phylogeny fits with that already published of the _Azolla_ genus [@Metzgar2007] and matches with the ANI of the pangenome.
-The result then is (preliminary): All N. azollae are very similar, the pinnata and nilotica strain both are quite different (but still very similar). The difference is reflected in annotated genes, but no specific function can be attributed to these genes unique for a group.
+Provided this pangenome of _N. azollae_, we next wondered if certain groups of _N. azollae_ genomes contain unique gene clusters.
+Calculating functional enrichment on such a small number of genomes is not statistically significant, but by comparing both NCBI COG and KEGG KOFAM annotations, we attempt to gain some insight in the functional diversification that happenend within the _N. azollae_ associated with the _Azolla_ genus.
+The Rhizosperma section shares a unique set of genes despite their relatively low ANI (+@fig:fig4_Nazollae_pangenome; _Rhizosperma_).
+These unique clusters include genes associated with carbon metabolism and secondary metabolites.
+KEGG and NCBI functional annotations indicate beta-lactams and Nocardicin biosynthesis genes are enriched.
+Additonally, Cationic AntiMicrobial Peptide (CAMP) resistance are enriched as well.
+Finally, some unique carbohydrate genes are present in these _N. azollae_, including propanoyl-CoA and isoprenoid metabolism.
+Several DNA maintainance and repair enzymes stand out in NCBI COG enriched functions.
+Ceramide biosynthesis!!!Sphingosine biosynthesis
+Ascorbate biosynthesis, animals, glucose-1P => ascorbate
 
-```
-The same analysis is running over the weekend of the chloroplast and mitochondrium, trees should mirror. That will be the next results sub-section. Do these trees mirror.
 
-#todo still: 
-  - Add colours/groupings to the different genomes for functional enrichment. 
-  - long branches Nanopore assemblies, hard to say anything about phylogeny without polishing with illumina data.
-```
+
+
 
 
 ![Pangenome summary of _Azolla_ chloroplasts. Chloroplast genomes were scanned for ORFs and clustered on co-occurence frequencies of these ORFs in the various genomes (centre dendrogram). The presence/absence pattern of gene clusters is shown in a heatmap-like fashion as concentric semi-circles around the dendrogram. Outside the heatmap, SCMG clusters are indicated in Bordeaux red (SCG Clusters) and functional annotation is shown in bright green (NCBI COGGs and KEGG KOFAM). Homeogenity of clusters is calculated as geometric (based on gaps), functional ( based on amino acid residues) and a combined version of these two. The final semi circle shows a manual binning of gene clusters in biologically meaningfull groups, including a phylogenomic_core set of genes, used for building a phylogenomic tree. Adjacent to the genecluster heatmap, several plots are shown. These depict total genome length, GC content, Completion and Redundancy (based on SCMG analysis), genes per kb, Singleton gene clusters, total number of gene clusters, and a matrix showing ANI calculations of all genomes against each other. Finally, a phylogenomic tree is shown which is also used to order the genomes.](source/figures/fig4_Azolla_chloroplast_pangenome.pdf){#fig:fig4_chloroplast_pangenome}
