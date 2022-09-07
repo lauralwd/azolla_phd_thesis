@@ -291,6 +291,9 @@ skipped
 
 ## Supplemental
 
+![Assembly and subsetting of _A. filiculoides_ mitochodrium genome](source/figures/fig4_mitochondrium_assembly_selection.pdf){#fig:fig4_mitochondrium_assembly_selection}
+
+
 ![Assembly summary of _N. azollae_ flye assemblies](source/figures/fig4_Nazollae_nanopore_assemblies.pdf){#fig:fig4_Nazollae_nanopore_assemblies}
 
 ![Assembly summary of chloroplast flye assemblies](source/figures/fig4_chloroplast_nanopore_assemblies.pdf){#fig:fig4_chloroplast_nanopore_assemblies}
