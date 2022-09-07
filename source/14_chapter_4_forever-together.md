@@ -399,26 +399,42 @@ Divalent cation tolerance protein CutA (CutA1) (PDB:1NAQ)
 DNA-binding transcriptional regulator, XRE family (YozG) (PDB:3TYR)
 --->
 
+### Gene selection for comparative phylogenomics
+To study coevolution of _N. azollae_ and the host ferns, we chose a phylogenomics approach.
+Given the strains of fern and cyanobacterium have speciated recently, we select several genes for phylogeny reconstruction.
+These genes must be single copy in all genomes included, and contain nog more than 10% gaps (+@fig:fig4_Nazollae_pangenome; geometric homogeneity).
+Additionally, these genes must be no more than 95% identical in amino acid residues (+@fig:fig4_Nazollae_pangenome; functional homogeneity).  The resulting 27 genes (+@fig:fig4_Nazollae_pangenome; phylogenomic core) are extracted as DNA sequence and stored for phylogenomic inference.
 
-
-
-
-
-
+Next, a chloroplast pangenome is constructed to select genes for pangenomic analysis via similar criteria (+@fig:fig4_chloroplast_pangenome).
+Overall, the chloroplast and the _N. azollae_ pangenome appear highly similar.
+Both pangenomes have a big majority of genes shared amongst all genomes included, and the ANI heatmaps resemble each other as well (+@fig:ANI heatmap).
+_N azollae_ genomes are even more similar (over 90%) to each other than the chloroplast genomes are (over 80%)
+The similarity further supports the tight association of _N. azollae_ with the _Azolla_ genus.
+Also in the chloroplast pangenome, a selection is made of single copy gene clusters present in all genomes.
+These gene clusters must have no more than 10% gaps and no more than 99% identical aminoacid residues.
+The resulting 26 genes are indicated as phylogenomic core (+@fig:fig4_chloroplast_pangenome; phylogenomic core).
+Finally, a mitochondrium pangenome is constructed (+@fig:fig4_mitochondrium_pangenome).
+The mitocondrial pangenome however, contains almost no gene clusters that are present in all _Azolla_ species, thereby making pangenomic analysis impossible.
+This gene cluster pattern is a-typical for a plastid pangenome not exeeding the genus level.
+It may indicate that the mitochodrium genome assemblies are too fragmented, contaminated, incomplete or a combination of these.
+Regardless, a set of 26 chloroplast genes is sufficient for comparative phylogenomics.
+This gene cluster is exported from anvio as alligned DNA sequences and stored for phylogenomic inference.
 
 ![Pangenome summary of _Azolla_ chloroplasts. Chloroplast genomes were scanned for ORFs and clustered on co-occurence frequencies of these ORFs in the various genomes (centre dendrogram). The presence/absence pattern of gene clusters is shown in a heatmap-like fashion as concentric semi-circles around the dendrogram. Outside the heatmap, SCMG clusters are indicated in Bordeaux red (SCG Clusters) and functional annotation is shown in bright green (NCBI COGGs and KEGG KOFAM). Homeogenity of clusters is calculated as geometric (based on gaps), functional ( based on amino acid residues) and a combined version of these two. The final semi circle shows a manual binning of gene clusters in biologically meaningfull groups, including a phylogenomic_core set of genes, used for building a phylogenomic tree. Adjacent to the genecluster heatmap, several plots are shown. These depict total genome length, GC content, Completion and Redundancy (based on SCMG analysis), genes per kb, Singleton gene clusters, total number of gene clusters, and a matrix showing ANI calculations of all genomes against each other. Finally, a phylogenomic tree is shown which is also used to order the genomes.](source/figures/fig4_Azolla_chloroplast_pangenome.pdf){#fig:fig4_chloroplast_pangenome}
 
-
-```
-90% fafa8e
+<!---
+80%/90% fafa8e
 100% 007872
-```
+--->
+
+### co-evolution
 
 
-**co-evolution**
 * Wierd co-evolution tree in @Li2018. Let's do this again and assembly the chloroplasts anew. (and mito to get rid of that too...)
 
 ![Coevolution trees pased on phylogenomic core gene set determined in pangenomic analyses.](source/figures/fig4_coevolution_trees.pdf){#fig:fig4_coevolution_tree}
+**Fork, this is protein data which makes no sense for something so evolutionary recent. Trees running again with nucleotide data**
+
 
 **genomics/synteny**
 whole genome alignment figure:
