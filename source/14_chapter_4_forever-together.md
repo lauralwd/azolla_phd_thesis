@@ -1,4 +1,4 @@
-# Forever together: One nostoc azollae is symbiont to all Azolla species
+# Forever together: One _Nostoc azollae_ is symbiont to all Azolla species
 \label{forever together}
 
 \footnotesize
@@ -97,14 +97,15 @@ Since assembly of PacBio RSII reads with canu had been unsuccessful in resolving
 The bin was subsetted based on blastn bitscores to _O californicum_ and _P nudum_ mitochondrial genomes, and this subset was used to bait nanopore reads.
 These nanopore reads were then assembled with flye [@Kolmogorov2019] and the assembly graph was inspected in Bandage `cite bandage`.
 The assembly totalled at 3.2Mbase, and contained various subgraphs that showed homology to _N. azollae_ and the _A. filiculoides_ chloroplast.
-One circular subgraph showed homology to the _O californicum_ and _P nudum_ mitochondria.
+One circular subgraph showed homology to the _O californicum_ and _P nudum_ mitochondria (+@fig:fig4_mitochondrium_assembly_selection A).
 This mitochodrium subgraph contained 188kb of DNA, more than half in a single contig.
-Smaller redundant contigs were idintified via blast all-vs-all and then removed, resulting in 6 contigs together constituting the first draft genome of an _Azolla_ mitochondrium constituting 141kb.
+Smaller redundant contigs were idintified via blast all-vs-all (+@fig:fig4_mitochondrium_assembly_selection B) and then removed.
+Six contigs remained with minimal redundancy (+@fig:fig4_mitochondrium_assembly_selection C), together constituting the first draft genome of an _Azolla_ mitochondrium of 141kb in total.
 The mitochondria assembly was polished twice with pilon using Illumina reads of the same _Azolla filiculoides_ lab strain, and then annotated using the chlorobox online interface `chlorobox`.
 
 ![Sequencing and assembly summary of all _N. azollae_ and plastid genomes of the _Azolla_ genus.](source/figures/fig4_assembly_stats.pdf){#fig:fig4_assembly_stats}
 
-For efficient assembly of Nanopore reads, we bait them by organellar genome, _N. azollae_ genome, or fern nuclear genome.
+With reference sequences available for all genomes of interest, we proceed in baiting nanopore reads by organellar genome, _N. azollae_ genome, or fern nuclear genome.
 An extended _A. filiculoides_ reference genome was constructed from the _A. filiculoides_ nuclear genome and chloroplast [@Li2018], _N. azollae_ [@Ran2010], and the draft mitochondrial genome constructed here.
 Nanopore sequencing reads were selected by mapping against this reference a with minimap2 [@Li2018a] and samtools [@Li2009] and then assembled with flye [@Kolmogorov2019].
 These de-novo assemblies were then examined in Bandage `bandage` for homology to their reference.
@@ -127,8 +128,8 @@ The full chromosome length assembly of the _A. filiculoides_ lab strain of _N. a
 The _A. pinnata_ strain of _N. azollae_ allows us to study the same phenomonen on a longer evolutionary time scale.
 
 Next, we assemble the _Azolla_ chloroplast and mitochondrium genomes from nanopore data.
-The _A. filiculoides_ chloroplast reference sequence was taken from fernbase, but chloroplasts of other _Azolla_ species are not publicly available.
-These sequences were assembled by @Li2018 for comparative phylogenomics of fern and _N. azollae_, but these are not publicly available.
+The _A. filiculoides_ chloroplast reference sequence was taken from fernbase.
+Chloroplasts of other _Azolla_ species were assembled by @Li2018 for comparative phylogenomics of fern and _N. azollae_, but these are not publicly available.
 Therefore, we set out to assemble these de-novo with nanopore first, and then with Illumina reads.
 Nanopore reads were processed as for _N. azollae_.
 Chloroplast nanopore assemblies were resolved to no more than 9 fragments, and to chromosome scale only in the case of _A. sp._ 'Bordeaux' (+@fig:fig4_assembly_stats; chloroplast ; Assembled contig count & Assembled N50).
@@ -141,7 +142,7 @@ The low coverage and noisy character of nanopore reads suggests that these assem
 We assess the chloroplast assemblies as sufficient and proceed to assemble Illumina assemblies as well.
 In the process, we will also attempt to assemble the mitochondrial genome from Illumina data and compare it to the nanopore assembled mitochondrial genomes.
 
-Finally, we attempt to assemble the plastids' genomes from Illumina data.
+In the final genome assembly effort, we attempt to assemble the plastids' genomes from Illumina data.
 Plastid Illumina reads were baited in a similar fashion as the nanopore reads but using BWA [@Li2009a] rather than minimap2 and then assembled with SPAdes [@Nurk2017].
 De-novo assemblies of plastids turned out to be highly fragmented and too big compared to the reference, even when reference sequences were taken into account during assembly using the SPAdes `--trusted-contigs` option (+@fig:fig4_chloroplast_spades_assemblies).
 The de-novo SPAdes algorithm seemed to be too cautious in collapsing similar contigs into one, and hence created bubbles in the assembly graph.
@@ -155,10 +156,9 @@ Two novoplasty chloroplast assemblies were succesfully circularised, namely: _A.
 Mitochondrial assembly proved to more elusive however.
 A seed sequence for maturase K (MatK) yieded in assemblies shorter than 1kb (data not shown).
 An alternative seed sequence was found in cox1, taken directly from the draft mitochondrial genome assembly of _A. filiculoides_.
-Using this seed sequence, assemblies of appropreate lengts were acquired, except for _A. nilotica_ (+@fig:fig4_assembly_stats; mitochondrium; Assembled length).
-Notably, the Illumina assembly lengths are longer than the nanopore assemblies.
-In contrast to the chloroplast nanopore assemblies, the mitochondrium nanopore assemblies were not circular,
-These observations indicate that the nanopore assemblies may be incomplete.
+Using this seed sequence, assemblies were acquired with similar lengths as the nanopore mitchondrium reference, except for _A. nilotica_ (+@fig:fig4_assembly_stats; mitochondrium; Assembled length).
+The assembly sizes remained stable even when the expected genome size was increased in NOVOplasty settings.
+This indicates that likely the _A. filiculoides_ mitochodrium sequence is substantially shorter than that of _P nudum_ and _O californicum_.
 The mitochondrium Illumina assemblies are still quite fragmented compared to their nanopore counterparts (+@fig:fig4_assembly_stats; mitochondrium; Assembled contig count & Assembled N50).
 Overall, the chloroplast assemblies of nanopore and Illumina origin are of high quality, near complete and suitable for futher analyses.
 The mitochodrium genomes assembled here are likely incomplete and fragmented.
@@ -166,27 +166,17 @@ Still, these are the very first Azolla mitochondrial draft genomes now publicly 
 
 ### All _N. azollae_ are highly similar in terms of ANI and gene content but have some unique features
 Armed with _N. azollae_ genomes of all known _Azolla_ strains, we wonder how similar these genomes are in gene content, and if they can be considered separate species or if they are the same.
-These genomes and the reference from @Ran2010 were processed in an Anvi'o pangenomics workflow [GitHub page].
-This workflow finds ORFs, tries to functionally annotate these via either NCBI COGs or KEGG KOFAMS, maps all ORFs to all ORFs with blastp to then cluster these genes in gene clusters that systematically co-occur in the various genomes.
+These genomes and the reference from @Ran2010 were processed in an Anvi'o pangenomics workflow [github.com/lauralwd/Nostoc_azollae_pangenomics](https://github.com/lauralwd/Nostoc_azollae_pangenomics).
+This workflow finds ORFs, tries to functionally annotate these via NCBI COGs and KEGG KOFAMS, and maps all ORFs to all ORFs with blastp to then cluster these genes in gene clusters that systematically co-occur in the various genomes with MCL clustering coefficient set at 7 `cite MCL threshold`.
 Additionally, Average Nucleotide Identity (ANI) was determined over all regions of the entire genomes that mapped to each other.
 
-![Pangenome summary of _Nostoc azollae_ strains representative of the entire _Azolla_ genus. _N. azollae_ genomes were scanned for ORFs and clustered on co-occurence frequencies of these ORFs in the various genomes (centre dendrogram). The presence/absence pattern of gene clusters is shown in a heatmap-like fashion as concentric semi-circles around the dendrogram. Outside the heatmap, SCMG clusters are indicated in Bordeaux red (SCG Clusters) and functional annotation is shown in bright green (NCBI COGGs and KEGG KOFAM). Homeogenity of clusters is calculated as geometric (based on gaps), functional ( based on amino acid residues) and a combined version of these two. The final semi circle shows a manual binning of gene clusters in biologically meaningfull groups, including a phylogenomic_core set of genes, used for building a phylogenomic tree. Adjacent to the genecluster heatmap, several plots are shown. These depict total genome length, GC content, Completion and Redundancy (based on SCMG analysis), genes per kb, Singleton gene clusters, total number of gene clusters, and a matrix showing ANI calculations of all genomes against each other. Finally, a phylogenomic tree is shown which is also used to order the genomes.](source/figures/fig4_Nostoc_azollae_pangenome.pdf){#fig:fig4_Nazollae_pangenome}
+![Pangenome summary of _Nostoc azollae_ strains representative of the entire _Azolla_ genus. _N. azollae_ genomes were scanned for ORFs and clustered (MCL=7) on co-occurence frequencies of these ORFs in the various genomes (centre dendrogram). The frequency in which gene clusters occur in a genome is shown as barplots drawn as concentric semi-circles around the dendrogram. Outside the heatmap, SCMG clusters are indicated in Bordeaux red (SCG Clusters) and functional annotation is shown in bright green (NCBI COGGs and KEGG KOFAM). Homogenity of clusters is calculated as geometric (few gaps is high homogeneity), functional (matching amino acid residues is high homogeneity) and a combined version of these two. The final semi circle shows a manual binning of gene clusters in biologically meaningfull groups, including a phylogenomic_core set of genes, used for building a phylogenomic tree. Adjacent to the genecluster heatmap, several plots are shown. These depict total genome length, GC content, Completion and Redundancy (based on SCMG analysis), genes per kb, Singleton gene clusters, total number of gene clusters, and a matrix showing ANI calculations of all genomes against each other. Finally, a phylogenomic tree is shown which is also used to order the genomes.](source/figures/fig4_Nostoc_azollae_pangenome.pdf){#fig:fig4_Nazollae_pangenome}
 
 All genomes of _N. azollae_ taken from various _Azolla_ hosts are highly similar both in ANI and in gene content but have some unique features. 
-All genomes count similar amount of gene clusters except the Bordeaux strain.
-The Euazolla section is very similar in ANI `over ...%` but both rhizosperma species are no more than `...%` similar to any other _N. azollae_.
+All genomes count similar amount of gene clusters except the Bordeaux strain, concordant with this assembly being only a portion of the genome (+@fig:fig4_Nazollae_pangenome; Num gene clusters).
+The Euazolla section is very similar in ANI; over 97%, but both rhizosperma species are no more than 94% similar to any other _N. azollae_ (+@fig:fig4_Nazollae_pangenome; ANI heatmap).
 Strictly speaking, this means that the _N. azollae_ from _A. pinnata_ and _A. nilotica_ are separate species from the _N. azollae_ in the Eukazolla section.
 For the manuscript, we chose not do make this disctinction.
-The Bordeaux strain genome assembly stands out for it misses many of the genes shared by other _N. azollae_.
-These are likely missing due to the poor assembly quality, data input was minimal in this assembly and well below the recommended coverage for assembly with flye (10x vs 40x minimum).
-Regardless, all genomes show low redundancy and high completion scores. 
-A big majority of genes is shared amongst all N. azollae. (N. azollae core), not regarding any genes missing in the Bordeaux strain.
-Within this core genome, a substantial amount of genes has functional annotation (ncbi COG or KEGG KOFAM). `count percentage`
-Outside this group, the frequency of functional annotation is less. `count percentage`
-
-The _N. azollae_ genomes show some unique gene clusters (at least with these clustering parameters).
-The Rhizosperma section does share a unique set of genes despite their relatively low ANI (+@fig:fig4_Nazollae_pangenome Rhizosperma accessory).
-`functional enrichment?`
 _N. azollae_ from _A. filiculoides_ and _A. rubra_ share some genes unique to them, and a smaller selection shared with microphylla/mexicana (+@fig:fig4_Nazollae_pangenome _mexicana_/_microphylla_ accessory).
 `functional enrichment?`
 Finally, the two _A. caroliniana_ strains are not identical, but do share their own specific subset of genes (+@fig:fig4_Nazollae_pangenome Caroliniana accessory)..
