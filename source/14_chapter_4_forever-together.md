@@ -403,7 +403,8 @@ DNA-binding transcriptional regulator, XRE family (YozG) (PDB:3TYR)
 To study coevolution of _N. azollae_ and the host ferns, we chose a phylogenomics approach.
 Given the strains of fern and cyanobacterium have speciated recently, we select several genes for phylogeny reconstruction.
 These genes must be single copy in all genomes included, and contain nog more than 10% gaps (+@fig:fig4_Nazollae_pangenome; geometric homogeneity).
-Additionally, these genes must be no more than 95% identical in amino acid residues (+@fig:fig4_Nazollae_pangenome; functional homogeneity).  The resulting 27 genes (+@fig:fig4_Nazollae_pangenome; phylogenomic core) are extracted as DNA sequence and stored for phylogenomic inference.
+Additionally, these genes must be no more than 95% identical in amino acid residues (+@fig:fig4_Nazollae_pangenome; functional homogeneity).
+The resulting 27 genes (+@fig:fig4_Nazollae_pangenome; phylogenomic core) are extracted as DNA and amino acid sequences and stored for phylogenomic inference.
 
 Next, a chloroplast pangenome is constructed to select genes for pangenomic analysis via similar criteria (+@fig:fig4_chloroplast_pangenome).
 Overall, the chloroplast and the _N. azollae_ pangenome appear highly similar.
@@ -416,9 +417,9 @@ The resulting 26 genes are indicated as phylogenomic core (+@fig:fig4_chloroplas
 Finally, a mitochondrium pangenome is constructed (+@fig:fig4_mitochondrium_pangenome).
 The mitocondrial pangenome however, contains almost no gene clusters that are present in all _Azolla_ species, thereby making pangenomic analysis impossible.
 This gene cluster pattern is a-typical for a plastid pangenome not exeeding the genus level.
-It may indicate that the mitochodrium genome assemblies are too fragmented, contaminated, incomplete or a combination of these.
+The pattern may indicate that the mitochodrium genome assemblies are too fragmented, contaminated, incomplete or a combination of these.
 Regardless, a set of 26 chloroplast genes is sufficient for comparative phylogenomics.
-This gene cluster is exported from anvio as alligned DNA sequences and stored for phylogenomic inference.
+This gene cluster is exported from anvio both as DNA and amino acid sequences and stored for phylogenomic inference.
 
 ![Pangenome summary of _Azolla_ chloroplasts. Chloroplast genomes were scanned for ORFs and clustered (MCL=6) on co-occurence frequencies of these ORFs in the various genomes (centre dendrogram). The frequency in which gene clusters occur in a genome is shown as barplots drawn as concentric semi-circles around the dendrogram. Outside the frequency barplots, SCMG clusters are indicated in Bordeaux red (SCG Clusters) and functional annotation is shown in bright green (NCBI COGGs and KEGG KOFAM). Homogenity of clusters is calculated as geometric (few gaps is high homogeneity), functional (matching amino acid residues is high homogeneity) and a combined version of these two. The final semi circle shows a manual binning of gene clusters in biologically meaningfull groups, including a phylogenomic_core set of genes, used for building a phylogenomic tree. Adjacent to the geneclusters, several plots are shown. These depict total genome length, GC content, Completion and Redundancy (based on SCMG analysis), genes per kb, Singleton gene clusters, total number of gene clusters, and a matrix showing ANI calculations of all genomes against each other. ANI values in the heatmap range from 80% to 100%. Finally, a phylogenomic tree is shown which is also used to order the genomes.](source/figures/fig4_Azolla_chloroplast_pangenome.pdf){#fig:fig4_chloroplast_pangenome}
 
@@ -436,7 +437,7 @@ This gene cluster is exported from anvio as alligned DNA sequences and stored fo
 **Fork, this is protein data which makes no sense for something so evolutionary recent. Trees running again with nucleotide data**
 
 
-**genomics/synteny**
+### genomics/synteny
 whole genome alignment figure:
 * Sync and scaffold assemblies to reference.
 * How similar are they genomically
