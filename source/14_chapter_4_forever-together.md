@@ -190,8 +190,216 @@ KEGG and NCBI functional annotations indicate beta-lactams and Nocardicin biosyn
 Additonally, Cationic AntiMicrobial Peptide (CAMP) resistance are enriched as well.
 Finally, some unique carbohydrate genes are present in these _N. azollae_, including propanoyl-CoA and isoprenoid metabolism.
 Several DNA maintainance and repair enzymes stand out in NCBI COG enriched functions.
+<!---
+KEGG_Class
+Pathway module; Biosynthesis of other secondary metabolites; Biosynthesis of beta-lactams
+Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism!!!Pathway modules; Energy metabolism; Carbon fixation!!!Pathway modules; Energy metabolism; Carbon fixation!!!Pathway modules; Lipid metabolism; Lipid metabolism!!!Pathway modules; Biosynthesis of terpenoids and polyketides; Terpenoid backbone biosynthesis!!!Pathway modules; Biosynthesis of terpenoids and polyketides; Terpenoid backbone biosynthesis
+
+KEGG_Module
+Catechol meta-cleavage, catechol => acetyl-CoA / 4-methylcatechol => propanoyl-CoA
+Cationic antimicrobial peptide (CAMP) resistance, dltABCD operon
+Ethylmalonyl pathway!!!Hydroxypropionate-hydroxybutylate cycle!!!Dicarboxylate-hydroxybutyrate cycle!!!Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone!!!C5 isoprenoid biosynthesis, mevalonate pathway!!!C5 isoprenoid biosynthesis, mevalonate pathway, archaea
+Nocardicin A biosynthesis, L-pHPG + arginine + serine => nocardicin A
+
+COG20_CATEGORY
+Lipid transport and metabolism!!!Secondary metabolites biosynthesis, transport and catabolism!!!Secondary metabolites biosynthesis, transport and catabolism
+Secondary metabolites biosynthesis, transport and catabolism!!!Secondary metabolites biosynthesis, transport and catabolism!!!General function prediction only
+General function prediction only!!!Secondary metabolites biosynthesis, transport and catabolism
+Transcription!!!Function unknown
+Transcription!!!Replication, recombination and repair!!!Lipid transport and metabolism
+
+COG20_PATHWAY
+Fatty acid biosynthesis!!!Fatty acid biosynthesis
+
+COG20_FUNCTION
+Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains
+PAS domain (PAS) (PDB:2MWG)!!!GAF domain (GAF)!!!K+-sensing histidine kinase KdpD (KdpD) (PDB:2KSF)
+Predicted nuclease (RNAse H fold)
+Urease gamma subunit (UreA) (PDB:1A5K)
+Two-component sensor histidine kinase, HisKA and HATPase domains (PDB:4R39)
+Acyl carrier protein (AcpP) (PDB:1ACP)!!!EntF, seryl-AMP synthase component  of non-ribosomal peptide synthetase (EntF) (PDB:5ES5)!!!Thioester reductase domain of alpha aminoadipate reductase Lys2 and NRPSs (Lys2b) (PDB:5MSP)
+Acyl carrier protein (AcpP) (PDB:1ACP)!!!EntF, seryl-AMP synthase component  of non-ribosomal peptide synthetase (EntF) (PDB:5ES5)!!!Taurine dioxygenase, alpha-ketoglutarate-dependent (TauD) (PDB:1DRT)
+Phosphoribosyl-AMP cyclohydrolase (HisI1) (PDB:1ZPS)
+Acyl carrier protein (AcpP) (PDB:1ACP)!!!EntF, seryl-AMP synthase component  of non-ribosomal peptide synthetase (EntF) (PDB:5ES5)
+Phenylpyruvate tautomerase PptA, 4-oxalocrotonate tautomerase family (PptA) (PDB:1BJP)
+Predicted Mg-chelatase, contains ChlI-like and ATPase domains, YifB family (YifB)
+EntF, seryl-AMP synthase component  of non-ribosomal peptide synthetase (EntF) (PDB:5ES5)!!!Taurine dioxygenase, alpha-ketoglutarate-dependent (TauD) (PDB:1DRT)!!!Uncharacterized conserved protein, contains a NRPS condensation (elongation) domain
+Predicted aspartyl protease
+Uncharacterized conserved protein YggU, UPF0235/DUF167 family (YggU) (PDB:1JRM)
+Thiosulfate reductase cytochrome b subunit (YdhU)
+DNA-binding transcriptional regulator, MarR family (MarR) (PDB:1JGS)
+Aspartyl/asparaginyl beta-hydroxylase, cupin superfamily (LpxO2)
+Histidinol phosphatase/D-glycero-mannoheptose bisphosphatephosphatase, HAD superfamily (HisB1/GmhB) (PDB:2GMW) (PUBMED:20050615;20050614)
+WD40 repeat (WD40) (PDB:3UVN)!!!Uncharacterized conserved protein, contains caspase domain (PDB:3UO8)
+WD40 repeat (WD40) (PDB:3UVN)!!!Ca2+-binding protein, RTX toxin-related (PDB:1AF0) (PUBMED:15135544)
+Putative component of the toxin-antitoxin plasmid stabilization module
+Transposase and inactivated derivatives, IS30 family (Tra8)!!!CRISPR-associated protein Csa3, CARF domain (Csa3) (PDB:2WTE) (PUBMED:21093452)
+Superfamily II DNA or RNA helicase (SSL2) (PDB:6JDE)!!!Phosphatidylserine/phosphatidylglycerophosphate/cardiolipin synthase (Cls) (PDB:1BYR)
+Predicted P-loop ATPase and inactivated derivatives
+Transposase InsO and inactivated derivatives (Tra5)!!!CRISPR-associated protein Csa3, CARF domain (Csa3) (PDB:2WTE) (PUBMED:21093452)
+Uncharacterized membrane protein YccC (YccC)
+EntF, seryl-AMP synthase component  of non-ribosomal peptide synthetase (EntF) (PDB:5ES5)!!!Taurine dioxygenase, alpha-ketoglutarate-dependent (TauD) (PDB:1DRT)
+Sugar isomerase-related protein YecE, UPF0759/DUF72 family (YecE) (PDB:1VPQ)
+Photosystem II reaction center protein T, PsbT/Ycf8 (PsbT) (PDB:1S5L) (PUBMED:17935689;17967798;20558739;25043005)
+Beta-lactamase class D (YbxI) (PDB:5CTN)
+Periplasmic deferrochelatase/peroxidase EfeB (EfeB) (PDB:2D3Q)
+Chemotaxis response regulator CheB, contains REC and protein-glutamate methylesterase domains (CheB) (PDB:1A2O)
+DNA polymerase III, epsilon subunit or related 3'-5' exonuclease (DnaQ) (PDB:1J53)
+PAS domain (PAS) (PDB:2MWG)!!!Cyclic di-GMP metabolism protein, combines GGDEF and EAL domains with a 6TM membrane domain
+Acyl carrier protein (AcpP) (PDB:1ACP)!!!NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family (FabG) (PDB:6L1H)!!!Acyl transferase domain in polyketide synthase (PKS) enzymes (PksD) (PDB:6IYO)
+Uncharacterized conserved protein, contains PIN-related Mut7-C RNAse domain (Mut7-C)
+MbtH family protein, regulates adenylation domains of NRPSs (MbtH) (PDB:2GPF) (PUBMED:21890635;29921120)
+Uncharacterized membrane protein YecN, MAPEG domain (YecN)
+Cysteine protease, C1A family (PDB:1AEC)
+Septation ring formation regulator EzrA (EzrA) (PDB:4UXV)
+Chlorophyll-binding protein PcbABC/IsiA (IsiA) (PUBMED:32393811)
+Sulfate permease or related transporter, MFS superfamily (SUL1) (PDB:3NY7)
+Cytosine/adenosine deaminase or related metal-dependent hydrolase (SsnA) (PDB:3O7U)
+Type I restriction-modification system, DNA methylase subunit (HsdM) (PDB:2AR0) (PUBMED:26872910)!!!Uncharacterized conserved protein, contains restriction enzyme R protein N terminal (HSDR_N) domain
+ATP-, maltotriose- and DNA-dependent transcriptional regulator MalT (MalT)!!!Uncharacterized conserved protein, contains CHAT domain (PUBMED:11835511)
+--->
+The other main section of the genus; the Euazolla section, also shares a specific set of genes (+@fig:fig4_Nazollae_pangenome; _Euazolla_).
+NCBI COG annotation categorises these almost exclusivelly as signal transduction and defense mechanisms.
+COG functions that reoocur are often associated with DNA replication and repair and membrane chanels.
+KEGG annotation annotates these same clusters as enriched in lipid metabolism and ascorbade biosynthesis.
+KEGG KOfam indicates that enriched genes code for arsenic resistance and components of VapC and FitA Toxin-Antitoxin systems.
+Other clusters visible in the pangenome, like those consisting of _N. azollae_ from _A. filiculoides_ and _A. rubra_ share a unique set of genes as well (+@fig:fig4_Nazollae_pangenome; _filiculoides rubra_).
+Similarly, a smaller selection is shared amongst microphylla/mexicana (+@fig:fig4_Nazollae_pangenome _mexicana_/_microphylla_).
+These subgroups however, do not seem to contain meaningfull clusters of funtionally annotated genes.
+Sumarising, the _N. azollae_ pangenome is highly similar for the vast majority of gene clusters is shared.
+The core cluster of genes comprises 3080 such gene clusters, while the biggest accessory set of gene clusters; the _Rhizosperma_, comprises only 308 gene clusters.
+The minor differences found within this _N. azollae_ pangenome are associated with carbon or lipid metabolism, and defense or antibiotic functions.
+
+<!---
+KEGG_Class
+Pathway modules; Lipid metabolism; Lipid metabolism!!!Pathway modules; Lipid metabolism; Lipid metabolism
+
+KEGG_Module
 Ceramide biosynthesis!!!Sphingosine biosynthesis
 Ascorbate biosynthesis, animals, glucose-1P => ascorbate
+
+KOfam
+tRNA(fMet)-specific endonuclease VapC [EC:3.1.-.-]
+antitoxin FitA
+molybdopterin synthase catalytic subunit [EC:2.8.1.12]
+arsenical resistance protein ArsH
+arsenate reductase (thioredoxin) [EC:1.20.4.4]
+two-component system, sensor histidine kinase PdtaS [EC:2.7.13.3]
+5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]
+alpha-ribazole phosphatase [EC:3.1.3.73]
+ATP phosphoribosyltransferase [EC:2.4.2.17]
+small multidrug resistance pump
+CRISPR-associated protein Csc2
+periplasmic divalent cation tolerance protein
+NAD(P)H-quinone oxidoreductase subunit L [EC:7.1.1.2]
+general L-amino acid transport system substrate-binding protein
+general L-amino acid transport system permease protein
+glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]
+two-component system, OmpR family, manganese sensing response regulator
+glucosamine-6-phosphate deaminase [EC:3.5.99.6]
+glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]
+multiphosphoryl transfer protein [EC:2.7.3.9 2.7.1.202]
+photosystem I P700 chlorophyll a apoprotein A1
+DNA sulfur modification protein DndE
+ArsR family transcriptional regulator, lead/cadmium/zinc/bismuth-responsive transcriptional repressor
+transposase
+nicotinamide mononucleotide transporter
+dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]
+glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]
+protein-glutamine gamma-glutamyltransferase [EC:2.3.2.13]
+histidine triad (HIT) family protein
+polyhydroxyalkanoate synthase subunit PhaC [EC:2.3.1.-]
+metallothionein
+iron complex outermembrane recepter protein
+MerR family transcriptional regulator, redox-sensitive transcriptional activator SoxR
+
+
+COG20_CATEGORY
+Signal transduction mechanisms!!!Signal transduction mechanisms!!!Signal transduction mechanisms!!!General function prediction only!!!Signal transduction mechanisms
+Carbohydrate transport and metabolism!!!Signal transduction mechanisms!!!Carbohydrate transport and metabolism!!!Signal transduction mechanisms
+Cell cycle control, cell division, chromosome partitioning!!!Cell motility!!!Defense mechanisms
+General function prediction only!!!Cell cycle control, cell division, chromosome partitioning
+General function prediction only!!!Signal transduction mechanisms
+Mobilome: prophages, transposons!!!Defense mechanisms
+Nucleotide transport and metabolism!!!Defense mechanisms
+Signal transduction mechanisms!!!Signal transduction mechanisms!!!General function prediction only!!!Signal transduction mechanisms
+Signal transduction mechanisms!!!Signal transduction mechanisms!!!Signal transduction mechanisms!!!General function prediction only
+Signal transduction mechanisms!!!Transcription!!!General function prediction only!!!Signal transduction mechanisms
+
+COG20_FUNCTION
+Wyosine [tRNA(Phe)-imidazoG37] synthetase, radical SAM superfamily (Tyw1) (PDB:2YX0)
+Signal transduction histidine kinase (BaeS) (PDB:1JOY)!!!CheY-like REC (receiver) domain, includes chemotaxis protein CheY  and sporulation regulator Spo0F (CheY) (PDB:6QRJ)!!!GAF domain (GAF)!!!Sensor histidine kinase WalK (WalK) (PDB:4I5S)
+Ribosomal protein S12 methylthiotransferase accessory factor YcaO (YcaO) (PDB:4BS9)
+Type III restriction endonuclease (ResIII)
+Gamma-glutamyltranspeptidase (Ggt) (PDB:2Z8I) (PUBMED:16618936)
+Galactose-1-phosphate uridylyltransferase (GalT) (PDB:1GUP)
+WD40 repeat (WD40) (PDB:3UVN)!!!Membrane protein TolA involved in colicin uptake (TolA) (PDB:1S62)
+Glycerol uptake facilitator or related aquaporin (Major Intrinsic protein Family) (GlpF) (PDB:1FQY)
+Voltage-gated potassium channel Kch (Kch) (PDB:3FWZ)!!!Predicted Kef-type K+ transport protein, K+/H+ antiporter domain (RosB)
+Signal transduction histidine kinase (BaeS) (PDB:1JOY)!!!CheY-like REC (receiver) domain, includes chemotaxis protein CheY  and sporulation regulator Spo0F (CheY) (PDB:6QRJ)!!!PAS domain (PAS) (PDB:2MWG)!!!GAF domain (GAF)
+Thiol-disulfide isomerase or thioredoxin (TrxA) (PDB:1XFL)!!!DNA-binding beta-propeller fold protein YncE (YncE) (PDB:3VGZ) (PUBMED:22120742;28628661)
+Molybdopterin synthase catalytic subunit MoaE (MoaE) (PDB:1FM0) (PUBMED:32239579)
+Serine/threonine protein kinase (SPS1) (PDB:6G4J)!!!PAS domain (PAS) (PDB:2MWG)!!!GAF domain (GAF)!!!Predicted ATPase!!!Signal transduction histidine kinase regulating C4-dicarboxylate transport system (PDB:4GCZ)
+Signal transduction histidine kinase regulating C4-dicarboxylate transport system (PDB:4GCZ)!!!Bacteriophytochrome (light-regulated signal transduction histidine kinase) (PDB:2VEA)
+5-carboxyvanillate decarboxylase LigW (lignin degradation), amidohydro domain (LigW) (PDB:2DVT) (PUBMED:26714575)
+Predicted RNA-binding protein, contains EVE domain (EVE) (PDB:1ZCE) (PUBMED:32652237)
+Acyl-CoA dehydrogenase related to the alkylation response protein AidB (CaiA) (PDB:1BUC)
+Transposase!!!CRISPR-associated protein Csa3, CARF domain (Csa3) (PDB:2WTE) (PUBMED:21093452)
+Phosphoenolpyruvate-protein kinase (PTS system EI component in bacteria) (PtsA) (PDB:1EZA)!!!HPr or related phosphotransfer protein (PtsH) (PDB:1CM2)!!!Phosphotransferase subunit DhaM of the dihydroxyacetone kinase DhaKLM complex, contains PTS-EIIA, HPr, and PEP-utilizing domains (DhaM)
+Nicotinamide riboside transporter PnuC (PnuC) (PDB:4QTN)
+TRAP-type mannitol/chloroaromatic compound transport system, small permease component (FcbT2)
+ABC-type amino acid transport system, permease component (HisM) (PDB:4YMS)
+ABC-type amino acid transport system, permease component (BatB)
+Uncharacterized membrane protein (PUBMED:30962626)
+Uncharacterized conserved protein, contains DUF2059 domain (PDB:2X3O) (PUBMED:15741337)
+Outer membrane receptor protein, Fe transport (CirA) (PDB:1BY3)
+NAD(P)H dehydrogenase cyanobacteria/chloroplast subunit L (NdhL) (PDB:6HUM) (PUBMED:15910282)
+Predicted esterase YcpF, UPF0227 family (YcfP) (PDB:4FLE)
+Serine/threonine protein kinase (SPS1) (PDB:6G4J)!!!Signal transduction histidine kinase (BaeS) (PDB:1JOY)!!!GAF domain (GAF)!!!Predicted ATPase
+Uncharacterized membrane protein, DUF4212 domain
+DNA-binding response regulator, NarL/FixJ family, contains REC and HTH domains (CitB) (PDB:1A04)!!!WD40 repeat (WD40) (PDB:3UVN)!!!Predicted NTPase, NACHT family domain (NACHT)
+L-amino acid N-acyltransferase MnaT (MnaT) (PDB:3DR6) (PUBMED:27941785)
+Molybdopterin biosynthesis enzyme MoaB/MogA (MoaB) (PDB:1DI6) (PUBMED:32239579)
+Signal transduction histidine kinase (BaeS) (PDB:1JOY)!!!CheY-like REC (receiver) domain, includes chemotaxis protein CheY  and sporulation regulator Spo0F (CheY) (PDB:6QRJ)
+N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain (YcbX) (PUBMED:18312271;20118259)
+5-methylthioribulose/5-deoxyribulose/Fuculose 1-phosphate aldolase (methionine salvage, sugar degradation) (AraD) (PDB:1FUA) (PUBMED:31950558)
+Predicted enzyme of the cupin superfamily (PDB:1LKN)
+Putative aminopeptidase FrvX (FrvX) (PDB:1VHE)
+Ketosteroid isomerase-related protein (YesE) (PDB:1Z1S)
+WD40 repeat (WD40) (PDB:3UVN)!!!Septal ring factor EnvC, activator of murein hydrolases AmiA and AmiB (EnvC)
+Site-specific recombinase XerC (XerC)
+Peroxiredoxin (AHP1) (PDB:1H4O)
+Uncharacterized conserved protein, DUF427 family (PDB:3DJM)
+Tetratricopeptide (TPR) repeat (TPR) (PDB:3AS4)!!!Serine/threonine protein kinase (SPS1) (PDB:6G4J)
+Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family (HinT) (PDB:1AV5) (PUBMED:20934431)
+dTDP-D-glucose 4,6-dehydratase (RfbB) (PDB:1G1A)
+ParA-like ATPase involved in chromosome/plasmid partitioning or cellulose biosynthesis protein BcsQ (ParA) (PDB:6NOO)!!!Predicted type IV restriction endonuclease
+Uncharacterized conserved protein, phosphatidylethanolamine-binding protein (PEBP) family (PEBP) (PDB:1A44)
+Curved DNA-binding protein CbpA, contains a DnaJ-like domain (CbpA)
+Lipoprotein NlpI, contains TPR repeats (NlpI) (PDB:5WQL)
+ATP phosphoribosyltransferase (HisG) (PDB:1H3D)
+Uncharacterized conserved protein, DUF924 family (PDB:2I6H)
+UV DNA damage repair endonuclease (Uve) (PDB:2J6V)
+DNA-binding transcriptional regulator, CsgD family (CsgD)
+Plastocyanin domain containing protein (PDB:2MRY)
+Kynurenine formamidase (PDB:1R61)
+Glycyl-tRNA synthetase, alpha subunit (GlyQ) (PDB:1J5W)
+DNAse/DNA nickase specific for phosphorothioated or glycosylated phage DNA, GmrSD/DndB/SspE family, contains DUF262 and HNH nuclease domains (GmrSD) (PDB:6JIV) (PUBMED:17188297;32251370)
+Alkaline phosphatase (PhoA) (PDB:1AJA)
+Predicted ATP-dependent endonucle# Forever together: One nostoc azollae is symbiont to all Azolla speciesase of the OLD family, contains P-loop ATPase and TOPRIM domains (YbjD)
+Two-component response regulator, PleD family, consists of two REC domains and a diguanylate cyclase (GGDEF) domain (PleD) (PDB:1W25)!!!Signal transduction histidine kinase regulating C4-dicarboxylate transport system (PDB:4GCZ)
+Tetratricopeptide (TPR) repeat (TPR) (PDB:3AS4)!!!WD40 repeat (WD40) (PDB:3UVN)
+Protein thiol-disulfide isomerase DsbC (DsbG) (PDB:2HI7)
+Uncharacterized cyanobacterial/plant protein Pro1627, DUF3143 (PF11341) family (Pro1627)
+Beta-galactosidase/beta-glucuronidase (LacZ) (PDB:5N6U) (PUBMED:19291314)
+Predicted type IV restriction endonuclease
+Serine/threonine protein kinase (SPS1) (PDB:6G4J)!!!GAF domain (GAF)!!!Predicted ATPase!!!Signal transduction histidine kinase regulating C4-dicarboxylate transport system (PDB:4GCZ)
+Photosystem I reaction center subunit A1, PsaA (PsaA) (PDB:4KT0) (PUBMED:11687205;11418848)
+Divalent cation tolerance protein CutA (CutA1) (PDB:1NAQ)
+DNA-binding transcriptional regulator, XRE family (YozG) (PDB:3TYR)
+--->
+
+
 
 
 
