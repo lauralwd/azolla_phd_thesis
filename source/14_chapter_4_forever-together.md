@@ -46,13 +46,24 @@ Finally, we aim to embed the _N. azollae_ evolution in a broader perspective of 
 Within this broader perspective of Nostocales genomes, some symbiotic, some not, we hope to identify clusters of genes shared by symbiotic Nostocales Cyanobacteria and perhaps shared by N. azollae specifically.
 
 ## Methods
-Anvio pangenomics
+
+### workflow management and documentation
+snakemake & workflow overview
+
+Anvio 7 pangenomics
+
 IQtree
-all scripts, snakemake on github
+
+R & ggplot2
+
+Mauve
+
+Github
 
 ### nanopore sequencing
 flowcells,
 postprocessing
+
 
 ### data
 table on the mags we have from chapter \ref{hidden treasures}
