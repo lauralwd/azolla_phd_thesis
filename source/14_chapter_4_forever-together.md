@@ -87,16 +87,20 @@ Armed with sequencing data for all _Azolla_ species, we set out to reconstruct t
 In doing so, we chose de-novo assembly algorithms and supply these with baited reads.
 Baited reads are selected based on their homology to a reference genome of the cyanobacterium or a plastid.
 The _A. filiculoides_ chloroplast reference genome is available at fernbase [@Li2018] and the _N. azollae_ genome was published by @Ran2010, but the mitochondrial sequence remains unknown.
-Hence, we first set out to assemble for the first time the _A. filiculoides_ mitochondrial genome.
+In order to bait mitochondrium DNA reads of all _Azolla_ species, we first search for the _A. filiculoides_ mitochondrial genome in previous _Azolla_ studies.
 The mitochondrial genome did not appear in the metagenome analysis of chapter \ref{hidden treasures}, hence we start looking for it in the latest _A. filiculoides_ genome assembly.
-We took the _A filiculoides_ genome assembly version 2 [@gungur2022], alligned _A.filiculoides_ Illumina reads to it [@Li2018] and performed metagenomic binning on this assembly.
+We took the _A filiculoides_ genome assembly version 2 [@gungur2022], alligned _A.filiculoides_ Illumina reads to it [@Li2018] and performed metagenomic binning on this assembly with metabat2 `cite metabat2`.
 Contigs of these bins were mapped with blastn to known fern mitochondrial genomes of _Ophioglossum californicum_ and _Psilotum nudum_ `ref`.
-One bin stood out in particular but was many times the expected size of a mitochondrium (`get nr`).
-Since assembly with PacBio RSII reeds had been unsuccessful in assembling the _A. filiculoides_ mitochondrial genome, we now opted to use the newly acquired nanopore reads of _A. filiculoides_.
-Nanopore reads were selected by mapping to the bin with suspected mitochondrial sequences with minimap2 [@Li2018a] and then assembled with flye [@Kolmogorov2019].
-This assembly was much smaller `get nrs` than the PacBio RSII one, but still fragmented.
-Redundant contigs were idintified via blast all-vs-all and then removed, resulting in `nr` contigs together constituting the first draft genome of an _Azolla_ mitochondrium.
-The mitochondrial assembly was then annotated using the chlorobox online interface `chlorobox`.
+One bin stood out in particular but was many times the expected size of a mitochondrium: near 4.2M instead of between 400kb and 300kb.
+Contigs of this bin were highly redudant, and the bin likely contained various configurations of the mitochondrial genome.
+Since assembly of PacBio RSII reads with canu had been unsuccessful in resolving the mitochodrium structure, we opted to use the newly acquired nanopore reads of _A. filiculoides_.
+The bin was subsetted based on blastn bitscores to _O californicum_ and _P nudum_ mitochondrial genomes, and this subset was used to bait nanopore reads.
+These nanopore reads were then assembled with flye [@Kolmogorov2019] and the assembly graph was inspected in Bandage `cite bandage`.
+The assembly totalled at 3.2Mbase, and contained various subgraphs that showed homology to _N. azollae_ and the _A. filiculoides_ chloroplast.
+One circular subgraph showed homology to the _O californicum_ and _P nudum_ mitochondria.
+This mitochodrium subgraph contained 188kb of DNA, more than half in a single contig.
+Smaller redundant contigs were idintified via blast all-vs-all and then removed, resulting in 6 contigs together constituting the first draft genome of an _Azolla_ mitochondrium constituting 141kb.
+The mitochondria assembly was polished twice with pilon using Illumina reads of the same _Azolla filiculoides_ lab strain, and then annotated using the chlorobox online interface `chlorobox`.
 
 ![Sequencing and assembly summary of all _N. azollae_ and plastid genomes of the _Azolla_ genus.](source/figures/fig4_assembly_stats.pdf){#fig:fig4_assembly_stats}
 
