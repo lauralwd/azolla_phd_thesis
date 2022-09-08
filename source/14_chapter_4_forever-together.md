@@ -437,6 +437,8 @@ The majority of the tree is identical, the _Rhizosperma_ section, the _filiculoi
 Most species (+@fig:fig4_coevolution_trees; green ribons) and samples (+@fig:fig4_coevolution_trees; blue ribons) are placed in similar places in the tree.
 The various assembly techniques seem of no influence on the phylogeny; indicated by consistent grouping of all _A. filiculoides_ associated genomes dispite their varying origin.
 
+![Comparative phylogenimcs on _Azolla_ associated _N. azollae and chloroplasts. Phylogenomic trees were infered on a manually selected set of single copy genes with good allignement scores in the pangenomc analyses (+@fig:fig4_Nazollae_pangenome) and +@fig:fig4_chloroplast_pangenome). Partitioned allignments were processed in IQtree, performing model selection and maximum likelihood tree inference. Matching host species are connected by green ribons; matching samples by blue ones. Inconsistencies in the speciation pattern are indicated by coloured circles.](source/figures/fig4_coevolution_trees.pdf){#fig:fig4_coevolution_trees}
+
 Besides the overall similarity, two exceptions are reproducibly present in the tree: the placement of _A. caroliniana_ is not consistent, nor is the placement of _A. sp._ 'Bordeaux'.
 The cyanobacterium associated with _A. sp._ 'Bordeaux' is placed with _A. caroliniana_, while the chlorolast is placed as a sister group to _A. microphylla_ and _A. mexicana_ (+@fig:fig4_coevolution_trees; Yellow circle).
 Perhaps either clade is misplaced due to assembly artefacts caused by low coverage in the assembly of the associated _N. azollae_ genome.
@@ -446,14 +448,8 @@ The _A. caroliniana_ symbiont is placed as a sister clade of _A. filiculoides_ a
 The phylogenomic signal for this placement was relativelly weak (bootstrap 73).
 In an attempt to further explore the reliability of this node in the tree, various other trees were build with varying sets of genes; being more or less stringent on the homogeneity statistics.
 The placement of the _A. caroliniana_ clade remained the same despite these efforts, often with lower bootstrap values (data not shown).
-
-![Comparative phylogenimcs on _Azolla_ associated _N. azollae and chloroplasts. Phylogenomic trees were infered on a manually selected set of single copy genes with good allignement scores in the pangenomc analyses (+@fig:fig4_Nazollae_pangenome) and +@fig:fig4_chloroplast_pangenome). Partitioned allignments were processed in IQtree, performing model selection and maximum likelihood tree inference. Matching host species are connected by green ribons; matching samples by blue ones. Inconsistencies in the speciation pattern are indicated by coloured circles.](source/figures/fig4_coevolution_trees.pdf){#fig:fig4_coevolution_trees}
-**Fork, this is protein data which makes no sense for something so evolutionary recent. Trees running again with nucleotide data**
-
-The branchlengts between the contradiciting nodes of the tree are quite short.
-Therefore, the phylogentic inference was repeated on DNA allignments of the same gene clusters.
-DNA sequences of these gene clusters were extracted as partitioned allignments.
-IQtree merged the various partitions and fitted models to the alligments: TVM+F+I for Nazollae and blosum62+G4 for the chloroplast.
+In a second effort to test the robustness of this discrepancy, the phylogenomic tree was infered from DNA sequences rather than protein sequences.
+The branchlengths between nodes and boostrap values increased (over 97% bootstrap), but the topology remained the same as that of (+@fig:fig4_coevolution_trees).
 
 ### genomics/synteny
 whole genome alignment figure:
