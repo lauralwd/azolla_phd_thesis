@@ -428,7 +428,7 @@ This gene cluster is exported from anvio both as DNA and amino acid sequences an
 100% 007872
 --->
 
-### co-evolution
+### Phylogeny of _N. azollae_ contradicts the chloroplast phylogeny
 Next we study coevolution by phylogenomic inference on two sets of conserved single copy genes of both chloroplasts and _N. azollae_ taken from the _Azolla_ genus (+@fig:fig4_Nazollae_pangenome & +@fig:fig4_chloroplast_pangenome; phylogenomic core).
 Amino acid sequences of these gene clusters were extracted as partitioned allignments.
 These allignments were submitted to IQtree model selection and ML phylogeny inference.
@@ -507,9 +507,11 @@ Likely to be skipped:
 
 ## Discussion
 
-beta-lactam antibiotic genes, rhizosperma may have different way of keeping their leafpocket clean and this is aided by N. azollae. Nazollae defends its niche?
 
-DNA repair and maintainance enriched in rhizosperma --> diversified degradation bewteen rhizosperma and Eukazolla?
+### coevolution
+_A. caroliniana_ placement matches with figure 6.3 and with @Metzgar2007.
+Still, it doesn't match with Nazollae. Is there exchange, or a history of hybridisation...?
+Also remember, _caroliniana_ sequenced here may be the same species as Anzali is.
 
 **Nostoc in the Azolla symbiosis**
 N. azollae rappid introduction and degradation solidified its presence in the Azolla symbiosis.
@@ -517,11 +519,17 @@ N. azollae rappid introduction and degradation solidified its presence in the Az
 * N. azollae is basically one species, except for pinnata and nilotica, but what does that even mean...
 * Pseudogenation has come to a standstill
 
+
+beta-lactam antibiotic genes, rhizosperma may have different way of keeping their leafpocket clean and this is aided by N. azollae. Nazollae defends its niche?
+
+DNA repair and maintainance enriched in rhizosperma --> diversified degradation bewteen rhizosperma and Eukazolla?
+
 How does the symbiont remain stable
 * bottleneck effect, Muellers ratchet?
    - might polyploidy be involved.
 
 conservedness --> selection presure of presumable symbiosis important genes
+
 
 **nostocales**
 Embed in nostoc/trichormus/anabaena tree for more definitive placing.
@@ -541,7 +549,6 @@ skipped
 
 ![Assembly and subsetting of _A. filiculoides_ mitochodrium genome. (A) Flye assembly graph of nanopore reads suspected to be mitocondrial. The assembly graph visualisation was made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches colour coded by blast hits and connections between these contigs as grey transparent lines. Blast hits of the _Psilotum nudum_ and _Ophioglossum californicum_ mitocondrial genomes (orange and red), the _Azolla filiculoides_ chloroplast (green) and _Nostoc azollae_ (cyan blue) are indicated in the assembly graph. A mitocondrial subgraph (indicated in red square) was selected for futher processing. B Blast all-vs-all visualisation with circo's of the mitocondrial subgraph. Several contigs are fully represented in contig 11. (C) Mitocondrial draft assembly manually rid of redundancy. Blast all-vs-all visualisation with circos.](source/figures/fig4_mitochondrium_assembly_selection.pdf){#fig:fig4_mitochondrium_assembly_selection}
 
-
 ![Assembly summary of _N. azollae_ flye assemblies. Assembly graph visualisations were made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches as randomly coloured strips and connections between these contigs as grey transparent lines. Statistics (right) were also generated with Bandage.](source/figures/fig4_Nazollae_nanopore_assemblies.pdf){#fig:fig4_Nazollae_nanopore_assemblies}
 
 ![Assembly summary of chloroplast flye assemblies. Assembly graph visualisations were made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches as randomly coloured strips and connections between these contigs as grey transparent lines. Statistics (right) were also generated with Bandage.](source/figures/fig4_chloroplast_nanopore_assemblies.pdf){#fig:fig4_chloroplast_nanopore_assemblies}
@@ -551,3 +558,5 @@ skipped
 ![Assembly graphs of chloroplast SPAdes assemblies with baited Illumina reads. Assembly graph visualisations were made with Bandage `cite bandage`. The graphs depict contiguous DNA streches as randomly coloured strips and connections between these contigs as grey transparent lines. Illumina reads of serveral _Azolla_ species were selected based on homology to the _Azolla_ filiculoides_ draft mitochondrium and assembled with SPAdes. These species are _A. nilotica_, _A. caroliniana_ 1 & 2, _A. microphylla_, _A. mexicana_ and _A. rubra_. Species names are indicated above snapshots of the assembly graph, as well as the total assembly size and amount of contigs.](source/figures/fig4_chloroplast_spades_assemblies.pdf){#fig:fig4_chloroplast_spades_assemblies}
 
 ![Pangenome summary of _Azolla_ mitochondria. Mitochondrial genomes were scanned for ORFs and clustered (MCL=3) on co-occurence frequencies of these ORFs in the various genomes (centre dendrogram). The frequency in which gene clusters occur in a genome is shown as barplots drawn as concentric semi-circles around the dendrogram. Outside the frequency barplots, functional annotation is shown in bright green (NCBI COGGs and KEGG KOFAM). Homogenity of clusters is calculated as geometric (few gaps is high homogeneity), functional (matching amino acid residues is high homogeneity) and a combined version of these two. Adjacent to the geneclusters, several plots are shown. These depict total genome length, GC content, genes per kb, Singleton gene clusters and total number of gene clusters.](source/figures/fig4_Azolla_mitochondrium_pangenome.pdf){#fig:fig4_mitochondrium_pangenome}
+
+\nolinenumbers
