@@ -76,19 +76,20 @@ When multiple samples are available, taking the longest insert size.
 ### De novo assembly of missing _N. azollae_ strains and _Azolla_ chloroplasts and mitochondria.
 We aim to study co-evolution of _N. azollae_ and its host via comparative genomics.
 To achieve this, we gather _N. azollae_ and _Azolla_ plastid genomes of all _Azolla_ species
-We build further upon the _N. azollae_ Metagenome Assembled Genomes (MAGs) assembled in chapter \ref{hidden treasures}.
-Then, we use nanopore sequencing to assemble chromosome length assemblies of _N. azollae_ taken the from: the _A. filiculoides_ Galgenwaard strain, from _A. pinnata_, and from _A. sp_ indicated as Bordeaux.
+This genome collection encompasses firstly the _N. azollae_ Metagenome Assembled Genomes (MAGs) assembled in chapter \ref{hidden treasures}.
+The collection is completed with nanopore assembled _N. azollae_ taken the from: the _A. filiculoides_ 'lab' strain, from _A. pinnata_, and from _A. sp_ indicated as Bordeaux.
 _A pinnata_ is the only _Azolla_ species that has not been sequenced yet, and it is relativelly far removed from _A. filiculoides_ in the _Azolla_ genus phylogeny (+@fig:fig3_data_overview) [@Metzgar2007].
-We extracted DNA of whole plant fronts using procol `nanopore community protocol`.
-DNA was made into a library with protocol `protocol` and sequenced on a `flowcell` flowcell.
+DNA was extracted from whole plant fronts using procol `nanopore community protocol`.
+Extracted DNA was made into a library with protocol `protocol` and sequenced on a `flowcell` flowcell.
 Sequencing data was basecalled with guppy `guppy version` and uploaded to EBI ENA under accession `EBI accession`.
 
 Armed with sequencing data for all _Azolla_ species, we set out to reconstruct the genomes of _N. azollae_, and the _Azolla_ chloroplasts and mitochondria.
 In doing so, we chose de-novo assembly algorithms and supply these with baited reads.
 Baited reads are selected based on their homology to a reference genome of the cyanobacterium or a plastid.
 The _A. filiculoides_ chloroplast reference genome is available at fernbase [@Li2018] and the _N. azollae_ genome was published by @Ran2010, but the mitochondrial sequence remains unknown.
-In order to bait mitochondrium DNA reads of all _Azolla_ species, we first search for the _A. filiculoides_ mitochondrial genome in previous _Azolla_ studies.
-The mitochondrial genome did not appear in the metagenome analysis of chapter \ref{hidden treasures}, hence we start looking for it in the latest _A. filiculoides_ genome assembly.
+Baiting mitochondrium DNA reads of all _Azolla_ species requires a mitochodrium draft genome.
+The mitochodrium genome sequence is likely assembled in bulk DNA assemblies from previous studies.
+It did however, not appear in the metagenome analysis of chapter \ref{hidden treasures}, hence we start looking for it in the latest _A. filiculoides_ genome assembly.
 We took the _A filiculoides_ genome assembly version 2 [@gungur2022], alligned _A.filiculoides_ Illumina reads to it [@Li2018] and performed metagenomic binning on this assembly with metabat2 `cite metabat2`.
 Contigs of these bins were mapped with blastn to known fern mitochondrial genomes of _Ophioglossum californicum_ and _Psilotum nudum_ `ref`.
 One bin stood out in particular but was many times the expected size of a mitochondrium: near 4.2M instead of between 400kb and 300kb.
