@@ -18,7 +18,17 @@ Henriette Schluepmann^1^.
 \setlength{\parindent}{0.5in}
 
 ## Introduction
-Cyanobacterial symbiosis in general.
+Cyanobacteria are the only prokaryotes cabable of oxygenic photosynthesis and widely known for being the origin for the chloroplast.
+The chloroplast is a result of endosymbiosis; a symbiotic cyanobacterium became permanently part of the eukaryotic plant cell.
+Today, cyanobacteria are still ubiquitously found in symbiosis with plants.
+These symbioses are often based on the nitrogen fixing capabilities many cyanobacteria have.
+Nitrogen-fixing symbioses between plants and cyanobacteria are often facultative; the cyanobacterium can both enter a symbiotic relationship, or to remain free-living.
+Boreal mosses
+Nostoc punctiforme
+Symbiotic toolkit
+
+Nitrogen fixation and symbiotic nitrogen fixation are not ubiquitous amongst Cyanobacteria.
+A selection of cyanobacteria have likely acquired di-nitrogen fixation genes via horizontal gene transfer, the details and timing of which remain subject to debate [@shi2008; @Latysheva2012a].
 
 _Nostoc azollae_ main symbiont of _Azolla_
  * Main symbiont, N-fixation.
