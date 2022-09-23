@@ -19,16 +19,34 @@ Henriette Schluepmann^1^.
 
 ## Introduction
 Cyanobacteria are the only prokaryotes cabable of oxygenic photosynthesis and widely known for being the origin for the chloroplast.
-The chloroplast is a result of endosymbiosis; a symbiotic cyanobacterium became permanently part of the eukaryotic plant cell.
-Today, cyanobacteria are still ubiquitously found in symbiosis with plants.
-These symbioses are often based on the nitrogen fixing capabilities many cyanobacteria have.
-Nitrogen-fixing symbioses between plants and cyanobacteria are often facultative; the cyanobacterium can both enter a symbiotic relationship, or to remain free-living.
-Boreal mosses
-Nostoc punctiforme
-Symbiotic toolkit
+The chloroplast is a result of endosymbiosis; a symbiotic cyanobacterium became permanently part of the eukaryotic plant cell giving rise to modern day plants.
+Photosynthesis in plants and cyanobacteria drives the global carbon cycle supplied with energy from sunlight.
+The endosymbiosis that turned cyanobacteria into chloroplasts has left its genome in a heavily degraded state.
+Chloroplasts are not considered living solitary prokaryotes anymore.
+Like mitochondria, their genome reduction has made them organelles of a eukaryote host cell.
 
-Nitrogen fixation and symbiotic nitrogen fixation are not ubiquitous amongst Cyanobacteria.
+Besides fixing carbon from the atmosphere -the most abundant element in organic matter- some cyanobacteria can fix atmospheric nitrogen (N~2~) as well.
+Nitrogen is the second most abundant element in organic matter and makes up for more than half of our atmostphere.
+Nitrogen fixation is not ubiquitous amongst Cyanobacteria.
 A selection of cyanobacteria have likely acquired di-nitrogen fixation genes via horizontal gene transfer, the details and timing of which remain subject to debate [@shi2008; @Latysheva2012a].
+Current-day Cyanobacteria that do have this trait may convey its benefits to a plant host through symbiotic associations.
+Plants are often nitrogen limited in non-eutrophic landscapes.
+Hence, N~2~-fixation may be a substantial fitness benefit to a host plant.
+Nitrogen-fixing symbioses between plants and cyanobacteria are often facultative; the cyanobacterium can both enter a symbiotic relationship, or remain free-living.
+These symbioses are most studied in feather mosses, ...
+`examples for context`
+
+`one liner about the point of this paragraph`
+One of the better studied symbiotic cyanobacteria is _Nostoc punctiforme_.
+_N. punctiforme_ can survive as a freeliving cyanobacterium, and it can enter plant host cells where it will fix nitrogen in symbiosis with the host `cite`.
+In contrast to the chloroplast genome, _N. punctiforme_ has an expanded genome size.
+Presumably, this huge genome houses genes to be able to survive in these two drastically different environments; freeliving and intracellularly.
+Most symbiotic Cyanobacteria live extracellarly on their hosts.
+Moss cyanobacteria..
+
+Mechanisms of cyano symbiosis --> Symbiotic toolkit, compare to rhizobiales.
+
+Few examples exist of cyanobacteria in obligate symbioses.
 
 _Nostoc azollae_ main symbiont of _Azolla_
  * Main symbiont, N-fixation.
