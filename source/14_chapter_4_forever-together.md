@@ -47,9 +47,11 @@ Moss cyanobacteria..
 Mechanisms of cyano symbiosis --> Symbiotic toolkit, compare to rhizobiales.
 
 Few examples exist of cyanobacteria in obligate symbioses.
+* @Kneip2008b Rhopalodia gibba
 
 _Nostoc azollae_ main symbiont of _Azolla_
  * Main symbiont, N-fixation.
+ * Nitrogen fixation widely present in Nostocaceae [@Latysheva2012a]
  * present in All _Azolla_
  * cap exchange experiments
  * genus name debate
@@ -524,6 +526,21 @@ About genomics of a symbiont:
 * So much debate about which species it is, can we sovle that here?
    - phylogenomic tree nostoc, trichormus, anabaena.
 
+
+![Pangenome summary of 100 Nostocaceae genomes representing various genera in the family. Nostocaceae genomes were scanned for ORFs and clustered (MCL=2) on co-occurence frequencies of these ORFs in the various genomes (centre dendrogram). The presence or absence of gene clusters in any genome is indicated in black concentric semi-circles around the dendrogram. Outside the gene cluster indicators, SCMG clusters are indicated in Bordeaux red (SCG Clusters) and functional annotation is shown in bright green (NCBI COGGs and KEGG KOFAM). Homogenity of clusters is calculated as geometric (few gaps is high homogeneity), functional (matching amino acid residues is high homogeneity) and a combined version of these two. The final semi circle shows a manual binning of gene clusters in biologically meaningfull groups, including a phylogenomic_core set of genes, used for building a phylogenomic tree. Adjacent to the geneclusters, several plots are shown. These depict total genome length, GC content, Completion and Redundancy (based on SCMG analysis), genes per kb, Singleton gene clusters, total number of gene clusters, and a matrix showing ANI calculations of all genomes against each other. ANI values in the heatmap range from 70% to 100%. Finally, a phylogenomic tree is shown which is also used to order the genomes.](source/figures/fig4_Nostocaceae_pangenome.pdf){#fig:fig4_Nostocaceae_pangenome}
+
+
+Nazollae and Anabaena cylindrica PCC7122 also close in @warschan2017
+
+![Draft for phylogenomic tree](source/figures/fig4_Nostocaceae_phylogenomic_tree.pdf){#fig:fig4_Nostocaceae_phylogenomic_tree}
+
+Perhaps:
+* score nitrogenase presence and type
+* score known symbiont? No, epi- or endophytic.
+* genome size
+* gene count
+* pseudo genes
+
 ```
 Likely to be skipped:
 **Morphology**
@@ -535,6 +552,8 @@ Likely to be skipped:
 ```
 
 ## Discussion
+
+`DNA transfer from chloroplast is frequent: https://www.pnas.org/doi/full/10.1073/pnas.1430924100`
 
 
 ### coevolution
