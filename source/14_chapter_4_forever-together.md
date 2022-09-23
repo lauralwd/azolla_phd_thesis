@@ -18,18 +18,24 @@ Henriette Schluepmann^1^.
 \setlength{\parindent}{0.5in}
 
 ## Introduction
-Cyanobacteria are the only prokaryotes cabable of oxygenic photosynthesis and widely known for being the origin for the chloroplast.
-The chloroplast is a result of endosymbiosis; a symbiotic cyanobacterium became permanently part of the eukaryotic plant cell giving rise to modern day plants.
-Photosynthesis in plants and cyanobacteria drives the global carbon cycle supplied with energy from sunlight.
-The endosymbiosis that turned cyanobacteria into chloroplasts has left its genome in a heavily degraded state.
-Chloroplasts are not considered living solitary prokaryotes anymore.
-Like mitochondria, their genome reduction has made them organelles of a eukaryote host cell.
+Cyanobacteria are the only prokaryotes cabable of oxygenic photosynthesis and widely known for being the origin for chloroplasts in plants.
+The chloroplast is a result of a cyanobacterial endosymbiosis; a symbiotic cyanobacterium permanently became part of a eukaryotic cell approximately 2 billion years ago, giving rise to modern day plants [@Sanchez-Baracaldo2017].
+Since then, plants and cyanobacteria their photosysthesis drive the global carbon cycle supplied with energy from sunlight.
+The chloroplast endosymbiosis event left its genome in a heavily degraded state [Recently reviewed in @Marechal2018].
+Chloroplasts are not considered living solitary prokaryotes anymore for like mitochondria, their genome reduction has made them organelles of a eukaryote host cell.
 
-Besides fixing carbon from the atmosphere -the most abundant element in organic matter- some cyanobacteria can fix atmospheric nitrogen (N~2~) as well.
-Nitrogen is the second most abundant element in organic matter and makes up for more than half of our atmostphere.
+Today, some cyanobacterial taxa still are symbionts with eukaryotes; these symbioses are often based on nitrogen fixation rather than that of carbon.
+`Besides fixing carbon from the atmosphere -the most abundant element in organic matter- some cyanobacteria can fix atmospheric nitrogen (N~2~) as well; nitrogen being the second most abundant element in organic matter.`
 Nitrogen fixation is not ubiquitous amongst Cyanobacteria.
 A selection of cyanobacteria have likely acquired di-nitrogen fixation genes via horizontal gene transfer, the details and timing of which remain subject to debate [@shi2008; @Latysheva2012a].
-Current-day Cyanobacteria that do have this trait may convey its benefits to a plant host through symbiotic associations.
+The relevant genes are called the nif genes; the key enzyme being nitrogenase.
+Three nitrogenase variants are known, being either molybdenum, vanadium or iron depent.
+All versions of nitrogenase cannot function in aerobic circumstances.
+Therefore it is thought that this metabolic cabability evolved prior to the great oxygenation event in a type where nitrogen in fix form was scarce [@Berman-Frank2003 ; @Raven1998; @Latysheva2012a].
+
+Current-day Cyanobacteria that do have this trait may convey its benefits to a host through symbiotic associations.
+The hosts may be plants like cycads, bryophytes and ferns, or lichens.
+
 Plants are often nitrogen limited in non-eutrophic landscapes.
 Hence, N~2~-fixation may be a substantial fitness benefit to a host plant.
 Nitrogen-fixing symbioses between plants and cyanobacteria are often facultative; the cyanobacterium can both enter a symbiotic relationship, or remain free-living.
