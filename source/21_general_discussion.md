@@ -185,3 +185,9 @@ Still, since the association and consequential selection presure are practically
 Alternatively, symbionts may need to reinnoculate their host annew every generation as is the case for Rhizobiales-legume symbioses.
 ...
 No particular mode of transmission of genetic material is more or less relevant to be included in a hologenome, instead the holobiont term must be a usefull concept in research applied appropriately.
+
+```
+Bad jokes
+* payed fern genomic services on onlyferns.com
+* Unlike the Azolla-nostoc symbioses, reading the full extent of this thesis is facultative.
+```
