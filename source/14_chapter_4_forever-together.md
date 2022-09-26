@@ -43,7 +43,7 @@ Recently @Held2022 described how the marine genus _Trichodesmium_ executes these
 
 Cyanobacteria that fix nitrogen may share this trait with a host organism through symbiotic associations.
 The hosts may be plants like cycads, bryophytes and ferns, or other eukaryotes such as lichens, sponges and protists.
-These symbioses take many forms as summarised in Chapter 16 of @Adams2013.
+The origin of host-cyanobacteria symbioses predates the origin of landplants [@Warshan2018], and these symbioses take many forms as summarised in Chapter 16 of @Adams2013.
 Here we regard only plant-cyanobacterial symbioses.
 The fixation of N~2~ may be a trait with a substantial fitness benefit to a host plant.
 Plants are often nitrogen limited in non-eutrophic landscapes, while the atmosphere contains about 78% nitrogen.
@@ -74,6 +74,8 @@ Nazollae heavilty degraded [@Ran2010b]
 
 
 Mechanisms of cyano symbiosis --> Symbiotic toolkit, compare to rhizobiales.
+naringenin chalcone synthase @Eily2019 and @Li2018
+look at the recent rice work
 
 Few examples exist of cyanobacteria in obligate symbioses.
 * @Kneip2008b Rhopalodia gibba
@@ -83,7 +85,7 @@ _Nostoc azollae_ main symbiont of _Azolla_
  * Nitrogen fixation widely present in Nostocaceae [@Latysheva2012a]
  * present in All _Azolla_
  * cap exchange experiments
- * genus name debate
+ * genus name debate @Pereira2014
 
  reliable constant fixation, compared to mosses []@Rousk2022]https://academic.oup.com/aob/article/129/2/147/6386096
 
@@ -101,7 +103,11 @@ _N. azollae_ was first sequenced by @Ran2010, taken from _Azolla filiculoides_.
  * Its genome is heavily degraded
  * Symbiosis bottleneck, did this occur in _Azolla's_  main symbiont? At what stage in the symbiosis.
 
-Here we gather and supplement data of _N. azollae_ and _Azolla_ plasmids associated with the _Azolla_ genus and study their evolution.
+
+genome degradation, transfer modes, facultativeness @Russel2020
+
+
+Here we gather and supplement data of _N. azollae_ and _Azolla_ plasmids associated with the _Azolla_ genus and study their evolution in context of other cyanobacterial symbioses.
 We add long-read data to further resolve the structure of the fragmented _N. azollae_ genome assembly associated with _A. filiculoides_ as sequenced in chapter \ref{hidden treasures}.
 We also add long read data of _A. pinnata_, the only Azolla species that has not been sequenced yet.
 Finally, we add sequencing data of an Azolla strain of unknown taxonomy to us namded Bordeaux after its sampling location.
@@ -570,6 +576,9 @@ include in pangenomics @Gutierrez-Garca2019
  include in pangenomics @Hassani2018
   * https://www.ncbi.nlm.nih.gov/nuccore/CP026681
   * https://www.ncbi.nlm.nih.gov/nuccore/CP026692
+
+Include in pangenomics @Warshan2017
+  * https://gold.jgi.doe.gov/studies?id=Gs0110198
 
 
 ![Pangenome summary of 100 Nostocaceae genomes representing various genera in the family. Nostocaceae genomes were scanned for ORFs and clustered (MCL=2) on co-occurence frequencies of these ORFs in the various genomes (centre dendrogram). The presence or absence of gene clusters in any genome is indicated in black concentric semi-circles around the dendrogram. Outside the gene cluster indicators, SCMG clusters are indicated in Bordeaux red (SCG Clusters) and functional annotation is shown in bright green (NCBI COGGs and KEGG KOFAM). Homogenity of clusters is calculated as geometric (few gaps is high homogeneity), functional (matching amino acid residues is high homogeneity) and a combined version of these two. The final semi circle shows a manual binning of gene clusters in biologically meaningfull groups, including a phylogenomic_core set of genes, used for building a phylogenomic tree. Adjacent to the geneclusters, several plots are shown. These depict total genome length, GC content, Completion and Redundancy (based on SCMG analysis), genes per kb, Singleton gene clusters, total number of gene clusters, and a matrix showing ANI calculations of all genomes against each other. ANI values in the heatmap range from 70% to 100%. Finally, a phylogenomic tree is shown which is also used to order the genomes.](source/figures/fig4_Nostocaceae_pangenome.pdf){#fig:fig4_Nostocaceae_pangenome}
