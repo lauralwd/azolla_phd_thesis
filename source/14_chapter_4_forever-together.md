@@ -565,7 +565,11 @@ Likely to be skipped:
 
 ## Discussion
 
+`Earth nitrogen cycle, incl haber bosch figure @`
+
 `DNA transfer from chloroplast is frequent: https://www.pnas.org/doi/full/10.1073/pnas.1430924100`
+
+`Study cyano's and plants to fix nitrogen, doing it chemically is hard but progress is made: https://pubs.acs.org/doi/10.1021/acs.chemrev.9b00556`
 
 
 ### coevolution
