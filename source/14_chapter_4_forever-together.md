@@ -25,12 +25,14 @@ The chloroplast endosymbiosis event left its genome in a heavily degraded state 
 Chloroplasts are not considered living solitary prokaryotes anymore for like mitochondria, their genome reduction has made them organelles of a eukaryote host cell.
 
 Today, some cyanobacterial taxa still engage in symbiosis with eukaryotes; these symbioses are often based on nitrogen fixation rather than that of carbon.
-Nitrogen fixation is not ubiquitous amongst Cyanobacteria.
+Nitrogen fixation is not ubiquitous but highly polyphyletic amongst Cyanobacteria.
 A selection of cyanobacteria have likely acquired di-nitrogen fixation genes via horizontal gene transfer, the details and timing of which remain subject to debate [@shi2008; @Latysheva2012a].
 The relevant genes are called the nif genes; the key enzyme being nitrogenase.
-Three nitrogenase variants are known, being either molybdenum, vanadium or iron depent `double check and cite`.
+Three nitrogenase variants are known, being either molybdenum-, vanadium- or iron dependent.
+The former is most abundant but may be replaced or amended with Vanadium-based nitrogenase which finds a niche in its increased efficiency at lower temparatures and for being less scarce than Molybdenum [@Nelson2019; @Rousk2017; @Miller1988].
 All versions of nitrogenase cannot function in aerobic circumstances.
 Therefore it is thought that this metabolic cabability evolved prior to the great oxygenation event in a type where nitrogen in fixed form was scarce [@Berman-Frank2003 ; @Raven1998; @Latysheva2012a].
+
 Carbon fixation through photosynthesis is directly metabolicly coupled to light intensity and produces free O~2~.
 Nitrogen fixation, on the other hand, does not directly depend on light for it is driven by ATP and is inhibited by high O~2~ presures.
 Still, nitrogen fixation often happens during the day when photosynthesis is can directly provide the 16 ATP and 8 electrons to reduce a single N~2~ molecule into two NH~3~. `formula`
