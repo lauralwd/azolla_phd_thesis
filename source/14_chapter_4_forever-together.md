@@ -58,19 +58,15 @@ Nitrogen starved plant hosts likely secrete species-specific signaling molecules
 Cyanobacteria may find their symbiotic niche epiphytically on plant leaves and stems, or in specialised structures [@Adams2013].
 Occasionally, Cyanobacteria enter cells of their host and perform their symbiotic niche endophytically.
 
-
-Compared to Rhizobiales ...
-
-`one liner about the point of this paragraph`
-One of the better studied symbiotic cyanobacteria is _Nostoc punctiforme_.
-_N. punctiforme_ can survive as a freeliving cyanobacterium, and it can enter plant host cells where it will fix nitrogen in symbiosis with the host `cite`.
-In contrast to the chloroplast genome, _N. punctiforme_ has an expanded genome size.
-Presumably, this huge genome houses genes to be able to survive in these two drastically different environments; freeliving and intracellularly.
-Most symbiotic Cyanobacteria live extracellarly on their hosts.
-Moss cyanobacteria..
-Go over @Warshan2018 again
-@Kneip2008b shows cyanobacterial endosymbiont of algae that displays genome erosion.
-Nazollae heavilty degraded [@Ran2010b]
+The symbiotic lifestyle can have consequences for the genome of a cyanobacterial symbiont.
+One of the better studied symbiotic cyanobacteria is _Nostoc punctiforme_, can survive as a freeliving cyanobacterium, and it can enter plant host cells where it will fix nitrogen in symbiosis with the host.
+_N. punctiforme_ has a relativelly big genome compared to other _Nostoc_ species, likely to house the metabolic toolkits to survive in these drastically different environments.
+In contrast to such genome expansion of _N. punctiforme_, obligate symbionts often suffer genome degradation.
+The afforementioned chlorplast being an extreme example of this phenomenon.
+@Kneip2008b show how a cyanobacterial endosymbiont of marine algae suffers from genome degradation and the main symbiont of _Azolla_ ferns, _N. azollae_ also is known for its degraded genome [@Ran2010b].
+Epiphytic cyanobacteria do not seem to have drastically expanded genomes.
+Symbiotic _Nostoc_ cyanobacteria seemingly require a small set of genes to enter a symbiosis and this set was frequently lost and gained throughout _Nostoc_ evolution [@Warshan2018].
+This set of genes seems to be involved in nutrient exchange, host recognition and adaptation to the host environment [@Warshan2018].
 
 
 Mechanisms of cyano symbiosis --> Symbiotic toolkit, compare to rhizobiales.
