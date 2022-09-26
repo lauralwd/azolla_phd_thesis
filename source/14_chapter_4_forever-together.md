@@ -41,14 +41,22 @@ Alternatvely, some organisms -including non-filamentous cyanobacteria- separate 
 Nitrogen fixation may be alternated with photosynthesis during the day, or reduced carbon may be stored as glycogen to fuel the nitrogenase reaction overnight [@Berman-Frank2003; @Held2022].
 Recently @Held2022 described how the marine genus _Trichodesmium_ executes these processes simultaneously, but this metabolic feature is deemed to be the exception to the rule.
 
-Current-day Cyanobacteria that fix nitrogen may share this trait with a host organism through symbiotic associations.
-The hosts may be plants like cycads, bryophytes and ferns, or lichens and these symbioses take many forms as summarised in @Adams2013.
-Hence, N~2~-fixation may be a substantial fitness benefit to a host.
+Cyanobacteria that fix nitrogen may share this trait with a host organism through symbiotic associations.
+The hosts may be plants like cycads, bryophytes and ferns, or other eukaryotes such as lichens, sponges and protists.
+These symbioses take many forms as summarised in Chapter 16 of @Adams2013.
+Here we regard only plant-cyanobacterial symbioses.
+The fixation of N~2~ may be a trait with a substantial fitness benefit to a host plant.
 Plants are often nitrogen limited in non-eutrophic landscapes, while the atmosphere contains about 78% nitrogen.
 In acquatic environments, soluble nitrogen forms such as amonium and nitrate are typically denitrifed by microbes and hence unavailable to plants [@Knowles1982].
-Nitrogen-fixing symbioses between plants and cyanobacteria are often facultative; the cyanobacterium can both enter a symbiotic relationship, or remain free-living.
-These symbioses are most studied in feather mosses, ...
-`examples for context`
+The aquatic fern genus _Azolla_ even thrives in nitrogen-free aquatic environments, relying solely on nitrogen fixed from the atmosphere by its obligate symbiont _Nostoc azollae_ [@Brouwer2017c].
+In contrast to the _Azolla_-_Nostoc_ symbiosis, most nitrogen-fixing symbioses between plants and cyanobacteria are facultative; the cyanobacterium can both enter a symbiotic relationship, or remain free-living [@Adams2013].
+
+Plant-cyanobacteria symbioses have evolved multiple times in plants, just as nitrogen fixation itself is polyphyletic amongst cyanobacteria.
+All these symbioses involve filamentous Cyanobacteria that produce nitrogen fixing heterocysts, and may take a motile form termed 'hormogonium' [reviewed in @Adams2013].
+These symbioses are  most abundant and most studied in bryophytes, but evolved independendly in ferns, angiosperms (cycads) and gymnosperms (Gunnera).
+Nitrogen starved plant hosts likely secrete species-specific signaling molecules to attract nitrogen fixing symbionts [@Bay2013a].
+Cyanobacteria may find their symbiotic niche epiphytically on plant leaves and stems, or in specialised structures [@Adams2013].
+Occasionally, Cyanobacteria enter cells of their host and perform their symbiotic niche endophytically.
 
 `one liner about the point of this paragraph`
 One of the better studied symbiotic cyanobacteria is _Nostoc punctiforme_.
