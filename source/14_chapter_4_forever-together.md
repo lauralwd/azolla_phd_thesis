@@ -24,20 +24,26 @@ Since then, plants and cyanobacteria their photosysthesis drive the global carbo
 The chloroplast endosymbiosis event left its genome in a heavily degraded state [Recently reviewed in @Marechal2018].
 Chloroplasts are not considered living solitary prokaryotes anymore for like mitochondria, their genome reduction has made them organelles of a eukaryote host cell.
 
-Today, some cyanobacterial taxa still are symbionts with eukaryotes; these symbioses are often based on nitrogen fixation rather than that of carbon.
-`Besides fixing carbon from the atmosphere -the most abundant element in organic matter- some cyanobacteria can fix atmospheric nitrogen (N~2~) as well; nitrogen being the second most abundant element in organic matter.`
+Today, some cyanobacterial taxa still engage in symbiosis with eukaryotes; these symbioses are often based on nitrogen fixation rather than that of carbon.
 Nitrogen fixation is not ubiquitous amongst Cyanobacteria.
 A selection of cyanobacteria have likely acquired di-nitrogen fixation genes via horizontal gene transfer, the details and timing of which remain subject to debate [@shi2008; @Latysheva2012a].
 The relevant genes are called the nif genes; the key enzyme being nitrogenase.
-Three nitrogenase variants are known, being either molybdenum, vanadium or iron depent.
+Three nitrogenase variants are known, being either molybdenum, vanadium or iron depent `double check and cite`.
 All versions of nitrogenase cannot function in aerobic circumstances.
-Therefore it is thought that this metabolic cabability evolved prior to the great oxygenation event in a type where nitrogen in fix form was scarce [@Berman-Frank2003 ; @Raven1998; @Latysheva2012a].
+Therefore it is thought that this metabolic cabability evolved prior to the great oxygenation event in a type where nitrogen in fixed form was scarce [@Berman-Frank2003 ; @Raven1998; @Latysheva2012a].
+Carbon fixation through photosynthesis is directly metabolicly coupled to light intensity and produces free O~2~.
+Nitrogen fixation, on the other hand, does not directly depend on light for it is driven by ATP and is inhibited by high O~2~ presures.
+Still, nitrogen fixation often happens during the day when photosynthesis is can directly provide the 16 ATP and 8 electrons to reduce a single N~2~ molecule into two NH~3~. `formula`
+Filamentous cyanobacteria solved the incompatibility of these process by spatially separating them; nitrogen fixation occurs in separate cells: heterocysts.
+Alternatvely, some organisms -including non-filamentous cyanobacteria- separate these processes on a temporal scale [@Berman-Frank2003].
+Nitrogen fixation may be alternated with photosynthesis during the day, or reduced carbon may be stored as glycogen to fuel the nitrogenase reaction overnight [@Berman-Frank2003; @Held2022].
+Recently @Held2022 described how the marine genus _Trichodesmium_ executes these processes simultaneously, but this metabolic feature is deemed to be the exception to the rule.
 
-Current-day Cyanobacteria that do have this trait may convey its benefits to a host through symbiotic associations.
-The hosts may be plants like cycads, bryophytes and ferns, or lichens.
-
-Plants are often nitrogen limited in non-eutrophic landscapes.
-Hence, N~2~-fixation may be a substantial fitness benefit to a host plant.
+Current-day Cyanobacteria that fix nitrogen may share this trait with a host organism through symbiotic associations.
+The hosts may be plants like cycads, bryophytes and ferns, or lichens and these symbioses take many forms as summarised in @Adams2013.
+Hence, N~2~-fixation may be a substantial fitness benefit to a host.
+Plants are often nitrogen limited in non-eutrophic landscapes, while the atmosphere contains about 78% nitrogen.
+In acquatic environments, soluble nitrogen forms such as amonium and nitrate are typically denitrifed by microbes and hence unavailable to plants [@Knowles1982].
 Nitrogen-fixing symbioses between plants and cyanobacteria are often facultative; the cyanobacterium can both enter a symbiotic relationship, or remain free-living.
 These symbioses are most studied in feather mosses, ...
 `examples for context`
