@@ -58,6 +58,9 @@ Nitrogen starved plant hosts likely secrete species-specific signaling molecules
 Cyanobacteria may find their symbiotic niche epiphytically on plant leaves and stems, or in specialised structures [@Adams2013].
 Occasionally, Cyanobacteria enter cells of their host and perform their symbiotic niche endophytically.
 
+
+Compared to Rhizobiales ...
+
 `one liner about the point of this paragraph`
 One of the better studied symbiotic cyanobacteria is _Nostoc punctiforme_.
 _N. punctiforme_ can survive as a freeliving cyanobacterium, and it can enter plant host cells where it will fix nitrogen in symbiosis with the host `cite`.
@@ -65,6 +68,10 @@ In contrast to the chloroplast genome, _N. punctiforme_ has an expanded genome s
 Presumably, this huge genome houses genes to be able to survive in these two drastically different environments; freeliving and intracellularly.
 Most symbiotic Cyanobacteria live extracellarly on their hosts.
 Moss cyanobacteria..
+Go over @Warshan2018 again
+@Kneip2008b shows cyanobacterial endosymbiont of algae that displays genome erosion.
+Nazollae heavilty degraded [@Ran2010b]
+
 
 Mechanisms of cyano symbiosis --> Symbiotic toolkit, compare to rhizobiales.
 
@@ -78,11 +85,17 @@ _Nostoc azollae_ main symbiont of _Azolla_
  * cap exchange experiments
  * genus name debate
 
+ reliable constant fixation, compared to mosses []@Rousk2022]https://academic.oup.com/aob/article/129/2/147/6386096
+
 Symbiosis co-evolution. How does _N. azollae_ compare to other known examples.
  * very strict inheritance
  * Exception in Li et al tree?
    - compare to chloroplast, how about mitochondrium?
  * Common introduction in the genus.
+ * 4 complete cyanobiont genomes: @Nelson2019
+
+ comparative genomics... Nelson2019
+ specific gene clusters @Gutierrez-Garca2019
 
 _N. azollae_ was first sequenced by @Ran2010, taken from _Azolla filiculoides_.
  * Its genome is heavily degraded
@@ -547,6 +560,16 @@ About genomics of a symbiont:
 
 * So much debate about which species it is, can we sovle that here?
    - phylogenomic tree nostoc, trichormus, anabaena.
+
+include in pangenomics @Gutierrez-Garca2019
+ * PRJNA472998
+ * PRJNA360315
+ * PRJNA360305
+ * PRJNA360300
+
+ include in pangenomics @Hassani2018
+  * https://www.ncbi.nlm.nih.gov/nuccore/CP026681
+  * https://www.ncbi.nlm.nih.gov/nuccore/CP026692
 
 
 ![Pangenome summary of 100 Nostocaceae genomes representing various genera in the family. Nostocaceae genomes were scanned for ORFs and clustered (MCL=2) on co-occurence frequencies of these ORFs in the various genomes (centre dendrogram). The presence or absence of gene clusters in any genome is indicated in black concentric semi-circles around the dendrogram. Outside the gene cluster indicators, SCMG clusters are indicated in Bordeaux red (SCG Clusters) and functional annotation is shown in bright green (NCBI COGGs and KEGG KOFAM). Homogenity of clusters is calculated as geometric (few gaps is high homogeneity), functional (matching amino acid residues is high homogeneity) and a combined version of these two. The final semi circle shows a manual binning of gene clusters in biologically meaningfull groups, including a phylogenomic_core set of genes, used for building a phylogenomic tree. Adjacent to the geneclusters, several plots are shown. These depict total genome length, GC content, Completion and Redundancy (based on SCMG analysis), genes per kb, Singleton gene clusters, total number of gene clusters, and a matrix showing ANI calculations of all genomes against each other. ANI values in the heatmap range from 70% to 100%. Finally, a phylogenomic tree is shown which is also used to order the genomes.](source/figures/fig4_Nostocaceae_pangenome.pdf){#fig:fig4_Nostocaceae_pangenome}
