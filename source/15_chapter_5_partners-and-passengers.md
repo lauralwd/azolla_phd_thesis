@@ -1,5 +1,5 @@
 # Partners & Passengers?
-\label{partners and passengers}
+\label{partners_and_passengers}
 
 * @Tripp2017
 * @Levy2018 genomic features of bacterial adaptation to Plants

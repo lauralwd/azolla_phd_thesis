@@ -103,7 +103,7 @@ Each respresented species of the _Azolla_ genus yielded between 12 and 22 associ
 The majority of these genomes belong only to six taxonomical orders present in the majority of the entire _Azolla_ genus.
 The systematic presence of these taxonomic groups suggests they be selected for in the _Azolla_ symbiosis and they may be vertically transfered over host generations as is the main symbiont _N. azollae_.
 
-__\nameref{metagenomics practical}__ on page \pageref{metagenomics practical} illustrates a educational practical based on these first two chapters.
+__\nameref{metagenomics_practical}__ on page \pageref{metagenomics_practical} illustrates a educational practical based on these first two chapters.
 I designed a practical to teach the basic metagenomics principles and techniques to Life Sciences students with some form of coding experience.
 The practical introduces the Bash language and tries to learn the main concepts behind metagenomics through a hands-on approach.
 It starts with a metagenome assembly, and guides the students through DNA mapping, binning, quality control, gene annotation and finally plotting of metabolic pathways.
@@ -129,7 +129,7 @@ Contrasting earlier theories, we propose that _N. azollae_ does not colonise dev
 Instead, we theorise that they colonise early sporocarp initials, but are only retained in megasporocarps.
 This method of transmission is identical to colonisation of leaf primordia, hence requires no separate machinery and explains consistent observation of _N. azollae_ in very young microsporocarps.
 
-In __chapter \ref{phylogeny workflow}__ (\nameref{phylogeny workflow} on page \pageref{phylogeny workflow}) describes a workflow for creating large and state-of-the-art phylogentic trees of gene families in landplants.
+In __chapter \ref{phylogeny_workflow}__ (\nameref{phylogeny_workflow} on page \pageref{phylogeny_workflow}) describes a workflow for creating large and state-of-the-art phylogentic trees of gene families in landplants.
 Studying fern genetics, the _Azolla_ lab often deals with fern genes homologous (similar in sequence) to a seedplant gene.
 With phylogeny, we aim to assess the evolution of a gene family and orthology/paralogy of _Azolla_ genes to model species their genes.
 While many user friendly methods exist to create phylogenetic trees, these are often either closed-source, or their performance is limited.

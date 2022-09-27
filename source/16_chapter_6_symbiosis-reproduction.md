@@ -1,7 +1,7 @@
 \singlespacing
 \setlength{\parindent}{0.0in}
 # It takes two: Far-Red light induces the  _Azolla filiculoides_ symbiosis sexual reproduction; triggering symbiont _Nostoc azollae_ transporters and _A. filiculoides_ GAMYB and MIKCc transcription factors.
-\label{it takes two}
+\label{it_takes_two}
 
 \footnotesize
 

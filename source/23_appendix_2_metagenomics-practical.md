@@ -1,2 +1,2 @@
 # Appendix B: Metagenomics practical
-\label{metagenomics practical}
+\label{metagenomics_practical}

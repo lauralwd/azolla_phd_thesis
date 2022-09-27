@@ -1,2 +1,2 @@
 # phylogeny workflow
-\label{phylogeny workflow}
+\label{phylogeny_workflow}

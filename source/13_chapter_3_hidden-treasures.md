@@ -1,7 +1,7 @@
 \singlespacing
 \setlength{\parindent}{0.0in}
 # Hidden treasures: public sequencing data of symbiotic _Azolla_ ferns harbours a genus-wide metagenome
-\label{hidden treasures}
+\label{hidden_treasures}
 
 \footnotesize
 
