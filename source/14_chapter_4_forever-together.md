@@ -104,7 +104,7 @@ genome degradation, transfer modes, facultativeness @Russel2020
 
 
 Here we gather and supplement data of _N. azollae_ and _Azolla_ plasmids associated with the _Azolla_ genus and study their evolution in context of other cyanobacterial symbioses.
-We add long-read data to further resolve the structure of the fragmented _N. azollae_ genome assembly associated with _A. filiculoides_ as sequenced in chapter \ref{hidden treasures}.
+We add long-read data to further resolve the structure of the fragmented _N. azollae_ genome assembly associated with _A. filiculoides_ as sequenced in chapter \ref{hidden_treasures}.
 We also add long read data of _A. pinnata_, the only Azolla species that has not been sequenced yet.
 Finally, we add sequencing data of an Azolla strain of unknown taxonomy to us namded Bordeaux after its sampling location.
 With this data on _N. azollae_ and the _Azolla_ genus plastids, we describe the genomic variety of the main symbiont and its co-evolution with its host.
@@ -133,7 +133,7 @@ postprocessing
 
 
 ### data
-table on the mags we have from chapter \ref{hidden treasures}
+table on the mags we have from chapter \ref{hidden_treasures}
 
 read data, same as chap3, but skipping Afiliculoides since that is the reference already.
 When multiple samples are available, taking the longest insert size.
@@ -143,7 +143,7 @@ When multiple samples are available, taking the longest insert size.
 ### De novo assembly of missing _N. azollae_ strains and _Azolla_ chloroplasts and mitochondria.
 We aim to study co-evolution of _N. azollae_ and its host via comparative genomics.
 To achieve this, we gather _N. azollae_ and _Azolla_ plastid genomes of all _Azolla_ species
-This genome collection encompasses firstly the _N. azollae_ Metagenome Assembled Genomes (MAGs) assembled in chapter \ref{hidden treasures}.
+This genome collection encompasses firstly the _N. azollae_ Metagenome Assembled Genomes (MAGs) assembled in chapter \ref{hidden_treasures}.
 The collection is completed with nanopore assembled _N. azollae_ taken the from: the _A. filiculoides_ 'lab' strain, from _A. pinnata_, and from _A. sp_ indicated as Bordeaux.
 _A pinnata_ is the only _Azolla_ species that has not been sequenced yet, and it is relativelly far removed from _A. filiculoides_ in the _Azolla_ genus phylogeny (+@fig:fig3_data_overview) [@Metzgar2007].
 DNA was extracted from whole plant fronts using procol `nanopore community protocol`.
@@ -156,7 +156,7 @@ Baited reads are selected based on their homology to a reference genome of the c
 The _A. filiculoides_ chloroplast reference genome is available at fernbase [@Li2018] and the _N. azollae_ genome was published by @Ran2010, but the mitochondrial sequence remains unknown.
 Baiting mitochondrium DNA reads of all _Azolla_ species requires a mitochodrium draft genome.
 The mitochodrium genome sequence is likely assembled in bulk DNA assemblies from previous studies.
-It did however, not appear in the metagenome analysis of chapter \ref{hidden treasures}, hence we start looking for it in the latest _A. filiculoides_ genome assembly.
+It did however, not appear in the metagenome analysis of chapter \ref{hidden_treasures}, hence we start looking for it in the latest _A. filiculoides_ genome assembly.
 We took the _A filiculoides_ genome assembly version 2 [@gungur2022], alligned _A.filiculoides_ Illumina reads to it [@Li2018] and performed metagenomic binning on this assembly with metabat2 `cite metabat2`.
 Contigs of these bins were mapped with blastn to known fern mitochondrial genomes of _Ophioglossum californicum_ and _Psilotum nudum_ `ref`.
 One bin stood out in particular but was many times the expected size of a mitochondrium: near 4.2M instead of between 400kb and 300kb.
@@ -182,7 +182,7 @@ _N. azollae_ sequencing was the most abundant, ranging between 65Mbase and 2.7Gb
 Chloroplast DNA was the second most abundant, ranging between 24 and 240Mbase (+@fig:fig4_assembly_stats; Sequencing input; chloroplast) but still amounting to over 100x coverage over the short genome (+@fig:fig4_assembly_stats; Coverage; chloroplast).
 Mitochondrial DNA however, was very sparse in the DNA extraction ranging between ,3 and 3Mbase (+@fig:fig4_assembly_stats; Sequencing input; mitochondrium), ammounting to no more than 1.5% compared to the _N. azollae_ and nomore than 10x Coverage (+@fig:fig4_assembly_stats; Coverage; mitochondrium).
 Nanopore reads had an N50 between 7 and 13kb, except for the _A. sp._ 'Bordeaux' sample.
-These long reads wil aid in resolving the fragmented assemblies as seen in chapter \ref{hidden treasures}.
+These long reads wil aid in resolving the fragmented assemblies as seen in chapter \ref{hidden_treasures}.
 
 With reads subdivided per genome, we set out to assemble the _N. azollae_ genomes first and compare these to earlier acquired _N. azollae_ MAGs.
 the _A. filiculoides_ and _A. pinnata_ assembiles consisted of very few fragments and the majority of the assemblies were contained in one big scaffold for the N50 approached the full genome size (+@fig:fig4_assembly_stats; _N. azollae_ ; Assembled contig count & Assembled length & Assembled N50).
@@ -190,7 +190,7 @@ The _A. filiculoides_ 'lab' nanopore assembly consisted of a circular chromosome
 The _A. pinnata_ assembly consisted of a circular chromosome and several small fragments (+@fig:fig4_Nazollae_nanopore_assemblies; _Azolla pinnata_).
 The circular chromosome indicates however that this assembly is likely near complete, only missing partial plasmids.
 The _A. sp._ 'Bordeaux' genome assembly was highly fragmented due to low coverage and input data, but still ammounts to 3Mbase and may thus contain half of the _N. azollae_ genome still.
-The nanopore assemblies of _N. azollae_ were much smaller than the MAGs acquired from chapter \ref{hidden treasures}.
+The nanopore assemblies of _N. azollae_ were much smaller than the MAGs acquired from chapter \ref{hidden_treasures}.
 The latter were often between 6.4 and 8Mbase and had much lower N50 values; typically no more than 80kb.
 The full chromosome length assembly of the _A. filiculoides_ lab strain of _N. azollae_ allows us to study chromosomal reconformation in _N. azollae_ on the short term.
 The _A. pinnata_ strain of _N. azollae_ allows us to study the same phenomonen on a longer evolutionary time scale.

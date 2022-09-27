@@ -65,7 +65,7 @@ Full metagenomic sequencing would be a less biased assessment to study all organ
 
 Full metagenomics sequencing is inefficient if symbionts are lowly abundant in plant tissue; hence, the method becomes cost-inefficient.
 Alternatively, symbiont genomes may be retrieved from sequencing data already available in data repositories; capitalising on opportunities of the FAIR data age and its diversity.
-We demonstrated this before in chapter \ref{foul play}, where we serendipitously found bacterial genomes as a by-product of the _A. filiculoides_ genome assembly.
+We demonstrated this before in chapter \ref{foul_play}, where we serendipitously found bacterial genomes as a by-product of the _A. filiculoides_ genome assembly.
 @Delmont2016 extracted three bacterial genomes from the tardigrade genome similarly, using advanced visualisation and multiple sequencing libraries to puzzle apart the scaffolds of multiple organisms in a single assembly.
 Additionally, a study may benefit from using public data for the scope of the inquiry can be easily widened to include related species and their metagenomes.
 Naturally, the feasibility of such an undertaking depends on data availability in repositories and the complexity of the bacterial community associated with any host.
@@ -99,20 +99,20 @@ Conversely, the apparent benefit of culture-based techniques is the availability
 The uncertainty in classifying bacteria to a genus or species complicates estimating the identity and diversity microbial endophytes in _Azolla_ [@Nierzwicki-Bauer1991; @Leonardi1993].
 Nonetheless, _Arthrobacter_ is the most well-known genus associated with _Azolla_ ferns in these studies [@Petro1987].
 It remains unclear if all species previously characterised by morphological features are identical or distinct bacteria.
-In Chapter \ref{foul play} [@Dijkhuizen2018], we found DNA sequences of Rhizobiales and Burkholderiales associated with _A. filiculoides_.
+In Chapter \ref{foul_play} [@Dijkhuizen2018], we found DNA sequences of Rhizobiales and Burkholderiales associated with _A. filiculoides_.
 These may be genome sequences of the bacteria observed in earlier work.
 Additionally, we found evidence that these microbes may be present more widely in differing species of the _Azolla_ genus; they were not detected in the surrounding water we sampled, based on 16S data and read recruitment to reference genomes.
 
 Regarding the function of _Azolla_ associated bacteria, many theories coexist in the literature that are not mutually exclusive.
-In our previous work [Chapter \ref{foul play}\; @Dijkhuizen2018], we wondered whether these bacteria are foul players parasitising on the nitrogen fixed in the _Azolla_ symbiosis or if they are a third symbiotic party of benefit to the symbiosis, as did @Carrapico1991.
+In our previous work [Chapter \ref{foul_play}\; @Dijkhuizen2018], we wondered whether these bacteria are foul_players parasitising on the nitrogen fixed in the _Azolla_ symbiosis or if they are a third symbiotic party of benefit to the symbiosis, as did @Carrapico1991.
 The seminal paper on the additional microbes of _Azolla_, @Wallace1986, already found that isolates from _Azolla_ leaves can denitrify NO~3~ to N~2~, indicating these microbes may gain energy from the ammonia fixed by _N. azollae_.
-However, in Chapter \ref{foul play} [@Dijkhuizen2018], we found that the microbes whose genomes encode this pathway are outside the plant rather than inside the leaf cavities.
+However, in Chapter \ref{foul_play} [@Dijkhuizen2018], we found that the microbes whose genomes encode this pathway are outside the plant rather than inside the leaf cavities.
 Additionally, we found no pathway to convert NH~4~ to NO~3~ in bacteria associated with _A. filiculoides_.
 A second theory is that the other bacteria are mucilage producers, possibly facilitating a polysaccharide matrix for the _Azolla_-_Nostoc_ symbiosis [@Forni1992; @Zheng2009].
 This hypothetical function is mainly attributed to a bacterium identified as _Arthrobacter_ [@Forni1992; @Forni1998].
 A third theory is that the additional bacteria inside _Azolla_ leaves may also fix N~2~, mirroring the niche of the cyanobacterial symbiont.
 @Lindblad1991 found these enzymes expressed inside _Azolla_ leaf bacteria by immunogold labelling and TEM.
-In Chapter \ref{foul play} [@Dijkhuizen2018], we did not find evidence for this process, both in  N~2~^15^ labelling experiments and in the analyses of the genomes we sequenced.
+In Chapter \ref{foul_play} [@Dijkhuizen2018], we did not find evidence for this process, both in  N~2~^15^ labelling experiments and in the analyses of the genomes we sequenced.
 A fourth theory is that these bacteria produce plant growth-promoting factors such as IAA when provided with tryptophan, theoretically reducing tryptophan-inhibition on nitrogen fixation and promoting plant growth by exporting auxin [@Forni1992b; @Forni1996; @Banach2019 ].
 
 Here, we set out to reconstruct all _Azolla_ associated microbial genomes from public sequencing data; some data was part of a metagenomic study design, but most it was not.
@@ -159,7 +159,7 @@ Conda environments used in this study can be found in [github.com/lauralwd/Azoll
   DNA sequencing of the \emph{Azolla} genus. The \emph{Azolla} genus phylogeny is adapted from Metzgar et al. (2007) (A). Sequencing data considered here for species in the \emph{Azolla} genus (B).
   Sequencing data was retrieved from two main studies:
   the \emph{Azolla} genome project from Li et al. (2018) with accession nr. PRJNA430527 and from
-  Chapter \ref{foul play} (Dijkhuizen et al. 2018) with accession nr. PRJEB19522 abbreviated as α and β
+  Chapter \ref{foul_play} (Dijkhuizen et al. 2018) with accession nr. PRJEB19522 abbreviated as α and β
   respectively in the final column of panel 1B.
   Sampling details are available in the latter paper.
   The original sampling location for \emph{Azolla} specimens sequenced and considered here (C).}
@@ -174,7 +174,7 @@ These species are part of two subgenera, the _Rhizosperma_ section of the genus 
 Within the _Euazolla_ section, two subclusters of closely related species can be distinguished; firstly _A. rubra_ and _A. filiculoides_ and secondly _A. mexicana_, _A. microphylla_ and _A. carolinana_.
 These subclusters diverged between 10 and 20M years ago.
 The _Rhizosperma_ section is represented only by _A. nilotica_ here and is estimated to have diverged from the _Euazolla_  section approximately 50M years ago (+@fig:fig3_data_overview\-A) [@Metzgar2007].
-The first published data of _Azolla_ Whole Genome Sequencing (WGS) data was Chapter \ref{foul play} [@Dijkhuizen2018].
+The first published data of _Azolla_ Whole Genome Sequencing (WGS) data was Chapter \ref{foul_play} [@Dijkhuizen2018].
 In that study, we sampled _A. filiculoides_ from triplicate whole plant fractions and triplicate leaf-pocket enriched fractions (P1,2,3 and L1,2,3 respectively; +@fig:fig3_data_overview\-B).
 Secondly, the _Azolla_ genome project [@Li2018] published short-read sequencing data of six _Azolla_ species, including _A. filiculoides_ and long-read sequencing of _A. filiculoides_ (+@fig:fig3_data_overview\-B).
 Sequencing data is mainly generated on Illumina platforms with typical insert sizes of 400 to 800bp and typically yielding approximately 30Gbase of DNA, except for the P and L samples which yield 2 to 3Gbase per sample (+@fig:fig3_data_overview\-B).
@@ -680,11 +680,11 @@ Acquiring metagenomes from public sequencing data not originally meant for metag
 Researchers interested in metagenomes may use a similar method as demonstrated here to mine existing data for microbial genomes.
 The approach is especially interesting if a host species is already known or suspected to host bacteria or if bacterial DNA was previously identified in reads or assemblies of a sequencing run, as was the case for _Azolla_.
 However, not all eukaryotic species or DNA extractions will encompass substantial fractions of DNA from associated bacteria.
-Before thorough and costly filtering and assembly, sequencing data may be searched for signs of bacterial genomes as we have done in Chapter \ref{foul play} [@Dijkhuizen2018].
+Before thorough and costly filtering and assembly, sequencing data may be searched for signs of bacterial genomes as we have done in Chapter \ref{foul_play} [@Dijkhuizen2018].
 Such signals could be extracted from raw sequencing data, for example, by searching for rRNA reads [@Miller2011; @Xie2016], for bacterial genes similarly to @VonMeijenfeldt2019 or by kmer-based approaches such as kraken2 [@Wood2019].
 
 Our approach allowed us to find bacteria associated with hosts studied in the past and paved the way to further mine host-bacteria interactions in _Azolla_ specifically.
-In particular, the approach allowed us to broaden our scope from only _A. filiculoides_ as in \ref{foul play} [@Dijkhuizen2018], to the entire _Azolla_ genus.
+In particular, the approach allowed us to broaden our scope from only _A. filiculoides_ as in \ref{foul_play} [@Dijkhuizen2018], to the entire _Azolla_ genus.
 This broadened perspective allowed to identify commonalities even at the level of taxonomy (+@fig:fig3_Azolla_genus_metagenome_order; +@fig:fig3_binning_QC_all_taxonomy).
 Since whole genomes are available, we can now wonder what pathways are shared between the genomes that are ostensibly shared between hosts.
 Expanding this method beyond _Azolla_ to other host species known to host bacterial symbionts may allow to gather a broad pallete of host-associated metagenomes without the need to specifically extract these bacteria from their biological enviroment.
@@ -743,8 +743,8 @@ This mechanism is demonstrated for _N. azollae_, but more microbes have been see
 To demonstrate vertical transmission of microbes besides _N. azollae_, it may be more fitting to sequence multiple generations of plants and the reproductive organs of those generations.
 However, we argue that rather indirectly, we have sequenced multiple generations of the same population of plants.
 _A. filiculoides_ sequenced by @Li2018 was taken from a Ditch near the Galgenwaard football station in Utrecht, the Netherlands in 2012 (@Brouwer2014).
-Several years later, in 2015, we went to the same ditch to sequence _A. filiculoides_ for Chapter \ref{foul play} [@Dijkhuizen2018].
-The _Azolla_ population in this ditch does not survive the winter, and hence we reason the microbes sequenced in Chapter \ref{foul play} [@Dijkhuizen2018] have survived three generations, either through direct vertical transfer via the ferns megaspores or via re-inoculation from the surrounding environment.
+Several years later, in 2015, we went to the same ditch to sequence _A. filiculoides_ for Chapter \ref{foul_play} [@Dijkhuizen2018].
+The _Azolla_ population in this ditch does not survive the winter, and hence we reason the microbes sequenced in Chapter \ref{foul_play} [@Dijkhuizen2018] have survived three generations, either through direct vertical transfer via the ferns megaspores or via re-inoculation from the surrounding environment.
 Secondly, the presence of the same microbes in the thoroughly sterilised _A. filiculoides_ minus-cyano provides further indication that these microbes are endophytic and, in that way, survived the sterilisation process.
 The genomes present in both 2012 and 2015 _A. filiculoides_ are most easily extracted from the binning overview of the _A. filiculoides_ 'lab' strain (+@fig:fig3_Azfil_lab_binning).
 Several MAGs are clearly present in the native 'lab' strain sequencing (black), the 'wild' strain sequencing leaf pocket (blue) and whole plant (green), and finally in the 'minus-cyano' strain (yellow).
@@ -752,7 +752,7 @@ These MAGs are the 'Rhizobiaceae endophytic', 'Ralstonia 1', and 'Burkholderiale
 The former two are also clearly present in the _A. filiculoides_ minus-cyano data (+@fig:fig3_Azfil_lab_binning yellow).
 Bins of the same taxonomy are also present in the metagenome of _A. filiculoides_ minus-cyano (+@fig:fig3_Azfil_minus_cyano_binning).
 These results and the visual detection of bacteria in _Azolla_ megaspores, make it very likely that these bacteria are indeed vertically transmitted, at the very least in _A. filiculoides_.
-Other MAGs might also be endophytic and vertically transmitted, but their abundance is lower than the detection limit in the sequencing of \ref{foul play} [@Dijkhuizen2018].
+Other MAGs might also be endophytic and vertically transmitted, but their abundance is lower than the detection limit in the sequencing of \ref{foul_play} [@Dijkhuizen2018].
 
 Systematic association of a taxonomic group with the _Azolla_ genus may -given the known mechanism of transfer- imply these bacteria are endophytic and vertically transmitted as well.
 The two most abundant orders in the whole _Azolla_ genus were found to be endophyic in _A. filiculoides_ 'wild': Rhizobiales and Burkholderiales (+@fig:fig3_Azfil_wild_binning).
@@ -795,9 +795,9 @@ More specifically, _Azolla_ ferns systematically harbour microbes of six taxonom
 Beyond the level of order, no clear taxonomical pattern is distinguishable other than the main symbiont _N. azollae_ (fig:fig3_binning_QC_all_taxonomy; family & genus).
 The Nostocales order encompasses only the main symbiont _N. azollae_ and was highly abundant in all species, contradicting theories that other cyanobacterial strains may inhibit _Azolla_ ferns at lower abundances [@Papaefthimiou2008].
 This one other cyanobacterial bin found associated with _A. filiculoides_ 'wild' was epiphytic.
-The two most prominent orders, Burkholderiales and Rhizobiales, were already identified in Chapter \ref{foul play} [@Dijkhuizen2018].
+The two most prominent orders, Burkholderiales and Rhizobiales, were already identified in Chapter \ref{foul_play} [@Dijkhuizen2018].
 However, their genomes across the entire _Azolla_ genus were not published before, nor was it clear that multiple Rhizobiales and Burkholderiales genomes are systematically associated with single species of the _Azolla_ genus.
-The remaining three orders, Caulobacterales, Nevskiales and Sphingomonadales, were seen before in \ref{foul play} [@Dijkhuizen2018] (+@fig:fig2_2; +@fig:fig2_3), but not as whole genomes across the entire genus.
+The remaining three orders, Caulobacterales, Nevskiales and Sphingomonadales, were seen before in \ref{foul_play} [@Dijkhuizen2018] (+@fig:fig2_2; +@fig:fig2_3), but not as whole genomes across the entire genus.
 Only the Nevskiales may be endophytic for it survived stringed sterilisation of _A. filiculoides_ 'minus-cyano' (+@tbl:tbl3_2 rest2)
 
 Despite intensive sequencing efforts, this study does not exhaust the diversity of _Azolla_ associated microbes.

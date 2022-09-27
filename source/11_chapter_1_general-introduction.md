@@ -68,18 +68,18 @@ _Nostoc azollae_ Nitrogen independence
 
 <!---
 label sections with LaTeX:
-`\label{hidden treasures}`
+`\label{hidden_treasures}`
 or with markdown:
 `{#sec:foul-play-in-the-pocket}`
 
 Then referece to the full chapter name:
-\nameref{hidden treasures}
+\nameref{hidden_treasures}
 
 the specific page:
-\pageref{hidden treasures}
+\pageref{hidden_treasures}
 
 the chapter number:
-\ref{hidden treasures}
+\ref{hidden_treasures}
 
 with markdown if the ref contains no spaces:
 +@sec:hidden-treasures
@@ -88,14 +88,14 @@ and for a markdown label only markdown refs work:
 +@sec:foul-play-in-the-pocket
 --->
 ## Outline of this thesis.
-__Chapter \ref{foul play}__ (\nameref{foul play} on page \pageref{foul play}) details the initial discovery of prokaryotic DNA sequencing data in the initial _A. filiculoides_ genome assembly and includes the work that inspired this PhD project.
+__Chapter \ref{foul_play}__ (\nameref{foul_play} on page \pageref{foul_play}) details the initial discovery of prokaryotic DNA sequencing data in the initial _A. filiculoides_ genome assembly and includes the work that inspired this PhD project.
 We identify near complete genomes as whole contigs in this assembly, and study these further.
 These contigs are confirmed to be present in _A. filiculoides_ taken from the wild, as well as other _Azolla_ species for which WGS data is available.
 Non-cyanobacterial prokaryotes are confirmed to be associated with all _Azolla_ species, and these may be the same or very similar microbes.
 Finally, we study the metabolic pathways encoded within these genomes and hypothesise they might denitrify Nitrogen rich compounds within the _A. filiculoides_ leaf pocket.
 This hypothesis is falsified however, denitrification occors only in microbes living epiphitically on _A. filiculoides_.
 
-In __chapter \ref{hidden treasures}__ (\nameref{hidden treasures} on page \pageref{hidden treasures}), I build further on the work of chapter \ref{foul play}.
+In __chapter \ref{hidden_treasures}__ (\nameref{hidden_treasures} on page \pageref{hidden_treasures}), I build further on the work of chapter \ref{foul_play}.
 This chapter details a workflow to enrich and study the genome sequencing of bacterial contaminants in all sequenced _Azolla_ species.
 This work aims to remove plant DNA sequencing only, and then assemble DNA of all _Azolla_ associated microbes present.
 The process of separating disctint microbial genomes (binning) required extra binningsignals and manual curation.
@@ -110,13 +110,13 @@ It starts with a metagenome assembly, and guides the students through DNA mappin
 Exercises are implemented in JuPyter notebooks, combining code-writing with text instructions.
 The practical is freely available on GitHub here [github.com/lauralwd/metagenomicspractical](https://github.com/lauralwd/metagenomicspractical)
 
-__Chapter \ref{forever together}__ (\nameref{forever together} on page \pageref{forever together}) describes the genomics of the main _Azolla_ symbiont: _N. azollae_, using the genomes assembled in chapter \ref{hidden treasures}.
+__Chapter \ref{forever_together}__ (\nameref{forever_together} on page \pageref{forever_together}) describes the genomics of the main _Azolla_ symbiont: _N. azollae_, using the genomes assembled in chapter \ref{hidden_treasures}.
 All _N. azollae_ share near identical genomes and gene content, indicating they are the same species of _N. azollae_, hosted in various _Azolla_ species.
 Their phylogeny confirms they have co-evolved with their hosts.
 The _N. azollae_ genome is degraded due to high pseudogene content.
 Pseudogenation is caused by high transposon activity early in the symbiosis, but has since then slowed down.
 
-__Chapter \ref{partners and passengers}__ (\nameref{partners and passengers} on page \pageref{partners and passengers}) is likely not going to happen...
+__Chapter \ref{partners_and_passengers}__ (\nameref{partners_and_passengers} on page \pageref{partners_and_passengers}) is likely not going to happen...
 
 __Chapter \ref{it takes two}__ (\nameref{it takes two} on page \pageref{it takes two}) provides building blocks for understanding and regulating the sexual reproduction and mode of transmission of the _Azolla_ & _N. azollae_ symbiosis; a pre-requisite for agricultural application of a novel crop symbiosis.
 We found that FR light and sporophyte density were main initiators of sexual reproduction while nitrogen availiblity was an inhibitor.
