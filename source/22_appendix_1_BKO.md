@@ -1,10 +1,10 @@
 # Appendix A: bUTQ application / BKO portfolio summary
 \label{BKO}
 This appendix chapter summarises my application for the University Teaching Qualification or BKO (Basis Kwalificatie Onderwijs).
-I structure the summary in sections for each the key competencies required for a succesful application.
+I structure the summary in sections for each the key competency required for a succesful application.
 For each section of the application, I selected some key points, and a quote and a figure from the exit surveys.
 These exit surveys are typically done after a course conclusion.
-I use mostly of the one course I coordinated myself, for in this survey, it is very clear that some questions refered to my teaching rather than that of a group of teachers.
+I use mostly surveys from the one course I coordinated myself, for in this survey, it is very clear that some questions refered to my teaching specifically rather than that of a group of teachers.
 This application and its summary are written in Dutch, for the Biology Bachelor which assigns this degree is a Dutch spoken Bachelor.
 
 \newpage
@@ -103,7 +103,7 @@ _`Laura's lectures were very clear, but some of the guest lecturerers went a bit
 
 ![Pre-cursus enquête resultaat op de vraag: "I\'m confident proposing a bioinformatics experiment during an internship or course to address a specific biological question. (Doesn\'t matter if you can do it, as long as you know if it would work or not)". 28 studenten hebben deze vraag beantwoord. Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-9.png){#fig:fig_bko-9}
 
-![[Exit enquête resultaat op de vraag: "I\'m confident proposing a bioinformatics experiment during an internship or course to address a specific biological question. (Doesn\'t matter if you can do it, as long as you know if it would work or not)". 16 studenten hebben deze vraag beantwoord. Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-10.png){#fig:fig_bko-10}
+![Exit enquête resultaat op de vraag: "I\'m confident proposing a bioinformatics experiment during an internship or course to address a specific biological question. (Doesn\'t matter if you can do it, as long as you know if it would work or not)". 16 studenten hebben deze vraag beantwoord. Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-10.png){#fig:fig_bko-10}
 
 Deze toename was voor mij een teken dat ik goed op weg was met deze cursus en een duidelijk signaal dat dit leerdoel behaald werd.
 
@@ -153,8 +153,8 @@ Goed voorbeeld doet volgen.
 Één zo’n voorbeeld vind ik de recente opmars van de open science (OS) beweging.
 Overigens is ‘open education’ de meest recente tak van het Utrecht Open Science programma, een keuze waar ik me in kan vinden.
 Het is geen geheim dat ik fan ben van OS; waar mogelijk pas ik het toe op mijn onderwijs.
-Mijn youtube video’s over bio informatica, alhoewel alles behalve gelikt, worden regelmatig bekeken voor zelfstudie door mensen over de hele wereld.
-In totaal zijn ze meer dan 9500 (GETAL UPDATEN) maal bekeken; het is een ander soort ‘impact’ dan we gewend zijn, maar desalniettemin een bijdrage op zichzelf.
+Mijn youtube video’s over bioinformatica, alhoewel alles behalve gelikt, worden regelmatig bekeken voor zelfstudie door mensen over de hele wereld.
+In totaal zijn ze bijna 15.000 maal bekeken; het is een ander soort ‘impact’ dan we gewend zijn, maar desalniettemin een bijdrage op zichzelf.
 
 ### Didactiek
 In het vormgeven van wetenschappelijk onderwijs ben ik een fan van het Utrechtse model met veel ruimte voor differentiatie en specialisatie.
