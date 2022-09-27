@@ -1,6 +1,5 @@
 # Appendix A: bUTQ application / BKO portfolio summary
 \label{BKO}
-
 This appendix chapter summarises my application for the University Teaching Qualification or BKO (Basis Kwalificatie Onderwijs).
 I structure the summary in sections for each the key competencies required for a succesful application.
 For each section of the application, I selected some key points, and a quote and a figure from the exit surveys.
@@ -8,6 +7,7 @@ These exit surveys are typically done after a course conclusion.
 I use mostly of the one course I coordinated myself, for in this survey, it is very clear that some questions refered to my teaching rather than that of a group of teachers.
 This application and its summary are written in Dutch, for the Biology Bachelor which assigns this degree is a Dutch spoken Bachelor.
 
+\newpage
 ## Portfolio
 Onderzoek vindt plaats in allerlei instituties, maar de universiteit is mijns inziens bij uitstek de plaats voor kruisbestuiving tussen onderzoek en onderwijs.
 Daarom ben ik dankbaar voor de kans om deze twee kerntaken te combineren tijdens mijn PhD.
@@ -24,7 +24,7 @@ Andere keren ging het om basisschoolleerlingen geïnteresseerd in planten en het
 
 Tot slot heb ik kansen aangegrepen om ook bij te dragen aan de bredere organisatie van onderwijs en representatie van promovendi.
 Ik heb zitting gehad in het curriculum-comité en was PhD-lid van het ‘Board of Studies’ van de GS-LS.
-Discussies in deze organen gaven me een breder perspectief op universitair onderwijs, de interne relaties en de keuzes die komen kijken bij het inrichten ervan. 
+Discussies in deze organen gaven me een breder perspectief op universitair onderwijs, de interne relaties en de keuzes die komen kijken bij het inrichten ervan.
 
 ### Professionele kwaliteiten
 Een positief en veilig studieklimaat is enorm belangrijk voor onderwijs; positief in de zin dat studenten enthousiast zijn om te leren, en veilig in de zin dat studenten zich niet geremd voelen om hun vragen aan mij te stellen.
@@ -43,7 +43,7 @@ In mijn opvatting is de kracht van universitair onderwijs de kruisbestuiving met
 Het Master onderwijs is daar het beste voorbeeld van, maar ik zie het ook terug in een cursus als Biology of the Biobased Economy (BBE) en in Bachelor stages.
 Waar mogelijk en passend maak ik graag gebruik van de gelegenheid om de studenten te leren over het belang van open science, specifiek publiek beschikbare data, open source methodes en bijhouden van een digitaal labjournaal met code.
 
-  In mijn rol als coördinator van de IntroBioinfo legde ik dwarsverbanden tussen de verschillende onderdelen er van en tussen theorie en praktijk.
+In mijn rol als coördinator van de IntroBioinfo legde ik dwarsverbanden tussen de verschillende onderdelen er van en tussen theorie en praktijk.
 Toen ik de cursus overnam was deze een mozaïek van korte workshops van één of twee dagen, elk door weer een andere expert in dat specifieke veld.
 Gedurende mijn coördinatie verenigde ik de onderdelen en maakte meer ruimte te voor echte onderzoeksresultaten, zoals in het onderdeel fylogenie.
 Ik heb alle cursusonderdelen opnieuw gerangschikt naargelang naar het centrale dogma van de biologie.
@@ -71,7 +71,7 @@ Gedurende twee jaar nam ik deel aan het Board of Studies (BoS) van de GS-LS.
 Daar was ik hoofdzakelijk vertegenwoordiger van promovendi; dit was onderdeel van mijn rol als GS-LS PhD council voorzitter.
 In die rol adviseerden wij het BoS op verbeteringen in de promovendi opleiding, en organiseerden we activiteiten voor promovendi van de GS-LS.
 De belangrijkste bijdrage van mij en mijn mede vertegenwoordigers was het herzien van de faculteitsreglementen van alle drie Life Sciences faculteiten omtrent de promovendi opleiding.
- Naast mijn bijdrage aan de promovendi opleiding, kreeg ik ook een nieuw perspectief over alle Masteropleidingen als geheel, de overlap, en het onderscheid tussen de opleidingen .
+Naast mijn bijdrage aan de promovendi opleiding, kreeg ik ook een nieuw perspectief over alle Masteropleidingen als geheel, de overlap, en het onderscheid tussen de opleidingen .
 Sindsdien ben ik erg overtuigd van de meerwaarde van het onderwijsmodel van de Utrechtse life sciences Masters met hun duidelijke focus op onderzoekservaring uit de praktijk.
 
 #### Geven van onderwijs
@@ -86,7 +86,7 @@ Ik bleef gedurende de bachelor, en in een enkel geval daarna, beschikbaar voor s
 Jaarlijks wist een handvol tutoraatstudenten mij te vinden, meestal over keuzes omtrent vakken en stages.
 Als tutor had ik daar zelf proactiever in kunnen zijn door studenten actief uit te nodigen voor een gesprek, of te herinneren aan de mogelijkheid daartoe.
 
-  Gedurende een half jaar was ik de enige werknemer in het Azolla lab; de hoofd- onderzoeker was destijds zeilen op de grote oceaan en meestal niet bereikbaar.
+Gedurende een half jaar was ik de enige werknemer in het Azolla lab; de hoofd- onderzoeker was destijds zeilen op de grote oceaan en meestal niet bereikbaar.
 De verantwoordelijkheid voor het reilen en zeilen van het lab kwam niet helemaal op mijn schouders, ik had één dag per week hulp van een oud-collega.
 Deze maanden kwam ook de verantwoordelijkheid voor het begeleiden van alle studenten grotendeels op mijn schouders terecht en had ik veel vrijheid om dat in te richten naar eigen idee.
 Ik leidde de eerder genoemde wekelijkse meetings met alle studenten en moedigde de studenten aan hun resultaten met elkaar te bespreken in plaats van alleen met mij.
@@ -101,16 +101,14 @@ Dat vertrouwen was duidelijk toegenomen na de cursus (+@fig:fig_bko-9 & +@fig:fi
 Uit een anoniemme exit enquête:
 _`Laura's lectures were very clear, but some of the guest lecturerers went a bit too fast. This made some lectures difficult to understand, especially when you are not really familiar with the topic.`_
 
-Vooraf:
 ![Pre-cursus enquête resultaat op de vraag: "I\'m confident proposing a bioinformatics experiment during an internship or course to address a specific biological question. (Doesn\'t matter if you can do it, as long as you know if it would work or not)". 28 studenten hebben deze vraag beantwoord. Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-9.png){#fig:fig_bko-9}
 
-Achteraf:
 ![[Exit enquête resultaat op de vraag: "I\'m confident proposing a bioinformatics experiment during an internship or course to address a specific biological question. (Doesn\'t matter if you can do it, as long as you know if it would work or not)". 16 studenten hebben deze vraag beantwoord. Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-10.png){#fig:fig_bko-10}
 
 Deze toename was voor mij een teken dat ik goed op weg was met deze cursus en een duidelijk signaal dat dit leerdoel behaald werd.
 
-## # Organisatorische kwaliteiten
- Communicatie met studenten, verwachtingenmanagement en aansluiting bij voorkennis zijn heel belangrijk om een cursus tot zijn recht te laten komen.
+### Organisatorische kwaliteiten
+Communicatie met studenten, verwachtingenmanagement en aansluiting bij voorkennis zijn heel belangrijk om een cursus tot zijn recht te laten komen.
 In mijn bijdragen aan verschillende cursussen in de biologie bachelor zag ik zowel geslaagde als niet geslaagde voorbeelden van deze drie organisatorische handelingen.
 Om de juiste verwachtingen te creëren licht ik de studenten ruim van te voren in over de onderwijsvormen, vereisten en examinering van mijn cursus (+@fig:fig_bko-12).
 Eerst schriftelijk via een complete en duidelijke e-mail, daarna aan het begin van de IntroBioinfo cursus met een start-college.
@@ -120,9 +118,9 @@ Naar eigen inschatting besteedde studenten hun tijd effectiever bij betere organ
 Dat bleek onder andere uit de steeds snellere voortgang gedurende lessen en practica.
 De overgebleven onduidelijkheid betrof meestal de precieze vorm van het tentamen, ondanks de beschikbaarheid van een oefententamen.
 
-![[Exit enquête resultaat op de vraag: "The learning objectives of this course were announced or made available in advance" Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-12.png){#fig:fig_bko-12}
+![Exit enquête resultaat op de vraag: "The learning objectives of this course were announced or made available in advance" Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-12.png){#fig:fig_bko-12}
 
-## Visie op universitair onderwijs
+## Visie op universitair onderwijs
 
 ### Wetenschappelijk onderwijs in maatschappelijke context
 Wetenschappelijk onderwezen biologen gaan deze eeuw een cruciale rol spelen.
