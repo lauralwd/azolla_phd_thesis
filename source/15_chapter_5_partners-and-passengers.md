@@ -8,3 +8,9 @@
   - plant colonisation
 * @Gutierrez-Garca2019
   - Cycad coralloid root with cyano's and Caulobacter!
+
+* @Stevenson2006
+  - Isolation and Identification of an Epibiotic Bacterium Associated with Heterocystous Anabaena Cells
+
+* @Penuelas2014
+  - the foliar microbiome
