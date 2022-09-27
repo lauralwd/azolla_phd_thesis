@@ -34,7 +34,7 @@ Ik probeer praktisch onderwijs zodanig in te richten, met oplopende graad van ui
 Een praktische onderwijssetting, zij het een werkcollege of een practicum, is voor mij geslaagd als een student zich vrij voelt om elke vraag te stellen aan mij of aan een collega (+@fig:fig_bko-1).
 
 Uit een anonieme exit enquête:
- * _`The smaller group was very positive, made you really feel like a class, overall vibe was really good. Also mainly because Laura was very positive and wanted to help everyone, she was really open and always so cheerful. What I also really appreci­ated were the (coffee) breaks in between lectures. Really gave you time to refocus`_
+_`The smaller group was very positive, made you really feel like a class, overall vibe was really good. Also mainly because Laura was very positive and wanted to help everyone, she was really open and always so cheerful. What I also really appreci­ated were the (coffee) breaks in between lectures. Really gave you time to refocus`_
 
 ![Exit enquête resultaat op de stelling "the atmosphere during the course was good". Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-1.png){#fig:fig_bko-1}
 
