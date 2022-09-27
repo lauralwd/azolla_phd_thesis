@@ -15,7 +15,7 @@ Gedurende mijn PhD heb ik mij kunnen ontwikkelen in allerlei vormen van onderwij
 Dat begon bij de begeleiding van bestaand onderwijs (zoals bijvoorbeeld practica Moleculair Genetische OnderzoeksTechnieken) op me genomen.
 Naar verloop van tijd werden dat intensievere onderwijsvormen.
 Denk hierbij aan het begeleiden van mini-stages van derdejaars BSc studenten in Biologie van de Biobased Economy en het ontwikkelen van een computerpracticum voor 'Introduction to Bioinformatics voor Life Sciences (IntroBioinfo).
-De kerst op de taart werd het coördineren van diezelfde cursus.
+De kers op de taart werd het coördineren van diezelfde cursus.
 
 Naast curriculair onderwijs wordt ik ook heel enthousiast van het participeren in activiteiten voor een breder publiek, de zogezegde outreach activiteiten.
 Elke outreach acitiveit vraagt om een heroverweging van het publiek en hun achtergrond kennis.
@@ -27,11 +27,11 @@ Ik heb zitting gehad in het curriculum-comité en was PhD-lid van het ‘Board o
 Discussies in deze organen gaven me een breder perspectief op universitair onderwijs, de interne relaties en de keuzes die komen kijken bij het inrichten ervan. 
 
 ### Professionele kwaliteiten
-Een positief en veilig studieklimaat is enorm belangrijk; positief in de zin dat studenten enthousiast zijn om te leren, en veilig in de zin dat studenten zich niet geremd voelen om hun vragen aan mij te stellen (+@fig:fig_bko-1).
+Een positief en veilig studieklimaat is enorm belangrijk voor onderwijs; positief in de zin dat studenten enthousiast zijn om te leren, en veilig in de zin dat studenten zich niet geremd voelen om hun vragen aan mij te stellen.
 Andersom merkte ik ook hoe gebrek aan een positief studieklimaat leren in de weg kan zitten.
 Ervaring heeft me geleerd dat niets zo stimulerend en activerend werkt op studenten als een gevoel van autonomie en bekwaamheid om een uitdaging aan te kunnen.
 Ik probeer praktisch onderwijs zodanig in te richten, met oplopende graad van uitdaging en daarmee een oplopende graad van bekwaamheid.
-Een praktische onderwijssetting, zij het een werkcollege of een practicum, is voor mij geslaagd als een student zich vrij voelt om elke vraag te stellen aan mij of aan een collega.
+Een praktische onderwijssetting, zij het een werkcollege of een practicum, is voor mij geslaagd als een student zich vrij voelt om elke vraag te stellen aan mij of aan een collega (+@fig:fig_bko-1).
 
 Uit een anonieme exit enquête:
  * _`The smaller group was very positive, made you really feel like a class, overall vibe was really good. Also mainly because Laura was very positive and wanted to help everyone, she was really open and always so cheerful. What I also really appreci­ated were the (coffee) breaks in between lectures. Really gave you time to refocus`_
@@ -42,11 +42,12 @@ Uit een anonieme exit enquête:
 In mijn opvatting is de kracht van universitair onderwijs de kruisbestuiving met de huidige stand van zaken in de wetenschap.
 Het Master onderwijs is daar het beste voorbeeld van, maar ik zie het ook terug in een cursus als Biology of the Biobased Economy (BBE) en in Bachelor stages.
 Waar mogelijk en passend maak ik graag gebruik van de gelegenheid om de studenten te leren over het belang van open science, specifiek publiek beschikbare data, open source methodes en bijhouden van een digitaal labjournaal met code.
-Ik verwijs ze daarbij graag naar mijn eigen Github-pagina, en leer hen zelf data te verzamelen in online databases.
 
-  In mijn rol als coördinator van de IntroBioinfo cursus begon ik met een mozaïek van korte workshops van één of twee dagen, elk door weer een andere expert in dat specifieke veld.
+  In mijn rol als coördinator van de IntroBioinfo legde ik dwarsverbanden tussen de verschillende onderdelen er van en tussen theorie en praktijk.
+Toen ik de cursus overnam was deze een mozaïek van korte workshops van één of twee dagen, elk door weer een andere expert in dat specifieke veld.
 Gedurende mijn coördinatie verenigde ik de onderdelen en maakte meer ruimte te voor echte onderzoeksresultaten, zoals in het onderdeel fylogenie.
-Ik heb alle cursusonderdelen opnieuw gerangschikt en begon elke dag met een korte uitleg van de relaties tussen dit onderdeel en de overigen.
+Ik heb alle cursusonderdelen opnieuw gerangschikt naargelang naar het centrale dogma van de biologie.
+Elke dag begon met een korte uitleg van de relaties tussen dit onderdeel en de overigen.
 Door het benadrukken van overeenkomsten tussen onderdelen, zowel methodisch als thematisch, denk ik de cognitieve belasting van de onderdelen verminderd te hebben.
 Dit concludeer ik onder andere uit de steeds (succesvollere en) snellere afronding van practica Studenten bevestigden achteraf dat zij dit als zeer prettig ervaren hebben (+@fig:fig_bko-5).
 De gemiddelde score op de vraag "This course has improved my understanding of the concepts and princicples of the subject matter" steeg naar 3.9, vergeleken met een 3.5 in april 2021 en een 3,2 en 2.8 in 2019 voordat ik het coördinatorschap overnam.
@@ -65,17 +66,18 @@ Deze uitdaging voelde ik het meest in Master cursussen met studenten uit alle GS
 Om een beter beeld te krijgen van aanstaande studenten in mijn cursussen, gebruikte ik intro-enquêtes in zowel BBE als IntroBioinfo.
 Uit mijn ervaring in IntroBioinfo en uit deze enquêtes bleek dat steeds meer studenten ervaring hadden in een soort van programmeertaal Mede gesteund door dit gegeven, durfde ik het aan om het intro-programmeren te verkorten Een geslaagd experiment wat inmiddels permanent is geworden.
 
-Tijdens mijn deelname aan het Board of Studies (BoS) van de GS-LS was ik hoofdzakelijk vertegenwoordiger van de promovendi van de GS-LS.
-Deelname aan het BoS was onderdeel van mijn rol als GS-LS PhD council voorzitter.
+In mijn organisatorische neventaken kreeg ik een breed perspectief op de verscheidene MSc opleidingen binnen de GS-LS.
+Gedurende twee jaar nam ik deel aan het Board of Studies (BoS) van de GS-LS.
+Daar was ik hoofdzakelijk vertegenwoordiger van promovendi; dit was onderdeel van mijn rol als GS-LS PhD council voorzitter.
 In die rol adviseerden wij het BoS op verbeteringen in de promovendi opleiding, en organiseerden we activiteiten voor promovendi van de GS-LS.
 De belangrijkste bijdrage van mij en mijn mede vertegenwoordigers was het herzien van de faculteitsreglementen van alle drie Life Sciences faculteiten omtrent de promovendi opleiding.
-
  Naast mijn bijdrage aan de promovendi opleiding, kreeg ik ook een nieuw perspectief over alle Masteropleidingen als geheel, de overlap, en het onderscheid tussen de opleidingen .
 Sindsdien ben ik erg overtuigd van de meerwaarde van het onderwijsmodel van de Utrechtse life sciences Masters met hun duidelijke focus op onderzoekservaring uit de praktijk.
-  Geven van onderwijs in mijn vijf jaar PhD heb ik ervaring op mogen doen in allerlei onderwijsvormen, voornamelijk praktisch.
-Ik zie mijzelf als iemand die het meest leert door te doen en die voorkeur werkt door in mijn stijl van onderwijzen.
 
 #### Geven van onderwijs
+In mijn vijf jaar PhD heb ik ervaring op mogen doen in allerlei onderwijsvormen, voornamelijk praktisch.
+Ik zie mijzelf als iemand die het meest leert door te doen en die voorkeur werkt door in mijn stijl van onderwijzen.
+
 Een van mijn onderwijstaken was het tutoraat.
 Ik heb drie jaar lang eerstejaars studenten mogen verwelkomen en begeleiden tijdens hun bachelor.
 De rol van tutor was mijn eerste ervaring waarin ik moest balanceren tussen veel verschillende rollen: een vertrouwd gezicht in een grote opleiding, docent voor een klein college, coach bij het plannen van hun studiepaden, luisterend oor voor studenten met persoonlijke problemen en strenge beoordelaar voor hun eerste geschreven werk in de Biologie bachelor.
@@ -110,21 +112,21 @@ Deze toename was voor mij een teken dat ik goed op weg was met deze cursus en ee
 ## # Organisatorische kwaliteiten
  Communicatie met studenten, verwachtingenmanagement en aansluiting bij voorkennis zijn heel belangrijk om een cursus tot zijn recht te laten komen.
 In mijn bijdragen aan verschillende cursussen in de biologie bachelor zag ik zowel geslaagde als niet geslaagde voorbeelden van deze drie organisatorische handelingen.
-Voor onderwijs wat ik zelf coördineerde, koos ik voor beperkte maar duidelijke communicatie en verwachtingsmanagement richting studenten.
-In eerste instantie schriftelijk vooraf en vervolgens opnieuw tijdens het eerste college met ruim de tijd voor vragen.
-Die duidelijkheid schiep ruimte om tijdens de cursus informeler te handelen en dichterbij de studenten te staan.
-
-Geïnspireerd door goede en slechte voorbeelden uit mijn onderwijs ervaring ontwikkelde ik mijn eigen communicatiestrategie.
-Om de juiste verwachtingen te creëren licht ik de studenten ruim van te voren in over de onderwijsvormen, vereisten en examinering van mijn cursus.
+Om de juiste verwachtingen te creëren licht ik de studenten ruim van te voren in over de onderwijsvormen, vereisten en examinering van mijn cursus (+@fig:fig_bko-12).
 Eerst schriftelijk via een complete en duidelijke e-mail, daarna aan het begin van de IntroBioinfo cursus met een start-college.
+Die duidelijkheid schiep ruimte om tijdens de cursus informeler te handelen en dichterbij de studenten te staan.
 Mededocenten waardeerde de centrale organisatie vanuit mij en de lastenverlichting die dat voor hen met zich meebracht.
 Naar eigen inschatting besteedde studenten hun tijd effectiever bij betere organisatie.
 Dat bleek onder andere uit de steeds snellere voortgang gedurende lessen en practica.
+De overgebleven onduidelijkheid betrof meestal de precieze vorm van het tentamen, ondanks de beschikbaarheid van een oefententamen.
+
+![[Exit enquête resultaat op de vraag: "The learning objectives of this course were announced or made available in advance" Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-12.png){#fig:fig_bko-12}
 
 ## Visie op universitair onderwijs
 
 ### Wetenschappelijk onderwijs in maatschappelijke context
-Wetenschappelijk onderwijs in maatschappelijke context Wetenschappelijk onderwezen biologen gaan deze eeuw een cruciale rol spelen Als docent bij de universitaire opleiding biologie ben ik me heel bewust van mijn bijdrage aan hun potentiële toekomstige werk.
+Wetenschappelijk onderwezen biologen gaan deze eeuw een cruciale rol spelen.
+Als docent bij de universitaire opleiding biologie ben ik me heel bewust van mijn bijdrage aan hun potentiële toekomstige werk.
 Ten tijde van dit schrijven -een tijd door sommigen geduid als de "post truth era"- vinden wetenschappers zich in allerlei maatschappelijke debatten van grote relevantie.
 Ik denk hier bijvoorbeeld aan de COVID-19 pandemie en de recente stikstof crisis.
 Met het risico als pessimist bestempeld te worden, vrees ik dat twee grotere crises ons nog staan te wachten.
