@@ -7,6 +7,11 @@ These exit surveys are typically done after a course conclusion.
 I use mostly surveys from the one course I coordinated myself, for in this survey, it is very clear that some questions refered to my teaching specifically rather than that of a group of teachers.
 This application and its summary are written in Dutch, for the Biology Bachelor which assigns this degree is a Dutch spoken Bachelor.
 
+In September 2022, a departmental committee approved my application and awwarded me the bUTQ.
+The commitee summarised the application was very good and showed experience and enthousiasm for teaching as well as
+insight an vision.
+They complimented a creative, motivated and motivating attitude, and a self-critical view with opennens for suggestions of colleagues and students alike.
+
 \newpage
 ## Portfolio
 Onderzoek vindt plaats in allerlei instituties, maar de universiteit is mijns inziens bij uitstek de plaats voor kruisbestuiving tussen onderzoek en onderwijs.
