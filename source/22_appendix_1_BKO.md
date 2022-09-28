@@ -4,16 +4,15 @@
 # bUTQ application / BKO portfolio summary
 \label{BKO}
 This appendix chapter summarises my application for the University Teaching Qualification or BKO (Basis Kwalificatie Onderwijs).
-I structure the summary in sections for each the key competency required for a succesful application.
-For each section of the application, I selected some key points, and a quote and a figure from the exit surveys.
+The summary is organised by the key competencies required for a successful application.
+For each application section, I selected key points, a quote, and a figure from the exit surveys.
 These exit surveys are typically done after a course conclusion.
-I use mostly surveys from the one course I coordinated myself, for in this survey, it is very clear that some questions refered to my teaching specifically rather than that of a group of teachers.
-This application and its summary are written in Dutch, for the Biology Bachelor which assigns this degree is a Dutch spoken Bachelor.
+I mostly use surveys from the one course I coordinated myself, for, in this survey, it is very clear that some questions referred to my teaching specifically rather than a group of teachers.
+This application and its summary are written in Dutch for the Biology Bachelor, which assigns this degree, is a Dutch spoken Bachelor.
 
-In September 2022, a departmental committee approved my application and awwarded me the bUTQ.
-The commitee summarised the application was very good and showed experience and enthousiasm for teaching as well as
-insight an vision.
-They complimented a creative, motivated and motivating attitude, and a self-critical view with opennens for suggestions of colleagues and students alike.
+In September 2022, a departmental committee approved my application and awarded me the bUTQ.
+The committee summarised that the application was very good and showed experience, enthusiasm for teaching, and insight and vision concerning the education system.
+They complimented a creative, motivated and motivating attitude and a self-critical view with openness to colleagues' and students' suggestions.
 
 \newpage
 ## Portfolio
