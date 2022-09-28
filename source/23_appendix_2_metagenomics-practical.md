@@ -51,19 +51,22 @@ In the section structural biology, these different levels of the central dogma a
 The practical is openly available and GitHub, with instructions and recorded tutorials on youtube for those who would be interested in trying it out.
 The GitHub repository contains instructions on how to install the software and get the data.
 I chose open source tools only, as is common in the field.
-Software is installed and maintained via the conda framework, and I teach students to exercise code in JuPyter notebooks; mixing various kinds of code and documentation in a single interface (+@fig:mgp_jupy_1; +@fig:mgp_jupy_2).
+Software is installed and maintained via the conda framework, and I teach students to exercise code in JuPyter notebooks; mixing various kinds of code and documentation in a single interface (See +@fig:mgp_jupy_1; +@fig:mgp_jupy_2 at the end of this appendix).
 Find the repository at [GitHub.com/lauralwd/metagenomicspractical](https://github.com/lauralwd/metagenomicspractical/) and a dedicated website at [lauradijkhuizen.com/metagenomicspractical](https://lauralwd.github.io/metagenomicspractical/).
-I have now way of knowing if people other than my students use this practicle, but it does seem the case based on comments on my youtube video's, and a MSc thesis from ``..`` that refers to this practical and uses its data.
+I have now way of knowing if people other than my students use this practicle, but it does seem the case based on comments on my youtube video's, and a MSc thesis from Aalborg University (@NiklasFichte2022) that refers to this practical and uses its data.
+Answers and prefilled code are available in a separate branch of the GitHub repository called 'example' (+@fig:mgp_jupy_2).
+Renders of the empty and pre-filled workflow are available as a GitHub pages website in the 'gh-pages' branch and online at the practical webpage [here](https://lauralwd.github.io/metagenomicspractical/).
 
 ![Metagenome assembly of _Azolla filiculoides_ associated bacteria. Data was taken from chapter \ref{foul_play} and assembled with SPAdes (@Nurk2017). The metagenome assembly graph was visualised with Bandage. A fasta file resemling the sequences of this graph was one of the main inputs of this practical.](source/figures/mgp_assembly.png){#fig:mgp_assembly}
 
-## Learning goals and audience
+## Practical overview, learning goals and audience
 This practal is aimed at Master's students in Life Sciences with minimal experience in bioinformatics and bachelor level experience in (micro)biology.
 However, I also found it suited for bachelor students with bioinformatics experience within a single day time frame.
 When supplied with several days and sufficient supervision, bachelors students with programming experience also succesfully completed the practical.
 This practical starts by discussing a metagenomics workflow from a biological context, acquiring sequencing data and genome assembly.
 Metagenome assembly is rather a resource- and time-intensive process; hence I have done this already (+@fig:mgp_assembly).
 Then, the student takes over.
+First, a short BASH introduction or refresher is included, since I don't expect students to be fluent in the programming language.
 In a nutshell, students extract individual microbial genomes from the metagenome assembly, check their quality, and annotate genes coded in these genomes (+@fig:mgp_nitrogen_metabolism).
 This practical includes the following steps (and depends on the following tools):
 
@@ -72,9 +75,6 @@ This practical includes the following steps (and depends on the following tools)
 3. quality control of bins (CheckM)
 4. annotation (Prokka)
 5. BONUS: phylogeny reconstruction (IQTree)
-
-Answers and prefilled code are available in a separate branch of the GitHub repository called 'example' (+@fig:mgp_jupy_2).
-Renders of the empty and pre-filled workflow are available as a GitHub pages website in the 'gh-pages' branch and online at the practical webpage [here](https://lauralwd.github.io/metagenomicspractical/).
 
 ![Nitrogen metabolism of bacteria ssociated with _Azolla filiculoides_. Data was taken from chapter \ref{foul_play} and processed according to the metagenomics practical described in this appendix. This figure is one of the final results of the practical and arguably an improvement over the published version (+@fig:fig:fig2_4).](source/figures/mgp_nitrogen_metabolism.png){#fig:mgp_nitrogen_metabolism}
 
@@ -88,6 +88,7 @@ Starting at acquiring sequencing data, all the way to annotating individual draf
  - A student can explain what binning signals are, why they are used and how you used them during the practical.
  - If not already, a student will understand the basics of the bash computer language and be able to run bio-informatic programmes in loops.
 
+### JuPyter examples
 ![Screenshot of a pre-filled JuPyter notebook page from the metagenomics practical involving Python code. This page was taken from the online example and answers pages.](source/figures/mgp_jupy_2.png){#fig:mgp_jupy_2}
 
 ![Screenshot of a JuPyter notebook page from the metagenomics practical involving BASH code. JuPyter notebook pages allow for background, instructions and code exercises to co-exist next to each other in a single environment.](source/figures/mgp_jupy_1.png){#fig:mgp_jupy_1}
