@@ -118,7 +118,7 @@ Pseudogenation is caused by high transposon activity early in the symbiosis, but
 
 __Chapter \ref{partners_and_passengers}__ (\nameref{partners_and_passengers} on page \pageref{partners_and_passengers}) is likely not going to happen...
 
-__Chapter \ref{it takes two}__ (\nameref{it takes two} on page \pageref{it takes two}) provides building blocks for understanding and regulating the sexual reproduction and mode of transmission of the _Azolla_ & _N. azollae_ symbiosis; a pre-requisite for agricultural application of a novel crop symbiosis.
+__Chapter \ref{it_takes_two}__ (\nameref{it_takes_two} on page \pageref{it_takes_two}) provides building blocks for understanding and regulating the sexual reproduction and mode of transmission of the _Azolla_ & _N. azollae_ symbiosis; a pre-requisite for agricultural application of a novel crop symbiosis.
 We found that FR light and sporophyte density were main initiators of sexual reproduction while nitrogen availiblity was an inhibitor.
 Several _Azolla_ specimens collected all over the Netherlands produced viable offspring.
 FR-responsive transcripts included MIKCC homologues of CMADS1 and miR319-controlled GAMYB transcription factors in the fern, transporters in _N. azollae_, and ycf2 in chloroplasts.
