@@ -4,7 +4,7 @@
 ## Development of this practial
 In the first year of my PhD, I got the opportunity to design a metagenomics practical for Master students with a life sciences background.
 The practical introduces the Bash language and tries to learn the main concepts behind metagenomics through a hands-on approach.
-Together with a colleague, Margot Schuller, we made a first version based on the data of chapter \ref{fould_play} and tested it during the course.
+Together with a colleague, Margot Schuller, we made a first version based on the data of chapter \ref{foul_play} and tested it during the course.
 During the years that followed, I taught and itteratively improved this practical twice a year.
 In the before-last year of my PhD, I took up the challenge of coordinating the entire course: Introduction to bioinformatics for Life Sciences (IntroBioinfo).
 
