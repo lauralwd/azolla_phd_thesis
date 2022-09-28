@@ -3,7 +3,7 @@
 \renewcommand\thechapter{\Alph{chapter}}
 # bUTQ application / BKO portfolio summary
 \label{BKO}
-This appendix chapter summarises my application for the University Teaching Qualification or BKO (Basis Kwalificatie Onderwijs).
+This appendix chapter summarises my application for the basic University Teaching Qualification (bUTQ) or 'Basis Kwalificatie Onderwijs' (BKO) in Dutch.
 The summary is organised by the key competencies required for a successful application.
 For each application section, I selected key points, a quote, and a figure from the exit surveys.
 These exit surveys are typically done after a course conclusion.
