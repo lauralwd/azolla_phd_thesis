@@ -20,7 +20,8 @@ Gedurende mijn PhD heb ik mij kunnen ontwikkelen in allerlei vormen van onderwij
 Dat begon bij de begeleiding van bestaand onderwijs (zoals bijvoorbeeld practica Moleculair Genetische OnderzoeksTechnieken) op me genomen.
 Naar verloop van tijd werden dat intensievere onderwijsvormen.
 Denk hierbij aan het begeleiden van mini-stages van derdejaars BSc studenten in Biologie van de Biobased Economy en het ontwikkelen van een computerpracticum voor 'Introduction to Bioinformatics voor Life Sciences (IntroBioinfo).
-De kers op de taart werd het coördineren van diezelfde cursus.
+Zie \nameref{metagenomics_practial} op pagina \pageref{metagenomics_practical} voor meer details over dat computer practicum.
+De kers op de taart van mijn onderwijstaak tijdens mijn PhD werd het coördineren van de IntroBioinfo cursus.
 
 Naast curriculair onderwijs wordt ik ook heel enthousiast van het participeren in activiteiten voor een breder publiek, de zogezegde outreach activiteiten.
 Elke outreach acitiveit vraagt om een heroverweging van het publiek en hun achtergrond kennis.
