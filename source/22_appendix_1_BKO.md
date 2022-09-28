@@ -1,3 +1,5 @@
+\setcounter{chapter}{0}
+\renewcommand\thechapter{\Alph{chapter}}
 # Appendix A: bUTQ application / BKO portfolio summary
 \label{BKO}
 This appendix chapter summarises my application for the University Teaching Qualification or BKO (Basis Kwalificatie Onderwijs).
