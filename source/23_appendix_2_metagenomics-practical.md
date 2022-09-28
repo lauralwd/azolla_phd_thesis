@@ -29,16 +29,16 @@ The reasoning behind this measure, is that the main concepts from the lecture -t
 This leaves the students armed with a basic understanding of the goal of the practical and the main concepts of how to get there.
 During the practical then, the limited amount of working memory of a human brain can be used to tackle coding questions more easily, without also being bothered by questions like why am I doing this exactly, or what do I achieve with this small step.
 
-`figure genomics practical A, metagenomics practical B`
+![Summary of the workflow that students follow in the metagenomics practical. Tasks done by me as preparation are presented in a grey background (A) and tasks done by students during the practical on a white background (B). Green and Blue squares represent the FastQ input data. Bordeaux red squares represent computational tasks. Purple pentagons represent big-data in- and out-put files and grey-black quares represent human-readble tables. Yellow circles are final results, either figures or tables, that students produce during a practical and which you would typically find in a metagenomics manuscript or paper.](source/figures/mgp_workflow.pdf){#fig:mgp_workflow}
 
 ### Context and course design
 In the context of the course, I taught metagenomics as the third topic and made sure important skills were covered in the days before.
 The first day, I introduce bioinformatics in general and teach some basic BASH coding, required for the rest of the course.
 After letting this settle in long term memory over night, I continue with "general" genomics.
 Like with metagenomics, students have watched a pre-recorded lecture the day before.
-The genomics practical is a linear workflow in BASH. `figure A`
+The genomics practical is a linear workflow in BASH (+@fig:mgp_workflow).
 Hence, it's a substantial but reasonable increase in difficulty from the first day.
-The metagenomics practical on the other hand, is less linear and includes aggregation of data and refering back to files generated some time earlier. `figure B`
+The metagenomics practical on the other hand, is less linear and includes aggregation of data and refering back to files generated some time earlier.
 Hence students have learned about genomics and basic bash by the timethey are confronted with the concepts of metagenomics, non-linear workflows, and medium-advanced bash skills like variables and loops.
 Also thematically, the level of abstraction increases.
 In genomics, we study a single genome which was a given.
