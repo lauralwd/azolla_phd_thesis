@@ -61,7 +61,8 @@ Given the increasing intrest in phylogeny in our lab, and inspired by my previou
 With this workflow, I aim to circumvent limitations of other existing all-in-one or web based solutions.
 This chapter shortly summarises these existing tools and their limitations, and my design considerations in making my own workflow.
 This workflow is openly available and usable under a Creative Commons License at [GitHub.com/lauralwd/lauras_phylogeny_wf](https://github.com/lauralwd/lauras_phylogeny_wf)
-Finally, several examples of the workflow in practice are included to demonstrate its application in tackling biological questions of the _Azolla_ lab.
+Also, several examples of the workflow in practice are included to demonstrate its application in tackling biological questions of the _Azolla_ lab.
+By providing this workflow openly, and by documenting my own use of it on GitHub and Zenodo, I aim to inspire other reseachers to also make their analyses more reproducible and share their coding towards more reproducible research.
 
 ## Methods
 The state of the art tools required for phylogenetics are often desgined for Linux systems.
