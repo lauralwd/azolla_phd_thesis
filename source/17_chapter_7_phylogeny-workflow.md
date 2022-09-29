@@ -1,5 +1,20 @@
-# One two, tree! A JuPyter based workflow for creating state of the art phylogenies.
+\singlespacing
+\setlength{\parindent}{0.0in}
+# One two, tree! A workflow for creating state of the art phylogenies designed for reproducibility with JuPyter, conda and git.
 \label{phylogeny_workflow}
+
+\footnotesize
+Laura W Dijkhuizen^1^
+Erbil Güngör^1^
+Henriette Schluepmann^1^
+
+\scriptsize
+1. Laboratory of Molecular Plant Physiology, Department of Biology, Utrecht University, Utrecht, The Netherlands
+
+\newpage
+\normalsize
+\onehalfspacing
+\setlength{\parindent}{0.5in}
 
 ## Abstract
 
