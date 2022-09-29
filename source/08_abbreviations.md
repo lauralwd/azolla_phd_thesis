@@ -6,6 +6,7 @@
 \textbf{ANI}  \>  \textbf{A}verage \textbf{N}ucleotide \textbf{I}dentity \\  
 \textbf{CSP}  \>  \textbf{C}ommon \textbf{S}ymbiosis \textbf{P}athway \\  
 \textbf{CML}  \>  \textbf{C}om\textbf{M}and \textbf{L}ine \\  
+\textbf{DOI}  \>  \textbf{D}igital \textbf{O}bject \textbf{I}dentifier \\  
 \textbf{FAIR} \>  \textbf{F}indable \textbf{A}ccesable \textbf{I}nteroperable \textbf{R}esearchable \\  
 \textbf{FR}   \>  \textbf{F}ar-\textbf{R}ed (light) \\  
 \textbf{MAG}  \>  \textbf{M}etagenome \textbf{A}ssembled \textbf{G}enome \\  
