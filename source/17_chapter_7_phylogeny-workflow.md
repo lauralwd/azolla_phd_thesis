@@ -51,18 +51,23 @@ We used gene trees to attribute these homologs to any one orthologous group via 
 One examples was included in this thesis before in chapter \ref{it_takes_two} in +@fig:fig6_8.
 A second example can be found in the supplemental material of the same publication.
 
+NJ, ML and Baysian. What and why
+I consider Baysian approaches too advanced for the audience that this workflow is aimed at.
+
 Phylogenetics is in the first place a comparative exercise, hence to gain insight in the evolution of any protein sequence, one must compare it to related sequences.
 As plant biologists studying ferns, we are challenged by a lack of non-seed plant genomes available to us.
-Luckily, the recent 1kP project [@1kp] provides solution by collecting the genomes and assembled transcriptomes of 1000 plant species.
+Luckily, the recent 1kP project [@Leebens-Mack2019] provides solution by collecting the genomes and assembled transcriptomes of 1000 plant species.
 The 1kP effort fills a gap in reference databases, providing protein coding sequences for a large number of seed-free plants.
 As fern researchers, we make intensive use of the 1kP project and we use it in the examples included here.
 
 Given the increasing intrest in phylogeny in our lab, and inspired by my previous endavours to make my scientific practice more reproducible, I created a workflow to create phylogenetic trees.
 With this workflow, I aim to circumvent limitations of other existing all-in-one or web based solutions.
-This chapter shortly summarises these existing tools and their limitations, and my design considerations in making my own workflow.
-This workflow is openly available and usable under a Creative Commons License at [GitHub.com/lauralwd/lauras_phylogeny_wf](https://github.com/lauralwd/lauras_phylogeny_wf)
-Also, several examples of the workflow in practice are included to demonstrate its application in tackling biological questions of the _Azolla_ lab.
 By providing this workflow openly, and by documenting my own use of it on GitHub and Zenodo, I aim to inspire other reseachers to also make their analyses more reproducible and share their coding towards more reproducible research.
+
+This chapter shortly summarises data and software tools used for the workflow, alternative tools and their limitations, and my design considerations in making my own workflow.
+This workflow includes gathering data from the 1kP project [@Leebens-Mack2019], alignment of protein sequences, trimming of this allignment and tree inference via frequentist methods.
+Additionally, several examples of the workflow in practice are included to demonstrate its application in tackling biological questions of the _Azolla_ lab.
+This workflow is openly available and usable under a Creative Commons License at [GitHub.com/lauralwd/lauras_phylogeny_wf](https://github.com/lauralwd/lauras_phylogeny_wf)
 
 ## Methods
 The state of the art tools required for phylogenetics are often desgined for Linux systems.
