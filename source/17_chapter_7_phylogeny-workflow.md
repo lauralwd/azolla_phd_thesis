@@ -64,7 +64,61 @@ This workflow is openly available and usable under a Creative Commons License at
 Finally, several examples of the workflow in practice are included to demonstrate its application in tackling biological questions of the _Azolla_ lab.
 
 ## Methods
-JuPyter notebooks and GitHub
+The state of the art tools required for phylogenetics are often desgined for Linux systems.
+Using BASH scripts -BASH being the Linux-native programming language- can be a steep learning curve for novice users.
+Therefor I use JuPyuter notebooks to supply the user of the workflow with written instructions and pre-written BASH code.
+A JuPyter notebook is an interacive document in which the user can run said code, as well as journal their decissions and observations
+
+Software installation on Linux can be challenging, especially if certain versions of software may be incompatible.
+Therefore I make use of the conda or miniconda frameworks `cite` to supply any user with a ready made software environment that has all the required tools available.
+This environment also contains the software required to run the JuPyuter notebooks.
+Conda environments contain a list of all the software and the specific versions of that software, so future users may reproduce any analysis with the exact same software version.
+The recommended route is to install git and miniconda3 following the miniconda3 instructions (https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) on your system.
+For Linux and MacOS systems, this runs natively.
+For Windows systems, we have had good experience useing the Windows Sublayer for Linux (WSL).
+In our experience, these three systems all run miniconda3 without any issue.
+When git and miniconda3 are installed on your system, the required software may be installed via the following BASH commands:
+```
+git clone https://github.com/lauralwd/lauras_phylogeny_wf.git
+cd lauras_phylogeny_wf
+conda env create -f conda_environment.yaml
+conda activate phylogenetics
+```
+A small snippit of the `conda_environment.yaml` file is included below.
+It details the relevant software and exact version and build so any future researcher may reproduce results exacly.
+```
+name: phylogenetics
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=1_gnu
+  - alsa-lib=1.2.3=h516909a_0
+  - ca-certificates=2021.5.30=ha878542_0
+  - cairo=1.16.0=h6cf1ce9_1008
+  - certifi=2021.5.30=py39hf3d152e_0
+  - fasttree=2.1.10=h779adbc_5
+  - iqtree=2.1.2=h56fc30b_0
+  - jalview=2.11.1.4=hdfd78af_
+  - jpeg=9d=h36c2ea0_0
+  - mafft=7.480=h779adbc_0
+  - python=3.9.4=hffdb5ce_0_cpython
+```
+Finally, a user may make use of Git versioning software to document progress of their workflow, and possiblly maintain multiple versions thereoff.
+The JuPyter notebooks, some -but not all- data files, and the conda environment can be stored in Git.
+Whenever any file is changed, i.e. a analysis step is done successfully, this change can be appended to the Git history.
+When done well, this 'commit' to the Git history contains a very short written explanation of the added history.
+This might be a short line like `added raw data from 1kP project`, or `trimmed alligned fasta file and document parameter choice`.
+
+`figure git history and zenodo example`
+
+A Git repository containing the workflow may be uploaded online to services like GitHub or GitLab or a self-hosted Git server.
+This does not only provide instant back-ups of the workflow but also facilitates collaboration on the project with state-of-the art versioning software.
+Indeed, using Git for this purpose could be considered relativelly advanced and one may argue that users of this level may not need the guidance that this workflow is designed to provide.
+Even without collaboration, the back-up function is worth using.
+Additionally, a GitHub repository can be directly linked to Zenodo and archived with a DOI for reference in future work.
 
 ### data
 1kP
