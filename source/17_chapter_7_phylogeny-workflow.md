@@ -109,17 +109,17 @@ dependencies:
 ```
 Finally, a user may make use of Git versioning software to document progress of their workflow, and possiblly maintain multiple versions thereoff.
 The JuPyter notebooks, some -but not all- data files, and the conda environment can be stored in Git.
-Whenever any file is changed, i.e. a analysis step is done successfully, this change can be appended to the Git history.
+Whenever any file is changed, i.e. a analysis step is done successfully, this change can be appended to the Git history (+@fig:fig7_git_zenodo A).
 When done well, this 'commit' to the Git history contains a very short written explanation of the added history.
 This might be a short line like `added raw data from 1kP project`, or `trimmed alligned fasta file and document parameter choice`.
 
-`figure git history and zenodo example`
+![Online documentation of the phylogeny workflow on R2R3 MYB phylogeny in chapter \ref{it_takes_two}. The Git history shown on GitHub (A) details steps taken in finalising the phylogeny and the resulting figure. The finalised Git repository and all imortant files are archived on zenodo (B) with a DOI ([zenodo.org/badge/latestdoi/283424814](https://zenodo.org/badge/latestdoi/283424814)) ](source/figures/fig7_git_zenodo.pdf){#fig:fig7_git_zenodo}
 
 A Git repository containing the workflow may be uploaded online to services like GitHub or GitLab or a self-hosted Git server.
 This does not only provide instant back-ups of the workflow but also facilitates collaboration on the project with state-of-the art versioning software.
 Indeed, using Git for this purpose could be considered relativelly advanced and one may argue that users of this level may not need the guidance that this workflow is designed to provide.
 Even without collaboration, the back-up function is worth using.
-Additionally, a GitHub repository can be directly linked to Zenodo and archived with a DOI for reference in future work.
+Additionally, a GitHub repository can be directly linked to Zenodo and archived with a DOI for reference in future work. (+@fig:fig7_git_zenodo B)
 
 ### data
 1kP
