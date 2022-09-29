@@ -99,12 +99,6 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=conda_forge
-  - _openmp_mutex=4.5=1_gnu
-  - alsa-lib=1.2.3=h516909a_0
-  - ca-certificates=2021.5.30=ha878542_0
-  - cairo=1.16.0=h6cf1ce9_1008
-  - certifi=2021.5.30=py39hf3d152e_0
   - fasttree=2.1.10=h779adbc_5
   - iqtree=2.1.2=h56fc30b_0
   - jalview=2.11.1.4=hdfd78af_
