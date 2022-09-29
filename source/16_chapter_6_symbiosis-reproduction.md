@@ -6,7 +6,6 @@
 \footnotesize
 
 Laura W Dijkhuizen^1^
-Henriette Schluepmann^1^
 Badraldin Ebrahim Sayed Tabatabaei^2^
 Paul Brouwer^1^
 Niels Rijken^1^
