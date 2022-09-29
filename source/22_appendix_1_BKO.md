@@ -220,4 +220,3 @@ In het bijzonder de collega’s van IntroBioinfo die mij het vertrouwen gaven om
 Vervolgens bedank ik alle studenten die ik heb mogen onderwijzen, en specifiek alle studenten van wie ik feedback heb mogen ontvangen.
 Als junior docent is die aanmoediging en sturing enorm waardevol geweest.
 Tot slot bedank ik allen die mij hebben geholpen en geadviseerd in mijn BKO, specifiek Dr. Margot Koster en de BKO-commissie.
-Bedankt voor het doorlezen van mijn reflecties.
