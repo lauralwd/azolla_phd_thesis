@@ -129,7 +129,7 @@ Contrasting earlier theories, we propose that _N. azollae_ does not colonise dev
 Instead, we theorise that they colonise early sporocarp initials, but are only retained in megasporocarps.
 This method of transmission is identical to colonisation of leaf primordia, hence requires no separate machinery and explains consistent observation of _N. azollae_ in very young microsporocarps.
 
-In __chapter \ref{phylogeny_workflow}__ (\nameref{phylogeny_workflow} on page \pageref{phylogeny_workflow}) describes a workflow for creating large and state-of-the-art phylogentic trees of gene families in landplants.
+__Chapter \ref{phylogeny_workflow}__ (\nameref{phylogeny_workflow} on page \pageref{phylogeny_workflow}) describes a workflow for creating large and state-of-the-art phylogentic trees of gene families in landplants.
 Studying fern genetics, the _Azolla_ lab often deals with fern genes homologous (similar in sequence) to a seedplant gene.
 With phylogeny, we aim to assess the evolution of a gene family and orthology/paralogy of _Azolla_ genes to model species their genes.
 While many user friendly methods exist to create phylogenetic trees, these are often either closed-source, or their performance is limited.
