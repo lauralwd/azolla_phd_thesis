@@ -54,8 +54,20 @@ We used gene trees to attribute these homologs to any one orthologous group via 
 One examples was included in this thesis before in chapter \ref{it_takes_two} in +@fig:fig6_8.
 A second example can be found in the supplemental material of the same publication.
 
-NJ, ML and Baysian. What and why
-I consider Baysian approaches too advanced for the audience that this workflow is aimed at.
+There are several ways to infer trees from sequences, here I categorise them in three groups.
+These methods and other key concepts in modern day phylogenetics are excelently reviewed in @kapli2020.
+Almost all involve alligning sequences, often amino acid sequences, to each other.
+The methodically simpler group of methods (Neighbour Joining; NJ) then creates a distance matrix from this allignment, and a tree from this distance matrix.
+NJ methods are akin to hierarchical clustering methods and incredibly efficient.
+The method is however not very robust for sequences that are more divergent from the majority of the data or when sequences are distantly related.
+The second group of methods concerns Maximum Likelihood tree inference (ML).
+These methods do not infer distance matrices, but infer trees directly from the sequence allignment and then calculate the likelihood of this tree (a hypothetical evolution) given the alignment (the data).
+This likeihood is calculated given a certian model of evolution.
+Next, the methods searches through a virtual space of posible trees (treespace), and returns the tree with the best likelihood.
+A third group builds forth on the advances of ML tree inference but within a Baysian framework of statistics.
+I consider Baysian approaches too advanced for the audience that this workflow is aimed at, hence I won't discuss them or include them in the workflow.
+In the workflow presented here, I use ML tree inference with IQTree [@Nguyen2015].
+One of the main advantages of IQtree is that it includes software to find an appropriate model of evolution given an input allignment.
 
 Phylogenetics is in the first place a comparative exercise, hence to gain insight in the evolution of any protein sequence, one must compare it to related sequences.
 As plant biologists studying ferns, we are challenged by a lack of non-seed plant genomes available to us.
