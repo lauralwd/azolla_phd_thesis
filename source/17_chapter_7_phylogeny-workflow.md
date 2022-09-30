@@ -46,15 +46,16 @@ Species trees depict speciations only.
 When novices think of phylogenetic trees, they often think of species trees.
 However, in practice, researchers often make gene trees instead.
 Gene trees may seem inconsistent with with species trees due to gene duplications or losses.
+The relation between gene an species trees as well as how to read them is excelently explained in @VanHooff2019.
 
 `dummy figure species vs gene trees and orthology and paralogy, `
 
 Gene trees allow us to answer basic but important questions in comparative genomics.
 When presented with many gene sequences that are similar (homologs), we may use gene trees to see if these sequences are a result of a gene duplication (paralogs) or a speciation (orthologs).
-Orthology is a key concept for reading phylogenetic trees.
+Orthology is a key concept for reading phylogenetic trees and in detail explained in @VanHooff2019.
 If two sequences were separated because of speciation, and we assume they are the only copies both species their genomes, we may conclude that selection presure has occured on this particular gene.
 Hence, when reading a phylogenetic gene tree, we often assume that orthologous genes are functionally similar.
-Orthology inference is an invaluable tool in transfering biological meaning from one biological sequence with a validated function, to another, with no such validation.
+Orthology inference is an invaluable tool in transfering biological meaning from one biological sequence with a validated function, to another, with no such validation and inherently different from "mere" homology.
 
 The _Azolla_ lab has particular interest in such a tool.
 We are not only involved in the genomics of a novel crop but more specifically of the very first genome of a fern ever sequenced.
@@ -67,13 +68,15 @@ A second example can be found in the supplemental material of the same publicati
 
 There are several ways to infer trees from sequences, here I categorise them in three groups.
 These methods and other key concepts in modern day phylogenetics are excelently reviewed in @kapli2020.
-Almost all involve alligning sequences, often amino acid sequences, to each other.
-The methodically simpler group of methods (Neighbour Joining; NJ) then creates a distance matrix from this allignment, and a tree from this distance matrix.
+Almost all methods involve alligning sequences, often amino acid sequences, to each other.
+The first group is methodically the simplest: Neighbour Joining (NJ).
+NJ methods create a distance matrix from this allignment, and a tree from this distance matrix.
 NJ methods are akin to hierarchical clustering methods and incredibly efficient.
 The method is however not very robust for sequences that are more divergent from the majority of the data or when sequences are distantly related.
+Consequently, NJ is rarely used and not considered a state-of-the-art method in most use-cases.
 The second group of methods concerns Maximum Likelihood tree inference (ML).
 These methods do not infer distance matrices, but infer trees directly from the sequence allignment and then calculate the likelihood of this tree (a hypothetical evolution) given the alignment (the data).
-This likeihood is calculated given a certian model of evolution.
+This likeihood is calculated given a certian model of evolution `find good review for this`.
 Next, the methods searches through a virtual space of posible trees (treespace), and returns the tree with the best likelihood.
 A third group builds forth on the advances of ML tree inference but within a Baysian framework of statistics.
 I consider Baysian approaches too advanced for the audience that this workflow is aimed at, hence I won't discuss them or include them in the workflow.
@@ -86,11 +89,12 @@ Luckily, the recent 1kP project [@Leebens-Mack2019] provides solution by collect
 The 1kP effort fills a gap in reference databases, providing protein coding sequences for a large number of seed-free plants.
 As fern researchers, we make intensive use of the 1kP project and we use it in the examples included here.
 
+### Availability
 Given the increasing intrest in phylogeny in our lab, and inspired by my previous endavours to make my scientific practice more reproducible, I created a workflow to create phylogenetic trees.
 With this workflow, I aim to circumvent limitations of other existing all-in-one or web based solutions.
 By providing this workflow openly, and by documenting my own use of it on GitHub and Zenodo, I aim to inspire other reseachers to also make their analyses more reproducible and share their coding towards more reproducible research.
 
-This chapter shortly summarises data and software tools used for the workflow, alternative tools and their limitations, and my design considerations in making my own workflow.
+This remainder of this chapter shortly summarises data and software tools used for the workflow, alternative tools and their limitations, and my design considerations in making my own workflow.
 This workflow includes gathering data from the 1kP project [@Leebens-Mack2019], alignment of protein sequences, trimming of this allignment and tree inference via frequentist methods.
 Additionally, several examples of the workflow in practice are included to demonstrate its application in tackling biological questions of the _Azolla_ lab.
 This workflow is openly available and usable under a Creative Commons License at [GitHub.com/lauralwd/lauras_phylogeny_wf](https://github.com/lauralwd/lauras_phylogeny_wf)
@@ -193,7 +197,7 @@ Table: Transcriptome sample counts per clade of the Viridiplantae. {#tbl:tbl7_1k
 
 This vast dataset of plant coding sequences, or any set of sequences, must still be searched for homologous sequences.
 One would typically use blast for these homologs in either the 1kP data, or in NCBI blast, or both.
-However, the work done by the 1kP authors already includes big orthogroups made with Orthofinder `@orthofinder`.
+However, the work done by the 1kP authors already includes big orthogroups made with Orthofinder [@Emms2019].
 These orthogroups contain whole gene families and perhaps counter-intuitively includes paralogous groups within that gene family.
 We may use these orthogroups as starting points for our own phylogentic inferences.
 These orthogroups are more reliable than blast searches and hence provide an improved starting point.
