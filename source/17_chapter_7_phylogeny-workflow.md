@@ -19,20 +19,22 @@ Henriette Schluepmann^1^
 ## Abstract
 
 ## Introduction
-Life Sciences has entered the big-data age; we have an unprecedented detailed view on the storage and processing of information in biological systems.
+Life Sciences has entered the big-data age; we have an unprecedented detailed view on the storage and processing of information within biological systems.
 This view is possible due to the ever decreasing prices of sequencing of DNA, RNA and protein.
-Consequently, biologist are challenged less with acquiring data, and more with its processing and gaining insight from it.
+Consequently, biologist are challenged less with acquiring data, and more with its organising, processing and gaining insight from it.
 Phylogenetics is one answer to that challenge.
-Phylogenetics can organise sequences by their hypothesised evolution, in phylogenetic trees.
+Phylogenetics organises sequences by their hypothesised evolution, in phylogenetic trees.
 Afteral, how does anything in biology make sense except in the light of evolution.
 
 In principle, two types of phylogenetic trees exist: gene trees, and species trees.
 Gene trees depict the hypothetical pattern in which several sequences are related to each other.
+This organisation will remain hypothetical for one can not observe how proteins or species have evolved in the past.
 If a single organism contains two copies of a gene, the organism's name will appear twice in the tree.
 Hence the tree nodes, the bifurcations, may represent speciations as well as gene duplications.
 Species trees depict speciations only.
 When novices think of phylogenetic trees, they often think of species trees.
 However, in practice, researchers often make gene trees instead.
+Gene trees may seem inconsistent with with species trees due to gene duplications or losses.
 
 `dummy figure species vs gene trees and orthology and paralogy, `
 
@@ -41,6 +43,7 @@ When presented with many gene sequences that are similar (homologs), we may use 
 Orthology is a key concept for reading phylogenetic trees.
 If two sequences were separated because of speciation, and we assume they are the only copies both species their genomes, we may conclude that selection presure has occured on this particular gene.
 Hence, when reading a phylogenetic gene tree, we often assume that orthologous genes are functionally similar.
+Orthology inference is an invaluable tool in transfering biological meaning from one biological sequence with a validated function, to another, with no such validation.
 
 The _Azolla_ lab has particular interest in such a tool.
 We are not only involved in the genomics of a novel crop but more specifically of the very first genome of a fern ever sequenced.
