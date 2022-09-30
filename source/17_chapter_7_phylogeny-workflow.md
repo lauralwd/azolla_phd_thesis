@@ -135,13 +135,63 @@ Indeed, using Git for this purpose could be considered relativelly advanced and 
 Even without collaboration, the back-up function is worth using.
 Additionally, a GitHub repository can be directly linked to Zenodo and archived with a DOI for reference in future work. (+@fig:fig7_git_zenodo B)
 
-### data
-1kP
+### Data
+Here we use the 1kP data to contextualise our _Azolla_ sequences of interest.
+The 1kP project [@Leebens-Mack2019] published assembled transcriptomes for over 1000 plant species (+@tbl:tbl7_1kP_sample_counts) and included 26 species with sequenced genomes in their dataset as well.
+Genome assembly based data can be assumed to be complete.
+In phylogenetics this is relevant for all paralogs that a species may contain will be present in the dataset.
+For transcriptome assembled data, this assumption does not hold.
+Paralogs may not be simultaneously expressed and therefore absent from the dataset.
+Alternativelly, paralogs may be assembled as a single sequence.
+Absence of paralogs in the dataset and the phylogeny infered thereoff is relevant for it may cause wrong inference of speciation and duplication nodes.
+Consequently, orthlogy inference may be faulty as well.
+To somewhat mitigate this shortcomming, we chose to include a substantial amount of species in our phylogenies.
+We argue that if one species does not express both paralogs simultaneously, then maybe another will.
+To make our trees and the orthology and paralogy patterns easier interpretable, we colour code six main clades of the Viridiplantae in our trees.
+These are the Algae, Bryophytes, Lycophytes, Monilophytes, Gymnosperms and Angiosperms (+@tbl:tbl7_1kP_sample_counts).
 
-### tools
-MAFFT, trimAL, IQtree, iToL
+| Clade        | Lineage                        | Sample count |
+| ------------ | ----------------       	      |    ---       |
+| Algae        | Chloranthales                 	|            2 |
+| Algae        | Chromista (Algae)             	|           35 |
+| Algae        | Glaucophyta (Algae)           	|            5 |
+| Algae        | Green Algae                   	|          171 |
+| Algae        | Red Algae                     	|           28 |
+| Bryophytes   | Hornworts                     	|           14 |
+| Bryophytes   | Liverworts                    	|           29 |
+| Lycophytes   | Lycophytes                    	|           22 |
+| Bryophytes   | Mosses                        	|           41 |
+| Monilophytes | Eusporangiate Monilophytes    	|           12 |
+| Monilophytes | Leptosporangiate Monilophytes 	|           68 |
+| Gymnosperms  | Conifers                      	|           76 |
+| Gymnosperms  | Cycadales                     	|            4 |
+| Gymnosperms  | Ginkgoales                    	|            1 |
+| Gymnosperms  | Gnetales                      	|            3 |
+| Angiosperms  | Basal Eudicots                	|           58 |
+| Angiosperms  | Basalmost angiosperms         	|            8 |
+| Angiosperms  | Core Eudicots                 	|          119 |
+| Angiosperms  | Core Eudicots/Asterids        	|          248 |
+| Angiosperms  | Core Eudicots/Rosids          	|          257 |
+| Angiosperms  | Magnoliids                    	|           27 |
+| Angiosperms  | Monocots                      	|           66 |
+| Angiosperms  | Monocots/Commelinids          	|           45 |
+|              |                        	      |              |
+|              | **Grand Total**               	|     **1339** |
 
-## results
+Table: Transcriptome sample counts per clade of the Viridiplantae. {#tbl:tbl7_1kP_sample_counts}
+
+This vast dataset of plant coding sequences, or any set of sequences, must still be searched for homologous sequences.
+One would typically use blast for these homologs in either the 1kP data, or in NCBI blast, or both.
+However, the work done by the 1kP authors already includes big orthogroups made with Orthofinder `@orthofinder`.
+These orthogroups contain whole gene families and perhaps counter-intuitively includes paralogous groups within that gene family.
+We may use these orthogroups as starting points for our own phylogentic inferences.
+These orthogroups are more reliable than blast searches and hence provide an improved starting point.
+Unfortunately, the orthogroups created by the 1kP project are not publicly available anymore.
+They are not included in the data-uploads to the usual repositories but instead hosted at a separate link.
+The original link ([jlmwiki.plantbio.uga.edu/onekp/v2/](http://jlmwiki.plantbio.uga.edu/onekp/v2/)) at the Leebens-Mack lab is no longer available.
+The authors were made aware of this early 2022 but as of yet there is no alternative way to access this data.
+
+## Results
 
 ### Existing tools
 
