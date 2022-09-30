@@ -252,8 +252,22 @@ IQTree & PHYML
 
 #### LAR
 
+![](source/figures/fig7_LAR_phylogeny.pdf){#fig:fig7_LAR_phylogeny}
+
+
 #### 2OGD
 
+![](source/figures/fig7_2OGD_phylogeny_small.pdf){#fig:fig7_2OGD_phylogeny_small width=50%}
+
+![](source/figures/fig7_2OGD_phylogeny.pdf){#fig:fig7_2OGD_phylogeny}
+
 #### MYB & MIKc
+prank indel-realignment
+
+![](source/figures/fig7_MIKCc_phylogeny.pdf){#fig:fig7_MIKCc_phylogeny}
 
 ## discussion
+
+phylogenomics
+
+SNPhylo, trees on snips of whole genomes
