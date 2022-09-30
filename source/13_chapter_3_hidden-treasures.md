@@ -220,7 +220,7 @@ Secondly, removing host DNA from the assembly input substantially reduces comput
 Likely due to a reduced size of the assembly graph.
 
 filter stage    | superkingdom  | contig count |scaffold count | total scaffold length (Mb) | median scaffold length (kb) | average scaffold length (kb)
------           |    -----      | ---   |  ---  | --- |  ---  |  ---
+-----           |    -----      | ---:  |  ---: | ---:|  ---: |  ---:
 host filtered   | Bacteria	    |	44861 | 48500	| 814	| 5666	| 16775
 double filtered | Bacteria      |	44742 | 48304	| 812	| 5671	| 16816
 host filtered   | Eukaryota	    |	70168 | 70273	| 636	| 5588	|  9045
@@ -854,17 +854,17 @@ We gladly share all genomes of bacteria associated with the _Azolla_ genus with 
 ## Supplemental data
 \tiny
 | Host sample                       | Taxonomical order  | MAG name                  | MAG length (MBase) | Anvi'o completeness | Anvi'o redundancy | CheckM completeness | CheckM redundancy |
-| --------------------------------- | ------------------ | ------------------------- | -------    | ---------    | ---------    | ----------    | ----------    |
+| --------------------------------- | ------------------ | ------------------------- | -------:   | ---------:   | ---------:   | ----------:   | ----------:   |
 | _Azolla rubra_                    | Caulobacterales    | Asticcacaulis             | 4.29       | 100          | 0            | 100           | 1             |
 | _Azolla rubra_                    | Burkholderiales    | Betaproteobacteria        | 3.27       | 99           | 0            | 100           | 1             |
-| _Azolla rubra_                    | Nitrosomonadales   | Methylovorus              | 3          | 100          | 3            | 100           | 0             |
+| _Azolla rubra_                    | Nitrosomonadales   | Methylovorus              | 3.00        | 100          | 3            | 100           | 0             |
 | _Azolla rubra_                    | Rhizobiales        | Rhizobiales               | 5.28       | 96           | 0            | 99            | 0             |
 | _Azolla rubra_                    | Rhizobiales        | Rhizobiales2              | 5.09       | 80           | 1            | 100           | 1             |
 | _Azolla rubra_                    | Rhizobiales        | Rhizobiales3              | 4.56       | 100          | 1            | 99            | 0             |
 | _Azolla rubra_                    | Rhizobiales        | Rhizobiales4              | 4.67       | 94           | 0            | 97            | 1             |
-| _Azolla rubra_                    | Nostocales         | Trichormus                | 4.7        | 97           | 3            | 98            | 0             |
+| _Azolla rubra_                    | Nostocales         | Trichormus                | 4.70       | 97           | 3            | 98            | 0             |
 | _Azolla rubra_                    | Rhizobiales        | Rhizobiales5              | 2.45       | 45           | 1            | 29            | 0             |
-| _Azolla rubra_                    | no\_support        | alphaproteobacteria       | 6.3        | 100          | 6            | 100           | 0             |
+| _Azolla rubra_                    | no\_support        | alphaproteobacteria       | 6.30       | 100          | 6            | 100           | 0             |
 | _Azolla rubra_                    | Nevskiales         | proteobacteria            | 2.38       | 35           | 4            | 37            | 2             |
 | _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Bacteria                  | 5.05       | 51           | 4            | 44            | 13            |
 | _Azolla filiculoides_ ‘lab’       | no\_support        | Bacteriodetes1            | 3.41       | 63           | 4            | 83            | 3             |
@@ -873,20 +873,20 @@ We gladly share all genomes of bacteria associated with the _Azolla_ genus with 
 | _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Bradyrhizobiaceae         | 8.01       | 65           | 11           | 73            | 19            |
 | _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Bradyrhizobiaceae2        | 4.95       | 55           | 1            | 63            | 4             |
 | _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Bradyrhizobiaceae3        | 5.75       | 73           | 1            | 64            | 5             |
-| _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Bradyrhizobium            | 8.8        | 96           | 10           | 94            | 14            |
-| _Azolla filiculoides_ ‘lab’       | Burkholderiales    | Burkholderiales           | 5.6        | 87           | 31           | 87            | 13            |
+| _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Bradyrhizobium            | 8.80       | 96           | 10           | 94            | 14            |
+| _Azolla filiculoides_ ‘lab’       | Burkholderiales    | Burkholderiales           | 5.60       | 87           | 31           | 87            | 13            |
 | _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Hyphomicrobium            | 3.84       | 100          | 0            | 97            | 0             |
 | _Azolla filiculoides_ ‘lab’       | Burkholderiales    | Ralstonia\_1              | 5.18       | 66           | 6            | 80            | 4             |
 | _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Rhizobiaceae\_endophytic  | 5.18       | 100          | 0            | 99            | 0             |
 | _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Rhizobiales               | 4.39       | 86           | 0            | 97            | 1             |
 | _Azolla filiculoides_ ‘lab’       | Nevskiales         | Sinobacteraceae           | 3.87       | 97           | 3            | 97            | 1             |
 | _Azolla filiculoides_ ‘lab’       | Sphingobacteriales | Sphingobacteriales        | 7.75       | 94           | 0            | 99            | 2             |
-| _Azolla filiculoides_ ‘lab’       | Sphingomonadales   | Sphingomonas              | 4.3        | 94           | 0            | 95            | 1             |
+| _Azolla filiculoides_ ‘lab’       | Sphingomonadales   | Sphingomonas              | 4.30       | 94           | 0            | 95            | 1             |
 | _Azolla filiculoides_ ‘lab’       | Nostocales         | Trichormus\_azollae       | 4.72       | 96           | 3            | 98            | 0             |
 |_Azolla filiculoides_ ‘minus-cyano’| Bacillales         | Paenibacillus\_lab        | 8.07       | 100          | 6            | 99            | 1             |
 |_Azolla filiculoides_ ‘minus-cyano’| Burkholderiales    | Ralstonia\_maybewild      | 5.54       | 100          | 3            | 100           | 1             |
 |_Azolla filiculoides_ ‘minus-cyano’| Rhizobiales        | Rhizobiales\_endophytic   | 5.21       | 100          | 0            | 100           | 0             |
-|_Azolla filiculoides_ ‘minus-cyano’| Rhizobiales        | Rhizobiales\_lab          | 6.3        | 100          | 0            | 98            | 1             |
+|_Azolla filiculoides_ ‘minus-cyano’| Rhizobiales        | Rhizobiales\_lab          | 6.30       | 100          | 0            | 98            | 1             |
 |_Azolla filiculoides_ ‘minus-cyano’| Rhizobiales        | Rhizobiales\_wild         | 5.59       | 100          | 0            | 100           | 0             |
 | _Azolla mexicana_                 | Caulobacterales    | Asticcacaulis             | 5.19       | 100          | 0            | 99            | 1             |
 | _Azolla mexicana_                 | Rhizobiales        | Bradyrhizobiaceae         | 6.65       | 54           | 4            | 70            | 2             |
@@ -901,7 +901,7 @@ We gladly share all genomes of bacteria associated with the _Azolla_ genus with 
 | _Azolla mexicana_                 | Rhizobiales        | Rhizobiales2\_1           | 4.29       | 94           | 0            | 95            | 1             |
 | _Azolla mexicana_                 | Rhizobiales        | Rhizobiales3              | 5.45       | 61           | 0            | 98            | 0             |
 | _Azolla mexicana_                 | Rhizobiales        | Rhizobiales4              | 4.38       | 100          | 4            | 100           | 2             |
-| _Azolla mexicana_                 | Sphingomonadales   | Sphingomonadaceae         | 4.3        | 100          | 0            | 99            | 0             |
+| _Azolla mexicana_                 | Sphingomonadales   | Sphingomonadaceae         | 4.30       | 100          | 0            | 99            | 0             |
 | _Azolla mexicana_                 | no\_support        | Sphingomonadaceae2        | 4.59       | 94           | 0            | 90            | 1             |
 | _Azolla mexicana_                 | Nostocales         | Trichormus                | 4.87       | 97           | 4            | 99            | 0             |
 | _Azolla mexicana_                 | Burkholderiales    | rest\_1                   | 0.98       | 73           | 24           | 59            | 17            |
@@ -940,13 +940,13 @@ We gladly share all genomes of bacteria associated with the _Azolla_ genus with 
 | _Azolla caroliniana_ 1            | Chitinophagales    | Chitinophaga              | 8.03       | 100          | 0            | 100           | 1             |
 | _Azolla caroliniana_ 1            | Nevskiales         | Nevskia\_ramosa           | 3.14       | 0            | 0            | 34            | 0             |
 | _Azolla caroliniana_ 1            | Nevskiales         | Nevskia\_soli             | 6.12       | 94           | 4            | 97            | 5             |
-| _Azolla caroliniana_ 1            | Rhizobiales        | Rhizobiales               | 4.9        | 73           | 7            | 59            | 3             |
+| _Azolla caroliniana_ 1            | Rhizobiales        | Rhizobiales               | 4.90       | 73           | 7            | 59            | 3             |
 | _Azolla caroliniana_ 1            | Rhizobiales        | Rhizobiales2              | 5.07       | 100          | 3            | 100           | 1             |
 | _Azolla caroliniana_ 1            | Sphingomonadales   | Sphingomonadaceae         | 3.01       | 46           | 3            | 44            | 2             |
-| _Azolla caroliniana_ 1            | Nostocales         | Trichormus                | 4.7        | 97           | 4            | 98            | 0             |
+| _Azolla caroliniana_ 1            | Nostocales         | Trichormus                | 4.70       | 97           | 4            | 98            | 0             |
 | _Azolla caroliniana_ 2            | Rhizobiales        | Alphaproteobacteria       | 6.74       | 56           | 7            | 38            | 3             |
-| _Azolla caroliniana_ 2            | Caulobacterales    | Asticcacaulis             | 3.7        | 99           | 0            | 98            | 0             |
-| _Azolla caroliniana_ 2            | Caulobacterales    | Asticcacaulis2            | 4.9        | 89           | 4            | 95            | 3             |
+| _Azolla caroliniana_ 2            | Caulobacterales    | Asticcacaulis             | 3.70       | 99           | 0            | 98            | 0             |
+| _Azolla caroliniana_ 2            | Caulobacterales    | Asticcacaulis2            | 4.90       | 89           | 4            | 95            | 3             |
 | _Azolla caroliniana_ 2            | Caulobacterales    | Asticcacaulis\_taihuensis | 3.84       | 89           | 0            | 100           | 0             |
 | _Azolla caroliniana_ 2            | Rhizobiales        | Bradyrhizobium            | 7.53       | 100          | 0            | 100           | 0             |
 | _Azolla caroliniana_ 2            | Caulobacterales    | Caulobacterales           | 4.66       | 89           | 0            | 100           | 2             |

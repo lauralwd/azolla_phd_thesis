@@ -214,7 +214,7 @@ The ratio of mega- to microsporocarp was approximately equal over nine weeks of 
 Additionally, the marker SOC1-like from _A. filiculoides_ [@Brouwer2014], was maximally induced when sporocarps became visible four weeks after FR induction started (Supplementary Figure S1G).
 
 | Megaspores: Massulae   | Galgenwaard | Krommerijn | Hoogwoud | Gran Canaria | Den Bosch | Nijmegen | Nieuwebrug | Groningen |
-| ---------------------- | ----------- | ---------- | -------- | ------------ | --------- | -------- | ---------- | --------- |
+| ---------------------- | :---------: | :--------: | :------: | :----------: | :-------: | :------: | :--------: | :-------: |
 | Galgenwaard            | \>1000      | 17         |          | 1            |           | 13       |            | 2         |
 | Krommerijn             | 1           |            |          |              | 16        |          | 2          |           |
 | Hoogwoud               |             |            | 20       |              |           |          |            | 2         |
