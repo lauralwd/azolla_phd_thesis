@@ -79,17 +79,17 @@ They host substantial quantities of di-nitrogen fixing symbiotic _Nostoc azollae
 These cavities contain a mucus-like substance [@Forni1998], containing the primary symbiont which presumably releases ammonia [@Newton1976].
 The appropriate genus of the main _Azolla_ symbiont has been prone to debate; it is also known as _Anabaena azollae_ and _Trichormus azollae_.
 Here, we name the symbiont _N. azollae_ for consistency with our earlier work and consider the alternate names synonymous.
-High sequence identity amongst _N. azollae_ genomes taken from various _Azolla_ species indicates that _N. azollae_ was likely introduced once in the symbiosis [Chapter \ref{it takes two}\; @Dijkhuizen2021].
+High sequence identity amongst _N. azollae_ genomes taken from various _Azolla_ species indicates that _N. azollae_ was likely introduced once in the symbiosis [Chapter \ref{it_takes_two}\; @Dijkhuizen2021].
 Consequently, all _N. azollae_ strains endophytic to _Azolla_ are likely the same cyanobacterial genus, perhaps even species.
-At the fern Shoot Apical Meristem (SAM) lies a -somewhat ironically named- seed colony of motile _N. azollae_ filaments [Chapter \ref{it takes two}\; @Dijkhuizen2021, @Campbell1893].
+At the fern Shoot Apical Meristem (SAM) lies a -somewhat ironically named- seed colony of motile _N. azollae_ filaments [Chapter \ref{it_takes_two}\; @Dijkhuizen2021, @Campbell1893].
 Developing leaves encapsulate part of this seed colony as inoculum for every leaf's new cavity [@Campbell1893; @Nierzwicki-Bauer1989; @Perkins1993].
 _Azolla_ ferns systematically transfer their symbiotic cyanobacteria to the next generations via their megaspores (+@fig:fig1_life-cycle).
 The method of innoculation of these megasporocarps is thought to be similar to that of leaves [@Campbell1893; @Nierzwicki-Bauer1989; @Perkins1993].
 However, recent papers theorised that the symbiont entered the fern megaspores via small channels [@Ran2010; @Zheng2009].
-We theorise that early developing spore primordia of either gender encapsulate part of the cyanobacterial seed-colony based on confocal imagery [Chapter \ref{it takes two}\; @Dijkhuizen2021], thereby mirroring the mechanism by which leaves are innoculated.
+We theorise that early developing spore primordia of either gender encapsulate part of the cyanobacterial seed-colony based on confocal imagery [Chapter \ref{it_takes_two}\; @Dijkhuizen2021], thereby mirroring the mechanism by which leaves are innoculated.
 Regardless the method of innoculation, _Azolla_ megasporocarps retain the cyanobacteria, which then develop into resting stages called akinetes.
 Microsporocarps lose the symbiont throughout their development.
-Electron and confocal microscopy of cyanobacterial resting stages inside microspores support this theory [Chapter \ref{it takes two}\; @Dijkhuizen2021, @Caiola1992].
+Electron and confocal microscopy of cyanobacterial resting stages inside microspores support this theory [Chapter \ref{it_takes_two}\; @Dijkhuizen2021, @Caiola1992].
 
 _Azolla_ leaves and spores harbour at least one other bacterium, as was shown in multiple species [@Gates1980; @Wallace1986; @Petro1987; @Caiola1988; @Plazinski1990; @Cohen2004; @Banach2019].
 These additional bacteria are likely limited in number and remain relatively understudied compared to the main symbiont _N. azollae_.
@@ -181,7 +181,7 @@ Sequencing data is mainly generated on Illumina platforms with typical insert si
 Both studies' their _A. filiculoides_ samples originate from the same Ditch in Utrecht, the Netherlands.
 One sample was treated to remove the most abundant symbiont: _N. azollae_; it is indicated as the no-cyano sample (+@fig:fig3_data_overview\-B).
 All samples acquired from the International Rice Research Institute (IRRI) were maintained for approximately two decades by the IRRI by vegetative propagation [@Watanabe1992] (+@fig:fig3_data_overview\-B).
-These plant strains were sampled at various locations around the globe (+@fig:fig3_data_overview\-C): _Azolla nilotica_, _Azolla rubra_, _Azolla mexicana_, _Azolla microphylla_ and two _Azolla carolinana_ samples which may actualy be a new species [Chapter \ref{it takes two}\; @Dijkhuizen2021].
+These plant strains were sampled at various locations around the globe (+@fig:fig3_data_overview\-C): _Azolla nilotica_, _Azolla rubra_, _Azolla mexicana_, _Azolla microphylla_ and two _Azolla carolinana_ samples which may actualy be a new species [Chapter \ref{it_takes_two}\; @Dijkhuizen2021].
 The third data source is the seminal paper introducing the _N. azollae_ genome sequence [@Ran2010].
 This paper includes ion-torrent sequencing of the primary symbiont of _A. filiculoides_ which was extracted and purified on a sorbitol gradient.
 Data of the latter study was acquired from SRA: for the first and last studies via the accession numbers listed in +@fig:fig3_data_overview\-B.
@@ -774,7 +774,7 @@ Other groups of bacteria are seemingly systematicall atracted by the plant, like
 
 Two theories currently coexist in the literature about how _N. azollae_ enters _Azolla_ megasporocarps.
 Recently, motile _N. azollae_ filaments were observed with confocal microscopy in small channels of the _Azolla_ megasporocarp indusium cap [@Zheng2009; @Ran2010].
-We theorise, however, that both _N. azollae_ and other microbes may be retained in seed colonies near the shoot apical meristem (SAM) of _Azolla_ ferns, as we showed Chapter \ref{it takes two} [@Dijkhuizen2021].
+We theorise, however, that both _N. azollae_ and other microbes may be retained in seed colonies near the shoot apical meristem (SAM) of _Azolla_ ferns, as we showed Chapter \ref{it_takes_two} [@Dijkhuizen2021].
 Leaf and sporocarp primordia use trichomes to encapsulate _N. azollae_ from this seed colony during early development, which functions as inoculum for the forming organ. [@Campbell1893; @Nierzwicki-Bauer1989; @Perkins1993].
 We prefer this mechanism supported by many electron microscopy studies for its parsimonious solution to _N. azollae_ desimination over _Azolla_ organs.
 This hypothesised mechanism of microbiome transfer does not explain motile cyanobacterial filaments often observed in a channel of the megaspores' indusium caps in [@Ran2010; @Zheng2009].
@@ -813,7 +813,7 @@ The latter consideration is somewhat mitigated by the presence of these orders i
 
 The systematic presence of specific groups of bacteria suggests that ferns of the genus _Azolla_ may acquire some fitness benefit from their microbiome.
 @Forni1992 theorised that _Azolla_ associated bacteria may be responsible for the mucus in which both _N. azollae_ and other microbes are harboured.
-A similar mucus is found at the apical meristem colony in Chapter \ref{it takes two} [@Dijkhuizen2021].
+A similar mucus is found at the apical meristem colony in Chapter \ref{it_takes_two} [@Dijkhuizen2021].
 Mining the genomes published here may indicate if the genes required for producing this mucus are present.
 @Wallace1986 identified an _Arthrobacter_ bacterium endophyic to _A. carolinana_, _A. filiculoides_ and _A. mexicana_.
 Besides its presence in multiple _Azolla_ species, its abundance increased with the age of _Azolla_ leaves [@Petro1987].
