@@ -286,6 +286,7 @@ These changes in light harvesting-related transcripts were small, however, compa
 We conclude that a one-week induction of reproductive structures with FR may have caused few and small transcriptional changes reflecting light-harvesting adaptations in _N. azollae_.
 The larger differential accumulation of transporter transcripts may reflect more important changes in metabolite trafficking and communication with the host fern.
 
+\begin{threeparttable}
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.17}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.06}}
@@ -295,53 +296,42 @@ The larger differential accumulation of transporter transcripts may reflect more
   >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.32}}@{}}
 
 \caption{Transcription factors with largest changes in transcript abundance in sporophytes in TL with versus without FR.
-  TF with homology to TF related to flowering are bold type.}
-\label{tbl:tbl6_TFs}}
-\tabularnewline
-\toprule
+  TF with homology to TF related to flowering are bold type.
+  \label{tbl:tbl6_TFs}}
 
-\emph{A. filiculoides} locus & baseMean & Log2Fold Change & DESeq2 padj
-& Mercator 4.0 annotation & Closest \emph{Arabidopsis} Homolog \\
-\midrule
-\endfirsthead
+\tabularnewline
+
 \toprule
-\emph{A. filiculoides} locus & baseMean & Log2Fold Change & DESeq2 padj
-& Mercator 4.0 annotation & Closest \emph{Arabidopsis} Homolog \\
+\rotatebox{45}{\emph{A. filiculoides} locus}       &
+\rotatebox{45}{baseMean}                           &
+\rotatebox{45}{Log2Fold Change}                    &
+\rotatebox{45}{DESeq2 padj}                        &
+\rotatebox{45}{Mercator 4.0 annotation}            &
+\rotatebox{45}{Closest \emph{Arabidopsis} Homolog} \\
 \midrule
 \endhead
-Azfi\_s0028.g024032 & 9 & 7.22 & 0.001 & 15.5.14 MADS/AGL & AGL20/SOC1,
-MIKCC \\
-Azfi\_s0113.g045874 & 155 & 6.41 & 0.002 & 15.5.2 R2R3MYB & AtMYB 32
-(AT4G34990.1), R2R3MYB VIII-E* \\
-Azfi\_s0083.g038807 & 59 & 5.75 & 0 & 15.5.32 Basic Helix-Loop-Helix &
-EDA33, IND1, INDEHISCENT (AT4G00120.1) \\
-Azfi\_s0003.g007560 & 8 & 5.27 & 0.011 & 15.5.32 Basic Helix-Loop-Helix
-& FIT1 (regulates iron transport) \\
-Azfi\_s0003.g007559 & 34 & 3.49 & 0 & 15.5.32 Basic Helix-Loop-Helix &
-FIT1 (regulates iron transport) \\
-Azfi\_s0096.g043715 & 31 & 3.13 & 0.001 & 15.5.7 DREB subfamily A-2 of
-ERF/AP2 & AT5G18450.1 \\
-Azfi\_s0003.g007710 & 1778 & 2.82 & 0 & 15.5.14 MADS/AGL & AGL6,
-MIKCC \\
-Azfi\_s0015.g013719 & 111 & 2.57 & 0 & 15.5.2 G2-like, GARP & HHO2,
-NIGT1.2 \\
-Azfi\_s0112.g045798 & 66 & 2.2 & 0 & 15.5.51.1 NF-Y component NF-YA &
-AT5G12840.4 \\
-Azfi\_s0014.g013539 & 105 & 2.07 & 0.005 & 15.5.2 R2R3MYB & LOF2,
-R2R3MYB V\footnote{R2R3 MYB classification according to Jiang \& Rao
-  (2020).} \\
-Azfi\_s0015.g014012 & 165 & 1.99 & 0.026 & 15.5.17 NAC domain &
-NAC025 \\
-Azfi\_s0004.g008455 & 103 & 1.93 & 0.003 & 15.5.2 R2R3MYB & miRNA319
-controlled GAMYB 33, R2R3MYB VII\footnote{R2R3 MYB classification
-  according to Jiang \& Rao (2020).} \\
-Azfi\_s0132.g049213 & 63 & -2.35 & 0.004 & 15.5.32 Basic
-Helix-Loop-Helix & No hits \\
-Azfi\_s0182.g056462 & 10 & -4.46 & 0.049 & 15.5.3 HD-ZIP I/II & HB16 \\
+
+Azfi\_s0028.g024032 &   9 & 7.22 & 0.001 & 15.5.14 MADS/AGL & AGL20/SOC1, MIKCC \\
+Azfi\_s0113.g045874 & 155 & 6.41 & 0.002 & 15.5.2 R2R3MYB & AtMYB 32 (AT4G34990.1), R2R3MYB VIII-E* \\
+Azfi\_s0083.g038807 &  59 & 5.75 & 0 & 15.5.32 Basic Helix-Loop-Helix & EDA33, IND1, INDEHISCENT (AT4G00120.1) \\
+Azfi\_s0003.g007560 &   8 & 5.27 & 0.011 & 15.5.32 Basic Helix-Loop-Helix & FIT1 (regulates iron transport) \\
+Azfi\_s0003.g007559 &  34 & 3.49 & 0 & 15.5.32 Basic Helix-Loop-Helix & FIT1 (regulates iron transport) \\
+Azfi\_s0096.g043715 &  31 & 3.13 & 0.001 & 15.5.7 DREB subfamily A-2 of ERF/AP2 & AT5G18450.1 \\
+Azfi\_s0003.g007710 & 1778 & 2.82 & 0 & 15.5.14 MADS/AGL & AGL6, MIKCC \\
+Azfi\_s0015.g013719 & 111 & 2.57 & 0 & 15.5.2 G2-like, GARP & HHO2, NIGT1.2 \\
+Azfi\_s0112.g045798 &  66 & 2.2 & 0 & 15.5.51.1 NF-Y component NF-YA & AT5G12840.4 \\
+Azfi\_s0014.g013539 & 105 & 2.07 & 0.005 & 15.5.2 R2R3MYB & LOF2, R2R3MYB V\tnote{a} \\
+Azfi\_s0015.g014012 & 165 & 1.99 & 0.026 & 15.5.17 NAC domain & NAC025 \\
+Azfi\_s0004.g008455 & 103 & 1.93 & 0.003 & 15.5.2 R2R3MYB & miRNA319 controlled GAMYB 33, R2R3MYB VII\tnote{a} \\
+Azfi\_s0132.g049213 &  63 & -2.35 & 0.004 & 15.5.32 Basic Helix-Loop-Helix & No hits \\
+Azfi\_s0182.g056462 &  10 & -4.46 & 0.049 & 15.5.3 HD-ZIP I/II & HB16 \\
 \bottomrule
 \end{longtable}
-
-[^R2R3]: R2R3 MYB classification according to @Jiang2020a.
+\begin{tablenotes}
+  \footnotesize
+  \item[a] R2R3 MYB classification according to Jiang \& Rao  (2020).
+  \end{tablenotes}
+\end{threeparttable}
 
 ### FR alters transcripts from MIKCC and R2R3MYB TF related to those of the IF of seed plants
 As in the case of _N. azollae_ symbiont, the ferns largest changes in transcript accumulation under FR were in genes with unknown function, then in secondary- and lipid-metabolism (Supplementary Table S4, _A. filiculoides_ nucleus).
