@@ -26,6 +26,17 @@ Phylogenetics is one answer to that challenge.
 Phylogenetics organises sequences by their hypothesised evolution, in phylogenetic trees.
 Afteral, how does anything in biology make sense except in the light of evolution.
 
+This chapter accompanies a phylogeny workflow I made and used during my PhD, and which may be used by others as well.
+This work does not try to sumarise the background needed to propperly read trees and collect data as @VanHooff2019, nor does it summarise recent technological advantages in the field as @kapli2020.
+Hence, consider the two aforementioned works as essential reading before bringing this workflow into practice.
+By opening up my workflow, I aim to provide a practical guide to help a novice user in making phylogenies.
+In this document I summarise the workflow, the choices I made in designing it, and examples of its implementation.
+The workflow itself, may be considered similar to @Hall2013, who presents a step by step guide for infering phylogeny in MEGA5.
+This work differentiates itself by using commandline tools only, emphasising documentation of intermediate files, and using only open source algorithms.
+This presents a steeper learning curve for a novice user, but increased freedom to implement any other tool of choice and to log and share analyses with peers via Git.
+I do include a basic introduction of phylogeny, the bare minimum to understand the choices made and use-cases examplified.
+
+### Key concepts in Phylogeny
 In principle, two types of phylogenetic trees exist: gene trees, and species trees.
 Gene trees depict the hypothetical pattern in which several sequences are related to each other.
 This organisation will remain hypothetical for one can not observe how proteins or species have evolved in the past.
