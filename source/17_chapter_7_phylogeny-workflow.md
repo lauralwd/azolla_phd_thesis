@@ -209,16 +209,46 @@ The authors were made aware of this early 2022 but as of yet there is no alterna
 ## Results
 
 ### Existing tools
-
-MEGA Software
-
-other workflows
-
-### web based tools
+Existing tools that house a complete workflow from gathering sequences up to infering a ML tree are rare.
+The one tools that is best known for this purpose is MEGA X [@Kumar2016].
+MEGA X is often found in literature and has substantially contributed to making phylogenic tools available to the broad public.
+The software is especially attractive to novice users for it runs on Windows, has a graphical user interface, and includes all steps from beginning to end.
+We find it especially usefull for smaller phylogenies, no more than 50 sequences.
+Our main critisism on the MEGA software is that inferior NJ based methods are presented as equally good options to ML methods and the exact method in which MEGA X implements the ML methodology is unknown to the public.
+We observe in literature that novice users often employ the fast but inferior NJ method where reasonably an ML tree should be have been created.
+Additonally, prorpriatary file formats are used where the field typically employs standardized file formats.
+Using the state-of-the-art tools in the Linux CML is a steep learning curve, explaining and validating the niche of a tool like MEGA X.
+This workflow aims to improve on MEGA X shortcommings by reducing the steep learning curve to use the Linux CML tools used by experts.
 
 ### This workflow
+The workflow consists of 6 Major steps.
+The software choices are tailored to strike a balance between relavitvelly big datasets and userfriendlyness.
+These steps are:
 
-### examples
+1. Acquiring data and optional subsetting
+  - Via blast or 1kP
+  - subsetting
+  - guide sequences.
+2. Aligning sequences (with MAFFT)
+  - mafft
+3. Alignment trimming
+  - trimAL
+4. Fasttree building
+  - IQTree "fast" or via fasttree
+5. Tree building
+  - IQTree with model fitting
+6. Tree visualisation with iToL
+
+`Shoudl this be a figure`
+
+#### 1 Acquiring data
+In the use by the _Azolla_ lab, we have employed the 1kP dataset intensivelly, however we also examplify blast searchers as an input.
+
+### Web based alternatives
+
+IQTree & PHYML
+
+### Examples
 
 #### LAR
 
