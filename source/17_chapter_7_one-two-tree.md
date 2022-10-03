@@ -23,13 +23,14 @@ Life Sciences has entered the big-data age; we have an unprecedented detailed vi
 This view is possible due to the ever decreasing prices of sequencing of DNA, RNA and protein.
 Consequently, biologist are challenged less with acquiring data, and more with its organising, processing and gaining insight from it.
 Phylogenetics is one answer to that challenge.
-Phylogenetics organises sequences by their hypothesised evolution, in phylogenetic trees.
+Phylogenetics organises sequences by their hypothesised evolution: in phylogenetic trees.
 Afteral, how does anything in biology make sense except in the light of evolution.
 
-This chapter accompanies a phylogeny workflow I made and used during my PhD, and which may be used by others as well.
+This chapter accompanies a practical workflow to infer phylogenetic trees.
+It is an interactive document on GitHub which I made and used during my PhD and may be used by others as well.
 This work does not try to sumarise the background needed to propperly read trees and collect data as @VanHooff2019, nor does it summarise recent technological advantages in the field as @kapli2020.
-Hence, consider the two aforementioned works as essential reading before bringing this workflow into practice.
-By opening up my workflow, I aim to provide a practical guide to help a novice user in making phylogenies.
+Hence, consider these two works as essential reading before bringing this workflow into practice.
+By openly sharing my workflow, I aim to provide a practical guide aiding novice users in making phylogenies.
 In this document I summarise the workflow, the choices I made in designing it, and examples of its implementation.
 The workflow itself, may be considered similar to @Hall2013, who presents a step by step guide for infering phylogeny in MEGA5.
 This work differentiates itself by using commandline tools only, emphasising documentation of intermediate files, and using only open source algorithms.
