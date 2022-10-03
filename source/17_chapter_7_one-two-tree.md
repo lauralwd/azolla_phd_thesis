@@ -233,23 +233,56 @@ The software choices are tailored to strike a balance between relavitvelly big d
 These steps are:
 
 1. Acquiring data and optional subsetting
-  - Via blast or 1kP
-  - subsetting
-  - guide sequences.
-2. Aligning sequences (with MAFFT)
-  - mafft
+    - Via blast or 1kP
+    - optional subsetting of data
+    - Adding guide sequences; sequences who have their function verified.
+2. Aligning sequences
+    - mafft
 3. Alignment trimming
-  - trimAL
+    - trimAL
 4. Fasttree building
-  - IQTree "fast" or via fasttree
+    - IQTree "fast" or via fasttree
 5. Tree building
-  - IQTree with model fitting
+    - IQTree with model fitting
 6. Tree visualisation with iToL
 
-`Shoudl this be a figure`
+`Should this be a figure`
+
+For each of these step, I will highlight some design choices and indicate if these can be done online as well as in the workflow.
 
 #### 1 Acquiring data
 In the use by the _Azolla_ lab, we have employed the 1kP dataset intensivelly, however we also examplify blast searchers as an input.
+The 1kP orthogroup extractor specifically is a great resource to acquire many related sequences of seed and seed-free plants alike.
+In the workflow, I highly the importance of selecting all sequences of a species and provide quick instructions on how to use ncbi blastp to search in specific species.
+Within the 1kP project, there is no web interface to easily select per species.
+Therefore I provide some pre-written BASH code to subset 1kP orthogroup files per species.
+
+To attribute functional annotation to any clade or orthologous genes, we use what we term 'guide sequences.'
+These are sequences that we manually select from literature for their verified functionality.
+Ideally, these guide sequences represent multiple of the major landplant clades, but in reality they are mostly found in angiosperms.
+
+Finally, we also add sequences of inquiry, those that we'd like to place in context of evolution of landplants (i.e. the 1kP data) and assign some function to via guide sequences.
+
+Acquiring data from NCBI blastP can be done online completely, subsetting orthorgroups of the 1kP has no online alternatives.
+
+#### 2 Aligning the dataset
+Now that we have a collection of homologous sequences, the next step is to align these to each other.
+Two of the famous tools to this end are ClustalOMAGA (previously known as clustalW) and MUSCLE.
+Both tools however, are single-threaded; meaning they can use only one CPU cores where modern computers often have several.
+The transcriptome data of the 1kP occasionally contains mis-assemblies that cause big gaps in the multiple sequence alignment.
+Given the size of the datasets we work with in the _Azolla_ lab and the size of the 1kP orthogroups we have worked with, I chose to use MAFFT.
+MAFFT is a multiple sequence alligner that can make use of additional CPU cores, and can deal well with big gaps in allignments.
+The software package has mulitple settings, which are well summarised on their webpage.
+
+Mafft also has an online version that is very user friendly... link
+
+#### 3 Trimming
+Aligning big datasets often causes big gaps to be present in the MSA.
+These gaps contain little to no phylogenetic informatice information (syn-apomorphies).
+Hence, these are typically filtered out of the data to reduce noise in the phylogenetic signal that is encoded in this MSA.
+The field typically used trimAL towards this end.
+TrimAL trims ALignments via automated algorithms or user supplied parameters.
+
 
 ### Web based alternatives
 
