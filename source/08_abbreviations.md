@@ -10,6 +10,7 @@
 \textbf{FAIR} \>  \textbf{F}indable \textbf{A}ccesable \textbf{I}nteroperable \textbf{R}esearchable \\  
 \textbf{FR}   \>  \textbf{F}ar-\textbf{R}ed (light) \\  
 \textbf{MAG}  \>  \textbf{M}etagenome \textbf{A}ssembled \textbf{G}enome \\  
+\textbf{MSA}  \>  \textbf{M}ulitple \textbf{S}equence \textbf{A}lignment \\  
 \textbf{NCBI} \>  \textbf{N}ational \textbf{C}entre for \textbf{B}iotechnology \textbf{I}nformation of the United States \\  
 \textbf{ORF}  \>  \textbf{O}pen \textbf{R}eading \textbf{F}rame \\  
 \textbf{SRA}  \>  \textbf{S}hort \textbf{R}ead \textbf{A}rchive maintained by NCBI \\  
