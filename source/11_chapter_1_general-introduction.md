@@ -141,3 +141,17 @@ Here I created a workflow for basic phylogeny inference with state-of-the-art op
 This workflow is aimed at user skilled in reading a phylogeny, but not in using the CML tools to use the latest software to build them.
 It covers data-selection, multiple sequences alignment, alignment trimming, and tree inference.
 Additionally, it provides tools to create semi-automatic mark-up for phylogenetic trees in the iToL webinterface.
+
+Academics are more than just scientitsts.
+They are often also teachers on universities and leaders and administrators in academic organs.
+During my PhD, I attempted to incorparate that broader academic experience in my work.
+The doctorate remains intrinsically a scientific degree and this thesis is first and foremost a scientific document.
+Still, I add three appendeces that give a glimpse in my "extracurricular" activities.
+My thesis; the culmination of my PhD, simply would not be complete without them.
+
+Firstly, __Appendix \ref{BKO}__ summarises my basic University Teaching Qualification (bUTQ or BKO) application.
+About a quarter of My PhD I spend on teaching and developping myself as a Teacher.
+This effort was rewarded with a bUTQ or BKO in Dutch.
+The full portfolio is too lengthy to include, so this chapter sumarises the original document.
+Secondly, an example of teaching material that is completely of my own design is included in __Appendix \ref{metagenomics_practical}__ (\nameref{metagenomics_practical} on page \pageref{metagenomics_practical}) as mentioned before.
+Finally, I include a short narrative CV on my non-science and non-teaching activities during my PhD and what I gained from them. 
