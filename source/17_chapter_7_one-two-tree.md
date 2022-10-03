@@ -212,15 +212,20 @@ The authors were made aware of this early 2022 but as of yet there is no alterna
 
 ### Existing tools
 Existing tools that house a complete workflow from gathering sequences up to infering a ML tree are rare.
-The one tools that is best known for this purpose is MEGA X [@Kumar2016].
+The one tool that is best known for this purpose is MEGA X [@Kumar2016].
 MEGA X is often found in literature and has substantially contributed to making phylogenic tools available to the broad public.
 The software is especially attractive to novice users for it runs on Windows, has a graphical user interface, and includes all steps from beginning to end.
 We find it especially usefull for smaller phylogenies, no more than 50 sequences.
 Our main critisism on the MEGA software is that inferior NJ based methods are presented as equally good options to ML methods and the exact method in which MEGA X implements the ML methodology is unknown to the public.
 We observe in literature that novice users often employ the fast but inferior NJ method where reasonably an ML tree should be have been created.
-Additonally, prorpriatary file formats are used where the field typically employs standardized file formats.
+I did a short inquiry into citations of @Kumar2016 sorted by date in google scholar so google algorithms do not play into sampling bias.
+Out of the 50 most recent citations, 40 publications were publicly accessible and contained a phylogeny.
+Of these, 17 contained a ML tree, 22 a NJ tree, and one a maximum parsimony tree .
+A secondary objection to the use of propriatary software, is the use of propriatary file formats where the field typically employs standardized file formats.
 Using the state-of-the-art tools in the Linux CML is a steep learning curve, explaining and validating the niche of a tool like MEGA X.
 This workflow aims to improve on MEGA X shortcommings by reducing the steep learning curve to use the Linux CML tools used by experts.
+Doing so in a JuPy notebook makes it easy to document and journal while doing the analysis.
+Finally, it eases to transition to bigger datasets that GUI desktop software often is not tailored to.
 
 ### This workflow
 The workflow consists of 6 Major steps.
