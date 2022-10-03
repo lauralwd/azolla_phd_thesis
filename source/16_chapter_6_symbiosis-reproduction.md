@@ -286,6 +286,7 @@ These changes in light harvesting-related transcripts were small, however, compa
 We conclude that a one-week induction of reproductive structures with FR may have caused few and small transcriptional changes reflecting light-harvesting adaptations in _N. azollae_.
 The larger differential accumulation of transporter transcripts may reflect more important changes in metabolite trafficking and communication with the host fern.
 
+\newpage
 \begin{threeparttable}
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.17}}
@@ -298,9 +299,7 @@ The larger differential accumulation of transporter transcripts may reflect more
 \caption{Transcription factors with largest changes in transcript abundance in sporophytes in TL with versus without FR.
   TF with homology to TF related to flowering are bold type.
   \label{tbl:tbl6_TFs}}
-
 \tabularnewline
-
 \toprule
 \rotatebox{45}{\emph{A. filiculoides} locus}       &
 \rotatebox{45}{baseMean}                           &
@@ -308,6 +307,15 @@ The larger differential accumulation of transporter transcripts may reflect more
 \rotatebox{45}{DESeq2 padj}                        &
 \rotatebox{45}{Mercator 4.0 annotation}            &
 \rotatebox{45}{Closest \emph{Arabidopsis} Homolog} \\
+\midrule
+\endfirsthead
+\toprule
+\rotatebox{45}{\emph{A. fil.} locus}  &
+\rotatebox{45}{baseMean}              &
+\rotatebox{45}{Log2 FC}               &
+\rotatebox{45}{padj}                  &
+\rotatebox{45}{Annotation}            &
+\rotatebox{45}{{A.th} Homolog} \\
 \midrule
 \endhead
 
