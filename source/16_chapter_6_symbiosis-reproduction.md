@@ -213,20 +213,61 @@ Both ammonium and nitrate added individually inhibited sporocarp formation (data
 The ratio of mega- to microsporocarp was approximately equal over nine weeks of induction with FR (Supplementary Figure S1F).
 Additionally, the marker SOC1-like from _A. filiculoides_ [@Brouwer2014], was maximally induced when sporocarps became visible four weeks after FR induction started (Supplementary Figure S1G).
 
-| Megaspores: Massulae   | Galgenwaard | Krommerijn | Hoogwoud | Gran Canaria | Den Bosch | Nijmegen | Nieuwebrug | Groningen |
-| ---------------------- | :---------: | :--------: | :------: | :----------: | :-------: | :------: | :--------: | :-------: |
-| Galgenwaard            | \>1000      | 17         |          | 1            |           | 13       |            | 2         |
-| Krommerijn             | 1           |            |          |              | 16        |          | 2          |           |
-| Hoogwoud               |             |            | 20       |              |           |          |            | 2         |
-| Gran Canaria[^crosses] | 17          |            |          |              | \>40      | 1        |            |           |
-| Den Bosch              |             | 9          |          | 1            |           |          |            |           |
-| Nijmegen               |             | 12         |          | 33           |           |          | 2          |           |
-| Nieuwebrug             |             | 6          | 3        |              |           | 22       |            |           |
-| Groningen              |             |            | 1        |              |           |          | 5          |           |
+\begin{threeparttable}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.22}}
+  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.11}}
+  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.10}}
+  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.08}}
+  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.12}}
+  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.09}}
+  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.08}}
+  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.10}}
+  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.09}}@{}}  
 
-Table: Sporeling counts obtained from random crosses of _A. filiculoides_ strains collected in the Netherlands and Spain (Gran Canaria). {#tbl:tbl6_crosses}
+\caption{Sporeling counts obtained from random crosses of \emph{A. filiculoides} strains collected in the Netherlands and Spain (Gran Canaria).
+\label{tbl:tbl6_crosses}}
 
-[^crosses]: crosses involving megaspores from the Gran Canaria strain reproducibly germinated late, generally after 5 weeks instead of 2-3 weeks.
+\tabularnewline
+\toprule
+Megaspores / Massulae &
+\rotatebox{45}{Galgenwaard} &
+\rotatebox{45}{Krommerijn} &
+\rotatebox{45}{Hoogwoud} &
+\rotatebox{45}{Gran Canaria} &
+\rotatebox{45}{Den Bosch} &
+\rotatebox{45}{Nijmegen} &
+\rotatebox{45}{Nieuwerbrug} &
+\rotatebox{45}{Groningen} \\
+\midrule
+\endfirsthead
+\toprule
+Megaspores: Massulae &
+Gw &
+Kr &
+Hw &
+GC &
+DB &
+Nm &
+Nb &
+Gg \\
+\midrule
+\endhead
+Galgenwaard           & \textgreater1000 & 17 &    & 1 &                & 13 &   & 2 \\
+Krommerijn            & 1                &    &    &   & 16             &    & 2 &   \\
+Hoogwoud              &                  &    & 20 &   &                &    &   & 2 \\
+Gran Canaria\tnote{a} & 17               &    &    &   & \textgreater40 &  1 &   &   \\
+Den Bosch             &                  &  9 &    & 1 &                &    &   &   \\
+Nijmegen              &                  & 12 &    & 33&                &    & 2 &   \\
+Nieuwerbrug           &                  &  6 &  3 &   &                & 22 &   &   \\
+Groningen             &                  &    &  1 &   &                &    & 5 &   \\
+\bottomrule
+\end{longtable}
+\begin{tablenotes}
+  \footnotesize
+  \item[a] crosses involving megaspores from the Gran Canaria strain reproducibly germinated late, generally after 5 weeks instead of 2-3 weeks.
+  \end{tablenotes}
+\end{threeparttable}
 
 ### FR-induced sporocarps are viable which permits crossing for breeding
 We next wondered whether the sporocarps induced with FR were viable.
