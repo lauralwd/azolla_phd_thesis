@@ -28,14 +28,18 @@ Afteral, how does anything in biology make sense except in the light of evolutio
 
 This chapter accompanies a practical workflow to infer phylogenetic trees.
 It is an interactive document on GitHub which I made and used during my PhD and may be used by others as well.
-This work does not try to sumarise the background needed to propperly read trees and collect data as @VanHooff2019, nor does it summarise recent technological advantages in the field as @kapli2020.
+This work does not try to sumarise the background needed to propperly read trees and collect data as @VanHooff2019, nor does it summarise recent technological advantages in the field as @Kapli2020.
 Hence, consider these two works as essential reading before bringing this workflow into practice.
-By openly sharing my workflow, I aim to provide a practical guide aiding novice users in making phylogenies.
+I do include a basic introduction of phylogeny: the bare minimum to understand the choices made and use-cases examplified.
+
+With my phylogeny workflow, I aim to provide a practical guide aiding novice users in making phylogenies.
 In this document I summarise the workflow, the choices I made in designing it, and examples of its implementation.
 The workflow itself, may be considered similar to @Hall2013, who presents a step by step guide for infering phylogeny in MEGA5.
 This work differentiates itself by using commandline tools only, emphasising documentation of intermediate files, and using only open source algorithms.
-This presents a steeper learning curve for a novice user, but increased freedom to implement any other tool of choice and to log and share analyses with peers via Git.
-I do include a basic introduction of phylogeny, the bare minimum to understand the choices made and use-cases examplified.
+By using the Command Line tools (CML), I aim to circumvent limitations of other existing all-in-one or web based solutions.
+This presents a steeper learning curve for a novice user, but increased freedom to implement any other tool of choice and to log and share analyses with peers via Git or other means.
+The workflow is openly available online and I have documented my use of it on GitHub and Zenodo.
+Via this route I aim to inspire other reseachers to also make their analyses more reproducible and share their code towards more reproducible research.
 
 ### Key concepts in Phylogeny
 In principle, two types of phylogenetic trees exist: gene trees, and species trees.
@@ -84,17 +88,7 @@ I consider Baysian approaches too advanced for the audience that this workflow i
 In the workflow presented here, I use ML tree inference with IQTree [@Nguyen2015].
 One of the main advantages of IQtree is that it includes software to find an appropriate model of evolution given an input allignment.
 
-Phylogenetics is in the first place a comparative exercise, hence to gain insight in the evolution of any protein sequence, one must compare it to related sequences.
-As plant biologists studying ferns, we are challenged by a lack of non-seed plant genomes available to us.
-Luckily, the recent 1kP project [@Leebens-Mack2019] provides solution by collecting the genomes and assembled transcriptomes of 1000 plant species.
-The 1kP effort fills a gap in reference databases, providing protein coding sequences for a large number of seed-free plants.
-As fern researchers, we make intensive use of the 1kP project and we use it in the examples included here.
-
 ### Availability
-Given the increasing intrest in phylogeny in our lab, and inspired by my previous endavours to make my scientific practice more reproducible, I created a workflow to create phylogenetic trees.
-With this workflow, I aim to circumvent limitations of other existing all-in-one or web based solutions.
-By providing this workflow openly, and by documenting my own use of it on GitHub and Zenodo, I aim to inspire other reseachers to also make their analyses more reproducible and share their coding towards more reproducible research.
-
 This remainder of this chapter shortly summarises data and software tools used for the workflow, alternative tools and their limitations, and my design considerations in making my own workflow.
 This workflow includes gathering data from the 1kP project [@Leebens-Mack2019], alignment of protein sequences, trimming of this allignment and tree inference via frequentist methods.
 Additionally, several examples of the workflow in practice are included to demonstrate its application in tackling biological questions of the _Azolla_ lab.
@@ -148,14 +142,21 @@ This might be a short line like `added raw data from 1kP project`, or `trimmed a
 A Git repository containing the workflow may be uploaded online to services like GitHub or GitLab or a self-hosted Git server.
 This does not only provide instant back-ups of the workflow but also facilitates collaboration on the project with state-of-the art versioning software.
 Indeed, using Git for this purpose could be considered relativelly advanced and one may argue that users of this level may not need the guidance that this workflow is designed to provide.
-Even without collaboration, the back-up function is worth using.
-Additionally, a GitHub repository can be directly linked to Zenodo and archived with a DOI for reference in future work. (+@fig:fig7_git_zenodo B)
+Even without collaboration, the back-up functionality is valuable.
+Uploading to a closed GitHub repository keeps the unpublished work private.
+At time of publication, a GitHub repository can be made public and linked to Zenodo.
+Zenodo then archives the work and provides a citableDOI reference. (+@fig:fig7_git_zenodo B)
 
 ### Data
-Here we use the 1kP data to contextualise our _Azolla_ sequences of interest.
+Phylogenetics is in the first place a comparative exercise, hence to gain insight in the evolution of any protein sequence, one must compare it to related sequences.
+As plant biologists studying ferns, we are challenged by a lack of non-seed plant genomes available to us.
+Luckily, the recent 1kP project [@Leebens-Mack2019] provides solution by collecting the genomes and assembled transcriptomes of 1000 plant species.
+The 1kP effort fills a gap in reference databases, providing protein coding sequences for a large number of seed-free plants.
+As fern researchers, we make intensive use of the 1kP project and we use it in the examples included here._
+
 The 1kP project [@Leebens-Mack2019] published assembled transcriptomes for over 1000 plant species (+@tbl:tbl7_1kP_sample_counts) and included 26 species with sequenced genomes in their dataset as well.
 Genome assembly based data can be assumed to be complete.
-In phylogenetics this is relevant for all paralogs that a species may contain will be present in the dataset.
+In phylogenetics, this is relevant for all paralogs that a species may contain will be present in the dataset.
 For transcriptome assembled data, this assumption does not hold.
 Paralogs may not be simultaneously expressed and therefore absent from the dataset.
 Alternativelly, paralogs may be assembled as a single sequence.
