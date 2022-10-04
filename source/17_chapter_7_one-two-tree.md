@@ -276,6 +276,18 @@ Given the size of the datasets we work with in the _Azolla_ lab and the size of 
 MAFFT is a multiple sequence alligner that can make use of additional CPU cores, and can deal well with big gaps in allignments.
 In my limited testing, MAFFT was easier and more reliable to run than another modern candidate: T-coffee [@Notredame2000].
 
+MAFFT has multiple configurations with each their own use-fase.
+For big datasets, the algorithm defaults to fast progressive alignment methods.
+Automatic choice of algorithm is based on the count of sequences only, and not on biological information.
+Hence I recommend to specifically choose the slower iterative refining methods based on the nature of the gene.
+Naturally, it is good practice to try multiple methods and compare the alignments by eye to see how they perform.
+The iterative methods require considerable more compute time compared to the fast methods.
+I consider this investment justified for the quality of allingment is determining for the quality of the phylogeny.
+The MAFFT manual and online tool explains my 3 favourite presents that we have used succesfully in the _Azolla_ lab.
+
+* E-INS-i: For sequences with multiple conserved domains and long gaps.
+* L-INS-i: For sequences with one conserved domain and longs gaps.
+* G-INS-i: For sequences with global homology.
 Mafft also has an online version that is very user friendly: [mafft.cbrc.jp/alignment/server/](https://mafft.cbrc.jp/alignment/server/) [@Katoh2019].
 
 #### 3 Trimming
