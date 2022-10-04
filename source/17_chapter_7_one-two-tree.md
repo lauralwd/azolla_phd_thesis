@@ -319,7 +319,7 @@ xmlstarlet ed -d text jalview.svg > intermediate.svg
 cat intermediate.svg | grep -v '<g transform' | grep -v 'sans-serif' | grep -v 'Arial' | grep -v '</g>' > small_jallview.svg
 --->
 
-![Multiple Sequence Alignments by MAFFT. A dataset of MIKCc sequences from the 1kP project was subsetted and then alinged with mafft auto (A) linsi (B) and einsi (C). Panels A, B and C depict sections of the original MSA, panel D depicts the full einsi alingment. One MAFFT einsi alignment was subjected to INDEL realignment with prank (E). MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graps underneath each MSA depict Conservatin, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_examples.pdf){fig:fig7_align_examples}
+![Multiple Sequence Alignments by MAFFT. A dataset of MIKCc sequences from the 1kP project was subsetted and then alinged with mafft auto (A) linsi (B) and einsi (C). Panels A, B and C depict sections of the original MSA, panel D depicts the full einsi alingment. One MAFFT einsi alignment was subjected to INDEL realignment with prank (E). MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graps underneath each MSA depict Conservatin, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_examples.pdf){#fig:fig7_align_examples}
 
 #### 3 Trimming
 Big MSAs, especially those based on transcriptome data, are not optimal for phylogeny inference.
