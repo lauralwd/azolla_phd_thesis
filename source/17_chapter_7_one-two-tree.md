@@ -268,14 +268,15 @@ Acquiring data from NCBI blastP can be done online completely, subsetting orthor
 
 #### 2 Aligning the dataset
 Now that we have a collection of homologous sequences, the next step is to align these to each other.
-Two of the famous tools to this end are ClustalOMAGA (previously known as clustalW) and MUSCLE.
+Two of the famous tools to this end are ClustalOMAGA (previously known as clustalW) and MUSCLE [@Sievers2014; @Edgar2004].
 Both tools however, are single-threaded; meaning they can use only one CPU cores where modern computers often have several.
-The transcriptome data of the 1kP occasionally contains mis-assemblies that cause big gaps in the multiple sequence alignment.
-Given the size of the datasets we work with in the _Azolla_ lab and the size of the 1kP orthogroups we have worked with, I chose to use MAFFT.
+They are outperformed in most cases by more modern tools, espicially for big or gappy datasets [@Pais2014].
+The transcriptome data of the 1kP occasionally contains mis-assemblies that cause such big gaps in an MSA.
+Given the size of the datasets we work with in the _Azolla_ lab and the size of the 1kP orthogroups we have worked with, I chose to use MAFFT [@Katoh2013].
 MAFFT is a multiple sequence alligner that can make use of additional CPU cores, and can deal well with big gaps in allignments.
-The software package has mulitple settings, which are well summarised on their webpage.
+In my limited testing, MAFFT was easier and more reliable to run than another modern candidate: T-coffee [@Notredame2000].
 
-Mafft also has an online version that is very user friendly... link
+Mafft also has an online version that is very user friendly: [mafft.cbrc.jp/alignment/server/](https://mafft.cbrc.jp/alignment/server/) [@Katoh2019].
 
 #### 3 Trimming
 Aligning big datasets often causes big gaps to be present in the MSA.
