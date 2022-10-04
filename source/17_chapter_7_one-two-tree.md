@@ -251,6 +251,7 @@ These steps are:
 For each of these step, I will highlight some design choices and indicate if these can be done online as well as in the workflow.
 
 #### 1 Acquiring data
+The workflow examplifies two specific datasources.
 In the use by the _Azolla_ lab, we have employed the 1kP dataset intensivelly, however we also examplify blast searchers as an input.
 The 1kP orthogroup extractor specifically is a great resource to acquire many related sequences of seed and seed-free plants alike.
 In the workflow, I highly the importance of selecting all sequences of a species and provide quick instructions on how to use ncbi blastp to search in specific species.
