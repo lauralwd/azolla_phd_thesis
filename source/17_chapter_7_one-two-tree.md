@@ -359,8 +359,21 @@ This works by setting a threshold for determining conserved amino acid residues 
 The second threshold determines how much of these conserved sites must be present in any sequence of the dataset.
 In the section on 2 OGD phylogeny, we demonstrate a visual exploration to sumarise the behaviour of these parameters for one particular dataset.
 
-### Fast phylogeny inference
+To our knowledge there are no online tools that achieve a similar finesse of filtering MSAs as trimAL does.
+When restricted to online tools, the column occupancy filter in the online version of MAFFT is an obvious and convenient choice.
 
+### Fast phylogeny inference
+Full phylogeny inference and non-parametric bootstrapping can take a considerable amount of time.
+Therefore, it is wise to explore the likely outcome tree with a fast tree inference program that does not perform bootstrapping.
+This allows for a preliminary view into the final result.
+The calculation time for a final tree may then be used to test final visualisation.
+The field standard towards this end may be FastTree.
+In our workflow however, we use IQTree's 'fast' setting for it produces an output file structure nearly identical to the final tree inference.
+The FastTree software is included in the conda environment and can be used as well.
+
+To our knowledge, no online fast tree inference algorithm is available.
+However, a regular tree inference without bootstrapping would be a reasonably fast alternative.
+Regular tree inference is described in the next section.
 
 ### Full phylogeny inference
 In this workflow we use IQTree for modelfitting, phylogenetic tree inference, and calculating bootstrap support.
