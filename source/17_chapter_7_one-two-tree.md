@@ -322,8 +322,18 @@ cat intermediate.svg | grep -v '<g transform' | grep -v 'sans-serif' | grep -v '
 ![Multiple Sequence Alignments by MAFFT. A dataset of MIKCc sequences from the 1kP project was subsetted and then alinged with mafft auto (A) linsi (B) and einsi (C). Panels A, B and C depict sections of the original MSA, panel D depicts the full einsi alingment. One MAFFT einsi alignment was subjected to INDEL realignment with prank (E). MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graps underneath each MSA depict Conservatin, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_examples.pdf)
 
 #### 3 Trimming
-Aligning big datasets often causes big gaps to be present in the MSA.
+Big MSAs, especially those based on transcriptome data, are not optimal for phylogeny inference.
+Therefore, we trim the MSA to remove data that is not aligned well, and may disrupt the evolutionary signal we attempt to uncover.
+The simplest and perhaps most effective filter is removing columns, removing shared amino acid residues, in the MSA that contain little sequence content.
 These gaps contain little to no phylogenetic informatice information (syn-apomorphies).
+A second filter concerns that of rows, of sequences in the MSA, that allign poorly to the bulk of sequences.
+When a sequence contains many fragments not shared by the majority of sequences, this creates gaps in the MSA that are filtered out in the column filter.
+However, a sequence may misbehave in the phylogeny if substantial parts of conserved domains are absent.
+This particular sequence might be mis-assembled, not a homolog, or a true homolog that has lost part of its coding sequence.
+Regardless the
+
+There is no single rule for a good minimal sequence content, or inversely a gap threshold.
+
 Hence, these are typically filtered out of the data to reduce noise in the phylogenetic signal that is encoded in this MSA.
 The field typically used trimAL towards this end.
 TrimAL trims ALignments via automated algorithms or user supplied parameters.
