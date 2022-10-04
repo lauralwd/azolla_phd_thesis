@@ -208,26 +208,7 @@ They are not included in the data-uploads to the usual repositories but instead 
 The original link ([jlmwiki.plantbio.uga.edu/onekp/v2/](http://jlmwiki.plantbio.uga.edu/onekp/v2/)) at the Leebens-Mack lab is no longer available.
 The authors were made aware of this early 2022 but as of yet there is no alternative way to access this data.
 
-## Results
-
-### Existing tools
-Existing tools that house a complete workflow from gathering sequences up to infering a ML tree are rare.
-The one tool that is best known for this purpose is MEGA X [@Kumar2016].
-MEGA X is often found in literature and has substantially contributed to making phylogenic tools available to the broad public.
-The software is especially attractive to novice users for it runs on Windows, has a graphical user interface, and includes all steps from beginning to end.
-We find it especially usefull for smaller phylogenies, no more than 50 sequences.
-Our main critisism on the MEGA software is that inferior NJ based methods are presented as equally good options to ML methods and the exact method in which MEGA X implements the ML methodology is unknown to the public.
-We observe in literature that novice users often employ the fast but inferior NJ method where reasonably an ML tree should be have been created.
-I did a short inquiry into citations of @Kumar2016 sorted by date in google scholar so google algorithms do not play into sampling bias.
-Out of the 50 most recent citations, 40 publications were publicly accessible and contained a phylogeny.
-Of these, 17 contained a ML tree, 22 a NJ tree, and one a maximum parsimony tree .
-A secondary objection to the use of propriatary software, is the use of propriatary file formats where the field typically employs standardized file formats.
-Using the state-of-the-art tools in the Linux CML is a steep learning curve, explaining and validating the niche of a tool like MEGA X.
-This workflow aims to improve on MEGA X shortcommings by reducing the steep learning curve to use the Linux CML tools used by experts.
-Doing so in a JuPy notebook makes it easy to document and journal while doing the analysis.
-Finally, it eases to transition to bigger datasets that GUI desktop software often is not tailored to.
-
-### This workflow
+## Workflow
 The workflow consists of 6 Major steps.
 The software choices are tailored to strike a balance between relavitvelly big datasets and userfriendlyness.
 These steps are:
@@ -249,8 +230,24 @@ These steps are:
 `Should this be a figure`
 
 For each of these step, I will highlight some design choices and indicate if these can be done online as well as in the workflow.
+### Existing tools
+Existing tools that house a complete workflow from gathering sequences up to infering a ML tree are rare.
+The one tool that is best known for this purpose is MEGA X [@Kumar2016].
+MEGA X is often found in literature and has substantially contributed to making phylogenic tools available to the broad public.
+The software is especially attractive to novice users for it runs on Windows, has a graphical user interface, and includes all steps from beginning to end.
+We find it especially usefull for smaller phylogenies, no more than 50 sequences.
+Our main critisism on the MEGA software is that inferior NJ based methods are presented as equally good options to ML methods and the exact method in which MEGA X implements the ML methodology is unknown to the public.
+We observe in literature that novice users often employ the fast but inferior NJ method where reasonably an ML tree should be have been created.
+I did a short inquiry into citations of @Kumar2016 sorted by date in google scholar so google algorithms do not play into sampling bias.
+Out of the 50 most recent citations, 40 publications were publicly accessible and contained a phylogeny.
+Of these, 17 contained a ML tree, 22 a NJ tree, and one a maximum parsimony tree .
+A secondary objection to the use of propriatary software, is the use of propriatary file formats where the field typically employs standardized file formats.
+Using the state-of-the-art tools in the Linux CML is a steep learning curve, explaining and validating the niche of a tool like MEGA X.
+This workflow aims to improve on MEGA X shortcommings by reducing the steep learning curve to use the Linux CML tools used by experts.
+Doing so in a JuPy notebook makes it easy to document and journal while doing the analysis.
+Finally, it eases to transition to bigger datasets that GUI desktop software often is not tailored to.
 
-#### 1 Acquiring data
+### 1 Acquiring data
 The workflow examplifies two specific datasources.
 In the use by the _Azolla_ lab, we have employed the 1kP dataset intensivelly, however we also examplify blast searchers as an input.
 The 1kP orthogroup extractor specifically is a great resource to acquire many related sequences of seed and seed-free plants alike.
@@ -266,7 +263,7 @@ Finally, we also add sequences of inquiry, those that we'd like to place in cont
 
 Acquiring data from NCBI blastP can be done online completely, subsetting orthorgroups of the 1kP has no online alternatives.
 
-#### 2 Aligning the dataset
+### 2 Aligning the dataset
 Now that we have a collection of homologous sequences, the next step is to align these to each other.
 Two of the famous tools to this end are ClustalOMAGA (previously known as clustalW) and MUSCLE [@Sievers2014; @Edgar2004].
 Both tools however, are single-threaded; meaning they can use only one CPU cores where modern computers often have several.
@@ -305,6 +302,7 @@ When succesful, INDEL realignment can bring structure into medium-conserved regi
 The process can make MSAs extremely long and consequently hard to visualise on print.
 All MSAs and png snapshots thereoff can be found in the GitHub repository that detail the inference of a MIKCc phylogeny with _Azolla filiculoides_ sequences.
 These file can be found at [github.com/lauralwd/MIKC_tree/tree/master/data/alignments_raw](https://github.com/lauralwd/MIKC_tree/tree/master/data/alignments_raw).
+A very smal section of such an alingment is included in the use-case section of this chapter
 
 Mafft also has an online version that is very user friendly: [mafft.cbrc.jp/alignment/server/](https://mafft.cbrc.jp/alignment/server/) [@Katoh2019].
 It is however limited in its performace for the three methods mentioned above.
@@ -321,7 +319,7 @@ cat intermediate.svg | grep -v '<g transform' | grep -v 'sans-serif' | grep -v '
 
 ![Multiple Sequence Alignments by MAFFT. A dataset of MIKCc sequences from the 1kP project was subsetted and then alinged with mafft auto (A) linsi (B) and einsi (C). Panels A, B and C depict sections of the original MSA, panel D depicts the full einsi alingment. One MAFFT einsi alignment was subjected to INDEL realignment with prank (E). MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graps underneath each MSA depict Conservatin, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_examples.pdf){#fig:fig7_align_examples}
 
-#### 3 Trimming
+### 3 Trimming
 Big MSAs, especially those based on transcriptome data, are not optimal for phylogeny inference.
 Therefore, we trim the MSA to remove data that is not aligned well, and may disrupt the evolutionary signal we attempt to uncover.
 The simplest and perhaps most effective filter is removing columns, removing shared amino acid residues, in the MSA that contain little sequence content.
@@ -339,24 +337,26 @@ The field typically used trimAL towards this end.
 TrimAL trims ALignments via automated algorithms or user supplied parameters.
 
 
-### Web based alternatives
+### 4 Fast phylogeny inference
 
+### 5 Full phylogeny inference
 IQTree & PHYML
 
-### Examples
+### 6 visualisation
 
-#### LAR
+## Usecases
+
+### LAR
 
 ![](source/figures/fig7_LAR_phylogeny.pdf){#fig:fig7_LAR_phylogeny}
 
-
-#### 2OGD
+### 2OGD
 
 ![](source/figures/fig7_2OGD_phylogeny_small.pdf){#fig:fig7_2OGD_phylogeny_small width=50%}
 
 ![](source/figures/fig7_2OGD_phylogeny.pdf){#fig:fig7_2OGD_phylogeny}
 
-#### MYB & MIKc
+### MYB & MIKc
 prank indel-realignment
 
 ![](source/figures/fig7_MIKCc_phylogeny.pdf){#fig:fig7_MIKCc_phylogeny}
