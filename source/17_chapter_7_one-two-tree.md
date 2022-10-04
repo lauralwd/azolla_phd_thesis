@@ -288,7 +288,30 @@ The MAFFT manual and online tool explains my 3 favourite presents that we have u
 * E-INS-i: For sequences with multiple conserved domains and long gaps.
 * L-INS-i: For sequences with one conserved domain and longs gaps.
 * G-INS-i: For sequences with global homology.
+
+When comparing alingment configurations to each other visualy, we aim to maximise for structure or patterns (+@fig:fig7_align_examples).
+The various fast or slow configurations produce overall quite similar results at first sight.
+Espicially the most conserved regions are near identical for each algorithm
+(+@fig:fig7_align_examples A, B, C).
+The regions with barely any sequence content will be filtered out in a later step, this is typically quite a proportion of an alignment with many sequences (+@fig:fig7_align_examples D).
+Hence, were 'eyeballing' those columns with substantial sequence content that are not extremely conserved and see how they align.
+Ideally, by optimisting this step, some extra phylogenetic signal might be gained from these medium-conserved regions.
+At worst, we might erroneously align regions that are not homologous to each other.
+
 Mafft also has an online version that is very user friendly: [mafft.cbrc.jp/alignment/server/](https://mafft.cbrc.jp/alignment/server/) [@Katoh2019].
+It is however limited in its performace for the three methods mentioned above.
+For big datasets, it pays off to run the alignment locally.
+
+<!---
+make jalview alingment svgs smaller by removing all text fields:
+
+expanding the svg to a long format:
+xmlstarlet ed -d text jalview.svg > intermediate.svg
+
+cat intermediate.svg | grep -v '<g transform' | grep -v 'sans-serif' | grep -v 'Arial' | grep -v '</g>' > small_jallview.svg
+--->
+
+![Multiple Sequence Alignments by MAFFT. A dataset of MIKCc sequences from the 1kP project was subsetted and then alinged with mafft auto (A) linsi (B) and einsi (C). Panels A, B and C depict sections of the original MSA, panel D depicts the full einsi alingment. One MAFFT einsi alignment was subjected to INDEL realignment with prank (E). MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graps underneath each MSA depict Conservatin, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_examples.pdf)
 
 #### 3 Trimming
 Aligning big datasets often causes big gaps to be present in the MSA.
