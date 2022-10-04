@@ -298,6 +298,14 @@ Hence, were 'eyeballing' those columns with substantial sequence content that ar
 Ideally, by optimisting this step, some extra phylogenetic signal might be gained from these medium-conserved regions.
 At worst, we might erroneously align regions that are not homologous to each other.
 
+For alignments of reasonable size, no more than a couple of hundreds of sequences, these medium-conserved gappy INDEL regions may be re-aligned with a dedicated INDEL realigner such as prank [@Loytynoja2014].
+In our experience, this can help in reducing noise from such regions and provide some extra signal to solve relations between specific groups.
+This does not work for alignments with several hundreds to thousands of sequences.
+When succesful, INDEL realignment can bring structure into medium-conserved regions for correct phylogenetic inference.
+The process can make MSAs extremely long and consequently hard to visualise on print.
+All MSAs and png snapshots thereoff can be found in the GitHub repository that detail the inference of a MIKCc phylogeny with _Azolla filiculoides_ sequences.
+These file can be found at [github.com/lauralwd/MIKC_tree/tree/master/data/alignments_raw](https://github.com/lauralwd/MIKC_tree/tree/master/data/alignments_raw).
+
 Mafft also has an online version that is very user friendly: [mafft.cbrc.jp/alignment/server/](https://mafft.cbrc.jp/alignment/server/) [@Katoh2019].
 It is however limited in its performace for the three methods mentioned above.
 For big datasets, it pays off to run the alignment locally.
