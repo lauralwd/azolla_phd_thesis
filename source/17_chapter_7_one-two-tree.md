@@ -247,7 +247,7 @@ This workflow aims to improve on MEGA X shortcommings by reducing the steep lear
 Doing so in a JuPy notebook makes it easy to document and journal while doing the analysis.
 Finally, it eases to transition to bigger datasets that GUI desktop software often is not tailored to.
 
-### 1 Acquiring data
+### Acquiring data
 The workflow examplifies two specific datasources.
 In the use by the _Azolla_ lab, we have employed the 1kP dataset intensivelly, however we also examplify blast searchers as an input.
 The 1kP orthogroup extractor specifically is a great resource to acquire many related sequences of seed and seed-free plants alike.
@@ -263,7 +263,7 @@ Finally, we also add sequences of inquiry, those that we'd like to place in cont
 
 Acquiring data from NCBI blastP can be done online completely, subsetting orthorgroups of the 1kP has no online alternatives.
 
-### 2 Aligning the dataset
+### Aligning the dataset
 Now that we have a collection of homologous sequences, the next step is to align these to each other.
 Two of the famous tools to this end are ClustalOMAGA (previously known as clustalW) and MUSCLE [@Sievers2014; @Edgar2004].
 Both tools however, are single-threaded; meaning they can use only one CPU cores where modern computers often have several.
@@ -295,17 +295,27 @@ Hence, were 'eyeballing' those columns with substantial sequence content that ar
 Ideally, by optimisting this step, some extra phylogenetic signal might be gained from these medium-conserved regions.
 At worst, we might erroneously align regions that are not homologous to each other.
 
+In the example alingments in +@fig:fig7_align_examples, the 'auto' alingment was discarded first due to lack of structure in gappy regions.
+The linsi and einsi alingments were assessed as near equal in quality; we proceded with the einsi version.
+Regardless, both alignments performed insufficiently in the gap regions.
+We estimated by studying various versions of similar MIKCc alignments, that some structure may be hidden in those regions and was not uncovered by the MAFFT alingment.
+
 For alignments of reasonable size, no more than a couple of hundreds of sequences, these medium-conserved gappy INDEL regions may be re-aligned with a dedicated INDEL realigner such as prank [@Loytynoja2014].
 In our experience, this can help in reducing noise from such regions and provide some extra signal to solve relations between specific groups.
 This does not work for alignments with several hundreds to thousands of sequences.
 When succesful, INDEL realignment can bring structure into medium-conserved regions for correct phylogenetic inference.
-The process can make MSAs extremely long and consequently hard to visualise on print.
-All MSAs and png snapshots thereoff can be found in the GitHub repository that detail the inference of a MIKCc phylogeny with _Azolla filiculoides_ sequences.
+In the _Azolla_ lab we used this proces for optimising a MIKCc MSA (+@fig:fig7_align_trimprank A & B).
+A MAFFT alignment that was trimmed for a minimum of 10% sequence content per column shows clear structure in conserved domains (+@fig:fig7_align_trimprank A).
+However medium-conserved regions contain little structure and non-homologous residues may be aligned to each other.
+Realignment of INDELS via prank was supported by an ML guide tree of a more strict trim of the same alignment.
+The result was trimmed for 10% collumn content as well and shows clear structure in the medium-conserved regions.
+After realingment, the region contains multiple INDELS unqiue to specific groups of sequences(+@fig:fig7_align_trimprank B).
+Before realignment these regions seemed forced together and would have diluted the phylogenetic signal.
+All MSAs and png snapshots of the MIKCc phylogeny work of the _Azolla_ lab can be found in aGitHub repository..
 These file can be found at [github.com/lauralwd/MIKC_tree/tree/master/data/alignments_raw](https://github.com/lauralwd/MIKC_tree/tree/master/data/alignments_raw).
-A very smal section of such an alingment is included in the use-case section of this chapter
 
-Mafft also has an online version that is very user friendly: [mafft.cbrc.jp/alignment/server/](https://mafft.cbrc.jp/alignment/server/) [@Katoh2019].
-It is however limited in its performace for the three methods mentioned above.
+MAFFT also has an online version that is very user friendly: [mafft.cbrc.jp/alignment/server/](https://mafft.cbrc.jp/alignment/server/) [@Katoh2019].
+It is however limited in its performace when using the three configurations mentioned above.
 For big datasets, it pays off to run the alignment locally.
 
 <!---
@@ -317,9 +327,9 @@ xmlstarlet ed -d text jalview.svg > intermediate.svg
 cat intermediate.svg | grep -v '<g transform' | grep -v 'sans-serif' | grep -v 'Arial' | grep -v '</g>' > small_jallview.svg
 --->
 
-![Multiple Sequence Alignments by MAFFT. A dataset of MIKCc sequences from the 1kP project was subsetted and then alinged with mafft auto (A) linsi (B) and einsi (C). Panels A, B and C depict sections of the original MSA, panel D depicts the full einsi alingment. One MAFFT einsi alignment was subjected to INDEL realignment with prank (E). MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graps underneath each MSA depict Conservatin, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_examples.pdf){#fig:fig7_align_examples}
+![Multiple Sequence Alignments by MAFFT. A dataset of MIKCc sequences from the 1kP project was subsetted and then alinged with mafft auto (A) linsi (B) and einsi (C). Panels A, B and C depict sections of the original MSA, panel D depicts the full einsi alingment. MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graps underneath each MSA depict Conservatin, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_examples.pdf){#fig:fig7_align_examples}
 
-### 3 Trimming
+### Trimming
 Big MSAs, especially those based on transcriptome data, are not optimal for phylogeny inference.
 Therefore, we trim the MSA to remove data that is not aligned well, and may disrupt the evolutionary signal we attempt to uncover.
 The simplest and perhaps most effective filter is removing columns, removing shared amino acid residues, in the MSA that contain little sequence content.
@@ -336,13 +346,17 @@ Hence, these are typically filtered out of the data to reduce noise in the phylo
 The field typically used trimAL towards this end.
 TrimAL trims ALignments via automated algorithms or user supplied parameters.
 
+### Fast phylogeny inference
 
-### 4 Fast phylogeny inference
 
-### 5 Full phylogeny inference
-IQTree & PHYML
+### Full phylogeny inference
+In this workflow we use IQTree for modelfitting, phylogenetic tree inference, and calculating bootstrap support.
 
-### 6 visualisation
+
+
+online: IQTree & PHYML
+
+### Visualisation
 
 ## Usecases
 
