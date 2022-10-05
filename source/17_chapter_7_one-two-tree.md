@@ -351,7 +351,7 @@ Regardless the reason, it may be wise to filter these sequences out conservative
 When removing entire sequences from a dataset, one risks to also remove essential information with which speciation and duplication nodes are distinghuised.
 This is another reason we often make relativelly large trees in the _Azolla_ lab when we maken use of the 1kP data, by inlcuding more species we hope to add a certain robustness to this risk.
 
-![MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graps underneath each MSA depict Conservatin, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_trimprank.pdf){#fig:fig7_align_trimprank}
+![Optimisation of MAFFT MSAs. An overview of a MAFFT MSA of the MIKCc ortogroup subset trimmed for column content (A) versus an MAFFT MSA of the same data that was realigned with prank and then trimmed for column content. In the bottom two pannels two MSA overviews are displayed of a subset of 2OGD enzyme sequences from transcriptome data. One alignment was made with MAFFT and then trimmed for column content only (C) and the other was trimmed for both column and sequence content (D). MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in panels C & D. The four bar graps underneath panels A & B depict Conservation, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_trimprank.pdf){#fig:fig7_align_trimprank}
 
 The tool of choice to tackle both filters at once, is trimAL [@Capella-Gutierrez2009].
 TrimAL allows to set a gap threshold, as well as parameters to filter out sequences.
