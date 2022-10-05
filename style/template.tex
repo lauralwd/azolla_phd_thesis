@@ -231,17 +231,10 @@ $endfor$
         \newline
         PhD thesis
         \newline
-        $author$
-        $if(publishdate)$
-        , $publishdate$
-        $endif$
+        $author$$if(publishdate)$, $publishdate$ $endif$
         $if(university)$
         \newline
-        $university$
-        $endif$
-        $if(groupname)$
-        , $groupname$
-        $endif$
+        $university$$endif$$if(groupname)$, $groupname$ $endif$
 
         \vspace{.5cm}
 
