@@ -325,6 +325,44 @@ $endfor$
         % Except where otherwise noted, content in this thesis is licensed under a Creative Commons Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. Copyright 2015,Tom Pollard.
 
     \end{center}
+    \newpage
+
+%%%%%%%%%%% supervision title page %%%%%%%%%%%
+    \normalsize
+    \begin{spacing}{0}
+    \textbf{Promotor:}
+
+    $for(Promotors)$
+        \hspace{.5cm}
+        $Promotors$
+        $sep$
+
+    $endfor$
+
+    \vspace{.5cm}
+
+    $if(Copromotors)$
+        \textbf{Copromotor:}
+
+        $for(Copromotors)$
+            \hspace{.5cm}
+            $Copromotors$
+            $sep$
+
+        $endfor$
+    $endif$
+
+    $if(Committee)$
+        \textbf{Thesis committee:}
+
+        $for(Committee)$
+            \hspace{.5cm}
+            $Committee$
+            $sep$
+
+        $endfor$
+    $endif$
+    \end{spacing}
 \end{titlepage}
 
 $for(include-before)$
