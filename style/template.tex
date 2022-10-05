@@ -216,12 +216,63 @@ $endfor$
     \end{center}
     \newpage
 
-        \huge
-        $title$
+%%%%%%%%%%% copyright and ISBN page %%%%%%%%%%%
+    \pagenumbering{gobble}
+    \null
+    \vfill
+    \setlength{\parindent}{0.0in}
+    \begin{spacing}{1}
 
-        $if(subtitle)$
+        \normalsize
+
+        $title$
+        \newline
+        $subtitle$
+        \newline
+        PhD thesis
+        \newline
+        $author$
+        $if(publishdate)$
+        , $publishdate$
+        $endif$
+        $if(university)$
+        \newline
+        $university$
+        $endif$
+        $if(groupname)$
+        , $groupname$
+        $endif$
+
         \vspace{.5cm}
 
+        $if(copyrightstatement)$
+        \copyright
+        $copyrightstatement$
+        $endif$
+
+        \vspace{.5cm}
+
+        \textbf{ISBN:} $ISBN$
+        $if(layout)$
+        \newline
+        \textbf{Layout:} $layout$
+        $endif$
+        $if(cover)$
+        \newline
+        \textbf{Cover design:} $cover$
+        $endif$
+        $if(printer)$
+        \newline
+        printed by $printer$
+        $endif$
+
+        \vspace{.5cm}
+
+        $if(fundingstatement)$
+        $fundingstatement$
+        $endif$
+    \end{spacing}
+    \newpage
         \Large
         $subtitle$
         $endif$
