@@ -197,15 +197,24 @@ $endfor$
 
 \begin{document}
 
-
+%%%%%%%%%%% first title page %%%%%%%%%%%
 \begin{titlepage}
     \begin{center}
+        \huge
+        \vspace{2.5cm}
+        \textbf{$title$}
 
-    % Delete the following line
-    % to remove the UCL header logo
-    % \ThisULCornerWallPaper{1.0}{style/univ_logo.eps}
+        $if(subtitle)$
+        \LARGE
+        $subtitle$
+        $endif$
 
-        \vspace*{2.5cm}
+        \vfill
+        \Large
+        $author$
+        \vspace{2.5cm}
+    \end{center}
+    \newpage
 
         \huge
         $title$
