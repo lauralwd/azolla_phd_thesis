@@ -250,6 +250,7 @@ Finally, it eases to transition to bigger datasets that GUI desktop software oft
 ### Acquiring data
 The workflow examplifies two specific datasources.
 In the use by the _Azolla_ lab, we have employed the 1kP dataset intensivelly, however we also examplify blast searchers as an input.
+For phylogenies spanning all land plants -the Viridiplantae- we exclusively use amino acid sequences.
 The 1kP orthogroup extractor specifically is a great resource to acquire many related sequences of seed and seed-free plants alike.
 In the workflow, I highly the importance of selecting all sequences of a species and provide quick instructions on how to use ncbi blastp to search in specific species.
 Within the 1kP project, there is no web interface to easily select per species.
@@ -307,7 +308,7 @@ When succesful, INDEL realignment can bring structure into medium-conserved regi
 In the _Azolla_ lab we used this proces for optimising a MIKCc MSA (+@fig:fig7_align_trimprank A & B).
 A MAFFT alignment that was trimmed for a minimum of 10% sequence content per column shows clear structure in conserved domains (+@fig:fig7_align_trimprank A).
 However medium-conserved regions contain little structure and non-homologous residues may be aligned to each other.
-Realignment of INDELS via prank was supported by an ML guide tree of a more strict trim of the same alignment.
+Realignment of INDELs via prank was supported by an ML guide tree of a more strict trim of the same alignment.
 The result was trimmed for 10% collumn content as well and shows clear structure in the medium-conserved regions.
 After realingment, the region contains multiple INDELS unqiue to specific groups of sequences(+@fig:fig7_align_trimprank B).
 Before realignment these regions seemed forced together and would have diluted the phylogenetic signal.
@@ -336,7 +337,8 @@ The inference is hampered whenever a major fraction of sequences contains no con
 Therefore, we trim the MSA to remove data that is not aligned well, and may disrupt the evolutionary signal we attempt to uncover.
 
 The simplest and perhaps most effective trimming method is removing columns -removing shared amino acid residues- in the MSA that contain little sequence content.
-These gaps contain little to no phylogenetic informatice information.
+These regions often represent INDELs in specific taxa or misassemblies.
+Regardless the INDELs contain little to no phylogenetic informatice information.
 Gap regions are easily identified in a visualised MSA as a blocky pattern (+@fig:fig7_align_examples)
 Collumn filtering is easy and can be done in visually in tools like jalview, or even directly when aligning in the online version of MAFFT [@Katoh2019].
 
@@ -344,9 +346,10 @@ A second filter concerns that of rows, of sequences in the MSA, that allign poor
 When a sequence contains many fragments not shared by the majority of sequences, this creates gaps in the MSA that are filtered out in the column filter.
 Alternativelly, a sequence may mis substantial parts of conserved domains are absent.
 Such a fragmented sequence misses important synapomorphy information to correctly place it in a phylogeny.
-A sequence fragment can be seen in an MSA visualisation as light horizontal banding (+@fig:fig7_align_examples).
-This particular sequence might be mis-assembled, not a homolog, or a true homolog that has lost part of its coding sequence.
+A sequence fragment can be seen in an MSA visualisation as light horizontal banding (+@fig:fig7_align_examples; +@fig: fig7_align_trimprank C).
 Regardless the reason, it may be wise to filter these sequences out conservatively.
+When removing entire sequences from a dataset, one risks to also remove essential information with which speciation and duplication nodes are distinghuised.
+This is another reason we often make relativelly large trees in the _Azolla_ lab when we maken use of the 1kP data, by inlcuding more species we hope to add a certain robustness to this risk.
 
 ![MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graps underneath each MSA depict Conservatin, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_trimprank.pdf){#fig:fig7_align_trimprank}
 
@@ -357,7 +360,8 @@ As a gap threshold we typically start with a value of 40% and explore further fr
 Filtering sequences is less straight forward.
 This works by setting a threshold for determining conserved amino acid residues first.
 The second threshold determines how much of these conserved sites must be present in any sequence of the dataset.
-In the section on 2 OGD phylogeny, we demonstrate a visual exploration to sumarise the behaviour of these parameters for one particular dataset.
+When done well, the major conserved regions are present in the vast majority of sequences and the horizontal bandig is absent (+fig:fig7_align_trimprank C vs. +fig:fig7_align_trimprank D).
+In the section on 2 OGD phylogeny, we demonstrate a visual exploration to sumarise the behaviour of these parameters for the alignments shown in pannels C & D of +fig:fig7_align_trimprank.
 
 To our knowledge there are no online tools that achieve a similar finesse of filtering MSAs as trimAL does.
 When restricted to online tools, the column occupancy filter in the online version of MAFFT is an obvious and convenient choice.
