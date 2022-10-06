@@ -13,6 +13,7 @@ Henriette Schluepmann^1^.
 1. Molecular Plant Physiology Department, Utrecht University, Utrecht 3584CH, The Netherlands
 
 \newpage
+\resetlinenumber
 \linenumbers
 \normalsize
 \onehalfspacing

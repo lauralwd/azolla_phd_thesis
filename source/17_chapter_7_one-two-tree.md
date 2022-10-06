@@ -15,6 +15,7 @@ Henriette Schluepmann^1^
 \normalsize
 \onehalfspacing
 \setlength{\parindent}{0.5in}
+\resetlinenumber
 \linenumbers
 
 ## Abstract
