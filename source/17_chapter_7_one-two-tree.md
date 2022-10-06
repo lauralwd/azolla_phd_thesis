@@ -503,10 +503,6 @@ Their function was verified to be different from that of LAR, despite their homo
 The exact function of WLARs remains unknown, none of these sequences was ever categorised separately before.
 Ostensibly, ferns have radiated their own set of unique PIP enzymes, as seedplants have uniquely radiated IFR and PCBER enzymes.
 
-### MYB & MIKc
-prank indel-realignment
-
-![](source/figures/fig7_MIKCc_phylogeny.pdf){#fig:fig7_MIKCc_phylogeny}
 ### 2-OGD
 In another inquiry into _Azolla_ secondary metabolism, a 2-oxoglutarate dependent dioxygenase (2-OGD) enzyme was significantly differentially expressed in an RNA-seq experiment.  
 Again an orthogroup of 2-OGD genes was obtained from the 1kP, subsetted and ammended with sequences with their functions characterised.
@@ -527,6 +523,20 @@ Despite this within-clade radiation, all seedplant paralogs with known function 
 The aminoacid residues in the active side that bind jasmonate are conserved in both seedplant and fern clades.
 Therefore we conclude these sequences are most likely _A. filiculoides_ JOX1 and JOX2.
 The specific site of expression hints that Jasmonate signaling may be important in _Azolla_ symbiosis communication.
+
+### MIKc
+By definition, ferns and seedplants have different methods of sexual reproduction.
+In chapter \ref{it_takes_two} we take interest in finding the fern transcription factors behind the transition to sexual reproduction.
+We use RNAseq to find these transcriptionfactors and then place these in a phylogeny with seedplant ABCDE genes responsible for flower organ identity.
+The exact methods are detailed in chapter \ref{it_takes_two}.
+I highlight it here for our use of prank INDEL realignment (as demonstrated in +@fig:fig7_align_trimprank A vs. B) for this was a major step in acquiring a well supported phylogeny (+@fig:fig7_MIKCc_phylogeny).
+In this particular example, it is hard to extrapolate functional annotation from one seedplant clade to a fern clade.
+The fern clades with sequences of interest often contain many gene duplications, and not all fern clades contain sequences of the same species.
+Many genes may be missing from the 1kP dataset due to it being transcriptome based.
+Genes involved in the transition to sexual reproduction are after all not ubiquitously expressed, nor abundantly expressed when considering bulk tissue RNA extractions.
+More genome based data of seed-free plants and functional characterisation of transcription factors may allow us to better interpret a phylogeny like this one.
+
+![Azolla MIKCc phylogenetic analysis and response to FR. The Azolla MIKCC gene model encoded by Azfi_s0028.g024032 was annotated manually. Sequences extracted from the genome browsers of each species were aligned with MAFFT E-INS-i [@Katoh2013], then trimmed with trimAl [@Capella-Gutierrez2009]. First a draft phylogeny was computed with IQTREE [@Nguyen2015], then this draft phylogeny served as a guide for alignment optimization with PRANK [@Loytynoja2014] of the untrimmed original MAFFT E-INS-i alignment. This optimized alignment was then trimmed again with trimAl and used for inference of the final phylogeny with IQTREE. Bootstrap values are transfer bootstraps calculated with 1000 nonparametric bootstrap trees [@Lemoine2018]. Transfer bootstrap assays similarity of nodes rather than binary identical or nonidentical nodes in bootstrap trees: it therefore tends to be more informative for bigger trees. All code is deposited on github.com/lauralwd/MIKC_tree. The tree was rooted on a group of algal sequences. Nodes with bootstrap support equal or greater than 50% are indicated. Branches are color coded as per their plant lineage.](source/figures/fig7_MIKCc_phylogeny.pdf){#fig:fig7_MIKCc_phylogeny}
 
 ## discussion
 
