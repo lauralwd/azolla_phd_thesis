@@ -392,11 +392,22 @@ The basics include fitting a substitution matrix of amino acid exchange rates of
 Additionally, more advanced paramters are assessed such as heterogeneity of the speed in which traits evolve over time amongst the entries in the MSA: Rate heterogeneity.
 For the audience of this workflow, we recommend to use IQtree's build in extended model fitter by using the option `-m MFP` short for Model Finder and Phylogeny.
 
+For phylogeny inference, we supply a ML option only for we see very few good arguments to resort to NJ or MP methods instead.
+A major propperty of interpreting phylogenies, is support values.
+These support values, often called boostrap values, can be determined in several ways.
+Next we'll discuss three support estimation methods.
+Firstly, the slow and simple but time-tested method of Felsensteins bootstrap, or 'regular bootstraps'.
+Second, we'll discuss an uqualy slow alternative that is more suited to bigger trees: transfer bootstrap [@Lemoine2018].
+These fist two methods are slow, but behave reasonably linear and are easily interpretable.
+They are often indicated as non-parametric methods.
+Thirdly, we'll discuss faster parametric options such as IQTree's UltraFastBootstrap.
+These methods behave non-linearly and are harder to interpret but find a use case in estimating support of very big trees or of preliminary small trees.
+
 Support estimation by bootstrapping is an important step in assessing reliability of any phylogeny.
 After the main phylogeny is established, one can choose to bootstrap it for $b$ times, often $b=100$.
 Bootstrapping in phylogeny is a process in which a fraction MSA columns is removed and replaced by a random subset of the remaining fraction.
 The phylogeny inference is then repeated.
-After repeating this proces for $b$ times, the nodes in the final tree get a support score which is based on these bootstrapped repetitions.
+After repeating this proces for $b$ times, the nodes in the final tree get a support score based on the similarity of these nodes in the bootstrapped repetitions.
 The most used and most conservative approach is felsensteins bootstrap.
 This approach is a binary one.
 It counts those repititions in which the bootstrap node is identical to the reference node: $i$.
