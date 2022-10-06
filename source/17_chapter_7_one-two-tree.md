@@ -381,7 +381,47 @@ Regular tree inference is described in the next section.
 
 ### Full phylogeny inference
 In this workflow we use IQTree for modelfitting, phylogenetic tree inference, and calculating bootstrap support.
+These are three distinct steps, especially the first often is not included in phylogeny software.
+The details of fitting a model of evolution to an alignment are beyong the scope of this manuscript.
+The basics include fitting a substitution matrix of amino acid exchange rates of nucleotide exchange rates to those observed in an alignment.
+Additionally, more advanced paramters are assessed such as heterogeneity of the speed in which traits evolve over time amongst the entries in the MSA: Rate heterogeneity.
+For the audience of this workflow, we recommend to use IQtree's build in extended model fitter by using the option `-m MFP` short for Model Finder and Phylogeny.
 
+Support estimation by bootstrapping is an important step in assessing reliability of any phylogeny.
+After the main phylogeny is established, one can choose to bootstrap it for $b$ times, often $b=100$.
+Bootstrapping in phylogeny is a process in which a fraction MSA columns is removed and replaced by a random subset of the remaining fraction.
+The phylogeny inference is then repeated.
+After repeating this proces for $b$ times, the nodes in the final tree get a support score which is based on these bootstrapped repetitions.
+The most used and most conservative approach is felsensteins bootstrap.
+This approach is a binary one.
+It counts those repititions in which the bootstrap node is identical to the reference node: $i$.
+In other words, the nodes for which the devision of leaves left and right of that node is identical regardles their exact topoloy beyond that node.
+The support value is a simple percentage of those nodes over the total amount of bootstraps done: $(\frac{i}{b}) 100\%$.
+This method is easily interpretable, and standardised in the field.
+
+Felsensteins BootStrap (FBS) does have drawbacks, especially for bigger trees.
+In the _Azolla_ lab we experienced that nodes deep in a big phylogeny, those nodes that typically represent ancestral states, receive very low support values.
+Yet, when repeating the tree inferences often with modified datasets, these nodes appeared highly robust.
+If a single sequence it's placement in the phylogeny is highly variable -a rogue taxon- it will have huge impact on the support values of deep nodes despite the placement of the majority of taxa being highly reliable.
+We observe that for big trees, FBS is often uninformative.
+
+TransferBootStraps (TBS) present an alternative support criterion that was designed to circumvent this exact issue found in bigger phylogenies [@Lemoine2018].
+When calculating TBS for any node, it takes a non-binary approach.
+A node's bootstrap isn't regarded as good $i=1$ or false $i=0$ as in FBS but a continuous distance metric $\phi$.
+It is based on the minimum amount of leaves that must be transfered from one side of a node to the other for a bootstrap tree to represent the main tree.
+Finally this metric is corrected for any proportion difference $p$ between the left and right side of that node.
+The method is further detailed in @Lemoine2018.
+We have used TBS with success and in the _Azolla_ lab and recommend its usage in big phylogenies; those of several hundreds of sequences.
+TBS values of shallow nodes typically represent those of FBS, and TBS values of deep nodes typically read as if they are shallow nodes.
+We found that TBS assigns more meaningful support values to deep nodes.
+The method is however not wide spread in the field, and its usage should be clearly stated for correct interpretation of phylogny support values.
+
+$(TBS= 1- \frac{\phi}{p-1})$
+
+Both FBS and TBS are slow methods for they require to redo a full phylogenetic inference $b$ times.
+Modern phylogeny inference tools often have faster parametric methods that calculate support.
+IQTree has such a method called UltraFastBootstrap (UFB), which is often paired with Shiro ... topology tests.
+We use UFB for preliminary trees, or those that are too big to produce FBS or TBS support within weeks of time.
 
 
 online: IQTree & PHYML
