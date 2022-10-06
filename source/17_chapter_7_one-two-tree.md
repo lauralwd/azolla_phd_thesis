@@ -471,6 +471,14 @@ Optionally, more data can be added onto the tree, such as the MSA, RNA-seq data,
 We discuss these options further in the Usecases section.
 
 ## Usecases
+In this section, I discuss several use cases of this phylogeny workflow in the _Azolla_ lab.
+Firstly, that of several leucoanthocyanidin reductase (LAR) homologs found in _Azolla_.
+This was actually the inspiration for creating this workflow.
+Second a 2-OGD phylogeny inference with several _Azolla_ sequences added.
+The 2-OGD family is one of the biggest enzyme families in land plants.
+We wanted to study how ferns have developed differently from land plants, and infer the functionality of a specific fern 2-OGD gene that was differentially expressed in an RNA-seq experiment.
+Thirdly, a MIKCc phylogeny.
+With this phylogeny of MIKCc transcription factors we attempted to elucidate the evolution of fern sexual reproduction in context of all of land plants.
 
 ### LAR
 
