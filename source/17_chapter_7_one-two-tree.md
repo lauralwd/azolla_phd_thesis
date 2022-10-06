@@ -481,8 +481,27 @@ Thirdly, a MIKCc phylogeny.
 With this phylogeny of MIKCc transcription factors we attempted to elucidate the evolution of fern sexual reproduction in context of all of land plants.
 
 ### LAR
+The _Azolla_ genome contains several LAR like enzymes that may all place a role in anthocyan metabolism.
+In context of _Azolla_ biology, it is an interesting enzyme for it is a key enzyme in the production of both anthocyanodins, as well as epicatechin; a notorious digestion inhibiting polyphenol.
+The LAR enzyme is member of the PIP family of enzymes.
+In this case-study, we use phylogeny to infer the relation of all _Azolla_ LAR homologs in the perspective of the entire PIP family of enzymes in land plants.
 
-![](source/figures/fig7_LAR_phylogeny.pdf){#fig:fig7_LAR_phylogeny}
+We used the 1kP orthogroup extractor [@Leebens-Mack2019] to acquire a PIP orthogroup, subsetted this to get a reasonable amount of all major land pland clades, and added characterised and PIP enzymes and _Azolla_ LAR homologs.
+The data was alligned with MAFFT L-INSI-i and trimmed to reveal one major block of conserved residiues.
+The phylogeny was infered with IQTree including automated modelfitting and UFB+SH-aLRT.
+Several optimisation rounds followed next, adapting the entries of the original dataset and testing reproducibility of the toplogy of important nodes.
+The final tree was annotated in iToL, showing only sequences of interest and colouring clades according to major land plant groups.
+This tree is publihsed in @Gungor2021 and the full analysis is openly available on Github (github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020](https://github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020)) and archived in Zenodo ([DOI:10.5281/zenodo.3959056](https://doi.org/10.5281/zenodo.3959056)).
+
+![Phylogeny of LAR and other PIP-family enzymes across land plant lineages. Protein sequences were retrieved as a single orthogroup containing the Vitis vinifera LAR from the 1KP orthogroup database2 [@Leebens-Mack2019], sub-sampled, and supplemented with guide and A. filiculoides LAR-like sequences. The 785 sequences were aligned with MAFFT-linsi [@Katoh2013], then trimmed using trimAL [@Capella-Gutierrez2009] and, using IQtree [@Nguyen2015], the phylogenetic tree computed with the resulting 305 parsimony informative sites. The best-fit substitution model was LG+R7 and bootstrap support was determined via SH-aLRT [@Guindon2010]. The tree was annotated in iTOL; highlighting characterized enzymes and sequences of particular interest [@Letunic2019]. Nodes with bootstrap support equal or greater than 80% SH-aLRT are indicated by circles. EGS and IGS clustered in two groups: IGS/EGS-I and IGS/EGS-II. PLR, pinoresinol-lariciresinol reductase; IFR, isoflavone reductase; PCBER, phenylcoumaran benzylic ether reductase; EGS, eugenol synthase; IGS, isoeugenol synthase; LAR, leucoanthocyanidin reductase; WLAR, fern specific LAR-like. Full phylogeny is available at [github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020](https://github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020)](source/figures/fig7_LAR_phylogeny.pdf){#fig:fig7_LAR_phylogeny}
+
+The LAR phylogeny shows that the LAR enzyme is a fern invention also present in seedplants (+@fig:fig7_LAR_phylogeny).
+It is distinct from other groups of PIP enzymes such as PLR, IFR and PCBER.
+LAR-like enzymes have radiated in ferns specifically, but not in seedplants.
+These clades were termed WannabeLARs (WLAR) in @Gungor2021.
+Their function was verified to be different from that of LAR, despite their homology.
+The exact function of WLARs remains unknown, none of these sequences was ever categorised separately before.
+Ostensibly, ferns have radiated their own set of unique PIP enzymes, as seedplants have uniquely radiated IFR and PCBER enzymes.
 
 ### 2OGD
 
