@@ -439,7 +439,7 @@ The method is however not wide spread in the field, and its usage should be clea
 
 Both FBS and TBS are slow methods for they require to redo a full phylogenetic inference $b$ times.
 Modern phylogeny inference tools often have faster parametric methods that calculate support.
-IQTree has such a method called UltraFastBootstrap (UFB), which the authors recommend to pair with the Shimodaira-Hasegawa aproximate Likelihood Ratio Test (SH-aLRT) [@Guidon].
+IQTree has such a method called UltraFastBootstrap (UFB) [@Hoang2018], which the authors recommend to pair with the Shimodaira-Hasegawa aproximate Likelihood Ratio Test (SH-aLRT) [@Guindon2010].
 the IQTree manual suggests to trust any node if it has over 95% UFB and over 80% SH-aLRT confidence.
 
 We use UFB for preliminary trees, or those that are too big to produce FBS or TBS support within weeks of time.
