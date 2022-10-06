@@ -503,21 +503,38 @@ Their function was verified to be different from that of LAR, despite their homo
 The exact function of WLARs remains unknown, none of these sequences was ever categorised separately before.
 Ostensibly, ferns have radiated their own set of unique PIP enzymes, as seedplants have uniquely radiated IFR and PCBER enzymes.
 
-### 2OGD
-
-![](source/figures/fig7_2OGD_phylogeny_small.pdf){#fig:fig7_2OGD_phylogeny_small width=50%}
-
-![](source/figures/fig7_2OGD_phylogeny.pdf){#fig:fig7_2OGD_phylogeny}
-
 ### MYB & MIKc
 prank indel-realignment
 
 ![](source/figures/fig7_MIKCc_phylogeny.pdf){#fig:fig7_MIKCc_phylogeny}
+### 2-OGD
+In another inquiry into _Azolla_ secondary metabolism, a 2-oxoglutarate dependent dioxygenase (2-OGD) enzyme was significantly differentially expressed in an RNA-seq experiment.  
+Again an orthogroup of 2-OGD genes was obtained from the 1kP, subsetted and ammended with sequences with their functions characterised.
+The differentially expressed gene and other 2-OGD genes from _A. filiculoides_ genomes version 1 and version 2 were added as well.
+Sequences were aligned with MAFFT L-INS-i, and trimmed with trimAL for columna and sequence content (+@fig:fig7_align_trimprank C & D).
+A first IQTree phylogeny with UFBootstrap was used to find the main clades in which the sequence of interest was placed (data not shown).
+These clades, and an outgroup were extracted int a second subset from the former subset.
+Then, a non-parametric phylogeny was infered with TBS support.
+The tree was coloured per clade (+@tbl:tbl7_1kP_sample_counts) and irrelevant clades were collapsed in iToL (+@fig:fig7_2OGD_phylogeny_small).
+Afterwards, the original subset was also used for TBS (+@fig:fig7_2OGD_phylogeny).
+This tree is submitted for publication @Gungor_cornicinine and the full analysis is openly available on Github ([github.com/lauralwd/2OGD_phylogeny](https://github.com/lauralwd/2OGD_phylogeny)).
+
+![Phylogeny of 2-OGD genes encoding FLS, ANS and JOX across land plant lineages. 2-OGD protein sequences were obtained from the 1kp orthogroup database [@Leebens-Mack2019], sub-sampled and supplemented with guide- and A. filiculoides 2-OGD sequences. The former were used for clade annotation, the latter are indicated in green for _A. filiculoides_ genome version 1 [@Li2018] and version 2 (Afi_v2) [@Gungor_cornicinine]). An initial phylogeny (+@fig: fig7_2OGD_phylogeny) was computed to place _A. filiculoides_ genes in the broad 2-OGD phylogeny. From this broad phylogeny, FLS, ANS, JOX and outgroup sequences were selected to compute a more accurate tree. Sequences were aligned with MAFFT-linsi [@Katoh2013], and then trimmed using trimAL [@Capella-Gutierrez2009]. The phylogeny was computed with IQtree [@Nguyen2015] with 200 non-parametric bootstraps and transfer-bootstrap values were calculated with booster [@Lemoine2018]. The tree was annotated in iTOL and Inkscape [@Letunic2019].  ](source/figures/fig7_2OGD_phylogeny_small.pdf){#fig:fig7_2OGD_phylogeny_small width=50%}
+
+The 2-OGD subset phylogeny confirms that the sequences of interest are most related to Jasmonate Oxidase (JOX) in seedplants.
+It seems that in ferns JOX have radiated as they have in seed plants, a case of many-to-many orthology.
+Despite this within-clade radiation, all seedplant paralogs with known function JOX1,2,3,4 accept only Jasmonate as a substrate.
+The aminoacid residues in the active side that bind jasmonate are conserved in both seedplant and fern clades.
+Therefore we conclude these sequences are most likely _A. filiculoides_ JOX1 and JOX2.
+The specific site of expression hints that Jasmonate signaling may be important in _Azolla_ symbiosis communication.
 
 ## discussion
 
 phylogenomics
 
 SNPhylo, trees on snips of whole genomes
+## Supplemental:
+
+![](source/figures/fig7_2OGD_phylogeny.pdf){#fig:fig7_2OGD_phylogeny}
 
 \nolinenumbers
