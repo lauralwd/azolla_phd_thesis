@@ -1,2 +1,2 @@
-# Appendix C: Personal development
+# Personal development
 \label{personal_development}
