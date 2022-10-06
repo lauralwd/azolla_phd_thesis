@@ -417,30 +417,44 @@ This method is easily interpretable, and standardised in the field.
 
 Felsensteins BootStrap (FBS) does have drawbacks, especially for bigger trees.
 In the _Azolla_ lab we experienced that nodes deep in a big phylogeny, those nodes that typically represent ancestral states, receive very low support values.
-Yet, when repeating the tree inferences often with modified datasets, these nodes appeared highly robust.
-If a single sequence it's placement in the phylogeny is highly variable -a rogue taxon- it will have huge impact on the support values of deep nodes despite the placement of the majority of taxa being highly reliable.
-We observe that for big trees, FBS is often uninformative.
+Yet, when repeating the tree inferences with modified datasets, these nodes appeared highly robust.
+If a single sequence its placement is highly variable -a rogue taxon- it will have huge impact on the support values of deep nodes despite the placement of the majority of taxa being highly reliable.
+We observe that for big trees, FBS is often uninformative for deeper nodes.
 
 TransferBootStraps (TBS) present an alternative support criterion that was designed to circumvent this exact issue found in bigger phylogenies [@Lemoine2018].
 When calculating TBS for any node, it takes a non-binary approach.
-A node's bootstrap isn't regarded as good $i=1$ or false $i=0$ as in FBS but a continuous distance metric $\phi$.
+A node's bootstrap isn't regarded as either good $i=1$ or false $i=0$ as in FBS.
+Instead, a continous citerion is used: distance metric $\phi$.
 It is based on the minimum amount of leaves that must be transfered from one side of a node to the other for a bootstrap tree to represent the main tree.
 Finally this metric is corrected for any proportion difference $p$ between the left and right side of that node.
 The method is further detailed in @Lemoine2018.
+
+$(TBS= 1- \frac{\phi}{p-1})$
+
 We have used TBS with success and in the _Azolla_ lab and recommend its usage in big phylogenies; those of several hundreds of sequences.
 TBS values of shallow nodes typically represent those of FBS, and TBS values of deep nodes typically read as if they are shallow nodes.
 We found that TBS assigns more meaningful support values to deep nodes.
 The method is however not wide spread in the field, and its usage should be clearly stated for correct interpretation of phylogny support values.
 
-$(TBS= 1- \frac{\phi}{p-1})$
-
 Both FBS and TBS are slow methods for they require to redo a full phylogenetic inference $b$ times.
 Modern phylogeny inference tools often have faster parametric methods that calculate support.
-IQTree has such a method called UltraFastBootstrap (UFB), which is often paired with Shiro ... topology tests.
+IQTree has such a method called UltraFastBootstrap (UFB), which the authors recommend to pair with the Shimodaira-Hasegawa aproximate Likelihood Ratio Test (SH-aLRT) [@Guidon].
+the IQTree manual suggests to trust any node if it has over 95% UFB and over 80% SH-aLRT confidence.
+
 We use UFB for preliminary trees, or those that are too big to produce FBS or TBS support within weeks of time.
+Confusingly, the values that UFB produces are not to be compared with those of TBS and FBS.
+Per the IQTree manual, a UFB support of 95% corresponds to a 95% probability that this node is a "true node".
+One might be inclined to think a 90% UFB support is also quite believable.
+In our use however, we have observed 90% UFB nodes that became 20%FBS nodes once non-parametric bootstrapping was done.
 
+Support estimation comes in phylogeny comes in many shapes and forms with their own pro's and cons.
+We recommend to use non-parametric methods such as FBS and TBS in final results for ease of interpretation and reliability.
+We resort to UFB and SH-aLRT for very big phylogenies only.
+Regardless the method, we emphasise the importance of clearly indicating the support estimation method used with any phylogeny.
 
-online: IQTree & PHYML
+Online phylogeny inference is freely available and makes the methods accessible to all.
+IQtree can be used online although with limitations ([iqtree.cibiv.univie.ac.at](http://iqtree.cibiv.univie.ac.at/)) [@Trifinopoulos2016].
+Additionally, all these steps can also be done in PHYML, an alternative tool with the same use case, on [atgc-montpellier.fr/phyml/](http://www.atgc-montpellier.fr/phyml/).
 
 ### Visualisation
 
