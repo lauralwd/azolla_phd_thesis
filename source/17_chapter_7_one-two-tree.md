@@ -458,6 +458,17 @@ Additionally, all these steps can also be done in PHYML, an alternative tool wit
 
 ### Visualisation
 
+For visualisation of the phylogeny, we recommend working in iToL [@Letunic2019] [itol.embl.de](https://itol.embl.de/).
+Like the JuPyter notebook, iToL works in an internet browser.
+Unfortunately the free version of iToL does not allow to save the layout of a phylogeny anymore, but a paid version allows you to do so.
+When uploading a treefile into iToL, we take several steps to turn it into a final figure.
+First is rooting the tree, when working with land-plants, we typically root an algae sequences.
+Second is colouring the major clades as in +@tbl:tbl7_1kP_sample_counts: clade, and adjusting any text size and colour.
+We recommend doing so by using annotation files rather than doing it manually.
+These annotation files can also be shared in a Git repository for reproducibility.
+Optionally, more data can be added onto the tree, such as the MSA, RNA-seq data, certain groupings, protein domains, etcetera.
+We discuss these options further in the Usecases section.
+
 ## Usecases
 
 ### LAR
