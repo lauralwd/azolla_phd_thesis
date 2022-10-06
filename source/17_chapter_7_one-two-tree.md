@@ -15,6 +15,7 @@ Henriette Schluepmann^1^
 \normalsize
 \onehalfspacing
 \setlength{\parindent}{0.5in}
+\linenumbers
 
 ## Abstract
 
@@ -450,3 +451,5 @@ prank indel-realignment
 phylogenomics
 
 SNPhylo, trees on snips of whole genomes
+
+\nolinenumbers
