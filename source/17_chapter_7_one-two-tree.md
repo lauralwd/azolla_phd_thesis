@@ -549,8 +549,8 @@ This was actually the inspiration for creating this workflow.
 Second a 2-OGD phylogeny inference with several _Azolla_ sequences added.
 The 2-OGD family is one of the biggest enzyme families in land plants.
 We wanted to study how ferns have developed differently from land plants, and infer the functionality of a specific fern 2-OGD gene that was differentially expressed in an RNA-seq experiment.
-Thirdly, a MIKCc phylogeny.
-With this phylogeny of MIKCc transcription factors we attempted to elucidate the evolution of fern sexual reproduction in context of all of land plants.
+Thirdly, a MIKC^C^ phylogeny.
+With this phylogeny of MIKC^C^ transcription factors we attempted to elucidate the evolution of fern sexual reproduction in context of all of land plants.
 
 ### LAR
 The _Azolla_ genome contains several LAR like enzymes that may all place a role in anthocyan metabolism.
@@ -559,7 +559,7 @@ The LAR enzyme is member of the PIP family of enzymes.
 In this case-study, we use phylogeny to infer the relation of all _Azolla_ LAR homologs in the perspective of the entire PIP family of enzymes in land plants.
 
 We used the 1kP orthogroup extractor [@Leebens-Mack2019] to acquire a PIP orthogroup, subsetted this to get a reasonable amount of all major land pland clades, and added characterised and PIP enzymes and _Azolla_ LAR homologs.
-The data was alligned with MAFFT L-INSI-i and trimmed to reveal one major block of conserved residiues.
+The data was aligned with MAFFT L-INSI-i and trimmed to reveal one major block of conserved residiues.
 The phylogeny was infered with IQTree including automated modelfitting and UFB+SH-aLRT.
 Several optimisation rounds followed next, adapting the entries of the original dataset and testing reproducibility of the toplogy of important nodes.
 The final tree was annotated in iToL, showing only sequences of interest and colouring clades according to major land plant groups.
@@ -608,9 +608,15 @@ Many genes may be missing from the 1kP dataset due to it being transcriptome bas
 Genes involved in the transition to sexual reproduction are after all not ubiquitously expressed, nor abundantly expressed when considering bulk tissue RNA extractions.
 More genome based data of seed-free plants and functional characterisation of transcription factors may allow us to better interpret a phylogeny like this one.
 
-![Azolla MIKCc phylogenetic analysis and response to FR. The Azolla MIKCC gene model encoded by Azfi_s0028.g024032 was annotated manually. Sequences extracted from the genome browsers of each species were aligned with MAFFT E-INS-i [@Katoh2013], then trimmed with trimAl [@Capella-Gutierrez2009]. First a draft phylogeny was computed with IQTREE [@Nguyen2015], then this draft phylogeny served as a guide for alignment optimization with PRANK [@Loytynoja2014] of the untrimmed original MAFFT E-INS-i alignment. This optimized alignment was then trimmed again with trimAl and used for inference of the final phylogeny with IQTREE. Bootstrap values are transfer bootstraps calculated with 1000 nonparametric bootstrap trees [@Lemoine2018]. Transfer bootstrap assays similarity of nodes rather than binary identical or nonidentical nodes in bootstrap trees: it therefore tends to be more informative for bigger trees. All code is deposited on github.com/lauralwd/MIKC_tree. The tree was rooted on a group of algal sequences. Nodes with bootstrap support equal or greater than 50% are indicated. Branches are color coded as per their plant lineage.](source/figures/fig7_MIKCc_phylogeny.pdf){#fig:fig7_MIKCc_phylogeny}
+![Azolla MIKC^C^ phylogenetic analysis and response to FR. The Azolla MIKCC gene model encoded by Azfi_s0028.g024032 was annotated manually. Sequences extracted from the genome browsers of each species were aligned with MAFFT E-INS-i [@Katoh2013], then trimmed with trimAl [@Capella-Gutierrez2009]. First a draft phylogeny was computed with IQTREE [@Nguyen2015], then this draft phylogeny served as a guide for alignment optimization with PRANK [@Loytynoja2014] of the untrimmed original MAFFT E-INS-i alignment. This optimized alignment was then trimmed again with trimAl and used for inference of the final phylogeny with IQTREE. Bootstrap values are transfer bootstraps calculated with 1000 nonparametric bootstrap trees [@Lemoine2018]. Transfer bootstrap assays similarity of nodes rather than binary identical or nonidentical nodes in bootstrap trees: it therefore tends to be more informative for bigger trees. All code is deposited on github.com/lauralwd/MIKC_tree. The tree was rooted on a group of algal sequences. Nodes with bootstrap support equal or greater than 50% are indicated. Branches are color coded as per their plant lineage.](source/figures/fig7_MIKCc_phylogeny.pdf){#fig:fig7_MIKCc_phylogeny}
 
 ## discussion
+
+orthofinder2
+
+gene function inference in non-model organisms, crops 
+
+model assumption testing: https://academic.oup.com/gbe/article/11/12/3341/5571717?login=true
 
 phylogenomics
 
