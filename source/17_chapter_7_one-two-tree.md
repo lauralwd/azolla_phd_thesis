@@ -18,6 +18,22 @@ Henriette Schluepmann^1^
 \resetlinenumber
 \linenumbers
 
+<!--
+General todo stuff:
+Licence on GitHub
+Collaboration statement on GitHub
+Edit intro, workflow, Usecases
+Make Orthology figure
+Make workflow figures
+Run orthofinder anew on 1kP data...
+Remake Alignment example figure?
+Write discussion
+Spellcheck
+Rens
+Henriette
+Sjef
+-->
+
 ## Abstract
 
 ## Introduction
