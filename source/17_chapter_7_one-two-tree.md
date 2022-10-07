@@ -1,6 +1,6 @@
 \singlespacing
 \setlength{\parindent}{0.0in}
-# One two, tree! A workflow for creating state of the art phylogenies designed for reproducibility with JuPyter, conda and git.
+# One two, tree! A workflow for creating state-of-the-art phylogenies designed for reproducibility with JuPyter, conda and git.
 \label{phylogeny_workflow}
 
 \footnotesize
@@ -37,18 +37,18 @@ Sjef
 ## Abstract
 
 ## Introduction
-Life Sciences has entered the big-data age; we have an unprecedented detailed view on the storage and processing of information within biological systems.
+Life Science has entered the big-data age; we have an unprecedented detailed view on the storage and processing of information within biological systems.
 This view is possible due to the ever decreasing prices of sequencing of DNA, RNA and protein.
-Consequently, biologist are challenged less with acquiring data, and more with its organising, processing and gaining insight from it.
+Consequently, biologist are challenged less with acquiring data and more with its organising, processing and interpreting.
 Phylogenetics is one answer to that challenge.
 Phylogenetics organises sequences by their hypothesised evolution: in phylogenetic trees.
-Afteral, how does anything in biology make sense except in the light of evolution.
+Afterall, how does anything in biology make sense except in the light of evolution.
 
 This chapter accompanies a practical workflow to infer phylogenetic trees.
-It is an interactive document on GitHub which I made and used during my PhD and may be used by others as well.
+It is an interactive document on GitHub which I made and used during my PhD and may be used and improved by others as well.
 This work does not try to sumarise the background needed to propperly read trees and collect data as @VanHooff2019, nor does it summarise recent technological advantages in the field as @Kapli2020.
 Hence, consider these two works as essential reading before bringing this workflow into practice.
-I do include a basic introduction of phylogeny: the bare minimum to understand the choices made and use-cases examplified.
+I do include a basic introduction of phylogeny: the bare minimum to understand the design choices made and use cases examplified.
 
 With my phylogeny workflow, I aim to provide a practical guide aiding novice users in making phylogenies.
 In this document I summarise the workflow, the choices I made in designing it, and examples of its implementation.
@@ -56,59 +56,64 @@ The workflow itself, may be considered similar to @Hall2013, who presents a step
 This work differentiates itself by using commandline tools only, emphasising documentation of intermediate files, and using only open source algorithms.
 By using the Command Line tools (CML), I aim to circumvent limitations of other existing all-in-one or web based solutions.
 This presents a steeper learning curve for a novice user, but increased freedom to implement any other tool of choice and to log and share analyses with peers via Git or other means.
-The workflow is openly available online and I have documented my use of it on GitHub and Zenodo.
+The workflow is openly available online and I have documented my use of it on GitHub and Zenodo, as summarised  here in the 'Use cases' section.
 Via this route I aim to inspire other reseachers to also make their analyses more reproducible and share their code towards more reproducible research.
 
 ### Key concepts in Phylogeny
 In principle, two types of phylogenetic trees exist: gene trees, and species trees.
+These will remain hypothetical for one can not observe how proteins or species have evolved in the past.
 Gene trees depict the hypothetical pattern in which several sequences are related to each other.
-This organisation will remain hypothetical for one can not observe how proteins or species have evolved in the past.
 If a single organism contains two copies of a gene, the organism's name will appear twice in the tree.
 Hence the tree nodes, the bifurcations, may represent speciations as well as gene duplications.
 Species trees depict speciations only.
 When novices think of phylogenetic trees, they often think of species trees.
 However, in practice, researchers often make gene trees instead.
 Gene trees may seem inconsistent with with species trees due to gene duplications or losses.
+Occasionally, horizontal gene transfer might even occur.
+Gene trees can be reconciled into species trees to infer such events.
 The relation between gene an species trees as well as how to read them is excelently explained in @VanHooff2019.
 
 `dummy figure species vs gene trees and orthology and paralogy, `
 
 Gene trees allow us to answer basic but important questions in comparative genomics.
-When presented with many gene sequences that are similar (homologs), we may use gene trees to see if these sequences are a result of a gene duplication (paralogs) or a speciation (orthologs).
+When presented with many gene sequences that are similar (analogs), we should only work with sequences that share a common ancestor (homologs).
+We may use gene trees to see if these homologs are a result of a gene duplication (paralogs) or a speciation (orthologs).
 Orthology is a key concept for reading phylogenetic trees and in detail explained in @VanHooff2019.
-If two sequences were separated because of speciation, and we assume they are the only copies both species their genomes, we may conclude that selection presure has occured on this particular gene.
+If two sequences were separated because of speciation, and we assume they are the only copies both species their genomes, then we may conclude that selection presure has occured on this particular gene.
 Hence, when reading a phylogenetic gene tree, we often assume that orthologous genes are functionally similar.
-Orthology inference is an invaluable tool in transfering biological meaning from one biological sequence with a validated function, to another, with no such validation and inherently different from "mere" homology.
+Orthology inference is an invaluable tool in transfering biological meaning from one biological sequence with a validated function, to another, with no such validation.
+It is inherently different from "mere" homology or even anology.
 
 The _Azolla_ lab has particular interest in such a tool.
 We are not only involved in the genomics of a novel crop but more specifically of the very first genome of a fern ever sequenced.
-No gene's function in Azolla was ever verified and we have no close relative to compare _Azolla_ sequences with.
-Hence, homology and comparative genomics are essential in assigning meaning to the genome sequences we have acquired in @Li2018.
+Until recently, no gene its function in Azolla was ever verified and we have no close relative to compare _Azolla_ sequences with.
+Hence, homology and comparative genomics are invaluable in assigning meaning to the genome sequences we acquired in @Li2018 and @Gungor_cornicinine.
 While often, gene function is attributed on mere homology, there are cases where several homologs are present in a genome.
 We used gene trees to attribute these homologs to any one orthologous group via gene trees.
 One examples was included in this thesis before in chapter \ref{it_takes_two} in +@fig:fig6_8.
-A second example can be found in the supplemental material of the same publication.
+A second example can be found in the supplemental material of the same publication and in figure +@fig:fig7_MIKCc_phylogeny.
 
 There are several ways to infer trees from sequences, here I categorise them in three groups.
-These methods and other key concepts in modern day phylogenetics are excelently reviewed in @kapli2020.
-Almost all methods involve alligning sequences, often amino acid sequences, to each other.
-The first group is methodically the simplest: Neighbour Joining (NJ).
-NJ methods create a distance matrix from this allignment, and a tree from this distance matrix.
+These methods and other key concepts in modern day phylogenetics are excelently reviewed in @Kapli2020.
+Almost all methods involve aligning sequences ---often amino acid sequences--- to each other.
+The first group of methods is the simplest: Neighbour Joining (NJ).
+NJ methods create a distance matrix from this alignment, and a tree from this distance matrix.
 NJ methods are akin to hierarchical clustering methods and incredibly efficient.
 The method is however not very robust for sequences that are more divergent from the majority of the data or when sequences are distantly related.
 Consequently, NJ is rarely used and not considered a state-of-the-art method in most use-cases.
 The second group of methods concerns Maximum Likelihood tree inference (ML).
-These methods do not infer distance matrices, but infer trees directly from the sequence allignment and then calculate the likelihood of this tree (a hypothetical evolution) given the alignment (the data).
-This likeihood is calculated given a certian model of evolution `find good review for this`.
+These methods do not infer distance matrices, but infer trees directly from the sequence alignment.
+Then it calculates the likelihood of this tree (a hypothesis) given the alignment (the data).
+This likelihood is calculated given a certian model of evolution [@Sullivan2005; @Felsenstein2004].
 Next, the methods searches through a virtual space of posible trees (treespace), and returns the tree with the best likelihood.
 A third group builds forth on the advances of ML tree inference but within a Baysian framework of statistics.
 I consider Baysian approaches too advanced for the audience that this workflow is aimed at, hence I won't discuss them or include them in the workflow.
 In the workflow presented here, I use ML tree inference with IQTree [@Nguyen2015].
-One of the main advantages of IQtree is that it includes software to find an appropriate model of evolution given an input allignment.
+One of the main advantages of IQtree is that it includes software to find an appropriate model of evolution given an input alignment [@Kalyaanamoorthy2017].
 
 ### Availability
-This remainder of this chapter shortly summarises data and software tools used for the workflow, alternative tools and their limitations, and my design considerations in making my own workflow.
-This workflow includes gathering data from the 1kP project [@Leebens-Mack2019], alignment of protein sequences, trimming of this allignment and tree inference via frequentist methods.
+This remainder of this chapter summarises relevant data and software, my design considerations in making this workflow, and finally three use cases of the _Azolla_ lab.
+This workflow includes gathering data from the 1kP project [@Leebens-Mack2019], alignment of protein sequences, trimming of this alignment and tree inference via frequentist methods.
 Additionally, several examples of the workflow in practice are included to demonstrate its application in tackling biological questions of the _Azolla_ lab.
 This workflow is openly available and usable under a Creative Commons License at [GitHub.com/lauralwd/lauras_phylogeny_wf](https://github.com/lauralwd/lauras_phylogeny_wf)
 
