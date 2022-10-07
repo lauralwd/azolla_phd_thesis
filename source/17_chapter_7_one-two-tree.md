@@ -118,28 +118,36 @@ Additionally, several examples of the workflow in practice are included to demon
 This workflow is openly available and usable under a Creative Commons License at [GitHub.com/lauralwd/lauras_phylogeny_wf](https://github.com/lauralwd/lauras_phylogeny_wf)
 
 ## Methods
-The state of the art tools required for phylogenetics are often desgined for Linux systems.
-Using BASH scripts -BASH being the Linux-native programming language- can be a steep learning curve for novice users.
-Therefor I use JuPyuter notebooks to supply the user of the workflow with written instructions and pre-written BASH code.
+The state-of-the-art tools required for phylogenetics are often desgined for Linux systems.
+Using BASH scripts ---BASH being the Linux-native programming language--- can be a steep learning curve for novice users.
+Therefor I use JuPyter notebooks [@Ragan-Kelley2014] to supply the user of the workflow with written instructions and pre-written BASH code.
 A JuPyter notebook is an interacive document in which the user can run said code, as well as journal their decissions and observations
 
 Software installation on Linux can be challenging, especially if certain versions of software may be incompatible.
-Therefore I make use of the conda or miniconda frameworks `cite` to supply any user with a ready made software environment that has all the required tools available.
-This environment also contains the software required to run the JuPyuter notebooks.
-Conda environments contain a list of all the software and the specific versions of that software, so future users may reproduce any analysis with the exact same software version.
+Therefore I make use of the conda or miniconda frameworks ([conda.io](www.conda.io)) to supply any user with a ready made software environment that has all the required tools available.
+This environment also contains the software required to run the JuPyter notebooks.
+Conda environments contain a list of all the software and the specific versions of that software.
+New users can install all required software this way, and readers of their work may reproduce any analysis with the exact same software versions.
 The recommended route is to install git and miniconda3 following the miniconda3 instructions (https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) on your system.
 For Linux and MacOS systems, this runs natively.
-For Windows systems, we have had good experience useing the Windows Sublayer for Linux (WSL).
+For Windows systems, we have had good experience using the Windows Sublayer for Linux (WSL).
 In our experience, these three systems all run miniconda3 without any issue.
 When git and miniconda3 are installed on your system, the required software may be installed via the following BASH commands:
 ```
 git clone https://github.com/lauralwd/lauras_phylogeny_wf.git
 cd lauras_phylogeny_wf
 conda env create -f conda_environment.yaml
+```
+
+The virtual environment that contains the installed software can then be activated via
+
+```
 conda activate phylogenetics
 ```
+
 A small snippit of the `conda_environment.yaml` file is included below.
 It details the relevant software and exact version and build so any future researcher may reproduce results exacly.
+
 ```
 name: phylogenetics
 channels:
@@ -154,41 +162,30 @@ dependencies:
   - mafft=7.480=h779adbc_0
   - python=3.9.4=hffdb5ce_0_cpython
 ```
-Finally, a user may make use of Git versioning software to document progress of their workflow, and possiblly maintain multiple versions thereoff.
-The JuPyter notebooks, some -but not all- data files, and the conda environment can be stored in Git.
-Whenever any file is changed, i.e. a analysis step is done successfully, this change can be appended to the Git history (+@fig:fig7_git_zenodo A).
-When done well, this 'commit' to the Git history contains a very short written explanation of the added history.
-This might be a short line like `added raw data from 1kP project`, or `trimmed alligned fasta file and document parameter choice`.
 
-![Online documentation of the phylogeny workflow on R2R3 MYB phylogeny in chapter \ref{it_takes_two}. The Git history shown on GitHub (A) details steps taken in finalising the phylogeny and the resulting figure. The finalised Git repository and all imortant files are archived on zenodo (B) with a DOI ([zenodo.org/badge/latestdoi/283424814](https://zenodo.org/badge/latestdoi/283424814)) ](source/figures/fig7_git_zenodo.pdf){#fig:fig7_git_zenodo}
+Finally, a user may make use of Git versioning software to document progress of their workflow, and possibly maintain multiple versions thereoff.
+Git can store and tracks changes in the JuPyter notebooks, some ---but not all--- data files, and the conda environment specification.
+Whenever any file is changed; i.e. an analysis step is done, this change can be appended to the Git history (+@fig:fig7_git_zenodo A).
+When done well, this 'commit' to the Git history contains a very short written explanation of the added history.
+This might be a short line like `added raw data from 1kP project`, or `trimmed aligned fasta file and document parameter choice`.
+
+![Online documentation of the phylogeny workflow on R2R3 MYB phylogeny in chapter \ref{it_takes_two} figure +@fig:fig6_8. The Git history shown on GitHub (A) details steps taken in finalising the phylogeny and the resulting figure. The finalised Git repository and all imortant files are archived on zenodo (B) with a DOI ([https://doi.org/10.5281/zenodo.3959056](https://doi.org/10.5281/zenodo.3959056)) ](source/figures/fig7_git_zenodo.pdf){#fig:fig7_git_zenodo}
 
 A Git repository containing the workflow may be uploaded online to services like GitHub or GitLab or a self-hosted Git server.
-This does not only provide instant back-ups of the workflow but also facilitates collaboration on the project with state-of-the art versioning software.
+This does not only provide instant back-ups of the workflow but also facilitates collaboration on the project with state-of-the-art versioning software.
 Indeed, using Git for this purpose could be considered relativelly advanced and one may argue that users of this level may not need the guidance that this workflow is designed to provide.
 Even without collaboration, the back-up functionality is valuable.
-Uploading to a closed GitHub repository keeps the unpublished work private.
+Uploading to a closed GitHub repository keeps the unpublished work private but backed up online.
 At time of publication, a GitHub repository can be made public and linked to Zenodo.
-Zenodo then archives the work and provides a citableDOI reference. (+@fig:fig7_git_zenodo B)
+Zenodo then archives the work and provides a citable DOI reference. (+@fig:fig7_git_zenodo B)
 
 ### Data
-Phylogenetics is in the first place a comparative exercise, hence to gain insight in the evolution of any protein sequence, one must compare it to related sequences.
-As plant biologists studying ferns, we are challenged by a lack of non-seed plant genomes available to us.
+Phylogenetics is in the first place a comparative exercise, hence to gain insight in the evolution of any protein sequence, one must compare it to related sequences with a shared origin.
+As plant biologists studying ferns, we are challenged by a lack of seed-free plant genomes available to us.
 Luckily, the recent 1kP project [@Leebens-Mack2019] provides solution by collecting the genomes and assembled transcriptomes of 1000 plant species.
-The 1kP effort fills a gap in reference databases, providing protein coding sequences for a large number of seed-free plants.
-As fern researchers, we make intensive use of the 1kP project and we use it in the examples included here._
-
-The 1kP project [@Leebens-Mack2019] published assembled transcriptomes for over 1000 plant species (+@tbl:tbl7_1kP_sample_counts) and included 26 species with sequenced genomes in their dataset as well.
-Genome assembly based data can be assumed to be complete.
-In phylogenetics, this is relevant for all paralogs that a species may contain will be present in the dataset.
-For transcriptome assembled data, this assumption does not hold.
-Paralogs may not be simultaneously expressed and therefore absent from the dataset.
-Alternativelly, paralogs may be assembled as a single sequence.
-Absence of paralogs in the dataset and the phylogeny infered thereoff is relevant for it may cause wrong inference of speciation and duplication nodes.
-Consequently, orthlogy inference may be faulty as well.
-To somewhat mitigate this shortcomming, we chose to include a substantial amount of species in our phylogenies.
-We argue that if one species does not express both paralogs simultaneously, then maybe another will.
-To make our trees and the orthology and paralogy patterns easier interpretable, we colour code six main clades of the Viridiplantae in our trees.
-These are the Algae, Bryophytes, Lycophytes, Monilophytes, Gymnosperms and Angiosperms (+@tbl:tbl7_1kP_sample_counts).
+The 1kP effort fills a gap in reference databases, providing coding sequences for a large number of seed-free plants.
+As fern researchers, we make intensive use of the 1kP project and we use it in the examples included here.
+Alternatively, one can search for homologs in the non-redundant protein database of NCBI (nr) with blastP as explained in @VanHooff2019.
 
 | Clade        | Lineage                        | Sample count |
 | ------------ | ----------------       	      |    ---       |
@@ -199,8 +196,8 @@ These are the Algae, Bryophytes, Lycophytes, Monilophytes, Gymnosperms and Angio
 | Algae        | Red Algae                     	|           28 |
 | Bryophytes   | Hornworts                     	|           14 |
 | Bryophytes   | Liverworts                    	|           29 |
-| Lycophytes   | Lycophytes                    	|           22 |
 | Bryophytes   | Mosses                        	|           41 |
+| Lycophytes   | Lycophytes                    	|           22 |
 | Monilophytes | Eusporangiate Monilophytes    	|           12 |
 | Monilophytes | Leptosporangiate Monilophytes 	|           68 |
 | Gymnosperms  | Conifers                      	|           76 |
@@ -220,6 +217,19 @@ These are the Algae, Bryophytes, Lycophytes, Monilophytes, Gymnosperms and Angio
 
 Table: Transcriptome sample counts per clade of the Viridiplantae. {#tbl:tbl7_1kP_sample_counts}
 
+Transcriptome assembled coding sequences do present a set of challenges that one must be aware of when doing phylogenetic work.
+The 1kP project [@Leebens-Mack2019] published assembled transcriptomes for over 1000 plant species (+@tbl:tbl7_1kP_sample_counts) and included 26 species with sequenced genomes in their dataset as well.
+Genome assembly based data can reasonably be assumed to be complete.
+In phylogenetics, this is relevant for all paralogs that a species may contain will be present in the dataset.
+For transcriptome assembled data, this assumption does not hold.
+Paralogs may not be simultaneously expressed and therefore absent from the dataset.
+Alternativelly, paralogs may be assembled as a single sequence.
+Absence of paralogs in the dataset and the phylogeny infered thereoff is relevant for it may cause wrong inference of speciation and duplication nodes.
+Consequently, orthlogy inference may be faulty as well.
+To somewhat mitigate this shortcomming, we chose to include a substantial amount of species in our phylogenies.
+I argue that if one species does not express both paralogs simultaneously, then maybe another will.
+To make our trees and the orthology and paralogy patterns easier interpretable, I colour code six main clades of the Viridiplantae in my trees.
+These are the Algae, Bryophytes, Lycophytes, Monilophytes, Gymnosperms and Angiosperms (+@tbl:tbl7_1kP_sample_counts; +@tbl:tbl7_clade_colours).
 This vast dataset of plant coding sequences, or any set of sequences, must still be searched for homologous sequences.
 One would typically use blast for these homologs in either the 1kP data, or in NCBI blast, or both.
 However, the work done by the 1kP authors already includes big orthogroups made with Orthofinder [@Emms2019].
@@ -231,20 +241,23 @@ They are not included in the data-uploads to the usual repositories but instead 
 The original link ([jlmwiki.plantbio.uga.edu/onekp/v2/](http://jlmwiki.plantbio.uga.edu/onekp/v2/)) at the Leebens-Mack lab is no longer available.
 The authors were made aware of this early 2022 but as of yet there is no alternative way to access this data.
 
-### Existing tools
+### Alternative tools
 Existing tools that house a complete workflow from gathering sequences up to infering a ML tree are rare.
 The one tool that is best known for this purpose is MEGA X [@Kumar2016].
 MEGA X is often found in literature and has substantially contributed to making phylogenic tools available to the broad public.
 The software is especially attractive to novice users for it runs on Windows, has a graphical user interface, and includes all steps from beginning to end.
-We find it especially usefull for smaller phylogenies, no more than 50 sequences.
-Our main critisism on the MEGA software is that inferior NJ based methods are presented as equally good options to ML methods and the exact method in which MEGA X implements the ML methodology is unknown to the public.
-We observe in literature that novice users often employ the fast but inferior NJ method where reasonably an ML tree should be have been created.
+I find it especially usefull for smaller phylogenies, no more than 50 sequences.
+
+My main critisism on the MEGA software is that inferior NJ based methods are presented as equally good options to ML methods and the exact method in which MEGA X implements the ML methodology is unknown to the public.
+Recent literature shows that MEGA X users often employ the fast but inferior NJ method where reasonably an ML tree should be have been created.
 I did a short inquiry into citations of @Kumar2016 sorted by date in google scholar so google algorithms do not play into sampling bias.
 Out of the 50 most recent citations, 40 publications were publicly accessible and contained a phylogeny.
 Of these, 17 contained a ML tree, 22 a NJ tree, and one a maximum parsimony tree .
+None of these phylogenetic studies were of such a size that ML methods could not have been used.
 A secondary objection to the use of propriatary software, is the use of propriatary file formats where the field typically employs standardized file formats.
+
 Using the state-of-the-art tools in the Linux CML is a steep learning curve, explaining and validating the niche of a tool like MEGA X.
-This workflow aims to improve on MEGA X shortcommings by reducing the steep learning curve to use the Linux CML tools used by experts.
+This workflow aims to improve on MEGA X shortcommings by providing all the state-of-the-art CML tools at a reduced learning curve.
 Doing so in a JuPy notebook makes it easy to document and journal while doing the analysis.
 Finally, it eases to transition to bigger datasets that GUI desktop software often is not tailored to.
 
