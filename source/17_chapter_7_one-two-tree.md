@@ -93,11 +93,12 @@ Hence, homology and comparative genomics are invaluable in assigning meaning to 
 While often, gene function is attributed on mere homology, there are cases where several homologs are present in a genome.
 We used gene trees to attribute these homologs to any one orthologous group via gene trees.
 One examples was included in this thesis before in chapter \ref{it_takes_two} in +@fig:fig6_8.
-A second example can be found in the supplemental material of the same publication and in figure +@fig:fig7_MIKCc_phylogeny.
+A second example can be found in the supplemental material of the same publication and in figure +@fig:fig7_MIKC^C^_phylogeny.
 
 There are several ways to infer trees from sequences, here I categorise them in three groups.
 These methods and other key concepts in modern day phylogenetics are excelently reviewed in @Kapli2020.
 Almost all methods involve aligning sequences ---often amino acid sequences--- to each other.
+All methods then use synapomorphies ---shared differences--- to group sequences together.
 The first group of methods is the simplest: Neighbour Joining (NJ).
 NJ methods create a distance matrix from this alignment, and a tree from this distance matrix.
 NJ methods are akin to hierarchical clustering methods and incredibly efficient.
@@ -279,20 +280,32 @@ Finally, it eases to transition to bigger datasets that GUI desktop software oft
 The workflow consists of 6 Major steps.
 The software choices are tailored to strike a balance between relavitvelly big datasets and userfriendlyness.
 These steps are:
+  \begin{enumerate}
+  \item Acquiring data and optional subsetting
+      \begin{itemize}
+      \item Via blast or 1kP
+      \item optional subsetting of data
+      \item Adding guide sequences; sequences who have their function verified.
+      \end{itemize}
+  \item Aligning sequences
+      \begin{itemize}
+      \item mafft
+      \end{itemize}
+  \item Alignment trimming
+      \begin{itemize}
+      \item trimAL
+      \end{itemize}
+  \item Fasttree building
+      \begin{itemize}
+      \item IQTree "fast" or via fasttree
+      \end{itemize}
+  \item Tree building
+      \begin{itemize}
+      \item IQTree with model fitting
+      \end{itemize}
+  \item Tree visualisation with iToL
+  \end{enumerate}
 
-1. Acquiring data and optional subsetting
-    - Via blast or 1kP
-    - optional subsetting of data
-    - Adding guide sequences; sequences who have their function verified.
-2. Aligning sequences
-    - mafft
-3. Alignment trimming
-    - trimAL
-4. Fasttree building
-    - IQTree "fast" or via fasttree
-5. Tree building
-    - IQTree with model fitting
-6. Tree visualisation with iToL
 
 `Should this be a figure`
 
