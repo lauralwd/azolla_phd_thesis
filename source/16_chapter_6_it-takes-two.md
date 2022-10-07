@@ -1,6 +1,6 @@
 \singlespacing
 \setlength{\parindent}{0.0in}
-# It takes two: Far-Red light induces the  _Azolla filiculoides_ symbiosis sexual reproduction; triggering symbiont _Nostoc azollae_ transporters and _A. filiculoides_ GAMYB and MIKCc transcription factors.
+# It takes two: Far-Red light induces the  _Azolla filiculoides_ symbiosis sexual reproduction; triggering symbiont _Nostoc azollae_ transporters and _A. filiculoides_ GAMYB and MIKC^C^ transcription factors.
 \label{it_takes_two}
 
 \footnotesize
@@ -31,9 +31,9 @@ _A. filiculoides_ fern sporocarp formation required far-red light (FR), was incr
 Sporocarps induced with FR could be crossed to verify species attribution of strains from the Netherlands but not from the Iranian Anzali lagoon; the latter strain was assigned to a novel species cluster from South America.
 Red-dominated light suppresses the formation of dissemination stages in both gametophyte and sporophyte-dominated lineages of plants, the response likely is a convergent ecological strategy to open fields.
 
-FR-responsive transcripts included MIKCc homologues of CMADS1 and miR319-controlled GAMYB transcription factors in the fern, transporters in _N. azollae_, and ycf2 in chloroplasts.
+FR-responsive transcripts included MIKC^C^ homologues of CMADS1 and miR319-controlled GAMYB transcription factors in the fern, transporters in _N. azollae_, and ycf2 in chloroplasts.
 Loci of conserved miRNA in the fern lineage included miR172, yet FR only induced miR529 and miR535, and reduced miR319 and miR159.
-Phylogenomic analyses of MIKCc transcription factors suggested that control of flowering and flower organ specification may have originated from the diploid to haploid phase transition in the homosporous common ancestor of ferns and seed plants.
+Phylogenomic analyses of MIKC^C^ transcription factors suggested that control of flowering and flower organ specification may have originated from the diploid to haploid phase transition in the homosporous common ancestor of ferns and seed plants.
 
 ## Introduction
 Ferns from the genus _Azolla_ thrive floating on freshwater.
@@ -60,21 +60,21 @@ In the SAM transition to IF of the model angiosperm Arabidopsis thaliana (Arabid
 LEAFY is conserved in plant lineages, but LEAFY does not promote formation of reproductive structures in seed-free plants including ferns where, nonetheless, the protein was reported to maintain apical stem cell activity [@Plackett2018].
 The pattern emerging, therefore, is that the LEAFY complex is not among those that were already in place to link exogenous cues to the transition of SAM to IS in the common ancestor of seed plants and ferns.
 
-In many angiosperms, MADS-box TF of MIKCc-type form complexes that integrate endogenous and exogenous cues turning SAM into IF [@Theißen2018].
-In Arabidopsis, for example, gibberellic acid (GA)-dependent and photoperiod/temperature signaling is integrated by MIKCc from the FLC and SVP clades that, as predicted by @Vasco2016, are floral repressors.
-Consistent with separate transitions for inflorescence and flower meristems in Arabidopsis, the MIKCc floral integrators act on another,  SUPPRESSOR OF CONSTANS 1 (AtSOC1), that in turn induces the expression of MIKCc floral homeotic genes.
+In many angiosperms, MADS-box TF of MIKC^C^-type form complexes that integrate endogenous and exogenous cues turning SAM into IF [@Theißen2018].
+In Arabidopsis, for example, gibberellic acid (GA)-dependent and photoperiod/temperature signaling is integrated by MIKC^C^ from the FLC and SVP clades that, as predicted by @Vasco2016, are floral repressors.
+Consistent with separate transitions for inflorescence and flower meristems in Arabidopsis, the MIKC^C^ floral integrators act on another,  SUPPRESSOR OF CONSTANS 1 (AtSOC1), that in turn induces the expression of MIKC^C^ floral homeotic genes.
 Homeotic genes of potential relevance for ferns specify ovules, and stamens: these modules could be more ancient than those specifying carpels and sepals.
 Specification of ovules/stamens in angiosperms, however, is unlikely homologous to that of mega- and microsporocarps in Azolla because heterospory evolved independently in ferns and angiosperms [@Sessa2016].
 
 
 ![Shoot apices of _A. filiculoides_ sporophytes contain the apical _N. azollae_ colony, trichomes and sporocarp initials. (A), Shoot apex with apical _N. azollae_ colony  (ac). Outer leaves were removed for better visualization of developing leaf lobes (l), leaf cavities (lc) and bacteria filaments. (B), the same shoot apex as in (A) with trichomes (t) revealed by transmitting light absorption surrounded by the apical colony and in areas destined to form leaf cavities (lc); Bar: 50 mm. (C), _N. azollae_ hormogonia (h) invading the sporocarp initials (si). Sporophytes were stained with propidium iodide [@Truernit2008], then fluorescence detected using 405 nm activation beam, and emission <560 nm filter for the yellow channel and 505-530 nm for the blue channel with the Confocal Laser Scanning microscope Zeiss LSM5 Pascal.](source/figures/fig6_1.png){#fig:fig6_1}
 
-In addition to MIKCc TF, micro RNA (miR) are known to control phase transitions in angiosperms, including IF.
+In addition to MIKC^C^ TF, micro RNA (miR) are known to control phase transitions in angiosperms, including IF.
 The miR156/172 age pathway controls flowering: miRNA156 decreases with the age of plants, and thus also its repression of the targets SQUAMOSA PROMOTER BINDING-LIKES (SPL).
 In the annual Arabidopsis, SPL promote expression of mir172 that targets another type of floral repressor, the AP2/TOE TF [@Hyun2019].
-In the perennial Arabis alpina, the MIKCc FLC homologue and miR156 regulate expression of SPL15 thus integrating temperature and age-dependent IF.
+In the perennial Arabis alpina, the MIKC^C^ FLC homologue and miR156 regulate expression of SPL15 thus integrating temperature and age-dependent IF.
 Moreover, AP2/TOE and NIN TF are known to mediate repression of AtSOC1 in Arabidopsis on high nitrate [@Gras2018; @Olas2019].
-The MIKCc SOC1 is further known to control levels of miR319 that inhibits TCP protein functions in the FT-FD complex mediating photoperiod control of IF [@Lucero2017 ; @Li2019].
+The MIKC^C^ SOC1 is further known to control levels of miR319 that inhibits TCP protein functions in the FT-FD complex mediating photoperiod control of IF [@Lucero2017 ; @Li2019].
 Inextricably, therefore, transition to IF is linked to conserved miRNA modules in angiosperms but we know little of miRNA loci in ferns [@Berruezo2017 ; @You2017].
 Systematic research of the symbiosis transition to IS in Azolla is lacking: GA applications did not induce IS, neither did stress treatment [@Kar2002].
 Moreover, fern host and symbiont development are tightly coordinated during the induction of sporocarps: mobile filaments of _N. azollae_ generated in the shoot apical colony move into the developing sporocarp initials in the shoot apex (+@fig:fig6_1).
@@ -85,7 +85,7 @@ Transition to IS will, therefore, best characterized by profiling expression of 
 Here we identify external cues that induce or inhibit transition to IS in _A. filiculoides_ under laboratory settings.
 We test the viability of reproductive structures induced in different fern accessions by crosses, define species attributions and support the results obtained with phylogenetic analyses of the accessions.
 To reveal endogenous mechanisms mediating transition to IS, we profile transcript accumulation by dual RNA-sequencing comparing sporophytes grown with and without far-red light, at a time point when the reproductive structures are not yet visible.
-We assign induced MIKCc and MYB TF to known clades using phylogenetic analyses.
+We assign induced MIKC^C^ and MYB TF to known clades using phylogenetic analyses.
 In addition, we profile small RNA from the symbiosis, then identify miRNA and their targets in the fern lineage.
 Finally, we discover regulatory modules of conserved miRNA/targets involved during induction of IS in ferns.
 
@@ -125,13 +125,13 @@ The reliability of branches was analyzed by using bootstrapping of 1000 replicat
 #### Sequence logo of ITS1 intergenic regions.
 The logo from the _A. filiculoides_ ITS was generated using WebLogo3 [@Crooks2004] after extracting 516 sequences from the Azfi vs 1 genome with in silico PCR [@Slater2005] and the published reference sequence for _A. filiculoides_ [@Li2018].
 ITS1 sequences other Azolla species [@Dijkhuizen2018] were extracted by alignment to the _A. filiculoides_ reference sequence, and the Bam file obtained then used to generate the sequence logos of ITS regions from other Azolla including _A. nilotica_ (section Rhizosperma), and _A. caroliniana_1, _A.caroliniana 2_, _A. mexicana_, _A. microphylla_, _A. rubra_ (section Azolla).
-MIKCc and R2R3MYB phylogenetic trees.
-#### MIKCc and R2R3MYB phylogenetic tree.
+MIKC^C^ and R2R3MYB phylogenetic trees.
+#### MIKC^C^ and R2R3MYB phylogenetic tree.
 The automatically generated annotation of Azfi vs1 was first corrected in IGV using reads from the dual RNAsequencing experiment.
 Azolla fern sequences were then merged to those extracted from the genome browsers of each species and aligned with MAFFT L-INS-I or E-INS-I [@Katoh2019], then trimmed with trimAL [@Capella-Gutierrez2009].
 Phylogenetic inferences were computed with IQTREE [@Nguyen2015] and its internal model fitter [@Trifinopoulos2016].
-In case of the MIKCc, the phylogeny obtained with MAFFT E-INS-I was used without trimming as draft phylogeny to guide alignment optimization with PRANK (@Loytynoja2014); the resulting optimized alignment was then trimmed with trimAl and used for inference of the final phylogeny with IQTREE.
-The resulting maximum likelihood (ML) trees were visualized in iTOL [@Letunic2019] with minimum bootstrap support of 50% and sequences color‐coded based on their clade assignment (R2R3MYB) or on phylogenetic placement (MIKCc).
+In case of the MIKC^C^, the phylogeny obtained with MAFFT E-INS-I was used without trimming as draft phylogeny to guide alignment optimization with PRANK (@Loytynoja2014); the resulting optimized alignment was then trimmed with trimAl and used for inference of the final phylogeny with IQTREE.
+The resulting maximum likelihood (ML) trees were visualized in iTOL [@Letunic2019] with minimum bootstrap support of 50% and sequences color‐coded based on their clade assignment (R2R3MYB) or on phylogenetic placement (MIKC^C^).
 
 ### Reference genomes used to determine gene counts from the Dual RNA sequencing reads
 Assembly and annotation of the _A. filiculoides_ accession Galgenwaard chloroplast and nuclear genomes were from [@Li2018]; the strain used was devoid of  _N. azollae_ and described previously [@Brouwer2017c].
@@ -360,13 +360,13 @@ The larger differential accumulation of transporter transcripts may reflect more
 \midrule
 \endhead
 
-Azfi\_s0028. g024032 &   9 & 7.22 & 0.001 & 15.5.14 MADS/AGL & AGL20/SOC1, MIKCc \\
+Azfi\_s0028. g024032 &   9 & 7.22 & 0.001 & 15.5.14 MADS/AGL & AGL20/SOC1, MIKC\^C\^ \\
 Azfi\_s0113. g045874 & 155 & 6.41 & 0.002 & 15.5.2 R2R3MYB & AtMYB 32 (AT4G34990.1), R2R3MYB VIII-E* \\
 Azfi\_s0083. g038807 &  59 & 5.75 & 0 & 15.5.32 Basic Helix-Loop-Helix & EDA33, IND1, INDEHISCENT (AT4G00120.1) \\
 Azfi\_s0003. g007560 &   8 & 5.27 & 0.011 & 15.5.32 Basic Helix-Loop-Helix & FIT1 (regulates iron transport) \\
 Azfi\_s0003. g007559 &  34 & 3.49 & 0 & 15.5.32 Basic Helix-Loop-Helix & FIT1 (regulates iron transport) \\
 Azfi\_s0096. g043715 &  31 & 3.13 & 0.001 & 15.5.7 DREB subfamily A-2 of ERF/AP2 & AT5G18450.1 \\
-Azfi\_s0003. g007710 & 1778 & 2.82 & 0 & 15.5.14 MADS/AGL & AGL6, MIKCc \\
+Azfi\_s0003. g007710 & 1778 & 2.82 & 0 & 15.5.14 MADS/AGL & AGL6, MIKC\^C\^ \\
 Azfi\_s0015. g013719 & 111 & 2.57 & 0 & 15.5.2 G2-like, GARP & HHO2, NIGT1.2 \\
 Azfi\_s0112. g045798 &  66 & 2.2 & 0 & 15.5.51.1 NF-Y component NF-YA & AT5G12840.4 \\
 Azfi\_s0014. g013539 & 105 & 2.07 & 0.005 & 15.5.2 R2R3MYB & LOF2, R2R3MYB V\tnote{a} \\
@@ -382,16 +382,16 @@ Azfi\_s0182. g056462 &  10 & -4.46 & 0.049 & 15.5.3 HD-ZIP I/II & HB16 \\
   \end{tablenotes}
 \end{threeparttable}
 
-### FR alters transcripts from MIKCc and R2R3MYB TF related to those of the IF of seed plants
+### FR alters transcripts from MIKC^C^ and R2R3MYB TF related to those of the IF of seed plants
 As in the case of _N. azollae_ symbiont, the ferns largest changes in transcript accumulation under FR were in genes with unknown function, then in secondary- and lipid-metabolism (Supplementary Table S4, _A. filiculoides_ nucleus).
 We noted the large induction of the SWEET-like transporter (Azfi_s0221.g058704: 22 BM, 7.5 log2FC, 0.000 Padj), of transcripts related to cysteine-rich peptide signaling (Azfi_s0046.g030195: 42 BM, 7.1 log2FC, 0.074 Padj; Azfi_s0745.g084813: 99 BM,  4.0 log2FC, 0.000 Padj) and of transcripts from jasmonate metabolism.
 To examine the link between IF in seed plants and IS ferns, however, TF were analyzed in more depth.
-Transcripts of MIKCc and of R2R3MYB TF were strikingly induced in sporophytes under FR (Table 2).
+Transcripts of MIKC^C^ and of R2R3MYB TF were strikingly induced in sporophytes under FR (Table 2).
 
-The most induced TF transcript was annotated as SOC1-like MIKCc (Azfi_s0028.g024032: 9 BM, 7.2 log2FC, 0.001 Padj); its predicted gene model, however, lacked the K-domain.
+The most induced TF transcript was annotated as SOC1-like MIKC^C^ (Azfi_s0028.g024032: 9 BM, 7.2 log2FC, 0.001 Padj); its predicted gene model, however, lacked the K-domain.
 This problem was due to the fact that the TF encoded by Azfi_s0028.g024032 was not expressed in vegetative sporophytes used for the original annotation of the _A. filiculoides_ genome [@Brouwer2017c; @Li2018].
-Manual re-annotation of this TF using the reads obtained in this study allowed to place it precisely in phylogenetic trees of MIKCc transcription factors sampled over taxa representing different lineages of land plant evolution (Supplementary Figure S4; +@fig:fig7_MIKCc_phylogeny).
-In fact, both induced Azolla MIKCc from Table 2 were placed in the reproducibly well-supported clade (95.5% bootstrap confidence) of fern sequences radiating separately from the angiosperm and gymnosperm MIKCc clade that gave rise to AtSOC1, FLC, and the A,C,D and E-function floral homeotic genes (Supplementary Figure S4; +@fig:fig7_MIKCc_phylogeny).
+Manual re-annotation of this TF using the reads obtained in this study allowed to place it precisely in phylogenetic trees of MIKC^C^ transcription factors sampled over taxa representing different lineages of land plant evolution (Supplementary Figure S4; +@fig:fig7_MIKCc_phylogeny).
+In fact, both induced Azolla MIKC^C^ from Table 2 were placed in the reproducibly well-supported clade (95.5% bootstrap confidence) of fern sequences radiating separately from the angiosperm and gymnosperm MIKC^C^ clade that gave rise to AtSOC1, FLC, and the A,C,D and E-function floral homeotic genes (Supplementary Figure S4; +@fig:fig7_MIKCc_phylogeny).
 Induction of the _A. filiculoides_ SOC1-paralogue had been confirmed by qRT-PCR (Supplementary Figure S2G).
 In Arabidopsis, AtSOC1 is known to control the steady state of miR319 that inhibits TCP TF functions necessary for the transition to an inflorescence meristem at the shoot apex [@Lucero2017]; the link may also operate in Azolla since a TCP TF (Azfi_s0168.g054602: 661 BM, 1.11 log2FC; 0.086 Padj) was induced in ferns on TL with FR (Supplementary Table S4, _A. filiculoides_ nucleus).
 
@@ -481,7 +481,7 @@ Most studies on the transition to IF, therefore, were done with red-light gated 
 FR-dependent flowering is mediated by PHYB and D, eventually leading to SOC1 expression in the meristem [@Halliday1994; @Aukerman1997; @Lazaro2015].
 FT mutant Arabidopsis flowered earlier under incandescent light [@Martinez-Zapater1990] or in FR compared to in TL (Schluepmann et al., unpublished) suggesting that FT is not involved.
 Signaling was also reported via PHYB-regulated PIF4 protein complexes that bind the promoters of miR156/172 directly with interference from PHYA-regulated TF [@Sanchez-Retuerta2018; @Sun2018; @Xie2020].
-In the present study, the highly induced MIKCc turned out to be a paralogue of AtSOC1, and miR156/172 steady states were unaltered by the FR-induced transition to IS in _A. filiculoides_ (+@fig:fig6_7\-B; Supplementary Table S6) suggesting that signal transduction leading to IS/IF control in fern and seed plant sporophytes are not conserved.
+In the present study, the highly induced MIKC^C^ turned out to be a paralogue of AtSOC1, and miR156/172 steady states were unaltered by the FR-induced transition to IS in _A. filiculoides_ (+@fig:fig6_7\-B; Supplementary Table S6) suggesting that signal transduction leading to IS/IF control in fern and seed plant sporophytes are not conserved.
 
 FR-induced sexual reproduction in the liverwort gametophytes of _Marchantia polymorpha_ [@Chiyoda2008; @Kubota2014; @Yamaoka2018; @Tsuzuki2019].
 The mechanism in these liverworts involved the MpmiR529c/MpSPL module, which was necessary for the development of reproductive branches.
@@ -494,7 +494,7 @@ Given that gametophyte and sporophyte dominated lineages require FR to initiate 
 Consistently, in addition to FR, density of the _A. filiculoides_ canopy had an additional impact on the number of sporocarps observed per gram plant (+@fig:fig6_2\-F); this may stem from alternative cues such as volatile organic compounds released by neighbors [@Vicherova2020].
 Taken together, results presented in this work signify that, for the first time, IS of the Azolla fern symbiosis is amenable to experimental enquiry.
 
-### Phylogenetic position of MIKCc TF responsive to IS suggests that control of flowering in seed plants originates from the diploid to haploid transition in the common ancestor of seed plants and ferns
+### Phylogenetic position of MIKC^C^ TF responsive to IS suggests that control of flowering in seed plants originates from the diploid to haploid transition in the common ancestor of seed plants and ferns
 The GAMYB TF clade arose before land plants evolved, and before GA signaling [@Aya2011; @Bowman2017a; @Jiang2020a] (+@fig:fig6_8).
 Azolla GAMYB induced under FR, therefore, likely function in IS by mediating cues perceived by the sporophyte but originating from an ancestral gametophyte regulon.
 Consistently, GAMYB from the moss Physcomytrella patens were required for the formation of antheridiophores by the gametophyte [@Aya2011].
@@ -507,17 +507,17 @@ In Azolla, FR repressed miR159 and miR319, and increased AzfiGAMYB but this is d
 Extending the analysis of the GAMYB regulon to homosporous ferns with free gametophytic stages will reveal whether this regulon is important for the diploid to haploid transition, or rather with gametophyte development as predicted from lycophyte studies.
 
 Control over sexual reproduction switched from the gametophyte, in gametophyte dominated seed-free plants, to the diploid sporophyte in seed plants.
-The switch led to the evolution of regulons with MIKCc TF commanding floral meristems and flower architecture.
-The MIKCc clade of TF that specify both IF and floral organs in seed plant sporophytes, (such as AtSOC1 and AtFLC, and the A,C, D and E homeotic functions) are peculiar in that the TF radiated in each megaphyll plant lineage separately [Supplementary Figure S4; +@fig:fig7_MIKCc_phylogeny\; @Leebens-Mack2019].
+The switch led to the evolution of regulons with MIKC^C^ TF commanding floral meristems and flower architecture.
+The MIKC^C^ clade of TF that specify both IF and floral organs in seed plant sporophytes, (such as AtSOC1 and AtFLC, and the A,C, D and E homeotic functions) are peculiar in that the TF radiated in each megaphyll plant lineage separately [Supplementary Figure S4; +@fig:fig7_MIKCc_phylogeny\; @Leebens-Mack2019].
 The TF work as hetero-tetramers and may have evolved from an ancient tandem gene duplication through subsequent polyploidy events [@Zhao2017].
 Sepals are organs formed only in angiosperms.
 Consistently, the TF clade with A functions specifying sepals contains solely angiosperm sequences.
-MIKCc specifying organs that contain the reproductive structures in angiosperms (C, D and E homeotic genes), had direct homologues in gymnosperms, but not in ferns.
-Instead, ferns radiated a sister clade to the clade containing AtSOC1, and A, C, D and E MIKCc.
-This clade contained the Azolla MIKCc responsive to FR (SOC1 paralogues) and the closely related CMADS1 from Ceratopteris richardii.
+MIKC^C^ specifying organs that contain the reproductive structures in angiosperms (C, D and E homeotic genes), had direct homologues in gymnosperms, but not in ferns.
+Instead, ferns radiated a sister clade to the clade containing AtSOC1, and A, C, D and E MIKC^C^.
+This clade contained the Azolla MIKC^C^ responsive to FR (SOC1 paralogues) and the closely related CMADS1 from Ceratopteris richardii.
 In situ hybridizations and northern blot analyses reveal that CMADS1 transcripts accumulate at high levels in the sporangia initials [@Hasebe1998].
-At the base of the radiating clade of modern MIKCc that specify flower organs of the sporophytes controlling the gametophyte development within, is the LAMB1 protein expressed specifically in sporogenic structures of lycophytes [Supplementary Figure S4; +@fig:fig7_MIKCc_phylogeny\; @Leebens-Mack2019; @Svensson2000].
-Combined phylogenetic and RNAseq analyses, therefore, suggest that the MIKCc regulons controlling flowering and flower architecture likely originate from the diploid to haploid phase transition of the common ancestor to ferns and seed plants, not from regulons controlling sexual reproduction per se.
+At the base of the radiating clade of modern MIKC^C^ that specify flower organs of the sporophytes controlling the gametophyte development within, is the LAMB1 protein expressed specifically in sporogenic structures of lycophytes [Supplementary Figure S4; +@fig:fig7_MIKCc_phylogeny\; @Leebens-Mack2019; @Svensson2000].
+Combined phylogenetic and RNAseq analyses, therefore, suggest that the MIKC^C^ regulons controlling flowering and flower architecture likely originate from the diploid to haploid phase transition of the common ancestor to ferns and seed plants, not from regulons controlling sexual reproduction per se.
 
 ### Dual RNA sequencing to study coordinate development in assemblages of pro- and eukaryotic organisms
 The dual RNAseq method employed here could be applied more generally to study bacteria/plant assemblages particularly common in the seed-free plant lineages, and representing an important base of the “tangled tree” of plant lineage evolution [@Quammen].
