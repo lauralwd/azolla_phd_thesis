@@ -313,8 +313,8 @@ For each of these step, I will highlight some design choices and indicate if the
 
 ### Acquiring data
 The workflow examplifies two specific datasources.
-In the use by the _Azolla_ lab, we have employed the 1kP dataset intensivelly, however we also examplify blast searchers as an input.
-For phylogenies spanning all land plants -the Viridiplantae- we exclusively use amino acid sequences.
+In the use by the _Azolla_ lab, we have employed the 1kP dataset intensivelly, however we also examplify blast searches as an input.
+For phylogenies spanning all land plants ---the Viridiplantae--- we exclusively use amino acid sequences.
 The 1kP orthogroup extractor specifically is a great resource to acquire many related sequences of seed and seed-free plants alike.
 In the workflow, I highly the importance of selecting all sequences of a species and provide quick instructions on how to use ncbi blastp to search in specific species.
 Within the 1kP project, there is no web interface to easily select per species.
@@ -335,48 +335,50 @@ Both tools however, are single-threaded; meaning they can use only one CPU cores
 They are outperformed in most cases by more modern tools, espicially for big or gappy datasets [@Pais2014].
 The transcriptome data of the 1kP occasionally contains mis-assemblies that cause such big gaps in an MSA.
 Given the size of the datasets we work with in the _Azolla_ lab and the size of the 1kP orthogroups we have worked with, I chose to use MAFFT [@Katoh2013].
-MAFFT is a multiple sequence alligner that can make use of additional CPU cores, and can deal well with big gaps in allignments.
+MAFFT is a multiple sequence aligner that can make use of additional CPU cores, and can deal well with big gaps in alignments.
 In my limited testing, MAFFT was easier and more reliable to run than another modern candidate: T-coffee [@Notredame2000].
 
-MAFFT has multiple configurations with each their own use-fase.
+MAFFT has multiple configurations with each their own use case.
 For big datasets, the algorithm defaults to fast progressive alignment methods.
 Automatic choice of algorithm is based on the count of sequences only, and not on biological information.
 Hence I recommend to specifically choose the slower iterative refining methods based on the nature of the gene.
 Naturally, it is good practice to try multiple methods and compare the alignments by eye to see how they perform.
 The iterative methods require considerable more compute time compared to the fast methods.
 I consider this investment justified for the quality of allingment is determining for the quality of the phylogeny.
-The MAFFT manual and online tool explains my 3 favourite presents that we have used succesfully in the _Azolla_ lab.
+The MAFFT manual explains my 3 favourite presents that we have used succesfully in the _Azolla_ lab.
 
 * E-INS-i: For sequences with multiple conserved domains and long gaps.
 * L-INS-i: For sequences with one conserved domain and longs gaps.
 * G-INS-i: For sequences with global homology.
 
-When comparing alingment configurations to each other visualy, we aim to maximise for structure or patterns (+@fig:fig7_align_examples).
+When comparing alingment configurations to each other visualy, I aim to maximise for structure or patterns (+@fig:fig7_align_examples).
 The various fast or slow configurations produce overall quite similar results at first sight.
 Espicially the most conserved regions are near identical for each algorithm
 (+@fig:fig7_align_examples A, B, C).
 The regions with barely any sequence content will be filtered out in a later step, this is typically quite a proportion of an alignment with many sequences (+@fig:fig7_align_examples D).
-Hence, were 'eyeballing' those columns with substantial sequence content that are not extremely conserved and see how they align.
+Hence,  I'm searching by eye those columns with substantial sequence content that are not extremely conserved and see how they align.
 Ideally, by optimisting this step, some extra phylogenetic signal might be gained from these medium-conserved regions.
-At worst, we might erroneously align regions that are not homologous to each other.
+At worst, one might erroneously align regions that are not homologous but analogous to each other.
 
 In the example alingments in +@fig:fig7_align_examples, the 'auto' alingment was discarded first due to lack of structure in gappy regions.
 The linsi and einsi alingments were assessed as near equal in quality; we proceded with the einsi version.
 Regardless, both alignments performed insufficiently in the gap regions.
-We estimated by studying various versions of similar MIKCc alignments, that some structure may be hidden in those regions and was not uncovered by the MAFFT alingment.
+I estimate, by studying various versions of similar MIKC^C^ alignments, that some structure may be hidden in those regions and was not uncovered by the MAFFT alingment.
 
 For alignments of reasonable size, no more than a couple of hundreds of sequences, these medium-conserved gappy INDEL regions may be re-aligned with a dedicated INDEL realigner such as prank [@Loytynoja2014].
-In our experience, this can help in reducing noise from such regions and provide some extra signal to solve relations between specific groups.
-This does not work for alignments with several hundreds to thousands of sequences.
 When succesful, INDEL realignment can bring structure into medium-conserved regions for correct phylogenetic inference.
-In the _Azolla_ lab we used this proces for optimising a MIKCc MSA (+@fig:fig7_align_trimprank A & B).
-A MAFFT alignment that was trimmed for a minimum of 10% sequence content per column shows clear structure in conserved domains (+@fig:fig7_align_trimprank A).
+In my experience, this can help in reducing noise from such regions by separating non-homolgous residues into separate sections.
+This clears up the phylogenetic signal between groups that don't share indels and may improve the sginal within these groups.
+INDEL realignment does not work for alignments with several hundreds to thousands of sequences for the software cannot handle these numbers.
+
+In the _Azolla_ lab I used INDEL realignment for optimising a MIKC^C^ MSA (+@fig:fig7_align_trimprank A & B).
+A MAFFT MSA that was trimmed for a minimum of 10% sequence content per column shows clear structure in conserved domains (+@fig:fig7_align_trimprank A).
 However medium-conserved regions contain little structure and non-homologous residues may be aligned to each other.
-Realignment of INDELs via prank was supported by an ML guide tree of a more strict trim of the same alignment.
-The result was trimmed for 10% collumn content as well and shows clear structure in the medium-conserved regions.
-After realingment, the region contains multiple INDELS unqiue to specific groups of sequences(+@fig:fig7_align_trimprank B).
-Before realignment these regions seemed forced together and would have diluted the phylogenetic signal.
-All MSAs and png snapshots of the MIKCc phylogeny work of the _Azolla_ lab can be found in aGitHub repository..
+I realigned the MIKC^C^MSA with prank supported by an ML guide tree of a more strict trim of the same alignment.
+The resulting MSA was trimmed for 10% collumn content as well and shows clear structure in the medium-conserved regions previously not seen (+@fig:fig7_align_trimprank B).
+After realingment, the region between the main conserved domains contains multiple INDELS unqiue to specific groups of sequences(+@fig:fig7_align_trimprank B).
+Before realignment these regions seemed forced together and would have diluted the phylogenetic signal with false synapomorphies
+All MSAs and png snapshots of the MIKC^C^ phylogeny work of the _Azolla_ lab can be found in a GitHub repository.
 These file can be found at [github.com/lauralwd/MIKC_tree/tree/master/data/alignments_raw](https://github.com/lauralwd/MIKC_tree/tree/master/data/alignments_raw).
 
 MAFFT also has an online version that is very user friendly: [mafft.cbrc.jp/alignment/server/](https://mafft.cbrc.jp/alignment/server/) [@Katoh2019].
@@ -395,30 +397,31 @@ cat intermediate.svg | grep -v '<g transform' | grep -v 'sans-serif' | grep -v '
 Actually, just do this in the jalview format and view menu's that makes life a lot easier!
 --->
 
-![Multiple Sequence Alignments by MAFFT. A dataset of MIKCc sequences from the 1kP project was subsetted and then alinged with mafft auto (A) linsi (B) and einsi (C). Panels A, B and C depict sections of the original MSA, panel D depicts the full einsi alingment. MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graps underneath each MSA depict Conservation, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_examples.pdf){#fig:fig7_align_examples}
+![Multiple Sequence Alignments by MAFFT. A dataset of MIKC^C^ sequences from the 1kP project was subsetted and then alinged with mafft auto (A) linsi (B) and einsi (C). Panels A, B and C depict sections of the original MSA, panel D depicts the full einsi alingment. MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graps underneath each MSA depict Conservation, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_examples.pdf){#fig:fig7_align_examples}
 
 ### Trimming
 Big MSAs, especially those based on transcriptome data, are not optimal for phylogeny inference.
 Phylogeny inference is driven by synapomorphies, shared diferences between a majority of sequences.
 The inference is hampered whenever a major fraction of sequences contains no content at all (gaps), or when a conserved region is missing from a particular sequence.
-Therefore, we trim the MSA to remove data that is not aligned well, and may disrupt the evolutionary signal we attempt to uncover.
+Therefore, I trim the MSA to remove data that is not aligned well, and may disrupt the evolutionary signal we attempt to uncover.
 
-The simplest and perhaps most effective trimming method is removing columns -removing shared amino acid residues- in the MSA that contain little sequence content.
-These regions often represent INDELs in specific taxa or misassemblies.
-Regardless the INDELs contain little to no phylogenetic informatice information.
+The simplest and perhaps most effective trimming method is removing gaps by removing columns ---removing shared amino acid residues--- in the MSA that contain no content in the majority of sequences.
 Gap regions are easily identified in a visualised MSA as a blocky pattern (+@fig:fig7_align_examples)
-Collumn filtering is easy and can be done in visually in tools like jalview, or even directly when aligning in the online version of MAFFT [@Katoh2019].
+These regions often represent insertions or misassemblies in specific taxa.
+Regardless, gaps contain little to no phylogenetic informatice information.
+Collumn filtering is easy and can be done visually in tools like jalview, or even directly when aligning in the online version of MAFFT [@Katoh2019].
 
-A second filter concerns that of rows, of sequences in the MSA, that allign poorly to the bulk of sequences.
-When a sequence contains many fragments not shared by the majority of sequences, this creates gaps in the MSA that are filtered out in the column filter.
-Alternativelly, a sequence may mis substantial parts of conserved domains are absent.
+A second filter concerns that of rows, of sequences in the MSA, that align poorly to the bulk of sequences.
+When a sequence contains insertions fragments not shared by the majority of sequences these are easily filtered out in the column filter.
+Alternativelly, a sequence may mis substantial parts of conserved domains.
 Such a fragmented sequence misses important synapomorphy information to correctly place it in a phylogeny.
-A sequence fragment can be seen in an MSA visualisation as light horizontal banding (+@fig:fig7_align_examples; +@fig: fig7_align_trimprank C).
+A sequence fragment can be seen in an MSA visualisation as light horizontal banding (+@fig:fig7_align_examples; +@fig:fig7_align_trimprank C).
 Regardless the reason, it may be wise to filter these sequences out conservatively.
 When removing entire sequences from a dataset, one risks to also remove essential information with which speciation and duplication nodes are distinghuised.
-This is another reason we often make relativelly large trees in the _Azolla_ lab when we maken use of the 1kP data, by inlcuding more species we hope to add a certain robustness to this risk.
+This is another reason I often make relativelly large trees in the _Azolla_ lab when we maken use of the 1kP data.
+By inlcuding more species I hope to add a certain robustness to this risk.
 
-![Optimisation of MAFFT MSAs. An overview of a MAFFT MSA of the MIKCc ortogroup subset trimmed for column content (A) versus an MAFFT MSA of the same data that was realigned with prank and then trimmed for column content. In the bottom two pannels two MSA overviews are displayed of a subset of 2OGD enzyme sequences from transcriptome data. One alignment was made with MAFFT and then trimmed for column content only (C) and the other was trimmed for both column and sequence content (D). MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in panels C & D. The four bar graps underneath panels A & B depict Conservation, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_trimprank.pdf){#fig:fig7_align_trimprank}
+![Optimisation of MAFFT MSAs. The top two panels contain overviews of a MAFFT MSA of the MIKC^C^ ortogroup subset trimmed for column content (A) versus an MAFFT MSA of the same data that was realigned with prank and then trimmed for column content. In the bottom two pannels two MSA overviews are displayed of a subset of 2OGD enzyme sequences from transcriptome data. One alignment was made with MAFFT and then trimmed for column content only (C) and the other was trimmed for both column and sequence content (D). MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in panels C & D. The four bar graps underneath panels A & B depict Conservation, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_trimprank.pdf){#fig:fig7_align_trimprank}
 
 The tool of choice to tackle both filters at once, is trimAL [@Capella-Gutierrez2009].
 TrimAL allows to set a gap threshold, as well as parameters to filter out sequences.
@@ -427,8 +430,8 @@ As a gap threshold we typically start with a value of 40% and explore further fr
 Filtering sequences is less straight forward.
 This works by setting a threshold for determining conserved amino acid residues first.
 The second threshold determines how much of these conserved sites must be present in any sequence of the dataset.
-When done well, the major conserved regions are present in the vast majority of sequences and the horizontal bandig is absent (+fig:fig7_align_trimprank C vs. +fig:fig7_align_trimprank D).
-In the section on 2 OGD phylogeny, we demonstrate a visual exploration to sumarise the behaviour of these parameters for the alignments shown in pannels C & D of +fig:fig7_align_trimprank.
+When done well, the major conserved regions are present in the vast majority of sequences and the horizontal bandig is absent (+@fig:fig7_align_trimprank C vs. +@fig:fig7_align_trimprank D).
+In the section on 2 OGD phylogeny, we demonstrate a visual exploration to sumarise the behaviour of these parameters for the alignments shown in pannels C & D of +@fig:fig7_align_trimprank.
 
 To our knowledge there are no online tools that achieve a similar finesse of filtering MSAs as trimAL does.
 When restricted to online tools, the column occupancy filter in the online version of MAFFT is an obvious and convenient choice.
@@ -438,7 +441,7 @@ Full phylogeny inference and non-parametric bootstrapping can take a considerabl
 Therefore, it is wise to explore the likely outcome tree with a fast tree inference program that does not perform bootstrapping.
 This allows for a preliminary view into the final result and observe potential mistakes, remove or add sequences of interest.
 Conveniently, the calculation time for a final tree may then be used to test final visualisation.
-The field standard towards fast preliminary tree inference could be considered to be be FastTree.
+The field standard towards fast preliminary tree inference is considered to be FastTree.
 In our workflow however, we use IQTree's 'fast' setting for it produces an output file structure nearly identical to the final tree inference.
 The FastTree software is included in the conda environment and can be used as an alternative.
 
@@ -447,14 +450,14 @@ However, a regular tree inference without bootstrapping would be a reasonably fa
 Regular tree inference is described in the next section.
 
 ### Full phylogeny inference
-In this workflow we use IQTree for modelfitting, phylogenetic tree inference, and calculating bootstrap support.
+For phylogeny inference, we supply a ML option only for we see very few good arguments to resort to NJ or MP methods instead.
+In this workflow we use IQTree for modelfitting, phylogenetic tree inference, and calculating bootstrap support [@Nguyen2015; @Kalyaanamoorthy2017].
 These are three distinct steps, especially the first often is not included in phylogeny software.
 The details of fitting a model of evolution to an alignment are beyong the scope of this manuscript.
-The basics include fitting a substitution matrix of amino acid exchange rates of nucleotide exchange rates to those observed in an alignment.
-Additionally, more advanced paramters are assessed such as heterogeneity of the speed in which traits evolve over time amongst the entries in the MSA: Rate heterogeneity.
-For the audience of this workflow, we recommend to use IQtree's build in extended model fitter by using the option `-m MFP` short for Model Finder and Phylogeny.
+The basics include fitting a substitution matrix of amino acid exchange rates of nucleotide exchange rates to those observed in an alignment [@Sullivan2005; @Felsenstein2004].
+Additionally, more advanced paramters are assessed such as heterogeneity of the speed in which MSA positions evolve over time amongst the entries in the MSA: Rate heterogeneity.
+For the audience of this workflow, we recommend to use IQtree's build in extended model fitter by using the option `-m MFP` --- short for Model Finder and Phylogeny.
 
-For phylogeny inference, we supply a ML option only for we see very few good arguments to resort to NJ or MP methods instead.
 A major propperty of interpreting phylogenies, is support values.
 These support values, often called boostrap values, can be determined in several ways.
 Next we'll discuss three support estimation methods.
@@ -466,7 +469,7 @@ Thirdly, we'll discuss faster parametric options such as IQTree's UltraFastBoots
 These methods behave non-linearly and are harder to interpret but find a use case in estimating support of very big trees or of preliminary small trees.
 
 Support estimation by bootstrapping is an important step in assessing reliability of any phylogeny.
-After the main phylogeny is established, one can choose to bootstrap it for $b$ times, often $b=100$.
+After the main phylogeny is established, one can choose to bootstrap it for $b$ times, typically $b=100$.
 Bootstrapping in phylogeny is a process in which a fraction MSA columns is removed and replaced by a random subset of the remaining fraction.
 The phylogeny inference is then repeated.
 After repeating this proces for $b$ times, the nodes in the final tree get a support score based on the similarity of these nodes in the bootstrapped repetitions.
@@ -480,36 +483,36 @@ This method is easily interpretable, and standardised in the field.
 Felsensteins BootStrap (FBS) does have drawbacks, especially for bigger trees.
 In the _Azolla_ lab we experienced that nodes deep in a big phylogeny, those nodes that typically represent ancestral states, receive very low support values.
 Yet, when repeating the tree inferences with modified datasets, these nodes appeared highly robust.
-If a single sequence its placement is highly variable -a rogue taxon- it will have huge impact on the support values of deep nodes despite the placement of the majority of taxa being highly reliable.
+If a single sequence its placement is highly variable ---a rogue taxon--- it will have huge impact on the support values of deep nodes despite the placement of the majority of taxa being highly reliable.
 We observe that for big trees, FBS is often uninformative for deeper nodes.
 
 TransferBootStraps (TBS) present an alternative support criterion that was designed to circumvent this exact issue found in bigger phylogenies [@Lemoine2018].
 When calculating TBS for any node, it takes a non-binary approach.
 A node's bootstrap isn't regarded as either good $i=1$ or false $i=0$ as in FBS.
-Instead, a continous citerion is used: distance metric $\phi$.
-It is based on the minimum amount of leaves that must be transfered from one side of a node to the other for a bootstrap tree to represent the main tree.
+Instead, a continous metric is used: distance criterion $\phi$.
+This criterion is based on the minimum amount of leaves that must be _transfered_ from one side of a node to the other for a bootstrap tree to represent the main tree.
 Finally this metric is corrected for any proportion difference $p$ between the left and right side of that node.
 The method is further detailed in @Lemoine2018.
 
 $(TBS= 1- \frac{\phi}{p-1})$
 
-We have used TBS with success and in the _Azolla_ lab and recommend its usage in big phylogenies; those of several hundreds of sequences.
+I have used TBS with success in big phylogenies and recommend its usage for large datasets; those of several hundreds of sequences.
 TBS values of shallow nodes typically represent those of FBS, and TBS values of deep nodes typically read as if they are shallow nodes.
-We found that TBS assigns more meaningful support values to deep nodes.
+In the _Azolla_ lab we found that TBS assigns more meaningful support values to deep nodes.
 The method is however not wide spread in the field, and its usage should be clearly stated for correct interpretation of phylogny support values.
 
 Both FBS and TBS are slow methods for they require to redo a full phylogenetic inference $b$ times.
 Modern phylogeny inference tools often have faster parametric methods that calculate support.
-IQTree has such a method called UltraFastBootstrap (UFB) [@Hoang2018], which the authors recommend to pair with the Shimodaira-Hasegawa aproximate Likelihood Ratio Test (SH-aLRT) [@Guindon2010].
-the IQTree manual suggests to trust any node if it has over 95% UFB and over 80% SH-aLRT confidence.
+IQTree has such a method called UltraFastBootstrap (UFB) [@Hoang2018], which the authors recommend to pair with the Shimodaira-Hasegawa approximate Likelihood Ratio Test (SH-aLRT) [@Guindon2010].
+The IQTree manual suggests to trust any node if it has over 95% UFB and over 80% SH-aLRT confidence.
 
-We use UFB for preliminary trees, or those that are too big to produce FBS or TBS support within weeks of time.
+I use UFB for preliminary trees, or those that are too big to produce FBS or TBS support within weeks of time.
 Confusingly, the values that UFB produces are not to be compared with those of TBS and FBS.
 Per the IQTree manual, a UFB support of 95% corresponds to a 95% probability that this node is a "true node".
 One might be inclined to think a 90% UFB support is also quite believable.
 In our use however, we have observed 90% UFB nodes that became 20%FBS nodes once non-parametric bootstrapping was done.
 
-Support estimation comes in phylogeny comes in many shapes and forms with their own pro's and cons.
+Support estimation in phylogeny comes in many shapes and forms with each their own pro's and cons.
 We recommend to use non-parametric methods such as FBS and TBS in final results for ease of interpretation and reliability.
 We resort to UFB and SH-aLRT for very big phylogenies only.
 Regardless the method, we emphasise the importance of clearly indicating the support estimation method used with any phylogeny.
@@ -520,14 +523,22 @@ Additionally, all these steps can also be done in PHYML, an alternative tool wit
 
 ### Visualisation
 
-For visualisation of the phylogeny, we recommend working in iToL [@Letunic2019] [itol.embl.de](https://itol.embl.de/).
+For visualisation of the phylogeny, I recommend working in iToL [@Letunic2019] [itol.embl.de](https://itol.embl.de/).
 Like the JuPyter notebook, iToL works in an internet browser.
-Unfortunately the free version of iToL does not allow to save the layout of a phylogeny anymore, but a paid version allows you to do so.
-When uploading a treefile into iToL, we take several steps to turn it into a final figure.
-First is rooting the tree, when working with land-plants, we typically root an algae sequences.
+Unfortunately, the free version of iToL does not allow to save the layout of a phylogeny anymore, but a paid version allows you to do so.
+
+When uploading a treefile into iToL, I take several steps to turn it into a final figure.
+First is rooting the tree, when working with land-plants, I typically root on algae sequences.
 Second is colouring the major clades as in +@tbl:tbl7_1kP_sample_counts: clade, and adjusting any text size and colour.
-We recommend doing so by using annotation files rather than doing it manually.
+I recommend doing so by using annotation files rather than doing it manually.
 These annotation files can also be shared in a Git repository for reproducibility.
+For refined visualisation, one can download the tree as a `.svg` file and edit it further in InkScape.
+InkScape is a free and open source vector image editor which houses all tools required for making high quality publication ready figures. Nearly all figures in this thesis were made with the software.
+
+In interpreting the phylogeny, I critically interpret correct speciation patterns.
+The order in which the 6 main land plant clades have evolved is not debated, and a phylogeny should not contain major violations of this order.
+Next, ortholgous groups can be infered and annotated according to the guide sequences added earlier.
+One may then see if any sequence of interest is reliably placed within such an orthologous clade.
 Optionally, more data can be added onto the tree, such as the MSA, RNA-seq data, certain groupings, protein domains, etcetera.
 We discuss these options further in the Usecases section.
 
