@@ -20,18 +20,20 @@ Henriette Schluepmann^1^
 
 <!--
 General todo stuff:
-Licence on GitHub
-Collaboration statement on GitHub
 Edit intro, workflow, Usecases
-Make Orthology figure
-Make workflow figures
-Run orthofinder anew on 1kP data...
-Remake Alignment example figure?
+alignment vs MSA
 Write discussion
 Spellcheck
+Licence on GitHub
+Collaboration statement on GitHub
+Make Orthology figure
+Make workflow figures
+Remake Alignment example figure?
 Rens
+Erbil
 Henriette
 Sjef
+Run orthofinder anew on 1kP data...
 -->
 
 ## Abstract
