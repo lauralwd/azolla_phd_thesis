@@ -230,6 +230,18 @@ To somewhat mitigate this shortcomming, we chose to include a substantial amount
 I argue that if one species does not express both paralogs simultaneously, then maybe another will.
 To make our trees and the orthology and paralogy patterns easier interpretable, I colour code six main clades of the Viridiplantae in my trees.
 These are the Algae, Bryophytes, Lycophytes, Monilophytes, Gymnosperms and Angiosperms (+@tbl:tbl7_1kP_sample_counts; +@tbl:tbl7_clade_colours).
+
+| Clade        | Colour code |
+| ------------ | -------- |
+| Algae        | 7635a5ff |
+| Bryophytes   | ec7505ff |
+| Lycophytes   | 00b4f1ff |
+| Monilophytes | 00b456ff |
+| Gymnosperms  | ff0000ff |
+| Angiosperms  | 3a58d6ff |
+
+Table: Colour coding used by the _Azolla_ lab for easing interpretation of land-plant phylogenies. {#tbl:tbl7_clade_colours}
+
 This vast dataset of plant coding sequences, or any set of sequences, must still be searched for homologous sequences.
 One would typically use blast for these homologs in either the 1kP data, or in NCBI blast, or both.
 However, the work done by the 1kP authors already includes big orthogroups made with Orthofinder [@Emms2019].
