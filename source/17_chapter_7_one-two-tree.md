@@ -528,10 +528,12 @@ Like the JuPyter notebook, iToL works in an internet browser.
 Unfortunately, the free version of iToL does not allow to save the layout of a phylogeny anymore, but a paid version allows you to do so.
 
 When uploading a treefile into iToL, I take several steps to turn it into a final figure.
-First is rooting the tree, when working with land-plants, I typically root on algae sequences.
-Second is colouring the major clades as in +@tbl:tbl7_1kP_sample_counts: clade, and adjusting any text size and colour.
+First is rooting the tree.
+When working with land-plants, I typically root on algae sequences.
+Second is colouring the major clades as in +@tbl:tbl7_clade_colours, and adjusting any text size and colour.
 I recommend doing so by using annotation files rather than doing it manually.
 These annotation files can also be shared in a Git repository for reproducibility.
+For an example find the annotation file of the annotation file for +@fig:fig7_2OGD_phylogeny_small online at [github.com/lauralwd/2OGD_phylogeny/blob/master/analyses/v2g5_JOX-ANS-FLS-subset_iTol-branch-labels_manual.txt](https://github.com/lauralwd/2OGD_phylogeny/blob/master/analyses/v2g5_JOX-ANS-FLS-subset_iTol-branch-labels_manual.txt).
 For refined visualisation, one can download the tree as a `.svg` file and edit it further in InkScape.
 InkScape is a free and open source vector image editor which houses all tools required for making high quality publication ready figures. Nearly all figures in this thesis were made with the software.
 
@@ -545,56 +547,40 @@ We discuss these options further in the Usecases section.
 ## Usecases
 In this section, I discuss several use cases of this phylogeny workflow in the _Azolla_ lab.
 Firstly, that of several leucoanthocyanidin reductase (LAR) homologs found in _Azolla_.
-This was actually the inspiration for creating this workflow.
-Second a 2-OGD phylogeny inference with several _Azolla_ sequences added.
+This project was actually the inspiration for creating this workflow.
+Second, a MIKC^C^ phylogeny.
+With this phylogeny of MIKC^C^ transcription factors we attempted to elucidate the evolution of fern sexual reproduction in context of all of land plants.
+This tree is part of the supplemental information of chapter \ref{it_takes_two}.
+Thirdly, a 2-OGD phylogeny inference with several _Azolla_ sequences added.
 The 2-OGD family is one of the biggest enzyme families in land plants.
 We wanted to study how ferns have developed differently from land plants, and infer the functionality of a specific fern 2-OGD gene that was differentially expressed in an RNA-seq experiment.
-Thirdly, a MIKC^C^ phylogeny.
-With this phylogeny of MIKC^C^ transcription factors we attempted to elucidate the evolution of fern sexual reproduction in context of all of land plants.
 
 ### LAR
-The _Azolla_ genome contains several LAR like enzymes that may all place a role in anthocyan metabolism.
-In context of _Azolla_ biology, it is an interesting enzyme for it is a key enzyme in the production of both anthocyanodins, as well as epicatechin; a notorious digestion inhibiting polyphenol.
 The LAR enzyme is member of the PIP family of enzymes.
+In context of _Azolla_ biology, it is an interesting enzyme for it is a key enzyme in the production of both anthocyanodins, as well as epicatechin; a notorious digestion inhibiting polyphenol.
+The _Azolla_ genome contains several LAR like enzymes (homologs) that may all play a role in anthocyan metabolism.
 In this case-study, we use phylogeny to infer the relation of all _Azolla_ LAR homologs in the perspective of the entire PIP family of enzymes in land plants.
+Elucidating the function of these homologs is a typical example of an orthology research question.
 
 We used the 1kP orthogroup extractor [@Leebens-Mack2019] to acquire a PIP orthogroup, subsetted this to get a reasonable amount of all major land pland clades, and added characterised and PIP enzymes and _Azolla_ LAR homologs.
 The data was aligned with MAFFT L-INSI-i and trimmed to reveal one major block of conserved residiues.
 The phylogeny was infered with IQTree including automated modelfitting and UFB+SH-aLRT.
 Several optimisation rounds followed next, adapting the entries of the original dataset and testing reproducibility of the toplogy of important nodes.
-The final tree was annotated in iToL, showing only sequences of interest and colouring clades according to major land plant groups.
+The final tree was annotated in iToL, showing only sequence names of interest and colouring clades according to major land plant groups.
 This tree is publihsed in @Gungor2021 and the full analysis is openly available on Github (github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020](https://github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020)) and archived in Zenodo ([DOI:10.5281/zenodo.3959056](https://doi.org/10.5281/zenodo.3959056)).
 
-![Phylogeny of LAR and other PIP-family enzymes across land plant lineages. Protein sequences were retrieved as a single orthogroup containing the Vitis vinifera LAR from the 1KP orthogroup database2 [@Leebens-Mack2019], sub-sampled, and supplemented with guide and A. filiculoides LAR-like sequences. The 785 sequences were aligned with MAFFT-linsi [@Katoh2013], then trimmed using trimAL [@Capella-Gutierrez2009] and, using IQtree [@Nguyen2015], the phylogenetic tree computed with the resulting 305 parsimony informative sites. The best-fit substitution model was LG+R7 and bootstrap support was determined via SH-aLRT [@Guindon2010]. The tree was annotated in iTOL; highlighting characterized enzymes and sequences of particular interest [@Letunic2019]. Nodes with bootstrap support equal or greater than 80% SH-aLRT are indicated by circles. EGS and IGS clustered in two groups: IGS/EGS-I and IGS/EGS-II. PLR, pinoresinol-lariciresinol reductase; IFR, isoflavone reductase; PCBER, phenylcoumaran benzylic ether reductase; EGS, eugenol synthase; IGS, isoeugenol synthase; LAR, leucoanthocyanidin reductase; WLAR, fern specific LAR-like. Full phylogeny is available at [github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020](https://github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020)](source/figures/fig7_LAR_phylogeny.pdf){#fig:fig7_LAR_phylogeny}
+![Phylogeny of LAR and other PIP-family enzymes across land plant lineages. Protein sequences were retrieved as a single orthogroup containing the _Vitis vinifera_ LAR from the 1KP orthogroup database2 [@Leebens-Mack2019], sub-sampled, and supplemented with guide- and _A. filiculoides_ LAR-like sequences. The 785 sequences were aligned with MAFFT-linsi [@Katoh2013], then trimmed using trimAL [@Capella-Gutierrez2009] and, using IQtree [@Nguyen2015], the phylogenetic tree computed with the resulting 305 parsimony informative sites. The best-fit substitution model was LG+R7 and bootstrap support was determined via SH-aLRT [@Guindon2010]. The tree was annotated in iTOL; highlighting characterized enzymes and sequences of particular interest [@Letunic2019]. Nodes with bootstrap support equal or greater than 80% SH-aLRT are indicated by circles. EGS and IGS clustered in two groups: IGS/EGS-I and IGS/EGS-II. PLR, pinoresinol-lariciresinol reductase; IFR, isoflavone reductase; PCBER, phenylcoumaran benzylic ether reductase; EGS, eugenol synthase; IGS, isoeugenol synthase; LAR, leucoanthocyanidin reductase; WLAR, fern specific LAR-like. Full phylogeny is available at [github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020](https://github.com/lauralwd/LAR_phylogeny_gungor-et-al-2020)](source/figures/fig7_LAR_phylogeny.pdf){#fig:fig7_LAR_phylogeny}
 
 The LAR phylogeny shows that the LAR enzyme is a fern invention also present in seedplants (+@fig:fig7_LAR_phylogeny).
 It is distinct from other groups of PIP enzymes such as PLR, IFR and PCBER.
 LAR-like enzymes have radiated in ferns specifically, but not in seedplants.
 These clades were termed WannabeLARs (WLAR) in @Gungor2021.
-Their function was verified to be different from that of LAR, despite their homology.
+Any phylogeny is ultimately only an hypothesis of evolution.
+The function of LAR homologs was verified via alternate methods.
+WLARs differed substantially in their active sites, as indicated by structural modeling.
+More importantly, _A. filiculoides_ LAR was confirmed to have LAR activity by an enzyme activity assay where WLARs did not show this activity.
 The exact function of WLARs remains unknown, none of these sequences was ever categorised separately before.
 Ostensibly, ferns have radiated their own set of unique PIP enzymes, as seedplants have uniquely radiated IFR and PCBER enzymes.
-
-### 2-OGD
-In another inquiry into _Azolla_ secondary metabolism, a 2-oxoglutarate dependent dioxygenase (2-OGD) enzyme was significantly differentially expressed in an RNA-seq experiment.  
-Again an orthogroup of 2-OGD genes was obtained from the 1kP, subsetted and ammended with sequences with their functions characterised.
-The differentially expressed gene and other 2-OGD genes from _A. filiculoides_ genomes version 1 and version 2 were added as well.
-Sequences were aligned with MAFFT L-INS-i, and trimmed with trimAL for columna and sequence content (+@fig:fig7_align_trimprank C & D).
-A first IQTree phylogeny with UFBootstrap was used to find the main clades in which the sequence of interest was placed (data not shown).
-These clades, and an outgroup were extracted int a second subset from the former subset.
-Then, a non-parametric phylogeny was infered with TBS support.
-The tree was coloured per clade (+@tbl:tbl7_1kP_sample_counts) and irrelevant clades were collapsed in iToL (+@fig:fig7_2OGD_phylogeny_small).
-Afterwards, the original subset was also used for TBS (+@fig:fig7_2OGD_phylogeny).
-This tree is submitted for publication @Gungor_cornicinine and the full analysis is openly available on Github ([github.com/lauralwd/2OGD_phylogeny](https://github.com/lauralwd/2OGD_phylogeny)).
-
-![Phylogeny of 2-OGD genes encoding FLS, ANS and JOX across land plant lineages. 2-OGD protein sequences were obtained from the 1kp orthogroup database [@Leebens-Mack2019], sub-sampled and supplemented with guide- and A. filiculoides 2-OGD sequences. The former were used for clade annotation, the latter are indicated in green for _A. filiculoides_ genome version 1 [@Li2018] and version 2 (Afi_v2) [@Gungor_cornicinine]). An initial phylogeny (+@fig: fig7_2OGD_phylogeny) was computed to place _A. filiculoides_ genes in the broad 2-OGD phylogeny. From this broad phylogeny, FLS, ANS, JOX and outgroup sequences were selected to compute a more accurate tree. Sequences were aligned with MAFFT-linsi [@Katoh2013], and then trimmed using trimAL [@Capella-Gutierrez2009]. The phylogeny was computed with IQtree [@Nguyen2015] with 200 non-parametric bootstraps and transfer-bootstrap values were calculated with booster [@Lemoine2018]. The tree was annotated in iTOL and Inkscape [@Letunic2019].  ](source/figures/fig7_2OGD_phylogeny_small.pdf){#fig:fig7_2OGD_phylogeny_small width=50%}
-
-The 2-OGD subset phylogeny confirms that the sequences of interest are most related to Jasmonate Oxidase (JOX) in seedplants.
-It seems that in ferns JOX have radiated as they have in seed plants, a case of many-to-many orthology.
-Despite this within-clade radiation, all seedplant paralogs with known function JOX1,2,3,4 accept only Jasmonate as a substrate.
-The aminoacid residues in the active side that bind jasmonate are conserved in both seedplant and fern clades.
-Therefore we conclude these sequences are most likely _A. filiculoides_ JOX1 and JOX2.
-The specific site of expression hints that Jasmonate signaling may be important in _Azolla_ symbiosis communication.
 
 ### MIKc
 By definition, ferns and seedplants have different methods of sexual reproduction.
@@ -602,19 +588,44 @@ In chapter \ref{it_takes_two} we take interest in finding the fern transcription
 We use RNAseq to find these transcriptionfactors and then place these in a phylogeny with seedplant ABCDE genes responsible for flower organ identity.
 The exact methods are detailed in chapter \ref{it_takes_two}.
 I highlight it here for our use of prank INDEL realignment (as demonstrated in +@fig:fig7_align_trimprank A vs. B) for this was a major step in acquiring a well supported phylogeny (+@fig:fig7_MIKCc_phylogeny).
+
 In this particular example, it is hard to extrapolate functional annotation from one seedplant clade to a fern clade.
 The fern clades with sequences of interest often contain many gene duplications, and not all fern clades contain sequences of the same species.
 Many genes may be missing from the 1kP dataset due to it being transcriptome based.
-Genes involved in the transition to sexual reproduction are after all not ubiquitously expressed, nor abundantly expressed when considering bulk tissue RNA extractions.
+Genes involved in the transition to sexual reproduction are after all not ubiquitously expressed nor abundantly expressed when considering bulk tissue RNA extractions.
 More genome based data of seed-free plants and functional characterisation of transcription factors may allow us to better interpret a phylogeny like this one.
 
 ![Azolla MIKC^C^ phylogenetic analysis and response to FR. The Azolla MIKCC gene model encoded by Azfi_s0028.g024032 was annotated manually. Sequences extracted from the genome browsers of each species were aligned with MAFFT E-INS-i [@Katoh2013], then trimmed with trimAl [@Capella-Gutierrez2009]. First a draft phylogeny was computed with IQTREE [@Nguyen2015], then this draft phylogeny served as a guide for alignment optimization with PRANK [@Loytynoja2014] of the untrimmed original MAFFT E-INS-i alignment. This optimized alignment was then trimmed again with trimAl and used for inference of the final phylogeny with IQTREE. Bootstrap values are transfer bootstraps calculated with 1000 nonparametric bootstrap trees [@Lemoine2018]. Transfer bootstrap assays similarity of nodes rather than binary identical or nonidentical nodes in bootstrap trees: it therefore tends to be more informative for bigger trees. All code is deposited on github.com/lauralwd/MIKC_tree. The tree was rooted on a group of algal sequences. Nodes with bootstrap support equal or greater than 50% are indicated. Branches are color coded as per their plant lineage.](source/figures/fig7_MIKCc_phylogeny.pdf){#fig:fig7_MIKCc_phylogeny}
+
+
+
+### 2-OGD
+In another inquiry into _Azolla_ secondary metabolism, we examined a 2-oxoglutarate dependent dioxygenase (2-OGD) enzymes evolution.
+This 2-OGD gene was significantly differentially expressed in an RNA-seq experiment [@Gungor_cornicinine].
+Again an orthogroup of 2-OGD genes was obtained from the 1kP, subsetted and ammended with sequences with their functions characterised.
+The differentially expressed gene and other 2-OGD genes from _A. filiculoides_ genomes version 1 and version 2 were added as well.
+Sequences were aligned with MAFFT L-INS-i, and trimmed with trimAL for columns and sequence content (+@fig:fig7_align_trimprank C & D).
+A first IQTree phylogeny with UFBootstrap was used to find the main clades in which the sequence of interest was placed (data not shown).
+These clades, and an outgroup were extracted into a second subset from the former subset.
+Then, a non-parametric phylogeny was infered with TBS support.
+The tree was coloured per clade (+@tbl:tbl7_1kP_sample_counts) and irrelevant clades were collapsed in iToL (+@fig:fig7_2OGD_phylogeny_small).
+Afterwards, the original subset was also used for TBS (+@fig:fig7_2OGD_phylogeny).
+This tree is submitted for publication @Gungor_cornicinine and the full analysis is openly available on Github ([github.com/lauralwd/2OGD_phylogeny](https://github.com/lauralwd/2OGD_phylogeny)).
+
+![Phylogeny of 2-OGD genes encoding FLS, ANS and JOX across land plant lineages. 2-OGD protein sequences were obtained from the 1kp orthogroup database [@Leebens-Mack2019], sub-sampled and supplemented with guide- and _A. filiculoides_ 2-OGD sequences. The former were used for clade annotation, the latter are indicated in green for _A. filiculoides_ genome version 1 [@Li2018] and version 2 (Afi_v2) [@Gungor_cornicinine]). An initial phylogeny (+@fig:fig7_2OGD_phylogeny) was computed to place _A. filiculoides_ genes in the broad 2-OGD phylogeny. From this broad phylogeny, FLS, ANS, JOX and outgroup sequences were selected to compute a more accurate tree. Sequences were aligned with MAFFT-linsi [@Katoh2013], and then trimmed using trimAL [@Capella-Gutierrez2009]. The phylogeny was computed with IQtree [@Nguyen2015] with 200 non-parametric bootstraps and transfer-bootstrap values were calculated with booster [@Lemoine2018]. The tree was annotated in iTOL and Inkscape [@Letunic2019].  ](source/figures/fig7_2OGD_phylogeny_small.pdf){#fig:fig7_2OGD_phylogeny_small width=50%}
+
+The 2-OGD subset phylogeny confirms that the sequences of interest are most related to Jasmonate Oxidase (JOX) in seedplants.
+It seems that in ferns JOX have radiated as they have in seed plants; a case of many-to-many orthology.
+Despite this within-clade radiation, all seedplant paralogs with known function JOX1,2,3,4 accept only Jasmonate as a substrate.
+The aminoacid residues in the active side that bind jasmonate are conserved in both seedplant and fern clades.
+Therefore we conclude these sequences are most likely _A. filiculoides_ JOX1 and JOX2.
+The specific site of expression hints that Jasmonate signaling may be important in _Azolla_ symbiosis communication.
 
 ## discussion
 
 orthofinder2
 
-gene function inference in non-model organisms, crops 
+gene function inference in non-model organisms, crops
 
 model assumption testing: https://academic.oup.com/gbe/article/11/12/3341/5571717?login=true
 
