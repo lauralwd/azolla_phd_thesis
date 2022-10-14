@@ -4,7 +4,6 @@
 
 ## left-over notes from the hidden treasures chapter:
 
-```
 I have said nothing of membrane vesicles from both cyano's and bact observed by
 at least @Zheng2009
 
@@ -60,9 +59,8 @@ _N. azollae_ can't be cultered.
 
 ITSNTS versus "simple altruism"
 
-```
 
-```
+\newpage
 Microbiology and ecology need, in the end, a reductionist approach to piece
 appart the nuts and bolts co-existance.
 We need at least a way to manipulate the microbial community of a plant organ,
@@ -148,7 +146,7 @@ Selection for reduced genome size lower in extracellular symbionts than
  intracellular ones?
 
 
-```
+\newpage
 #### CSP fragment
 Many plant species are known to interact with bacteria systematically and even transmit these systematically [@Frank2018; @Pinto-Carbo2018], but the mechanisms underpinning symbiosis are often unclear.
 The best known mechanism is termed the common symbiosis pathway, variations of this common pathway facilitate both Rhizobiales-legume and mycohorriza symbiosis [@Genre2016].
@@ -159,13 +157,13 @@ Mining the genomes of symbiotic bacteria already hidden away in host sequencing 
 `root nodule bacteria diversity; disporiensis diversity`
 
 
-```
+
 In microbial ecology, natural low diversity, low complexity populations are rare.
 This is such an example, perhaps many plant-microbe associations are.
 The plant genome does add complexity, but other than that ...
 [@Rillig2019]
-```
 
+\newpage
 
 ### Bacteria associated with plants as a modular subset of the hologenome
 Microbial genomes may encode and convey traits to a host when in symbiosis.
@@ -186,8 +184,12 @@ Alternatively, symbionts may need to reinnoculate their host annew every generat
 ...
 No particular mode of transmission of genetic material is more or less relevant to be included in a hologenome, instead the holobiont term must be a usefull concept in research applied appropriately.
 
-```
 Bad jokes
 * payed fern genomic services on onlyferns.com
 * Unlike the Azolla-nostoc symbioses, reading the full extent of this thesis is facultative.
-```
+
+\newpage
+\null
+\newpage
+\null
+\newpage

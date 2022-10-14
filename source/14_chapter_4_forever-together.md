@@ -610,7 +610,6 @@ Likely to be skipped:
 
 `Study cyano's and plants to fix nitrogen, doing it chemically is hard but progress is made: https://pubs.acs.org/doi/10.1021/acs.chemrev.9b00556`
 
-
 ### coevolution
 _A. caroliniana_ placement matches with figure 6.3 and with @Metzgar2007.
 Still, it doesn't match with Nazollae. Is there exchange, or a history of hybridisation...?
@@ -647,6 +646,12 @@ skipped
 * Do we find more expressed regions with the RNAseq data
    - We do, needs propper annotation.
 ```
+
+\newpage
+\null
+\newpage
+\null
+\newpage
 
 ## Supplemental figures
 
