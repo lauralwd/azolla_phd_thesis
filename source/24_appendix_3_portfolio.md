@@ -1,5 +1,6 @@
-# Personal development
-\label{personal_development}
+# Personal Portfolio
+\label{portfolio}
+
 \newpage
 \null
 \newpage
