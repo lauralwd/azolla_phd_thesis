@@ -522,6 +522,7 @@ The branchlengths between nodes and boostrap values increased (over 97% bootstra
 
 ### genomics/synteny
 whole genome alignment figure:
+
 * Sync and scaffold assemblies to reference.
 * How similar are they genomically
    - single introduction in Azolla genus
@@ -529,10 +530,12 @@ whole genome alignment figure:
    - Giulio's figure, yes the structure is unchanged but two plasmids are actually one.
 
 **genomics/pseudogenes & transpons**
+
 * which genes are functional in all species?
    - pseudogenation master table
 
 About pseudogenes and transposons:
+
 * Are pseudogenes shared?: shared transposons by Giulio
   - which genes are functional in all species?
   - pseudogenation master table
@@ -558,23 +561,26 @@ About genomics of a symbiont:
 ```
 
 **Evolution**
+
 * Is the gene content of N. azollae special, symbiotic toolkit?
    - pangenomics multiple nostocs
-
 * So much debate about which species it is, can we sovle that here?
    - phylogenomic tree nostoc, trichormus, anabaena.
 
 include in pangenomics @Gutierrez-Garca2019
+
  * PRJNA472998
  * PRJNA360315
  * PRJNA360305
  * PRJNA360300
 
  include in pangenomics @Hassani2018
+
   * https://www.ncbi.nlm.nih.gov/nuccore/CP026681
   * https://www.ncbi.nlm.nih.gov/nuccore/CP026692
 
-Include in pangenomics @Warshan2017
+Include in pangenomics @Warshan2018
+
   * https://gold.jgi.doe.gov/studies?id=Gs0110198
 
 
