@@ -395,13 +395,13 @@ Despite this bin not being enriched in leaf pocket samples, it may be an endophy
 \toprule
 taxonomical order\tnote{a}    &
 MAG name\tnote{b}             &
-\rotatebox{45}{MAG length (Mbase)}            &
-\rotatebox{45}{abundance ratio\tnote{c}}      &
-\rotatebox{45}{PacBio mean coverage\tnote{d}} &
-\rotatebox{45}{Anvi'o completeness\tnote{e}}  &
-\rotatebox{45}{Anvi'o redundancy\tnote{e}}    &
-\rotatebox{45}{CheckM completeness\tnote{e}}  &
-\rotatebox{45}{CheckM redundancy\tnote{e}} \\
+\rotatebox{55}{MAG length (Mbase)}            &
+\rotatebox{55}{abundance ratio\tnote{c}}      &
+\rotatebox{55}{PacBio mean coverage\tnote{d}} &
+\rotatebox{55}{Anvi'o completeness\tnote{e}}  &
+\rotatebox{55}{Anvi'o redundancy\tnote{e}}    &
+\rotatebox{55}{CheckM completeness\tnote{e}}  &
+\rotatebox{55}{CheckM redundancy\tnote{e}} \\
 \midrule
 \endhead
 
