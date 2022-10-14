@@ -598,8 +598,10 @@ Likely to be skipped:
 * encapsulating from the meristem colony --?
 * pictures from Erbil
 
-* Confocal images of Anna in which the microsporocarps lose the Cyano's while the megasporocarps keep these.
-  - both sporocarps gaining the Nostocs was published [@Perkins1993], but nog the losing part.
+* Confocal images of Anna in which the microsporocarps lose the Cyano's
+while the megasporocarps keep these.
+  - both sporocarps gaining the Nostocs was published [@Perkins1993],
+  but nog the losing part.
 ```
 
 ## Discussion
