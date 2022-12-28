@@ -1,5 +1,6 @@
 \chapter*{Abbreviations}
 \pagestyle{toc}
+\thispagestyle{toc}
 
 \begin{tabbing}
 

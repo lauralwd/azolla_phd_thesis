@@ -1,4 +1,4 @@
-\chapter*{Acknowledgements}{.unnumbered}
+\chapter*{Acknowledgements}
 
 \pagestyle{toc}
 \thispagestyle{toc}
