@@ -10,6 +10,8 @@ SCRATCHDIR=$(BASEDIR)/scratch
 
 BIBFILE=$(INPUTDIR)/references.bib
 
+DATE=$(shell date +'%Y-%m-%d-%a')
+
 help:
 	@echo ''
 	@echo 'Makefile for the Markdown thesis'
@@ -42,8 +44,8 @@ endif
 
 pdf:
 	pandoc  \
-		--output "$(OUTPUTDIR)/thesis.pdf" \
-		--template="$(STYLEDIR)/template.tex" \
+		--output "$(OUTPUTDIR)/thesis_$(DATE).pdf"     \
+		--template="$(STYLEDIR)/template.tex"          \
 		--include-in-header="$(STYLEDIR)/preamble.tex" \
 		--variable=fontsize:10pt \
 		--variable=documentclass:report \
