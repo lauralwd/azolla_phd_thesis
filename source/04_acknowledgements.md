@@ -1,6 +1,7 @@
 \chapter*{Acknowledgements}{.unnumbered}
 
 \pagestyle{toc}
+\thispagestyle{toc}
 
 <!-- This is for acknowledging all of the people who helped out -->
 
