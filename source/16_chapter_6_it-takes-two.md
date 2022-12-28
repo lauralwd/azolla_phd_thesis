@@ -1,6 +1,6 @@
 \singlespacing
 \setlength{\parindent}{0.0in}
-# It takes two: Far-Red light induces the  _Azolla filiculoides_ symbiosis sexual reproduction; triggering symbiont _Nostoc azollae_ transporters and _A. filiculoides_ GAMYB and MIKC^C^ transcription factors.
+\chapter{It takes two: Far-Red light induces the  _Azolla filiculoides_ symbiosis sexual reproduction; triggering symbiont _Nostoc azollae_ transporters and _A. filiculoides_ GAMYB and MIKC\textsuperscript{C} transcription factors.}
 \label{it_takes_two}
 
 \footnotesize
@@ -223,7 +223,7 @@ Additionally, the marker SOC1-like from _A. filiculoides_ [@Brouwer2014], was ma
   >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.09}}
   >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.08}}
   >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.10}}
-  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.09}}@{}}  
+  >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.09}}@{}}
 
 \caption{Sporeling counts obtained from random crosses of \emph{A. filiculoides} strains collected in the Netherlands and Spain (Gran Canaria).
 \label{tbl:tbl6_crosses}}

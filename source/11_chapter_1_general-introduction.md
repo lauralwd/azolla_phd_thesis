@@ -4,7 +4,7 @@
 \setlength{\parindent}{0.5in}
 \resetlinenumber
 \linenumbers
-# General introduction
+\chapter{General introduction}
 \label{introduction}
 
 ## Plant biology for the twentyfirst century

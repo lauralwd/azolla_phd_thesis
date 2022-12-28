@@ -1,6 +1,6 @@
 \singlespacing
 \setlength{\parindent}{0.0in}
-# One two, tree! A workflow for creating state-of-the-art phylogenies designed for reproducibility with JuPyter, conda and git.
+\chapter{One two, tree! A workflow for creating state-of-the-art phylogenies designed for reproducibility with JuPyter, conda and git.}
 \label{phylogeny_workflow}
 
 \footnotesize

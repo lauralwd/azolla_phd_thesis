@@ -1,4 +1,4 @@
-# Personal Portfolio
+\chapter{Personal Portfolio}
 \label{portfolio}
 
 \newpage

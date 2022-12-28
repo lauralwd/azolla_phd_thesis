@@ -1,4 +1,4 @@
-# Partners & Passengers?
+\chapter{Partners \& Passengers?}
 \label{partners_and_passengers}
 
 * @Tripp2017

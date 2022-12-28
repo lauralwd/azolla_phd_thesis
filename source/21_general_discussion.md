@@ -1,4 +1,4 @@
-# General discussion
+\chapter{General discussion}
 \label{discussion}
 
 

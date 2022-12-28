@@ -1,4 +1,4 @@
-# Metagenomics practical
+\chapter{Metagenomics practical}
 \label{metagenomics_practical}
 
 ## Development of this practical

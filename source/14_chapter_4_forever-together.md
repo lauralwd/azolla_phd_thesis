@@ -1,4 +1,4 @@
-# Forever together: One _Nostoc azollae_ is symbiont to all Azolla species
+\chapter{Forever together: One _Nostoc azollae_ is symbiont to all Azolla species)
 \label{forever_together}
 
 \footnotesize

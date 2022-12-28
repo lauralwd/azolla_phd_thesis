@@ -1,6 +1,6 @@
 \singlespacing
 \setlength{\parindent}{0.0in}
-# Foul play in the leaf pocket? The metagenome of floating fern _Azolla_ reveals endophytes that do not fix N~2~ but may denitrify
+\chapter{Foul play in the leaf pocket? The metagenome of floating fern \emph{Azolla} reveals endophytes that do not fix N\textsubscript{2} but may denitrify.}
 \label{foul_play}
 
 \footnotesize
