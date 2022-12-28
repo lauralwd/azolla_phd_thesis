@@ -2,7 +2,7 @@
 \singlespacing
 \setlength{\parindent}{0.0in}
 
-\chapter{Forever together: One _Nostoc azollae_ is symbiont to all Azolla species)
+\chapter{Forever together: One \emph{Nostoc azollae} is symbiont to all Azolla species}
 \label{forever_together}
 
 \footnotesize
