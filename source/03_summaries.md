@@ -1,6 +1,13 @@
 \part{Preamble}
 \chapter*{Abstract}
 
+<!-- (re-)Start page numbering of the pre-amble -->
+\setcounter{page}{1}
+<!-- I like to use roman numers to distinguish this section from the chapters -->
+\pagenumbering{roman}
+<!-- Use the table of contents page style from here on out -->
+\pagestyle{toc}
+
 \pagestyle{toc}
 \thispagestyle{toc}
 <!-- This is the abstract -->
