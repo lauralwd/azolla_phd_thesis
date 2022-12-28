@@ -2,4 +2,4 @@
 
 \tableofcontents
 
-\newpage
+\cleardoublepage

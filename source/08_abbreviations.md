@@ -1,4 +1,4 @@
-\chapter{Abbreviations} {.unnumbered}
+\chapter*{Abbreviations}
 \pagestyle{toc}
 
 \begin{tabbing}
@@ -28,4 +28,4 @@
 
 \end{tabbing}
 
-\newpage
+\cleardoublepage

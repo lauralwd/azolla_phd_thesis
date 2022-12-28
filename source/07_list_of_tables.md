@@ -2,4 +2,4 @@
 
 \listoftables
 
-\newpage
+\cleardoublepage
