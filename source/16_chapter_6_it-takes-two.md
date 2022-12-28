@@ -1,6 +1,6 @@
 \singlespacing
 \setlength{\parindent}{0.0in}
-\chapter{It takes two: Far-Red light induces the  _Azolla filiculoides_ symbiosis sexual reproduction; triggering symbiont _Nostoc azollae_ transporters and _A. filiculoides_ GAMYB and MIKC\textsuperscript{C} transcription factors.}
+\chapter{It takes two: Far-Red light induces the  \emph{Azolla filiculoides} symbiosis sexual reproduction; triggering symbiont \emph{Nostoc azollae} transporters and \emph{A. filiculoides} GAMYB and MIKC\textsuperscript{C} transcription factors.}
 \label{it_takes_two}
 
 \footnotesize
