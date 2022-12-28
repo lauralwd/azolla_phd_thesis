@@ -47,8 +47,6 @@ pdf:
 		--output "$(OUTPUTDIR)/thesis_$(DATE).pdf"     \
 		--template="$(STYLEDIR)/template.tex"          \
 		--include-in-header="$(STYLEDIR)/preamble.tex" \
-		--variable=fontsize:10pt \
-		--variable=documentclass:report \
 		--pdf-engine=xelatex \
 		"$(INPUTDIR)"/*.md \
 		"$(INPUTDIR)/metadata.yml" \
