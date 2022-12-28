@@ -38,9 +38,9 @@ Sjef
 Run orthofinder anew on 1kP data...
 -->
 
-## Abstract
+# Abstract
 
-## Introduction
+# Introduction
 Life Science has entered the big-data age; we have an unprecedented detailed view on the storage and processing of information within biological systems.
 This view is possible due to the ever decreasing prices of sequencing of DNA, RNA and protein.
 Consequently, biologist are challenged less with acquiring data and more with its organising, processing and interpreting.
@@ -63,7 +63,7 @@ This presents a steeper learning curve for a novice user, but increased freedom 
 The workflow is openly available online and I have documented my use of it on GitHub and Zenodo, as summarised  here in the 'Use cases' section.
 Via this route I aim to inspire other reseachers to also make their analyses more reproducible and share their code towards more reproducible research.
 
-### Key concepts in Phylogeny
+## Key concepts in Phylogeny
 In principle, two types of phylogenetic trees exist: gene trees, and species trees.
 These will remain hypothetical for one can not observe how proteins or species have evolved in the past.
 Gene trees depict the hypothetical pattern in which several sequences are related to each other.
@@ -116,13 +116,13 @@ I consider Baysian approaches too advanced for the audience that this workflow i
 In the workflow presented here, I use ML tree inference with IQTree [@Nguyen2015].
 One of the main advantages of IQtree is that it includes software to find an appropriate model of evolution given an input alignment [@Kalyaanamoorthy2017].
 
-### Availability
+## Availability
 This remainder of this chapter summarises relevant data and software, my design considerations in making this workflow, and finally three use cases of the _Azolla_ lab.
 This workflow includes gathering data from the 1kP project [@Leebens-Mack2019], alignment of protein sequences, trimming of this alignment and tree inference via frequentist methods.
 Additionally, several examples of the workflow in practice are included to demonstrate its application in tackling biological questions of the _Azolla_ lab.
 This workflow is openly available and usable under a Creative Commons License at [GitHub.com/lauralwd/lauras_phylogeny_wf](https://github.com/lauralwd/lauras_phylogeny_wf)
 
-## Methods
+# Methods
 The state-of-the-art tools required for phylogenetics are often desgined for Linux systems.
 Using BASH scripts ---BASH being the Linux-native programming language--- can be a steep learning curve for novice users.
 Therefor I use JuPyter notebooks [@Ragan-Kelley2014] to supply the user of the workflow with written instructions and pre-written BASH code.
@@ -184,7 +184,7 @@ Uploading to a closed GitHub repository keeps the unpublished work private but b
 At time of publication, a GitHub repository can be made public and linked to Zenodo.
 Zenodo then archives the work and provides a citable DOI reference. (+@fig:fig7_git_zenodo B)
 
-### Data
+## Data
 Phylogenetics is in the first place a comparative exercise, hence to gain insight in the evolution of any protein sequence, one must compare it to related sequences with a shared origin.
 As plant biologists studying ferns, we are challenged by a lack of seed-free plant genomes available to us.
 Luckily, the recent 1kP project [@Leebens-Mack2019] provides solution by collecting the genomes and assembled transcriptomes of 1000 plant species.
@@ -258,7 +258,7 @@ They are not included in the data-uploads to the usual repositories but instead 
 The original link ([jlmwiki.plantbio.uga.edu/onekp/v2/](http://jlmwiki.plantbio.uga.edu/onekp/v2/)) at the Leebens-Mack lab is no longer available.
 The authors were made aware of this early 2022 but as of yet there is no alternative way to access this data.
 
-### Alternative tools
+## Alternative tools
 Existing tools that house a complete workflow from gathering sequences up to infering a ML tree are rare.
 The one tool that is best known for this purpose is MEGA X [@Kumar2016].
 MEGA X is often found in literature and has substantially contributed to making phylogenic tools available to the broad public.
@@ -278,7 +278,7 @@ This workflow aims to improve on MEGA X shortcommings by providing all the state
 Doing so in a JuPy notebook makes it easy to document and journal while doing the analysis.
 Finally, it eases to transition to bigger datasets that GUI desktop software often is not tailored to.
 
-## Workflow
+# Workflow
 The workflow consists of 6 Major steps.
 The software choices are tailored to strike a balance between relavitvelly big datasets and userfriendlyness.
 These steps are:
@@ -313,7 +313,7 @@ These steps are:
 
 For each of these step, I will highlight some design choices and indicate if these can be done online as well as in the workflow.
 
-### Acquiring data
+## Acquiring data
 The workflow examplifies two specific datasources.
 In the use by the _Azolla_ lab, we have employed the 1kP dataset intensivelly, however we also examplify blast searches as an input.
 For phylogenies spanning all land plants ---the Viridiplantae--- we exclusively use amino acid sequences.
@@ -330,7 +330,7 @@ Finally, we also add sequences of inquiry, those that we'd like to place in cont
 
 Acquiring data from NCBI blastP can be done online completely, subsetting orthorgroups of the 1kP has no online alternatives.
 
-### Aligning the dataset
+## Aligning the dataset
 Now that we have a collection of homologous sequences, the next step is to align these to each other.
 Two of the famous tools to this end are ClustalOMAGA (previously known as clustalW) and MUSCLE [@Sievers2014; @Edgar2004].
 Both tools however, are single-threaded; meaning they can use only one CPU cores where modern computers often have several.
@@ -401,7 +401,7 @@ Actually, just do this in the jalview format and view menu's that makes life a l
 
 ![Multiple Sequence Alignments by MAFFT. A dataset of MIKC^C^ sequences from the 1kP project was subsetted and then alinged with mafft auto (A) linsi (B) and einsi (C). Panels A, B and C depict sections of the original MSA, panel D depicts the full einsi alingment. MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graps underneath each MSA depict Conservation, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_examples.pdf){#fig:fig7_align_examples}
 
-### Trimming
+## Trimming
 Big MSAs, especially those based on transcriptome data, are not optimal for phylogeny inference.
 Phylogeny inference is driven by synapomorphies, shared diferences between a majority of sequences.
 The inference is hampered whenever a major fraction of sequences contains no content at all (gaps), or when a conserved region is missing from a particular sequence.
@@ -438,7 +438,7 @@ In the section on 2 OGD phylogeny, we demonstrate a visual exploration to sumari
 To our knowledge there are no online tools that achieve a similar finesse of filtering MSAs as trimAL does.
 When restricted to online tools, the column occupancy filter in the online version of MAFFT is an obvious and convenient choice.
 
-### Fast phylogeny inference
+## Fast phylogeny inference
 Full phylogeny inference and non-parametric bootstrapping can take a considerable amount of time.
 Therefore, it is wise to explore the likely outcome tree with a fast tree inference program that does not perform bootstrapping.
 This allows for a preliminary view into the final result and observe potential mistakes, remove or add sequences of interest.
@@ -451,7 +451,7 @@ To our knowledge, no online fast tree inference algorithm is available.
 However, a regular tree inference without bootstrapping would be a reasonably fast alternative when restricted to online tools.
 Regular tree inference is described in the next section.
 
-### Full phylogeny inference
+## Full phylogeny inference
 For phylogeny inference, we supply a ML option only for we see very few good arguments to resort to NJ or MP methods instead.
 In this workflow we use IQTree for modelfitting, phylogenetic tree inference, and calculating bootstrap support [@Nguyen2015; @Kalyaanamoorthy2017].
 These are three distinct steps, especially the first often is not included in phylogeny software.
@@ -523,7 +523,7 @@ Online phylogeny inference is freely available and makes the methods accessible 
 IQtree can be used online although with limitations ([iqtree.cibiv.univie.ac.at](http://iqtree.cibiv.univie.ac.at/)) [@Trifinopoulos2016].
 Additionally, all these steps can also be done in PHYML, an alternative tool with the same use case, on [atgc-montpellier.fr/phyml/](http://www.atgc-montpellier.fr/phyml/).
 
-### Visualisation
+## Visualisation
 
 For visualisation of the phylogeny, I recommend working in iToL [@Letunic2019] [itol.embl.de](https://itol.embl.de/).
 Like the JuPyter notebook, iToL works in an internet browser.
@@ -546,7 +546,7 @@ One may then see if any sequence of interest is reliably placed within such an o
 Optionally, more data can be added onto the tree, such as the MSA, RNA-seq data, certain groupings, protein domains, etcetera.
 We discuss these options further in the Usecases section.
 
-## Usecases
+# Usecases
 In this section, I discuss several use cases of this phylogeny workflow in the _Azolla_ lab.
 Firstly, that of several leucoanthocyanidin reductase (LAR) homologs found in _Azolla_.
 This project was actually the inspiration for creating this workflow.
@@ -557,7 +557,7 @@ Thirdly, a 2-OGD phylogeny inference with several _Azolla_ sequences added.
 The 2-OGD family is one of the biggest enzyme families in land plants.
 We wanted to study how ferns have developed differently from land plants, and infer the functionality of a specific fern 2-OGD gene that was differentially expressed in an RNA-seq experiment.
 
-### LAR
+## LAR
 The LAR enzyme is member of the PIP family of enzymes.
 In context of _Azolla_ biology, it is an interesting enzyme for it is a key enzyme in the production of both anthocyanodins, as well as epicatechin; a notorious digestion inhibiting polyphenol.
 The _Azolla_ genome contains several LAR like enzymes (homologs) that may all play a role in anthocyan metabolism.
@@ -584,7 +584,7 @@ More importantly, _A. filiculoides_ LAR was confirmed to have LAR activity by an
 The exact function of WLARs remains unknown, none of these sequences was ever categorised separately before.
 Ostensibly, ferns have radiated their own set of unique PIP enzymes, as seedplants have uniquely radiated IFR and PCBER enzymes.
 
-### MIKc
+## MIKc
 By definition, ferns and seedplants have different methods of sexual reproduction.
 In chapter \ref{it_takes_two} we take interest in finding the fern transcription factors behind the transition to sexual reproduction.
 We use RNAseq to find these transcriptionfactors and then place these in a phylogeny with seedplant ABCDE genes responsible for flower organ identity.
@@ -601,7 +601,7 @@ More genome based data of seed-free plants and functional characterisation of tr
 
 
 
-### 2-OGD
+## 2-OGD
 In another inquiry into _Azolla_ secondary metabolism, we examined a 2-oxoglutarate dependent dioxygenase (2-OGD) enzymes evolution.
 This 2-OGD gene was significantly differentially expressed in an RNA-seq experiment [@Gungor_cornicinine].
 Again an orthogroup of 2-OGD genes was obtained from the 1kP, subsetted and ammended with sequences with their functions characterised.
@@ -623,7 +623,7 @@ The aminoacid residues in the active side that bind jasmonate are conserved in b
 Therefore we conclude these sequences are most likely _A. filiculoides_ JOX1 and JOX2.
 The specific site of expression hints that Jasmonate signaling may be important in _Azolla_ symbiosis communication.
 
-## discussion
+# discussion
 
 orthofinder2
 
@@ -641,7 +641,7 @@ phylogenomics
 
 
 SNPhylo, trees on snips of whole genomes
-## Supplemental:
+# Supplemental:
 
 ![](source/figures/fig7_2OGD_phylogeny.pdf){#fig:fig7_2OGD_phylogeny}
 

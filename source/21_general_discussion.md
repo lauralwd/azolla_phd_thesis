@@ -6,7 +6,7 @@
 \label{discussion}
 
 
-## left-over notes from the hidden treasures chapter:
+# left-over notes from the hidden treasures chapter:
 
 I have said nothing of membrane vesicles from both cyano's and bact observed by
 at least @Zheng2009
@@ -151,7 +151,7 @@ Selection for reduced genome size lower in extracellular symbionts than
 
 
 \newpage
-#### CSP fragment
+### CSP fragment
 Many plant species are known to interact with bacteria systematically and even transmit these systematically [@Frank2018; @Pinto-Carbo2018], but the mechanisms underpinning symbiosis are often unclear.
 The best known mechanism is termed the common symbiosis pathway, variations of this common pathway facilitate both Rhizobiales-legume and mycohorriza symbiosis [@Genre2016].
 But other symbioses, like Cuanobacteria-plant symbises and ... , are not facilitated by this pathway [@Li2018] `more examples would be nice`.
@@ -169,7 +169,7 @@ The plant genome does add complexity, but other than that ...
 
 \newpage
 
-### Bacteria associated with plants as a modular subset of the hologenome
+## Bacteria associated with plants as a modular subset of the hologenome
 Microbial genomes may encode and convey traits to a host when in symbiosis.
 The most obvious example is _Azolla_ its independence of nitrogen in the surrounding water or sediment, a trait conveyed by _N. azollae_.
 Bacterial genomes are substantially more fluid in their structure and content than their eukaryotic hosts.

@@ -5,14 +5,14 @@
 \chapter{Metagenomics practical}
 \label{metagenomics_practical}
 
-## Development of this practical
+# Development of this practical
 In the first year of my PhD, I got the opportunity to design a metagenomics practical for Master's students with a life sciences background.
 The practical introduces the Bash language and tries to learn the main concepts behind metagenomics through a hands-on approach.
 Together with a colleague, Margot Schuller, we made the first version based on the data of chapter \ref{foul_play} and tested it during the course.
 During the years that followed, I taught and iteratively improved this practical twice a year.
 In the before-last year of my PhD, I took up the challenge of coordinating the entire course: Introduction to bioinformatics for Life Sciences (IntroBioinfo).
 
-### Cognitive load theory
+## Cognitive load theory
 This practical sets the bar high for students with ample experience.
 In order to teach it effectively, I learned about and used cognitive load theory in redesigning the practical.
 The exercises are based on the data from chapter \ref{foul_play}, but with the methods in mind of chapter \ref{hidden_treasures}.
@@ -37,7 +37,7 @@ The reasoning behind this measure is that the main concepts from the lecture -th
 This organisation leaves students armed with a basic understanding of the practical's goal and the main concepts.
 During the practical, studens can use the limited amount of working memory of a human brain to tackle coding questions more easily, without being bothered by questions like why am I doing this exactly, or what do I achieve with this small step?
 
-### Context and course design
+## Context and course design
 In the context of the course, I taught metagenomics as the third topic and ensured important skills were covered the days before.
 On the first day, I introduced bioinformatics in general and taught some basic BASH coding required for the rest of the course.
 After letting this settle in long-term memory overnight, I continue with "general" genomics.
@@ -55,7 +55,7 @@ In the section on structural biology, these different levels of the central dogm
 
 ![Summary of the workflow that students follow in the metagenomics practical. Tasks done by me as preparation are presented on a grey background (A), and tasks done by students during the practical on a white background (B). Green and Blue squares represent the FastQ input data. Bordeaux red squares represent computational tasks. Purple pentagons represent big-data input and output files, and grey-black squares represent human-readable tables. Yellow circles are final results, either figures or tables, that students produce during a practical and are typically found in a metagenomics manuscripts or papers.](source/figures/mgp_workflow.pdf){#fig:mgp_workflow}
 
-### Open education
+## Open education
 The practical is openly available and GitHub, with instructions and recorded YouTube tutorials for those interested in trying it out.
 The GitHub repository contains instructions on installing the software and getting the data.
 I chose open source tools only, as is common in the field.
@@ -68,7 +68,7 @@ Renders of the empty and pre-filled workflow are available as a GitHub pages web
 
 ![Metagenome assembly of _Azolla filiculoides_ associated bacteria. Data was taken from chapter \ref{foul_play} and assembled with SPAdes (@Nurk2017). The metagenome assembly graph was visualised with Bandage. A fasta file resembling the sequences of this graph was one of the main inputs of this practical.](source/figures/mgp_assembly.png){#fig:mgp_assembly}
 
-## Practical overview, learning goals and audience
+# Practical overview, learning goals and audience
 This practical is aimed at Master's students in Life Sciences with minimal experience in bioinformatics and bachelor-level experience in (micro)biology.
 However, I also found it suited for bachelor's students with bioinformatics experience within a single day.
 When supplied with several days and sufficient supervision, bachelor's students with programming experience also successfully completed the practical.
@@ -97,7 +97,7 @@ Starting at acquiring sequencing data, all the way to annotating individual draf
  - A student can explain what binning signals are, why they are used and how they used them during the practical.
  - If not already, a student will understand the basics of the bash computer language and be able to run bio-informatic programmes in loops.
 
-### JuPyter examples
+## JuPyter examples
 ![Screenshot of a pre-filled JuPyter notebook page from the metagenomics practical involving Python code. This page was taken from the online example and answers pages.](source/figures/mgp_jupy_2.png){#fig:mgp_jupy_2}
 
 ![Screenshot of a JuPyter notebook page from the metagenomics practical involving BASH code. JuPyter notebook pages allow for background, instructions and code exercises to co-exist next to each other in a single environment.](source/figures/mgp_jupy_1.png){#fig:mgp_jupy_1}

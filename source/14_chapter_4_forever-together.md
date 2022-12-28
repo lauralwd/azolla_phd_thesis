@@ -22,7 +22,7 @@ Henriette Schluepmann^1^.
 \onehalfspacing
 \setlength{\parindent}{0.5in}
 
-## Introduction
+# Introduction
 Cyanobacteria are the only prokaryotes cabable of oxygenic photosynthesis and widely known for being the origin for chloroplasts in plants.
 The chloroplast is a result of a cyanobacterial endosymbiosis; a symbiotic cyanobacterium permanently became part of a eukaryotic cell approximately 2 billion years ago, giving rise to modern day plants [@Sanchez-Baracaldo2017].
 Since then, plants and cyanobacteria their photosysthesis drive the global carbon cycle supplied with energy from sunlight.
@@ -117,9 +117,9 @@ We assess the degradation that _N. azollae_ underwent in becoming a obligate sym
 Finally, we aim to embed the _N. azollae_ evolution in a broader perspective of Nostocales taxonomy, hopefully solving the issue of the _N. azollae_ genus name.
 Within this broader perspective of Nostocales genomes, some symbiotic, some not, we hope to identify clusters of genes shared by symbiotic Nostocales Cyanobacteria and perhaps shared by N. azollae specifically.
 
-## Methods
+# Methods
 
-### workflow management and documentation
+## workflow management and documentation
 snakemake & workflow overview
 
 Anvio 7 pangenomics
@@ -132,20 +132,20 @@ Mauve
 
 Github
 
-### nanopore sequencing
+## nanopore sequencing
 flowcells,
 postprocessing
 
 
-### data
+## data
 table on the mags we have from chapter \ref{hidden_treasures}
 
 read data, same as chap3, but skipping Afiliculoides since that is the reference already.
 When multiple samples are available, taking the longest insert size.
 
-## Results
+# Results
 
-### De novo assembly of missing _N. azollae_ strains and _Azolla_ chloroplasts and mitochondria.
+## De novo assembly of missing _N. azollae_ strains and _Azolla_ chloroplasts and mitochondria.
 We aim to study co-evolution of _N. azollae_ and its host via comparative genomics.
 To achieve this, we gather _N. azollae_ and _Azolla_ plastid genomes of all _Azolla_ species
 This genome collection encompasses firstly the _N. azollae_ Metagenome Assembled Genomes (MAGs) assembled in chapter \ref{hidden_treasures}.
@@ -237,7 +237,7 @@ Overall, the chloroplast assemblies of nanopore and Illumina origin are of high 
 The mitochodrium genomes assembled here are likely incomplete and fragmented.
 Still, these are the very first Azolla mitochondrial draft genomes now publicly available.
 
-### All _N. azollae_ are highly similar in terms of ANI and gene content but have some unique features
+## All _N. azollae_ are highly similar in terms of ANI and gene content but have some unique features
 Armed with _N. azollae_ genomes of all known _Azolla_ strains, we wonder how similar these genomes are in gene content, and if they can be considered separate species or if they are the same.
 These genomes and the reference from @Ran2010 were processed in an Anvi'o pangenomics workflow [github.com/lauralwd/Nostoc_azollae_pangenomics](https://github.com/lauralwd/Nostoc_azollae_pangenomics).
 This workflow finds ORFs, tries to functionally annotate these via NCBI COGs and KEGG KOFAMS, and maps all ORFs to all ORFs with blastp to then cluster these genes in gene clusters that systematically co-occur in the various genomes with MCL clustering coefficient set at 7 `cite MCL threshold`.
@@ -472,7 +472,7 @@ Divalent cation tolerance protein CutA (CutA1) (PDB:1NAQ)
 DNA-binding transcriptional regulator, XRE family (YozG) (PDB:3TYR)
 --->
 
-### Gene selection for comparative phylogenomics
+## Gene selection for comparative phylogenomics
 To study coevolution of _N. azollae_ and the host ferns, we chose a phylogenomics approach.
 Given the strains of fern and cyanobacterium have speciated recently, we select several genes for phylogeny reconstruction.
 These genes must be single copy in all genomes included, and contain nog more than 10% gaps (+@fig:fig4_Nazollae_pangenome; geometric homogeneity).
@@ -501,7 +501,7 @@ This gene cluster is exported from anvio both as DNA and amino acid sequences an
 100% 007872
 --->
 
-### Phylogeny of _N. azollae_ contradicts the chloroplast phylogeny
+## Phylogeny of _N. azollae_ contradicts the chloroplast phylogeny
 Next we study coevolution by phylogenomic inference on two sets of conserved single copy genes of both chloroplasts and _N. azollae_ taken from the _Azolla_ genus (+@fig:fig4_Nazollae_pangenome & +@fig:fig4_chloroplast_pangenome; phylogenomic core).
 Amino acid sequences of these gene clusters were extracted as partitioned allignments.
 These allignments were submitted to IQtree model selection and ML phylogeny inference.
@@ -524,7 +524,7 @@ The placement of the _A. caroliniana_ clade remained the same despite these effo
 In a second effort to test the robustness of this discrepancy, the phylogenomic tree was infered from DNA sequences rather than protein sequences.
 The branchlengths between nodes and boostrap values increased (over 97% bootstrap), but the topology remained the same as that of (+@fig:fig4_coevolution_trees).
 
-### genomics/synteny
+## genomics/synteny
 whole genome alignment figure:
 
 * Sync and scaffold assemblies to reference.
@@ -614,7 +614,7 @@ while the megasporocarps keep these.
   but nog the losing part.
 ```
 
-## Discussion
+# Discussion
 
 `Earth nitrogen cycle, incl haber bosch figure @`
 
@@ -622,7 +622,7 @@ while the megasporocarps keep these.
 
 `Study cyano's and plants to fix nitrogen, doing it chemically is hard but progress is made: https://pubs.acs.org/doi/10.1021/acs.chemrev.9b00556`
 
-### coevolution
+## coevolution
 _A. caroliniana_ placement matches with figure 6.3 and with @Metzgar2007.
 Still, it doesn't match with Nazollae. Is there exchange, or a history of hybridisation...?
 Also remember, _caroliniana_ sequenced here may be the same species as Anzali is.
@@ -665,7 +665,7 @@ skipped
 \null
 \newpage
 
-## Supplemental figures
+# Supplemental figures
 
 ![Assembly and subsetting of _A. filiculoides_ mitochodrium genome. (A) Flye assembly graph of nanopore reads suspected to be mitocondrial. The assembly graph visualisation was made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches colour coded by blast hits and connections between these contigs as grey transparent lines. Blast hits of the _Psilotum nudum_ and _Ophioglossum californicum_ mitocondrial genomes (orange and red), the _Azolla filiculoides_ chloroplast (green) and _Nostoc azollae_ (cyan blue) are indicated in the assembly graph. A mitocondrial subgraph (indicated in red square) was selected for futher processing. B Blast all-vs-all visualisation with circo's of the mitocondrial subgraph. Several contigs are fully represented in contig 11. (C) Mitocondrial draft assembly manually rid of redundancy. Blast all-vs-all visualisation with circos.](source/figures/fig4_mitochondrium_assembly_selection.pdf){#fig:fig4_mitochondrium_assembly_selection}
 

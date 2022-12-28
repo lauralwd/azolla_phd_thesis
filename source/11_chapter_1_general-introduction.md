@@ -12,7 +12,7 @@
 \chapter{General introduction}
 \label{introduction}
 
-## Plant biology for the twentyfirst century
+# Plant biology for the twentyfirst century
 These days, scientists, -humanity itself- is challenged with the advent of climate change, dramatic global population growth, and major loss of rurable land.
 The field of plant biology plays a particularly important role securing a sustainable and healty future for humanity on plant earth.
 IPCC
@@ -26,22 +26,22 @@ Efforts include improving existing crops
 
 Novel crops
 
-### Azolla
+## Azolla
 Ferns of the genus _Azolla_ have several key advantages
 
 _Nostoc azollae_ Nitrogen independence
 
-## Establishing the genetics of a novel crop symbiosis
+# Establishing the genetics of a novel crop symbiosis
 
-### Domestication
+## Domestication
 
-### Breeding arrearage
+## Breeding arrearage
 
-### Breeding a symbiosis
+## Breeding a symbiosis
 
-### Challenges of Azolla
+## Challenges of Azolla
 
-#### framework
+### framework
 1. ~~Plant biology: Food, Novel crops, Azolla symbiosis
   - X challenges, solutions in novel crops
   - opportunities Azolla~~
@@ -60,7 +60,7 @@ _Nostoc azollae_ Nitrogen independence
   - Teaching?
 5. Key advances...
 
-#### H framework
+### H framework
 1. Why you are so motivated to study a symbiosis
 2. In particular Azolla
 3. You personal development in this field using bioinformatic approaches
@@ -98,7 +98,7 @@ with markdown if the ref contains no spaces:
 and for a markdown label only markdown refs work:
 +@sec:foul-play-in-the-pocket
 --->
-## Outline of this thesis.
+# Outline of this thesis.
 __Chapter \ref{foul_play}__ (\nameref{foul_play} on page \pageref{foul_play}) details the initial discovery of prokaryotic DNA sequences in the _A. filiculoides_ genome assembly and includes the work that inspired this PhD project.
 We identify near complete bacterial genomes in whole contigs of this assembly and study these further.
 These bacteria are confirmed to be present in _A. filiculoides_ taken from the wild as well as from the lab.
@@ -153,7 +153,7 @@ This workflow is aimed at user skilled in reading a phylogeny, but not in using 
 It covers data-selection, multiple sequences alignment, alignment trimming, and tree inference.
 Additionally, it provides tools to create semi-automatic mark-up for phylogenetic trees in the iToL webinterface.
 
-### Appendeces
+## Appendeces
 Academics are more than just scientitsts.
 They are often also teachers on universities and leaders and administrators in academic organs.
 During my PhD, I attempted to incorparate that broader academic experience in my work.

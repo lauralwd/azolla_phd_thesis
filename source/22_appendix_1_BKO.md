@@ -21,7 +21,7 @@ The committee summarised that the application was very good and showed experienc
 They complimented a creative, motivated and motivating attitude and a self-critical view with openness to colleagues' and students' suggestions.
 
 \newpage
-## Portfolio
+# Portfolio
 Onderzoek vindt plaats in allerlei instituties, maar de universiteit is mijns inziens bij uitstek de plaats voor kruisbestuiving tussen onderzoek en onderwijs.
 Daarom ben ik dankbaar voor de kans om deze twee kerntaken te combineren tijdens mijn PhD.
 Gedurende mijn PhD heb ik mij kunnen ontwikkelen in allerlei vormen van onderwijs.
@@ -40,7 +40,7 @@ Tot slot heb ik kansen aangegrepen om ook bij te dragen aan de bredere organisat
 Ik heb zitting gehad in het curriculum-comité en was PhD-lid van het ‘Board of Studies’ van de GS-LS.
 Discussies in deze organen gaven me een breder perspectief op universitair onderwijs, de interne relaties en de keuzes die komen kijken bij het inrichten ervan.
 
-### Professionele kwaliteiten
+## Professionele kwaliteiten
 Een positief en veilig studieklimaat is enorm belangrijk voor onderwijs; positief in de zin dat studenten enthousiast zijn om te leren, en veilig in de zin dat studenten zich niet geremd voelen om hun vragen aan mij te stellen.
 Andersom merkte ik ook hoe gebrek aan een positief studieklimaat leren in de weg kan zitten.
 Ervaring heeft me geleerd dat niets zo stimulerend en activerend werkt op studenten als een gevoel van autonomie en bekwaamheid om een uitdaging aan te kunnen.
@@ -52,7 +52,7 @@ _`The smaller group was very positive, made you really feel like a class, overal
 
 ![Exit enquête resultaat op de stelling "the atmosphere during the course was good". Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-1.png){#fig:fig_bko-1}
 
-### Vakinhoudelijke kwaliteiten
+## Vakinhoudelijke kwaliteiten
 In mijn opvatting is de kracht van universitair onderwijs de kruisbestuiving met de huidige stand van zaken in de wetenschap.
 Het Master onderwijs is daar het beste voorbeeld van, maar ik zie het ook terug in een cursus als Biology of the Biobased Economy (BBE) en in Bachelor stages.
 Waar mogelijk en passend maak ik graag gebruik van de gelegenheid om de studenten te leren over het belang van open science, specifiek publiek beschikbare data, open source methodes en bijhouden van een digitaal labjournaal met code.
@@ -72,9 +72,9 @@ _`…I also like the structure of the course. It was done in such a way that it 
 
 ![Exit enquête resultaat op de stelling "The coordinator/main teacher of this course succeeded in unifying the many topics in a single course". Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-5.png){#fig:fig_bko-5}
 
-### Didactische kwaliteiten
+## Didactische kwaliteiten
 
-#### Ontwerpen van onderwijs
+### Ontwerpen van onderwijs
 Een cursus aanpassen aan de voorkennis van de student blijft een uitdaging.
 Deze uitdaging voelde ik het meest in Master cursussen met studenten uit alle GS-LS masters en met diverse nationaliteiten.
 Om een beter beeld te krijgen van aanstaande studenten in mijn cursussen, gebruikte ik intro-enquêtes in zowel BBE als IntroBioinfo.
@@ -88,7 +88,7 @@ De belangrijkste bijdrage van mij en mijn mede vertegenwoordigers was het herzie
 Naast mijn bijdrage aan de promovendi opleiding, kreeg ik ook een nieuw perspectief over alle Masteropleidingen als geheel, de overlap, en het onderscheid tussen de opleidingen .
 Sindsdien ben ik erg overtuigd van de meerwaarde van het onderwijsmodel van de Utrechtse life sciences Masters met hun duidelijke focus op onderzoekservaring uit de praktijk.
 
-#### Geven van onderwijs
+### Geven van onderwijs
 In mijn vijf jaar PhD heb ik ervaring op mogen doen in allerlei onderwijsvormen, voornamelijk praktisch.
 Ik zie mijzelf als iemand die het meest leert door te doen en die voorkeur werkt door in mijn stijl van onderwijzen.
 
@@ -121,7 +121,7 @@ _`Laura's lectures were very clear, but some of the guest lecturerers went a bit
 
 Deze toename was voor mij een teken dat ik goed op weg was met deze cursus en een duidelijk signaal dat dit leerdoel behaald werd.
 
-### Organisatorische kwaliteiten
+## Organisatorische kwaliteiten
 Communicatie met studenten, verwachtingenmanagement en aansluiting bij voorkennis zijn heel belangrijk om een cursus tot zijn recht te laten komen.
 In mijn bijdragen aan verschillende cursussen in de biologie bachelor zag ik zowel geslaagde als niet geslaagde voorbeelden van deze drie organisatorische handelingen.
 Om de juiste verwachtingen te creëren licht ik de studenten ruim van te voren in over de onderwijsvormen, vereisten en examinering van mijn cursus (+@fig:fig_bko-12).
@@ -134,9 +134,9 @@ De overgebleven onduidelijkheid betrof meestal de precieze vorm van het tentamen
 
 ![Exit enquête resultaat op de vraag: "The learning objectives of this course were announced or made available in advance" Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-12.png){#fig:fig_bko-12}
 
-## Visie op universitair onderwijs
+# Visie op universitair onderwijs
 
-### Wetenschappelijk onderwijs in maatschappelijke context
+## Wetenschappelijk onderwijs in maatschappelijke context
 Wetenschappelijk onderwezen biologen gaan deze eeuw een cruciale rol spelen.
 Als docent bij de universitaire opleiding biologie ben ik me heel bewust van mijn bijdrage aan hun potentiële toekomstige werk.
 Ten tijde van dit schrijven -een tijd door sommigen geduid als de "post truth era"- vinden wetenschappers zich in allerlei maatschappelijke debatten van grote relevantie.
@@ -158,7 +158,7 @@ Zij zijn geoefend in de wetenschappelijke methode en vaardig in de maatschappeli
 Met deze twee pijlers leveren we als WO wetenschappelijk opgeleide professionals aan de samenleving.
 Voor de toekomst van bijvoorbeeld onze wereldwijde voedselvoorziening zijn wij afhankelijk van de komende generaties biologen om enerzijds fundamenteel wetenschappelijk onderzoek uit te voeren en anderzijds te navigeren door ingewikkelde maatschappelijke debatten.
 
-### Goed voorbeeld doet volgen
+## Goed voorbeeld doet volgen
 Als wetenschappers dragen wij maatschappelijke verantwoordelijkheid, bijvoorbeeld in de eerder genoemde kwesties.
 Niet in de minste zin omdat wij zelf als onderzoekers bijdragen aan het oplossen van deze vraagstukken.
 Als onderzoekers zijn wij bekend met de meest recente ontwikkelingen en die kunnen wij toepassen in ons onderwijs.
@@ -170,7 +170,7 @@ Het is geen geheim dat ik fan ben van OS; waar mogelijk pas ik het toe op mijn o
 Mijn youtube video’s over bioinformatica, alhoewel alles behalve gelikt, worden regelmatig bekeken voor zelfstudie door mensen over de hele wereld.
 In totaal zijn ze bijna 15.000 maal bekeken; het is een ander soort ‘impact’ dan we gewend zijn, maar desalniettemin een bijdrage op zichzelf.
 
-### Didactiek
+## Didactiek
 In het vormgeven van wetenschappelijk onderwijs ben ik een fan van het Utrechtse model met veel ruimte voor differentiatie en specialisatie.
 Wellicht ben ik bevooroordeeld aangezien ik mijn opleiding hier in Utrecht heb afgerond.
 Het Utrechtse model blinkt uit door een sterke theoretische basis aan het begin van de Bachelor en een geleidelijke overgang naar praktische uitvoering in het eind van de Bachelor en het grootste deel van de Master.
@@ -183,7 +183,7 @@ Bij de toenemende vraag naar biologisch onderwijs is er ongetwijfeld veel te win
 Na de noodgedwongen digitalisering van colleges tijdens de COVID-19 pandemie ben ik groot fan van flip-the-classroom en het diepere begrip van de stof wat studenten tonen sinds deze overgang.
 Tegelijkertijd zie ik spanning tussen enerzijds opschaling van onderwijs en anderzijds persoonlijke aandacht en maatwerk.
 
-## SWOT analyse
+# SWOT analyse
 De sterke kanten van mijn onderwijsactiviteiten in het WO zijn ten eerste mijn brede ervaring van begin bachelor, via Master, tot zelfs PhD onderwijs.
 Ten tweede heb ik veel ervaring in actieve onderwijsvormen zoals practica en vernieuwingsdrang daarin.
 Ten derde onderneem ik veel overstijgende activiteiten zoals een coördinatorschap, BoS lidmaatschap en werkzaamheden rondom promovendi kwaliteitszorg.
@@ -218,7 +218,7 @@ Risico’s wat betreft mijn toekomstige ontwikkeling op onderwijsvlak zijn er oo
 Veel vacatures die passen bij mijn ervaring bevatten geen of weinig onderwijs verantwoordelijkheid.
 Als ik een functie aanga als bioinformaticus, zelfs bij een instantie die ook onderwijs verzorgt, geef ik dan alleen maar bio informatica onderwijs of kan ik mijn bijdrage ook leveren in een breder pallet van cursussen? Onderwijsontwikkeling in een extern instituut is zeer afhankelijk van de mogelijkheden die ik daar ga vinden.
 
-## Nawoord
+# Nawoord
 Zoals ik dit document begon, sluit ik ook af: Onderzoek vindt plaats in allerlei instituties, maar de universiteit is bij uitstek de plaats voor kruisbestuiving tussen onderzoek en onderwijs.
 Daarom ben ik dankbaar voor de kans om deze twee kerntaken te combineren tijdens mijn PhD.
 Specifieker wil ik als eerst alle collega’s bedanken voor alle lessen die ik heb geleerd en de vele onderwijskansen die ik heb gekregen de afgelopen vijf jaar.
