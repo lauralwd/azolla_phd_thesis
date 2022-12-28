@@ -156,7 +156,7 @@ Conda environments used in this study can be found in [github.com/lauralwd/Azoll
 \hypertarget{fig:fig3_data_overview}{%
 \centering
 \includegraphics{source/figures/fig3_data-in-overview.pdf}
-\caption{
+\caption[DNA sequencing of the \emph{Azolla} genus.]{
   DNA sequencing of the \emph{Azolla} genus. The \emph{Azolla} genus phylogeny is adapted from Metzgar et al. (2007) (A). Sequencing data considered here for species in the \emph{Azolla} genus (B).
   Sequencing data was retrieved from two main studies:
   the \emph{Azolla} genome project from Li et al. (2018) with accession nr. PRJNA430527 and from
@@ -252,7 +252,7 @@ The filtering approach, we conclude, did not substantially improve assembly qual
 \hypertarget{fig:fig3_filter_length_distributions}{%
 \centering
 \includegraphics{source/figures/fig3_figure-filter-length-distributions.pdf}
-\caption{Length distributions of \emph{Azolla} sp. metagenome assembles per kingdom before and after the second filtering stage.
+\caption[Length distributions of \emph{Azolla} sp. metagenome assemblies]{Length distributions of \emph{Azolla} sp. metagenome assemblies per kingdom before and after the second filtering stage.
   Metagenome assemblies of individual sequencing libraries (\cref{fig:fig3_data_overview}) were filtered with the \emph{A. filiculoides} genome (Host filtered; red) and with a library specific subset of eukaryotic contigs (Double filtered; blue; \cref{fig:fig3_filtering_and_assembly}).
   Scaffolds of metagenome assemblies then were assigned taxonomy with CAT (Von Meijenfeldt \emph{et al}. 2019), and their length distributions were plotted as boxplot per taxonomic kingdom (vertical panels: Viruses, Eukaryota, Bacteria and Archae) and per sequencing library (horizontal panels).
   The width of the boxplot is proportional to the number of scaffolds represented (\cref{tbl:tbl3_1}).}
