@@ -1,5 +1,6 @@
 \pagestyle{toc}
-\thispagestyle{toc}
+
+
 \listoffigures
 \thispagestyle{toc}
 
