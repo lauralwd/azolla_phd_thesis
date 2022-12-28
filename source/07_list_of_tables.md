@@ -1,6 +1,5 @@
+\pagestyle{toc}
+
 \listoftables
 
 \newpage
-
-
-

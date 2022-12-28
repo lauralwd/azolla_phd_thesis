@@ -1,3 +1,5 @@
+\pagestyle{toc}
+
 \tableofcontents
 
 \newpage

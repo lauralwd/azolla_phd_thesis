@@ -1,4 +1,6 @@
-# Acknowledgements {.unnumbered}
+\chapter{Acknowledgements} {.unnumbered}
+
+\pagestyle{toc}
 
 <!-- This is for acknowledging all of the people who helped out -->
 
@@ -9,6 +11,3 @@ Mauris eget blandit nisi, faucibus imperdiet odio. Suspendisse blandit dolor sed
 <!-- Use the \newpage command to force a new page -->
 
 \newpage
-
-
-

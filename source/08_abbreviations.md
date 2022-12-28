@@ -1,4 +1,5 @@
 # Abbreviations {.unnumbered}
+\pagestyle{toc}
 
 \begin{tabbing}
 
