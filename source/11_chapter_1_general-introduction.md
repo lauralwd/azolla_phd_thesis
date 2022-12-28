@@ -1,3 +1,4 @@
+\part{Chapters}
 \setcounter{page}{1}
 \pagenumbering{arabic}
 \onehalfspacing

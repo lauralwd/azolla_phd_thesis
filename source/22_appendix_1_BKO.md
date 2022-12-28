@@ -1,4 +1,5 @@
 \appendix
+\part{Appendices}
 \setcounter{chapter}{0}
 \renewcommand\thechapter{\Alph{chapter}}
 \chapter{bUTQ application / BKO portfolio summary}
