@@ -1,3 +1,7 @@
+\pagestyle{chapter}
+\singlespacing
+\setlength{\parindent}{0.0in}
+
 \chapter{Forever together: One _Nostoc azollae_ is symbiont to all Azolla species)
 \label{forever_together}
 

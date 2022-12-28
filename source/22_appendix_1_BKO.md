@@ -2,6 +2,11 @@
 \part{Appendices}
 \setcounter{chapter}{0}
 \renewcommand\thechapter{\Alph{chapter}}
+
+\pagestyle{chapter}
+\singlespacing
+\setlength{\parindent}{0.0in}
+
 \chapter{bUTQ application / BKO portfolio summary}
 \label{BKO}
 This appendix chapter summarises my application for the basic University Teaching Qualification (bUTQ) or 'Basis Kwalificatie Onderwijs' (BKO) in Dutch.

@@ -1,3 +1,7 @@
+\pagestyle{chapter}
+\singlespacing
+\setlength{\parindent}{0.0in}
+
 \chapter{Metagenomics practical}
 \label{metagenomics_practical}
 

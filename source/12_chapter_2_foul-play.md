@@ -1,5 +1,7 @@
+\pagestyle{chapter}
 \singlespacing
 \setlength{\parindent}{0.0in}
+
 \chapter{Foul play in the leaf pocket? The metagenome of floating fern \emph{Azolla} reveals endophytes that do not fix N\textsubscript{2} but may denitrify.}
 \label{foul_play}
 

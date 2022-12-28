@@ -1,10 +1,14 @@
 \part{Chapters}
 \setcounter{page}{1}
 \pagenumbering{arabic}
+
+\pagestyle{chapter}
 \onehalfspacing
 \setlength{\parindent}{0.5in}
+
 \resetlinenumber
 \linenumbers
+
 \chapter{General introduction}
 \label{introduction}
 

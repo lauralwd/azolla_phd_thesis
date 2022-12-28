@@ -21,6 +21,12 @@
   \renewcommand{\headrulewidth}{0pt} % no line at top of page
   \fancyfoot[C]{~\thepage~}          % page numbers in Centre
 }
+
+\fancypagestyle{chapter}{
+  \fancyhead{}                       % clear headers
+  \fancyfoot{}                       % clear footers
+  \renewcommand{\headrulewidth}{0pt} % no line at top of page
+  \fancyfoot[RO,LE]{~\thepage~}      % page numbers Right Odd, Left Even
 }
 
 % Following package is used to add background image to front page

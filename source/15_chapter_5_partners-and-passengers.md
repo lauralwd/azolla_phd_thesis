@@ -1,3 +1,7 @@
+\pagestyle{chapter}
+\singlespacing
+\setlength{\parindent}{0.0in}
+
 \chapter{Partners \& Passengers?}
 \label{partners_and_passengers}
 

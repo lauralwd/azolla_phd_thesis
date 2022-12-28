@@ -1,5 +1,7 @@
+\pagestyle{chapter}
 \singlespacing
 \setlength{\parindent}{0.0in}
+
 \chapter{One two, tree! A workflow for creating state-of-the-art phylogenies designed for reproducibility with JuPyter, conda and git.}
 \label{phylogeny_workflow}
 
