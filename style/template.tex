@@ -1,9 +1,4 @@
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
-$if(fontfamily)$
-\usepackage{$fontfamily$}
-$else$
-\usepackage{lmodern}
-$endif$
+\documentclass[$for(classoption)$$classoption$$sep$,$endfor$,twoside]{book}
 
 % Overwrite \begin{figure}[htbp] with \begin{figure}[H]
 % p is for whole page
