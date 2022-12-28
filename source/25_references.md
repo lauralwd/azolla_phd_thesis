@@ -14,3 +14,4 @@ References are automatically generated from the BibTex file (References.bib)
 -->
 
 \chapter{References}
+\thispagestyle{chapter}
