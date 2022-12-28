@@ -8,11 +8,11 @@
 % Headers and page numbering
 \usepackage{fancyhdr}
 
+% plain is used on chapter title pages and the thesis title pages unless overidden with \thispagestyle{somepagestyle}
 \fancypagestyle{plain}{
   \fancyhead{}                       % clear headers
   \fancyfoot{}                       % clear footers
   \renewcommand{\headrulewidth}{0pt} % no line at top of page
-  \fancyfoot[]{}                     % no page nrs
 }
 
 \fancypagestyle{toc}{
