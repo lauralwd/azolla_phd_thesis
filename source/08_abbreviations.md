@@ -1,4 +1,4 @@
-# Abbreviations {.unnumbered}
+\chapter{Abbreviations} {.unnumbered}
 \pagestyle{toc}
 
 \begin{tabbing}
