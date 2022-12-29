@@ -15,4 +15,5 @@ References are automatically generated from the BibTex file (References.bib)
 -->
 
 \chapter{References}
+\setcounter{chapter}{18}
 \thispagestyle{chapter}
