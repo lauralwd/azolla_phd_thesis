@@ -1,6 +1,6 @@
-\part{Chapters}
 \setcounter{page}{1}
 \pagenumbering{arabic}
+\part{Chapters}
 
 \pagestyle{chapter}
 \onehalfspacing
