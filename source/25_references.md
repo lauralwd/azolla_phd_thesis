@@ -13,9 +13,8 @@ References are automatically generated from the BibTex file (References.bib)
 
 ...which you should create using your reference manager.
 -->
-
+\setcounter{chapter}{17}
 \chapter{References}
-\setcounter{chapter}{18}
 \thispagestyle{chapter}
 
 <!-- close the last page of this section as required for removing the thumb index on next "part page" -->
