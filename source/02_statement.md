@@ -10,4 +10,4 @@ I, Laura Warner Dijkhuizen confirm that the work presented in this thesis is my 
 }
 
 \vspace*{\fill}
-\newpage
+\cleardoublepage
