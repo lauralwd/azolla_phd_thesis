@@ -2,6 +2,11 @@
 \pagestyle{toc}
 \thispagestyle{toc}
 
+<!--
+Might also be done with:
+\usepackage{glossaries}
+\makeglossaries -->
+
 \begin{tabbing}
 
 \textbf{ACRONYM}~~~~~~~~~~~~ \= \textbf{A} \textbf{C}oncise \textbf{R}epresentation \textbf{O}f \textbf{N}umerous \textbf{Y}arning \textbf{M}arkings \\  
