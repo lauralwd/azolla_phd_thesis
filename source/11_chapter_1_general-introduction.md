@@ -12,7 +12,7 @@
 \chapter{General introduction}
 \label{introduction}
 
-\addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
+\addthumb{General Introduction}{\Large{I}}{white}{gray}
 
 \newpage
 

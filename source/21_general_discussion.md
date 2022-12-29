@@ -1,7 +1,7 @@
 \pagestyle{chapter}
 \singlespacing
 \setlength{\parindent}{0.0in}
-\addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
+\addthumb{General discussion}{\Large{D}}{white}{gray}
 
 \chapter{General discussion}
 \label{discussion}
