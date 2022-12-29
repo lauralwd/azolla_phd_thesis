@@ -1,6 +1,7 @@
 \pagestyle{chapter}
 \singlespacing
 \setlength{\parindent}{0.0in}
+\addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
 
 \chapter{One two, tree! A workflow for creating state-of-the-art phylogenies designed for reproducibility with JuPyter, conda and git.}
 \label{phylogeny_workflow}

@@ -1,6 +1,7 @@
 \pagestyle{chapter}
 \singlespacing
 \setlength{\parindent}{0.0in}
+\addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
 
 \chapter{Hidden treasures: public sequencing data of symbiotic emph{Azolla} ferns harbours a genus-wide metagenome.}
 \label{hidden_treasures}

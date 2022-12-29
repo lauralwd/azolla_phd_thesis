@@ -1,6 +1,7 @@
 \pagestyle{chapter}
 \singlespacing
 \setlength{\parindent}{0.0in}
+\addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
 
 \chapter{Forever together: One \emph{Nostoc azollae} is symbiont to all Azolla species}
 \label{forever_together}

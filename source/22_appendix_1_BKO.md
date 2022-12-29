@@ -8,6 +8,7 @@
 \setlength{\parindent}{0.0in}
 
 \chapter{bUTQ application / BKO portfolio summary}
+\addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
 \label{BKO}
 This appendix chapter summarises my application for the basic University Teaching Qualification (bUTQ) or 'Basis Kwalificatie Onderwijs' (BKO) in Dutch.
 The summary is organised by the key competencies required for a successful application.

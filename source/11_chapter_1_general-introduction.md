@@ -12,6 +12,8 @@
 \chapter{General introduction}
 \label{introduction}
 
+\addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
+
 # Plant biology for the twentyfirst century
 These days, scientists, -humanity itself- is challenged with the advent of climate change, dramatic global population growth, and major loss of rurable land.
 The field of plant biology plays a particularly important role securing a sustainable and healty future for humanity on plant earth.

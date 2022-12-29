@@ -4,6 +4,7 @@
 \singlespacing
 \setlength{\parindent}{0in}
 \setlength{\parskip}{0pt}
+\addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
 
 <!--
 Do not edit this page.
