@@ -21,6 +21,12 @@
 \usepackage{tocloft}
 % TP: end hack
 
+% toc formatting. See tocloft documentation for more options
+% indent chapter entries:
+\setlength{\cftchapindent}{1cm}
+% reduce vertical space between chapter entries
+\setlength{\cftbeforechapskip}{4pt}
+
 $if(linestretch)$
 \usepackage{setspace}
 \setstretch{$linestretch$}
