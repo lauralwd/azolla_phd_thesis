@@ -5,7 +5,7 @@
 
 \chapter{General discussion}
 \label{discussion}
-
+\newpage
 
 # left-over notes from the hidden treasures chapter:
 
