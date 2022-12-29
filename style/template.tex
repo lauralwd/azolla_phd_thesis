@@ -370,19 +370,6 @@ $for(include-before)$
 $include-before$
 
 $endfor$
-$if(toc)$
-{
-\hypersetup{linkcolor=black}
-\setcounter{tocdepth}{$toc-depth$}
-\tableofcontents
-}
-$endif$
-$if(lot)$
-\listoftables
-$endif$
-$if(lof)$
-\listoffigures
-$endif$
 
 % This is where the converted markdown files will go
 $body$
