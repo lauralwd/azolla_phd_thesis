@@ -647,3 +647,13 @@ SNPhylo, trees on snips of whole genomes
 ![](source/figures/fig7_2OGD_phylogeny.pdf){#fig:fig7_2OGD_phylogeny}
 
 \nolinenumbers
+
+<!-- close the last page of this section as required for removing the thumb index on next "part page" -->
+\newpage
+\null
+<!-- don't show page nrs on cleardouble page -->
+\pagestyle{plain}
+<!-- stop the thumbmarking scheme (partwise) and start it (chapterwise) in the next chapter -->
+\stopthumb
+<!-- clear double page so that the chapters start nicely on a new right page -->
+\cleardoublepage

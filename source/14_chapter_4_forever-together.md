@@ -681,3 +681,13 @@ skipped
 ![Pangenome summary of _Azolla_ mitochondria. Mitochondrial genomes were scanned for ORFs and clustered (MCL=7) on co-occurence frequencies of these ORFs in the various genomes (centre dendrogram). The frequency in which gene clusters occur in a genome is shown as barplots drawn as concentric semi-circles around the dendrogram. Outside the frequency barplots, functional annotation is shown in bright green (NCBI COGGs and KEGG KOFAM). Homogenity of clusters is calculated as geometric (few gaps is high homogeneity), functional (matching amino acid residues is high homogeneity) and a combined version of these two. Adjacent to the geneclusters, several plots are shown. These depict total genome length, GC content, genes per kb, Singleton gene clusters and total number of gene clusters.](source/figures/fig4_Azolla_mitochondrium_pangenome.pdf){#fig:fig4_mitochondrium_pangenome}
 
 \nolinenumbers
+
+<!-- close the last page of this section as required for removing the thumb index on next "part page" -->
+\newpage
+\null
+<!-- don't show page nrs on cleardouble page -->
+\pagestyle{plain}
+<!-- stop the thumbmarking scheme (partwise) and start it (chapterwise) in the next chapter -->
+\stopthumb
+<!-- clear double page so that the chapters start nicely on a new right page -->
+\cleardoublepage

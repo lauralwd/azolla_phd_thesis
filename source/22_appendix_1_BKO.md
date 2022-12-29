@@ -227,3 +227,14 @@ In het bijzonder de collega’s van IntroBioinfo die mij het vertrouwen gaven om
 Vervolgens bedank ik alle studenten die ik heb mogen onderwijzen, en specifiek alle studenten van wie ik feedback heb mogen ontvangen.
 Als junior docent is die aanmoediging en sturing enorm waardevol geweest.
 Tot slot bedank ik allen die mij hebben geholpen en geadviseerd in mijn BKO, specifiek Dr. Margot Koster en de BKO-commissie.
+
+
+<!-- close the last page of this section as required for removing the thumb index on next "part page" -->
+\newpage
+\null
+<!-- don't show page nrs on cleardouble page -->
+\pagestyle{plain}
+<!-- stop the thumbmarking scheme (partwise) and start it (chapterwise) in the next chapter -->
+\stopthumb
+<!-- clear double page so that the chapters start nicely on a new right page -->
+\cleardoublepage

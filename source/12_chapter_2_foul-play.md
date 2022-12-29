@@ -417,3 +417,13 @@ Funding was from the Utrecht University Graduate Student Program, the EIT Climat
 
 # Supplemental data
 Supplementary figures and information are available online at [https://nph.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fnph.14843&file=nph14843-sup-0001-SupInfo.pdf](https://nph.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fnph.14843&file=nph14843-sup-0001-SupInfo.pdf).
+
+<!-- close the last page of this section as required for removing the thumb index on next "part page" -->
+\newpage
+\null
+<!-- don't show page nrs on cleardouble page -->
+\pagestyle{plain}
+<!-- stop the thumbmarking scheme (partwise) and start it (chapterwise) in the next chapter -->
+\stopthumb
+<!-- clear double page so that the chapters start nicely on a new right page -->
+\cleardoublepage

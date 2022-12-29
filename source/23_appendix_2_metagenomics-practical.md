@@ -102,3 +102,13 @@ Starting at acquiring sequencing data, all the way to annotating individual draf
 ![Screenshot of a pre-filled JuPyter notebook page from the metagenomics practical involving Python code. This page was taken from the online example and answers pages.](source/figures/mgp_jupy_2.png){#fig:mgp_jupy_2}
 
 ![Screenshot of a JuPyter notebook page from the metagenomics practical involving BASH code. JuPyter notebook pages allow for background, instructions and code exercises to co-exist next to each other in a single environment.](source/figures/mgp_jupy_1.png){#fig:mgp_jupy_1}
+
+<!-- close the last page of this section as required for removing the thumb index on next "part page" -->
+\newpage
+\null
+<!-- don't show page nrs on cleardouble page -->
+\pagestyle{plain}
+<!-- stop the thumbmarking scheme (partwise) and start it (chapterwise) in the next chapter -->
+\stopthumb
+<!-- clear double page so that the chapters start nicely on a new right page -->
+\cleardoublepage

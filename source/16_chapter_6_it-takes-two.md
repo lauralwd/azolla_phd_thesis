@@ -542,3 +542,13 @@ We are grateful to Bruno Huettel for advice on dual RNA sequencing library prepa
 We thank Bas Dutilh and Berend Snel for access to the Utrecht University bioinformatic computing resources.
 Data Availability Statement
 Data will be uploaded upon acceptance of the manuscript and will include 1) read files for the dual RNA seq as well as small RNA seq on ENA, 2) phylogeny files on Github.
+
+<!-- close the last page of this section as required for removing the thumb index on next "part page" -->
+\newpage
+\null
+<!-- don't show page nrs on cleardouble page -->
+\pagestyle{plain}
+<!-- stop the thumbmarking scheme (partwise) and start it (chapterwise) in the next chapter -->
+\stopthumb
+<!-- clear double page so that the chapters start nicely on a new right page -->
+\cleardoublepage

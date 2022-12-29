@@ -983,3 +983,13 @@ Table: MAG statistics for all samples except those _A. filiculoides_ 'wild' and 
 ![Binning quality control in CheckM [@Parks2015] of various binning methods. The quality of bins was assessed as completeness (dark green) and redundancy (red) by scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies (horizontal panels), comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual; vertical panels). Numbers in the panels show the total number of bins created by a particular method for a particular assembly (black) and those bins passing QC criteria of completeness above 90% and redundancy below 10% (Dark green). These thresholds are also indicated by grey lines in the figure.](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_checkm}
 
 \nolinenumbers
+
+<!-- close the last page of this section as required for removing the thumb index on next "part page" -->
+\newpage
+\null
+<!-- don't show page nrs on cleardouble page -->
+\pagestyle{plain}
+<!-- stop the thumbmarking scheme (partwise) and start it (chapterwise) in the next chapter -->
+\stopthumb
+<!-- clear double page so that the chapters start nicely on a new right page -->
+\cleardoublepage

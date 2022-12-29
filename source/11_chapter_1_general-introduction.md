@@ -173,3 +173,13 @@ Secondly, an example of teaching material that is completely of my own design is
 Finally, I include a short narrative CV on my non-science and non-teaching activities during my PhD and what I gained from them.
 
 \nolinenumbers
+
+<!-- close the last page of this section as required for removing the thumb index on next "part page" -->
+\newpage
+\null
+<!-- don't show page nrs on cleardouble page -->
+\pagestyle{plain}
+<!-- stop the thumbmarking scheme (partwise) and start it (chapterwise) in the next chapter -->
+\stopthumb
+<!-- clear double page so that the chapters start nicely on a new right page -->
+\cleardoublepage

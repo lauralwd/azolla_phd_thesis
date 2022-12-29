@@ -197,9 +197,8 @@ Bad jokes
 \newpage
 \null
 <!-- don't show page nrs on cleardouble page -->
-\thispagestyle{plain}
-<!-- stop the thumbmarking scheme part -->
+\pagestyle{plain}
+<!-- stop the thumbmarking scheme (partwise) and start it (chapterwise) in the next chapter -->
 \stopthumb
 <!-- clear double page so that the chapters start nicely on a new right page -->
 \cleardoublepage
-\thispagestyle{plain}
