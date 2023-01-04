@@ -377,15 +377,5 @@ $endfor$
 % This is where the converted markdown files will go
 $body$
 
-$if(natbib)$
-$if(biblio-files)$
-$if(biblio-title)$
-$if(book-class)$
-\renewcommand\bibname{$biblio-title$}
-$else$
-\renewcommand\refname{$biblio-title$}
-$endif$
-$endif$
 
-$endfor$
 \end{document}
