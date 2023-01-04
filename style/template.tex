@@ -78,6 +78,7 @@ $endif$
 $if(geometry)$
 \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 $endif$
+
 $if(natbib)$
 \usepackage{natbib}
 \bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
@@ -88,6 +89,7 @@ $if(biblio-files)$
 \bibliography{$biblio-files$}
 $endif$
 $endif$
+
 $if(listings)$
 \usepackage{listings}
 $endif$
@@ -220,7 +222,7 @@ $endfor$
         \vfill
         \Large
         $author$
-        
+
         \vspace{2.5cm}
         \normalsize
         Rendered on \today
@@ -384,16 +386,6 @@ $else$
 \renewcommand\refname{$biblio-title$}
 $endif$
 $endif$
-\bibliography{$biblio-files$}
-
-$endif$
-$endif$
-$if(biblatex)$
-\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
-
-$endif$
-$for(include-after)$
-$include-after$
 
 $endfor$
 \end{document}
