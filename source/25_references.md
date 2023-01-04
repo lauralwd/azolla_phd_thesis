@@ -6,13 +6,7 @@
 \setlength{\parskip}{0pt}
 \addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
 
-<!--
-Do not edit this page.
 
-References are automatically generated from the BibTex file (References.bib)
-
-...which you should create using your reference manager.
--->
 \setcounter{chapter}{17}
 \chapter{References}
 \thispagestyle{chapter}
@@ -26,3 +20,5 @@ References are automatically generated from the BibTex file (References.bib)
 \stopthumb
 <!-- clear double page so that the chapters start nicely on a new right page -->
 \cleardoublepage
+
+# End of all the stuff:
