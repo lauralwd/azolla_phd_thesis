@@ -1,4 +1,5 @@
 # Forever together: One nostoc azollae is symbiont to all Azolla species
+
 \label{forever together}
 
 \footnotesize
@@ -18,23 +19,27 @@ Henriette Schluepmann^1^.
 \setlength{\parindent}{0.5in}
 
 ## Introduction
+
 Cyanobacterial symbiosis in general.
 
 _Nostoc azollae_ main symbiont of _Azolla_
- * Main symbiont, N-fixation.
- * present in All _Azolla_
- * cap exchange experiments
- * genus name debate
+
+* Main symbiont, N-fixation.
+* present in All _Azolla_
+* cap exchange experiments
+* genus name debate
 
 Symbiosis co-evolution. How does _N. azollae_ compare to other known examples.
- * very strict inheritance
- * Exception in Li et al tree?
-   - compare to chloroplast, how about mitochondrium?
- * Common introduction in the genus.
+
+* very strict inheritance
+* Exception in Li et al tree?
+  * compare to chloroplast, how about mitochondrium?
+* Common introduction in the genus.
 
 _N. azollae_ was first sequenced by @Ran2010, taken from _Azolla filiculoides_.
- * Its genome is heavily degraded
- * Symbiosis bottleneck, did this occur in _Azolla's_  main symbiont? At what stage in the symbiosis.
+
+* Its genome is heavily degraded
+* Symbiosis bottleneck, did this occur in _Azolla's_  main symbiont? At what stage in the symbiosis.
 
 Here we gather and supplement data of _N. azollae_ and _Azolla_ plasmids associated with the _Azolla_ genus and study their evolution.
 We add long-read data to further resolve the structure of the fragmented _N. azollae_ genome assembly associated with _A. filiculoides_ as sequenced in chapter \ref{hidden treasures}.
@@ -46,15 +51,18 @@ Finally, we aim to embed the _N. azollae_ evolution in a broader perspective of 
 Within this broader perspective of Nostocales genomes, some symbiotic, some not, we hope to identify clusters of genes shared by symbiotic Nostocales Cyanobacteria and perhaps shared by N. azollae specifically.
 
 ## Methods
+
 Anvio pangenomics
 IQtree
 all scripts, snakemake on github
 
 ### nanopore sequencing
+
 flowcells,
 postprocessing
 
 ### data
+
 table on the mags we have from chapter \ref{hidden treasures}
 
 read data, same as chap3, but skipping Afiliculoides since that is the reference already.
@@ -62,7 +70,8 @@ When multiple samples are available, taking the longest insert size.
 
 ## Results
 
-### De novo assembly of missing _N. azollae_ strains and _Azolla_ chloroplasts and mitochondria.
+### De novo assembly of missing _N. azollae_ strains and _Azolla_ chloroplasts and mitochondria
+
 We aim to to perform comparative genomes and study co-evolution of _N. azollae_ and its host.
 To achieve this, we gather all _N. azollae_ and _Azolla_ plastid genomes that are not available publicly yet.
 First, we use nanopore sequencing to assemble chromosome length assemblies of _N. azollae_ taken the from: the _A. filiculoides_ Galgenwaard strain, from _A. pinnata_, and from _A. sp_ indicated as Bordeaux.
@@ -82,7 +91,7 @@ Nanopore reads were selected by mapping to the bin with suspected mitochondrial 
 This assembly was much smaller `get nrs` than the PacBio RSII one, but still fragmented.
 Redundant contigs were idintified via blast all-vs-all and then removed, resulting in `nr` contigs together constituting the first draft genome of an _Azolla_ mitochondrium.
 
-```
+```note
 Idea, I can make a many panel figure displaying the various bandage images
 and their similarity to references, but I don't think it is important enough...
 ```
@@ -97,6 +106,7 @@ The _A. sp._ genome assembly was highly fragmented due to low coverage, but stil
 `genome sizes in table`
 
 insert table with
+
 * strain
 * Nanopore sequencing yield
 * Nazollae/chlorplast/mito
@@ -118,6 +128,7 @@ De-novo assemblies of plastids turned out to be highly fragmented (over 300 cont
 Assemblies still running...
 
 insert table with Illumina assembly stats
+
 * strain
 * Nazollae/chlorplast/mito
 * Illumina read pairs
@@ -128,6 +139,7 @@ insert table with Illumina assembly stats
 * coverage min,mean,max?
 
 ### All _N. azollae_ are highly similar in terms of ANI and gene content but have some unique features
+
 Armed with _N. azollae_ of all known _Azolla_ strains, we wonder how similar these genomes are in gene content, and if they can be considered separate species or if they are the same.
 All available _N. azollae_ genomes and the reference from @Ran2010 were processed in an Anvi'o pangenomics workflow [GitHub page].
 This workflow finds ORFs, tries to functionally annotate these via either NCBI COGs or KEGG KOFAMS, and then maps all ORFs to all ORFs with blastp to then cluster these genes in gene clusters that systematically co-occur in the various genomes.
@@ -135,14 +147,14 @@ Additionally, Average Nucleotide Identity (ANI) was determined over all regions 
 
 ![Pangenome summary of _Nostoc azollae_ strains representative of the entire _Azolla_ genus. _N. azollae_ genomes were scanned for ORFs and clustered on co-occurence frequencies of these ORFs in the various genomes (centre dendrogram). The presence/absence pattern of gene clusters is shown in a heatmap-like fashion as concentric semi-circles around the dendrogram. Outside the heatmap, SCMG clusters are indicated in Bordeaux red (SCG Clusters) and functional annotation is shown in bright green (NCBI COGGs and KEGG KOFAM). Homeogenity of clusters is calculated as geometric (based on gaps), functional ( based on amino acid residues) and a combined version of these two. The final semi circle shows a manual binning of gene clusters in biologically meaningfull groups, including a phylogenomic_core set of genes, used for building a phylogenomic tree. Adjacent to the genecluster heatmap, several plots are shown. These depict total genome length, GC content, Completion and Redundancy (based on SCMG analysis), genes per kb, Singleton gene clusters, total number of gene clusters, and a matrix showing ANI calculations of all genomes against each other. Finally, a phylogenomic tree is shown which is also used to order the genomes.](source/figures/fig4_Nostoc_azollae_pangenome.pdf){#fig:fig4_Nazollae_pangenome}
 
-All genomes of _N. azollae_ taken from various _Azolla_ hosts are highly similar both in ANI and in gene content but have some unique features. 
+All genomes of _N. azollae_ taken from various _Azolla_ hosts are highly similar both in ANI and in gene content but have some unique features.
 All genomes count similar amount of gene clusters except the Bordeaux strain.
 The Euazolla section is very similar in ANI `over ...%` but both rhizosperma species are no more than `...%` similar to any other _N. azollae_.
 Strictly speaking, this means that the _N. azollae_ from _A. pinnata_ and _A. nilotica_ are separate species from the _N. azollae_ in the Eukazolla section.
 For the manuscript, we chose not do make this disctinction.
 The Bordeaux strain genome assembly stands out for it misses many of the genes shared by other _N. azollae_.
 These are likely missing due to the poor assembly quality, data input was minimal in this assembly and well below the recommended coverage for assembly with flye (10x vs 40x minimum).
-Regardless, all genomes show low redundancy and high completion scores. 
+Regardless, all genomes show low redundancy and high completion scores.
 A big majority of genes is shared amongst all N. azollae. (N. azollae core), not regarding any genes missing in the Bordeaux strain.
 Within this core genome, a substantial amount of genes has functional annotation (ncbi COG or KEGG KOFAM). `count percentage`
 Outside this group, the frequency of functional annotation is less. `count percentage`
@@ -158,7 +170,7 @@ The Bordeaux strain clusters with these two _A. caroliniana_ strains in the phyl
 From all genes in the pangenome, I select a subset of genes that occur in all genomes only once, that have no more than 10% gaps when aligned, and that are no more than 95% identical in sequence. The resulting 27 genes are used for a phylogenomic tree. The resulting phylogeny fits with that already published of the _Azolla_ genus [@Metzgar2007] and matches with the ANI of the pangenome.
 The result then is (preliminary): All N. azollae are very similar, the pinnata and nilotica strain both are quite different (but still very similar). The difference is reflected in annotated genes, but no specific function can be attributed to these genes unique for a group.
 
-```
+```note
 The same analysis is running over the weekend of the chloroplast and mitochondrium, trees should mirror. That will be the next results sub-section. Do these trees mirror.
 
 #todo still: 
@@ -167,32 +179,36 @@ The same analysis is running over the weekend of the chloroplast and mitochondri
 ```
 
 **co-evolution**
+
 * Wierd co-evolution tree in @Li2018. Let's do this again and assembly the chloroplasts anew. (and mito to get rid of that too...)
 
 **genomics/synteny**
 whole genome alignment figure:
+
 * Sync and scaffold assemblies to reference.
 * How similar are they genomically
-   - single introduction in Azolla genus
+  * single introduction in Azolla genus
 * Is the published structure correct, complete, and unchanged
-   - Giulio's figure, yes the structure is unchanged but two plasmids are actually one.
+  * Giulio's figure, yes the structure is unchanged but two plasmids are actually one.
 
 **genomics/pseudogenes & transpons**
+
 * which genes are functional in all species?
-   - pseudogenation master table
+  * pseudogenation master table
 
 About pseudogenes and transposons:
+
 * Are pseudogenes shared?: shared transposons by Giulio
-  - which genes are functional in all species?
-  - pseudogenation master table
+  * which genes are functional in all species?
+  * pseudogenation master table
 
 * When did the transposons move (shown in the tree)
-   - tricky...
-   - single introduction in Azolla genus and rapid degradation before Azolla speciations!
+  * tricky...
+  * single introduction in Azolla genus and rapid degradation before Azolla speciations!
 
 Transposon position is conserved and the symbiosis formed rapidly in the common ancestor of all Azolla species, after which evolution of the symbiont came to a standstill and the different azolla strains speciated.
 
-```
+```note
 Likely to be skipped
 **genomics Dual RNAseq data**
 About genomics of a symbiont:
@@ -207,13 +223,14 @@ About genomics of a symbiont:
 ```
 
 **Evolution**
+
 * Is the gene content of N. azollae special, symbiotic toolkit?
-   - pangenomics multiple nostocs
+  * pangenomics multiple nostocs
 
 * So much debate about which species it is, can we sovle that here?
-   - phylogenomic tree nostoc, trichormus, anabaena.
+  * phylogenomic tree nostoc, trichormus, anabaena.
 
-```
+```note
 Likely to be skipped:
 **Morphology**
 * encapsulating from the meristem colony --?
@@ -224,15 +241,18 @@ Likely to be skipped:
 ```
 
 ## Discussion
+
 **Nostoc in the Azolla symbiosis**
 N. azollae rappid introduction and degradation solidified its presence in the Azolla symbiosis.
+
 * Co-evolution is ... awaiting trees ...
 * N. azollae is basically one species, except for pinnata and nilotica, but what does that even mean...
 * Pseudogenation has come to a standstill
 
 How does the symbiont remain stable
+
 * bottleneck effect, Muellers ratchet?
-   - might polyploidy be involved.
+  * might polyploidy be involved.
 
 conservedness --> selection presure of presumable symbiosis important genes
 
@@ -244,7 +264,7 @@ Symbiotic gene kit
 **future work**
 is there restructuring in the resting stages of *Nostoc azollae*
 
-```
+```note
 skipped
 * Do we find more expressed regions with the RNAseq data
    - We do, needs propper annotation.

@@ -1,6 +1,8 @@
 \singlespacing
 \setlength{\parindent}{0.0in}
+
 # Hidden treasures: public sequencing data of symbiotic _Azolla_ ferns harbours a genus-wide metagenome
+
 \label{hidden treasures}
 
 \footnotesize
@@ -24,6 +26,7 @@ check all figure legends
 --->
 
 ## Abstract
+
 Bacteria-host symbioses are present throughout the plant kingdom, and bacteria can contribute all kinds of functions to their hosts.
 The plant genus _Azolla_ is known to host multiple endophytic bacteria, which it transfers systematically to successive generations.
 Here we set out to assemble the genomes of bacteria associated with _Azolla_ by re-using non-metagenomic data already available in public repositories.
@@ -38,6 +41,7 @@ Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus su
 Consequently, they may be selected for in the evolution of the _Azolla_ holobiont.
 
 ## Introduction
+
 Many bacteria associate with multicellular hosts and may convey specific metabolic properties or traits of benefit to their hosts.
 Such associations may be temporary; these bacteria are often recruited from the environment of a host triggered by certain conditions.
 Alternatively, bacteria may be maintained over the host generations and thus forming a permanent symbiosis with a host species.
@@ -132,6 +136,7 @@ The resulting genomes of all the _Azolla_ associated bacteria constitute the _Az
 ## Methods
 
 ### Tools and data availability
+
 In this study, we use various metagenomics tools to acquire genomes of bacterial endophytes associated with an entire genus of hosts from publicly available bulk DNA extractions (+@fig:fig3_data_overview).
 Sequenced DNA of various sources was iteratively filtered with BWA [@Li2009a] and assembled into contigs with SPAdes [@Nurk2017].
 Data was filtered in the first filter stage by mapping against a curated reference consisting of host nuclear DNA and chloroplast DNA by @Li2018 (Azfiv1.1 fernbase) (host filtered).
@@ -169,6 +174,7 @@ Conda environments used in this study can be found in [github.com/lauralwd/Azoll
 \end{sidewaysfigure}
 
 ### Data
+
 Sequencing data used here represented six of seven species in the _Azolla_ genus and was generated as part of three studies (+@fig:fig3_data_overview).
 These species are part of two subgenera, the _Rhizosperma_ section of the genus comprising _Azolla pinata_ and _Azolla nilotica_, and the _Euazolla_ section comprising the other four species (+@fig:fig3_data_overview\-A)
 Within the _Euazolla_ section, two subclusters of closely related species can be distinguished; firstly _A. rubra_ and _A. filiculoides_ and secondly _A. mexicana_, _A. microphylla_ and _A. carolinana_.
@@ -193,6 +199,7 @@ In total, this study examines eighteen sequencing libraries, taken from nine bio
 ## Results
 
 ### Filtering of _Azolla_ sequencing data against host DNA reduces assembly size and the computational requirements thereof
+
 First, we set out to rid raw WGS data from plant DNA to ease the assembly of the bacteria whose genomes are also present in this data.
 Filtering DNA reads reduces input diversity and hence reduces complexity in the assembly graph, possibly improving metagenome assembly quality.
 The bioinformatic workflow developed here takes short-read DNA sequencing data as the main input, then iteratively removes host reads and finally assembles the remainder into contigs (+@fig:fig3_filtering_and_assembly\-A).
@@ -221,18 +228,19 @@ Likely due to a reduced size of the assembly graph.
 
 filter stage    | superkingdom  | contig count |scaffold count | total scaffold length (Mb) | median scaffold length (kb) | average scaffold length (kb)
 -----           |    -----      | ---   |  ---  | --- |  ---  |  ---
-host filtered   | Bacteria	    |	44861 | 48500	| 814	| 5666	| 16775
-double filtered | Bacteria      |	44742 | 48304	| 812	| 5671	| 16816
-host filtered   | Eukaryota	    |	70168 | 70273	| 636	| 5588	|  9045
-double filtered | Eukaryota     |	  612 |   960	|   4	| 3382	|  4068
-host filtered   | not classified|  2872 |  2302	|  21 |	5470  |	 8914
-double filtered | not classified|   507 |   536	|   3 |	3626	|  4971
-host filtered   | no ORFs found |120555 |112519 |	762	| 4748	|  6768
-double filtered | no ORFs found | 19523 | 25323	| 101	| 3282	|  3989
+host filtered   | Bacteria     | 44861 | 48500 | 814 | 5666 | 16775
+double filtered | Bacteria      | 44742 | 48304 | 812 | 5671 | 16816
+host filtered   | Eukaryota     | 70168 | 70273 | 636 | 5588 |  9045
+double filtered | Eukaryota     |   612 |   960 |   4 | 3382 |  4068
+host filtered   | not classified|  2872 |  2302 |  21 | 5470  |  8914
+double filtered | not classified|   507 |   536 |   3 | 3626 |  4971
+host filtered   | no ORFs found |120555 |112519 | 762 | 4748 |  6768
+double filtered | no ORFs found | 19523 | 25323 | 101 | 3282 |  3989
 
 Table: Assembly statistics per superkingdom before and after the second filtering stage. Only contigs and scaffolds longer than 2.5kbp are included. {#tbl:tbl3_1}
 
 ### Filtering reduced the eukaryotic fraction of the metagenome assembly content but did not increase the assembly quality of the bacterial fraction
+
 Filtering input sequencing data reduced assembly size.
 Next, we investigate the efficacy of this filtering approach in terms of taxonomic complexity and quality of the assembly.
 The main rationale for this intensive filtering approach was to decrease complexity in the metagenome assembly graph, thereby improving the length and quality of assembled bacterial contigs.
@@ -261,6 +269,7 @@ The filtering approach, we conclude, did not substantially improve assembly qual
 \end{sidewaysfigure}
 
 ### Filtered metagenome assemblies contain distinct microbial genomes systematically reoccurring in the _Azolla_ genus
+
 The double filtered assemblies contain numerous bacterial contigs of each _Azolla_ species sampled here (+@fig:fig3_filter_length_distributions Bacteria).
 Next, we wondered if these contigs may be attributed to a specific taxonomy.
 In doing so, we take a genus perspective and inquire wether we can summarise a whole genus' metagenome considering its contig taxonomy and abundance, now assessing scaffolds rather than contigs.
@@ -332,6 +341,7 @@ In this process, lowly abundant scaffolds were combined into longer scaffolds ai
 However, the scaffold abundance remains a reflection of the original Illumina contribution to that scaffold only, but it is corrected for the new scaffold length, explaining why such long scaffolds can have such a low abundance.
 
 ### _Azolla filiculoides_ contains multiple presumably endophytic bacteria
+
 With the knowledge that the metagenome assemblies of the _Azolla_ genus contain multiple bacterial genomes each, we set out to accurately cluster these into MAGs.
 Creating these MAGs allows us to examine the metabolic pathways encoded within them, and, when the study design allows, infer their location on or in the host plant.
 In the process of sorting the DNA scaffolds, we call these clusters: bins.
@@ -436,6 +446,7 @@ Rhizobiales       & rest\_7           &  1.36 &  0.69 &   0.11 &   0 &  0 & 14 &
 \end{threeparttable}
 
 ### Binning assemblies from non-metagenomic data is feasible with binning signals obtained from samples of different species and alltogether diffrent experiments
+
 The manual binning approach worked well on data of a metagenomic study design.
 Next we apply this method to the double filtered data taken from non-metagenomic studies.
 Typically, binning would depend highly on the differential abundance of scaffolds over various sequencing libraries and, to a lesser extent, on k-mer profiles of scaffolds.
@@ -528,6 +539,7 @@ Burkholderiales     & rest3                     & 1.62 &   0 &  0 &  20 & 0 \\
 \end{threeparttable}
 
 ### Manual binning yields up to 21 bins per sample, outperforming automated binning with extraneous binning signals
+
 Manual binning with extraneous binning signals worked well for individual metagenome assemblies.
 Next, we validate that this method produced high quality bins for all metagenomes binned here and compare it against automated binning approaches algorithms.
 Validation of binning is considered a prerequisite before continuing analyses.
@@ -597,6 +609,7 @@ Given the high generally QC scores and increased specificity of taxonomy, these 
 ![Counts of bins without taxonomic classification. Bin taxonomy was determined with BAT [@VonMeijenfeldt2019], and then counts of bins without taxonomy are shown as line plots for various levels of taxonomy (x-axis) and individual metagenome assemblies (vertical panels). Different binning methods (Concoct, Metabat2, Manual) are depicted in red, green and blue, respectively.](source/figures/fig3_binning_QC_no_taxonomy.pdf){#fig:fig3_binning_QC_no_taxonomy}
 
 ### Systematic occurrence of taxonomical orders in the entire _Azolla_ genus
+
 Next, we assessed whether bins of certain taxonomical orders reoccur systematically in the _Azolla_ genus as scaffolds did in +@fig:fig3_Azolla_genus_metagenome_order.
 Since the binning process has concluded satisfactory, bins are now termed MAGs.
 At the level of Phylum, The majority of bins are classified as cyanobacteria and proteobacteria (+@fig:fig3_binning_QC_all_taxonomy; Phylum), the latter being dominated by Alphaproteobacteria at the class level (+@fig:fig3_binning_QC_all_taxonomy; class).
@@ -669,6 +682,7 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 \end{sidewaysfigure}
 
 ## Discussion
+
 In this study, we assembled high-quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (+@fig:fig3_data_overview) through a process of thorough filtering (+@fig:fig3_filtering_and_assembly).
 Filtering substantially reduced the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (+@fig:fig3_filter_length_distributions).
 Each species' metagenome assembly contained several distinct bacterial genomes, and these metagenomes resembled each other in terms of taxonomy (+@fig:fig3_Azolla_genus_metagenome_order).
@@ -676,6 +690,7 @@ Manual binning (+@fig:fig3_Azfil_wild_binning; +@fig:fig3_Azmic_binning) allowed
 Several orders of bacteria are systematically associated with the _Azolla_ genus as a whole (+@fig:fig3_binning_QC_all_taxonomy; order).
 
 ### Metagenome assemblies can be retrieved from publicly available non-metagenomic data
+
 Acquiring metagenomes from public sequencing data not originally meant for metagenome assembly is feasible and may be further applied to shed light on the mechanisms of host-microbe symbioses.
 Researchers interested in metagenomes may use a similar method as demonstrated here to mine existing data for microbial genomes.
 The approach is especially interesting if a host species is already known or suspected to host bacteria or if bacterial DNA was previously identified in reads or assemblies of a sequencing run, as was the case for _Azolla_.
@@ -710,6 +725,7 @@ In the methods presented here, we deliberately do not provide a single tool to t
 We aim to make the method as open and reproducible as possible by documenting the workflow on Github and discussing the benefits and costs of several aspects of our approach in this manuscript.
 
 ### Manual curation allowed for high-quality bins
+
 Binning of non-metagenomic assemblies is possible and may be aided by extraneous binning signals and scaffold taxonomy.
 Here, we assemble DNA extracted from bulk plant samples and retrieve MAGs of bacteria associated with those plants.
 Ideally, differential sampling of various fractions or biological replicates allows distinguishing scaffolds of the various genomes from each other.
@@ -738,6 +754,7 @@ Additionally, the specificity of the taxonomy of these bins as determined by BAT
 Manual binning and manual curation of extraneous binning signals allowed for a more parsimonious solution of the _Azolla_ genus metagenome, providing MAGs of higher quality.
 
 ### microbiome vertical transmission in _Azolla_
+
 To our knowledge, this is the first scholarly publication about the metagenome of a whole genus; especially a genus known for its mechanism of microbiome vertical transfer.
 This mechanism is demonstrated for _N. azollae_, but more microbes have been seen in _Azolla_ ferns their leaf pockets and megasporocarps via electron microscopy [@Wallace1986; @Nierzwicki-Bauer1990; @Carrapico1991; @Zheng2009].
 To demonstrate vertical transmission of microbes besides _N. azollae_, it may be more fitting to sequence multiple generations of plants and the reproductive organs of those generations.
@@ -788,6 +805,7 @@ Sequencing the SAM and reproductive stages could provide further information on 
 Alternatively, FISH may pinpoint the exact location of the bacteria whose genomes were assembled here, either in the SAM, the leaves or the sporocarps.
 
 ### Azolla genus-wide metagenome
+
 Inspired by the holobiont concept [@Zilber-Rosenberg2008] and the mechanism for vertical transfer in _Azolla_ ferns, it makes sense to study a symbiosis like _Azolla_ from the genus perspective rather than a single species.
 Systematically _Azolla_ associated bacteria besides the primary symbiont are predominantly proteobacteria, mostly Alphaproteobacteria and Betaproteobacteria (fig:fig3_binning_QC_all_taxonomy; Phylum & class).
 These classes have often been seen as endophytes to plants before [@Frank2018].
@@ -851,7 +869,9 @@ Possible study directions of the _Azolla_ genus metagenome are numerous, and the
 We gladly share all genomes of bacteria associated with the _Azolla_ genus with the research community to study this remarkable symbiosis.
 
 \newpage
+
 ## Supplemental data
+
 \tiny
 | Host sample                       | Taxonomical order  | MAG name                  | MAG length (MBase) | Anvi'o completeness | Anvi'o redundancy | CheckM completeness | CheckM redundancy |
 | --------------------------------- | ------------------ | ------------------------- | -------    | ---------    | ---------    | ----------    | ----------    |
