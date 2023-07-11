@@ -1,12 +1,59 @@
+# General introduction
+
+\label{introduction}
+
 \setcounter{page}{1}
 \pagenumbering{arabic}
 \onehalfspacing
 \setlength{\parindent}{0.5in}
 
-# General introduction
-\label{introduction}
+<!---
+#### H framework
+1. Why you are so motivated to study a symbiosis
+2. In particular Azolla
+3. You personal development in this field using bioinformatic approaches
+4. One key development during the short time of your activity: How to document reproducibility in bio informatic studies
+--->
 
-## Plant biology for the twentyfirst century
+## Symbioses
+
+Trend in biology to see organisms as assemblages rather than individuals.
+
+- gut microbiome
+- hygene and allergies
+- root microbiome
+- plant micorhiza networks
+
+Holobiont theory, the debate.
+
+I see this as a gradient from the simplest of ecological interactions, to complete dependent co-evolved organelles in cells and everything in between. Are the concepts usefull, then use them.
+
+- not usefull
+- usefull
+
+Why symbioses motivate me
+
+- "romanticised" image of organisms working together
+- interesting biology
+- inter-species complexity and evolution
+
+## The Azolla symbioses
+
+### agricultural potential
+
+### roadmap to breeding a novel-symbiosis-crop
+
+## Bioinformatics of novel-crops
+
+## Documentationi and reproducibility in bioinformatics
+
+![Illustration of the _Azolla_ symbiosis life cycle by Erbil Güngör](source/figures/fig1_life-cycle.png){#fig:fig1_life-cycle width=100%}
+
+<!---
+
+\newpage
+## Old notes:
+### Plant biology for the twentyfirst century
 These days, scientists, -humanity itself- is challenged with the advent of climate change, dramatic global population growth, and major loss of rurable land.
 The field of plant biology plays a particularly important role securing a sustainable and healty future for humanity on plant earth.
 IPCC
@@ -14,7 +61,6 @@ IPCC
 FAO
 
 Challenges that plant biologist may tackle
-
 
 Efforts include improving existing crops
 
@@ -53,16 +99,7 @@ _Nostoc azollae_ Nitrogen independence
   - Societial solutions vs. technology solutions
   - Teaching?
 5. Key advances...
-
-#### H framework
-1. Why you are so motivated to study a symbiosis
-2. In particular Azolla
-3. You personal development in this field using bioinformatic approaches
-4. One key development during the short time of your activity: How to document reproducibility in bio informatic studies
-
-
-![Illustration of the _Azolla_ symbiosis life cycle by Erbil Güngör](source/figures/fig1_life-cycle.png){#fig:fig1_life-cycle width=100%}
-
+--->
 
 \newpage
 
@@ -87,7 +124,8 @@ with markdown if the ref contains no spaces:
 and for a markdown label only markdown refs work:
 +@sec:foul-play-in-the-pocket
 --->
-## Outline of this thesis.
+## Outline of this thesis
+
 __Chapter \ref{foul play}__ (\nameref{foul play} on page \pageref{foul play}) details the initial discovery of prokaryotic DNA sequencing data in the initial _A. filiculoides_ genome assembly and includes the work that inspired this PhD project.
 We identify near complete genomes as whole contigs in this assembly, and study these further.
 These contigs are confirmed to be present in _A. filiculoides_ taken from the wild, as well as other _Azolla_ species for which WGS data is available.
