@@ -1,9 +1,10 @@
+\pagestyle{chapter}
 \singlespacing
 \setlength{\parindent}{0.0in}
+\addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
 
-# Hidden treasures: public sequencing data of symbiotic _Azolla_ ferns harbours a genus-wide metagenome
-
-\label{hidden treasures}
+\chapter{Hidden treasures: public sequencing data of symbiotic emph{Azolla} ferns harbours a genus-wide metagenome.}
+\label{hidden_treasures}
 
 \footnotesize
 
@@ -15,6 +16,7 @@ Henriette Schluepmann^1^.
 1. Molecular Plant Physiology Department, Utrecht University, Utrecht 3584CH, The Netherlands
 
 \newpage
+\resetlinenumber
 \linenumbers
 \normalsize
 \onehalfspacing
@@ -25,8 +27,7 @@ rewrite highlights
 check all figure legends
 --->
 
-## Abstract
-
+# Abstract
 Bacteria-host symbioses are present throughout the plant kingdom, and bacteria can contribute all kinds of functions to their hosts.
 The plant genus _Azolla_ is known to host multiple endophytic bacteria, which it transfers systematically to successive generations.
 Here we set out to assemble the genomes of bacteria associated with _Azolla_ by re-using non-metagenomic data already available in public repositories.
@@ -40,8 +41,7 @@ Rhizobiales and Burkholderiales were transferred over generations in _A. filicul
 Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus suggests these bacteria may be introduced in some common ancestor of _Azolla_ species.
 Consequently, they may be selected for in the evolution of the _Azolla_ holobiont.
 
-## Introduction
-
+# Introduction
 Many bacteria associate with multicellular hosts and may convey specific metabolic properties or traits of benefit to their hosts.
 Such associations may be temporary; these bacteria are often recruited from the environment of a host triggered by certain conditions.
 Alternatively, bacteria may be maintained over the host generations and thus forming a permanent symbiosis with a host species.
@@ -69,7 +69,7 @@ Full metagenomic sequencing would be a less biased assessment to study all organ
 
 Full metagenomics sequencing is inefficient if symbionts are lowly abundant in plant tissue; hence, the method becomes cost-inefficient.
 Alternatively, symbiont genomes may be retrieved from sequencing data already available in data repositories; capitalising on opportunities of the FAIR data age and its diversity.
-We demonstrated this before in chapter \ref{foul play}, where we serendipitously found bacterial genomes as a by-product of the _A. filiculoides_ genome assembly.
+We demonstrated this before in chapter \ref{foul_play}, where we serendipitously found bacterial genomes as a by-product of the _A. filiculoides_ genome assembly.
 @Delmont2016 extracted three bacterial genomes from the tardigrade genome similarly, using advanced visualisation and multiple sequencing libraries to puzzle apart the scaffolds of multiple organisms in a single assembly.
 Additionally, a study may benefit from using public data for the scope of the inquiry can be easily widened to include related species and their metagenomes.
 Naturally, the feasibility of such an undertaking depends on data availability in repositories and the complexity of the bacterial community associated with any host.
@@ -83,17 +83,17 @@ They host substantial quantities of di-nitrogen fixing symbiotic _Nostoc azollae
 These cavities contain a mucus-like substance [@Forni1998], containing the primary symbiont which presumably releases ammonia [@Newton1976].
 The appropriate genus of the main _Azolla_ symbiont has been prone to debate; it is also known as _Anabaena azollae_ and _Trichormus azollae_.
 Here, we name the symbiont _N. azollae_ for consistency with our earlier work and consider the alternate names synonymous.
-High sequence identity amongst _N. azollae_ genomes taken from various _Azolla_ species indicates that _N. azollae_ was likely introduced once in the symbiosis [Chapter \ref{it takes two}\; @Dijkhuizen2021].
+High sequence identity amongst _N. azollae_ genomes taken from various _Azolla_ species indicates that _N. azollae_ was likely introduced once in the symbiosis [Chapter \ref{it_takes_two}\; @Dijkhuizen2021].
 Consequently, all _N. azollae_ strains endophytic to _Azolla_ are likely the same cyanobacterial genus, perhaps even species.
-At the fern Shoot Apical Meristem (SAM) lies a -somewhat ironically named- seed colony of motile _N. azollae_ filaments [Chapter \ref{it takes two}\; @Dijkhuizen2021, @Campbell1893].
+At the fern Shoot Apical Meristem (SAM) lies a -somewhat ironically named- seed colony of motile _N. azollae_ filaments [Chapter \ref{it_takes_two}\; @Dijkhuizen2021, @Campbell1893].
 Developing leaves encapsulate part of this seed colony as inoculum for every leaf's new cavity [@Campbell1893; @Nierzwicki-Bauer1989; @Perkins1993].
 _Azolla_ ferns systematically transfer their symbiotic cyanobacteria to the next generations via their megaspores (+@fig:fig1_life-cycle).
 The method of innoculation of these megasporocarps is thought to be similar to that of leaves [@Campbell1893; @Nierzwicki-Bauer1989; @Perkins1993].
 However, recent papers theorised that the symbiont entered the fern megaspores via small channels [@Ran2010; @Zheng2009].
-We theorise that early developing spore primordia of either gender encapsulate part of the cyanobacterial seed-colony based on confocal imagery [Chapter \ref{it takes two}\; @Dijkhuizen2021], thereby mirroring the mechanism by which leaves are innoculated.
+We theorise that early developing spore primordia of either gender encapsulate part of the cyanobacterial seed-colony based on confocal imagery [Chapter \ref{it_takes_two}\; @Dijkhuizen2021], thereby mirroring the mechanism by which leaves are innoculated.
 Regardless the method of innoculation, _Azolla_ megasporocarps retain the cyanobacteria, which then develop into resting stages called akinetes.
 Microsporocarps lose the symbiont throughout their development.
-Electron and confocal microscopy of cyanobacterial resting stages inside microspores support this theory [Chapter \ref{it takes two}\; @Dijkhuizen2021, @Caiola1992].
+Electron and confocal microscopy of cyanobacterial resting stages inside microspores support this theory [Chapter \ref{it_takes_two}\; @Dijkhuizen2021, @Caiola1992].
 
 _Azolla_ leaves and spores harbour at least one other bacterium, as was shown in multiple species [@Gates1980; @Wallace1986; @Petro1987; @Caiola1988; @Plazinski1990; @Cohen2004; @Banach2019].
 These additional bacteria are likely limited in number and remain relatively understudied compared to the main symbiont _N. azollae_.
@@ -103,20 +103,20 @@ Conversely, the apparent benefit of culture-based techniques is the availability
 The uncertainty in classifying bacteria to a genus or species complicates estimating the identity and diversity microbial endophytes in _Azolla_ [@Nierzwicki-Bauer1991; @Leonardi1993].
 Nonetheless, _Arthrobacter_ is the most well-known genus associated with _Azolla_ ferns in these studies [@Petro1987].
 It remains unclear if all species previously characterised by morphological features are identical or distinct bacteria.
-In Chapter \ref{foul play} [@Dijkhuizen2018], we found DNA sequences of Rhizobiales and Burkholderiales associated with _A. filiculoides_.
+In Chapter \ref{foul_play} [@Dijkhuizen2018], we found DNA sequences of Rhizobiales and Burkholderiales associated with _A. filiculoides_.
 These may be genome sequences of the bacteria observed in earlier work.
 Additionally, we found evidence that these microbes may be present more widely in differing species of the _Azolla_ genus; they were not detected in the surrounding water we sampled, based on 16S data and read recruitment to reference genomes.
 
 Regarding the function of _Azolla_ associated bacteria, many theories coexist in the literature that are not mutually exclusive.
-In our previous work [Chapter \ref{foul play}\; @Dijkhuizen2018], we wondered whether these bacteria are foul players parasitising on the nitrogen fixed in the _Azolla_ symbiosis or if they are a third symbiotic party of benefit to the symbiosis, as did @Carrapico1991.
+In our previous work [Chapter \ref{foul_play}\; @Dijkhuizen2018], we wondered whether these bacteria are foul_players parasitising on the nitrogen fixed in the _Azolla_ symbiosis or if they are a third symbiotic party of benefit to the symbiosis, as did @Carrapico1991.
 The seminal paper on the additional microbes of _Azolla_, @Wallace1986, already found that isolates from _Azolla_ leaves can denitrify NO~3~ to N~2~, indicating these microbes may gain energy from the ammonia fixed by _N. azollae_.
-However, in Chapter \ref{foul play} [@Dijkhuizen2018], we found that the microbes whose genomes encode this pathway are outside the plant rather than inside the leaf cavities.
+However, in Chapter \ref{foul_play} [@Dijkhuizen2018], we found that the microbes whose genomes encode this pathway are outside the plant rather than inside the leaf cavities.
 Additionally, we found no pathway to convert NH~4~ to NO~3~ in bacteria associated with _A. filiculoides_.
 A second theory is that the other bacteria are mucilage producers, possibly facilitating a polysaccharide matrix for the _Azolla_-_Nostoc_ symbiosis [@Forni1992; @Zheng2009].
 This hypothetical function is mainly attributed to a bacterium identified as _Arthrobacter_ [@Forni1992; @Forni1998].
 A third theory is that the additional bacteria inside _Azolla_ leaves may also fix N~2~, mirroring the niche of the cyanobacterial symbiont.
 @Lindblad1991 found these enzymes expressed inside _Azolla_ leaf bacteria by immunogold labelling and TEM.
-In Chapter \ref{foul play} [@Dijkhuizen2018], we did not find evidence for this process, both in  N~2~^15^ labelling experiments and in the analyses of the genomes we sequenced.
+In Chapter \ref{foul_play} [@Dijkhuizen2018], we did not find evidence for this process, both in  N~2~^15^ labelling experiments and in the analyses of the genomes we sequenced.
 A fourth theory is that these bacteria produce plant growth-promoting factors such as IAA when provided with tryptophan, theoretically reducing tryptophan-inhibition on nitrogen fixation and promoting plant growth by exporting auxin [@Forni1992b; @Forni1996; @Banach2019 ].
 
 Here, we set out to reconstruct all _Azolla_ associated microbial genomes from public sequencing data; some data was part of a metagenomic study design, but most it was not.
@@ -133,10 +133,9 @@ We assemble multiple high-quality Metagenome Assembled Genomes (MAGs) for each _
 In doing so, we make our methods reproducible via the Snakemake and conda frameworks and document any progress in the workflow on Github.
 The resulting genomes of all the _Azolla_ associated bacteria constitute the _Azolla_ genus-wide metagenome and are thus available for further studies.
 
-## Methods
+# Methods
 
-### Tools and data availability
-
+## Tools and data availability
 In this study, we use various metagenomics tools to acquire genomes of bacterial endophytes associated with an entire genus of hosts from publicly available bulk DNA extractions (+@fig:fig3_data_overview).
 Sequenced DNA of various sources was iteratively filtered with BWA [@Li2009a] and assembled into contigs with SPAdes [@Nurk2017].
 Data was filtered in the first filter stage by mapping against a curated reference consisting of host nuclear DNA and chloroplast DNA by @Li2018 (Azfiv1.1 fernbase) (host filtered).
@@ -160,11 +159,11 @@ Conda environments used in this study can be found in [github.com/lauralwd/Azoll
 \hypertarget{fig:fig3_data_overview}{%
 \centering
 \includegraphics{source/figures/fig3_data-in-overview.pdf}
-\caption{
+\caption[DNA sequencing of the \emph{Azolla} genus.]{
   DNA sequencing of the \emph{Azolla} genus. The \emph{Azolla} genus phylogeny is adapted from Metzgar et al. (2007) (A). Sequencing data considered here for species in the \emph{Azolla} genus (B).
   Sequencing data was retrieved from two main studies:
   the \emph{Azolla} genome project from Li et al. (2018) with accession nr. PRJNA430527 and from
-  Chapter \ref{foul play} (Dijkhuizen et al. 2018) with accession nr. PRJEB19522 abbreviated as α and β
+  Chapter \ref{foul_play} (Dijkhuizen et al. 2018) with accession nr. PRJEB19522 abbreviated as α and β
   respectively in the final column of panel 1B.
   Sampling details are available in the latter paper.
   The original sampling location for \emph{Azolla} specimens sequenced and considered here (C).}
@@ -173,21 +172,20 @@ Conda environments used in this study can be found in [github.com/lauralwd/Azoll
 \end{figure}
 \end{sidewaysfigure}
 
-### Data
-
+## Data
 Sequencing data used here represented six of seven species in the _Azolla_ genus and was generated as part of three studies (+@fig:fig3_data_overview).
 These species are part of two subgenera, the _Rhizosperma_ section of the genus comprising _Azolla pinata_ and _Azolla nilotica_, and the _Euazolla_ section comprising the other four species (+@fig:fig3_data_overview\-A)
 Within the _Euazolla_ section, two subclusters of closely related species can be distinguished; firstly _A. rubra_ and _A. filiculoides_ and secondly _A. mexicana_, _A. microphylla_ and _A. carolinana_.
 These subclusters diverged between 10 and 20M years ago.
 The _Rhizosperma_ section is represented only by _A. nilotica_ here and is estimated to have diverged from the _Euazolla_  section approximately 50M years ago (+@fig:fig3_data_overview\-A) [@Metzgar2007].
-The first published data of _Azolla_ Whole Genome Sequencing (WGS) data was Chapter \ref{foul play} [@Dijkhuizen2018].
+The first published data of _Azolla_ Whole Genome Sequencing (WGS) data was Chapter \ref{foul_play} [@Dijkhuizen2018].
 In that study, we sampled _A. filiculoides_ from triplicate whole plant fractions and triplicate leaf-pocket enriched fractions (P1,2,3 and L1,2,3 respectively; +@fig:fig3_data_overview\-B).
 Secondly, the _Azolla_ genome project [@Li2018] published short-read sequencing data of six _Azolla_ species, including _A. filiculoides_ and long-read sequencing of _A. filiculoides_ (+@fig:fig3_data_overview\-B).
 Sequencing data is mainly generated on Illumina platforms with typical insert sizes of 400 to 800bp and typically yielding approximately 30Gbase of DNA, except for the P and L samples which yield 2 to 3Gbase per sample (+@fig:fig3_data_overview\-B).
 Both studies' their _A. filiculoides_ samples originate from the same Ditch in Utrecht, the Netherlands.
 One sample was treated to remove the most abundant symbiont: _N. azollae_; it is indicated as the no-cyano sample (+@fig:fig3_data_overview\-B).
 All samples acquired from the International Rice Research Institute (IRRI) were maintained for approximately two decades by the IRRI by vegetative propagation [@Watanabe1992] (+@fig:fig3_data_overview\-B).
-These plant strains were sampled at various locations around the globe (+@fig:fig3_data_overview\-C): _Azolla nilotica_, _Azolla rubra_, _Azolla mexicana_, _Azolla microphylla_ and two _Azolla carolinana_ samples which may actualy be a new species [Chapter \ref{it takes two}\; @Dijkhuizen2021].
+These plant strains were sampled at various locations around the globe (+@fig:fig3_data_overview\-C): _Azolla nilotica_, _Azolla rubra_, _Azolla mexicana_, _Azolla microphylla_ and two _Azolla carolinana_ samples which may actualy be a new species [Chapter \ref{it_takes_two}\; @Dijkhuizen2021].
 The third data source is the seminal paper introducing the _N. azollae_ genome sequence [@Ran2010].
 This paper includes ion-torrent sequencing of the primary symbiont of _A. filiculoides_ which was extracted and purified on a sorbitol gradient.
 Data of the latter study was acquired from SRA: for the first and last studies via the accession numbers listed in +@fig:fig3_data_overview\-B.
@@ -196,10 +194,9 @@ Unfortunately, we cannot link the sample identities of the data made available t
 Hence,  we refer to the study as a whole.
 In total, this study examines eighteen sequencing libraries, taken from nine biological samples accounting for six _Azolla_ species, treating L1,2,3, P1,2,3 combined as one biological sample.
 
-## Results
+# Results
 
-### Filtering of _Azolla_ sequencing data against host DNA reduces assembly size and the computational requirements thereof
-
+## Filtering of _Azolla_ sequencing data against host DNA reduces assembly size and the computational requirements thereof
 First, we set out to rid raw WGS data from plant DNA to ease the assembly of the bacteria whose genomes are also present in this data.
 Filtering DNA reads reduces input diversity and hence reduces complexity in the assembly graph, possibly improving metagenome assembly quality.
 The bioinformatic workflow developed here takes short-read DNA sequencing data as the main input, then iteratively removes host reads and finally assembles the remainder into contigs (+@fig:fig3_filtering_and_assembly\-A).
@@ -227,20 +224,19 @@ Secondly, removing host DNA from the assembly input substantially reduces comput
 Likely due to a reduced size of the assembly graph.
 
 filter stage    | superkingdom  | contig count |scaffold count | total scaffold length (Mb) | median scaffold length (kb) | average scaffold length (kb)
------           |    -----      | ---   |  ---  | --- |  ---  |  ---
-host filtered   | Bacteria     | 44861 | 48500 | 814 | 5666 | 16775
-double filtered | Bacteria      | 44742 | 48304 | 812 | 5671 | 16816
-host filtered   | Eukaryota     | 70168 | 70273 | 636 | 5588 |  9045
-double filtered | Eukaryota     |   612 |   960 |   4 | 3382 |  4068
-host filtered   | not classified|  2872 |  2302 |  21 | 5470  |  8914
-double filtered | not classified|   507 |   536 |   3 | 3626 |  4971
-host filtered   | no ORFs found |120555 |112519 | 762 | 4748 |  6768
-double filtered | no ORFs found | 19523 | 25323 | 101 | 3282 |  3989
+-----           |    -----      | ---:  |  ---: | ---:|  ---: |  ---:
+host filtered   | Bacteria	    |	44861 | 48500	| 814	| 5666	| 16775
+double filtered | Bacteria      |	44742 | 48304	| 812	| 5671	| 16816
+host filtered   | Eukaryota	    |	70168 | 70273	| 636	| 5588	|  9045
+double filtered | Eukaryota     |	  612 |   960	|   4	| 3382	|  4068
+host filtered   | not classified|  2872 |  2302	|  21 |	5470  |	 8914
+double filtered | not classified|   507 |   536	|   3 |	3626	|  4971
+host filtered   | no ORFs found |120555 |112519 |	762	| 4748	|  6768
+double filtered | no ORFs found | 19523 | 25323	| 101	| 3282	|  3989
 
 Table: Assembly statistics per superkingdom before and after the second filtering stage. Only contigs and scaffolds longer than 2.5kbp are included. {#tbl:tbl3_1}
 
-### Filtering reduced the eukaryotic fraction of the metagenome assembly content but did not increase the assembly quality of the bacterial fraction
-
+## Filtering reduced the eukaryotic fraction of the metagenome assembly content but did not increase the assembly quality of the bacterial fraction
 Filtering input sequencing data reduced assembly size.
 Next, we investigate the efficacy of this filtering approach in terms of taxonomic complexity and quality of the assembly.
 The main rationale for this intensive filtering approach was to decrease complexity in the metagenome assembly graph, thereby improving the length and quality of assembled bacterial contigs.
@@ -259,7 +255,7 @@ The filtering approach, we conclude, did not substantially improve assembly qual
 \hypertarget{fig:fig3_filter_length_distributions}{%
 \centering
 \includegraphics{source/figures/fig3_figure-filter-length-distributions.pdf}
-\caption{Length distributions of \emph{Azolla} sp. metagenome assembles per kingdom before and after the second filtering stage.
+\caption[Length distributions of \emph{Azolla} sp. metagenome assemblies]{Length distributions of \emph{Azolla} sp. metagenome assemblies per kingdom before and after the second filtering stage.
   Metagenome assemblies of individual sequencing libraries (\cref{fig:fig3_data_overview}) were filtered with the \emph{A. filiculoides} genome (Host filtered; red) and with a library specific subset of eukaryotic contigs (Double filtered; blue; \cref{fig:fig3_filtering_and_assembly}).
   Scaffolds of metagenome assemblies then were assigned taxonomy with CAT (Von Meijenfeldt \emph{et al}. 2019), and their length distributions were plotted as boxplot per taxonomic kingdom (vertical panels: Viruses, Eukaryota, Bacteria and Archae) and per sequencing library (horizontal panels).
   The width of the boxplot is proportional to the number of scaffolds represented (\cref{tbl:tbl3_1}).}
@@ -268,8 +264,7 @@ The filtering approach, we conclude, did not substantially improve assembly qual
 \end{figure}
 \end{sidewaysfigure}
 
-### Filtered metagenome assemblies contain distinct microbial genomes systematically reoccurring in the _Azolla_ genus
-
+## Filtered metagenome assemblies contain distinct microbial genomes systematically reoccurring in the _Azolla_ genus
 The double filtered assemblies contain numerous bacterial contigs of each _Azolla_ species sampled here (+@fig:fig3_filter_length_distributions Bacteria).
 Next, we wondered if these contigs may be attributed to a specific taxonomy.
 In doing so, we take a genus perspective and inquire wether we can summarise a whole genus' metagenome considering its contig taxonomy and abundance, now assessing scaffolds rather than contigs.
@@ -340,8 +335,7 @@ In these assemblies, final graph resolution was aided by PacBio long reads from 
 In this process, lowly abundant scaffolds were combined into longer scaffolds aided by long read data.
 However, the scaffold abundance remains a reflection of the original Illumina contribution to that scaffold only, but it is corrected for the new scaffold length, explaining why such long scaffolds can have such a low abundance.
 
-### _Azolla filiculoides_ contains multiple presumably endophytic bacteria
-
+## _Azolla filiculoides_ contains multiple presumably endophytic bacteria
 With the knowledge that the metagenome assemblies of the _Azolla_ genus contain multiple bacterial genomes each, we set out to accurately cluster these into MAGs.
 Creating these MAGs allows us to examine the metabolic pathways encoded within them, and, when the study design allows, infer their location on or in the host plant.
 In the process of sorting the DNA scaffolds, we call these clusters: bins.
@@ -404,13 +398,13 @@ Despite this bin not being enriched in leaf pocket samples, it may be an endophy
 \toprule
 taxonomical order\tnote{a}    &
 MAG name\tnote{b}             &
-\rotatebox{45}{MAG length (Mbase)}            &
-\rotatebox{45}{abundance ratio\tnote{c}}      &
-\rotatebox{45}{PacBio mean coverage\tnote{d}} &
-\rotatebox{45}{Anvi'o completeness\tnote{e}}  &
-\rotatebox{45}{Anvi'o redundancy\tnote{e}}    &
-\rotatebox{45}{CheckM completeness\tnote{e}}  &
-\rotatebox{45}{CheckM redundancy\tnote{e}} \\
+\rotatebox{55}{MAG length (Mbase)}            &
+\rotatebox{55}{abundance ratio\tnote{c}}      &
+\rotatebox{55}{PacBio mean coverage\tnote{d}} &
+\rotatebox{55}{Anvi'o completeness\tnote{e}}  &
+\rotatebox{55}{Anvi'o redundancy\tnote{e}}    &
+\rotatebox{55}{CheckM completeness\tnote{e}}  &
+\rotatebox{55}{CheckM redundancy\tnote{e}} \\
 \midrule
 \endhead
 
@@ -445,8 +439,7 @@ Rhizobiales       & rest\_7           &  1.36 &  0.69 &   0.11 &   0 &  0 & 14 &
 
 \end{threeparttable}
 
-### Binning assemblies from non-metagenomic data is feasible with binning signals obtained from samples of different species and alltogether diffrent experiments
-
+## Binning assemblies from non-metagenomic data is feasible with binning signals obtained from samples of different species and alltogether diffrent experiments
 The manual binning approach worked well on data of a metagenomic study design.
 Next we apply this method to the double filtered data taken from non-metagenomic studies.
 Typically, binning would depend highly on the differential abundance of scaffolds over various sequencing libraries and, to a lesser extent, on k-mer profiles of scaffolds.
@@ -538,8 +531,7 @@ Burkholderiales     & rest3                     & 1.62 &   0 &  0 &  20 & 0 \\
 
 \end{threeparttable}
 
-### Manual binning yields up to 21 bins per sample, outperforming automated binning with extraneous binning signals
-
+## Manual binning yields up to 21 bins per sample, outperforming automated binning with extraneous binning signals
 Manual binning with extraneous binning signals worked well for individual metagenome assemblies.
 Next, we validate that this method produced high quality bins for all metagenomes binned here and compare it against automated binning approaches algorithms.
 Validation of binning is considered a prerequisite before continuing analyses.
@@ -608,8 +600,7 @@ Given the high generally QC scores and increased specificity of taxonomy, these 
 
 ![Counts of bins without taxonomic classification. Bin taxonomy was determined with BAT [@VonMeijenfeldt2019], and then counts of bins without taxonomy are shown as line plots for various levels of taxonomy (x-axis) and individual metagenome assemblies (vertical panels). Different binning methods (Concoct, Metabat2, Manual) are depicted in red, green and blue, respectively.](source/figures/fig3_binning_QC_no_taxonomy.pdf){#fig:fig3_binning_QC_no_taxonomy}
 
-### Systematic occurrence of taxonomical orders in the entire _Azolla_ genus
-
+## Systematic occurrence of taxonomical orders in the entire _Azolla_ genus
 Next, we assessed whether bins of certain taxonomical orders reoccur systematically in the _Azolla_ genus as scaffolds did in +@fig:fig3_Azolla_genus_metagenome_order.
 Since the binning process has concluded satisfactory, bins are now termed MAGs.
 At the level of Phylum, The majority of bins are classified as cyanobacteria and proteobacteria (+@fig:fig3_binning_QC_all_taxonomy; Phylum), the latter being dominated by Alphaproteobacteria at the class level (+@fig:fig3_binning_QC_all_taxonomy; class).
@@ -681,25 +672,23 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 \end{figure}
 \end{sidewaysfigure}
 
-## Discussion
-
+# Discussion
 In this study, we assembled high-quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (+@fig:fig3_data_overview) through a process of thorough filtering (+@fig:fig3_filtering_and_assembly).
 Filtering substantially reduced the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (+@fig:fig3_filter_length_distributions).
 Each species' metagenome assembly contained several distinct bacterial genomes, and these metagenomes resembled each other in terms of taxonomy (+@fig:fig3_Azolla_genus_metagenome_order).
 Manual binning (+@fig:fig3_Azfil_wild_binning; +@fig:fig3_Azmic_binning) allowed to retrieve these MAGs better than automated binning approaches (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_no_taxonomy) and provide them to the _Azolla_ and plant-microbe research community.
 Several orders of bacteria are systematically associated with the _Azolla_ genus as a whole (+@fig:fig3_binning_QC_all_taxonomy; order).
 
-### Metagenome assemblies can be retrieved from publicly available non-metagenomic data
-
+## Metagenome assemblies can be retrieved from publicly available non-metagenomic data
 Acquiring metagenomes from public sequencing data not originally meant for metagenome assembly is feasible and may be further applied to shed light on the mechanisms of host-microbe symbioses.
 Researchers interested in metagenomes may use a similar method as demonstrated here to mine existing data for microbial genomes.
 The approach is especially interesting if a host species is already known or suspected to host bacteria or if bacterial DNA was previously identified in reads or assemblies of a sequencing run, as was the case for _Azolla_.
 However, not all eukaryotic species or DNA extractions will encompass substantial fractions of DNA from associated bacteria.
-Before thorough and costly filtering and assembly, sequencing data may be searched for signs of bacterial genomes as we have done in Chapter \ref{foul play} [@Dijkhuizen2018].
+Before thorough and costly filtering and assembly, sequencing data may be searched for signs of bacterial genomes as we have done in Chapter \ref{foul_play} [@Dijkhuizen2018].
 Such signals could be extracted from raw sequencing data, for example, by searching for rRNA reads [@Miller2011; @Xie2016], for bacterial genes similarly to @VonMeijenfeldt2019 or by kmer-based approaches such as kraken2 [@Wood2019].
 
 Our approach allowed us to find bacteria associated with hosts studied in the past and paved the way to further mine host-bacteria interactions in _Azolla_ specifically.
-In particular, the approach allowed us to broaden our scope from only _A. filiculoides_ as in \ref{foul play} [@Dijkhuizen2018], to the entire _Azolla_ genus.
+In particular, the approach allowed us to broaden our scope from only _A. filiculoides_ as in \ref{foul_play} [@Dijkhuizen2018], to the entire _Azolla_ genus.
 This broadened perspective allowed to identify commonalities even at the level of taxonomy (+@fig:fig3_Azolla_genus_metagenome_order; +@fig:fig3_binning_QC_all_taxonomy).
 Since whole genomes are available, we can now wonder what pathways are shared between the genomes that are ostensibly shared between hosts.
 Expanding this method beyond _Azolla_ to other host species known to host bacterial symbionts may allow to gather a broad pallete of host-associated metagenomes without the need to specifically extract these bacteria from their biological enviroment.
@@ -724,8 +713,7 @@ We estimate that the beneficial effect of filtering after assembly on manual bin
 In the methods presented here, we deliberately do not provide a single tool to the community.
 We aim to make the method as open and reproducible as possible by documenting the workflow on Github and discussing the benefits and costs of several aspects of our approach in this manuscript.
 
-### Manual curation allowed for high-quality bins
-
+## Manual curation allowed for high-quality bins
 Binning of non-metagenomic assemblies is possible and may be aided by extraneous binning signals and scaffold taxonomy.
 Here, we assemble DNA extracted from bulk plant samples and retrieve MAGs of bacteria associated with those plants.
 Ideally, differential sampling of various fractions or biological replicates allows distinguishing scaffolds of the various genomes from each other.
@@ -753,15 +741,14 @@ This manual approach yielded fewer bins per metagenome, which were of higher qua
 Additionally, the specificity of the taxonomy of these bins as determined by BAT increased (+@fig:fig3_binning_QC_no_taxonomy; Manual vs Metabat2 and Concoct), indicating that the complete gene content of these bins was more like known genomes of similar taxonomy.
 Manual binning and manual curation of extraneous binning signals allowed for a more parsimonious solution of the _Azolla_ genus metagenome, providing MAGs of higher quality.
 
-### microbiome vertical transmission in _Azolla_
-
+## microbiome vertical transmission in _Azolla_
 To our knowledge, this is the first scholarly publication about the metagenome of a whole genus; especially a genus known for its mechanism of microbiome vertical transfer.
 This mechanism is demonstrated for _N. azollae_, but more microbes have been seen in _Azolla_ ferns their leaf pockets and megasporocarps via electron microscopy [@Wallace1986; @Nierzwicki-Bauer1990; @Carrapico1991; @Zheng2009].
 To demonstrate vertical transmission of microbes besides _N. azollae_, it may be more fitting to sequence multiple generations of plants and the reproductive organs of those generations.
 However, we argue that rather indirectly, we have sequenced multiple generations of the same population of plants.
 _A. filiculoides_ sequenced by @Li2018 was taken from a Ditch near the Galgenwaard football station in Utrecht, the Netherlands in 2012 (@Brouwer2014).
-Several years later, in 2015, we went to the same ditch to sequence _A. filiculoides_ for Chapter \ref{foul play} [@Dijkhuizen2018].
-The _Azolla_ population in this ditch does not survive the winter, and hence we reason the microbes sequenced in Chapter \ref{foul play} [@Dijkhuizen2018] have survived three generations, either through direct vertical transfer via the ferns megaspores or via re-inoculation from the surrounding environment.
+Several years later, in 2015, we went to the same ditch to sequence _A. filiculoides_ for Chapter \ref{foul_play} [@Dijkhuizen2018].
+The _Azolla_ population in this ditch does not survive the winter, and hence we reason the microbes sequenced in Chapter \ref{foul_play} [@Dijkhuizen2018] have survived three generations, either through direct vertical transfer via the ferns megaspores or via re-inoculation from the surrounding environment.
 Secondly, the presence of the same microbes in the thoroughly sterilised _A. filiculoides_ minus-cyano provides further indication that these microbes are endophytic and, in that way, survived the sterilisation process.
 The genomes present in both 2012 and 2015 _A. filiculoides_ are most easily extracted from the binning overview of the _A. filiculoides_ 'lab' strain (+@fig:fig3_Azfil_lab_binning).
 Several MAGs are clearly present in the native 'lab' strain sequencing (black), the 'wild' strain sequencing leaf pocket (blue) and whole plant (green), and finally in the 'minus-cyano' strain (yellow).
@@ -769,7 +756,7 @@ These MAGs are the 'Rhizobiaceae endophytic', 'Ralstonia 1', and 'Burkholderiale
 The former two are also clearly present in the _A. filiculoides_ minus-cyano data (+@fig:fig3_Azfil_lab_binning yellow).
 Bins of the same taxonomy are also present in the metagenome of _A. filiculoides_ minus-cyano (+@fig:fig3_Azfil_minus_cyano_binning).
 These results and the visual detection of bacteria in _Azolla_ megaspores, make it very likely that these bacteria are indeed vertically transmitted, at the very least in _A. filiculoides_.
-Other MAGs might also be endophytic and vertically transmitted, but their abundance is lower than the detection limit in the sequencing of \ref{foul play} [@Dijkhuizen2018].
+Other MAGs might also be endophytic and vertically transmitted, but their abundance is lower than the detection limit in the sequencing of \ref{foul_play} [@Dijkhuizen2018].
 
 Systematic association of a taxonomic group with the _Azolla_ genus may -given the known mechanism of transfer- imply these bacteria are endophytic and vertically transmitted as well.
 The two most abundant orders in the whole _Azolla_ genus were found to be endophyic in _A. filiculoides_ 'wild': Rhizobiales and Burkholderiales (+@fig:fig3_Azfil_wild_binning).
@@ -791,7 +778,7 @@ Other groups of bacteria are seemingly systematicall atracted by the plant, like
 
 Two theories currently coexist in the literature about how _N. azollae_ enters _Azolla_ megasporocarps.
 Recently, motile _N. azollae_ filaments were observed with confocal microscopy in small channels of the _Azolla_ megasporocarp indusium cap [@Zheng2009; @Ran2010].
-We theorise, however, that both _N. azollae_ and other microbes may be retained in seed colonies near the shoot apical meristem (SAM) of _Azolla_ ferns, as we showed Chapter \ref{it takes two} [@Dijkhuizen2021].
+We theorise, however, that both _N. azollae_ and other microbes may be retained in seed colonies near the shoot apical meristem (SAM) of _Azolla_ ferns, as we showed Chapter \ref{it_takes_two} [@Dijkhuizen2021].
 Leaf and sporocarp primordia use trichomes to encapsulate _N. azollae_ from this seed colony during early development, which functions as inoculum for the forming organ. [@Campbell1893; @Nierzwicki-Bauer1989; @Perkins1993].
 We prefer this mechanism supported by many electron microscopy studies for its parsimonious solution to _N. azollae_ desimination over _Azolla_ organs.
 This hypothesised mechanism of microbiome transfer does not explain motile cyanobacterial filaments often observed in a channel of the megaspores' indusium caps in [@Ran2010; @Zheng2009].
@@ -804,8 +791,7 @@ However, we consider it extremely likely to be so, especially supported by the m
 Sequencing the SAM and reproductive stages could provide further information on the mechanism of microbiome vertical transfer in _Azolla_.
 Alternatively, FISH may pinpoint the exact location of the bacteria whose genomes were assembled here, either in the SAM, the leaves or the sporocarps.
 
-### Azolla genus-wide metagenome
-
+## Azolla genus-wide metagenome
 Inspired by the holobiont concept [@Zilber-Rosenberg2008] and the mechanism for vertical transfer in _Azolla_ ferns, it makes sense to study a symbiosis like _Azolla_ from the genus perspective rather than a single species.
 Systematically _Azolla_ associated bacteria besides the primary symbiont are predominantly proteobacteria, mostly Alphaproteobacteria and Betaproteobacteria (fig:fig3_binning_QC_all_taxonomy; Phylum & class).
 These classes have often been seen as endophytes to plants before [@Frank2018].
@@ -813,9 +799,9 @@ More specifically, _Azolla_ ferns systematically harbour microbes of six taxonom
 Beyond the level of order, no clear taxonomical pattern is distinguishable other than the main symbiont _N. azollae_ (fig:fig3_binning_QC_all_taxonomy; family & genus).
 The Nostocales order encompasses only the main symbiont _N. azollae_ and was highly abundant in all species, contradicting theories that other cyanobacterial strains may inhibit _Azolla_ ferns at lower abundances [@Papaefthimiou2008].
 This one other cyanobacterial bin found associated with _A. filiculoides_ 'wild' was epiphytic.
-The two most prominent orders, Burkholderiales and Rhizobiales, were already identified in Chapter \ref{foul play} [@Dijkhuizen2018].
+The two most prominent orders, Burkholderiales and Rhizobiales, were already identified in Chapter \ref{foul_play} [@Dijkhuizen2018].
 However, their genomes across the entire _Azolla_ genus were not published before, nor was it clear that multiple Rhizobiales and Burkholderiales genomes are systematically associated with single species of the _Azolla_ genus.
-The remaining three orders, Caulobacterales, Nevskiales and Sphingomonadales, were seen before in \ref{foul play} [@Dijkhuizen2018] (+@fig:fig2_2; +@fig:fig2_3), but not as whole genomes across the entire genus.
+The remaining three orders, Caulobacterales, Nevskiales and Sphingomonadales, were seen before in \ref{foul_play} [@Dijkhuizen2018] (+@fig:fig2_2; +@fig:fig2_3), but not as whole genomes across the entire genus.
 Only the Nevskiales may be endophytic for it survived stringed sterilisation of _A. filiculoides_ 'minus-cyano' (+@tbl:tbl3_2 rest2)
 
 Despite intensive sequencing efforts, this study does not exhaust the diversity of _Azolla_ associated microbes.
@@ -831,7 +817,7 @@ The latter consideration is somewhat mitigated by the presence of these orders i
 
 The systematic presence of specific groups of bacteria suggests that ferns of the genus _Azolla_ may acquire some fitness benefit from their microbiome.
 @Forni1992 theorised that _Azolla_ associated bacteria may be responsible for the mucus in which both _N. azollae_ and other microbes are harboured.
-A similar mucus is found at the apical meristem colony in Chapter \ref{it takes two} [@Dijkhuizen2021].
+A similar mucus is found at the apical meristem colony in Chapter \ref{it_takes_two} [@Dijkhuizen2021].
 Mining the genomes published here may indicate if the genes required for producing this mucus are present.
 @Wallace1986 identified an _Arthrobacter_ bacterium endophyic to _A. carolinana_, _A. filiculoides_ and _A. mexicana_.
 Besides its presence in multiple _Azolla_ species, its abundance increased with the age of _Azolla_ leaves [@Petro1987].
@@ -869,22 +855,20 @@ Possible study directions of the _Azolla_ genus metagenome are numerous, and the
 We gladly share all genomes of bacteria associated with the _Azolla_ genus with the research community to study this remarkable symbiosis.
 
 \newpage
-
-## Supplemental data
-
+# Supplemental data
 \tiny
 | Host sample                       | Taxonomical order  | MAG name                  | MAG length (MBase) | Anvi'o completeness | Anvi'o redundancy | CheckM completeness | CheckM redundancy |
-| --------------------------------- | ------------------ | ------------------------- | -------    | ---------    | ---------    | ----------    | ----------    |
+| --------------------------------- | ------------------ | ------------------------- | -------:   | ---------:   | ---------:   | ----------:   | ----------:   |
 | _Azolla rubra_                    | Caulobacterales    | Asticcacaulis             | 4.29       | 100          | 0            | 100           | 1             |
 | _Azolla rubra_                    | Burkholderiales    | Betaproteobacteria        | 3.27       | 99           | 0            | 100           | 1             |
-| _Azolla rubra_                    | Nitrosomonadales   | Methylovorus              | 3          | 100          | 3            | 100           | 0             |
+| _Azolla rubra_                    | Nitrosomonadales   | Methylovorus              | 3.00        | 100          | 3            | 100           | 0             |
 | _Azolla rubra_                    | Rhizobiales        | Rhizobiales               | 5.28       | 96           | 0            | 99            | 0             |
 | _Azolla rubra_                    | Rhizobiales        | Rhizobiales2              | 5.09       | 80           | 1            | 100           | 1             |
 | _Azolla rubra_                    | Rhizobiales        | Rhizobiales3              | 4.56       | 100          | 1            | 99            | 0             |
 | _Azolla rubra_                    | Rhizobiales        | Rhizobiales4              | 4.67       | 94           | 0            | 97            | 1             |
-| _Azolla rubra_                    | Nostocales         | Trichormus                | 4.7        | 97           | 3            | 98            | 0             |
+| _Azolla rubra_                    | Nostocales         | Trichormus                | 4.70       | 97           | 3            | 98            | 0             |
 | _Azolla rubra_                    | Rhizobiales        | Rhizobiales5              | 2.45       | 45           | 1            | 29            | 0             |
-| _Azolla rubra_                    | no\_support        | alphaproteobacteria       | 6.3        | 100          | 6            | 100           | 0             |
+| _Azolla rubra_                    | no\_support        | alphaproteobacteria       | 6.30       | 100          | 6            | 100           | 0             |
 | _Azolla rubra_                    | Nevskiales         | proteobacteria            | 2.38       | 35           | 4            | 37            | 2             |
 | _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Bacteria                  | 5.05       | 51           | 4            | 44            | 13            |
 | _Azolla filiculoides_ ‘lab’       | no\_support        | Bacteriodetes1            | 3.41       | 63           | 4            | 83            | 3             |
@@ -893,20 +877,20 @@ We gladly share all genomes of bacteria associated with the _Azolla_ genus with 
 | _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Bradyrhizobiaceae         | 8.01       | 65           | 11           | 73            | 19            |
 | _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Bradyrhizobiaceae2        | 4.95       | 55           | 1            | 63            | 4             |
 | _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Bradyrhizobiaceae3        | 5.75       | 73           | 1            | 64            | 5             |
-| _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Bradyrhizobium            | 8.8        | 96           | 10           | 94            | 14            |
-| _Azolla filiculoides_ ‘lab’       | Burkholderiales    | Burkholderiales           | 5.6        | 87           | 31           | 87            | 13            |
+| _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Bradyrhizobium            | 8.80       | 96           | 10           | 94            | 14            |
+| _Azolla filiculoides_ ‘lab’       | Burkholderiales    | Burkholderiales           | 5.60       | 87           | 31           | 87            | 13            |
 | _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Hyphomicrobium            | 3.84       | 100          | 0            | 97            | 0             |
 | _Azolla filiculoides_ ‘lab’       | Burkholderiales    | Ralstonia\_1              | 5.18       | 66           | 6            | 80            | 4             |
 | _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Rhizobiaceae\_endophytic  | 5.18       | 100          | 0            | 99            | 0             |
 | _Azolla filiculoides_ ‘lab’       | Rhizobiales        | Rhizobiales               | 4.39       | 86           | 0            | 97            | 1             |
 | _Azolla filiculoides_ ‘lab’       | Nevskiales         | Sinobacteraceae           | 3.87       | 97           | 3            | 97            | 1             |
 | _Azolla filiculoides_ ‘lab’       | Sphingobacteriales | Sphingobacteriales        | 7.75       | 94           | 0            | 99            | 2             |
-| _Azolla filiculoides_ ‘lab’       | Sphingomonadales   | Sphingomonas              | 4.3        | 94           | 0            | 95            | 1             |
+| _Azolla filiculoides_ ‘lab’       | Sphingomonadales   | Sphingomonas              | 4.30       | 94           | 0            | 95            | 1             |
 | _Azolla filiculoides_ ‘lab’       | Nostocales         | Trichormus\_azollae       | 4.72       | 96           | 3            | 98            | 0             |
 |_Azolla filiculoides_ ‘minus-cyano’| Bacillales         | Paenibacillus\_lab        | 8.07       | 100          | 6            | 99            | 1             |
 |_Azolla filiculoides_ ‘minus-cyano’| Burkholderiales    | Ralstonia\_maybewild      | 5.54       | 100          | 3            | 100           | 1             |
 |_Azolla filiculoides_ ‘minus-cyano’| Rhizobiales        | Rhizobiales\_endophytic   | 5.21       | 100          | 0            | 100           | 0             |
-|_Azolla filiculoides_ ‘minus-cyano’| Rhizobiales        | Rhizobiales\_lab          | 6.3        | 100          | 0            | 98            | 1             |
+|_Azolla filiculoides_ ‘minus-cyano’| Rhizobiales        | Rhizobiales\_lab          | 6.30       | 100          | 0            | 98            | 1             |
 |_Azolla filiculoides_ ‘minus-cyano’| Rhizobiales        | Rhizobiales\_wild         | 5.59       | 100          | 0            | 100           | 0             |
 | _Azolla mexicana_                 | Caulobacterales    | Asticcacaulis             | 5.19       | 100          | 0            | 99            | 1             |
 | _Azolla mexicana_                 | Rhizobiales        | Bradyrhizobiaceae         | 6.65       | 54           | 4            | 70            | 2             |
@@ -921,7 +905,7 @@ We gladly share all genomes of bacteria associated with the _Azolla_ genus with 
 | _Azolla mexicana_                 | Rhizobiales        | Rhizobiales2\_1           | 4.29       | 94           | 0            | 95            | 1             |
 | _Azolla mexicana_                 | Rhizobiales        | Rhizobiales3              | 5.45       | 61           | 0            | 98            | 0             |
 | _Azolla mexicana_                 | Rhizobiales        | Rhizobiales4              | 4.38       | 100          | 4            | 100           | 2             |
-| _Azolla mexicana_                 | Sphingomonadales   | Sphingomonadaceae         | 4.3        | 100          | 0            | 99            | 0             |
+| _Azolla mexicana_                 | Sphingomonadales   | Sphingomonadaceae         | 4.30       | 100          | 0            | 99            | 0             |
 | _Azolla mexicana_                 | no\_support        | Sphingomonadaceae2        | 4.59       | 94           | 0            | 90            | 1             |
 | _Azolla mexicana_                 | Nostocales         | Trichormus                | 4.87       | 97           | 4            | 99            | 0             |
 | _Azolla mexicana_                 | Burkholderiales    | rest\_1                   | 0.98       | 73           | 24           | 59            | 17            |
@@ -960,13 +944,13 @@ We gladly share all genomes of bacteria associated with the _Azolla_ genus with 
 | _Azolla caroliniana_ 1            | Chitinophagales    | Chitinophaga              | 8.03       | 100          | 0            | 100           | 1             |
 | _Azolla caroliniana_ 1            | Nevskiales         | Nevskia\_ramosa           | 3.14       | 0            | 0            | 34            | 0             |
 | _Azolla caroliniana_ 1            | Nevskiales         | Nevskia\_soli             | 6.12       | 94           | 4            | 97            | 5             |
-| _Azolla caroliniana_ 1            | Rhizobiales        | Rhizobiales               | 4.9        | 73           | 7            | 59            | 3             |
+| _Azolla caroliniana_ 1            | Rhizobiales        | Rhizobiales               | 4.90       | 73           | 7            | 59            | 3             |
 | _Azolla caroliniana_ 1            | Rhizobiales        | Rhizobiales2              | 5.07       | 100          | 3            | 100           | 1             |
 | _Azolla caroliniana_ 1            | Sphingomonadales   | Sphingomonadaceae         | 3.01       | 46           | 3            | 44            | 2             |
-| _Azolla caroliniana_ 1            | Nostocales         | Trichormus                | 4.7        | 97           | 4            | 98            | 0             |
+| _Azolla caroliniana_ 1            | Nostocales         | Trichormus                | 4.70       | 97           | 4            | 98            | 0             |
 | _Azolla caroliniana_ 2            | Rhizobiales        | Alphaproteobacteria       | 6.74       | 56           | 7            | 38            | 3             |
-| _Azolla caroliniana_ 2            | Caulobacterales    | Asticcacaulis             | 3.7        | 99           | 0            | 98            | 0             |
-| _Azolla caroliniana_ 2            | Caulobacterales    | Asticcacaulis2            | 4.9        | 89           | 4            | 95            | 3             |
+| _Azolla caroliniana_ 2            | Caulobacterales    | Asticcacaulis             | 3.70       | 99           | 0            | 98            | 0             |
+| _Azolla caroliniana_ 2            | Caulobacterales    | Asticcacaulis2            | 4.90       | 89           | 4            | 95            | 3             |
 | _Azolla caroliniana_ 2            | Caulobacterales    | Asticcacaulis\_taihuensis | 3.84       | 89           | 0            | 100           | 0             |
 | _Azolla caroliniana_ 2            | Rhizobiales        | Bradyrhizobium            | 7.53       | 100          | 0            | 100           | 0             |
 | _Azolla caroliniana_ 2            | Caulobacterales    | Caulobacterales           | 4.66       | 89           | 0            | 100           | 2             |
@@ -999,3 +983,13 @@ Table: MAG statistics for all samples except those _A. filiculoides_ 'wild' and 
 ![Binning quality control in CheckM [@Parks2015] of various binning methods. The quality of bins was assessed as completeness (dark green) and redundancy (red) by scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies (horizontal panels), comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual; vertical panels). Numbers in the panels show the total number of bins created by a particular method for a particular assembly (black) and those bins passing QC criteria of completeness above 90% and redundancy below 10% (Dark green). These thresholds are also indicated by grey lines in the figure.](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_checkm}
 
 \nolinenumbers
+
+<!-- close the last page of this section as required for removing the thumb index on next "part page" -->
+\newpage
+\null
+<!-- don't show page nrs on cleardouble page -->
+\pagestyle{plain}
+<!-- stop the thumbmarking scheme (partwise) and start it (chapterwise) in the next chapter -->
+\stopthumb
+<!-- clear double page so that the chapters start nicely on a new right page -->
+\cleardoublepage

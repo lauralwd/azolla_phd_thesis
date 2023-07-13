@@ -1,9 +1,10 @@
+\pagestyle{chapter}
 \singlespacing
 \setlength{\parindent}{0.0in}
+\addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
 
-# Foul play in the leaf pocket? The metagenome of floating fern _Azolla_ reveals endophytes that do not fix N~2~ but may denitrify
-
-\label{foul play}
+\chapter{Foul play in the leaf pocket? The metagenome of floating fern \emph{Azolla} reveals endophytes that do not fix N\textsubscript{2} but may denitrify.}
+\label{foul_play}
 
 \footnotesize
 Laura W Dijkhuizen^1^,
@@ -42,8 +43,7 @@ Chapter adapted from Dijkhuizen, L. W., Brouwer, P., Bolhuis, H., Reichart, G.-J
 \onehalfspacing
 \setlength{\parindent}{0.5in}
 
-## Abstract
-
+# Abstract
 Dinitrogen fixation by _Nostoc azollae_ residing in specialized leaf pockets supports prolific growth of the floating fern _Azolla filiculoides_.
 To evaluate contributions by further microorganisms, the _A. filiculoides_ microbiome and nitrogen metabolism in bacteria persistently associated with Azolla ferns were characterized.
 A metagenomic approach was taken complemented by detection of N~2~O released and nitrogen isotope determinations of fern biomass.
@@ -55,8 +55,7 @@ N~2~O was not detectably released from surface sterilized ferns with the Rhizobi
 N~2~-fixing _N. azollae_, we conclude, dominated the microbiome of Azolla ferns.
 The persistent but less abundant heterotrophic Rhizobiales bacteria possibly contributed to lowering O~2~ levels in leaf pockets but did not release detectable amounts of the strong greenhouse gas N~2~O.
 
-## Introduction
-
+# Introduction
 Our growing global population is rapidly escalating the demand for nutritious food, requiring highly prolific and sustainable primary production.
 In tandem, the need for renewable feedstocks for the industry derived from primary production is also growing.
 To sustain future food and feedstock production, we need to explore novel crops that comply with limitations imposed by climate change, agrosystem inputs (e.g., water, fertilizers), and available arable land.
@@ -101,10 +100,9 @@ The presence of an organism in an environmental sample may then be computed by r
 
 The focus of the present study is to characterize the identity and function of microbes persistently associated with _Azolla filiculoides_ using metagenomics shotgun sequencing of total DNA from samples collected in their natural environment, and also from cultured species of Azolla.
 
-## Materials and methods
+# Materials and methods
 
-### Plant materials
-
+## Plant materials
 _Azolla filiculoides_ Lam was obtained from the Galgenwaard ditch in Utrecht, The Netherlands.
 In addition, six Azolla species were obtained from the bio-fertilizer germplasm collection at the International Rice Research Institute in the Philippines [Table 1 in @Watanabe1992].
 
@@ -142,8 +140,7 @@ In addition, six Azolla species were obtained from the bio-fertilizer germplasm 
 
 \end{threeparttable}
 
-### Collection and processing of samples from the natural environment
-
+## Collection and processing of samples from the natural environment
 Whole plants of _A. filiculoides_, its enriched leaf pocket contents, and water filtrates from the surrounding water (13°C, pH 7.2) were collected as triplicate replicates from the Galgenwaard ditch in Utrecht (+@tbl:tbl2_1) on October 28th 2015.
 Plant and water replicates were carried from the collection site in separate containers and treated separately.
 Ferns were filtered using sieves of 4 mm mesh size to remove contaminating aquatic plants and animals, then washed by vortexing at full speed for 60s in 0.5% Tween-20, in batches of 5 g fresh weight (FW).
@@ -152,8 +149,7 @@ Leaf pocket enriched fractions were prepared from washed ferns as described in @
 Ditch water (1 L) from every replicate was passed through a 0.45 μm filter, then the biomass on the filter was resuspended in 500 µL water and frozen (-80°C) until DNA extraction.
 DNA was extracted using the Mobio PowerLyzer® PowerSoil® kit (QIAGEN), according to the manufacturer’s protocol.
 
-### Fern cultures and processing
-
+## Fern cultures and processing
 Cultures of different Azolla species were obtained from the International Rice Research Institute (Philippines) except for _A. filiculoides_ [Table 1 in @Watanabe1992].
 All Azolla species were grown on liquid medium without nitrogen and under long-day light with a far-red component as described in @Brouwer2017c, except when stated otherwise.
 To obtain sterilized cultures of _A. filiculoides_, explants (<1 mm3) of leaves from the ditch plants were surface-sterilized using bleach at 1% available chlorine for 40 s, with four consecutive rinses in sterile water prior to cultivation on agar medium (0.6% w/v agarose, Duchefa, Netherlands).
@@ -167,8 +163,7 @@ For cultured Azolla samples, libraries were generated sized at 250, 500 and 800 
 
 Libraries for PacBioRS II (Pacific Biosciences, Palo Alto, CA, USA) sequencing of the nuclear DNA from a single plant of _A. filiculoides_-Sterilized (described under “Fern cultures and processing”) were generated after size separation with a cut-off at 14 kb (Blue Pippin, Sage Science, Beverly, MA, USA) according to the PacBio RS II protocol and sequenced using the P5-C3 chemistry, reaching 57 times coverage of the 750 Mb genome.
 
-### Taxonomic assignments based on small ribosomal RNA (sRNA) sequences
-
+## Taxonomic assignments based on small ribosomal RNA (sRNA) sequences
 Short-read sequences were sorted according to biological replicates and paired-end reads were trimmed using Trimmomatic [parameters `LEADING:5 TRAILING:5 SLIDINGWINDOW:4:15 MINLEN:36`\; @Bolger2014].
 All reads passing quality control (QC) were processed in parallel by RiboTagger which directly assigns taxonomy from variable regions of rRNA genes found in single reads using a subset of the Silva database containing the V4 to V7 variable regions as reference [@Tange2011; @Xie2016].
 Near whole-length rRNA genes were assembled with EMIRGE using standard parameters over 120 iterations [@Miller2011].
@@ -176,8 +171,7 @@ Classification of assembled rRNA genes was performed by Mothur, using the Silva 
 In addition to processing samples as individual replicates (P1 to 3, L1 to 3, W1 to 3), reads from the three biological replicates of whole-plant, leaf-juice or water were pooled (P, L, W respectively) before analyses with either RiboTagger or EMIRGE.
 This was done to evaluate the sensitivity of the taxon detection using either Emirge or RiboTagger with three times more reads.
 
-### Genome assemblies with long reads
-
+## Genome assemblies with long reads
 Long reads (PacBioRS II) from DNA of _A. filiculoides_-Sterilized were read-corrected then assembled into scaffolds by both Celera and Falcon assembler pipelines, yielding two preliminary genome assemblies [[https://github.com/PacificBiosciences/FALCON](https://github.com/PacificBiosciences/FALCON)\; @Myers2000; @Koren2012].
 Bacterial scaffolds in the genome assemblies were identified by RNAmmer [@Lagesen2007].
 Bacterial scaffolds with a minimum length of 0.1 Mb were extracted and assigned taxonomy based on the 16S rRNA genes in Mothur using the Silva database (+@tbl:tbl2_2).
@@ -234,19 +228,16 @@ Falcon & \emph{Rhizobium}         & 4138029 & 6897 (31)   & Yes (26)  & \emph{Si
 \end{threeparttable}
 \end{sidewaystable}
 
-### Recruitment analyses
-
+## Recruitment analyses
 Short-read sequences were mapped to reference scaffolds and genomes with bowtie2 [v2.2.6; options: `--very-sensitive (-D20-R3-N0-L20-iS1,0.50)`\; @Langmead2012].
 If applicable, fragmented genomes were converted to one sequential sequence for the purpose of visualisation.
 Bowtie output was parsed with a custom script to extract position and the common bases in the alignment (identity score).
 In a custom R script, aligned reads were binned (normalized for 0.05 Mb and 1 % ID) and read count per bin was log10 transformed [@Wickham2011; @Rcoreteam2013; @Dowle2014; @Carr2015].
 
-### Data deposition
-
+## Data deposition
 The sequences reported in this paper have been deposited in the ENA database with the study accession number PRJEB19522; the data is separated in three categories: Illumina paired end NextSeq500 sequences (2x 150b) from the environmental samples, Illumina paired end NextSeq500 sequences (2x 150b) short-read sequences sampled at 30 M reads from each of the different species and bacterial scaffolds.
 
-### ^15^N~2~ fixation, ^15^N determinations and N~2~O release
-
+## ^15^N~2~ fixation, ^15^N determinations and N~2~O release
 Surface-sterilized ferns (100 mg FW) were placed in enclosed bottles with 43 ml of sterile medium and a residual air space of 262 ml.
 To determine N~2~ fixation after 2 h, ^15^N~2~ (15 ml) was added at 14 h using air-tight syringes whilst overpressure was removed using a release needle; the bottles were then incubated for 2 h under growth conditions as in @Brouwer2017c.
 To determine N~2~ fixation after 24 h, ^15^N~2~ (5 ml) was added as well as CO~2~ (5 ml).
@@ -261,10 +252,9 @@ Ferns used for N~2~O measurements included _A. filiculoides_ cultured in the lab
 For experiments with non-sterile material 10 g FW fern were used with 200 ml air headspace.
 For experiments including sterile materials 100 mg FW fern were used with 15 ml micro-aerobic (10% v/v O~2~) head space.  Gas samples of 6 ml were separated on a Hayesep Q column by gas chromatography (GC Hewlett Packard Agilent technologies, Palo Alto, CA, USA) and gases detected with an electron capture detector (ECD 63 Ni).
 
-## Results
+# Results
 
-### _A. filiculoides_ sustains a unique microbiome
-
+## _A. filiculoides_ sustains a unique microbiome
 The Dutch ditch plants of _Azolla filiculoides_, together with samples of their in-situ ditch water, were sampled and processed for sequencing independently in three biological replicates (i=1-3) of the following types: whole plant (Pi), enriched leaf pocket contents (Li) and surrounding water (Wi), conatining 8.42-11.99 M reads averaging 147 b (Table S1).
 Taxonomic groups present in samples were computed either by rRNA assembly with EMIRGE or by analysis of reads containing 16S rRNA variable regions with RiboTagger; using the Silva rRNA reference database [@Miller2011; @Quast2013; @Xie2016].
 The distribution of taxonomic classes or orders over replicate samples was similar for both methods and very similar among biological replicates (+@fig:fig2_1\-a).
@@ -279,8 +269,7 @@ Overlap between Azolla-associated samples and water samples was zero at order le
 
 ![Taxonomic diversity revealed in DNA isolated from ditch samples of _A. filiculoides_. Sequence data originating from leaf pocket-enriched samples (L), whole plants (P), and surrounding ditch water (W) were processed as individual biological triplicates, and as a pool thereof. (a) Relative abundance of bacterial classes derived from rRNA assemblies with EMIRGE combined with taxonomic assignments with Mothur (EMIRGE) or from RiboTagger analyses of reads with rRNA variable regions (RiboTagger). (b) RiboTagger OTU count with increased reads from pooled samples of leaf pocket-enriched samples (L), whole plants (P) and surrounding ditch water (W).](source/figures/fig2_1.pdf){#fig:fig2_1}
 
-### _Nostoc azollae_ is the most abundant endophyte of _A. filiculoides_
-
+## _Nostoc azollae_ is the most abundant endophyte of _A. filiculoides_
 Taxonomic identification revealed a conserved and plant-specific microbial community associated with _A. filiculoides_ (+@fig:fig2_1\-a L, P).
 Most rRNA hits were assigned to either fern chloroplasts, Viridiplantae nuclei, or cyanobacteria.
 Cyanobacteria-derived rRNA sequences were more abundant in the enriched leaf pocket contents than in the whole plant samples.
@@ -291,8 +280,7 @@ Results therefore confirmed that _N. azollae_ is the primary symbiont of _A. fil
 
 ![Relative abundance of orders within cultured species of Azolla and ditch samples of _A. filiculoides_ (natural and sterilized). Taxonomy was assigned to rRNA fragments found in single reads by RiboTagger (RiboTagger) and to rRNA genes assembled with EMIRGE by Mothur (EMIRGE). Unclassified orders or those originating from Viridiplantae nuclei, fern plastids and cyanobacteria are not shown. Environmental sequencing data originated from _A. filiculoides_ leaf pocket-enriched samples (L) and whole plants (P) in biological triplicates. Sequence reads from cultured ferns were processed as subsets of 10 M and 30 M reads.](source/figures/fig2_2.pdf){#fig:fig2_2 width=100%}
 
-### Rhizobiales are constitutive members of the microbiome in natural and cultivated Azolla species
-
+## Rhizobiales are constitutive members of the microbiome in natural and cultivated Azolla species
 To help reveal microorganisms associated at low abundance with _A. filiculoides_ from the ditch, we removed rRNA hits derived from chloroplasts, Viridiplantae nuclei, mitochondria, cyanobacteria and unclassified sequences (+@fig:fig2_2, Environmental).
 RiboTagger found more OTUs in nearly all samples than did EMIRGE.
 Only EMIRGE, however, found Metazoa 18S rRNA in all Azolla plant (P) and one leaf pocket-enriched (L) samples.
@@ -314,8 +302,7 @@ Detection of the rRNA genes from Rhizobiales in DNA from _A. filiculoides_-Steri
 
 ![Recruitment summary on bacterial scaffolds obtained by Celera or Falcon assemblies of the _A. filiculoides_ genome. Short reads from cultured Azolla species and environmental samples, A.filiculoides leaf pocket enriched and whole plant (L,P) and water control (W), were recruited onto assembly scaffolds including the _A. filiculoides_ chloroplast as well as on to _E.coli_ (GCA\_000005845.2\_ASM584v2) and _N. azollae_ (NC\_014248.1) reference genomes. Bacterial scaffolds were from _A. filiculoides_ genome assemblies computed with either Celera (C) or Falcon (F) pipelines, length of the scaffolds is in megabases (Mb). Read counts were normalized per kb with colour coding in linear scale (top panel) illustrating the dominance of DNA from chloroplast and _N. azollae_. Normalized read counts were further scaled logarithmically (bottom panel) to reveal differences between the negative control _E. coli_ and presence calls for scaffolds belonging to the bacterial genera _Hydrocarboniphaga_, _Rhizobium_ and _Shinella_.](source/figures/fig2_3.pdf){#fig:fig2_3 width=100%}
 
-### Near full-length genomes of two novel Rhizobiales species in assemblies of the _A. filiculoides_ genome are present in all Azolla species
-
+## Near full-length genomes of two novel Rhizobiales species in assemblies of the _A. filiculoides_ genome are present in all Azolla species
 The Falcon and Celera assemblies from the _A. filiculoides_-Sterilized were scanned for bacterial scaffolds (presence of 16S rRNA) with RNAmmer; scaffold taxonomy was then assigned using Mothur if they were longer than 0.1 Mb (+@tbl:tbl2_2).
 Both assemblies reproducibly yielded scaffolds from the genera _Shinella_ and _Rhizobium_ (Rhizobiales).
 
@@ -338,8 +325,7 @@ The _Hydrocarboniphaga_ scaffold was only highly represented in fern samples in 
 
 ![Recruitment analysis using short reads from cultured and environmental Azolla and water samples onto reference genomes of _N. azollae_ (GenBank CP002059.1), _E. coli_ (GCA\_000005845.2\_ASM584v2), the _Shinella_ scaffold and two _S. meliloti_  genomes (AL591688.1 and AKZZ01000000 respectively). Reads were from DNA of cultured ferns or from the ditch samples as in Figs. 1-3 (see also +@tbl:tbl2_1). All reads were mapped with bowtie (options `–very-sensitive`) and identity scores were calculated with a custom script (Materials and Methods). Reads were binned according to identity score and position on the respective genome, then counted per 50 kb for normalization, counts were log10 transformed.](source/figures/fig2_4.pdf){#fig:fig2_4 width=100%}
 
-### The Rhizobiales endophytes of _A. filiculoides_ contain denitrification enzymes
-
+## The Rhizobiales endophytes of _A. filiculoides_ contain denitrification enzymes
 To explore possible functions of bacteria from the Azolla microbiomes identified during our recruitment analysis, the combined _Rhizobium_ and combined _Shinella_ scaffolds were submitted for annotation to RAST [@Aziz2008; @Overbeek2014], which computed that the most similar organisms were, respectively, _Agrobacterium tumefaciens_ and _Sinorhizobium meliloti_ (Rhizobiales).
 
 To evaluate the relatedness of our _Sinorhizobium_-like genome with the two known _S. meliloti_ genomes (GenBank AL591688.1 and AKZZ01000000), we mapped reads from environmental samples and _A. filiculoides_-Sterilized to these genomes (Fig. S4).
@@ -355,8 +341,7 @@ hizobiales endophytes hosted by Azolla ferns, therefore, did not contribute to N
 
 ![Nitrogen metabolism pathway comparing merged '_Agrobactrium_'-like, _Sinorhizobium_-like genomes and _N. azollae_. The KEGG database was used to retrieve proteins from the closest relative that was manually annotated [@Kanehisa2010], then the proteins were BLAST-aligned to the merged scaffolds using the RAST/SEED viewer tool [@Overbeek2014]. The KEGG-map of the nitrogen metabolism pathway was used to colour-in proteins detected in the merged scaffolds named after the closest relative computed by RAST, or in the _N.azollae_ genome using the KEGG/NCBI annotation: _Agrobacterium_-like (yellow), _Sinorhizobium_-like (red) and _N. azollae_ (green).](source/figures/fig2_5.png){#fig:fig2_5 width=100%}
 
-### _A. filiculoides_ lacking cyanobacteria, but with the Rhizobiales present, neither fix nitrogen nor release detectable amounts of N~2~O
-
+## _A. filiculoides_ lacking cyanobacteria, but with the Rhizobiales present, neither fix nitrogen nor release detectable amounts of N~2~O
 Nitrogen-fixation in surface-sterilized _A. filiculoides_ was examined by supplying ^15^N~2~ at mid-day for 2 h (+@fig:fig2_6\-a), when both CO~2~ and N~2~ fixation peak [@Brouwer2017c].
 ^15^N~2~-fixation was not significant in _A. filiculoides_-Sterilized (+@fig:fig2_6\-a –Cynao+N).
 N~2~-fixation was inhibited by N-fertilizer in the medium required to sustain growth of _A. filiculoides_-Sterilized (+@fig:fig2_6\-a, compare +Cyano-N with +Cyano+N), but _A. filiculoides_ with _N. azollae_ fixed significant amounts of nitrogen already after 2 h (+@fig:fig2_6\-a, +Cyano+N).
@@ -374,18 +359,16 @@ In contrast to non-sterile _A. filiculoides_, N~2~O release was not detected whe
 N~2~O release from non-sterile _A. filiculoides_ therefore likely originated from bacteria loosely associated with the fern surface, not from the endophytes.
 Results were consistent with the low abundance of the denitrifying Rhizobiales endophytes (+@fig:fig2_2).
 
-## Discussion
+# Discussion
 
-### _Nostoc azollae_ is abundant and the only cyanobacterium that fixes N~2~ in _A. filiculoides_
-
+## _Nostoc azollae_ is abundant and the only cyanobacterium that fixes N~2~ in _A. filiculoides_
 N. azollae in _A. filiculoides_ from the present study and the published strain from Stockholm [@Ran2010] were the same species based on the above 97% identity of their rRNA.
 Our analyses in +@fig:fig2_1 showed enrichment of _N. azollae_ rRNA in the leaf juice and did not detect any rRNA from any other cyanobacterial species, suggesting that in the Utrecht ferns, _N. azollae_ was the only abundant cyanobacterium in the leaf pockets. *@fig:fig2_6 and S8 further demonstrated that _N. azollae_ was responsible for N~2~ fixation in the ferns.
 The large number of reads that mapped to the _N. azollae_ genome with less than 100% identity in the recruitment analyses (+@fig:fig2_4) were likely explained by natural variation in bacterial populations and activity of insertion elements in _N. azollae_ [@Vigil-Stenman2015].
 Previous reports suggesting that several species of cyanobacteria may inhabit the leaf pockets [@Gebhardt1991] may have described very low abundance cyanobacteria not detected by our analyses which revealed bacteria with a relative rRNA abundance at relative detection limit of 0.2 %.
 Our analyses confirmed presence of less abundant gram-negative eubacteria in leaf pockets of _A. filiculoides_, in particular, that of an _Agrobacterium_ strain [@Plazinski1990].
 
-### Two novel candidate bacterial species from the Rhizobiales are persistent endophytes of all Azolla species
-
+## Two novel candidate bacterial species from the Rhizobiales are persistent endophytes of all Azolla species
 Our data supports that Azolla has control over the bacterial community assembly within its closed leaf pockets.
 Firstly, the bacterial community of the surrounding ditch water was dominated by Proteobacteria, which is typically found in Dutch ditches [@El-Chakhtoura2015], and had no overlap with taxa within the Azolla leaf pocket.
 Secondly, different Azolla species cultured under the same conditions housed reproducibly different assemblages of microbial endophytes (+@fig:fig2_2, cultured).
@@ -403,8 +386,7 @@ Recruitment analyses further refined this and showed that the _Sinorhizobium_-li
 Furthermore, calculating read counts per kb in Fig. S3 quantified enrichment of Rhizobiales in leaf-pocket content compared to plant samples, thus locating _Agrobacterium_-like bacteria preferentially in the leaf pockets.
 Unlike the cyanobacteria in the leaf pockets, the Rhizobiales endophytes did not fix N~2~ and were present in much lower abundance as judged from the recruitment analyses.
 
-### A possible role for denitrifying Rhizobiales of the Azolla metagenome
-
+## A possible role for denitrifying Rhizobiales of the Azolla metagenome
 Persistent Rhizobiales endophytes with denitrifying pathways suggested there may be some wasted cycling of the fixed nitrogen that is not likely to be of direct benefit to Azolla (+@fig:fig2_5).
 In the absence of N fertilizer Azolla will thrive entirely on N~2~ fixed by _N. azollae_; this explained the low δ^15^N of the fern biomass grown without N fertilizer compared to legume biomass reported earlier (+@fig:fig2_6) [@Hipkin2004] and suggested that growth of Azolla was not limited by nitrogen.
 Rhizobia are known epiphytes of cyanobacteria heterocysts [@Stevenson2006].
@@ -419,8 +401,7 @@ This would be demonstrated if phylogenetic relationships of Azolla and its endop
 Vertical transmission has been demonstrated for _N. azollae_ in _A. filiculoides_ [@Ran2010], and it is entirely possible that the rhizobia reported here are similarly transmitted together with _N. azollae_ the megasporangiate sori of _A. filiculoides_ [@Carrapico1991; @Zheng2009].
 Phylogenetic studies are underway to verify this because, if true, it would imply that crop breeding approaches would have to consider endophytic communities.
 
-### Nitrification: how could nitrate and nitrite be formed from the NH~4~+ released by _N. azollae_?
-
+## Nitrification: how could nitrate and nitrite be formed from the NH~4~+ released by _N. azollae_?
 Because bacterial endophytes from rice roots contained the AmoA (pfam 05145) ammonia monooxygenase [@Sessitsch2012], which converts ammonium into nitrate, it is plausible that Azolla endophytes still awaiting characterization may be capable of converting the ammonium released by _N. azollae_ into nitrate.
 Alternatively, many N~2~-fixing plants are capable of phototrophic nitrification [@Hipkin2004].
 In several leguminous plants, malonate is transformed via monoamide to 3-nitropropionic acid (3-NPA) and then to nitrate and nitrite [@Francis2013].
@@ -429,12 +410,20 @@ It has been shown to accumulate at high levels in aquatic plants that fix N~2~ (
 It will be important to decipher whether nitrification reactions occur within the leaf pocket or inside the fern cells.
 The combination of nitrifying and denitrifying endophytes could permit _Azolla_ to cope with surplus levels of NH~4~+ from _N. azollae_ or micro-oxic ditch waters when phosphate availability is limiting and, therefore, contribute to defining the aquatic fern’s ecological niche.
 
-## Acknowledgement
-
+# Acknowledgement
 We are grateful to Yoichiro Kato, Niño Paul Meynard Banayo and Ranee Mabesa-Telosa (International Rice Research Institute, Philippines) for live Azolla materials, and to Paul Wolf (Utah State University) for his help with import permits.
 We thank Evart de Bruijn from the Utrecht Sequencing Facility, Bas E. Dutilh and Berend Snel for access to the High-Performance Computing cluster, and Mariet Hefting for use of the GC-ECD to measure N2O at Utrecht University (Netherlands).
 Funding was from the Utrecht University Graduate Student Program, the EIT Climate KIC pathfinder project AzoFast, the ZonMW Enabling Technology Hotel grants 435002032 and 40-43500-98-225, the Deutsche Forschungsgemeinschaft (grants EXC 1028 and WE 2231/9-2) and a crowdfunding venture with experiment.com [https://experiment.com/projects/azolla-a-little-fern-with-massive-green-potential](https://experiment.com/projects/azolla-a-little-fern-with-massive-green-potential).
 
-## Supplemental data
-
+# Supplemental data
 Supplementary figures and information are available online at [https://nph.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fnph.14843&file=nph14843-sup-0001-SupInfo.pdf](https://nph.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fnph.14843&file=nph14843-sup-0001-SupInfo.pdf).
+
+<!-- close the last page of this section as required for removing the thumb index on next "part page" -->
+\newpage
+\null
+<!-- don't show page nrs on cleardouble page -->
+\pagestyle{plain}
+<!-- stop the thumbmarking scheme (partwise) and start it (chapterwise) in the next chapter -->
+\stopthumb
+<!-- clear double page so that the chapters start nicely on a new right page -->
+\cleardoublepage

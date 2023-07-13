@@ -1,5 +1,6 @@
-\pagenumbering{gobble}
+\pagestyle{toc}
 
 \tableofcontents
+\thispagestyle{toc}
 
-\newpage
+\cleardoublepage

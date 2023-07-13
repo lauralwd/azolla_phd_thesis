@@ -1,6 +1,7 @@
+\pagestyle{toc}
+
 \listoftables
-
-\newpage
-
+\thispagestyle{toc}
 
 
+\cleardoublepage

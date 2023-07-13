@@ -1,10 +1,14 @@
-# General discussion
+\pagestyle{chapter}
+\singlespacing
+\setlength{\parindent}{0.0in}
+\addthumb{General discussion}{\Large{D}}{white}{gray}
+
+\chapter{General discussion}
 \label{discussion}
+\newpage
 
+# left-over notes from the hidden treasures chapter:
 
-## left-over notes from the hidden treasures chapter:
-
-```
 I have said nothing of membrane vesicles from both cyano's and bact observed by
 at least @Zheng2009
 
@@ -60,9 +64,8 @@ _N. azollae_ can't be cultered.
 
 ITSNTS versus "simple altruism"
 
-```
 
-```
+\newpage
 Microbiology and ecology need, in the end, a reductionist approach to piece
 appart the nuts and bolts co-existance.
 We need at least a way to manipulate the microbial community of a plant organ,
@@ -148,8 +151,8 @@ Selection for reduced genome size lower in extracellular symbionts than
  intracellular ones?
 
 
-```
-#### CSP fragment
+\newpage
+### CSP fragment
 Many plant species are known to interact with bacteria systematically and even transmit these systematically [@Frank2018; @Pinto-Carbo2018], but the mechanisms underpinning symbiosis are often unclear.
 The best known mechanism is termed the common symbiosis pathway, variations of this common pathway facilitate both Rhizobiales-legume and mycohorriza symbiosis [@Genre2016].
 But other symbioses, like Cuanobacteria-plant symbises and ... , are not facilitated by this pathway [@Li2018] `more examples would be nice`.
@@ -159,15 +162,15 @@ Mining the genomes of symbiotic bacteria already hidden away in host sequencing 
 `root nodule bacteria diversity; disporiensis diversity`
 
 
-```
+
 In microbial ecology, natural low diversity, low complexity populations are rare.
 This is such an example, perhaps many plant-microbe associations are.
 The plant genome does add complexity, but other than that ...
 [@Rillig2019]
-```
 
+\newpage
 
-### Bacteria associated with plants as a modular subset of the hologenome
+## Bacteria associated with plants as a modular subset of the hologenome
 Microbial genomes may encode and convey traits to a host when in symbiosis.
 The most obvious example is _Azolla_ its independence of nitrogen in the surrounding water or sediment, a trait conveyed by _N. azollae_.
 Bacterial genomes are substantially more fluid in their structure and content than their eukaryotic hosts.
@@ -185,3 +188,17 @@ Still, since the association and consequential selection presure are practically
 Alternatively, symbionts may need to reinnoculate their host annew every generation as is the case for Rhizobiales-legume symbioses.
 ...
 No particular mode of transmission of genetic material is more or less relevant to be included in a hologenome, instead the holobiont term must be a usefull concept in research applied appropriately.
+
+Bad jokes
+* payed fern genomic services on onlyferns.com
+* Unlike the Azolla-nostoc symbioses, reading the full extent of this thesis is facultative.
+
+<!-- close the last page of this section as required for removing the thumb index on next "part page" -->
+\newpage
+\null
+<!-- don't show page nrs on cleardouble page -->
+\pagestyle{plain}
+<!-- stop the thumbmarking scheme (partwise) and start it (chapterwise) in the next chapter -->
+\stopthumb
+<!-- clear double page so that the chapters start nicely on a new right page -->
+\cleardoublepage

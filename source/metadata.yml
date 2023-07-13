@@ -1,12 +1,32 @@
 ---
 pagetitle: _Azolla_ (meta)genome PhD thesis
-title: 'Genomics of a novel crop: The _Azolla_ symbiosis'
-subtitle: The genomics and metagenomics of the floating fern _Azolla_ and its symbionts
+title: '_Azolla_ Symbiosis genomics'
+subtitle: Establishing the genomics and metagenomics of the floating fern _Azolla_ and its symbionts
+Dutchtitle: '_Azolla_ Symbiose genomica'
+Dutchsubtitle: De aanvang van genomisch en meta-genomisch inzicht in de drijvende varen Azolla en zijn symbionten
+publishdate: October 2022
+
+universiteit: Universiteit Utrecht
+university: Utrecht University
+magnificus: prof.dr. H.R.B.M Kummeling
+groupname: Molecular Plant Physiology
+
 author: Laura Warner Dijkhuizen
-date: August 2022
-location: Utrecht University, The Netherlands
-supervisor:
-- Dr H. Schluepmann
-- Prof. dr J.C.M Smeekens
-degree: Doctor of Philosophy
+dateofbirth: 2 november 1990
+placeofbirth: Woerden
+
+Promotors:
+  - Prof. dr. J.C.M Smeekens
+Copromotors:
+  - Dr. H. Schluepmann
+Committee:
+
+ISBN:
+printer:
+defensedate: -defensedate-
+
+layout: Laura W. Dijkhuizen
+cover:
+copyrightstatement: copyright Laura W. Dijkhuizen 2022
+fundingstatement: The research described in this thesis was funded by the topsector programme Horticulture & Starting materials by the ' Nederlandse organisatie voor Wetenschappelijk Onderzoek' (NWO) grant number ALWGS.2016.020.
 ---

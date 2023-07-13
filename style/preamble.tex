@@ -1,21 +1,36 @@
-
-
 % Table of contents formatting
 \renewcommand{\contentsname}{Table of Contents}
-\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{0}
 
-
-% use line numbers
+% use line numbers. Start and stop these per chapter.
 \usepackage{lineno}
 
 % Headers and page numbering
 \usepackage{fancyhdr}
-\pagestyle{plain}
 
-\usepackage{footmisc}
+% plain is used on chapter title pages and the thesis title pages unless overidden with \thispagestyle{somepagestyle}
+\fancypagestyle{plain}{
+  \fancyhead{}                       % clear headers
+  \fancyfoot{}                       % clear footers
+  \renewcommand{\headrulewidth}{0pt} % no line at top of page
+}
+
+\fancypagestyle{toc}{
+  \fancyhead{}                       % clear headers
+  \fancyfoot{}                       % clear footers
+  \renewcommand{\headrulewidth}{0pt} % no line at top of page
+  \fancyfoot[C]{~\thepage~}          % page numbers in Centre
+}
+
+\fancypagestyle{chapter}{
+  \fancyhead{}                       % clear headers
+  \fancyfoot{}                       % clear footers
+  \renewcommand{\headrulewidth}{0pt} % no line at top of page
+  \fancyfoot[RO,LE]{~\thepage~}      % page numbers Right Odd, Left Even
+}
 
 % Following package is used to add background image to front page
-\usepackage{wallpaper}
+%\usepackage{wallpaper}
 
 % Table package
 \usepackage{ctable}% http://ctan.org/pkg/ctable
@@ -111,20 +126,22 @@
 % \doublespacing
 \raggedbottom
 
-% Set margins
-\usepackage[top=1.5in,bottom=1.5in,left=1.5in,right=1.4in]{geometry}
-\setlength\parindent{0.5in} % indent at start of paragraphs (set to 0.3?)
-\setlength{\parskip}{9pt}
-\usepackage{indentfirst}
+% Set margins and paper size
+\usepackage[paperheight=24cm,paperwidth=17cm,top=2cm,bottom=2cm,left=1.5cm,right=1.5cm,bindingoffset=1cm]{geometry}
 
 % Add space between pararaphs
 % http://texblog.org/2012/11/07/correctly-typesetting-paragraphs-in-latex/
-% \usepackage{parskip}
+\setlength\parindent{0.5in}
+\setlength{\parskip}{9pt}
+\usepackage{indentfirst}
 % \setlength{\parskip}{\baselineskip}
 
 % Set colour of links to black so that they don't show up when printed
 \usepackage{hyperref}
 \hypersetup{colorlinks=false, linkcolor=black}
+
+% Thumb index
+\usepackage[height=auto,minheight=30pt]{thumbs}
 
 % Tables
 \usepackage{booktabs}

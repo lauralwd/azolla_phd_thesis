@@ -1,9 +1,4 @@
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
-$if(fontfamily)$
-\usepackage{$fontfamily$}
-$else$
-\usepackage{lmodern}
-$endif$
+\documentclass[$for(classoption)$$classoption$$sep$,$endfor$,twoside,openright]{book}
 
 % Overwrite \begin{figure}[htbp] with \begin{figure}[H]
 % p is for whole page
@@ -25,6 +20,12 @@ $endif$
 \usepackage{caption}
 \usepackage{tocloft}
 % TP: end hack
+
+% toc formatting. See tocloft documentation for more options
+% indent chapter entries:
+\setlength{\cftchapindent}{1cm}
+% reduce vertical space between chapter entries
+\setlength{\cftbeforechapskip}{4pt}
 
 $if(linestretch)$
 \usepackage{setspace}
@@ -77,6 +78,7 @@ $endif$
 $if(geometry)$
 \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 $endif$
+
 $if(natbib)$
 \usepackage{natbib}
 \bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
@@ -87,6 +89,7 @@ $if(biblio-files)$
 \bibliography{$biblio-files$}
 $endif$
 $endif$
+
 $if(listings)$
 \usepackage{listings}
 $endif$
@@ -191,105 +194,188 @@ $if(csl-refs)$
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 $endif$
 
+% This is where the preamble.tex file is included:
 $for(header-includes)$
 $header-includes$
 $endfor$
 
+% whole document page numbering is required for thumb indexes with the thumb usepackage
+% page nrs can be hidden, changed, reset in the document.
+\pagenumbering{arabic}
+
 \begin{document}
 
-
+%%%%%%%%%%% first title page %%%%%%%%%%%
+\pagestyle{plain}
 \begin{titlepage}
     \begin{center}
+        \huge
+        \null
+        \vspace{3cm}
+        \textbf{$title$}
 
-    % Delete the following line
-    % to remove the UCL header logo
-    % \ThisULCornerWallPaper{1.0}{style/univ_logo.eps}
+        $if(subtitle)$
+        \LARGE
+        $subtitle$
+        $endif$
 
-        \vspace*{2.5cm}
+        \vfill
+        \Large
+        $author$
 
+        \vspace{2.5cm}
+        \normalsize
+        Rendered on \today
+    \end{center}
+    \newpage
+
+%%%%%%%%%%% copyright and ISBN page %%%%%%%%%%%
+    \null
+    \vfill
+    \setlength{\parindent}{0.0in}
+    \begin{spacing}{1}
+
+        \normalsize
+
+        $title$
+        \newline
+        $subtitle$
+        \newline
+        PhD thesis
+        \newline
+        $author$$if(publishdate)$, $publishdate$ $endif$
+        $if(university)$
+        \newline
+        $university$$endif$$if(groupname)$, $groupname$ $endif$
+
+        \vspace{.5cm}
+
+        $if(copyrightstatement)$
+        \copyright
+        $copyrightstatement$
+        $endif$
+
+        \vspace{.5cm}
+
+        \textbf{ISBN:} $ISBN$
+        $if(layout)$
+        \newline
+        \textbf{Layout:} $layout$
+        $endif$
+        $if(cover)$
+        \newline
+        \textbf{Cover design:} $cover$
+        $endif$
+        $if(printer)$
+        \newline
+        printed by $printer$
+        $endif$
+
+        \vspace{.5cm}
+
+        $if(fundingstatement)$
+        $fundingstatement$
+        $endif$
+    \end{spacing}
+    \newpage
+%%%%%%%%%%% official title page %%%%%%%%%%%
+    \begin{center}
         \huge
         $title$
 
         $if(subtitle)$
-        \vspace{.5cm}
-
         \Large
         $subtitle$
         $endif$
 
+        $if(Dutchtitle)$
+        \vspace{1cm}
+        \LARGE
+        $Dutchtitle$
+        $endif$
 
-        \vspace{1.5cm}
+        $if(Dutchsubtitle)$
+        \large
+        $Dutchsubtitle$
+        $endif$
 
-        \Large
-        $author$
+        (met een samenvatting in het Nederlands)
 
-        \vspace{1.5cm}
-
-        \normalsize
-        A thesis presented for the degree of\\
-        $degree$
+        \vfill
+        \LARGE
+        \textbf{Proefschrift}
 
         \vfill
 
+        \large
+        ter verkrijging van de graad van doctor aan de $universiteit$ op gezag van
+        de rector magnificus, $magnificus$ ingevolge het besluit van het college
+        voor promoties in het openbaar te verdedigen op $defensedate$
+
+        \vfill
+        %\vspace{1.5cm}
+        door
+        \vfill
+        %\vspace{1.5cm}
+        \LARGE
+        \textbf{$author$}
+        \vspace{.5cm}
+
         \normalsize
-        Supervised by:\\
-        $for(supervisor)$$supervisor$$sep$ \\ $endfor$
+        Geboren op $dateofbirth$ te $placeofbirth$
 
-        \vspace{0.8cm}
-
-        % Uncomment the following line
-        % to add a centered university logo
-        % \includegraphics[width=0.4\textwidth]{style/univ_logo.eps}
-
-        \normalsize
-        $location$\\
-        $date$
+          \vspace{.5cm}
 
         % Except where otherwise noted, content in this thesis is licensed under a Creative Commons Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. Copyright 2015,Tom Pollard.
 
     \end{center}
+    \newpage
+
+%%%%%%%%%%% supervision title page %%%%%%%%%%%
+    \normalsize
+    \begin{spacing}{0}
+    \textbf{Promotor:}
+
+    $for(Promotors)$
+        \hspace{.5cm}
+        $Promotors$
+        $sep$
+
+    $endfor$
+
+    \vspace{.5cm}
+
+    $if(Copromotors)$
+        \textbf{Copromotor:}
+
+        $for(Copromotors)$
+            \hspace{.5cm}
+            $Copromotors$
+            $sep$
+
+        $endfor$
+    $endif$
+
+    $if(Committee)$
+        \textbf{Thesis committee:}
+
+        $for(Committee)$
+            \hspace{.5cm}
+            $Committee$
+            $sep$
+
+        $endfor$
+    $endif$
+    \end{spacing}
 \end{titlepage}
 
 $for(include-before)$
 $include-before$
 
 $endfor$
-$if(toc)$
-{
-\hypersetup{linkcolor=black}
-\setcounter{tocdepth}{$toc-depth$}
-\tableofcontents
-}
-$endif$
-$if(lot)$
-\listoftables
-$endif$
-$if(lof)$
-\listoffigures
-$endif$
 
-% This is where the converted markdown files will go 
+% This is where the converted markdown files will go
 $body$
 
-$if(natbib)$
-$if(biblio-files)$
-$if(biblio-title)$
-$if(book-class)$
-\renewcommand\bibname{$biblio-title$}
-$else$
-\renewcommand\refname{$biblio-title$}
-$endif$
-$endif$
-\bibliography{$biblio-files$}
 
-$endif$
-$endif$
-$if(biblatex)$
-\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
-
-$endif$
-$for(include-after)$
-$include-after$
-
-$endfor$
 \end{document}
