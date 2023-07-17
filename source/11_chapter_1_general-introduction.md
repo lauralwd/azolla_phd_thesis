@@ -25,6 +25,8 @@
 4. One key development during the short time of your activity: How to document reproducibility in bio informatic studies
 --->
 
+# General introduction
+
 ## Symbioses
 
 Trend in biology to see organisms as assemblages rather than individuals.
@@ -120,7 +122,6 @@ _Nostoc azollae_ Nitrogen independence
 \null
 \newpage
 
-
 <!---
 label sections with LaTeX:
 `\label{hidden_treasures}`
@@ -142,7 +143,10 @@ with markdown if the ref contains no spaces:
 and for a markdown label only markdown refs work:
 +@sec:foul-play-in-the-pocket
 --->
+
+
 # Outline of this thesis.
+
 __Chapter \ref{foul_play}__ (\nameref{foul_play} on page \pageref{foul_play}) details the initial discovery of prokaryotic DNA sequences in the _A. filiculoides_ genome assembly and includes the work that inspired this PhD project.
 We identify near complete bacterial genomes in whole contigs of this assembly and study these further.
 These bacteria are confirmed to be present in _A. filiculoides_ taken from the wild as well as from the lab.
@@ -168,7 +172,6 @@ The practical is freely available on GitHub here [github.com/lauralwd/metagenomi
 
 __Chapter \ref{forever_together}__ (\nameref{forever_together} on page \pageref{forever_together}) describes the genomics of the main _Azolla_ symbiont: _N. azollae_, using the genomes assembled in chapter \ref{hidden_treasures}.
 All _N. azollae_ share near identical genomes and gene content, indicating they are the same species of _N. azollae_, hosted in various _Azolla_ species.
-~~Their phylogeny confirms they have co-evolved with their hosts.~~
 The _N. azollae_ genome is degraded due to high pseudogene content.
 Pseudogenation is caused by high transposon activity early in the symbiosis, but has since then slowed down.
 A _N. azollae_ specific gene set was identified comparing many near complete genomes in the Nostocales family.

@@ -3,7 +3,6 @@
 <!-- Use the table of contents page style from here on out -->
 \pagestyle{toc}
 
-
 \part{Preamble}
 \chapter*{Abstract}
 
