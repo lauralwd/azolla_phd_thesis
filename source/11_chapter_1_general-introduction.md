@@ -1,14 +1,17 @@
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\part{Chapters}
+
 \resetlinenumber
 \linenumbers
 
 \chapter{General introduction}
 \label{introduction}
 
-\addthumb{General Introduction}{\Large{I}}{white}{gray}
 
-\setcounter{page}{1}
-\pagenumbering{arabic}
-\part{Chapters}
+
+\addthumb{General Introduction}{\Large{I}}{white}{gray}
 
 \pagestyle{chapter}
 \onehalfspacing
