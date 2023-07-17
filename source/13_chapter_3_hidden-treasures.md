@@ -291,7 +291,7 @@ The interactive online figure allows to browse through the bacterial diversity o
 \hypertarget{fig:fig3_Azolla_genus_metagenome_order}{%
   \centering
   \includegraphics{source/figures/fig3_Azolla_genus_metagenome_order.pdf}
-  \caption{A Genus-wide metagenome assembly of six \emph{Azolla} species.
+  \caption[A Genus-wide metagenome assembly of six \emph{Azolla} species.]{A Genus-wide metagenome assembly of six \emph{Azolla} species.
     Scaffolds of double filtered metagenome assemblies (\cref{fig:fig3_filtering_and_assembly}-A.)
     were assigned an approximate taxonomy with CAT (VonMeijenfeldt \emph{et al}. (2019)).
     Scaffolds length (x-axis) and abundance (y-axis) are displayed as dot plots; both log10 transformed.
@@ -664,7 +664,7 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 \hypertarget{fig:fig3_binning_QC_all_taxonomy}{%
 \centering
 \includegraphics{source/figures/fig3_binning_QC_all_taxonomy.pdf}
-\caption{Heatmap of MAG taxonomy of the \emph{Azolla} genus. MAG taxonomy (horizontal axis) for all metagenome assemblies (vertical axis) at various levels of taxonomy (horizontal panels).
+\caption[Heatmap of MAG taxonomy of the \emph{Azolla} genus.]{Heatmap of MAG taxonomy of the \emph{Azolla} genus. MAG taxonomy (horizontal axis) for all metagenome assemblies (vertical axis) at various levels of taxonomy (horizontal panels).
   Quantity is indicated as a shade ranging from dark blue to bright yellow.
   }
 \label{fig:fig3_binning_QC_all_taxonomy}
