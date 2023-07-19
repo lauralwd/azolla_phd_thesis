@@ -54,7 +54,7 @@ The days after, we delve into phylogenetics/comparative genomics, answering how 
 In the weeks after, we move further in the central dogma studying the differential expression of mRNA and proteomics.
 In the section on structural biology, these different levels of the central dogma are then unified again before we move on to analytics, algorithmic thinking, and network analyses.
 
-![Summary of the workflow that students follow in the metagenomics practical. Tasks done by me as preparation are presented on a grey background (A), and tasks done by students during the practical on a white background (B). Green and Blue squares represent the FastQ input data. Bordeaux red squares represent computational tasks. Purple pentagons represent big-data input and output files, and grey-black squares represent human-readable tables. Yellow circles are final results, either figures or tables, that students produce during a practical and are typically found in a metagenomics manuscripts or papers.](source/figures/mgp_workflow.pdf){#fig:mgp_workflow}
+![Summary of the workflow that students follow in the metagenomics practical. Tasks done by me as preparation are presented on a grey background (A), and tasks done by students during the practical on a white background (B). Green and Blue squares represent the FastQ input data. Bordeaux red squares represent computational tasks. Purple pentagons represent big-data input and output files, and grey-black squares represent human-readable tables. Yellow circles are final results, either figures or tables, that students produce during a practical and are typically found in a metagenomics manuscripts or papers.](source/figures/mgp_workflow.pdf){#fig:mgp_workflow short-caption="metagenomics practical workflow summary"}
 
 ## Open education
 The practical is openly available and GitHub, with instructions and recorded YouTube tutorials for those interested in trying it out.
@@ -67,7 +67,7 @@ Additionally, the practical and its data were used for an MSc thesis from Aalbor
 Answers and pre-filled code are available in a separate branch of the GitHub repository called 'example' (+@fig:mgp_jupy_2).
 Renders of the empty and pre-filled workflow are available as a GitHub pages website in the 'gh-pages' branch and online at the practical webpage [here](https://lauralwd.github.io/metagenomicspractical/).
 
-![Metagenome assembly of _Azolla filiculoides_ associated bacteria. Data was taken from chapter \ref{foul_play} and assembled with SPAdes (@Nurk2017). The metagenome assembly graph was visualised with Bandage. A fasta file resembling the sequences of this graph was one of the main inputs of this practical.](source/figures/mgp_assembly.png){#fig:mgp_assembly}
+![Metagenome assembly of _Azolla filiculoides_ associated bacteria. Data was taken from chapter \ref{foul_play} and assembled with SPAdes (@Nurk2017). The metagenome assembly graph was visualised with Bandage. A fasta file resembling the sequences of this graph was the main inputs of this practical.](source/figures/mgp_assembly.png){#fig:mgp_assembly short-caption="metagenomics workflow assembly"}
 
 # Practical overview, learning goals and audience
 This practical is aimed at Master's students in Life Sciences with minimal experience in bioinformatics and bachelor-level experience in (micro)biology.
@@ -86,7 +86,7 @@ This practical includes the following steps (and depends on the following tools)
 4. annotation (Prokka)
 5. BONUS: phylogeny reconstruction (IQTree)
 
-![Nitrogen metabolism of bacteria associated with _Azolla filiculoides_. Data was taken from chapter \ref{foul_play} and processed according to the metagenomics practical described in this appendix. This figure is one of the final results of the practical and arguably an improvement over the published version (+@fig:fig:fig2_4).](source/figures/mgp_nitrogen_metabolism.png){#fig:mgp_nitrogen_metabolism}
+![Nitrogen metabolism of bacteria associated with _Azolla filiculoides_. Data was taken from chapter \ref{foul_play} and processed according to the metagenomics practical described in this appendix. This figure is one of the final results of the practical and arguably an improvement over the published version (+@fig:fig:fig2_4).](source/figures/mgp_nitrogen_metabolism.png){#fig:mgp_nitrogen_metabolism short-caption="metagenomics practical end result nitrogen metabolism"}
 
 After this practical, a student should be able to name and explain the steps of a simple metagenomics workflow.
 Starting at acquiring sequencing data, all the way to annotating individual draft genomes.
@@ -99,9 +99,9 @@ Starting at acquiring sequencing data, all the way to annotating individual draf
  - If not already, a student will understand the basics of the bash computer language and be able to run bio-informatic programmes in loops.
 
 ## JuPyter examples
-![Screenshot of a pre-filled JuPyter notebook page from the metagenomics practical involving Python code. This page was taken from the online example and answers pages.](source/figures/mgp_jupy_2.png){#fig:mgp_jupy_2}
+![Screenshot of a pre-filled JuPyter notebook page from the metagenomics practical involving Python code. This page was taken from the online example and answers pages.](source/figures/mgp_jupy_2.png){#fig:mgp_jupy_2 short-caption="metagenomics practical hands-on page"}
 
-![Screenshot of a JuPyter notebook page from the metagenomics practical involving BASH code. JuPyter notebook pages allow for background, instructions and code exercises to co-exist next to each other in a single environment.](source/figures/mgp_jupy_1.png){#fig:mgp_jupy_1}
+![Screenshot of a JuPyter notebook page from the metagenomics practical involving BASH code. JuPyter notebook pages allow for background, instructions and code exercises to co-exist next to each other in a single environment.](source/figures/mgp_jupy_1.png){#fig:mgp_jupy_1 short-caption="metagenomics practical hans-on Bash"}
 
 <!-- close the last page of this section as required for removing the thumb index on next "part page" -->
 \newpage

@@ -51,7 +51,7 @@ Een praktische onderwijssetting, zij het een werkcollege of een practicum, is vo
 Uit een anonieme exit enquête:
 _`The smaller group was very positive, made you really feel like a class, overall vibe was really good. Also mainly because Laura was very positive and wanted to help everyone, she was really open and always so cheerful. What I also really appreci­ated were the (coffee) breaks in between lectures. Really gave you time to refocus`_
 
-![Exit enquête resultaat op de stelling "the atmosphere during the course was good". Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-1.png){#fig:fig_bko-1}
+![Exit enquête resultaat op de stelling "the atmosphere during the course was good". Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-1.png){#fig:fig_bko-1 short-caption="BUTQ survey result class atmosphere"}
 
 ## Vakinhoudelijke kwaliteiten
 In mijn opvatting is de kracht van universitair onderwijs de kruisbestuiving met de huidige stand van zaken in de wetenschap.
@@ -71,7 +71,7 @@ De april 2021 versie werd online gegeven als gevolg van de COVID-19 pandemie.
 Uit een anoniemme exit enquête:
 _`…I also like the structure of the course. It was done in such a way that it created a sufficient challenge for really good students but there was also sufficient time for slow learners like me to catch up. I have constantly struggled with the pace of the courses for most of the GSLS courses, but even though there was a lot of new and unfamiliar information, the exercises helped me grasped most of the concepts in the lecture slides.`_
 
-![Exit enquête resultaat op de stelling "The coordinator/main teacher of this course succeeded in unifying the many topics in a single course". Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-5.png){#fig:fig_bko-5}
+![Exit enquête resultaat op de stelling "The coordinator/main teacher of this course succeeded in unifying the many topics in a single course". Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-5.png){#fig:fig_bko-5 short-caption="BUTQ survey result unifying topics"}
 
 ## Didactische kwaliteiten
 
@@ -116,9 +116,9 @@ Dat vertrouwen was duidelijk toegenomen na de cursus (+@fig:fig_bko-9 & +@fig:fi
 Uit een anoniemme exit enquête:
 _`Laura's lectures were very clear, but some of the guest lecturerers went a bit too fast. This made some lectures difficult to understand, especially when you are not really familiar with the topic.`_
 
-![Pre-cursus enquête resultaat op de vraag: "I\'m confident proposing a bioinformatics experiment during an internship or course to address a specific biological question. (Doesn\'t matter if you can do it, as long as you know if it would work or not)". 28 studenten hebben deze vraag beantwoord. Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-9.png){#fig:fig_bko-9}
+![Pre-cursus enquête resultaat op de vraag: "I\'m confident proposing a bioinformatics experiment during an internship or course to address a specific biological question. (Doesn\'t matter if you can do it, as long as you know if it would work or not)". 28 studenten hebben deze vraag beantwoord. Afgenomen voorafgaand aan de IntroBioinfo cursus in oktober 2021.](source/figures/bko-9.png){#fig:fig_bko-9 short-caption="BUTQ survey result confidence pre-course"}
 
-![Exit enquête resultaat op de vraag: "I\'m confident proposing a bioinformatics experiment during an internship or course to address a specific biological question. (Doesn\'t matter if you can do it, as long as you know if it would work or not)". 16 studenten hebben deze vraag beantwoord. Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-10.png){#fig:fig_bko-10}
+![Exit enquête resultaat op de vraag: "I\'m confident proposing a bioinformatics experiment during an internship or course to address a specific biological question. (Doesn\'t matter if you can do it, as long as you know if it would work or not)". 16 studenten hebben deze vraag beantwoord. Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-10.png){#fig:fig_bko-10 short-caption="BUTQ survey result confidence after course"}
 
 Deze toename was voor mij een teken dat ik goed op weg was met deze cursus en een duidelijk signaal dat dit leerdoel behaald werd.
 
@@ -133,7 +133,7 @@ Naar eigen inschatting besteedde studenten hun tijd effectiever bij betere organ
 Dat bleek onder andere uit de steeds snellere voortgang gedurende lessen en practica.
 De overgebleven onduidelijkheid betrof meestal de precieze vorm van het tentamen, ondanks de beschikbaarheid van een oefententamen.
 
-![Exit enquête resultaat op de vraag: "The learning objectives of this course were announced or made available in advance" Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-12.png){#fig:fig_bko-12}
+![Exit enquête resultaat op de vraag: "The learning objectives of this course were announced or made available in advance" Afgenomen na de IntroBioinfo cursus in oktober 2021.](source/figures/bko-12.png){#fig:fig_bko-12 short-caption="BUTQ survey result learning objectives"}
 
 # Visie op universitair onderwijs
 
