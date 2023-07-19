@@ -52,8 +52,8 @@ pdf:
 		"$(INPUTDIR)/metadata.yml" \
 		--lua-filter=filters/figure-short-captions.lua \
 		--lua-filter=filters/table-short-captions.lua \
-#		--filter=pandoc-xnos \
-#		--filter=pandoc-shortcaption \
+		--filter=pandoc-xnos \
+		--filter=pandoc-shortcaption \
 		--filter=pandoc-crossref \
 		--bibliography="$(BIBFILE)" \
 		--citeproc \
@@ -72,8 +72,8 @@ tex:
 		"$(INPUTDIR)/metadata.yml" \
 		--lua-filter=filters/figure-short-captions.lua \
 		--lua-filter=filters/table-short-captions.lua \
-#		--filter=pandoc-xnos \
-#		--filter=pandoc-shortcaption \
+		--filter=pandoc-xnos \
+		--filter=pandoc-shortcaption \
 		--filter=pandoc-crossref \
 		--bibliography="$(BIBFILE)" \
 		--citeproc \
