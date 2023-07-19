@@ -27,7 +27,7 @@ help:
 	@echo 'get local templates with: pandoc -D latex/html/etc'
 	@echo 'or generic ones from: https://github.com/jgm/pandoc-templates'
 
-ifeq ($(OS),Windows_NT)
+ifeq ($(OS),Windows_NT) 
 	detected_OS=Windows
 else
 	detected_OS=$(shell sh -c 'uname 2>/dev/null || echo Unknown')
@@ -50,8 +50,10 @@ pdf:
 		--pdf-engine=xelatex \
 		"$(INPUTDIR)"/*.md \
 		"$(INPUTDIR)/metadata.yml" \
-		--filter=pandoc-xnos \
-		--filter=pandoc-shortcaption \
+		--lua-filter=filters/figure-short-captions.lua \
+		--lua-filter=filters/table-short-captions.lua \
+#		--filter=pandoc-xnos \
+#		--filter=pandoc-shortcaption \
 		--filter=pandoc-crossref \
 		--bibliography="$(BIBFILE)" \
 		--citeproc \
@@ -68,8 +70,10 @@ tex:
 		--pdf-engine=xelatex \
 		"$(INPUTDIR)"/*.md \
 		"$(INPUTDIR)/metadata.yml" \
-		--filter=pandoc-xnos \
-		--filter=pandoc-shortcaption \
+		--lua-filter=filters/figure-short-captions.lua \
+		--lua-filter=filters/table-short-captions.lua \
+#		--filter=pandoc-xnos \
+#		--filter=pandoc-shortcaption \
 		--filter=pandoc-crossref \
 		--bibliography="$(BIBFILE)" \
 		--citeproc \
@@ -86,8 +90,9 @@ html:
 		--toc \
 		"$(INPUTDIR)"/*.md \
 		"$(INPUTDIR)/metadata.yml" \
-		--filter=pandoc-shortcaption \
-		--filter=pandoc-xnos \
+		--lua-filter=filters/figure-short-captions.lua \
+		--lua-filter=filters/table-short-captions.lua \
+		--filter=pandoc-crossref \
 		--bibliography="$(BIBFILE)" \
 		--citeproc \
 		--csl="$(STYLEDIR)/ref_format.csl" \
@@ -104,8 +109,9 @@ docx:
 		--toc \
 		"$(INPUTDIR)"/*.md \
 		"$(INPUTDIR)/metadata.yml" \
-		--filter=pandoc-shortcaption \
-		--filter=pandoc-xnos \
+		--lua-filter=filters/figure-short-captions.lua \
+		--lua-filter=filters/table-short-captions.lua \
+		--filter=pandoc-crossref \
 		--bibliography="$(BIBFILE)" \
 		--citeproc \
 		--csl="$(STYLEDIR)/ref_format.csl" \
