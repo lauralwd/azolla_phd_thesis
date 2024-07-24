@@ -36,31 +36,33 @@
 
 
 <!--biological systems vs mechanistics. In this thesis, we're stuck with a system that can't be taken apart.-->
-When imagining an ecosystem, one typically thinks of a forest with trees, animals and insects
+When imagining an ecosystem, one typically thinks of a forest with trees, animals, and insects.
 Perhaps also a stream and some fish; all thriving as a balanced part of a larger whole.
 The concept emphasises the abundance and complexity of interaction within the larger system, rather than the individualistic existence of the loose parts.
 
-Yet, when an average person imagines a biological experiment, they think of lab coats, petri dishes and perhaps microscopes.
-They are not wrong, science has thrived under reductionism.
-Scientific experiment often strives to control one variable at a time to isolate its effects.
-All other variation is reduced, by working with one species or one strain at a time, dislodged from its natural environment to prevent it from meddling with the experiment.
-We, scientists, call this: 'controlled conditions'.
-The ultimate goal of which, is to gain mechanistic insight into the workings of a biological system, reasoning that if we know the function of all its parts, we then know the system.
+Yet, when an average person imagines a biological experiment, they think of lab coats, petri dishes, and perhaps microscopes.
+They are not wrong; science has thrived under reductionism.
+Scientific experiments often strive to control one variable at a time to isolate its effects.
+All other variations are reduced by working with one species or one strain at a time, dislodged from its natural environment to prevent it from meddling with the experiment.
+We, scientists, call this: 'controlled conditions.'
+The ultimate goal is to gain mechanistic insight into the workings of a biological system, reasoning that if we know the function of all its parts, we then know the system.
 
-The reductionist dogma yielded considerable advances in biological research, I don't dream of debating this.
+The reductionist dogma yielded considerable advances in biological research; I don't dream of debating this.
+But I will argue that it occasionally falls short in encompassing emergent properties of a larger whole.
 However, the complexity of real-world biology does not always allow for isolating one variable from the rest of the system.
-Nor does changing one variable in a system, always lead to robust change.
+Nor does changing one variable in a system always lead to robust change.
 For examples of the former, this thesis describes such a system.
 The latter, I find exemplified in recent attempts at microbiome editing.
 A microbiome is the collection of all microbial organisms associated with any organ or organism.
 Such a collection often contains millions of cells of hundreds of strains if not more.
 I think it is very optimistic to take one of these strains, edit it in some often genetic way, and expect robust change and plenty of examples in literature support this opinion.
 https://www.nature.com/articles/s44222-023-00072-2
+
 Even within the confines of a single cell, the reductionist view on biology is subject to scrutiny.
-Nicholson 2019 argues that perhaps we should abandon our view of the cell as a mechanical reductionist entity to be studied through its molecular components.
-Instead, we should consider the cell as a complex, adaptive system where interactions and emergent properties are crucial for its function. 
+Nicholson (2019) argues that perhaps we should abandon our view of the cell as a mechanical reductionist entity to be studied through its molecular components.
+Instead, we should consider the cell as a complex, adaptive system where interactions and emergent properties are crucial for its function.
 I argue not for the complete abandonment of mechanistic research, but for complementing it with a systems biology perspective.
-A task well suited for biologists, who are trained from the onset to think varying scales; from molecule to ecosystem. 
+A task well suited for biologists, who are trained from the onset to think at varying scales; from molecule to ecosystem.
 
 The study of symbioses takes place in between the ambition of full system understanding, and the practice of mechanistic researching pathways.
 I think of it as
