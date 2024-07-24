@@ -65,26 +65,22 @@ I argue not for the complete abandonment of mechanistic research, but for comple
 A task well suited for biologists, who are trained from the onset to think at varying scales; from molecule to ecosystem.
 
 The study of symbioses takes place in between the ambition of full system understanding, and the practice of mechanistic researching pathways.
-I think of it as
+The methodology of the reductionist dogma remains the gold standard that we want to adhere to as a molecular biology group, but always asking what it means for a system as a whole.
+Whether that system is an ecosystem, a cell, or, as is in this thesis: a symbiosis.
 By definition, a symbiosis is a long-term interaction of two or more organisms.
 They often can be categorised in:
 
-- mutualism: when all partners benefit
-- commensalism: when one partner benefits, but does not harm others
-- amensalism: when one partner is unaffected, but still at the cost of another
-- parasitism: when one partner benefits at the cost of the others
-- competition: when all partners are harmed by the interaction.
+* mutualism: when all partners benefit
+* commensalism: when one partner benefits, but does not harm others
+* amensalism: when one partner is unaffected, but still at the cost of another
+* parasitism: when one partner benefits at the cost of the others
+* competition: when all partners are harmed by the interaction.
 
 The general public often assigns a positive connotation to the concept of symbiosis, referring to the first two categories.
 This is not always practical, for the type of interaction is often unknown at first.
-Hence, the time-span of an interaction is a more robust approach.
-For this thesis, symbiosis typically refers to the first two categories; congruent with the general sentiment of the word, and for associations of an unknown category.
+Hence, the time span of an interaction is a more robust approach.
+In this thesis, symbiosis typically refers to the first two categories; congruent with the general sentiment of the word, and to associations of an unknown category.
 The latter three categories are thought of as general ecological interactions rather than symbioses, in the context of this document.
-
-
-
-
-
 
 <!-- symbiosis breeding -->
 
