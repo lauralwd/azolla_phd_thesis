@@ -9,8 +9,6 @@
 \chapter{General introduction}
 \label{introduction}
 
-
-
 \addthumb{General Introduction}{\Large{I}}{white}{gray}
 
 \pagestyle{chapter}
@@ -23,9 +21,56 @@
 2. In particular Azolla
 3. You personal development in this field using bioinformatic approaches
 4. One key development during the short time of your activity: How to document reproducibility in bio informatic studies
+
+#### extra ideas:
+1. Azolla for sustainable agriculture
+2. Symbioses-mindset for sustainable agriculture
+3. historical context and early Azolla-microbiome discoveries.
+4. 
 --->
 
-# General introduction
+# Symbioses
+
+> _“A system is never the sum of its parts its the product of their interaction.”_
+>   – Russell Ackoff (professor of systems sciences)
+
+
+<!--biological systems vs mechanistics. In this thesis, we're stuck with a system that can't be taken apart.-->
+Scientific experiment often strives to control one variable at a time to isolate its effects.
+The ultimate goal of which, is to gain mechanistic insight into the workings of a biological system, reasoning that if we know the function of all the threads in a network, we then know the network.
+This dogma yielded considerable advances in biological research.
+However, the complexity of real-world biology, does not always allow for isolating one variable from the rest of the system.
+Nor does changing one variable in a system, always lead to robust change.
+I find microbiome editing a prime example of this principle.
+A microbiome is the collection of all microbial organisms associated with any organ or organism.
+The collections often contains millions of cells of hundreds of strains if not more.
+I think it is very optimistic to take one of these strains, edit it in some often genetic way, and expect robust change.
+https://www.nature.com/articles/s44222-023-00072-2
+
+<!--Our definition of a symbiosis-->
+
+<!--other symiosis essentials-->
+
+<!--Why do I like symbioses-->
+
+Especially so, when dealing with obligate symbioses. Two organisms
+systems often requires a more integrated approach, studying the interplay of multiple variables simultaneously to understand the system as a whole.”
+
+
+# The Azolla symbiosis
+
+**my motivation for studying Azolla**
+
+# Methodology
+
+**introducing bioinformatics to a lab**
+- challenges
+- documentation
+
+# Innovative aspects
+
+<!---
+# old
 
 ## Symbioses
 
@@ -60,6 +105,9 @@ Why symbioses motivate me
 ## Documentationi and reproducibility in bioinformatics
 
 ![Illustration of the _Azolla_ symbiosis life cycle by Erbil Güngör](source/figures/fig1_life-cycle.png){#fig:fig1_life-cycle width=100% short-caption="Azolla life cycle"}
+--->
+
+
 
 <!---
 
@@ -143,7 +191,6 @@ with markdown if the ref contains no spaces:
 and for a markdown label only markdown refs work:
 +@sec:foul-play-in-the-pocket
 --->
-
 
 # Outline of this thesis.
 
