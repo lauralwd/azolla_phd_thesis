@@ -19,7 +19,7 @@
 #### H framework
 1. Why you are so motivated to study a symbiosis
 2. In particular Azolla
-3. You personal development in this field using bioinformatic approaches
+3. Your personal development in this field using bioinformatic approaches
 4. One key development during the short time of your activity: How to document reproducibility in bio informatic studies
 
 #### extra ideas:
@@ -31,27 +31,70 @@
 
 # Symbioses
 
-> _“A system is never the sum of its parts its the product of their interaction.”_
+> _“A system is never the sum of its parts it's the product of their interaction.”_
 >   – Russell Ackoff (professor of systems sciences)
 
 
 <!--biological systems vs mechanistics. In this thesis, we're stuck with a system that can't be taken apart.-->
+When imagining an ecosystem, one typically thinks of a forest with trees, animals and insects
+Perhaps also a stream and some fish; all thriving as a balanced part of a larger whole.
+The concept emphasises the abundance and complexity of interaction within the larger system, rather than the individualistic existence of the loose parts.
+
+Yet, when an average person imagines a biological experiment, they think of lab coats, petri dishes and perhaps microscopes.
+They are not wrong, science has thrived under reductionism.
 Scientific experiment often strives to control one variable at a time to isolate its effects.
-The ultimate goal of which, is to gain mechanistic insight into the workings of a biological system, reasoning that if we know the function of all the threads in a network, we then know the network.
-This dogma yielded considerable advances in biological research.
-However, the complexity of real-world biology, does not always allow for isolating one variable from the rest of the system.
+All other variation is reduced, by working with one species or one strain at a time, dislodged from its natural environment to prevent it from meddling with the experiment.
+We, scientists, call this: 'controlled conditions'.
+The ultimate goal of which, is to gain mechanistic insight into the workings of a biological system, reasoning that if we know the function of all its parts, we then know the system.
+
+The reductionist dogma yielded considerable advances in biological research, I don't dream of debating this.
+However, the complexity of real-world biology does not always allow for isolating one variable from the rest of the system.
 Nor does changing one variable in a system, always lead to robust change.
-I find microbiome editing a prime example of this principle.
+For examples of the former, this thesis describes such a system.
+The latter, I find exemplified in recent attempts at microbiome editing.
 A microbiome is the collection of all microbial organisms associated with any organ or organism.
-The collections often contains millions of cells of hundreds of strains if not more.
-I think it is very optimistic to take one of these strains, edit it in some often genetic way, and expect robust change.
+Such a collection often contains millions of cells of hundreds of strains if not more.
+I think it is very optimistic to take one of these strains, edit it in some often genetic way, and expect robust change and plenty of examples in literature support this opinion.
 https://www.nature.com/articles/s44222-023-00072-2
+Even within the confines of a single cell, the reductionist view on biology is subject to scrutiny.
+Nicholson 2019 argues that perhaps we should abandon our view of the cell as a mechanical reductionist entity to be studied through its molecular components.
+Instead, we should consider the cell as a complex, adaptive system where interactions and emergent properties are crucial for its function. 
+I argue not for the complete abandonment of mechanistic research, but for complementing it with a systems biology perspective.
+A task well suited for biologists, who are trained from the onset to think varying scales; from molecule to ecosystem. 
+
+The study of symbioses takes place in between the ambition of full system understanding, and the practice of mechanistic researching pathways.
+I think of it as
+By definition, a symbiosis is a long-term interaction of two or more organisms.
+They often can be categorised in:
+
+- mutualism: when all partners benefit
+- commensalism: when one partner benefits, but does not harm others
+- amensalism: when one partner is unaffected, but still at the cost of another
+- parasitism: when one partner benefits at the cost of the others
+- competition: when all partners are harmed by the interaction.
+
+The general public often assigns a positive connotation to the concept of symbiosis, referring to the first two categories.
+This is not always practical, for the type of interaction is often unknown at first.
+Hence, the time-span of an interaction is a more robust approach.
+For this thesis, symbiosis typically refers to the first two categories; congruent with the general sentiment of the word, and for associations of an unknown category.
+The latter three categories are thought of as general ecological interactions rather than symbioses, in the context of this document.
+
+
+
+
+
+
+<!-- symbiosis breeding -->
 
 <!--Our definition of a symbiosis-->
 
 <!--other symiosis essentials-->
 
+
+<!-- Do we need the holobiont concept. I have not made up my mind yet. Throughout our work we do refer to it loosely.-->
+
 <!--Why do I like symbioses-->
+
 
 Especially so, when dealing with obligate symbioses. Two organisms
 systems often requires a more integrated approach, studying the interplay of multiple variables simultaneously to understand the system as a whole.”
