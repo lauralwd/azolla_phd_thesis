@@ -261,6 +261,9 @@ and for a markdown label only markdown refs work:
 --->
 
 # Outline of this thesis.
+__Chapter \ref{general_intro}__ (\nameref{general_intro} on page \pageref{general_intro}) is the current chapter.
+I attempted to take a broader vantage point and less jargon than the remaining chapters.
+A lesser-than-formal tone hopefully made this chapter more fun to read to the broader scientific audience interested in my work.
 
 __Chapter \ref{foul_play}__ (\nameref{foul_play} on page \pageref{foul_play}) details the initial discovery of prokaryotic DNA sequences in the _A. filiculoides_ genome assembly and includes the work that inspired this PhD project.
 We identify near complete bacterial genomes in whole contigs of this assembly and study these further.
