@@ -85,6 +85,15 @@ In this thesis, symbiosis typically refers to the first two categories; congruen
 The latter three categories are thought of as general ecological interactions rather than symbioses, in the context of this document.
 
 ## Symbiosis breeding
+The original premise of this PhD project included thoughts on symbiosis breeding.
+The organisms of choice here, are part of an obligate symbiosis focused on nutrient acquisition; specifically nitrogen.
+We reasoned that molecular pathways of host and symbiont would be intricately interconnected.
+Hence, any breeding efforts of the host plant should not be limited to the plant physiology and genomics, but include those of its symbiont.
+For symbiosis traits, breeding a symbiont should perhaps take precedence over breeding the host.
+We advocated then, that breeding a functionally intertwined unit of organisms requires that systems biology perspective.
+A perspective that integrates ecological, physiological and (meta)genomic data to understand and eventually manipulate a plant-microbe symbiosis.
+
+
 
 
 
@@ -102,6 +111,12 @@ systems often requires a more integrated approach, studying the interplay of mul
 
 
 # The Azolla symbiosis
+
+This work discusses the Azolla-nostoc symbiosis, a plant with symbiotic cyanobacteria living inside its leaves (endophytic).
+The cyanobacteria sequester di-nitrogen gas from the air into ammonia and provide this via some route to their host.
+The symbionts cannot live without their host, and the host becomes crippled without its symbiont.
+
+
 
 **my motivation for studying Azolla**
 
