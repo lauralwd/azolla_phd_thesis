@@ -132,8 +132,49 @@ Take it with a pinch of salt.
 
 
 # The Azolla symbiosis
+This work discusses the genomics and metagenomics of a specific symbiosis: that between the floating fern genus _Azolla_, and a cyanobacterium _Nostoc azollae_.
+The symbiosis floats on water.
+Azolla its aquatic lifestyle makes the fern highly dependent on fresh water.
+Even its name is derived from this property, 'Azo' is greek for 'dry' and 'allyo' for 'kill'.
+The fern spreads horizontally over the water surface, darkening the water column.
+This property makes _Azolla_ as infamous under ecologists, as it is famous in symbiosis research.
+Bigger plants break irregularly into smaller ones, genetically identical, but physically separate.
+When the water surface is fully covered, the plants get crowded and their growth is directed upwards.
 
-This work discusses the Azolla-nostoc symbiosis, a plant with symbiotic cyanobacteria living inside its leaves (endophytic).
+## physiology
+At stem nodes, leaves and roots are attached.
+Azolla leaves are highly adapted to their function.
+They are bi-lobed, directed either up- or down-ward.
+The lower lobe is razor-thin, translucent-looking and concave.
+It lies on the water like a boat, suspending the stem and upper leaf lobe above.
+The upper lobe is thick; almost balloon-like, and typically dark green.
+Inside this the upper lobe, a special organ houses the symbiotic bacteria.
+The leaves typically grow in a compact cabbage-like fashion; giving the whole plant a fish-scale appearance.
+
+Azolla roots can be observed hanging loosely in the water like a thin curtain.
+On timelapses, the roots were seen swirling and curling.
+Roots of individual plant fronts grabbed onto each other like rugby players locking shoulders in a scrum
+This way, individual plants formed a cohesive mat, keeping together.
+I suspect this phenomenon may help in creating favourable conditions for the symbiosis.
+It may help in stratifying the water column, keeping nutrients from dying plants close to the plant roots for re-absorption.
+
+Interestingly, Azolla roots respond distinctly to typical plant hormones compared to flowering plants.
+Roots were likely invented twice in plant-history: in lycophytes and in ferns.
+The fern-invented-roots were passed down to seed-plants.
+However, not all roots will have developed the same since their original invention.
+In seed-plants, the hormone cytokinin promotes cell division in shoots, and regulate differentiation growth roots.
+In contrast to the typical response, _Azolla_ roots' cell division is promoted by cytokinin [@DeVries].
+This finding suggest that Azolla roots have an origin as a shoot structure.
+They are analogous to plant roots; similar in appearance but separate in origin.
+
+The specifics of the shoot-origin of _Azolla_ roots are not of major consequence to this work.
+It does highlight and illustrate that the evolutionary history of _Azolla_ deviated from that of seed plants a very long time ago.
+Educated guesses made with a seed-plant background, may be false more often than one thinks.
+Now let me also express my dislike for the term "primitive plants".
+As if ferns have not diversified, adapted and evolved since their origin.
+I hope this thesis will help in appreciating the intricacies of the _Azolla_ symbiosis life cycle.
+We can discuss "primitiveness" further compared to the brute force of non-polinated flowers or the extravaganza of a magnolia.
+
 The cyanobacteria sequester di-nitrogen gas from the air into ammonia and provide this via some route to their host.
 The symbionts cannot live without their host, and the host becomes crippled without its symbiont.
 
