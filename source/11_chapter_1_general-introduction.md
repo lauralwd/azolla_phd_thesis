@@ -93,21 +93,29 @@ For symbiosis traits, breeding a symbiont should perhaps take precedence over br
 We advocated then, that breeding a functionally intertwined unit of organisms requires that systems biology perspective.
 A perspective that integrates ecological, physiological and (meta)genomic data to understand and eventually manipulate a plant-microbe symbiosis.
 
-
-
-
-
 ## The holobiont concept
+The holobiont concept is a recent proposition in evolutionary jargon.
+It proposes to think of a host and a symbiont as one unit of evolutionary selection.
+This is not a far fetch in the case of an obligate symbiosis where a microbiome is actively transferred to subsequent host generations.
+It might be odd even, to argue that certain genetic material should be regarded as a separate evolutionary unit based solely on the compartment it is housed in.
+We rarely find this useful for organelles either, although examples do exist in literature.
+The holobiont concept paves the way for some interesting thought experiments.
+Could a fast-evolving bacterial section of the hologenome (all genetic material of a holobiont) provide flexibility to the rigid host genome.
+This may explain the fast adaptations of microbiomes to their hosts.
 
+After advocating a systems biology perspective on symbiosis research, the holobiont concept seems fitting in this work.
+Yet, the concept is also critisised.
+The holobiont is also argued to be a romantic over-simplification of a set of complex interactions.
+Holobiont members may interact beneficially as well as antagonistically.
+Additionally, a lack of consistency in a species consortium may challenge the evolutionary pressure exerted on them as a whole.
+Critics of the concept suggest that traditional ecological and evolutionary frameworks suffice for what could be called a holobiont.
+Additionally, they argue that existing frameworks are better equipped to handle nuances and conflicts between symbiosis partners.
 
-<!-- Do we need the holobiont concept. I have not made up my mind yet. Throughout our work we do refer to it loosely.-->
-
-
-<!--Why do I like symbioses-->
-
-
-Especially so, when dealing with obligate symbioses. Two organisms
-systems often requires a more integrated approach, studying the interplay of multiple variables simultaneously to understand the system as a whole.”
+I have not decided on the matter yet, although I am inclined to agree with the critics for most scenarios.
+Yet, if we can occasionally find use in thinking of a single gene as an evolutionary unit, then perhaps the holobiont perspective has use as well.
+Even if that is only in specific cases.
+In this thesis my colleagues and I do use the word occasionally.
+Take it with a pinch of salt.
 
 
 # The Azolla symbiosis
