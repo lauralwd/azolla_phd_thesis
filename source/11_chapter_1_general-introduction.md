@@ -28,20 +28,6 @@ Laura W Dijkhuizen^1^
 \onehalfspacing
 \setlength{\parindent}{0.5in}
 
-<!---
-#### H framework
-1. Why you are so motivated to study a symbiosis
-2. In particular Azolla
-3. Your personal development in this field using bioinformatic approaches
-4. One key development during the short time of your activity: How to document reproducibility in bio informatic studies
-
-#### extra ideas:
-1. Azolla for sustainable agriculture
-2. Symbioses-mindset for sustainable agriculture
-3. historical context and early Azolla-microbiome discoveries.
-4. 
---->
-
 # Symbioses
 
 > _“A system is never the sum of its parts it's the product of their interaction.”_
@@ -130,7 +116,6 @@ Even if that is only in specific cases.
 In this thesis my colleagues and I do use the word occasionally.
 Take it with a pinch of salt.
 
-
 # The Azolla symbiosis
 This work discusses the genomics and metagenomics of a specific symbiosis: that between the floating fern genus _Azolla_, and a cyanobacterium _Nostoc azollae_.
 The symbiosis floats on water.
@@ -141,7 +126,7 @@ This property makes _Azolla_ as infamous under ecologists, as it is famous in sy
 Bigger plants break irregularly into smaller ones, genetically identical, but physically separate.
 When the water surface is fully covered, the plants get crowded and their growth is directed upwards.
 
-## physiology
+## Physiology
 At stem nodes, leaves and roots are attached.
 Azolla leaves are highly adapted to their function.
 They are bi-lobed, directed either up- or down-ward.
@@ -202,12 +187,6 @@ Trend in biology to see organisms as assemblages rather than individuals.
 - root microbiome
 - plant micorhiza networks
 
-Holobiont theory, the debate.
-
-I see this as a gradient from the simplest of ecological interactions, to complete dependent co-evolved organelles in cells and everything in between. Are the concepts usefull, then use them.
-
-- not usefull
-- usefull
 
 Why symbioses motivate me
 
@@ -215,15 +194,9 @@ Why symbioses motivate me
 - interesting biology
 - inter-species complexity and evolution
 
-## The Azolla symbioses
 
-### agricultural potential
 
-### roadmap to breeding a novel-symbiosis-crop
 
-## Bioinformatics of novel-crops
-
-## Documentationi and reproducibility in bioinformatics
 
 ![Illustration of the _Azolla_ symbiosis life cycle by Erbil Güngör](source/figures/fig1_life-cycle.png){#fig:fig1_life-cycle width=100% short-caption="Azolla life cycle"}
 --->
