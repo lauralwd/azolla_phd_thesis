@@ -63,7 +63,7 @@ Instead, we should consider the cell as a complex, adaptive system where interac
 I argue not for the complete abandonment of mechanistic research, but for complementing it with a systems biology perspective.
 A task well suited for biologists, who are trained from the onset to think at varying scales; from molecule to ecosystem.
 In fact my bachelor studies were organised this very way.
-Yet, somehow, something so obvious to a first-years biology student becomes an afterthought in reductionist scientific practice; an interesting speculation for the discussion.
+Yet, somehow, something so obvious to a first-year biology student becomes an afterthought in reductionist scientific practice; an interesting speculation for the discussion.
 
 Perhaps the study of symbioses takes place in between the ambition of full system understanding, and the practice of mechanistic researching pathways.
 The methodology of the reductionist dogma remains the gold standard that we want to adhere to also in this work.
