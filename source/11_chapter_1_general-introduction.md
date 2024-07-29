@@ -1,17 +1,30 @@
-\setcounter{page}{1}
-\pagenumbering{arabic}
 
+<!-- Start new part of the book, the scientific chapters (and gen-intro) -->
+<!-- Start page numbering here, so that part II starts at page one in the table of contents -->
+\pagenumbering{arabic}
+\setcounter{page}{1}
 \part{Chapters}
 
+<!-- line numbers, to be removed in final version -->
 \resetlinenumber
 \linenumbers
 
+<!-- chapter title and bla bla -->
 \chapter{General introduction}
-\label{introduction}
+\label{general_intro}
 
 \addthumb{General Introduction}{\Large{I}}{white}{gray}
 
 \pagestyle{chapter}
+
+\footnotesize
+Laura W Dijkhuizen^1^
+\scriptsize
+
+1. Molecular Plant Physiology Department, Utrecht University, Utrecht 3584CH, The Netherlands
+
+\newpage
+\normalsize
 \onehalfspacing
 \setlength{\parindent}{0.5in}
 
@@ -175,14 +188,7 @@ Why symbioses motivate me
 --->
 
 
-
 <!---
-
-\newpage
-## Old notes:
-### Plant biology for the twentyfirst century
-
-
 # Plant biology for the twentyfirst century
 These days, scientists, -humanity itself- is challenged with the advent of climate change, dramatic global population growth, and major loss of rurable land.
 The field of plant biology plays a particularly important role securing a sustainable and healty future for humanity on plant earth.
@@ -231,11 +237,6 @@ _Nostoc azollae_ Nitrogen independence
 5. Key advances...
 --->
 
-\newpage
-\null
-\newpage
-\null
-\newpage
 
 <!---
 label sections with LaTeX:
