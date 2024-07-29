@@ -184,14 +184,64 @@ I suspect these works describe cultures of other cyanobacteria.
 
 **what do we know about the workings**
 
+## More partners
+
+## Life cycle
+
+
+## Ecology
+When an _Azolla_ population has covered a water surface, the plants' growth is directed upwards.
+An _Azolla_ mat is formed between few millimeters and 20 to 30 centimeters in extreme scenario's.
+The bottom of the mat is dark, and may be submerged by the weight of plants laying on top.
+Inside the _Azolla_ mat, the light quality changes.
+Specifically the red vs far-red light ratio.
+The plants perceive this light change, and adapt their growth.
+The internode distance (distance on the stem between leaves) increases, giving the plant an elongated appearance.
+
+light blocking
+
+
+phosphorus heavy environments
+
+
+
+
+## agricultural history
+
+The _Azolla_-_Nostoc_ symbiosis is not only ecologically significant but also offers considerable potential for sustainable agriculture.
+_Azolla_ has been used historically as a biofertilizer in rice paddies, where its rapid growth and nitrogen-fixing ability enhance soil fertility and crop yields.
+The genomic and metagenomic analyses presented in this thesis aim to unravel the complexities of this symbiotic relationship, providing insights into the genetic and functional dynamics that underpin this association.
+
+
+## agricultural opportunities
+
+heavy metals, pollutants?
+
+protein!
+
+## the Azolla event
+
 
 **my motivation for studying Azolla**
 
 # Methodology
 
+Through advanced sequencing technologies, this research characterizes the genomes of both _Azolla_ and _Nostoc azollae_, revealing the genetic basis of their symbiotic interaction.
+Metagenomic approaches further elucidate the broader microbial community associated with _Azolla_, identifying other potential endophytes that contribute to the fern's growth and resilience.
+By integrating genomic and metagenomic data, this work seeks to deepen our understanding of the molecular mechanisms driving the _Azolla_-_Nostoc_ symbiosis and to explore its applications in enhancing agricultural sustainability.
+
+
 **introducing bioinformatics to a lab**
 - challenges
 - documentation
+
+
+
+### roadmap to breeding a novel-symbiosis-crop
+
+## Bioinformatics of novel-crops
+
+## Documentationi and reproducibility in bioinformatics
 
 # Innovative aspects
 
