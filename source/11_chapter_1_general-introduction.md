@@ -35,7 +35,7 @@
 >   – Russell Ackoff (professor of systems sciences)
 
 
-<!--biological systems vs mechanistics. In this thesis, we're stuck with a system that can't be taken apart.-->
+## A system perspective 
 When imagining an ecosystem, one typically thinks of a forest with trees, animals, and insects.
 Perhaps also a stream and some fish; all thriving as a balanced part of a larger whole.
 The concept emphasises the abundance and complexity of interaction within the larger system, rather than the individualistic existence of the loose parts.
@@ -82,14 +82,15 @@ Hence, the time span of an interaction is a more robust approach.
 In this thesis, symbiosis typically refers to the first two categories; congruent with the general sentiment of the word, and to associations of an unknown category.
 The latter three categories are thought of as general ecological interactions rather than symbioses, in the context of this document.
 
-<!-- symbiosis breeding -->
+## Symbiosis breeding
 
-<!--Our definition of a symbiosis-->
 
-<!--other symiosis essentials-->
+
+## The holobiont concept
 
 
 <!-- Do we need the holobiont concept. I have not made up my mind yet. Throughout our work we do refer to it loosely.-->
+
 
 <!--Why do I like symbioses-->
 
