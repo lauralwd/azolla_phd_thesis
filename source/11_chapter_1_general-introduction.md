@@ -160,9 +160,29 @@ As if ferns have not diversified, adapted and evolved since their origin.
 I hope this thesis will help in appreciating the intricacies of the _Azolla_ symbiosis life cycle.
 We can discuss "primitiveness" further compared to the brute force of non-polinated flowers or the extravaganza of a magnolia.
 
-The cyanobacteria sequester di-nitrogen gas from the air into ammonia and provide this via some route to their host.
-The symbionts cannot live without their host, and the host becomes crippled without its symbiont.
+## Symbiosis
+Cyanobacterial symbioses are widespread and diverse.
+They span various ecosystems: like marine environments, freshwater systems, and terrestrial habitats.
+Cyanobacteria form mutualistic associations with a wide range of hosts, including plants, fungi, protists, and even animals.
+In marine systems, symbiosis partners can be sponges or diatoms.
+In fresh water systems, the _Azolla_ symbiosis is a prime example.
+Terrestrial hosts can by cycads (plants), mosses, but also lichens (fungi).
+Even some animals can be hosts: flatworm  _Convoluta roscoffensis_ can host a cyanobacterial symbiont.
+These symbioses are mostly not obligate; most cyanobacteria can live independently from their host.
 
+_Azolla_ species form a unique symbiotic relationship with _Nostoc azollae_; the cyanobacterium resides in specialized leaf cavities of the fern.
+The symbiosis main function, from the host-plant perspective, is that _N. azollae_ sequesters di-nitrogen gas from the air and shares this with the host.
+This association allows _Azolla_ to thrive on nitrogen-poor or even nitrogen-free water.
+The symbiosis is obligate in the sense that the cyanobacteria cannot live without their host.
+Several papers claim to have cultured _N. azollae_ on standard cyanobacterial media like BG11.
+We have tried to do reproduce this ourselves, and have talked to scientist better equipped to do so than us.
+Yet all efforts failed.
+Additionally, I personally find that papers claiming a culturing protocol for _N. azollae_ lack proper checks.
+I suspect these works describe cultures of other cyanobacteria.
+
+**how does Azolla-nostoc relate to moss-cyanobacteria symbioses**
+
+**what do we know about the workings**
 
 
 **my motivation for studying Azolla**
