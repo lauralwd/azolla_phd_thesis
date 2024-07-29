@@ -10,7 +10,7 @@
 \linenumbers
 
 <!-- chapter title and bla bla -->
-\chapter{General introduction}
+\chapter{A hitchhikers guide to symbioses, \textit{Azolla}, its symbionts, and why people care}
 \label{general_intro}
 
 \addthumb{General Introduction}{\Large{I}}{white}{gray}
@@ -128,7 +128,7 @@ When the water surface is fully covered, the plants get crowded and their growth
 
 ## Physiology
 At stem nodes, leaves and roots are attached.
-Azolla leaves are highly adapted to their function.
+_Azolla_ leaves are highly adapted to their function.
 They are bi-lobed, directed either up- or down-ward.
 The lower lobe is razor-thin, translucent-looking and concave.
 It lies on the water like a boat, suspending the stem and upper leaf lobe above.
@@ -183,6 +183,15 @@ I suspect these works describe cultures of other cyanobacteria.
 **how does Azolla-nostoc relate to moss-cyanobacteria symbioses**
 
 **what do we know about the workings**
+heavily damaged genome
+perfectly normal for obligate symbioses.
+
+
+nitrogenase, ammonia,
+cyano's don't do carbon fixing!
+
+vesicles
+
 
 ## More partners
 
@@ -211,6 +220,14 @@ phosphorus heavy environments
 The _Azolla_-_Nostoc_ symbiosis is not only ecologically significant but also offers considerable potential for sustainable agriculture.
 _Azolla_ has been used historically as a biofertilizer in rice paddies, where its rapid growth and nitrogen-fixing ability enhance soil fertility and crop yields.
 The genomic and metagenomic analyses presented in this thesis aim to unravel the complexities of this symbiotic relationship, providing insights into the genetic and functional dynamics that underpin this association.
+
+> The utility of Azolla extends beyond its ecological benefits to practical applications in agriculture and environmental management. 
+Historically, it has been used as a green manure in rice paddies, particularly in Asia, where its ability to fix nitrogen enhances 
+soil fertility and boosts crop yields. The fern’s high protein content makes it an excellent feed for livestock, providing a
+ nutritious and sustainable alternative to conventional animal feeds. Additionally, Azolla is being explored for its potential 
+ in biofuel production and as a means of controlling mosquito populations by covering stagnant water where mosquitoes breed. 
+ These diverse applications highlight Azolla’s versatility and its potential to contribute to sustainable agricultural practices 
+ and environmental conservation efforts ￼ ￼.
 
 
 ## agricultural opportunities
