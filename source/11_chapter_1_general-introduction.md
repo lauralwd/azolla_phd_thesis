@@ -327,8 +327,6 @@ Specifically the red vs far-red light ratio.
 The plants perceive this light change, and adapt their growth.
 The internode distance (distance on the stem between leaves) increases, giving the plant an elongated appearance.
 
-phosphorus heavy environments --> B-Ware paper
-
 ## Life cycle
 
 _Azolla_ is a fern genus, it makes no flowers but spores for reproductive purposes.
@@ -345,23 +343,52 @@ pictures!
 
 ## agricultural history
 
-The _Azolla_-_Nostoc_ symbiosis is not only ecologically significant but also offers considerable potential for sustainable agriculture.
-_Azolla_ has been used historically as a biofertilizer in rice paddies, where its rapid growth and nitrogen-fixing ability enhance soil fertility and crop yields.
-The genomic and metagenomic analyses presented in this thesis aim to unravel the complexities of this symbiotic relationship, providing insights into the genetic and functional dynamics that underpin this association.
-
-> The utility of Azolla extends beyond its ecological benefits to practical applications in agriculture and environmental management.
-Historically, it has been used as a green manure in rice paddies, particularly in Asia, where its ability to fix nitrogen enhances
-soil fertility and boosts crop yields. The fern’s high protein content makes it an excellent feed for livestock, providing a
- nutritious and sustainable alternative to conventional animal feeds. Additionally, Azolla is being explored for its potential
- in biofuel production and as a means of controlling mosquito populations by covering stagnant water where mosquitoes breed.
- These diverse applications highlight Azolla’s versatility and its potential to contribute to sustainable agricultural practices
- and environmental conservation efforts ￼ ￼.
+Application of _Azolla_ in agriculture does not require high-tech genomics solutions.
+In fact, _Azolla_ has been used historically as a biofertilizer in rice paddies for centuries if not millenia.
+Rice paddies are often flooded to prevent weeds from growing there, but this provides opportunity for toxic cyanobacterial blooms, poisoning the rice.
+As a counter measure, a rapidly growing _Azolla_ mat can shield the water from light, prevengint algal blooms.
+The nitrogen fixed can be incorporated into the soil after rice harvest, fertilising the soil.
+Any surplus of the fern can be used as animal feed.
+Additionally, it is thought that an _Azolla_ mat prevents mosquitos from accessing the water to drop their larvae.
 
 ## agricultural opportunities
 
-heavy metals, pollutants?
+_Azolla_'s propperties give it substantial agricultural potential.
+These are propperties like rapid growth, high protein content, and it's aquatic life style.
+Firstly, as in rice paddies, _Azolla_ can be used as a biofertilizer, enhancing soil fertility by providing a natural source of nitrogen.
+This reduces the need for synthetic fertilizers, promoting sustainable farming practices and reducing environmental impact.
+Studies have shown that incorporating _Azolla_ in rice cultivation can increase crop yields and improve soil health.
+[Mapping current and future habitat suitability of Azolla spp., a biofertilizer for small-scale rice farming in Africa](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0291009)
+[Aquatic microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change](https://link.springer.com/article/10.1007/s11356-015-5857-9)
+There are caveats naturally.
+_Azolla_ growth requires a big amount of fresh water, and incorporation of _Azolla_ as bio-fertiliser will underperform compared to synthetic fertiliser use.
+This practice is only feasible in areas where fresh water is plentyfull and use of cheap but environmentally damaging synthetic fertilser is discouraged.
 
-protein!
+Beyond its use as a biofertilizer, _Azolla_ is also explored as an alternative feed for livestock.
+Its high protein content and rich nutrient profile make it an excellent supplement for animal diets.
+The current protein crop is soy.
+Currently, the Netherlands import more soy than we grow soy plants on the total area of the country.
+_Azolla_ could be an alternative plant that grows well in the Dutch temparate climate.
+Research indicates that feeding _Azolla_ to poultry and cattle can improve growth rates and overall health, offering a cost-effective and sustainable feed option.
+This application not only supports livestock production but also contributes to the recycling of nutrients within agricultural systems
+[oai_citation:3,www.ijfans.org](https://www.ijfans.org/uploads/paper/4712541d933bbc36ae42c66626db074d.pdf#:~:text=URL%3A%20https%3A%2F%2Fwww.ijfans.org%2Fuploads%2Fpaper%2F4712541d933bbc36ae42c66626db074d.pdf%0AVisible%3A%200%25%20) [oai_citation:4,Aquatic microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change | Environmental Science and Pollution Research](https://link.springer.com/article/10.1007/s11356-015-5857-9).
+
+In addition to its agricultural uses on land, _Azolla_ shows promise for use in aquatic environments, particularly in areas where land is unsuitable for traditional agriculture.
+_Azolla_ can grow in shallow, nutrient-rich waters, providing a valuable resource for farmers in regions with degraded or unusable lands.
+It could possibly even be used to retrieve phosphorus and iron that is locked and unavailable in agricultural soils under aerobic conditions.
+When a meadow is flooded and covered with _Azolla_ ferns, the anoxic conditions may release Iron and Phosphorus from the soil.
+Its ability to thrive in such conditions makes it an ideal candidate for integrated farming systems, where it can enhance water quality, support aquaculture, and serve as a nutrient-rich feed and biofertilizer [oai_citation:5,Azolla Fern | Project Regeneration](https://regeneration.org/nexus/azolla-fern) [oai_citation:6,Azolla: Botany, physiology, and use as a green manure | Economic Botany](https://link.springer.com/article/10.1007/BF02858627) [Agricultural Applications of Azolla: Exploring Azolla Miracles in Farming](https://www.asiafarming.com/agricultural-applications-of-azolla-exploring-azolla-miracles-in-farming).
+[cite b-ware for this?]
+
+_Azolla_ is also thought capable of cleaning up contaminated or eutrophic water bodies through phytoremediation.
+This process involves using plants to remove, degrade, or stabilize environmental contaminants.
+_Azolla_ has shown a remarkable ability to absorb heavy metals such as lead, cadmium, and arsenic from polluted waters, thus reducing the levels of these harmful substances.
+The plants may not be suitable for consumption or use as feed or fertiliser, but the contaminated ecosystem may be cleaner after the process.
+[Aquatic microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change](https://link.springer.com/article/10.1007/s11356-015-5857-9) [oai_citation:9,Phytoremediation Potential of Aquatic Macrophyte, Azolla | Ambio](https://link.springer.com/article/10.1007/s13280-011-0159-z).
+Incorporating _Azolla_ in water management strategies may help restoring ecological balance to eutrophied and contaminated water bodies.
+Given _Azolla_'s tendency to grow rapidly and invasively, these pracices should be emplored with caution.
+[Phytoremediation Potential of Aquatic Macrophyte, Azolla](https://link.springer.com/article/10.1007/s13280-011-0159-z)
+[Aquatic microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change ](https://link.springer.com/article/10.1007/s11356-015-5857-9)
 
 ## the Azolla event
 
