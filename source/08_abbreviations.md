@@ -27,6 +27,7 @@ Might also be done with:
 \textbf{NJ}   \>  \textbf{N}eighbour \textbf{J}oining phylogeny inference \\  
 \textbf{ORF}  \>  \textbf{O}pen \textbf{R}eading \textbf{F}rame \\  
 \textbf{RAM}  \>  \textbf{R}andom \textbf{A}ccess \textbf{M}emmory \\
+\textbf{SAM}  \>  \textbf{S}hoot \textbf{A}pical \textbf{M}eristem \\
 \textbf{SH-aLRT} \> \ \textbf{S}himodaira-\textbf{H}asegawa \textbf{a}proximate \textbf{L}ikelihood \textbf{R}atio \textbf{T}est \\
 \textbf{SRA}  \>  \textbf{S}hort \textbf{R}ead \textbf{A}rchive maintained by NCBI \\  
 \textbf{WGS}  \>  \textbf{W}hole \textbf{G}enome \textbf{S}equencing \\  
