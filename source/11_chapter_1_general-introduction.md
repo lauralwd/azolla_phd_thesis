@@ -291,6 +291,34 @@ In return _T. azollae_ is thought to get carbon compounds from the host plant.
 
 ## Ecology
 
+_Azolla_ naturally thrives in a variety of  nutrient-rich freshwater environments including ponds, lakes, slow-moving streams, and wetlands.
+These habitats provide the ideal conditions for _Azolla_'s growth, such as abundant water and nutrient availability.
+The fern forms dense mats on the water surface, which helps it outcompete other aquatic plants and algae.
+These floating mats are crucial for stabilizing the ecosystem by reducing water evaporation and providing a habitat for various microorganisms and small aquatic animals.
+[Azolla: A review of its biology and utilization ](https://link.springer.com/article/10.1007/BF02857915)
+
+Ecologists associate _Azolla_ often with unhealthy ecosystems, terming it invasive and dangerous.
+I argue that _Azolla_ is not a dangerous plant, nor invasive.
+Harmful levels of _Azolla_ growth are, in my opinion, a symptom of eutrified ecosystems.
+Some fast grower will take advantage of this situation.
+Wether this is an algae, _Lemna_ (duckweed) or _Azolla_ is irrelevant.
+[A review of some ecological factors affecting the growth of Azolla spp.](https://cjes.guilan.ac.ir/article_1110.html).
+[ phosphorus heavy environments --> B-Ware paper ]
+
+_Azolla_ species are distributed globally, predominantly found in tropical, subtropical, and warm temperate regions.
+They are especially prevalent in Asia, Africa, and the Americas, where they are used in traditional agriculture.
+In regions such as Uganda, different _Azolla_ species have been identified across various agro-ecological zones.
+Factors such as rainfall and altitude significantly influence their distribution, with maximum rainfall creating waterlogged environments favorable for _Azolla_ growth.
+[Ecological distribution and genetic diversity of Azolla in Uganda](https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-023-04146-6)
+[Azolla: Botany, physiology, and use as a green manure](https://link.springer.com/article/10.1007/BF02858627)
+
+_Azolla_ is a fast grower, and can damage eutrophied ecosystems by darkening the water column.
+It does however, also have natural enemies.
+For _Azolla_ agriculture, these would be considered pests.
+For conservation _ecologists_, these are considered effective natural pest control.
+Specifically the water fern weevil or _Stenopelmus rufinasus_, can significantly impact _Azolla_ populations by feeding on the fronds.
+A _S. rufinasus_ swarm can decimate an _Azolla_ mat in days and even completely eradicate it.
+
 When an _Azolla_ population has covered a water surface, the plants' growth is directed upwards.
 An _Azolla_ mat is formed between few millimeters and 20 to 30 centimeters in extreme scenario's.
 The bottom of the mat is dark, and may be submerged by the weight of plants laying on top.
