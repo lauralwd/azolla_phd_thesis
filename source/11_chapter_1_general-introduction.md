@@ -187,11 +187,6 @@ These symbioses are mostly not obligate; most cyanobacteria can live independent
 
 _Azolla_ species form a unique symbiotic relationship with _Nostoc azollae_; the cyanobacterium resides in specialized leaf cavities of the fern.
 The symbiosis main function, from the host-plant perspective, is that _N. azollae_ sequesters di-nitrogen gas from the air and shares this with the host.
-Nitrogen is fixed with the nitrogenase enzyme into amonium. 
-This costly process is powered by energy and redux from the cyanobacterium's own photosynthesis.
-_Nostocs_ photosynthesis uses a slightly different colour green than the plant does, so they compete less for the same light.
-This association allows _Azolla_ to thrive on nitrogen-poor or even nitrogen-free water.
-The symbiosis is obligate in the sense that the cyanobacteria cannot live without their host.
 Several papers claim to have cultured _N. azollae_ on standard cyanobacterial media like BG11.
 We have tried to do reproduce this ourselves, and have talked to scientist better equipped to do so than us.
 Yet all efforts failed.
@@ -204,8 +199,12 @@ I suspect these works describe cultures of other cyanobacteria.
 heavily damaged genome
 perfectly normal for obligate symbioses.
 
+Nitrogen is fixed with the nitrogenase enzyme into amonium.
+This costly process is powered by energy and redux from the cyanobacterium's own photosynthesis.
+_Nostocs_ photosynthesis uses a slightly different colour green than the plant does, so they compete less for the same light.
+This association allows _Azolla_ to thrive on nitrogen-poor or even nitrogen-free water.
+The symbiosis is obligate in the sense that the cyanobacteria cannot live without their host.
 
-nitrogenase, ammonia,
 cyano's don't do carbon fixing!
 
 vesicles
@@ -236,14 +235,13 @@ The _Azolla_-_Nostoc_ symbiosis is not only ecologically significant but also of
 _Azolla_ has been used historically as a biofertilizer in rice paddies, where its rapid growth and nitrogen-fixing ability enhance soil fertility and crop yields.
 The genomic and metagenomic analyses presented in this thesis aim to unravel the complexities of this symbiotic relationship, providing insights into the genetic and functional dynamics that underpin this association.
 
-> The utility of Azolla extends beyond its ecological benefits to practical applications in agriculture and environmental management. 
-Historically, it has been used as a green manure in rice paddies, particularly in Asia, where its ability to fix nitrogen enhances 
+> The utility of Azolla extends beyond its ecological benefits to practical applications in agriculture and environmental management.
+Historically, it has been used as a green manure in rice paddies, particularly in Asia, where its ability to fix nitrogen enhances
 soil fertility and boosts crop yields. The fern’s high protein content makes it an excellent feed for livestock, providing a
- nutritious and sustainable alternative to conventional animal feeds. Additionally, Azolla is being explored for its potential 
- in biofuel production and as a means of controlling mosquito populations by covering stagnant water where mosquitoes breed. 
- These diverse applications highlight Azolla’s versatility and its potential to contribute to sustainable agricultural practices 
+ nutritious and sustainable alternative to conventional animal feeds. Additionally, Azolla is being explored for its potential
+ in biofuel production and as a means of controlling mosquito populations by covering stagnant water where mosquitoes breed.
+ These diverse applications highlight Azolla’s versatility and its potential to contribute to sustainable agricultural practices
  and environmental conservation efforts ￼ ￼.
-
 
 ## agricultural opportunities
 
@@ -261,20 +259,18 @@ Through advanced sequencing technologies, this research characterizes the genome
 Metagenomic approaches further elucidate the broader microbial community associated with _Azolla_, identifying other potential endophytes that contribute to the fern's growth and resilience.
 By integrating genomic and metagenomic data, this work seeks to deepen our understanding of the molecular mechanisms driving the _Azolla_-_Nostoc_ symbiosis and to explore its applications in enhancing agricultural sustainability.
 
-
 **introducing bioinformatics to a lab**
+
 - challenges
 - documentation
 
-
-
-### roadmap to breeding a novel-symbiosis-crop
+## roadmap to breeding a novel-symbiosis-crop
 
 ## Bioinformatics of novel-crops
 
 ## Documentationi and reproducibility in bioinformatics
 
-# Innovative aspects
+## Innovative aspects
 
 <!---
 # old
@@ -346,7 +342,6 @@ _Nostoc azollae_ Nitrogen independence
 5. Key advances...
 --->
 
-
 <!---
 label sections with LaTeX:
 `\label{hidden_treasures}`
@@ -369,13 +364,13 @@ and for a markdown label only markdown refs work:
 +@sec:foul-play-in-the-pocket
 --->
 
-# Outline of this thesis.
+# Outline of this thesis
 
-__Chapter \ref{general_intro}__ (\nameref{general_intro} on page \pageref{general_intro}) is the current chapter.
+**Chapter \ref{general_intro}__ (\nameref{general_intro} on page \pageref{general_intro}) is the current chapter.
 I attempted to take a broader vantage point and less jargon than the remaining chapters.
 A lesser-than-formal tone hopefully made this chapter more fun to read to the broader scientific audience interested in my work.
 
-__Chapter \ref{foul_play}__ (\nameref{foul_play} on page \pageref{foul_play}) details the initial discovery of prokaryotic DNA sequences in the _A. filiculoides_ genome assembly and includes the work that inspired this PhD project.
+**Chapter \ref{foul_play}** (\nameref{foul_play} on page \pageref{foul_play}) details the initial discovery of prokaryotic DNA sequences in the _A. filiculoides_ genome assembly and includes the work that inspired this PhD project.
 We identify near complete bacterial genomes in whole contigs of this assembly and study these further.
 These bacteria are confirmed to be present in _A. filiculoides_ taken from the wild as well as from the lab.
 The Non-cyanobacterial prokaryotes are confirmed to be associated with all _Azolla_ species for which WGS data is available.
@@ -383,7 +378,7 @@ They may be the same or very related microbes.
 Finally, we study the metabolic pathways encoded within these genomes and hypothesise they might denitrify Nitrogen rich compounds within the _A. filiculoides_ leaf pocket.
 This hypothesis is falsified however, denitrification occors only in microbes living epiphytically on _A. filiculoides_.
 
-In __chapter \ref{hidden_treasures}__ (\nameref{hidden_treasures} on page \pageref{hidden_treasures}), I build further on the work of chapter \ref{foul_play}.
+In **chapter \ref{hidden_treasures}** (\nameref{hidden_treasures} on page \pageref{hidden_treasures}), I build further on the work of chapter \ref{foul_play}.
 This chapter details a workflow to enrich and study the genomes of bacteria associated with all sequenced _Azolla_ species.
 The workflow thoroughly removes plant DNA reads, and then assembles those of the remaining microbes.
 The process of separating disctint microbial genomes (binning) required extra binningsignals and manual curation for these were not part of the original experimental design.
@@ -391,23 +386,23 @@ Each respresented species of the _Azolla_ genus yielded between 12 and 22 associ
 The majority of these genomes belong only to six taxonomical orders present in the majority of the entire _Azolla_ genus: Burkholderiales, Caulobacterales, Nevskiales, Nostocales, Rhizobiales and Sphingomonadales.
 The systematic presence of these taxonomic groups suggests they be selected for in the _Azolla_ symbiosis and they may be vertically transfered over host generations as is the main symbiont _N. azollae_.
 
-__Appendix \ref{metagenomics_practical}__ (\nameref{metagenomics_practical} on page \pageref{metagenomics_practical}) illustrates an educational practical based on these first two chapters.
+**Appendix \ref{metagenomics_practical}** (\nameref{metagenomics_practical} on page \pageref{metagenomics_practical}) illustrates an educational practical based on these first two chapters.
 I designed this practical to teach the basic metagenomics principles and techniques to Life Sciences students with minimal coding experience.
 The practical introduces the Bash language and tries to learn the main concepts behind metagenomics through a hands-on approach.
 It starts with a metagenome assembly, and guides the students through DNA mapping, binning, quality control, gene annotation and finally plotting of metabolic pathways.
 Exercises are implemented in JuPyter notebooks, combining code-writing with text instructions.
 The practical is freely available on GitHub here [github.com/lauralwd/metagenomicspractical](https://github.com/lauralwd/metagenomicspractical)
 
-__Chapter \ref{forever_together}__ (\nameref{forever_together} on page \pageref{forever_together}) describes the genomics of the main _Azolla_ symbiont: _N. azollae_, using the genomes assembled in chapter \ref{hidden_treasures}.
+**Chapter \ref{forever_together}** (\nameref{forever_together} on page \pageref{forever_together}) describes the genomics of the main _Azolla_ symbiont: _N. azollae_, using the genomes assembled in chapter \ref{hidden_treasures}.
 All _N. azollae_ share near identical genomes and gene content, indicating they are the same species of _N. azollae_, hosted in various _Azolla_ species.
 The _N. azollae_ genome is degraded due to high pseudogene content.
 Pseudogenation is caused by high transposon activity early in the symbiosis, but has since then slowed down.
 A _N. azollae_ specific gene set was identified comparing many near complete genomes in the Nostocales family.
 A phylogenomics approach confirms that te organisation of genera in this family is paraphyletic, but places _N. azollae_ close to _Anabeana_ species.
 
-__Chapter \ref{partners_and_passengers}__ (\nameref{partners_and_passengers} on page \pageref{partners_and_passengers}) is likely not going to happen...
+**Chapter \ref{partners_and_passengers}** (\nameref{partners_and_passengers} on page \pageref{partners_and_passengers}) is likely not going to happen...
 
-__Chapter \ref{it_takes_two}__ (\nameref{it_takes_two} on page \pageref{it_takes_two}) provides building blocks for understanding and regulating the sexual reproduction and mode of transmission of the _Azolla_ & _N. azollae_ symbiosis.
+**Chapter \ref{it_takes_two}** (\nameref{it_takes_two} on page \pageref{it_takes_two}) provides building blocks for understanding and regulating the sexual reproduction and mode of transmission of the _Azolla_ & _N. azollae_ symbiosis.
 Such understanding is a pre-requisite for agricultural application of a novel crop symbiosis.
 Several _Azolla_ specimens collected all over the Netherlands were all the same species for they produced viable offspring.
 We found that FR light and sporophyte density were main initiators of sexual reproduction while nitrogen availiblity was an inhibitor.
@@ -419,7 +414,7 @@ Contrasting earlier theories, we propose that _N. azollae_ does not colonise dev
 Instead, we theorise that they colonise early sporocarp initials of both typles, but are only retained in megasporocarps.
 This method of transmission is identical to colonisation of leaf primordia, hence requires no separate machinery and explains consistent observation of _N. azollae_ in very young microsporocarps.
 
-__Chapter \ref{phylogeny_workflow}__ (\nameref{phylogeny_workflow} on page \pageref{phylogeny_workflow}) describes a workflow for creating large and state-of-the-art phylogentic trees of gene families; examplified in landplants.
+**Chapter \ref{phylogeny_workflow}** (\nameref{phylogeny_workflow} on page \pageref{phylogeny_workflow}) describes a workflow for creating large and state-of-the-art phylogentic trees of gene families; examplified in landplants.
 Studying fern genetics, the _Azolla_ lab often deals with fern genes that are homologous (similar in sequence) to a seedplant gene.
 With phylogeny, we aim to assess the evolution of a gene family and orthology/paralogy of _Azolla_ genes to model species their genes.
 While many user friendly methods exist to create phylogenetic trees, these are often either closed-source, or their performance is limited.
@@ -437,11 +432,11 @@ The doctorate remains intrinsically a scientific degree and this thesis is first
 Still, I add three appendeces that give a glimpse in my "extracurricular" activities.
 My thesis; the culmination of my PhD, simply would not be complete without them.
 
-Firstly, __Appendix \ref{BKO}__ summarises my basic University Teaching Qualification (bUTQ or BKO) application.
+Firstly, **Appendix \ref{BKO}** summarises my basic University Teaching Qualification (bUTQ or BKO) application.
 About a quarter of My PhD I spend on teaching and developping myself as a Teacher.
 This effort was rewarded with a bUTQ or BKO in Dutch.
 The full portfolio is too lengthy to include, so this chapter sumarises the original document.
-Secondly, an example of teaching material that is completely of my own design is included in __Appendix \ref{metagenomics_practical}__ (\nameref{metagenomics_practical} on page \pageref{metagenomics_practical}) as mentioned before.
+Secondly, an example of teaching material that is completely of my own design is included in **Appendix \ref{metagenomics_practical}** (\nameref{metagenomics_practical} on page \pageref{metagenomics_practical}) as mentioned before.
 Finally, I include a short narrative CV on my non-science and non-teaching activities during my PhD and what I gained from them.
 
 \nolinenumbers
