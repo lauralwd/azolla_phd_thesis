@@ -11,4 +11,7 @@ Mauris eget blandit nisi, faucibus imperdiet odio. Suspendisse blandit dolor sed
 
 <!-- Use the \newpage command to force a new page -->
 
+
+Note that the general intro is meant to be readable and kind-of-light-weight for the general academic audience.
+
 \cleardoublepage
