@@ -123,13 +123,20 @@ Take it with a pinch of salt.
 # The _Azolla_ symbiosis
 
 This work discusses the genomics and metagenomics of a specific symbiosis: that between the floating fern genus _Azolla_, and a cyanobacterium _Nostoc azollae_.
+The Cyanobacterium supplies the symbioses with a surplus of nitrogen fixed from the air.
 The symbiosis floats on water.
-Azolla its aquatic lifestyle makes the fern highly dependent on fresh water.
+_Azolla_ its aquatic lifestyle makes the fern highly dependent on fresh water.
 Even its name is derived from this property, 'Azo' is greek for 'dry' and 'allyo' for 'kill'.
 The fern spreads horizontally over the water surface, darkening the water column.
 This property makes _Azolla_ as infamous under ecologists, as it is famous in symbiosis research.
-Bigger plants break irregularly into smaller ones, genetically identical, but physically separate.
-When the water surface is fully covered, the plants get crowded and their growth is directed upwards.
+Bigger plants break irregularly into smaller ones, genetically identical, but physically separate; forming a big green floating mat.
+_Azolla_ mats are known for their high growth rate and high protein content.
+A mat can grow so spectacularly fast, that _Azolla_ is thought to have overgrown the entire north pole for some time in geological history.
+This "_Azolla_ event" is associated with a steep decline in global CO2 concentration in the air.
+Within human history, _Azolla_ has traditionally been used in rice pady fields.
+Its main function was to prevent toxic cyanobacteria from growing in the water, any surplus was feed for animals.
+Some of today's agricultural challenges seem to be a perfect fit for _Azolla_: limit arable land, nitrogen fertilizer excesses, and protein shortage.
+_Azolla_ is an amazingly interesting plant, in this section I'll elaborate shortly on all these statements.
 
 ## Physiology
 
