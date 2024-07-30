@@ -433,8 +433,46 @@ Humanity currently does not have the space, time, nor can we withstand such an e
 _Azolla_ is not a greenhouse-gas get-out-of-fail-free-card.
 It is my opinion that greenhouse gas emissions should still be tackled at the source.
 
-## the Azollaceae family
+## The Salviniales Order
 
+Nothing in biology makes sense except in the light of evolution.
+Therefore, let's have a look at _Azolla_'s closest relatives.
+The order Salviniales comprises two families of heterosporous aquatic ferns: Salviniaceae and Marsileaceae.
+These families are distinguished from other ferns by their adaptation to aquatic habitats and their unique reproductive structures.
+The entire order is heterosporous: producing both megaspores and microspores within sporocarp structures.
+_Azolla_ is part of the Salviniaceae family and is the only genus that has a symbiosis with cyanobacteria.
+
+### Marsileaceae Family
+
+The Marsileaceae family includes genera such as _Marsilea_, _Pilularia_, and _Regnellidium_.
+These ferns grow in wet or aquatic environments.
+They are typically rooted in substrate with leaves that float on the water surface, or are suspended above it.
+The Marsileaceae family its appearance is rather similar to the popular iron-cross chamber plant, but then aquatic and a fern.
+Marsileaceae members are characterized by their four-lobed leaves (in _Marsilea_) or cylindrical leaves (in _Pilularia_).
+This form  differs substantially from the floating leaf structures seen in Salviniaceae.
+[Flora of New Zealand | Taxon Profile | Salviniaceae](https://www.nzflora.info/factsheet/Taxon/Salviniaceae.html)
+[Salviniales | Floating, Aquatic, Ferns | Britannica](https://www.britannica.com/plant/Salviniales)
+[Salviniaceae | SpringerLink](https://link.springer.com/chapter/10.1007/978-94-024-1157-7_17)
+
+### Salviniaceae Family
+
+The Salviniaceae family consists of two genera: _Azolla_ and _Salvinia_.
+These ferns are adapted to float on water as a whole and are often found in ponds, lakes, and slow-moving streams.
+Members of Salviniaceae produce spores in sporocarps, similar to Marsileaceae, but they exhibit distinct morphological traits.
+Their leaves are covered in hydrophobic trichomes that prevent the leaves from submergence.
+_Salvinia cuculata_ its trichomes are notable for they make little wisks.
+_Salvinia_ species leaves are attached to the stem in groups of three, with two floating leaves and one modified into a root-like structure.
+[Salviniaceae | SpringerLink](https://link.springer.com/chapter/10.1007/978-94-024-1157-7_17) 
+[Salviniaceae | plant family | Britannica](https://www.britannica.com/plant/Salviniaceae)
+
+_Azolla_ is particularly notable for its symbiotic relationship with nitrogen-fixing cyanobacteria, _Nostoc azollae_.
+This symbiosis allows _Azolla_ to thrive in nutrient-poor environments by providing a source of nitrogen, which is a critical nutrient for plant growth.
+In contrast, _Salvinia_ does not engage in such symbiotic relationships but compensates through its rapid vegetative growth and ability to cover large water surfaces.
+[Salviniales | Floating, Aquatic, Ferns | Britannica](https://www.britannica.com/plant/Salviniales) 
+[Salviniaceae | plant family | Britannica](https://www.britannica.com/plant/Salviniaceae).
+
+[NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=3190) 
+[Britannica](https://www.britannica.com/plant/Salviniaceae).
 
 ## my motivation for studying Azolla
 
