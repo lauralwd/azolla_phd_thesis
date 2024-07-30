@@ -185,6 +185,29 @@ Terrestrial hosts can by cycads (plants), mosses, but also lichens (fungi).
 Even some animals can be hosts: flatworm  _Convoluta roscoffensis_ can host a cyanobacterial symbiont.
 These symbioses are mostly not obligate; most cyanobacteria can live independently from their host.
 
+The _Azolla_-_Nostoc_ symbiosis is perhaps most related to moss-cyanobacterium symbioses.
+Moss-cyanobacterium symbioses are particularly present in boreal and temperate regions.
+Host mosses like _Sphagnum_ and _Pleurozium schreberi_ harbour nitrogen-fixing cyanobacteria, primarily from the genus _Nostoc_ and _Anabaena_.
+The cyanobacteria provide their host mosses with nitrogen by fixing atmospheric nitrogen into ammonia through the enzyme nitrogenase.
+This relationship is a big competitive advantage in nutrient-poor environments.
+The symbiosis significantly contributes to the nitrogen budget and supports the growth of both mosses and the surrounding plant community.
+[Moss-cyanobacteria associations as a novel source of biological N2-fixation in temperate grasslands](https://link.springer.com/article/10.1007/s11104-020-04695-x)
+In moss-cyanobacteria associations, the cyanobacteria are often acquired horizontally from the environment each generation.
+The cyanobacteria can also live without a host in these environments, and culturing and innoculation protocols are established.
+This is unlike the _Azolla_-_Nostoc_ symbiosis, where cyanobacteria are transferred vertically through reproductive structures.
+[Rousk: Unraveling host–microbe interactions and ecosystem functions in moss–bacteria symbioses](https://academic.oup.com/jxb/article/73/13/4473/6612780).
+
+In addition to nitrogen fixation, these symbioses also influence the broader ecosystem processes.
+The fixed nitrogen not only supports the mosses but also enriches the soil after part of the moss dies, benefiting other plants and microorganisms in the ecosystem.
+[Moss-cyanobacteria associations as a novel source of biological N2-fixation in temperate grasslands](https://link.springer.com/article/10.1007/s11104-020-04695-x)
+The presence of cyanobacteria enhances the mosses' ability to retain water and nutrients, thereby stabilizing soil and preventing erosion.
+This mutually beneficial relationship exemplifies the intricate connections between plants and microbes.
+It examplifies the ecological importance of cyanobacterial symbioses.
+Initiation of these interactions take a complex web of molecular signaling and metabolic exchange.
+[The moss traits that rule cyanobacterial colonization](https://academic.oup.com/aob/article/129/2/147/6386096)
+
+## _Nostoc azollae_
+
 _Azolla_ species form a unique symbiotic relationship with _Nostoc azollae_; the cyanobacterium resides in specialized leaf cavities of the fern.
 The symbiosis main function, from the host-plant perspective, is that _N. azollae_ sequesters di-nitrogen gas from the air and shares this with the host.
 Several papers claim to have cultured _N. azollae_ on standard cyanobacterial media like BG11.
@@ -193,8 +216,6 @@ Yet all efforts failed.
 Additionally, I personally find that papers claiming a culturing protocol for _N. azollae_ lack proper checks.
 More often than not, these checks are a PCR for the very common nitrogenase gene, or a visual check for heterocysts common to many genera of cyanobacteria.
 I suspect these works describe cultures of other cyanobacteria.
-
-**how does Azolla-nostoc relate to moss-cyanobacteria symbioses**
 
 **what do we know about the workings**
 heavily damaged genome
