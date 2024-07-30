@@ -392,6 +392,50 @@ Given _Azolla_'s tendency to grow rapidly and invasively, these pracices should 
 
 ## the Azolla event
 
+The _Azolla_ event is a spectacular story.
+So much so, that I often ended up poster presentations talking only about this geological fun-fact, rather than my own work.
+I hereby challenge my thesis committee not to mention the _Azolla_ event once during my defense.
+That being said, this hitchhicker's guide is not complete without the story.
+Especially since it was this research line by Utrecht University geologists that brought _Azolla_ to the attention of the biology departement.
+A sequence of events that culminated in the _Azolla_ lab being born.
+
+During geological expeditions drilling for Arctic sediment cores, some peculiar structures were found.
+This discovery started an intriguing investigation into how one small plant affected Earth's climatic history.
+During the Arctic Coring Expedition (ACEX), researchers found strange microfossils called glochidia in a specific layer of all sediment cores.
+While initially puzzled, scientists eventually identified these as glochidia.
+These are the specialised micro-spore structures of _Azolla_.
+These spores were abundant over the entire Arctic ocean floor.
+This indicated that the Arctic Ocean had once been covered with extensive mats of _Azolla_.
+We now call this the Azolla Event.
+[Azolla event - Wikipedia](https://en.wikipedia.org/wiki/Azolla_event) 
+[The Geological  Society](https://www.geolsoc.org.uk/Geoscientist/Archive/June-2014/The-Arctic-Azolla-event).
+
+Detailed analyses of the sediment cores revealed that _Azolla_ blooms persisted in the Arctic Ocean for nearly a million years during the Eocene epoch, around 49 million years ago.
+This period was characterized by nutrient-rich freshwater layers on the ocean surface, created by significant river runoff.
+The arctic ocean was more enclosed by landmasses then, fresh water supplied by multiple rivers made at least the top layer of this ocean fresh.
+These conditions facilitated the rapid growth and spread of _Azolla_, which formed dense mats across the Arctic.
+As these ferns photosynthesized, they absorbed large amounts of atmospheric CO2.
+When they died and sank to the ocean floor, the carbon they had captured was buried in the anoxic sediments.
+This effectively sequestered the CO2 and reduced greenhouse gas concentrations in the atmosphere.
+[Azolla event - Wikipedia](https://en.wikipedia.org/wiki/Azolla_event)
+[The Geological  Society](https://www.geolsoc.org.uk/Geoscientist/Archive/June-2014/The-Arctic-Azolla-event)
+[Arctic Azolla Event - Azolla Foundation](https://theazollafoundation.org/azolla/the-arctic-azolla-event-2/)
+
+The Azolla Event's impact on global climate was profound, contributing significantly to the transition from a greenhouse to an icehouse Earth.
+The extensive carbon sequestration by _Azolla_ helped to initiate a global cooling trend.
+It lead to the formation of polar ice caps and a shift towards the current icehouse climate.
+
+A popular question is if we can use _Azolla_ to mitigate current greenhouse gas emissions.
+Whilst this is a tempting thought, the _Azolla_ event took place on the entire North pole area, for over a million years.
+Whatever would have grown in that ocean, would have died due to the invasive spread of _Azolla_ ferns.
+I suspect it was an ecological disaster on it's own, perhaps a small extinction event even.
+Humanity currently does not have the space, time, nor can we withstand such an ecological disaster.
+_Azolla_ is not a greenhouse-gas get-out-of-fail-free-card.
+It is my opinion that greenhouse gas emissions should still be tackled at the source.
+
+## the Azollaceae family
+
+
 ## my motivation for studying Azolla
 
 # Methodology
