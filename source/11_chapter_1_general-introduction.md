@@ -187,6 +187,9 @@ These symbioses are mostly not obligate; most cyanobacteria can live independent
 
 _Azolla_ species form a unique symbiotic relationship with _Nostoc azollae_; the cyanobacterium resides in specialized leaf cavities of the fern.
 The symbiosis main function, from the host-plant perspective, is that _N. azollae_ sequesters di-nitrogen gas from the air and shares this with the host.
+Nitrogen is fixed with the nitrogenase enzyme into amonium. 
+This costly process is powered by energy and redux from the cyanobacterium's own photosynthesis.
+_Nostocs_ photosynthesis uses a slightly different colour green than the plant does, so they compete less for the same light.
 This association allows _Azolla_ to thrive on nitrogen-poor or even nitrogen-free water.
 The symbiosis is obligate in the sense that the cyanobacteria cannot live without their host.
 Several papers claim to have cultured _N. azollae_ on standard cyanobacterial media like BG11.
@@ -212,6 +215,7 @@ vesicles
 ## Life cycle
 
 ## Ecology
+
 When an _Azolla_ population has covered a water surface, the plants' growth is directed upwards.
 An _Azolla_ mat is formed between few millimeters and 20 to 30 centimeters in extreme scenario's.
 The bottom of the mat is dark, and may be submerged by the weight of plants laying on top.
