@@ -138,7 +138,7 @@ Its main function was to prevent toxic cyanobacteria from growing in the water, 
 Some of today's agricultural challenges seem to be a perfect fit for _Azolla_: limit arable land, nitrogen fertilizer excesses, and protein shortage.
 _Azolla_ is an amazingly interesting plant, in this section I'll elaborate shortly on all these statements.
 
-## Azolla physiology
+## _Azolla_ physiology
 
 _Azolla_ stems spread horizontaly over the water surface.
 At stem nodes, leaves and roots are attached.
@@ -149,6 +149,12 @@ It lies on the water like a boat, suspending the stem and upper leaf lobe above.
 The upper lobe is thick; almost balloon-like, and typically dark green.
 Inside this the upper lobe, a special organ houses the symbiotic bacteria.
 The leaves typically grow in a compact cabbage-like fashion; giving the whole plant a fish-scale appearance.
+
+All organs find their origin at the tip of the stem, at the shoot apical meristem (SAM).
+At the SAM, leaves, roots and sporocarps (the ferns reproductive structures) find their origin.
+The SAM also harbours a small colony with motile filaments of the cyanobacterium _T. azollae_.
+Both leaves and sporocarps encapsulate part of the starting colony during growth.
+This process ensures that all leaves have a colony of the symbiont.
 
 Azolla roots can be observed hanging loosely in the water like a thin curtain.
 On timelapses, the roots were seen swirling and curling.
@@ -213,18 +219,19 @@ These genera share common features like the presence of specialised heterocysts 
 
 Phylogenetic studies have shown that the relationships among these genera are complex.
 Within a single genus, significant genetic diversity can be observed.
-[Modern taxonomic revision of planktic nostocacean cyanobacteria: a short review of genera](https://link.springer.com/article/10.1007/s10750-009-0030-4) 
+[Modern taxonomic revision of planktic nostocacean cyanobacteria: a short review of genera](https://link.springer.com/article/10.1007/s10750-009-0030-4)
 Specifically, _Anabaena_ and _Nostoc_ are closely related but exhibit distinct ecological and morphological adaptations.
 [Morphological, biochemical and molecular characterization of Anabaena, Aphanizomenon and Nostoc strains (Cyanobacteria, Nostocales) isolated from Portuguese freshwater habitats](https://link.springer.com/article/10.1007/s10750-010-0572-5)
 _Anabaena_ is often found in both freshwater and saltwater environments and can form toxic blooms.
 _Nostoc_ is more commonly associated with symbiotic relationships in terrestrial and freshwater habitats
+
 Recent molecular analyses have provided deeper insights into the evolutionary relationships within the Nostocaceae family.
 These studies have utilized multiple genetic markers to elucidate the phylogeny of these cyanobacteria.
 The findings highlight the importance of horizontal gene transfer and genetic recombination in shaping the genetic diversity of Nostocaceae, contributing to their adaptability and ecological success across various environments
 [Morphological, biochemical and molecular characterization of Anabaena, Aphanizomenon and Nostoc strains (Cyanobacteria, Nostocales) isolated from Portuguese freshwater habitats](https://link.springer.com/article/10.1007/s10750-010-0572-5)
 [Modern taxonomic revision of planktic nostocacean cyanobacteria: a short review of genera](https://link.springer.com/article/10.1007/s10750-009-0030-4)
 
-## _Nostoc azollae_
+## _Nostoc azollae_ or _Trichormus azollae_
 
 _Azolla_ species form a unique symbiotic relationship with _Nostoc azollae_; the cyanobacterium resides in specialized leaf cavities of the fern.
 The symbiosis main function, from the host-plant perspective, is that _N. azollae_ sequesters di-nitrogen gas from the air and shares this with the host.
