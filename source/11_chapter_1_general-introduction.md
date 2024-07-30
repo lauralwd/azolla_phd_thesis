@@ -315,8 +315,6 @@ When attached to the megaspore, the microspore presumably swims to the megaspore
 
 pictures!
 
-
-
 ## agricultural history
 
 The _Azolla_-_Nostoc_ symbiosis is not only ecologically significant but also offers considerable potential for sustainable agriculture.
@@ -359,98 +357,6 @@ By integrating genomic and metagenomic data, this work seeks to deepen our under
 ## Documentationi and reproducibility in bioinformatics
 
 ## Innovative aspects
-
-<!---
-# old
-
-## Symbioses
-
-Trend in biology to see organisms as assemblages rather than individuals.
-
-- gut microbiome
-- hygene and allergies
-- root microbiome
-- plant micorhiza networks
-
-Why symbioses motivate me
-
-- "romanticised" image of organisms working together
-- interesting biology
-- inter-species complexity and evolution
-
-![Illustration of the _Azolla_ symbiosis life cycle by Erbil Güngör](source/figures/fig1_life-cycle.png){#fig:fig1_life-cycle width=100% short-caption="Azolla life cycle"}
---->
-
-<!---
-# Plant biology for the twentyfirst century
-These days, scientists, -humanity itself- is challenged with the advent of climate change, dramatic global population growth, and major loss of rurable land.
-The field of plant biology plays a particularly important role securing a sustainable and healty future for humanity on plant earth.
-IPCC
-IPCC
-FAO
-
-Challenges that plant biologist may tackle
-
-Efforts include improving existing crops
-
-Novel crops
-
-## Azolla
-Ferns of the genus _Azolla_ have several key advantages
-
-_Nostoc azollae_ Nitrogen independence
-
-# Establishing the genetics of a novel crop symbiosis
-
-## Domestication
-
-## Breeding arrearage
-
-## Breeding a symbiosis
-
-## Challenges of Azolla
-
-### framework
-1. ~~Plant biology: Food, Novel crops, Azolla symbiosis
-  - X challenges, solutions in novel crops
-  - opportunities Azolla~~
-2. ~~Genetics of a novel crop, breeding a Symbiosis
-  - What questions need to be answered for novel crop
-  - and for a symbiosis specifically
-  - Challenges Azolla, fern life cycle, heterospory, nostocs~~
-3. Bioinformatics and plant biology
-  - The study of information in biological systems
-  - Comparative genomics to speed-up breeding arrearage
-  - Elucidating the plant's second genome:
-4. Open science, share and re-use resources, how to bring a small field forward
-  - share methods, data, workflows
-  - Collaboration and outreach
-  - Societial solutions vs. technology solutions
-  - Teaching?
-5. Key advances...
---->
-
-<!---
-label sections with LaTeX:
-`\label{hidden_treasures}`
-or with markdown:
-`{#sec:foul-play-in-the-pocket}`
-
-Then referece to the full chapter name:
-\nameref{hidden_treasures}
-
-the specific page:
-\pageref{hidden_treasures}
-
-the chapter number:
-\ref{hidden_treasures}
-
-with markdown if the ref contains no spaces:
-+@sec:hidden-treasures
-
-and for a markdown label only markdown refs work:
-+@sec:foul-play-in-the-pocket
---->
 
 # Outline of this thesis
 
