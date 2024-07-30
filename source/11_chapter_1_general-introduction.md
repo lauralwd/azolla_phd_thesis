@@ -206,6 +206,24 @@ It examplifies the ecological importance of cyanobacterial symbioses.
 Initiation of these interactions take a complex web of molecular signaling and metabolic exchange.
 [The moss traits that rule cyanobacterial colonization](https://academic.oup.com/aob/article/129/2/147/6386096)
 
+Cyanobacteria associated with mosses, and also with Azolla, are often part of the Nostocaceae family.
+The Nostocaceae family comprises several genera of cyanobacteria known for their filamentous, colony-forming structures and their ability to fix nitrogen.
+The family includes genera such as _Nostoc_, _Anabaena_, _Trichormus_, and _Cylindrospermum_.
+These genera share common features like the presence of specialised heterocysts cells that fix nitrogen under aerobic conditions.
+
+Phylogenetic studies have shown that the relationships among these genera are complex.
+Within a single genus, significant genetic diversity can be observed.
+[Modern taxonomic revision of planktic nostocacean cyanobacteria: a short review of genera](https://link.springer.com/article/10.1007/s10750-009-0030-4) 
+Specifically, _Anabaena_ and _Nostoc_ are closely related but exhibit distinct ecological and morphological adaptations.
+[Morphological, biochemical and molecular characterization of Anabaena, Aphanizomenon and Nostoc strains (Cyanobacteria, Nostocales) isolated from Portuguese freshwater habitats](https://link.springer.com/article/10.1007/s10750-010-0572-5)
+_Anabaena_ is often found in both freshwater and saltwater environments and can form toxic blooms.
+_Nostoc_ is more commonly associated with symbiotic relationships in terrestrial and freshwater habitats
+Recent molecular analyses have provided deeper insights into the evolutionary relationships within the Nostocaceae family.
+These studies have utilized multiple genetic markers to elucidate the phylogeny of these cyanobacteria.
+The findings highlight the importance of horizontal gene transfer and genetic recombination in shaping the genetic diversity of Nostocaceae, contributing to their adaptability and ecological success across various environments
+[Morphological, biochemical and molecular characterization of Anabaena, Aphanizomenon and Nostoc strains (Cyanobacteria, Nostocales) isolated from Portuguese freshwater habitats](https://link.springer.com/article/10.1007/s10750-010-0572-5)
+[Modern taxonomic revision of planktic nostocacean cyanobacteria: a short review of genera](https://link.springer.com/article/10.1007/s10750-009-0030-4)
+
 ## _Nostoc azollae_
 
 _Azolla_ species form a unique symbiotic relationship with _Nostoc azollae_; the cyanobacterium resides in specialized leaf cavities of the fern.
