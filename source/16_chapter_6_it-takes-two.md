@@ -4,7 +4,7 @@
 
 <!-- \chapter{It takes two: Far-Red light induces the \emph{Azolla filiculoides} symbiosis sexual reproduction; triggering symbiont \emph{Nostoc azollae} transporters and \emph{A. filiculoides} GAMYB and MIKCc transcription factors.} -->
 \chapter{It takes two: Far-Red light induces the \emph{Azolla}-\emph{Nostoc} symbiosis sexual reproduction.}
-\label{it takes two}
+\label{it_takes_two}
 
 \footnotesize
 
