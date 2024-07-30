@@ -54,7 +54,7 @@ The latter, I find exemplified in recent attempts at microbiome editing.
 A microbiome is the collection of all microbial organisms associated with any organ or organism.
 Such a collection often contains millions of cells of hundreds of strains if not more.
 I think it is very optimistic to take one of these strains, edit it in some often genetic way, and expect robust change and plenty of examples in literature support this opinion.
-https://www.nature.com/articles/s44222-023-00072-2
+<https://www.nature.com/articles/s44222-023-00072-2>
 
 Even within the confines of a single cell, the reductionist view on biology is subject to scrutiny.
 Nicholson (2019) argues that perhaps we should abandon our view of the cell as a mechanical reductionist entity to be studied through its molecular components.
@@ -138,7 +138,7 @@ Its main function was to prevent toxic cyanobacteria from growing in the water, 
 Some of today's agricultural challenges seem to be a perfect fit for _Azolla_: limit arable land, nitrogen fertilizer excesses, and protein shortage.
 _Azolla_ is an amazingly interesting plant, in this section I'll elaborate shortly on all these statements.
 
-## Physiology
+## Azolla physiology
 
 _Azolla_ stems spread horizontaly over the water surface.
 At stem nodes, leaves and roots are attached.
@@ -174,7 +174,7 @@ As if ferns have not diversified, adapted and evolved since their origin.
 I hope this thesis will help in appreciating the intricacies of the _Azolla_ symbiosis life cycle.
 We can discuss "primitiveness" further compared to the brute force of non-polinated flowers or the extravaganza of a magnolia.
 
-## Symbiosis
+## Cyanobacterial symbiosis
 
 Cyanobacterial symbioses are widespread and diverse.
 They span various ecosystems: like marine environments, freshwater systems, and terrestrial habitats.
@@ -191,6 +191,7 @@ Several papers claim to have cultured _N. azollae_ on standard cyanobacterial me
 We have tried to do reproduce this ourselves, and have talked to scientist better equipped to do so than us.
 Yet all efforts failed.
 Additionally, I personally find that papers claiming a culturing protocol for _N. azollae_ lack proper checks.
+More often than not, these checks are a PCR for the very common nitrogenase gene, or a visual check for heterocysts common to many genera of cyanobacteria.
 I suspect these works describe cultures of other cyanobacteria.
 
 **how does Azolla-nostoc relate to moss-cyanobacteria symbioses**
@@ -251,7 +252,7 @@ protein!
 
 ## the Azolla event
 
-**my motivation for studying Azolla**
+## my motivation for studying Azolla
 
 # Methodology
 
@@ -259,10 +260,10 @@ Through advanced sequencing technologies, this research characterizes the genome
 Metagenomic approaches further elucidate the broader microbial community associated with _Azolla_, identifying other potential endophytes that contribute to the fern's growth and resilience.
 By integrating genomic and metagenomic data, this work seeks to deepen our understanding of the molecular mechanisms driving the _Azolla_-_Nostoc_ symbiosis and to explore its applications in enhancing agricultural sustainability.
 
-**introducing bioinformatics to a lab**
+## introducing bioinformatics to a lab
 
-- challenges
-- documentation
+* challenges
+* documentation
 
 ## roadmap to breeding a novel-symbiosis-crop
 
