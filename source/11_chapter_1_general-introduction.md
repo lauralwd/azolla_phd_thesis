@@ -235,6 +235,18 @@ Additionally, I personally find that papers claiming a culturing protocol for _N
 More often than not, these checks are a PCR for the very common nitrogenase gene, or a visual check for heterocysts common to many genera of cyanobacteria.
 I suspect these works describe cultures of other cyanobacteria.
 
+Like the organisation of the Nostocaceae family, the genus name of _Nostoc azollae_ is also up for debate.
+_N. azollae_ has undergone multiple reclassifications due to advances in molecular phylogenetics such as phylogenomics techniques.
+Traditionally, it has been referred to as _Anabaena azollae_.
+Most modern literature refers now to _Nostoc azollae_.
+More recently _Trichormus azollae_ was proposed to be the propper genus for the symbiont, this is now also the standard in the NCBI taxonomy database.
+These taxonomic ambiguities arise from variations in morphological and genetic data that were considered for the phylogeny of the Nostocaceae family.
+[Modern taxonomic revision of planktic nostocacean cyanobacteria: a short review of genera](https://link.springer.com/article/10.1007/s10750-009-0030-4)
+Recent studies favor the classification of this cyanobiont as _Trichormus azollae_ based on comprehensive phylogenetic analyses.
+[trichormus paper link]
+In this thesis both _Nostoc azollae_ and _Trichormus azollae_ are used.
+The former because chapters were published so before this thesis was compiled, the latter for newer work.
+
 **what do we know about the workings**
 heavily damaged genome
 perfectly normal for obligate symbioses.
