@@ -10,7 +10,7 @@
 \linenumbers
 
 <!-- chapter title and bla bla -->
-\chapter{A hitchhikers guide to symbioses, \textit{Azolla}, its symbionts, and why people care}
+\chapter{A hitchhiker's guide to \textit{Azolla} symbiosis genomics}
 \label{general_intro}
 
 \addthumb{General Introduction}{\Large{I}}{white}{gray}
