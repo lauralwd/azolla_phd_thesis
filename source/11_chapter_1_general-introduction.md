@@ -233,16 +233,16 @@ The findings highlight the importance of horizontal gene transfer and genetic re
 
 ## _Nostoc azollae_ or _Trichormus azollae_
 
-_Azolla_ species form a unique symbiotic relationship with _Nostoc azollae_; the cyanobacterium resides in specialized leaf cavities of the fern.
-The symbiosis main function, from the host-plant perspective, is that _N. azollae_ sequesters di-nitrogen gas from the air and shares this with the host.
-Several papers claim to have cultured _N. azollae_ on standard cyanobacterial media like BG11.
+_Azolla_ species form a unique symbiotic relationship with _Trichormus_ azollae_; the cyanobacterium resides in specialized leaf cavities of the fern.
+The symbiosis main function, from the host-plant perspective, is that T. azollae_ sequesters di-nitrogen gas from the air and shares this with the host.
+Several papers claim to have cultured _T. azollae_ on standard cyanobacterial media like BG11.
 We have tried to do reproduce this ourselves, and have talked to scientist better equipped to do so than us.
 Yet all efforts failed.
-Additionally, I personally find that papers claiming a culturing protocol for _N. azollae_ lack proper checks.
+Additionally, I personally find that papers claiming a culturing protocol for _T. azollae_ lack proper checks.
 More often than not, these checks are a PCR for the very common nitrogenase gene, or a visual check for heterocysts common to many genera of cyanobacteria.
 I suspect these works describe cultures of other cyanobacteria.
 
-Like the organisation of the Nostocaceae family, the genus name of _Nostoc azollae_ is also up for debate.
+Like the organisation of the Nostocaceae family, the genus name of _T azollae_ is also up for debate.
 _N. azollae_ has undergone multiple reclassifications due to advances in molecular phylogenetics such as phylogenomics techniques.
 Traditionally, it has been referred to as _Anabaena azollae_.
 Most modern literature refers now to _Nostoc azollae_.
@@ -252,25 +252,42 @@ These taxonomic ambiguities arise from variations in morphological and genetic d
 Recent studies favor the classification of this cyanobiont as _Trichormus azollae_ based on comprehensive phylogenetic analyses.
 [trichormus paper link]
 In this thesis both _Nostoc azollae_ and _Trichormus azollae_ are used.
-The former because chapters were published so before this thesis was compiled, the latter for newer work.
+The former in chapters that were published before this thesis was compiled, the latter for newer work.
 
-**what do we know about the workings**
-heavily damaged genome
-perfectly normal for obligate symbioses.
+One of the key papers to understand _N. azollae_ is the original genome publication by Ran et al. [cite].
+The study found the genome of _Nostoc azollae_ has undergone substantial reductive evolution.
+It contains many broken genes that would otherwise be considered essential for a free-living cyanobacterium.
+The genome does contain a complete set of genes required for nitrogen fixation, highlighting the cyanobacterium's crucial role in providing fixed nitrogen to the symbiosis.
+These broken genes, or pseudo genes, are often damaged by insertion sequences (IS elements).
+_T. azollae_s genome contains a high amount of IS elements, indicating ongoing and substantial genome reduction and instability.
+Lacking many important metabolic genes, _T. azollae_ likely has a high degree of specialization and dependence on the host plant.
+I find the Ran et al. paper essential reading for _Azolla_ symbiosis research.
+It provides the genetic basis for understanding the metabolic potential of the main symbiont of _Azolla_ ferns.
+By elucidating the genetic adaptations of _T azollae_, the study paves the way for further research into optimizing _Azolla_ for agricultural and environmental applications.
 
-Nitrogen is fixed with the nitrogenase enzyme into amonium.
-This costly process is powered by energy and redux from the cyanobacterium's own photosynthesis.
+Genome degradation sounds worrisome, but is actually a well documented process for obligate symbioses.
+Organelles are extreme examples of this process.
+Symbiotic bacteria often lose genes that are unnecessary for their specialised lifestyles.
+For example, _Buchnera aphidicola_, an endosymbiont of aphids, has reduced its genome to about 600-800 kilobases, retaining only essential genes for amino acid synthesis, while losing genes involved in DNA repair and regulatory functions
+[buchnera](https://academic.oup.com/mbe/article/36/7/1481/5466460#:~:text=URL%3A%20https%3A%2F%2Facademic.oup.com%2Fmbe%2Farticle%2F36%2F7%2F1481%2F5466460%0ALoading...%0AVisible%3A%200%25%20)
+[Genome interdependence in insect-bacterium symbioses](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2001-2-12-reviews1032).
+Similarly, _Wigglesworthia glossinidia_, a symbiont of tsetse flies, has a genome of approximately 700 kilobases, which includes genes vital for the biosynthesis of vitamins needed by the fly, but lacks many metabolic pathways, relying heavily on the host for these functions
+[Genome evolution in bacterial endosymbionts of insects](https://www.nature.com/articles/nrg931.pdf)
+[Tsetse Flies Rely on Symbiotic Wigglesworthia for Immune System Development](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001070).
+In an even more extreme case, _Carsonella ruddii_, the endosymbiont of psyllids, has the smallest known bacterial genome at about 160 kilobases, maintaining only a minimal set of genes required for protein synthesis and essential nutrient production, illustrating its high level of dependence on the host [Carsonella](https://academic.oup.com/mbe/article/24/2/449/1149358#:~:text=URL%3A%20https%3A%2F%2Facademic.oup.com%2Fmbe%2Farticle%2F24%2F2%2F449%2F1149358%0ALoading...%0AVisible%3A%200%25%20)
+[Genome interdependence in insect-bacterium symbioses](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2001-2-12-reviews1032).
+These examples highlight how genome reduction enables symbiotic bacteria to become highly specialized and efficient in their roles, focusing on essential symbiotic functions and relying on their hosts for other needs.
+
+The genes in the _T. azollae_ genome sequence reveal the symbionts metabolic potential, as well as its lost metabolic potential.
+These features tell us about the workings and evolution of the symbiosis.
+For example, Ran et al. found pathways for the biosynthesis of phytohormones.
+These pathways may contribute to the growth and development of _Azolla_, indicating a two-way metabolic intertwined-ness between the two.
+Nitrogen gas is fixed with the nitrogenase enzyme into amonium.
+This costly process is powered by energy and redux from the cyanobacterium's own photosynthesis which remains intact.
+[Eily et al.; Ray 1979]
 _Nostocs_ photosynthesis uses a slightly different colour green than the plant does, so they compete less for the same light.
 This association allows _Azolla_ to thrive on nitrogen-poor or even nitrogen-free water.
-The symbiosis is obligate in the sense that the cyanobacteria cannot live without their host.
-
-cyano's don't do carbon fixing!
-
-vesicles
-
-## More partners
-
-## Life cycle
+In return _T. azollae_ is thought to get carbon compounds from the host plant.
 
 ## Ecology
 
@@ -282,11 +299,23 @@ Specifically the red vs far-red light ratio.
 The plants perceive this light change, and adapt their growth.
 The internode distance (distance on the stem between leaves) increases, giving the plant an elongated appearance.
 
-light blocking
+phosphorus heavy environments --> B-Ware paper
 
-phosphorus heavy environments
+## Life cycle
 
-stenopelmus
+_Azolla_ is a fern genus, it makes no flowers but spores for reproductive purposes.
+Sporulation is triggered by a high far-red over red light ratio, and density of the plants in a mat.
+_Azolla_ makes two types of spores: Big megaspores, made in megasporocarps and small microspores made in microsporocarps.
+The cone-shaped megasporocarps can just be observed by the naked eye and contain one megaspore as well as a dormant colony of the symbiotic bacterium _T. azollae_.
+The microsporocarps are bigger, and contain many small massulae.
+Massulae are presumably non-living structures containing the microscopic microspore.
+_Azolla_ massulae are very recognisable by their clochidia.
+These are arrow like structures on the surface that serve to hook onto the megaspore.
+When attached to the megaspore, the microspore presumably swims to the megaspore, fertilises it and a plant grows out of it.
+
+pictures!
+
+
 
 ## agricultural history
 
