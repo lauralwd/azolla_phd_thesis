@@ -31,10 +31,10 @@ Laura W Dijkhuizen^1^
 # Symbioses
 
 > _“A system is never the sum of its parts it's the product of their interaction.”_
->   – Russell Ackoff (professor of systems sciences)
+– Russell Ackoff (professor of systems sciences)
 
+## A system perspective
 
-## A system perspective 
 When imagining an ecosystem, one typically thinks of a forest with trees, animals, and insects.
 Perhaps also a stream and some fish; all thriving as a balanced part of a larger whole.
 The concept emphasises the abundance and complexity of interaction within the larger system, rather than the individualistic existence of the loose parts.
@@ -65,8 +65,9 @@ In fact my bachelor studies were organised this very way.
 Yet, somehow, something so obvious to a first-year biology student becomes an afterthought in reductionist scientific practice; an interesting speculation for the discussion.
 
 Perhaps the study of symbioses takes place in between the ambition of full system understanding, and the practice of mechanistic researching pathways.
-The methodology of the reductionist dogma remains the gold standard that we want to adhere to also in this work.
-But always asking what it means for a system as a whole, or as it has felt, constrained by only being able to work with the system as a whole.
+The methodology of the reductionist dogma remains the gold standard that we want to adhere to, also in this work.
+But always asking what it means for a system as a whole.
+Or, more often than not, forced to work with the system as a whole.
 Whether that system is an ecosystem, a cell, or, as is in this thesis: a symbiosis.
 By definition, a symbiosis is a long-term interaction of two or more organisms.
 They often can be categorised in:
@@ -80,11 +81,12 @@ They often can be categorised in:
 The general public often assigns a positive connotation to the concept of symbiosis, referring to the first two categories.
 This is not always practical, for the type of interaction is often unknown at first.
 Hence, the time span of an interaction is a more robust approach.
-In this thesis, symbiosis typically refers to the first two categories; congruent with the general sentiment of the word, and to associations of an unknown category.
+In this thesis, symbiosis typically refers to the first two categories; congruent with the general sentiment of the word.
 The latter three categories are thought of as general ecological interactions rather than symbioses, in the context of this document.
 
 ## Symbiosis breeding
-The original premise of this PhD project included thoughts on symbiosis breeding.
+
+The original premise of this PhD project includes thoughts on symbiosis breeding.
 The organisms of choice here, are part of an obligate symbiosis focused on nutrient acquisition; specifically nitrogen.
 We reasoned that molecular pathways of host and symbiont would be intricately interconnected.
 Hence, any breeding efforts of the host plant should not be limited to the plant physiology and genomics, but include those of its symbiont.
@@ -93,6 +95,7 @@ We advocated then, that breeding a functionally intertwined unit of organisms re
 A perspective that integrates ecological, physiological and (meta)genomic data to understand and eventually manipulate a plant-microbe symbiosis.
 
 ## The holobiont concept
+
 The holobiont concept is a recent proposition in evolutionary jargon.
 It proposes to think of a host and a symbiont as one unit of evolutionary selection.
 This is not a far fetch in the case of an obligate symbiosis where a microbiome is actively transferred to subsequent host generations.
@@ -113,10 +116,12 @@ Additionally, they argue that existing frameworks are better equipped to handle 
 I have not decided on the matter yet, although I am inclined to agree with the critics for most scenarios.
 Yet, if we can occasionally find use in thinking of a single gene as an evolutionary unit, then perhaps the holobiont perspective has use as well.
 Even if that is only in specific cases.
+It seems unproductive to me, to use holobiont as a buzz-word, to elevate a consortium of organisms above others.
 In this thesis my colleagues and I do use the word occasionally.
 Take it with a pinch of salt.
 
-# The Azolla symbiosis
+# The _Azolla_ symbiosis
+
 This work discusses the genomics and metagenomics of a specific symbiosis: that between the floating fern genus _Azolla_, and a cyanobacterium _Nostoc azollae_.
 The symbiosis floats on water.
 Azolla its aquatic lifestyle makes the fern highly dependent on fresh water.
@@ -127,6 +132,8 @@ Bigger plants break irregularly into smaller ones, genetically identical, but ph
 When the water surface is fully covered, the plants get crowded and their growth is directed upwards.
 
 ## Physiology
+
+_Azolla_ stems spread horizontaly over the water surface.
 At stem nodes, leaves and roots are attached.
 _Azolla_ leaves are highly adapted to their function.
 They are bi-lobed, directed either up- or down-ward.
@@ -147,7 +154,7 @@ Interestingly, Azolla roots respond distinctly to typical plant hormones compare
 Roots were likely invented twice in plant-history: in lycophytes and in ferns.
 The fern-invented-roots were passed down to seed-plants.
 However, not all roots will have developed the same since their original invention.
-In seed-plants, the hormone cytokinin promotes cell division in shoots, and regulate differentiation growth roots.
+In seed-plants, the hormone cytokinin promotes cell division in shoots, and regulates differentiation growth in roots.
 In contrast to the typical response, _Azolla_ roots' cell division is promoted by cytokinin [@DeVries].
 This finding suggest that Azolla roots have an origin as a shoot structure.
 They are analogous to plant roots; similar in appearance but separate in origin.
@@ -161,6 +168,7 @@ I hope this thesis will help in appreciating the intricacies of the _Azolla_ sym
 We can discuss "primitiveness" further compared to the brute force of non-polinated flowers or the extravaganza of a magnolia.
 
 ## Symbiosis
+
 Cyanobacterial symbioses are widespread and diverse.
 They span various ecosystems: like marine environments, freshwater systems, and terrestrial habitats.
 Cyanobacteria form mutualistic associations with a wide range of hosts, including plants, fungi, protists, and even animals.
@@ -192,11 +200,9 @@ cyano's don't do carbon fixing!
 
 vesicles
 
-
 ## More partners
 
 ## Life cycle
-
 
 ## Ecology
 When an _Azolla_ population has covered a water surface, the plants' growth is directed upwards.
@@ -209,11 +215,9 @@ The internode distance (distance on the stem between leaves) increases, giving t
 
 light blocking
 
-
 phosphorus heavy environments
 
-
-
+stenopelmus
 
 ## agricultural history
 
@@ -237,7 +241,6 @@ heavy metals, pollutants?
 protein!
 
 ## the Azolla event
-
 
 **my motivation for studying Azolla**
 
@@ -274,20 +277,14 @@ Trend in biology to see organisms as assemblages rather than individuals.
 - root microbiome
 - plant micorhiza networks
 
-
 Why symbioses motivate me
 
 - "romanticised" image of organisms working together
 - interesting biology
 - inter-species complexity and evolution
 
-
-
-
-
 ![Illustration of the _Azolla_ symbiosis life cycle by Erbil Güngör](source/figures/fig1_life-cycle.png){#fig:fig1_life-cycle width=100% short-caption="Azolla life cycle"}
 --->
-
 
 <!---
 # Plant biology for the twentyfirst century
@@ -362,6 +359,7 @@ and for a markdown label only markdown refs work:
 --->
 
 # Outline of this thesis.
+
 __Chapter \ref{general_intro}__ (\nameref{general_intro} on page \pageref{general_intro}) is the current chapter.
 I attempted to take a broader vantage point and less jargon than the remaining chapters.
 A lesser-than-formal tone hopefully made this chapter more fun to read to the broader scientific audience interested in my work.
@@ -420,6 +418,7 @@ It covers data-selection, multiple sequences alignment, alignment trimming, and 
 Additionally, it provides tools to create semi-automatic mark-up for phylogenetic trees in the iToL webinterface.
 
 ## Appendeces
+
 Academics are more than just scientitsts.
 They are often also teachers on universities and leaders and administrators in academic organs.
 During my PhD, I attempted to incorparate that broader academic experience in my work.
