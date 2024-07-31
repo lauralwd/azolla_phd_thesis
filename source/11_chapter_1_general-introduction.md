@@ -570,10 +570,7 @@ It needs little further introduction.
 
 # Methodology
 
-<!-- 
-Structure scratchpad
-
-The advent and rise of bioinformatics for molecular breeding.
+## The advent and rise of bioinformatics for molecular breeding.
   - can bioinfo and modern mol. techniques accelerate symbiosis research and even symbiosis breeding, as for traditional breeding.
   - Molecular breeding started with genomics, so its only logical we start with metagenomics.
   - Briefly introduce how genomics has revolutionized symbiosis research by allowing detailed insights into the genetic interactions between host plants and their symbiotic partners.
@@ -605,11 +602,12 @@ Ethics:
 Future Directions and Technological Needs
   -	Discuss the future directions for symbiosis research and the technological advancements needed to fully harness the potential of genomics in developing sustainable agricultural practices.
 
- -->
 
+<!-- 
 Through advanced sequencing technologies, this research characterizes the genomes of both _Azolla_ and _Nostoc azollae_, revealing the genetic basis of their symbiotic interaction.
 Metagenomic approaches further elucidate the broader microbial community associated with _Azolla_, identifying other potential endophytes that contribute to the fern's growth and resilience.
-By integrating genomic and metagenomic data, this work seeks to deepen our understanding of the molecular mechanisms driving the _Azolla_-_Nostoc_ symbiosis and to explore its applications in enhancing agricultural sustainability.
+By integrating genomic and metagenomic data, this work seeks to deepen our understanding of the molecular mechanisms driving the _Azolla_-_Nostoc_ symbiosis and to explore its applications in enhancing agricultural sustainability. 
+-->
 
 # Outline of this thesis
 
