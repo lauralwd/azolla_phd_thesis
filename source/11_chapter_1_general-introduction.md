@@ -33,17 +33,26 @@ Laura W Dijkhuizen^1^
 > _“A system is never the sum of its parts it's the product of their interaction.”_
 – Russell Ackoff (professor of systems sciences)
 
+<!-- not sure about this paragraph -->
+This hitchhiker's guide is meant to be a friendly general introduction to this thesis.
+I attempted to make it palpable for all scientific audience, not just (plant)biologists.
+Individual chapters have in-depth stand-alone introductions relevant for the scientific work of those chapters.
+So here, I mean to give a broader context on symbiosis research, on the amazing _Azolla_, and relevant genomics methodologies.
+There will be a bit of humour and opinion and informal writing.
+
 ## A system perspective
 
 When imagining an ecosystem, one typically thinks of a forest with trees, animals, and insects.
-Perhaps also a stream and some fish; all thriving as a balanced part of a larger whole.
+Perhaps also a stream and some fish; idyllically thriving as a balanced part of a larger whole.
 The concept emphasises the abundance and complexity of interaction within the larger system, rather than the individualistic existence of the loose parts.
 Yet, when an average person imagines a biological experiment, they think of lab coats, petri dishes, and perhaps microscopes.
 They are not wrong; science has thrived under reductionism.
 Scientific experiments often strive to control one variable at a time to isolate its effects.
-All other variations are reduced by working with one species or one strain at a time, dislodged from its natural environment to prevent it from meddling with the experiment.
+All other variations are reduced by working with one species or strain at a time, treated exactly the same except for that one experimental variable.
+The organism is dislodged from its natural environment to prevent it from meddling with the experiment.
 We, scientists, call this: 'controlled conditions.'
-The ultimate goal is to gain mechanistic insight into the workings of a biological system, reasoning that if we know the function of all its parts, we then know the system.
+The ultimate goal is to gain mechanistic insight into the workings of a biological system; one part at a time.
+The reasoning being, that if we know the function of all its parts, we then know the system.
 
 The reductionist dogma yielded considerable advances in biological research; I wouldn't dream of debating this.
 But I will argue that it occasionally falls short in encompassing emergent properties of a larger whole.
@@ -54,15 +63,21 @@ The latter, I find exemplified in recent attempts at microbiome editing.
 A microbiome is the collection of all microbial organisms associated with any organ or organism.
 Such a collection often contains millions of cells of hundreds of strains if not more.
 I think it is very optimistic to take one of these strains, edit it in some often genetic way, and expect robust change and plenty of examples in literature support this opinion.
-<https://www.nature.com/articles/s44222-023-00072-2>
+[proper details here](https://www.nature.com/articles/s44222-023-00072-2)
 
 Even within the confines of a single cell, the reductionist view on biology is subject to scrutiny.
 Nicholson (2019) argues that perhaps we should abandon our view of the cell as a mechanical reductionist entity to be studied through its molecular components.
 Instead, we should consider the cell as a complex, adaptive system where interactions and emergent properties are crucial for its function.
+Mechanistic studies research the workings of single components in the cell, and then perhaps place these into metabolic pathways.
+These pathways turn into a vast network of cause and effect.
+One can follow how one compound finds it way though the network, being turned into another compound.
+Or see how a signal at one point gets amplified and transmitted to some other point.
+An overview of cause and effect relations falls short to capture the non-linearity, stochasticity and plasticity of cellular behaviour (Nicholson 2019).
+
 I argue not for the complete abandonment of mechanistic research, but for complementing it with a systems biology perspective.
 A task well suited for biologists, who are trained from the onset to think at varying scales; from molecule to ecosystem.
 In fact my bachelor studies were organised this very way.
-Yet, somehow, something so obvious to a first-year biology student becomes an afterthought in reductionist scientific practice; an interesting speculation for the discussion.
+Yet, somehow, something so obvious to a first-year biology student becomes an afterthought in reductionist scientific practice.
 
 Perhaps the study of symbioses takes place in between the ambition of full system understanding, and the practice of mechanistic researching pathways.
 The methodology of the reductionist dogma remains the gold standard that we want to adhere to, also in this work.
@@ -99,7 +114,7 @@ A perspective that integrates ecological, physiological and (meta)genomic data t
 The holobiont concept is a recent proposition in evolutionary jargon.
 It proposes to think of a host and a symbiont as one unit of evolutionary selection.
 This is not a far fetch in the case of an obligate symbiosis where a microbiome is actively transferred to subsequent host generations.
-It might be odd even, to argue that certain genetic material should be regarded as a separate evolutionary unit based solely on the compartment it is housed in.
+It might be odd even, to argue that systematically inherited genetic material should be regarded as a separate evolutionary unit based solely on the compartment it is housed in.
 We rarely find this useful for organelles either, although examples do exist in literature.
 The holobiont concept paves the way for some interesting thought experiments.
 Could a fast-evolving bacterial section of the hologenome (all genetic material of a holobiont) provide flexibility to the rigid host genome.
@@ -115,7 +130,7 @@ Additionally, they argue that existing frameworks are better equipped to handle 
 
 I have not decided on the matter yet, although I am inclined to agree with the critics for most scenarios.
 Yet, if we can occasionally find use in thinking of a single gene as an evolutionary unit, then perhaps the holobiont perspective has use as well.
-Even if that is only in specific cases.
+This model of how organisms co-exist will undoubtedly be wrong, but perhaps it is useful in some scenarios.
 It seems unproductive to me, to use holobiont as a buzz-word, to elevate a consortium of organisms above others.
 In this thesis my colleagues and I do use the word occasionally.
 Take it with a pinch of salt.
@@ -124,7 +139,8 @@ Take it with a pinch of salt.
 
 This work discusses the genomics and metagenomics of a specific symbiosis: that between the floating fern genus _Azolla_, and a cyanobacterium _Nostoc azollae_.
 The Cyanobacterium supplies the symbioses with a surplus of nitrogen fixed from the air.
-The symbiosis floats on water.
+Unlike most plants, _Azolla_ is not a terrestrial fern.
+Instead, the symbiosis floats on water.
 _Azolla_ its aquatic lifestyle makes the fern highly dependent on fresh water.
 Even its name is derived from this property, 'Azo' is greek for 'dry' and 'allyo' for 'kill'.
 The fern spreads horizontally over the water surface, darkening the water column.
@@ -133,37 +149,41 @@ Bigger plants break irregularly into smaller ones, genetically identical, but ph
 _Azolla_ mats are known for their high growth rate and high protein content.
 A mat can grow so spectacularly fast, that _Azolla_ is thought to have overgrown the entire north pole for some time in geological history.
 This "_Azolla_ event" is associated with a steep decline in global CO2 concentration in the air.
-Within human history, _Azolla_ has traditionally been used in rice pady fields.
-Its main function was to prevent toxic cyanobacteria from growing in the water, any surplus was feed for animals.
+Within human history, _Azolla_ has traditionally been used in rice paddy fields.
+Its main function was to prevent toxic cyanobacteria from growing in the water.
+Any surplus was feed for animals.
 Some of today's agricultural challenges seem to be a perfect fit for _Azolla_: limit arable land, nitrogen fertilizer excesses, and protein shortage.
 _Azolla_ is an amazingly interesting plant, in this section I'll elaborate shortly on all these statements.
 
 ## _Azolla_ physiology
 
-_Azolla_ stems spread horizontaly over the water surface.
+_Azolla_ stems spread horizontally over the water surface.
 At stem nodes, leaves and roots are attached.
-_Azolla_ leaves are highly adapted to their function.
-They are bi-lobed, directed either up- or down-ward.
+_Azolla_ leaves are highly adapted to the ferns living style.
+They are bi-lobed; both lobes being directed either up- or down-ward.
 The lower lobe is razor-thin, translucent-looking and concave.
 It lies on the water like a boat, suspending the stem and upper leaf lobe above.
 The upper lobe is thick; almost balloon-like, and typically dark green.
 Inside this the upper lobe, a special organ houses the symbiotic bacteria.
 The leaves typically grow in a compact cabbage-like fashion; giving the whole plant a fish-scale appearance.
 
+<!-- insert macro photo Azolla, macro photo stem tip, microscope photo starting colony -->
+
 All organs find their origin at the tip of the stem, at the shoot apical meristem (SAM).
-At the SAM, leaves, roots and sporocarps (the ferns reproductive structures) find their origin.
+The SAM produces primordia, little bulges, which develop into leaves, roots and sporocarps (the ferns reproductive structures).
 The SAM also harbours a small colony with motile filaments of the cyanobacterium _T. azollae_.
 Both leaves and sporocarps encapsulate part of the starting colony during growth.
 This process ensures that all leaves have a colony of the symbiont.
 
 Azolla roots can be observed hanging loosely in the water like a thin curtain.
-On timelapses, the roots were seen swirling and curling.
+On timelapses, the roots were seen swirling and curling. 
+<!-- insert link to timelapse -->
 Roots of individual plant fronts grabbed onto each other like rugby players locking shoulders in a scrum
 This way, individual plants formed a cohesive mat, keeping together.
 I suspect this phenomenon may help in creating favourable conditions for the symbiosis.
 It may help in stratifying the water column, keeping nutrients from dying plants close to the plant roots for re-absorption.
 
-Interestingly, Azolla roots respond distinctly to typical plant hormones compared to flowering plants.
+Interestingly, Azolla roots respond distinctly to typical plant hormones compared to flowering plants their roots.
 Roots were likely invented twice in plant-history: in lycophytes and in ferns.
 The fern-invented-roots were passed down to seed-plants.
 However, not all roots will have developed the same since their original invention.
@@ -177,8 +197,8 @@ It does highlight and illustrate that the evolutionary history of _Azolla_ devia
 Educated guesses made with a seed-plant background, may be false more often than one thinks.
 Now let me also express my dislike for the term "primitive plants".
 As if ferns have not diversified, adapted and evolved since their origin.
-I hope this thesis will help in appreciating the intricacies of the _Azolla_ symbiosis life cycle.
-We can discuss "primitiveness" further compared to the brute force of non-polinated flowers or the extravaganza of a magnolia.
+I hope this thesis, even this introduction, will help in appreciating the intricacies of the _Azolla_ symbiosis life cycle.
+We can discuss "primitiveness" further compared to the brute force of non-pollinated flowers or the extravaganza of a magnolia.
 
 ## Cyanobacterial symbiosis
 
@@ -188,34 +208,36 @@ Cyanobacteria form mutualistic associations with a wide range of hosts, includin
 In marine systems, symbiosis partners can be sponges or diatoms.
 In fresh water systems, the _Azolla_ symbiosis is a prime example.
 Terrestrial hosts can by cycads (plants), mosses, but also lichens (fungi).
-Even some animals can be hosts: flatworm  _Convoluta roscoffensis_ can host a cyanobacterial symbiont.
+Even some animals can be hosts: besides sponges, a flatworm  _Convoluta roscoffensis_ can host a cyanobacterial symbiont.
 These symbioses are mostly not obligate; most cyanobacteria can live independently from their host.
 
 The _Azolla_-_Nostoc_ symbiosis is perhaps most related to moss-cyanobacterium symbioses.
 Moss-cyanobacterium symbioses are particularly present in boreal and temperate regions.
 Host mosses like _Sphagnum_ and _Pleurozium schreberi_ harbour nitrogen-fixing cyanobacteria, primarily from the genus _Nostoc_ and _Anabaena_.
-The cyanobacteria provide their host mosses with nitrogen by fixing atmospheric nitrogen into ammonia through the enzyme nitrogenase.
+The cyanobacteria provide their host mosses with nitrogen by fixing atmospheric nitrogen.
 This relationship is a big competitive advantage in nutrient-poor environments.
 The symbiosis significantly contributes to the nitrogen budget and supports the growth of both mosses and the surrounding plant community.
 [Moss-cyanobacteria associations as a novel source of biological N2-fixation in temperate grasslands](https://link.springer.com/article/10.1007/s11104-020-04695-x)
-In moss-cyanobacteria associations, the cyanobacteria are often acquired horizontally from the environment each generation.
-The cyanobacteria can also live without a host in these environments, and culturing and innoculation protocols are established.
-This is unlike the _Azolla_-_Nostoc_ symbiosis, where cyanobacteria are transferred vertically through reproductive structures.
+In moss-cyanobacteria associations, the cyanobacteria are often acquired from the environment by each moss generation.
+The cyanobacteria can also live without a host in these environments, and culturing and inoculation protocols are established.
 [Rousk: Unraveling host–microbe interactions and ecosystem functions in moss–bacteria symbioses](https://academic.oup.com/jxb/article/73/13/4473/6612780).
+This is unlike the _Azolla_-_Nostoc_ symbiosis, where cyanobacteria are transferred through fern reproductive structures and the cyanobacteria connot live without their host.
+<!-- Moss picture with punctiforme? -->
 
 In addition to nitrogen fixation, these symbioses also influence the broader ecosystem processes.
-The fixed nitrogen not only supports the mosses but also enriches the soil after part of the moss dies, benefiting other plants and microorganisms in the ecosystem.
+The fixed nitrogen not only supports the mosses but also enriches the soil after part of the moss dies.
+This nitrogen benefits other plants and microorganisms in the ecosystem .
 [Moss-cyanobacteria associations as a novel source of biological N2-fixation in temperate grasslands](https://link.springer.com/article/10.1007/s11104-020-04695-x)
-The presence of cyanobacteria enhances the mosses' ability to retain water and nutrients, thereby stabilizing soil and preventing erosion.
+Additionally, the presence of cyanobacteria enhances the mosses' ability to retain water and nutrients, thereby stabilizing soil and preventing erosion.
 This mutually beneficial relationship exemplifies the intricate connections between plants and microbes.
-It examplifies the ecological importance of cyanobacterial symbioses.
+It exemplifies the ecological importance of cyanobacterial symbioses.
 Initiation of these interactions take a complex web of molecular signaling and metabolic exchange.
 [The moss traits that rule cyanobacterial colonization](https://academic.oup.com/aob/article/129/2/147/6386096)
 
 Cyanobacteria associated with mosses, and also with Azolla, are often part of the Nostocaceae family.
 The Nostocaceae family comprises several genera of cyanobacteria known for their filamentous, colony-forming structures and their ability to fix nitrogen.
 The family includes genera such as _Nostoc_, _Anabaena_, _Trichormus_, and _Cylindrospermum_.
-These genera share common features like the presence of specialised heterocysts cells that fix nitrogen under aerobic conditions.
+These genera share common features like the presence of specialised heterocyst cells that fix nitrogen under aerobic conditions.
 
 Phylogenetic studies have shown that the relationships among these genera are complex.
 Within a single genus, significant genetic diversity can be observed.
@@ -223,18 +245,20 @@ Within a single genus, significant genetic diversity can be observed.
 Specifically, _Anabaena_ and _Nostoc_ are closely related but exhibit distinct ecological and morphological adaptations.
 [Morphological, biochemical and molecular characterization of Anabaena, Aphanizomenon and Nostoc strains (Cyanobacteria, Nostocales) isolated from Portuguese freshwater habitats](https://link.springer.com/article/10.1007/s10750-010-0572-5)
 _Anabaena_ is often found in both freshwater and saltwater environments and can form toxic blooms.
-_Nostoc_ is more commonly associated with symbiotic relationships in terrestrial and freshwater habitats
+_Nostoc_ is more commonly associated with symbiotic relationships in terrestrial and freshwater habitats.
 
 Recent molecular analyses have provided deeper insights into the evolutionary relationships within the Nostocaceae family.
-These studies have utilized multiple genetic markers to elucidate the phylogeny of these cyanobacteria.
+These studies have utilised multiple genetic markers to elucidate the phylogeny of these cyanobacteria.
 The findings highlight the importance of horizontal gene transfer and genetic recombination in shaping the genetic diversity of Nostocaceae, contributing to their adaptability and ecological success across various environments
 [Morphological, biochemical and molecular characterization of Anabaena, Aphanizomenon and Nostoc strains (Cyanobacteria, Nostocales) isolated from Portuguese freshwater habitats](https://link.springer.com/article/10.1007/s10750-010-0572-5)
 [Modern taxonomic revision of planktic nostocacean cyanobacteria: a short review of genera](https://link.springer.com/article/10.1007/s10750-009-0030-4)
 
+<!-- include phylogeny from a paper or database? -->
+
 ## _Nostoc azollae_ or _Trichormus azollae_
 
 _Azolla_ species form a unique symbiotic relationship with _Trichormus_ azollae_; the cyanobacterium resides in specialized leaf cavities of the fern.
-The symbiosis main function, from the host-plant perspective, is that T. azollae_ sequesters di-nitrogen gas from the air and shares this with the host.
+The symbiosis main function, from the host-plant perspective, is that _T. azollae_ sequesters di-nitrogen gas from the air and shares this with the host.
 Several papers claim to have cultured _T. azollae_ on standard cyanobacterial media like BG11.
 We have tried to do reproduce this ourselves, and have talked to scientist better equipped to do so than us.
 Yet all efforts failed.
@@ -243,27 +267,29 @@ More often than not, these checks are a PCR for the very common nitrogenase gene
 I suspect these works describe cultures of other cyanobacteria.
 
 Like the organisation of the Nostocaceae family, the genus name of _T azollae_ is also up for debate.
+In most work of our lab, we write _Nostoc azollae_ when we refer to the symbiont.
 _N. azollae_ has undergone multiple reclassifications due to advances in molecular phylogenetics such as phylogenomics techniques.
 Traditionally, it has been referred to as _Anabaena azollae_.
 Most modern literature refers now to _Nostoc azollae_.
-More recently _Trichormus azollae_ was proposed to be the propper genus for the symbiont, this is now also the standard in the NCBI taxonomy database.
+Recent studies favour the classification of this cyanobiont as _Trichormus azollae_ based on comprehensive phylogenetic analyses.
+[trichormus paper link]
+This is now also the standard in the NCBI taxonomy database.
+<!-- link -->
 These taxonomic ambiguities arise from variations in morphological and genetic data that were considered for the phylogeny of the Nostocaceae family.
 [Modern taxonomic revision of planktic nostocacean cyanobacteria: a short review of genera](https://link.springer.com/article/10.1007/s10750-009-0030-4)
-Recent studies favor the classification of this cyanobiont as _Trichormus azollae_ based on comprehensive phylogenetic analyses.
-[trichormus paper link]
+Re-organisation of taxonomy will always be somewhat chaotic and possibly met by resistance.
 In this thesis both _Nostoc azollae_ and _Trichormus azollae_ are used.
 The former in chapters that were published before this thesis was compiled, the latter for newer work.
 
-One of the key papers to understand _N. azollae_ is the original genome publication by Ran et al. [cite].
-The study found the genome of _Nostoc azollae_ has undergone substantial reductive evolution.
+One of the key papers to understand _T. azollae_ is the original genome publication by Ran et al. [cite].
+The study found the genome of _T azollae_ has undergone substantial reductive evolution.
 It contains many broken genes that would otherwise be considered essential for a free-living cyanobacterium.
 The genome does contain a complete set of genes required for nitrogen fixation, highlighting the cyanobacterium's crucial role in providing fixed nitrogen to the symbiosis.
 These broken genes, or pseudo genes, are often damaged by insertion sequences (IS elements).
-_T. azollae_s genome contains a high amount of IS elements, indicating ongoing and substantial genome reduction and instability.
+_T. azollae_'s genome contains a high amount of IS elements, indicating ongoing and substantial genome reduction and instability.
 Lacking many important metabolic genes, _T. azollae_ likely has a high degree of specialization and dependence on the host plant.
 I find the Ran et al. paper essential reading for _Azolla_ symbiosis research.
 It provides the genetic basis for understanding the metabolic potential of the main symbiont of _Azolla_ ferns.
-By elucidating the genetic adaptations of _T azollae_, the study paves the way for further research into optimizing _Azolla_ for agricultural and environmental applications.
 
 Genome degradation sounds worrisome, but is actually a well documented process for obligate symbioses.
 Organelles are extreme examples of this process.
@@ -282,10 +308,10 @@ The genes in the _T. azollae_ genome sequence reveal the symbionts metabolic pot
 These features tell us about the workings and evolution of the symbiosis.
 For example, Ran et al. found pathways for the biosynthesis of phytohormones.
 These pathways may contribute to the growth and development of _Azolla_, indicating a two-way metabolic intertwined-ness between the two.
-Nitrogen gas is fixed with the nitrogenase enzyme into amonium.
+Nitrogen gas is fixed with the nitrogenase enzyme into ammonium.
 This costly process is powered by energy and redux from the cyanobacterium's own photosynthesis which remains intact.
-[Eily et al.; Ray 1979]
-_Nostocs_ photosynthesis uses a slightly different colour green than the plant does, so they compete less for the same light.
+[Ran; Eily et al.; Ray 1979]
+T. azollae_'s photosynthesis uses a slightly different colour green than the plant does, so they compete less for the same light.
 This association allows _Azolla_ to thrive on nitrogen-poor or even nitrogen-free water.
 In return _T. azollae_ is thought to get carbon compounds from the host plant.
 
@@ -301,92 +327,103 @@ Ecologists associate _Azolla_ often with unhealthy ecosystems, terming it invasi
 I argue that _Azolla_ is not a dangerous plant, nor invasive.
 Harmful levels of _Azolla_ growth are, in my opinion, a symptom of eutrified ecosystems.
 Some fast grower will take advantage of this situation.
-Wether this is an algae, _Lemna_ (duckweed) or _Azolla_ is irrelevant.
+Whether this is an algae, _Lemna_ (duckweed) or _Azolla_ is irrelevant.
 [A review of some ecological factors affecting the growth of Azolla spp.](https://cjes.guilan.ac.ir/article_1110.html).
 [ phosphorus heavy environments --> B-Ware paper ]
 
 _Azolla_ species are distributed globally, predominantly found in tropical, subtropical, and warm temperate regions.
 They are especially prevalent in Asia, Africa, and the Americas, where they are used in traditional agriculture.
 In regions such as Uganda, different _Azolla_ species have been identified across various agro-ecological zones.
-Factors such as rainfall and altitude significantly influence their distribution, with maximum rainfall creating waterlogged environments favorable for _Azolla_ growth.
+Factors such as rainfall and altitude significantly influence their distribution, with maximum rainfall creating waterlogged environments favourable for _Azolla_ growth.
 [Ecological distribution and genetic diversity of Azolla in Uganda](https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-023-04146-6)
 [Azolla: Botany, physiology, and use as a green manure](https://link.springer.com/article/10.1007/BF02858627)
 
-_Azolla_ is a fast grower, and can damage eutrophied ecosystems by darkening the water column.
+_Azolla_ is a fast grower, and can further damage eutrophic ecosystems by darkening the water column.
 It does however, also have natural enemies.
 For _Azolla_ agriculture, these would be considered pests.
-For conservation _ecologists_, these are considered effective natural pest control.
+For conservation ecologists, these are considered pest control.
 Specifically the water fern weevil or _Stenopelmus rufinasus_, can significantly impact _Azolla_ populations by feeding on the fronds.
 A _S. rufinasus_ swarm can decimate an _Azolla_ mat in days and even completely eradicate it.
+We have unwillingly empirically tested this theory several times.
 
 When an _Azolla_ population has covered a water surface, the plants' growth is directed upwards.
-An _Azolla_ mat is formed between few millimeters and 20 to 30 centimeters in extreme scenario's.
+An _Azolla_ mat is formed between few millimeters and 20 to 30 centimetres in extreme scenario's.
 The bottom of the mat is dark, and may be submerged by the weight of plants laying on top.
 Inside the _Azolla_ mat, the light quality changes.
 Specifically the red vs far-red light ratio.
 The plants perceive this light change, and adapt their growth.
 The internode distance (distance on the stem between leaves) increases, giving the plant an elongated appearance.
+This is a common response in plants to being overshadowed by other plants; they stretch out towards the light.
 
 ## Life cycle
 
 _Azolla_ is a fern genus, it makes no flowers but spores for reproductive purposes.
 Sporulation is triggered by a high far-red over red light ratio, and density of the plants in a mat.
 _Azolla_ makes two types of spores: Big megaspores, made in megasporocarps and small microspores made in microsporocarps.
-The cone-shaped megasporocarps can just be observed by the naked eye and contain one megaspore as well as a dormant colony of the symbiotic bacterium _T. azollae_.
-The microsporocarps are bigger, and contain many small massulae.
+The cone-shaped megasporocarps can just be observed by the naked eye.
+They contain one megaspore as well as a resting colony of the symbiotic bacterium _T. azollae_.
+The microsporocarps are bigger, and contain many small massulae housed in microsporangia.
 Massulae are presumably non-living structures containing the microscopic microspore.
-_Azolla_ massulae are very recognisable by their clochidia.
-These are arrow like structures on the surface that serve to hook onto the megaspore.
+_Azolla_ massulae are recognisable by their glochidia.
+Glochidia are arrow-like hair structures on the massulae surface that serve to hook onto the megaspore.
 When attached to the megaspore, the microspore presumably swims to the megaspore, fertilises it and a plant grows out of it.
 
-pictures!
+<!-- pictures! -->
 
 ## agricultural history
 
 Application of _Azolla_ in agriculture does not require high-tech genomics solutions.
-In fact, _Azolla_ has been used historically as a biofertilizer in rice paddies for centuries if not millenia.
+In fact, _Azolla_ has been used historically as a bio-fertiliser in rice paddies for several millennia.
+[azolla foundation](https://theazollafoundation.org/azolla/azollas-use-in-the-east/)
+<!-- Jia Ssu Hsieh (Jia Si Xue) from 540 A.D., titled “The Art of Feeding the People” (Chih Min Tao Shu).  -->
 Rice paddies are often flooded to prevent weeds from growing there, but this provides opportunity for toxic cyanobacterial blooms, poisoning the rice.
-As a counter measure, a rapidly growing _Azolla_ mat can shield the water from light, prevengint algal blooms.
+As a counter measure, a rapidly growing _Azolla_ mat can shield the water from light, preventing algal blooms.
 The nitrogen fixed can be incorporated into the soil after rice harvest, fertilising the soil.
 Any surplus of the fern can be used as animal feed.
-Additionally, it is thought that an _Azolla_ mat prevents mosquitos from accessing the water to drop their larvae.
+Additionally, it is thought that an Azolla mat prevents mosquitoes from accessing the water to lay their eggs.
 
 ## agricultural opportunities
 
-_Azolla_'s propperties give it substantial agricultural potential.
-These are propperties like rapid growth, high protein content, and it's aquatic life style.
-Firstly, as in rice paddies, _Azolla_ can be used as a biofertilizer, enhancing soil fertility by providing a natural source of nitrogen.
-This reduces the need for synthetic fertilizers, promoting sustainable farming practices and reducing environmental impact.
+_Azolla_'s properties give it substantial agricultural potential.
+These are properties like rapid growth, high protein content, and it's aquatic life style.
+Firstly, as in rice paddies, _Azolla_ can be used as a bio-fertiliser, enhancing soil fertility by providing a natural source of nitrogen.
+This reduces the need for synthetic fertilisers, promoting sustainable farming practices and reducing environmental impact.
 Studies have shown that incorporating _Azolla_ in rice cultivation can increase crop yields and improve soil health.
 [Mapping current and future habitat suitability of Azolla spp., a biofertilizer for small-scale rice farming in Africa](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0291009)
 [Aquatic microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change](https://link.springer.com/article/10.1007/s11356-015-5857-9)
 There are caveats naturally.
 _Azolla_ growth requires a big amount of fresh water, and incorporation of _Azolla_ as bio-fertiliser will underperform compared to synthetic fertiliser use.
-This practice is only feasible in areas where fresh water is plentyfull and use of cheap but environmentally damaging synthetic fertilser is discouraged.
+This practice is only feasible in areas where fresh water is plentiful and use of cheap but environmentally damaging synthetic fertiliser is discouraged.
 
-Beyond its use as a biofertilizer, _Azolla_ is also explored as an alternative feed for livestock.
+Beyond its use as a bio-fertiliser, _Azolla_ is also explored as an alternative feed for livestock.
 Its high protein content and rich nutrient profile make it an excellent supplement for animal diets.
 The current protein crop is soy.
 Currently, the Netherlands import more soy than we grow soy plants on the total area of the country.
-_Azolla_ could be an alternative plant that grows well in the Dutch temparate climate.
+_Azolla_ could be an alternative plant that grows well in the Dutch temperate climate.
 Research indicates that feeding _Azolla_ to poultry and cattle can improve growth rates and overall health, offering a cost-effective and sustainable feed option.
 This application not only supports livestock production but also contributes to the recycling of nutrients within agricultural systems
 [oai_citation:3,www.ijfans.org](https://www.ijfans.org/uploads/paper/4712541d933bbc36ae42c66626db074d.pdf#:~:text=URL%3A%20https%3A%2F%2Fwww.ijfans.org%2Fuploads%2Fpaper%2F4712541d933bbc36ae42c66626db074d.pdf%0AVisible%3A%200%25%20) [oai_citation:4,Aquatic microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change | Environmental Science and Pollution Research](https://link.springer.com/article/10.1007/s11356-015-5857-9).
+Unfortunately, high phenolic content in _Azolla_ ferns can inhibit digestion of the protein content.
+<!-- Paul -->
 
 In addition to its agricultural uses on land, _Azolla_ shows promise for use in aquatic environments, particularly in areas where land is unsuitable for traditional agriculture.
 _Azolla_ can grow in shallow, nutrient-rich waters, providing a valuable resource for farmers in regions with degraded or unusable lands.
 It could possibly even be used to retrieve phosphorus and iron that is locked and unavailable in agricultural soils under aerobic conditions.
+<!-- cite b-ware for this? -->
 When a meadow is flooded and covered with _Azolla_ ferns, the anoxic conditions may release Iron and Phosphorus from the soil.
-Its ability to thrive in such conditions makes it an ideal candidate for integrated farming systems, where it can enhance water quality, support aquaculture, and serve as a nutrient-rich feed and biofertilizer [oai_citation:5,Azolla Fern | Project Regeneration](https://regeneration.org/nexus/azolla-fern) [oai_citation:6,Azolla: Botany, physiology, and use as a green manure | Economic Botany](https://link.springer.com/article/10.1007/BF02858627) [Agricultural Applications of Azolla: Exploring Azolla Miracles in Farming](https://www.asiafarming.com/agricultural-applications-of-azolla-exploring-azolla-miracles-in-farming).
-[cite b-ware for this?]
+Its ability to thrive in such conditions makes it an ideal candidate for integrated farming systems, where it can enhance water quality, support aquaculture, and serve as a nutrient-rich feed and bio-fertiliser.
+[Azolla Fern | Project Regeneration](https://regeneration.org/nexus/azolla-fern)
+[Azolla: Botany, physiology, and use as a green manure | Economic Botany](https://link.springer.com/article/10.1007/BF02858627)
+[Agricultural Applications of Azolla: Exploring Azolla Miracles in Farming](https://www.asiafarming.com/agricultural-applications-of-azolla-exploring-azolla-miracles-in-farming)
 
 _Azolla_ is also thought capable of cleaning up contaminated or eutrophic water bodies through phytoremediation.
 This process involves using plants to remove, degrade, or stabilize environmental contaminants.
 _Azolla_ has shown a remarkable ability to absorb heavy metals such as lead, cadmium, and arsenic from polluted waters, thus reducing the levels of these harmful substances.
 The plants may not be suitable for consumption or use as feed or fertiliser, but the contaminated ecosystem may be cleaner after the process.
-[Aquatic microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change](https://link.springer.com/article/10.1007/s11356-015-5857-9) [oai_citation:9,Phytoremediation Potential of Aquatic Macrophyte, Azolla | Ambio](https://link.springer.com/article/10.1007/s13280-011-0159-z).
-Incorporating _Azolla_ in water management strategies may help restoring ecological balance to eutrophied and contaminated water bodies.
-Given _Azolla_'s tendency to grow rapidly and invasively, these pracices should be emplored with caution.
+[Aquatic Microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change](https://link.springer.com/article/10.1007/s11356-015-5857-9)
+[Phytoremediation Potential of Aquatic Macrophyte, Azolla | Ambio](https://link.springer.com/article/10.1007/s13280-011-0159-z)
+Incorporating _Azolla_ in water management strategies may help restoring ecological balance to eutrophic and contaminated water bodies.
+Given Azolla’s rapid and invasive growth tendencies, these practices should be employed with caution.
 [Phytoremediation Potential of Aquatic Macrophyte, Azolla](https://link.springer.com/article/10.1007/s13280-011-0159-z)
 [Aquatic microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change ](https://link.springer.com/article/10.1007/s11356-015-5857-9)
 
@@ -394,19 +431,18 @@ Given _Azolla_'s tendency to grow rapidly and invasively, these pracices should 
 
 The _Azolla_ event is a spectacular story.
 So much so, that I often ended up poster presentations talking only about this geological fun-fact, rather than my own work.
-I hereby challenge my thesis committee not to mention the _Azolla_ event once during my defense.
-That being said, this hitchhicker's guide is not complete without the story.
-Especially since it was this research line by Utrecht University geologists that brought _Azolla_ to the attention of the biology departement.
+I hereby challenge my thesis committee not to mention the _Azolla_ event once during my defence.
+That being said, this hitch-hiker's guide is not complete without the story.
+Especially so, since it was this research line by Utrecht University geologists that brought _Azolla_ to the attention of the biology department.
 A sequence of events that culminated in the _Azolla_ lab being born.
 
 During geological expeditions drilling for Arctic sediment cores, some peculiar structures were found.
 This discovery started an intriguing investigation into how one small plant affected Earth's climatic history.
-During the Arctic Coring Expedition (ACEX), researchers found strange microfossils called glochidia in a specific layer of all sediment cores.
+During the Arctic Coring Expedition (ACEX), researchers found strange arrow-shaped microfossils in a specific layer of all sediment cores.
 While initially puzzled, scientists eventually identified these as glochidia.
-These are the specialised micro-spore structures of _Azolla_.
+These are the specialised microspore structures of _Azolla_.
 These spores were abundant over the entire Arctic ocean floor.
 This indicated that the Arctic Ocean had once been covered with extensive mats of _Azolla_.
-We now call this the Azolla Event.
 [Azolla event - Wikipedia](https://en.wikipedia.org/wiki/Azolla_event) 
 [The Geological  Society](https://www.geolsoc.org.uk/Geoscientist/Archive/June-2014/The-Arctic-Azolla-event).
 
@@ -414,9 +450,10 @@ Detailed analyses of the sediment cores revealed that _Azolla_ blooms persisted 
 This period was characterized by nutrient-rich freshwater layers on the ocean surface, created by significant river runoff.
 The arctic ocean was more enclosed by landmasses then, fresh water supplied by multiple rivers made at least the top layer of this ocean fresh.
 These conditions facilitated the rapid growth and spread of _Azolla_, which formed dense mats across the Arctic.
-As these ferns photosynthesized, they absorbed large amounts of atmospheric CO2.
+As these ferns photosynthesised, they absorbed large amounts of atmospheric CO2.
 When they died and sank to the ocean floor, the carbon they had captured was buried in the anoxic sediments.
 This effectively sequestered the CO2 and reduced greenhouse gas concentrations in the atmosphere.
+We now call this the Azolla Event.
 [Azolla event - Wikipedia](https://en.wikipedia.org/wiki/Azolla_event)
 [The Geological  Society](https://www.geolsoc.org.uk/Geoscientist/Archive/June-2014/The-Arctic-Azolla-event)
 [Arctic Azolla Event - Azolla Foundation](https://theazollafoundation.org/azolla/the-arctic-azolla-event-2/)
@@ -446,7 +483,7 @@ _Azolla_ is part of the Salviniaceae family and is the only genus that has a sym
 
 The Marsileaceae family includes genera such as _Marsilea_, _Pilularia_, and _Regnellidium_.
 These ferns grow in wet or aquatic environments.
-They are typically rooted in substrate with leaves that float on the water surface, or are suspended above it.
+They are typically rooted in substrate with leaves that float on the water surface or are suspended above it.
 The Marsileaceae family its appearance is rather similar to the popular iron-cross chamber plant, but then aquatic and a fern.
 Marsileaceae members are characterized by their four-lobed leaves (in _Marsilea_) or cylindrical leaves (in _Pilularia_).
 This form  differs substantially from the floating leaf structures seen in Salviniaceae.
@@ -460,21 +497,23 @@ The Salviniaceae family consists of two genera: _Azolla_ and _Salvinia_.
 These ferns are adapted to float on water as a whole and are often found in ponds, lakes, and slow-moving streams.
 Members of Salviniaceae produce spores in sporocarps, similar to Marsileaceae, but they exhibit distinct morphological traits.
 Their leaves are covered in hydrophobic trichomes that prevent the leaves from submergence.
-_Salvinia cuculata_ its trichomes are notable for they make little wisks.
+_Salvinia cuculata_ its trichomes are notable for they make little whisks.
 _Salvinia_ species leaves are attached to the stem in groups of three, with two floating leaves and one modified into a root-like structure.
+This morphology supports the shoot-like origin for _Azolla_ roots as discussed before.
+Like _Azolla_, _Salivinia_ species are often seen as rapid invasive growers.
+In eutrophic ecosystems, specifically _Salvinia_ cuculata can cover a water surface fast, and effectively suffogate the submerged aquatic life.
 [Salviniaceae | SpringerLink](https://link.springer.com/chapter/10.1007/978-94-024-1157-7_17) 
 [Salviniaceae | plant family | Britannica](https://www.britannica.com/plant/Salviniaceae)
 
-_Azolla_ is particularly notable for its symbiotic relationship with nitrogen-fixing cyanobacteria, _Nostoc azollae_.
-This symbiosis allows _Azolla_ to thrive in nutrient-poor environments by providing a source of nitrogen, which is a critical nutrient for plant growth.
-In contrast, _Salvinia_ does not engage in such symbiotic relationships but compensates through its rapid vegetative growth and ability to cover large water surfaces.
+_Azolla_ is the only genus in the order with a symbiotic relationship with nitrogen-fixing cyanobacteria, _T azollae_.
+_Azolla_ species have a competitive advantage in eutrophic ecosystems with low-nitrogen.
+Six species are currently recognised, each with a specific global distribution.
+It needs little further introduction.
 [Salviniales | Floating, Aquatic, Ferns | Britannica](https://www.britannica.com/plant/Salviniales) 
 [Salviniaceae | plant family | Britannica](https://www.britannica.com/plant/Salviniaceae).
-
 [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=3190) 
 [Britannica](https://www.britannica.com/plant/Salviniaceae).
-
-## my motivation for studying Azolla
+<!-- this paragraph still feels odd. -->
 
 # Methodology
 
@@ -491,13 +530,13 @@ By integrating genomic and metagenomic data, this work seeks to deepen our under
 
 ## Bioinformatics of novel-crops
 
-## Documentationi and reproducibility in bioinformatics
+## Documentation and reproducibility in bioinformatics
 
 ## Innovative aspects
 
 # Outline of this thesis
 
-**Chapter \ref{general_intro}__ (\nameref{general_intro} on page \pageref{general_intro}) is the current chapter.
+**Chapter \ref{general_intro}** (\nameref{general_intro} on page \pageref{general_intro}) is the current chapter.
 I attempted to take a broader vantage point and less jargon than the remaining chapters.
 A lesser-than-formal tone hopefully made this chapter more fun to read to the broader scientific audience interested in my work.
 
