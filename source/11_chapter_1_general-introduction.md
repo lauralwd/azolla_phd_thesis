@@ -33,7 +33,7 @@ Laura W Dijkhuizen^1^
 > _“A system is never the sum of its parts it's the product of their interaction.”_
 – Russell Ackoff (professor of systems sciences)
 
-<!-- not sure about this paragraph -->
+<!-- not sure about this paragraph. AI overlords suggest to remove -->
 This hitchhiker's guide is meant to be a friendly general introduction to this thesis.
 I attempted to make it palpable for all scientific audience, not just (plant)biologists.
 Individual chapters have in-depth stand-alone introductions relevant for the scientific work of those chapters.
@@ -99,6 +99,13 @@ Hence, the time span of an interaction is a more robust approach.
 In this thesis, symbiosis typically refers to the first two categories; congruent with the general sentiment of the word.
 The latter three categories are thought of as general ecological interactions rather than symbioses, in the context of this document.
 
+<!-- 
+	•	This paragraph could benefit from more specific examples to illustrate each type of symbiotic relationship.
+	•	Clarify why the reductionist approach is still important and how it complements the systems biology perspective.
+	•	Discuss the practical implications of categorizing symbiotic relationships and how it affects research methodology.
+	•	Consider including more references to support the categorization of symbiotic relationships and their ecological significance.
+ -->
+
 ## Symbiosis breeding
 
 The original premise of this PhD project includes thoughts on symbiosis breeding.
@@ -108,6 +115,17 @@ Hence, any breeding efforts of the host plant should not be limited to the plant
 For symbiosis traits, breeding a symbiont should perhaps take precedence over breeding the host.
 We advocated then, that breeding a functionally intertwined unit of organisms requires that systems biology perspective.
 A perspective that integrates ecological, physiological and (meta)genomic data to understand and eventually manipulate a plant-microbe symbiosis.
+
+<!-- 
+chatgpt: Suggestions:
+	•	This paragraph could benefit from more specific examples or case studies that illustrate successful symbiosis breeding.
+	•	It might help to explain why breeding efforts should prioritize the symbiont over the host in more detail.
+	•	The integration of ecological, physiological, and genomic data could be elaborated on to provide a clearer picture of the process and its benefits. 
+  
+gemini: This section could benefit from a more concrete example of successful symbiosis breeding. You could briefly mention a specific case study to illustrate the concept.
+  -->
+
+  <!-- gemini: needs better transition. connect breeding efforts to holobiont somehow... -->
 
 ## The holobiont concept
 
@@ -134,6 +152,25 @@ This model of how organisms co-exist will undoubtedly be wrong, but perhaps it i
 It seems unproductive to me, to use holobiont as a buzz-word, to elevate a consortium of organisms above others.
 In this thesis my colleagues and I do use the word occasionally.
 Take it with a pinch of salt.
+
+<!-- 
+chatgpt Suggestions:
+	•	This paragraph could be more focused and succinct.
+	•	Elaborate on specific scenarios where the holobiont perspective is useful.
+	•	Provide a more detailed critique of the holobiont concept, citing specific literature or studies.
+	•	Clarify the practical implications of using the holobiont concept in your research.
+
+	•	This paragraph is already quite informative, but it could benefit from a more structured flow.
+	•	Introduce the diversity of cyanobacterial symbioses with an overarching statement.
+	•	Provide specific examples for each type of environment (marine, freshwater, terrestrial) and highlight key studies or findings.
+	•	Discuss the significance of non-obligate symbioses and their implications for ecological flexibility and resilience.
+	•	Include more references to scientific literature to support the examples and claims.
+
+
+gemini: The discussion of the holobiont concept is well-balanced, presenting both arguments and counterarguments. Consider adding a sentence or two highlighting the specific implications of the holobiont concept for your research on the Azolla symbiosis.
+
+
+   -->
 
 # The _Azolla_ symbiosis
 
@@ -224,6 +261,15 @@ The cyanobacteria can also live without a host in these environments, and cultur
 This is unlike the _Azolla_-_Nostoc_ symbiosis, where cyanobacteria are transferred through fern reproductive structures and the cyanobacteria connot live without their host.
 <!-- Moss picture with punctiforme? -->
 
+<!-- 
+
+chatgpt Suggestions:
+	•	This paragraph provides a good overview, but it could benefit from more detail on specific examples.
+	•	Adding information about the ecological roles and benefits of these symbioses would provide more depth.
+	•	Including specific studies or reviews that discuss these diverse symbiotic relationships would strengthen the argument.
+  - informative but too dense. Make it more concise
+ -->
+
 In addition to nitrogen fixation, these symbioses also influence the broader ecosystem processes.
 The fixed nitrogen not only supports the mosses but also enriches the soil after part of the moss dies.
 This nitrogen benefits other plants and microorganisms in the ecosystem .
@@ -254,6 +300,9 @@ The findings highlight the importance of horizontal gene transfer and genetic re
 [Modern taxonomic revision of planktic nostocacean cyanobacteria: a short review of genera](https://link.springer.com/article/10.1007/s10750-009-0030-4)
 
 <!-- include phylogeny from a paper or database? -->
+
+<!--
+Gemin: The section on cyanobacterial symbiosis is comprehensive. To make it more concise, you could focus on the most relevant details for your research, such as the specific types of cyanobacteria involved in the Azolla symbiosis. -->
 
 ## _Nostoc azollae_ or _Trichormus azollae_
 
@@ -426,6 +475,10 @@ Incorporating _Azolla_ in water management strategies may help restoring ecologi
 Given Azolla’s rapid and invasive growth tendencies, these practices should be employed with caution.
 [Phytoremediation Potential of Aquatic Macrophyte, Azolla](https://link.springer.com/article/10.1007/s13280-011-0159-z)
 [Aquatic microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change ](https://link.springer.com/article/10.1007/s11356-015-5857-9)
+
+<!-- 
+This section is well-researched and provides a compelling case for the potential of Azolla in agriculture. Consider adding a sentence or two summarizing the key challenges and opportunities for further research in this area.
+ -->
 
 ## the Azolla event
 
@@ -608,6 +661,10 @@ This effort was rewarded with a bUTQ or BKO in Dutch.
 The full portfolio is too lengthy to include, so this chapter sumarises the original document.
 Secondly, an example of teaching material that is completely of my own design is included in **Appendix \ref{metagenomics_practical}** (\nameref{metagenomics_practical} on page \pageref{metagenomics_practical}) as mentioned before.
 Finally, I include a short narrative CV on my non-science and non-teaching activities during my PhD and what I gained from them.
+
+
+<!-- gemini: Clearer Thesis Statement: While the introduction effectively sets the stage for the thesis, a more explicit thesis statement would be helpful. Consider adding a sentence or two at the end of the introduction summarizing the main research questions or objectives of your thesis. -->
+
 
 \nolinenumbers
 
