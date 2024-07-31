@@ -607,8 +607,28 @@ It differs from microbiome profiling.
 The latter are most often 16S marker gene studies.
 These only provide inside in what organism are associated with a certain organ or organism.
 Metagenomics aims to reconstruct the full genomes of all those organism, revealing their full metabolic potential.
+With metagenomics we can investigate the toolkit of all symbionts associated to a certain host, and better understand their function.
+By sequencing the genomes of both the host and the symbiont, researchers can identify genes involved in key symbiotic functions such as nutrient exchange, stress tolerance, and pathogen resistance.
+The genes and pathways that are present of absent allow for directed hypothesis generation.
+Metagenomic insights may allow for the targeted manipulation of genes in symbionts to enhance some performance or plant productivity.
 
-## Bioinformatics of novel-crops
+[Bioinformatics approaches and applications in plant biotechnology | Journal of Genetic Engineering and Biotechnology | Full Text](https://jgeb.springeropen.com/articles/10.1186/s43141-022-00394-5)
+[Advances in Integrating Genomics and Bioinformatics in the Plant Breeding Pipeline](https://www.mdpi.com/2077-0472/8/6/75).
+[Bioinformatics in Plant Breeding and Research on Disease Resistance](https://www.mdpi.com/2223-7747/11/22/3118).
+
+## Bioinformatics of Novel Crops
+
+Bioinformatic insights and new breeding techniques could fast-track the domestication and improvement of wild plants and their symbioses into novel crops, bypassing traditional lengthy breeding processes.
+For instance, genome editing technologies like CRISPR-Cas9 can be used to introduce beneficial traits directly into the genomes of host plants and their symbionts.
+This was already demonstrated by editing key domestication genes in a wild poisonous tomato plant, to turn it into a more domesticated edible form. [cite tomato paper]
+This approach enables the precise manipulation of genes responsible for desirable traits such as enhanced nitrogen fixation, disease resistance, and abiotic stress tolerance.
+Additionally, it circumvents adverse effects of traditional breeding, like loss of genetic diversity as a side-effect of selection for desirable traits.
+
+[oai_citation:4,Bioinformatics approaches and applications in plant biotechnology | Journal of Genetic Engineering and Biotechnology | Full Text](https://jgeb.springeropen.com/articles/10.1186/s43141-022-00394-5) [oai_citation:5,Impact of Bioinformatics on Plant Science Research and Crop Improvement | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-19318-8_2) [oai_citation:6,Application of Bioinformatics in Crop Improvement | SpringerLink](https://link.springer.com/chapter/10.1007/978-981-16-2339-4_30).
+[Bioinformatics approaches and applications in plant biotechnology | Journal of Genetic Engineering and Biotechnology | Full Text](https://jgeb.springeropen.com/articles/10.1186/s43141-022-00394-5) [oai_citation:2,Impact of Bioinformatics on Plant Science Research and Crop Improvement | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-19318-8_2) [oai_citation:3,Application of Bioinformatics in Crop Improvement | SpringerLink](https://link.springer.com/chapter/10.1007/978-981-16-2339-4_30).
+
+The potential of _Azolla_ as a novel crop is particularly promising.
+Recent studies have highlighted its rapid growth rate, high protein content, and symbiotic nitrogen fixation capabilities.
 
 * Technological Approaches in This Thesis
   * Describe the specific genomics methodologies used in your research
@@ -625,6 +645,9 @@ Metagenomics aims to reconstruct the full genomes of all those organism, reveali
 * documentation, challenges
 * instability of microbial consortia
 * high tech, expensive
+
+Additionally, transcriptomics, which involves the analysis of gene expression patterns, can reveal how these interactions change under different environmental conditions, further informing breeding strategies
+[Advances in Integrating Genomics and Bioinformatics in the Plant Breeding Pipeline](https://www.mdpi.com/2077-0472/8/6/75).
 
 ### Documentation and reproducibility in bioinformatics
 
