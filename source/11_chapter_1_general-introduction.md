@@ -595,7 +595,7 @@ Bioinformatics provides an unprecedented insight and opportunity to accelerate b
 Traditionally, plant breeding relied on phenotypic selection over multiple generations.
 This process can take decades or lifetimes depending on how fast a plant can produce offspring.
 However, with the advent of genomics and bioinformatics, this timeline can be drastically sped-up.
-High-throughput sequencing and advanced computational tools allow breeders and researchers to dissect the genetic basis of complex traits, enabling more efficient selection and breeding strategies 
+High-throughput sequencing and advanced computational tools allow breeders and researchers to dissect the genetic basis of complex traits, enabling more efficient selection and breeding strategies
 [Bioinformatics approaches and applications in plant biotechnology | Journal of Genetic Engineering and Biotechnology | Full Text](https://jgeb.springeropen.com/articles/10.1186/s43141-022-00394-5).
 With GMO and gene editing technology, these insights can be tested in a living plant with amazing speed if a reliable transformation protocol is available
 [CRISPR-Cas9 based molecular breeding in crop plants: a review | Molecular Biology Reports](https://link.springer.com/article/10.1007/s11033-023-09086-w).
@@ -657,15 +657,15 @@ These bacteria are confirmed to be present in _A. filiculoides_ taken from the w
 The Non-cyanobacterial prokaryotes are confirmed to be associated with all _Azolla_ species for which WGS data is available.
 They may be the same or very related microbes.
 Finally, we study the metabolic pathways encoded within these genomes and hypothesise they might denitrify Nitrogen rich compounds within the _A. filiculoides_ leaf pocket.
-This hypothesis is falsified however, denitrification occors only in microbes living epiphytically on _A. filiculoides_.
+This hypothesis is falsified however, denitrification occurs only in microbes living epiphytically on _A. filiculoides_.
 
 In **chapter \ref{hidden_treasures}** (\nameref{hidden_treasures} on page \pageref{hidden_treasures}), I build further on the work of chapter \ref{foul_play}.
 This chapter details a workflow to enrich and study the genomes of bacteria associated with all sequenced _Azolla_ species.
 The workflow thoroughly removes plant DNA reads, and then assembles those of the remaining microbes.
-The process of separating disctint microbial genomes (binning) required extra binningsignals and manual curation for these were not part of the original experimental design.
-Each respresented species of the _Azolla_ genus yielded between 12 and 22 associated bacterial genomes.
+The process of separating distinct microbial genomes (binning) required extra binningsignals and manual curation for these were not part of the original experimental design.
+Each represented species of the _Azolla_ genus yielded between 12 and 22 associated bacterial genomes.
 The majority of these genomes belong only to six taxonomical orders present in the majority of the entire _Azolla_ genus: Burkholderiales, Caulobacterales, Nevskiales, Nostocales, Rhizobiales and Sphingomonadales.
-The systematic presence of these taxonomic groups suggests they be selected for in the _Azolla_ symbiosis and they may be vertically transfered over host generations as is the main symbiont _N. azollae_.
+The systematic presence of these taxonomic groups suggests they be selected for in the _Azolla_ symbiosis and they may be vertically transferred over host generations as is the main symbiont _N. azollae_.
 
 **Appendix \ref{metagenomics_practical}** (\nameref{metagenomics_practical} on page \pageref{metagenomics_practical}) illustrates an educational practical based on these first two chapters.
 I designed this practical to teach the basic metagenomics principles and techniques to Life Sciences students with minimal coding experience.
@@ -686,23 +686,23 @@ A phylogenomics approach confirms that te organisation of genera in this family 
 **Chapter \ref{it_takes_two}** (\nameref{it_takes_two} on page \pageref{it_takes_two}) provides building blocks for understanding and regulating the sexual reproduction and mode of transmission of the _Azolla_ & _N. azollae_ symbiosis.
 Such understanding is a pre-requisite for agricultural application of a novel crop symbiosis.
 Several _Azolla_ specimens collected all over the Netherlands were all the same species for they produced viable offspring.
-We found that FR light and sporophyte density were main initiators of sexual reproduction while nitrogen availiblity was an inhibitor.
+We found that FR light and sporophyte density were main initiators of sexual reproduction while nitrogen availability was an inhibitor.
 FR-responsive transcripts included MIKCC homologues of CMADS1 and miR319-controlled GAMYB transcription factors in the fern, transporters in _N. azollae_, and ycf2 in chloroplasts.
 Phylogenomic analyses of MIKCC transcription factors suggested that control of flowering and flower organ specification may have originated from the diploid to haploid phase transition in the homosporous common ancestor of ferns and seed plants.
 
-Sexual reproduction of the symbiosis requires that the symbiont is systematically stored in dissemination stages to reinnoculate the next generation of hosts.
+Sexual reproduction of the symbiosis requires that the symbiont is systematically stored in dissemination stages to reinoculate the next generation of hosts.
 Contrasting earlier theories, we propose that _N. azollae_ does not colonise developing megasporocarps travelling from leaf pockets to megasporocarps via small channels.
-Instead, we theorise that they colonise early sporocarp initials of both typles, but are only retained in megasporocarps.
+Instead, we theorise that they colonise early sporocarp initials of both types, but are only retained in megasporocarps.
 This method of transmission is identical to colonisation of leaf primordia, hence requires no separate machinery and explains consistent observation of _N. azollae_ in very young microsporocarps.
 
-**Chapter \ref{phylogeny_workflow}** (\nameref{phylogeny_workflow} on page \pageref{phylogeny_workflow}) describes a workflow for creating large and state-of-the-art phylogentic trees of gene families; examplified in landplants.
+**Chapter \ref{phylogeny_workflow}** (\nameref{phylogeny_workflow} on page \pageref{phylogeny_workflow}) describes a workflow for creating large and state-of-the-art phylogenetic trees of gene families; exemplified in land plants.
 Studying fern genetics, the _Azolla_ lab often deals with fern genes that are homologous (similar in sequence) to a seed plant gene.
 With phylogeny, we aim to assess the evolution of a gene family and orthology/paralogy of _Azolla_ genes to model species their genes.
 While many user friendly methods exist to create phylogenetic trees, these are often either closed-source, or their performance is limited.
-Here I created a workflow for basic phylogeny inference with state-of-the-art open source tools, unlimitted in their performance.
+Here I created a workflow for basic phylogeny inference with state-of-the-art open source tools, unlimited in their performance.
 This workflow is aimed at user skilled in reading a phylogeny, but not in using the CML tools to use the latest software to build them.
 It covers data-selection, multiple sequences alignment, alignment trimming, and tree inference.
-Additionally, it provides tools to create semi-automatic mark-up for phylogenetic trees in the iToL webinterface.
+Additionally, it provides tools to create semi-automatic mark-up for phylogenetic trees in the iToL web interface.
 
 ## Appendices
 
@@ -729,7 +729,7 @@ Finally, I include a short narrative CV on my non-science and non-teaching activ
 \null
 <!-- don't show page nrs on clear double page -->
 \pagestyle{plain}
-<!-- stop the thumbmarking scheme (partwise) and start it (chapterwise) in the next chapter -->
+<!-- stop the thumb marking scheme (part-wise) and start it (chapter-wise) in the next chapter -->
 \stopthumb
 <!-- clear double page so that the chapters start nicely on a new right page -->
 \cleardoublepage
