@@ -568,10 +568,45 @@ It needs little further introduction.
 
 # Methodology
 
-## The advent and rise of bioinformatics for molecular breeding.
-  - can bioinfo and modern mol. techniques accelerate symbiosis research and even symbiosis breeding, as for traditional breeding.
-  - Molecular breeding started with genomics, so its only logical we start with metagenomics.
-  - Briefly introduce how genomics has revolutionized symbiosis research by allowing detailed insights into the genetic interactions between host plants and their symbiotic partners.
+This thesis employs ample bioinformatics techniques.
+Yet, I have managed to not use the term once in this introduction so far.
+Firstly, because this general introductions focusses on the plant and symbiosis biology first.
+And secondly because the definition of bioinformatics deserves a paragraph by itself.
+The typical image of bioinformatics revolves around computer science and application of tools, more than biology.
+Too often, bioinformaticians are seen as a "number crunching by nerds who look at black terminal screens all day".
+Now there is truth in that definition, ask any of my old colleagues.
+But it doesn't quite do justice to the field as a whole.
+Like claiming ecologists only spend time in the field determining plant species,
+or claiming molecular biologist train all day to move miniature amounts of water around.
+These statements are perhaps ironic, have a bit of truth in them, but are not very helpful.
+
+**Bioinformatics is the study of information in biological systems.**
+<!-- Pauliens original paper -->
+A bioinformatician studies how information is stored in DNA with genomics or meta-genomics.
+We study how that information is processed and used with transcriptomics.
+How building instructions are used to make proteins with proteomics and structural bioinformatics.
+We study the meaning and change of information with comparative genomics over evolutionary time scales.
+And how this all fits together with systems biology.
+
+## The Advent and Rise of Bioinformatics for Molecular Breeding
+
+The advent of bioinformatics has revolutionised the field of molecular breeding.
+Bioinformatics provides an unprecedented insight and opportunity to accelerate breeding efforts.
+Traditionally, plant breeding relied on phenotypic selection over multiple generations.
+This process can take decades or lifetimes depending on how fast a plant can produce offspring.
+However, with the advent of genomics and bioinformatics, this timeline can be drastically sped-up.
+High-throughput sequencing and advanced computational tools allow breeders and researchers to dissect the genetic basis of complex traits, enabling more efficient selection and breeding strategies 
+[Bioinformatics approaches and applications in plant biotechnology | Journal of Genetic Engineering and Biotechnology | Full Text](https://jgeb.springeropen.com/articles/10.1186/s43141-022-00394-5).
+With GMO and gene editing technology, these insights can be tested in a living plant with amazing speed if a reliable transformation protocol is available
+[CRISPR-Cas9 based molecular breeding in crop plants: a review | Molecular Biology Reports](https://link.springer.com/article/10.1007/s11033-023-09086-w).
+
+Molecular breeding began with the study of DNA and then the study that was called genomics.
+It is then only logical to begin symbiosis breeding with meta-genomics.
+Metagenomics is the study of all DNA associated to any organ or organism.
+It differs from microbiome profiling.
+The latter are most often 16S marker gene studies.
+These only provide inside in what organism are associated with a certain organ or organism.
+Metagenomics aims to reconstruct the full genomes of all those organism, revealing their full metabolic potential.
 
 ## Bioinformatics of novel-crops
 
