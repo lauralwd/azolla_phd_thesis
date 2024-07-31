@@ -570,20 +570,46 @@ It needs little further introduction.
 
 # Methodology
 
+<!-- 
+Structure scratchpad
+
+The advent and rise of bioinformatics for molecular breeding.
+  - can bioinfo and modern mol. techniques accelerate symbiosis research and even symbiosis breeding, as for traditional breeding.
+  - Molecular breeding started with genomics, so its only logical we start with metagenomics.
+  - Briefly introduce how genomics has revolutionized symbiosis research by allowing detailed insights into the genetic interactions between host plants and their symbiotic partners.
+
+## Bioinformatics of novel-crops
+  - Technological Approaches in This Thesis
+	- Describe the specific genomics methodologies used in your research
+    - such as whole-genome sequencing, metagenomics, and transcriptomics
+    - and how these techniques have helped uncover the complexities of the Azolla-Nostoc symbiosis.
+  -	Explore how modern genomics technologies can be used to fast-track the domestication and improvement of wild plants and their symbioses into novel crops, bypassing the traditional lengthy breeding processes.
+      - tomato paper
+
+## introducing bioinformatics to a lab
+  - We're a small lab with limited resources
+	- Discuss the limitations of existing genomics technologies, such as incomplete genome assemblies, challenges in differentiating host and symbiont DNA, and the need for advanced bioinformatics tools to interpret complex datasets.
+  - functional genomics in a symbiosis setting is hard.
+  - documentation, challenges
+  - instability of microbial consortia
+  - high tech, expensive
+
+### Documentation and reproducibility in bioinformatics
+  - transition wet to try lab
+
+## future perspectives
+  
+Ethics:
+  - GMO is a multi-million-dollar industry, did it help feed the people, or did it mostly feed the rich.
+  - How can we make gene editing in general, and also symbioses editing techniques benefit the people.
+Future Directions and Technological Needs
+  -	Discuss the future directions for symbiosis research and the technological advancements needed to fully harness the potential of genomics in developing sustainable agricultural practices.
+
+ -->
+
 Through advanced sequencing technologies, this research characterizes the genomes of both _Azolla_ and _Nostoc azollae_, revealing the genetic basis of their symbiotic interaction.
 Metagenomic approaches further elucidate the broader microbial community associated with _Azolla_, identifying other potential endophytes that contribute to the fern's growth and resilience.
 By integrating genomic and metagenomic data, this work seeks to deepen our understanding of the molecular mechanisms driving the _Azolla_-_Nostoc_ symbiosis and to explore its applications in enhancing agricultural sustainability.
-
-## introducing bioinformatics to a lab
-
-* challenges
-* documentation
-
-## Bioinformatics of novel-crops
-
-## Documentation and reproducibility in bioinformatics
-
-## Innovative aspects
 
 # Outline of this thesis
 
