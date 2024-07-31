@@ -600,7 +600,8 @@ High-throughput sequencing and advanced computational tools allow breeders and r
 With GMO and gene editing technology, these insights can be tested in a living plant with amazing speed if a reliable transformation protocol is available
 [CRISPR-Cas9 based molecular breeding in crop plants: a review | Molecular Biology Reports](https://link.springer.com/article/10.1007/s11033-023-09086-w).
 
-Molecular breeding began with the study of DNA and then the study that was called genomics.
+Molecular breeding began with the study of DNA.
+A field that was later called genomics.
 It is then only logical to begin symbiosis breeding with meta-genomics.
 Metagenomics is the study of all DNA associated to any organ or organism.
 It differs from microbiome profiling.
@@ -616,10 +617,17 @@ Metagenomic insights may allow for the targeted manipulation of genes in symbion
 [Advances in Integrating Genomics and Bioinformatics in the Plant Breeding Pipeline](https://www.mdpi.com/2077-0472/8/6/75).
 [Bioinformatics in Plant Breeding and Research on Disease Resistance](https://www.mdpi.com/2223-7747/11/22/3118).
 
+Before any reader is disappointed, this thesis is not describing editing of either the fern or the symbionts.
+Our small lab has tried, made small steps forward, but did not achieve robust genetic editing.
+These advanced techniques need a genomic basis to be achieved.
+That basis, the genomics of the _Azolla_ symbiosis, is what is established in this thesis.
+When I joined the _Azolla_ lab in my Masters, I extracted and transported the DNA that would later be sequenced and assembled into the first _Azolla filiculoides_ genome by [@Li2017].
+The _Azolla filiculoides_ genome was the first fern ever to have its genome sequenced.
+
 ## Bioinformatics of Novel Crops
 
-Bioinformatic insights and new breeding techniques could fast-track the domestication and improvement of wild plants and their symbioses into novel crops, bypassing traditional lengthy breeding processes.
-For instance, genome editing technologies like CRISPR-Cas9 can be used to introduce beneficial traits directly into the genomes of host plants and their symbionts.
+Bioinformatic insights and new breeding techniques could fast-track the domestication and improvement of wild plants into novel crops, bypassing traditional lengthy breeding processes.
+For instance, genome editing can be used to introduce beneficial traits identified by bioinformatic and experimental approaches.
 This was already demonstrated by editing key domestication genes in a wild poisonous tomato plant, to turn it into a more domesticated edible form. [cite tomato paper]
 This approach enables the precise manipulation of genes responsible for desirable traits such as enhanced nitrogen fixation, disease resistance, and abiotic stress tolerance.
 Additionally, it circumvents adverse effects of traditional breeding, like loss of genetic diversity as a side-effect of selection for desirable traits.
