@@ -10,7 +10,7 @@
 \linenumbers
 
 <!-- chapter title and bla bla -->
-\chapter{A hitchhiker's guide to \textit{Azolla} symbiosis genomics}
+\chapter{A hitch-hiker's guide to \textit{Azolla} symbiosis genomics}
 \label{general_intro}
 
 \addthumb{General Introduction}{\Large{I}}{white}{gray}
@@ -34,7 +34,7 @@ Laura W Dijkhuizen^1^
 – Russell Ackoff (professor of systems sciences)
 
 <!-- not sure about this paragraph. AI overlords suggest to remove -->
-This hitchhiker's guide is meant to be a friendly general introduction to this thesis.
+This hitch-hiker's guide is meant to be a friendly general introduction to this thesis.
 I attempted to make it palpable for all scientific audience, not just (plant)biologists.
 Individual chapters have in-depth stand-alone introductions relevant for the scientific work of those chapters.
 So here, I mean to give a broader context on symbiosis research, on the amazing _Azolla_, and relevant genomics methodologies.
@@ -139,7 +139,7 @@ Could a fast-evolving bacterial section of the hologenome (all genetic material 
 This may explain the fast adaptations of microbiomes to their hosts.
 
 After advocating a systems biology perspective on symbiosis research, the holobiont concept seems fitting in this work.
-Yet, the concept is also critisised.
+Yet, the concept is also criticised.
 The holobiont is also argued to be a romantic over-simplification of a set of complex interactions.
 Holobiont members may interact beneficially as well as antagonistically.
 Additionally, a lack of consistency in a species consortium may challenge the evolutionary pressure exerted on them as a whole.
@@ -166,9 +166,7 @@ chatgpt Suggestions:
 	•	Discuss the significance of non-obligate symbioses and their implications for ecological flexibility and resilience.
 	•	Include more references to scientific literature to support the examples and claims.
 
-
 gemini: The discussion of the holobiont concept is well-balanced, presenting both arguments and counterarguments. Consider adding a sentence or two highlighting the specific implications of the holobiont concept for your research on the Azolla symbiosis.
-
 
    -->
 
@@ -213,8 +211,8 @@ Both leaves and sporocarps encapsulate part of the starting colony during growth
 This process ensures that all leaves have a colony of the symbiont.
 
 Azolla roots can be observed hanging loosely in the water like a thin curtain.
-On timelapses, the roots were seen swirling and curling. 
-<!-- insert link to timelapse -->
+On time-lapses, the roots were seen swirling and curling.
+<!-- insert link to time-lapse -->
 Roots of individual plant fronts grabbed onto each other like rugby players locking shoulders in a scrum
 This way, individual plants formed a cohesive mat, keeping together.
 I suspect this phenomenon may help in creating favourable conditions for the symbiosis.
@@ -257,8 +255,8 @@ The symbiosis significantly contributes to the nitrogen budget and supports the 
 [Moss-cyanobacteria associations as a novel source of biological N2-fixation in temperate grasslands](https://link.springer.com/article/10.1007/s11104-020-04695-x)
 In moss-cyanobacteria associations, the cyanobacteria are often acquired from the environment by each moss generation.
 The cyanobacteria can also live without a host in these environments, and culturing and inoculation protocols are established.
-[Rousk: Unraveling host–microbe interactions and ecosystem functions in moss–bacteria symbioses](https://academic.oup.com/jxb/article/73/13/4473/6612780).
-This is unlike the _Azolla_-_Nostoc_ symbiosis, where cyanobacteria are transferred through fern reproductive structures and the cyanobacteria connot live without their host.
+[Rousk: Unravelling host–microbe interactions and ecosystem functions in moss–bacteria symbioses](https://academic.oup.com/jxb/article/73/13/4473/6612780).
+This is unlike the _Azolla_-_Nostoc_ symbiosis, where cyanobacteria are transferred through fern reproductive structures and the cyanobacteria cannot live without their host.
 <!-- Moss picture with punctiforme? -->
 
 <!-- 
@@ -277,7 +275,7 @@ This nitrogen benefits other plants and microorganisms in the ecosystem .
 Additionally, the presence of cyanobacteria enhances the mosses' ability to retain water and nutrients, thereby stabilizing soil and preventing erosion.
 This mutually beneficial relationship exemplifies the intricate connections between plants and microbes.
 It exemplifies the ecological importance of cyanobacterial symbioses.
-Initiation of these interactions take a complex web of molecular signaling and metabolic exchange.
+Initiation of these interactions take a complex web of molecular signalling and metabolic exchange.
 [The moss traits that rule cyanobacterial colonization](https://academic.oup.com/aob/article/129/2/147/6386096)
 
 Cyanobacteria associated with mosses, and also with Azolla, are often part of the Nostocaceae family.
@@ -302,7 +300,7 @@ The findings highlight the importance of horizontal gene transfer and genetic re
 <!-- include phylogeny from a paper or database? -->
 
 <!--
-Gemin: The section on cyanobacterial symbiosis is comprehensive. To make it more concise, you could focus on the most relevant details for your research, such as the specific types of cyanobacteria involved in the Azolla symbiosis. -->
+Gemini: The section on cyanobacterial symbiosis is comprehensive. To make it more concise, you could focus on the most relevant details for your research, such as the specific types of cyanobacteria involved in the Azolla symbiosis. -->
 
 ## _Nostoc azollae_ or _Trichormus azollae_
 
@@ -370,11 +368,11 @@ _Azolla_ naturally thrives in a variety of  nutrient-rich freshwater environment
 These habitats provide the ideal conditions for _Azolla_'s growth, such as abundant water and nutrient availability.
 The fern forms dense mats on the water surface, which helps it outcompete other aquatic plants and algae.
 These floating mats are crucial for stabilizing the ecosystem by reducing water evaporation and providing a habitat for various microorganisms and small aquatic animals.
-[Azolla: A review of its biology and utilization ](https://link.springer.com/article/10.1007/BF02857915)
+[Azolla: A review of its biology and utilization](https://link.springer.com/article/10.1007/BF02857915)
 
 Ecologists associate _Azolla_ often with unhealthy ecosystems, terming it invasive and dangerous.
 I argue that _Azolla_ is not a dangerous plant, nor invasive.
-Harmful levels of _Azolla_ growth are, in my opinion, a symptom of eutrified ecosystems.
+Harmful levels of _Azolla_ growth are, in my opinion, a symptom of eutrophic ecosystems.
 Some fast grower will take advantage of this situation.
 Whether this is an algae, _Lemna_ (duckweed) or _Azolla_ is irrelevant.
 [A review of some ecological factors affecting the growth of Azolla spp.](https://cjes.guilan.ac.ir/article_1110.html).
@@ -396,7 +394,7 @@ A _S. rufinasus_ swarm can decimate an _Azolla_ mat in days and even completely 
 We have unwillingly empirically tested this theory several times.
 
 When an _Azolla_ population has covered a water surface, the plants' growth is directed upwards.
-An _Azolla_ mat is formed between few millimeters and 20 to 30 centimetres in extreme scenario's.
+An _Azolla_ mat is formed between few millimetres and 20 to 30 centimetres in extreme scenario's.
 The bottom of the mat is dark, and may be submerged by the weight of plants laying on top.
 Inside the _Azolla_ mat, the light quality changes.
 Specifically the red vs far-red light ratio.
@@ -474,7 +472,7 @@ The plants may not be suitable for consumption or use as feed or fertiliser, but
 Incorporating _Azolla_ in water management strategies may help restoring ecological balance to eutrophic and contaminated water bodies.
 Given Azolla’s rapid and invasive growth tendencies, these practices should be employed with caution.
 [Phytoremediation Potential of Aquatic Macrophyte, Azolla](https://link.springer.com/article/10.1007/s13280-011-0159-z)
-[Aquatic microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change ](https://link.springer.com/article/10.1007/s11356-015-5857-9)
+[Aquatic microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change](https://link.springer.com/article/10.1007/s11356-015-5857-9)
 
 <!-- 
 This section is well-researched and provides a compelling case for the potential of Azolla in agriculture. Consider adding a sentence or two summarizing the key challenges and opportunities for further research in this area.
@@ -496,7 +494,7 @@ While initially puzzled, scientists eventually identified these as glochidia.
 These are the specialised microspore structures of _Azolla_.
 These spores were abundant over the entire Arctic ocean floor.
 This indicated that the Arctic Ocean had once been covered with extensive mats of _Azolla_.
-[Azolla event - Wikipedia](https://en.wikipedia.org/wiki/Azolla_event) 
+[Azolla event - Wikipedia](https://en.wikipedia.org/wiki/Azolla_event)
 [The Geological  Society](https://www.geolsoc.org.uk/Geoscientist/Archive/June-2014/The-Arctic-Azolla-event).
 
 Detailed analyses of the sediment cores revealed that _Azolla_ blooms persisted in the Arctic Ocean for nearly a million years during the Eocene epoch, around 49 million years ago.
@@ -555,16 +553,16 @@ _Salvinia_ species leaves are attached to the stem in groups of three, with two 
 This morphology supports the shoot-like origin for _Azolla_ roots as discussed before.
 Like _Azolla_, _Salivinia_ species are often seen as rapid invasive growers.
 In eutrophic ecosystems, specifically _Salvinia_ cuculata can cover a water surface fast, and effectively suffogate the submerged aquatic life.
-[Salviniaceae | SpringerLink](https://link.springer.com/chapter/10.1007/978-94-024-1157-7_17) 
+[Salviniaceae | SpringerLink](https://link.springer.com/chapter/10.1007/978-94-024-1157-7_17)
 [Salviniaceae | plant family | Britannica](https://www.britannica.com/plant/Salviniaceae)
 
 _Azolla_ is the only genus in the order with a symbiotic relationship with nitrogen-fixing cyanobacteria, _T azollae_.
 _Azolla_ species have a competitive advantage in eutrophic ecosystems with low-nitrogen.
 Six species are currently recognised, each with a specific global distribution.
 It needs little further introduction.
-[Salviniales | Floating, Aquatic, Ferns | Britannica](https://www.britannica.com/plant/Salviniales) 
+[Salviniales | Floating, Aquatic, Ferns | Britannica](https://www.britannica.com/plant/Salviniales)
 [Salviniaceae | plant family | Britannica](https://www.britannica.com/plant/Salviniaceae).
-[NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=3190) 
+[NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=3190)
 [Britannica](https://www.britannica.com/plant/Salviniaceae).
 <!-- this paragraph still feels odd. -->
 
@@ -576,32 +574,35 @@ It needs little further introduction.
   - Briefly introduce how genomics has revolutionized symbiosis research by allowing detailed insights into the genetic interactions between host plants and their symbiotic partners.
 
 ## Bioinformatics of novel-crops
-  - Technological Approaches in This Thesis
-	- Describe the specific genomics methodologies used in your research
-    - such as whole-genome sequencing, metagenomics, and transcriptomics
-    - and how these techniques have helped uncover the complexities of the Azolla-Nostoc symbiosis.
-  -	Explore how modern genomics technologies can be used to fast-track the domestication and improvement of wild plants and their symbioses into novel crops, bypassing the traditional lengthy breeding processes.
-      - tomato paper
+
+* Technological Approaches in This Thesis
+  * Describe the specific genomics methodologies used in your research
+  * such as whole-genome sequencing, metagenomics, and transcriptomics
+  * and how these techniques have helped uncover the complexities of the Azolla-Nostoc symbiosis.
+* Explore how modern genomics technologies can be used to fast-track the domestication and improvement of wild plants and their symbioses into novel crops, bypassing the traditional lengthy breeding processes.
+  * tomato paper
 
 ## introducing bioinformatics to a lab
-  - We're a small lab with limited resources
-	- Discuss the limitations of existing genomics technologies, such as incomplete genome assemblies, challenges in differentiating host and symbiont DNA, and the need for advanced bioinformatics tools to interpret complex datasets.
-  - functional genomics in a symbiosis setting is hard.
-  - documentation, challenges
-  - instability of microbial consortia
-  - high tech, expensive
+
+* We're a small lab with limited resources
+  * Discuss the limitations of existing genomics technologies, such as incomplete genome assemblies, challenges in differentiating host and symbiont DNA, and the need for advanced bioinformatics tools to interpret complex datasets.
+* functional genomics in a symbiosis setting is hard.
+* documentation, challenges
+* instability of microbial consortia
+* high tech, expensive
 
 ### Documentation and reproducibility in bioinformatics
-  - transition wet to try lab
+
+* transition wet to try lab
 
 ## future perspectives
   
 Ethics:
-  - GMO is a multi-million-dollar industry, did it help feed the people, or did it mostly feed the rich.
-  - How can we make gene editing in general, and also symbioses editing techniques benefit the people.
-Future Directions and Technological Needs
-  -	Discuss the future directions for symbiosis research and the technological advancements needed to fully harness the potential of genomics in developing sustainable agricultural practices.
 
+* GMO is a multi-million-dollar industry, did it help feed the people, or did it mostly feed the rich.
+* How can we make gene editing in general, and also symbioses editing techniques benefit the people.
+Future Directions and Technological Needs
+* Discuss the future directions for symbiosis research and the technological advancements needed to fully harness the potential of genomics in developing sustainable agricultural practices.
 
 <!-- 
 Through advanced sequencing technologies, this research characterizes the genomes of both _Azolla_ and _Nostoc azollae_, revealing the genetic basis of their symbiotic interaction.
@@ -660,7 +661,7 @@ Instead, we theorise that they colonise early sporocarp initials of both typles,
 This method of transmission is identical to colonisation of leaf primordia, hence requires no separate machinery and explains consistent observation of _N. azollae_ in very young microsporocarps.
 
 **Chapter \ref{phylogeny_workflow}** (\nameref{phylogeny_workflow} on page \pageref{phylogeny_workflow}) describes a workflow for creating large and state-of-the-art phylogentic trees of gene families; examplified in landplants.
-Studying fern genetics, the _Azolla_ lab often deals with fern genes that are homologous (similar in sequence) to a seedplant gene.
+Studying fern genetics, the _Azolla_ lab often deals with fern genes that are homologous (similar in sequence) to a seed plant gene.
 With phylogeny, we aim to assess the evolution of a gene family and orthology/paralogy of _Azolla_ genes to model species their genes.
 While many user friendly methods exist to create phylogenetic trees, these are often either closed-source, or their performance is limited.
 Here I created a workflow for basic phylogeny inference with state-of-the-art open source tools, unlimitted in their performance.
@@ -668,32 +669,30 @@ This workflow is aimed at user skilled in reading a phylogeny, but not in using 
 It covers data-selection, multiple sequences alignment, alignment trimming, and tree inference.
 Additionally, it provides tools to create semi-automatic mark-up for phylogenetic trees in the iToL webinterface.
 
-## Appendeces
+## Appendices
 
-Academics are more than just scientitsts.
+Academics are more than just scientists.
 They are often also teachers on universities and leaders and administrators in academic organs.
-During my PhD, I attempted to incorparate that broader academic experience in my work.
+During my PhD, I attempted to incorporate that broader academic experience in my work.
 The doctorate remains intrinsically a scientific degree and this thesis is first and foremost a scientific document.
-Still, I add three appendeces that give a glimpse in my "extracurricular" activities.
+Still, I add three appendices that give a glimpse in my "extracurricular" activities.
 My thesis; the culmination of my PhD, simply would not be complete without them.
 
 Firstly, **Appendix \ref{BKO}** summarises my basic University Teaching Qualification (bUTQ or BKO) application.
 About a quarter of My PhD I spend on teaching and developping myself as a Teacher.
 This effort was rewarded with a bUTQ or BKO in Dutch.
-The full portfolio is too lengthy to include, so this chapter sumarises the original document.
+The full portfolio is too lengthy to include, so this chapter summarises the original document.
 Secondly, an example of teaching material that is completely of my own design is included in **Appendix \ref{metagenomics_practical}** (\nameref{metagenomics_practical} on page \pageref{metagenomics_practical}) as mentioned before.
 Finally, I include a short narrative CV on my non-science and non-teaching activities during my PhD and what I gained from them.
 
-
 <!-- gemini: Clearer Thesis Statement: While the introduction effectively sets the stage for the thesis, a more explicit thesis statement would be helpful. Consider adding a sentence or two at the end of the introduction summarizing the main research questions or objectives of your thesis. -->
-
 
 \nolinenumbers
 
 <!-- close the last page of this section as required for removing the thumb index on next "part page" -->
 \newpage
 \null
-<!-- don't show page nrs on cleardouble page -->
+<!-- don't show page nrs on clear double page -->
 \pagestyle{plain}
 <!-- stop the thumbmarking scheme (partwise) and start it (chapterwise) in the next chapter -->
 \stopthumb
