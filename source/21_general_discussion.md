@@ -7,7 +7,14 @@
 \label{discussion}
 \newpage
 
+## roadmap to breeding a novel-symbiosis crop
+
+bla
+
 # left-over notes from the hidden treasures chapter:
+
+
+
 
 I have said nothing of membrane vesicles from both cyano's and bact observed by
 at least @Zheng2009

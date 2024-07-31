@@ -579,8 +579,6 @@ By integrating genomic and metagenomic data, this work seeks to deepen our under
 * challenges
 * documentation
 
-## roadmap to breeding a novel-symbiosis-crop
-
 ## Bioinformatics of novel-crops
 
 ## Documentation and reproducibility in bioinformatics
