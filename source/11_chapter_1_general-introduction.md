@@ -1,5 +1,3 @@
-
-<!-- Start new part of the book, the scientific chapters (and gen-intro) -->
 <!-- Start page numbering here, so that part II starts at page one in the table of contents -->
 \pagenumbering{arabic}
 \setcounter{page}{1}
@@ -37,7 +35,7 @@ Laura W Dijkhuizen^1^
 > _“A system is never the sum of its parts it's the product of their interaction.”_
 – Russell Ackoff (professor of systems sciences)
 
-<!-- not sure about this paragraph. AI overlords suggest to remove -->
+<!-- not sure about this paragraph. AI overlords suggest to remove it -->
 This hitch-hiker's guide is meant to be a friendly general introduction to this thesis.
 I attempted to make it palpable for all scientific audiences, not just (plant)biologists.
 Individual chapters have in-depth stand-alone introductions relevant to the scientific work of those chapters.
@@ -186,22 +184,22 @@ Instead, the symbiosis floats on water.
 _Azolla_ its aquatic lifestyle makes the fern highly dependent on fresh water.
 Even its name is derived from this property, 'Azo' is greek for 'dry' and 'allyo' for 'kill'.
 The fern spreads horizontally over the water surface, darkening the water column.
-This property makes _Azolla_ as infamous under ecologists, as it is famous in symbiosis research.
+This property makes _Azolla_ as infamous under ecologists, as it is famous in symbiosis research [@Madeira2016a].
 Bigger plants break irregularly into smaller ones, genetically identical, but physically separate; forming a big green floating mat.
 _Azolla_ mats are known for their high growth rate and high protein content.
-A mat can grow so spectacularly fast, that _Azolla_ is thought to have overgrown the entire north pole for some time in geological history.
+A mat can grow so spectacularly fast, that _Azolla_ is thought to have overgrown the entire north pole for some time in geological history [@Brinkhuis2006].
 This "_Azolla_ event" is associated with a steep decline in global CO2 concentration in the air.
-Within human history, _Azolla_ has traditionally been used in rice paddy fields.
+Within human history, _Azolla_ has traditionally been used in rice paddy fields [@Wagner1997b;@Shi1988].
 Its main function was to prevent toxic cyanobacteria from growing in the water.
-Any surplus was feed for animals.
-Some of today's agricultural challenges seem to be a perfect fit for _Azolla_: limit arable land, nitrogen fertilizer excesses, and protein shortage.
+Any surplus was fed to livestock.
+Some of today's agricultural challenges seem to be a perfect fit for _Azolla_: limited arable land, nitrogen fertilizer excesses, and protein shortage [@Bijl2014].
 _Azolla_ is an amazingly interesting plant, in this section I'll elaborate shortly on all these statements.
 
 ## _Azolla_ physiology
 
 _Azolla_ stems spread horizontally over the water surface.
 At stem nodes, leaves and roots are attached.
-_Azolla_ leaves are highly adapted to the ferns living style.
+_Azolla_ leaves are highly adapted to the fern's living style.
 They are bi-lobed; both lobes being directed either up- or down-ward.
 The lower lobe is razor-thin, translucent-looking and concave.
 It lies on the water like a boat, suspending the stem and upper leaf lobe above.
@@ -212,10 +210,11 @@ The leaves typically grow in a compact cabbage-like fashion; giving the whole pl
 <!-- insert macro photo Azolla, macro photo stem tip, microscope photo starting colony -->
 
 All organs find their origin at the tip of the stem, at the shoot apical meristem (SAM).
-The SAM produces primordia, little bulges, which develop into leaves, roots and sporocarps (the ferns reproductive structures).
+The SAM produces primordia, little bulges, which develop into leaves, roots, and sporocarps.
+Sporocarps are the ferns reproductive structures.
 The SAM also harbours a small colony with motile filaments of the cyanobacterium _T. azollae_.
 Both leaves and sporocarps encapsulate part of the starting colony during growth.
-This process ensures that all leaves have a colony of the symbiont.
+This process ensures that all leaves have a colony of the symbiont. [@Campbell1893]
 
 Azolla roots can be observed hanging loosely in the water like a thin curtain.
 On time-lapses, the roots were seen swirling and curling.
@@ -225,20 +224,20 @@ This way, individual plants formed a cohesive mat, keeping together.
 I suspect this phenomenon may help in creating favourable conditions for the symbiosis.
 It may help in stratifying the water column, keeping nutrients from dying plants close to the plant roots for re-absorption.
 
-Interestingly, Azolla roots respond distinctly to typical plant hormones compared to flowering plants their roots.
-Roots were likely invented twice in plant-history: in lycophytes and in ferns.
-The fern-invented-roots were passed down to seed-plants.
+Interestingly, Azolla roots respond distinctly to typical plant hormones compared to flowering plant's roots [@deVries2016].
+Roots were likely invented twice in plant history: in lycophytes and ferns.
+The fern-invented roots were passed down to seed plants.
 However, not all roots will have developed the same since their original invention.
-In seed-plants, the hormone cytokinin promotes cell division in shoots, and regulates differentiation growth in roots.
-In contrast to the typical response, _Azolla_ roots' cell division is promoted by cytokinin [@DeVries].
-This finding suggest that Azolla roots have an origin as a shoot structure.
+In seed plants, the hormone cytokinin promotes cell division in shoots and regulates differentiation growth in roots.
+In contrast to the typical response, _Azolla_ roots' cell division is promoted by cytokinin [@deVries2016].
+This finding suggests that Azolla roots have an origin as a shoot structure.
 They are analogous to plant roots; similar in appearance but separate in origin.
 
-The specifics of the shoot-origin of _Azolla_ roots are not of major consequence to this work.
+The specifics of _Azolla_ root's origin are not of major consequence to this work.
 It does highlight and illustrate that the evolutionary history of _Azolla_ deviated from that of seed plants a very long time ago.
 Educated guesses made with a seed-plant background, may be false more often than one thinks.
 Now let me also express my dislike for the term "primitive plants".
-As if ferns have not diversified, adapted and evolved since their origin.
+As if ferns have not diversified, adapted, and evolved since their origin.
 I hope this thesis, even this introduction, will help in appreciating the intricacies of the _Azolla_ symbiosis life cycle.
 We can discuss "primitiveness" further compared to the brute force of non-pollinated flowers or the extravaganza of a magnolia.
 
@@ -248,21 +247,19 @@ Cyanobacterial symbioses are widespread and diverse.
 They span various ecosystems: like marine environments, freshwater systems, and terrestrial habitats.
 Cyanobacteria form mutualistic associations with a wide range of hosts, including plants, fungi, protists, and even animals.
 In marine systems, symbiosis partners can be sponges or diatoms.
-In fresh water systems, the _Azolla_ symbiosis is a prime example.
-Terrestrial hosts can by cycads (plants), mosses, but also lichens (fungi).
+In freshwater systems, the _Azolla_ symbiosis is a prime example.
+Terrestrial hosts can be cycads (plants), mosses, but also lichens (fungi).
 Even some animals can be hosts: besides sponges, a flatworm  _Convoluta roscoffensis_ can host a cyanobacterial symbiont.
-These symbioses are mostly not obligate; most cyanobacteria can live independently from their host.
+These symbioses are mostly not obligate; most cyanobacteria can live independently from their host. [@Peters1991]
 
 The _Azolla_-_Nostoc_ symbiosis is perhaps most related to moss-cyanobacterium symbioses.
 Moss-cyanobacterium symbioses are particularly present in boreal and temperate regions.
 Host mosses like _Sphagnum_ and _Pleurozium schreberi_ harbour nitrogen-fixing cyanobacteria, primarily from the genus _Nostoc_ and _Anabaena_.
-The cyanobacteria provide their host mosses with nitrogen by fixing atmospheric nitrogen.
-This relationship is a big competitive advantage in nutrient-poor environments.
-The symbiosis significantly contributes to the nitrogen budget and supports the growth of both mosses and the surrounding plant community.
-[Moss-cyanobacteria associations as a novel source of biological N2-fixation in temperate grasslands](https://link.springer.com/article/10.1007/s11104-020-04695-x)
-In moss-cyanobacteria associations, the cyanobacteria are often acquired from the environment by each moss generation.
+The cyanobacteria provide their host mosses with nitrogen by fixing atmospheric nitrogen [@Rousk2022].
+This relationship is a big competitive advantage in nutrient-poor environments  [@Alvarenga2022].
+The symbiosis significantly contributes to the nitrogen budget and supports the growth of both mosses and the surrounding plant community [@Calabria2020].
+In moss-cyanobacteria associations, the cyanobacteria are often acquired from the environment by each moss generation [@Liu2022].
 The cyanobacteria can also live without a host in these environments, and culturing and inoculation protocols are established.
-[Rousk: Unravelling host–microbe interactions and ecosystem functions in moss–bacteria symbioses](https://academic.oup.com/jxb/article/73/13/4473/6612780).
 This is unlike the _Azolla_-_Nostoc_ symbiosis, where cyanobacteria are transferred through fern reproductive structures and the cyanobacteria cannot live without their host.
 <!-- Moss picture with punctiforme? -->
 
@@ -276,102 +273,88 @@ chatgpt Suggestions:
  -->
 
 In addition to nitrogen fixation, these symbioses also influence the broader ecosystem processes.
-The fixed nitrogen not only supports the mosses but also enriches the soil after part of the moss dies.
-This nitrogen benefits other plants and microorganisms in the ecosystem .
-[Moss-cyanobacteria associations as a novel source of biological N2-fixation in temperate grasslands](https://link.springer.com/article/10.1007/s11104-020-04695-x)
+The fixed nitrogen not only supports the mosses but also enriches the soil after part of the moss dies [@Calabria2020].
+This nitrogen benefits other plants and microorganisms in the ecosystem.
 Additionally, the presence of cyanobacteria enhances the mosses' ability to retain water and nutrients, thereby stabilizing soil and preventing erosion.
 This mutually beneficial relationship exemplifies the intricate connections between plants and microbes.
 It exemplifies the ecological importance of cyanobacterial symbioses.
-Initiation of these interactions take a complex web of molecular signalling and metabolic exchange.
-[The moss traits that rule cyanobacterial colonization](https://academic.oup.com/aob/article/129/2/147/6386096)
+Initiation of these interactions takes a complex web of molecular signalling and metabolic exchange [@Liu2022].
 
-Cyanobacteria associated with mosses, and also with Azolla, are often part of the Nostocaceae family.
+Cyanobacteria that associate with mosses, and also with Azolla, are often part of the Nostocaceae family.
 The Nostocaceae family comprises several genera of cyanobacteria known for their filamentous, colony-forming structures and their ability to fix nitrogen.
 The family includes genera such as _Nostoc_, _Anabaena_, _Trichormus_, and _Cylindrospermum_.
-These genera share common features like the presence of specialised heterocyst cells that fix nitrogen under aerobic conditions.
-
+These genera share common features like the presence of specialised heterocyst cells that fix nitrogen under aerobic conditions [@Adams2000].
 Phylogenetic studies have shown that the relationships among these genera are complex.
-Within a single genus, significant genetic diversity can be observed.
-[Modern taxonomic revision of planktic nostocacean cyanobacteria: a short review of genera](https://link.springer.com/article/10.1007/s10750-009-0030-4)
-Specifically, _Anabaena_ and _Nostoc_ are closely related but exhibit distinct ecological and morphological adaptations.
-[Morphological, biochemical and molecular characterization of Anabaena, Aphanizomenon and Nostoc strains (Cyanobacteria, Nostocales) isolated from Portuguese freshwater habitats](https://link.springer.com/article/10.1007/s10750-010-0572-5)
-_Anabaena_ is often found in both freshwater and saltwater environments and can form toxic blooms.
-_Nostoc_ is more commonly associated with symbiotic relationships in terrestrial and freshwater habitats.
-
-Recent molecular analyses have provided deeper insights into the evolutionary relationships within the Nostocaceae family.
-These studies have utilised multiple genetic markers to elucidate the phylogeny of these cyanobacteria.
-The findings highlight the importance of horizontal gene transfer and genetic recombination in shaping the genetic diversity of Nostocaceae, contributing to their adaptability and ecological success across various environments
-[Morphological, biochemical and molecular characterization of Anabaena, Aphanizomenon and Nostoc strains (Cyanobacteria, Nostocales) isolated from Portuguese freshwater habitats](https://link.springer.com/article/10.1007/s10750-010-0572-5)
-[Modern taxonomic revision of planktic nostocacean cyanobacteria: a short review of genera](https://link.springer.com/article/10.1007/s10750-009-0030-4)
+Within a single genus, significant genetic diversity can be observed and several species were moved between genera [@komarek2010; @kastovsky2024].
+The genus name of _Azolla_'s cyanobacterial symbiont has also changed throughout the years.
 
 <!-- include phylogeny from a paper or database? -->
 
-<!--
-Gemini: The section on cyanobacterial symbiosis is comprehensive. To make it more concise, you could focus on the most relevant details for your research, such as the specific types of cyanobacteria involved in the Azolla symbiosis. -->
+## _Anabaena_, _Nostoc_ or _Trichormus_ _azollae_
 
-## _Nostoc azollae_ or _Trichormus azollae_
-
-_Azolla_ species form a unique symbiotic relationship with _Trichormus_ azollae_; the cyanobacterium resides in specialized leaf cavities of the fern.
+_Azolla_ species form a unique symbiotic relationship with _Trichormus azollae_; the cyanobacterium resides in specialized leaf cavities of the fern.
 The symbiosis main function, from the host-plant perspective, is that _T. azollae_ sequesters di-nitrogen gas from the air and shares this with the host.
 Several papers claim to have cultured _T. azollae_ on standard cyanobacterial media like BG11.
-We have tried to do reproduce this ourselves, and have talked to scientist better equipped to do so than us.
+We have tried to do reproduce this ourselves, and have talked to scientists better equipped to do so than us.
 Yet all efforts failed.
-Additionally, I personally find that papers claiming a culturing protocol for _T. azollae_ lack proper checks.
+Additionally, I find that papers claiming a culturing protocol for _T. azollae_ lack proper checks.
 More often than not, these checks are a PCR for the very common nitrogenase gene, or a visual check for heterocysts common to many genera of cyanobacteria.
-I suspect these works describe cultures of other cyanobacteria.
+I suspect these works describe cultures of other cyanobacteria, as have others [@Pereira2014].
 
-Like the organisation of the Nostocaceae family, the genus name of _T azollae_ is also up for debate.
+Like the organisation of the Nostocaceae family, the genus name of _T azollae_ is also up for debate [@Pereira2014; @Baker2003].
 In most work of our lab, we write _Nostoc azollae_ when we refer to the symbiont.
 _N. azollae_ has undergone multiple reclassifications due to advances in molecular phylogenetics such as phylogenomics techniques.
-Traditionally, it has been referred to as _Anabaena azollae_.
+Traditionally, it has been referred to as _Anabaena azollae_[@].
 Most modern literature refers now to _Nostoc azollae_.
 Recent studies favour the classification of this cyanobiont as _Trichormus azollae_ based on comprehensive phylogenetic analyses.
-[trichormus paper link]
-This is now also the standard in the NCBI taxonomy database.
-<!-- link -->
+[@Baker2003]
+Strictly speaking, _T. azollae_ is the only verified name of the symbiont [@Pereira2014].
+It is now also the standard in the NCBI taxonomy database: [NCBI: _T. azollae_](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=551115) (<https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=551115>).
 These taxonomic ambiguities arise from variations in morphological and genetic data that were considered for the phylogeny of the Nostocaceae family.
-[Modern taxonomic revision of planktic nostocacean cyanobacteria: a short review of genera](https://link.springer.com/article/10.1007/s10750-009-0030-4)
 Re-organisation of taxonomy will always be somewhat chaotic and possibly met by resistance.
 In this thesis both _Nostoc azollae_ and _Trichormus azollae_ are used.
-The former in chapters that were published before this thesis was compiled, the latter for newer work.
+The former is used in chapters that were published before this thesis was compiled, the latter in newer work.
 
-One of the key papers to understand _T. azollae_ is the original genome publication by Ran et al. [cite].
+<!-- GTDB ANI calculations actually put it with anabaena rather than trichormus. WTF. -->
+
+One of the key papers to understand _T. azollae_ is the original genome publication by Ran et al. [@Ran2010].
 The study found the genome of _T azollae_ has undergone substantial reductive evolution.
 It contains many broken genes that would otherwise be considered essential for a free-living cyanobacterium.
 The genome does contain a complete set of genes required for nitrogen fixation, highlighting the cyanobacterium's crucial role in providing fixed nitrogen to the symbiosis.
-These broken genes, or pseudo genes, are often damaged by insertion sequences (IS elements).
+These broken genes, or pseudogenes, are often damaged by insertion sequences (IS elements).
 _T. azollae_'s genome contains a high amount of IS elements, indicating ongoing and substantial genome reduction and instability.
 Lacking many important metabolic genes, _T. azollae_ likely has a high degree of specialization and dependence on the host plant.
 I find the Ran et al. paper essential reading for _Azolla_ symbiosis research.
 It provides the genetic basis for understanding the metabolic potential of the main symbiont of _Azolla_ ferns.
 
-Genome degradation sounds worrisome, but is actually a well documented process for obligate symbioses.
+### Symbiont genome degradation
+
+Genome degradation is a seemingly worrisome but is a normal and well-documented process for obligate symbioses.
 Organelles are extreme examples of this process.
 Symbiotic bacteria often lose genes that are unnecessary for their specialised lifestyles.
-For example, _Buchnera aphidicola_, an endosymbiont of aphids, has reduced its genome to about 600-800 kilobases, retaining only essential genes for amino acid synthesis, while losing genes involved in DNA repair and regulatory functions
-[buchnera](https://academic.oup.com/mbe/article/36/7/1481/5466460#:~:text=URL%3A%20https%3A%2F%2Facademic.oup.com%2Fmbe%2Farticle%2F36%2F7%2F1481%2F5466460%0ALoading...%0AVisible%3A%200%25%20)
-[Genome interdependence in insect-bacterium symbioses](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2001-2-12-reviews1032).
-Similarly, _Wigglesworthia glossinidia_, a symbiont of tsetse flies, has a genome of approximately 700 kilobases, which includes genes vital for the biosynthesis of vitamins needed by the fly, but lacks many metabolic pathways, relying heavily on the host for these functions
-[Genome evolution in bacterial endosymbionts of insects](https://www.nature.com/articles/nrg931.pdf)
-[Tsetse Flies Rely on Symbiotic Wigglesworthia for Immune System Development](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001070).
-In an even more extreme case, _Carsonella ruddii_, the endosymbiont of psyllids, has the smallest known bacterial genome at about 160 kilobases, maintaining only a minimal set of genes required for protein synthesis and essential nutrient production, illustrating its high level of dependence on the host [Carsonella](https://academic.oup.com/mbe/article/24/2/449/1149358#:~:text=URL%3A%20https%3A%2F%2Facademic.oup.com%2Fmbe%2Farticle%2F24%2F2%2F449%2F1149358%0ALoading...%0AVisible%3A%200%25%20)
-[Genome interdependence in insect-bacterium symbioses](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2001-2-12-reviews1032).
-These examples highlight how genome reduction enables symbiotic bacteria to become highly specialized and efficient in their roles, focusing on essential symbiotic functions and relying on their hosts for other needs.
+In insects, this process is more elaborately studied than in plants, in part due to the strict obligate nature common to these symbioses [@Wernegreen2002].
+For example, _Buchnera aphidicola_, an endosymbiont of aphids, has reduced its genome to about 600-800 kilobases.
+This genome encodes only essential genes for amino acid synthesis and lost genes involved in DNA repair and regulatory functions [@Chong2019].
+Similarly, _Wigglesworthia glossinidia_, a symbiont of tsetse flies, has a genome of approximately 700 kilobases.
+These 700kb contain genes vital for the biosynthesis of vitamins needed by the fly, but lack many metabolic pathways considered essential for free-living bacteria[@Heller2011].
+In an even more extreme case, _Carsonella ruddii_, the endosymbiont of psyllids, has the smallest known bacterial genome at about 160 kilobases.
+The symbiont has a minimal set of genes required for protein synthesis and essential nutrient production [@Khachane2007].
+These studies exemplify how genome reduction plays a part in symbiont's specialisation and their dependence on their hosts for other needs.
 
-The genes in the _T. azollae_ genome sequence reveal the symbionts metabolic potential, as well as its lost metabolic potential.
+The genes in the _T. azollae_ genome sequence reveal the symbiont's metabolic potential, as well as its lost metabolic potential.
 These features tell us about the workings and evolution of the symbiosis.
-For example, Ran et al. found pathways for the biosynthesis of phytohormones.
+For example, @Ran2010 found pathways for the biosynthesis of phytohormones.
 These pathways may contribute to the growth and development of _Azolla_, indicating a two-way metabolic intertwined-ness between the two.
 Nitrogen gas is fixed with the nitrogenase enzyme into ammonium.
 This costly process is powered by energy and redux from the cyanobacterium's own photosynthesis which remains intact.
-[Ran; Eily et al.; Ray 1979]
-T. azollae_'s photosynthesis uses a slightly different colour green than the plant does, so they compete less for the same light.
+[@Ran2010; @Eily2019; @Ray1979]
+_T. azollae_'s photosynthesis uses a slightly different colour green than the plant does, so they compete less for the same light.
 This association allows _Azolla_ to thrive on nitrogen-poor or even nitrogen-free water.
-In return _T. azollae_ is thought to get carbon compounds from the host plant.
+In return, _T. azollae_ is thought to get carbon compounds from the host plant.
 
 ## Ecology
 
-_Azolla_ naturally thrives in a variety of  nutrient-rich freshwater environments including ponds, lakes, slow-moving streams, and wetlands.
+_Azolla_ naturally thrives in a variety of nutrient-rich freshwater environments including ponds, lakes, slow-moving streams, and wetlands.
 These habitats provide the ideal conditions for _Azolla_'s growth, such as abundant water and nutrient availability.
 The fern forms dense mats on the water surface, which helps it outcompete other aquatic plants and algae.
 These floating mats are crucial for stabilizing the ecosystem by reducing water evaporation and providing a habitat for various microorganisms and small aquatic animals.
@@ -544,7 +527,7 @@ These ferns grow in wet or aquatic environments.
 They are typically rooted in substrate with leaves that float on the water surface or are suspended above it.
 The Marsileaceae family its appearance is rather similar to the popular iron-cross chamber plant, but then aquatic and a fern.
 Marsileaceae members are characterized by their four-lobed leaves (in _Marsilea_) or cylindrical leaves (in _Pilularia_).
-This form  differs substantially from the floating leaf structures seen in Salviniaceae.
+This form  differs substantially from the floating leaf structures seen in Salviniaceae. [@Campbell1893]
 [Flora of New Zealand | Taxon Profile | Salviniaceae](https://www.nzflora.info/factsheet/Taxon/Salviniaceae.html)
 [Salviniales | Floating, Aquatic, Ferns | Britannica](https://www.britannica.com/plant/Salviniales)
 [Salviniaceae | SpringerLink](https://link.springer.com/chapter/10.1007/978-94-024-1157-7_17)
