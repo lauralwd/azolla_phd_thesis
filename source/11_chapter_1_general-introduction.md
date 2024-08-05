@@ -3,6 +3,7 @@
 <!-- Start page numbering here, so that part II starts at page one in the table of contents -->
 \pagenumbering{arabic}
 \setcounter{page}{1}
+<!-- Start new part of the book, the scientific chapters (and gen-intro) -->
 \part{Chapters}
 
 <!-- line numbers, to be removed in final version -->
@@ -13,16 +14,19 @@
 \chapter{A hitch-hiker's guide to \textit{Azolla} symbiosis genomics}
 \label{general_intro}
 
+<!-- thumb index with a I for introduction -->
 \addthumb{General Introduction}{\Large{I}}{white}{gray}
 
 \pagestyle{chapter}
 
+<!-- author stuff -->
 \footnotesize
 Laura W Dijkhuizen^1^
 \scriptsize
 
 1. Molecular Plant Physiology Department, Utrecht University, Utrecht 3584CH, The Netherlands
 
+<!-- get ready for the actual text body -->
 \newpage
 \normalsize
 \onehalfspacing
