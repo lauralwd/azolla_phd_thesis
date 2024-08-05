@@ -39,15 +39,16 @@ Laura W Dijkhuizen^1^
 
 <!-- not sure about this paragraph. AI overlords suggest to remove -->
 This hitch-hiker's guide is meant to be a friendly general introduction to this thesis.
-I attempted to make it palpable for all scientific audience, not just (plant)biologists.
-Individual chapters have in-depth stand-alone introductions relevant for the scientific work of those chapters.
-So here, I mean to give a broader context on symbiosis research, on the amazing _Azolla_, and relevant genomics methodologies.
-There will be a bit of humour and opinion and informal writing.
+I attempted to make it palpable for all scientific audiences, not just (plant)biologists.
+Individual chapters have in-depth stand-alone introductions relevant to the scientific work of those chapters.
+So here, I mean to give a broader context on symbiosis research, the amazing _Azolla_, and relevant genomics methodologies.
+There will be a bit of humour, opinion, and informal writing.
 
 ## A system perspective
 
 When imagining an ecosystem, one typically thinks of a forest with trees, animals, and insects.
-Perhaps also a stream and some fish; idyllically thriving as a balanced part of a larger whole.
+Perhaps some fish swim in a stream.
+All are idyllically thriving as a balanced part of a larger whole.
 The concept emphasises the abundance and complexity of interaction within the larger system, rather than the individualistic existence of the loose parts.
 Yet, when an average person imagines a biological experiment, they think of lab coats, petri dishes, and perhaps microscopes.
 They are not wrong; science has thrived under reductionism.
@@ -56,7 +57,7 @@ All other variations are reduced by working with one species or strain at a time
 The organism is dislodged from its natural environment to prevent it from meddling with the experiment.
 We, scientists, call this: 'controlled conditions.'
 The ultimate goal is to gain mechanistic insight into the workings of a biological system; one part at a time.
-The reasoning being, that if we know the function of all its parts, we then know the system.
+The underlying reasoning is that if we know the function of all its parts, we then know the system.
 
 The reductionist dogma yielded considerable advances in biological research; I wouldn't dream of debating this.
 But I will argue that it occasionally falls short in encompassing emergent properties of a larger whole.
@@ -66,29 +67,31 @@ For examples of the former, this thesis describes such a system.
 The latter, I find exemplified in recent attempts at microbiome editing.
 A microbiome is the collection of all microbial organisms associated with any organ or organism.
 Such a collection often contains millions of cells of hundreds of strains if not more.
-I think it is very optimistic to take one of these strains, edit it in some often genetic way, and expect robust change and plenty of examples in literature support this opinion.
-[proper details here](https://www.nature.com/articles/s44222-023-00072-2)
+I think it is very optimistic to take one of these strains, edit it in some often genetic way, and expect robust change, and plenty of examples in literature support this opinion [@Bai2023].
+A perspective of the entire (eco)system and ecological lessons from macroecology may be required for sustained microbiome editing [@Albright2022].
 
 Even within the confines of a single cell, the reductionist view on biology is subject to scrutiny.
-Nicholson (2019) argues that perhaps we should abandon our view of the cell as a mechanical reductionist entity to be studied through its molecular components.
+@Nicholson2019 argues that perhaps we should abandon our view of the cell as a mechanical reductionist entity to be studied through its molecular components.
 Instead, we should consider the cell as a complex, adaptive system where interactions and emergent properties are crucial for its function.
 Mechanistic studies research the workings of single components in the cell, and then perhaps place these into metabolic pathways.
 These pathways turn into a vast network of cause and effect.
-One can follow how one compound finds it way though the network, being turned into another compound.
+One can follow how one compound finds its way through the network, being turned into another compound.
 Or see how a signal at one point gets amplified and transmitted to some other point.
-An overview of cause and effect relations falls short to capture the non-linearity, stochasticity and plasticity of cellular behaviour (Nicholson 2019).
+An overview of cause-and-effect relations falls short of capturing the non-linearity, stochasticity, and plasticity of cellular behaviour [@Nicholson2019].
+Protein complexes are not static assemblies as engineered machines are.
+Instead, they self-organise with often multi-functional parts that come on and off constantly. [@Nicholson2019; @Dumont2014]
 
 I argue not for the complete abandonment of mechanistic research, but for complementing it with a systems biology perspective.
 A task well suited for biologists, who are trained from the onset to think at varying scales; from molecule to ecosystem.
-In fact my bachelor studies were organised this very way.
+In fact, my bachelor studies were organised this very way.
 Yet, somehow, something so obvious to a first-year biology student becomes an afterthought in reductionist scientific practice.
 
-Perhaps the study of symbioses takes place in between the ambition of full system understanding, and the practice of mechanistic researching pathways.
+Perhaps the study of symbioses takes place in between the ambition of full system understanding and the practice of mechanistic researching pathways.
 The methodology of the reductionist dogma remains the gold standard that we want to adhere to, also in this work.
 But always asking what it means for a system as a whole.
 Or, more often than not, forced to work with the system as a whole.
 Whether that system is an ecosystem, a cell, or, as is in this thesis: a symbiosis.
-By definition, a symbiosis is a long-term interaction of two or more organisms.
+By definition, symbiosis is a long-term interaction of two or more organisms.
 They often can be categorised in:
 
 * mutualism: when all partners benefit
@@ -118,7 +121,7 @@ We reasoned that molecular pathways of host and symbiont would be intricately in
 Hence, any breeding efforts of the host plant should not be limited to the plant physiology and genomics, but include those of its symbiont.
 For symbiosis traits, breeding a symbiont should perhaps take precedence over breeding the host.
 We advocated then, that breeding a functionally intertwined unit of organisms requires that systems biology perspective.
-A perspective that integrates ecological, physiological and (meta)genomic data to understand and eventually manipulate a plant-microbe symbiosis.
+A perspective that integrates ecological, physiological, and (meta)genomic data to understand and eventually manipulate a plant-microbe symbiosis.
 
 <!-- 
 chatgpt: Suggestions:
@@ -154,7 +157,7 @@ I have not decided on the matter yet, although I am inclined to agree with the c
 Yet, if we can occasionally find use in thinking of a single gene as an evolutionary unit, then perhaps the holobiont perspective has use as well.
 This model of how organisms co-exist will undoubtedly be wrong, but perhaps it is useful in some scenarios.
 It seems unproductive to me, to use holobiont as a buzz-word, to elevate a consortium of organisms above others.
-In this thesis my colleagues and I do use the word occasionally.
+In this thesis, my colleagues and I do use the word occasionally.
 Take it with a pinch of salt.
 
 <!-- 
