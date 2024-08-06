@@ -30,17 +30,17 @@ Laura W Dijkhuizen^1^
 \onehalfspacing
 \setlength{\parindent}{0.5in}
 
+<!-- not sure about this paragraph. AI overlords suggest to remove it -->
+This hitch-hiker's guide is meant to be a friendly general introduction to this thesis.
+I attempted to make it palpable for all scientific audiences, not just (plant)biologists.
+Individual chapters have in-depth stand-alone introductions.
+So here, I mean to give a broader context on symbiosis research, the amazing _Azolla_, and relevant genomics methodologies.
+There will be a bit of humour, opinion, and informal writing.
+
 # Symbioses
 
 > _“A system is never the sum of its parts it's the product of their interaction.”_
 – Russell Ackoff (professor of systems sciences)
-
-<!-- not sure about this paragraph. AI overlords suggest to remove it -->
-This hitch-hiker's guide is meant to be a friendly general introduction to this thesis.
-I attempted to make it palpable for all scientific audiences, not just (plant)biologists.
-Individual chapters have in-depth stand-alone introductions relevant to the scientific work of those chapters.
-So here, I mean to give a broader context on symbiosis research, the amazing _Azolla_, and relevant genomics methodologies.
-There will be a bit of humour, opinion, and informal writing.
 
 ## A system perspective
 
@@ -53,7 +53,7 @@ They are not wrong; science has thrived under reductionism.
 Scientific experiments often strive to control one variable at a time to isolate its effects.
 All other variations are reduced by working with one species or strain at a time, treated exactly the same except for that one experimental variable.
 The organism is dislodged from its natural environment to prevent it from meddling with the experiment.
-We, scientists, call this: 'controlled conditions.'
+We, scientists, call this: 'controlled conditions'.
 The ultimate goal is to gain mechanistic insight into the workings of a biological system; one part at a time.
 The underlying reasoning is that if we know the function of all its parts, we then know the system.
 
@@ -66,31 +66,46 @@ The latter, I find exemplified in recent attempts at microbiome editing.
 A microbiome is the collection of all microbial organisms associated with any organ or organism.
 Such a collection often contains millions of cells of hundreds of strains if not more.
 I think it is very optimistic to take one of these strains, edit it in some often genetic way, and expect robust change, and plenty of examples in literature support this opinion [@Bai2023].
-A perspective of the entire (eco)system and ecological lessons from macroecology may be required for sustained microbiome editing [@Albright2022].
+Instead, a perspective of the entire (eco)system and ecological lessons from macroecology may be required for sustained microbiome editing [@Albright2022].
+It requires a system perspective.
 
 Even within the confines of a single cell, the reductionist view on biology is subject to scrutiny.
-@Nicholson2019 argues that perhaps we should abandon our view of the cell as a mechanical reductionist entity to be studied through its molecular components.
-Instead, we should consider the cell as a complex, adaptive system where interactions and emergent properties are crucial for its function.
 Mechanistic studies research the workings of single components in the cell, and then perhaps place these into metabolic pathways.
 These pathways turn into a vast network of cause and effect.
 One can follow how one compound finds its way through the network, being turned into another compound.
 Or see how a signal at one point gets amplified and transmitted to some other point.
-An overview of cause-and-effect relations falls short of capturing the non-linearity, stochasticity, and plasticity of cellular behaviour [@Nicholson2019].
-Protein complexes are not static assemblies as engineered machines are.
-Instead, they self-organise with often multi-functional parts that come on and off constantly. [@Nicholson2019; @Dumont2014]
+"The cell's metabolism is a chemical machine, pursuing homeostasis or equilibrium"
+This idea is over a century old [@Nicholson2019].
 
-I argue not for the complete abandonment of mechanistic research, but for complementing it with a systems biology perspective.
+@Nicholson2019 poses that perhaps we should abandon our view of the cell as a mechanical reductionist entity to be studied through its molecular components.
+The machine conception of the cell is a misleading representation of biological reality, he argues.
+An overview of cause-and-effect relations falls short of capturing the non-linearity, stochasticity, and plasticity of cellular behaviour [@Nicholson2019].
+Groups of cell's response to a stimulus is not gradual and homogenous.
+Instead their response switches on or off stochastically and heterogeneously[@Altschuler2010].
+Similarly, protein complexes are not static assemblies as engineered machines are.
+Instead, they self-organise with often multi-functional parts that come on and off constantly. [@Nicholson2019; @Dumont2014]
+Apply this state of flux to all parts of a network of metabolic reactions, and imagine the consequential chaos.
+This chaotic cell is a collection of semi-stable processes that constantly self-organise in alternate steady states.
+A system far from equilibrium, seemingly inefficient and costly, but flexible and robust as a consequence.
+@Nicholson2019 is a great read, and I will not blame anyone who puts away this thesis and picks up his article instead.
+
+In this section, I argue not for the complete abandonment of mechanistic research, but for complementing it with a systems biology perspective.
 A task well suited for biologists, who are trained from the onset to think at varying scales; from molecule to ecosystem.
 In fact, my bachelor studies were organised this very way.
 Yet, somehow, something so obvious to a first-year biology student becomes an afterthought in reductionist scientific practice.
 
-Perhaps the study of symbioses takes place in between the ambition of full system understanding and the practice of mechanistic researching pathways.
-The methodology of the reductionist dogma remains the gold standard that we want to adhere to, also in this work.
+## Symbiosis
+
+Perhaps the study of symbioses takes place in between the ambition of system understanding and the practice of mechanistic research.
+The methodology of the reductionist dogma remains the field standard that my colleagues and I want to adhere to, also in this work.
+Studying a young system requires to first laying the groundwork.
 But always asking what it means for a system as a whole.
-Or, more often than not, forced to work with the system as a whole.
-Whether that system is an ecosystem, a cell, or, as is in this thesis: a symbiosis.
+Or, more often than not, forced to work with the system as a whole; this work focuses on an obligate symbiosis.
+In the context of this thesis, one symbiont without the other is either not viable or deeply unhealthy.
+Studying them in isolation without the perspective of the entire symbiosis risks being short-sighted.
+
 By definition, symbiosis is a long-term interaction of two or more organisms.
-They often can be categorised in:
+They often can be categorised as:
 
 * mutualism: when all partners benefit
 * commensalism: when one partner benefits, but does not harm others
@@ -104,76 +119,59 @@ Hence, the time span of an interaction is a more robust approach.
 In this thesis, symbiosis typically refers to the first two categories; congruent with the general sentiment of the word.
 The latter three categories are thought of as general ecological interactions rather than symbioses, in the context of this document.
 
-<!-- 
-	•	This paragraph could benefit from more specific examples to illustrate each type of symbiotic relationship.
-	•	Clarify why the reductionist approach is still important and how it complements the systems biology perspective.
-	•	Discuss the practical implications of categorizing symbiotic relationships and how it affects research methodology.
-	•	Consider including more references to support the categorization of symbiotic relationships and their ecological significance.
- -->
 
-## Symbiosis breeding
+### Symbiosis breeding
 
-The original premise of this PhD project includes thoughts on symbiosis breeding.
+The original premise of this PhD project includes thoughts on symbiosis breeding, specifically mutualist or commensalist associations.
 The organisms of choice here, are part of an obligate symbiosis focused on nutrient acquisition; specifically nitrogen.
-We reasoned that molecular pathways of host and symbiont would be intricately interconnected.
+At the time, we reasoned that molecular pathways of host and symbiont would be intricately interconnected.
 Hence, any breeding efforts of the host plant should not be limited to the plant physiology and genomics, but include those of its symbiont.
+
+Typically, research into breeding symbioses focuses on breeding plant properties for increased symbiosis functioning [@Liu2020; @Thirkell2022].
+These functions revolve around nutrient acquisition in root-nodule type- and mycorrhizzal -symbioses.
 For symbiosis traits, breeding a symbiont should perhaps take precedence over breeding the host.
 We advocated then, that breeding a functionally intertwined unit of organisms requires that systems biology perspective.
-A perspective that integrates ecological, physiological, and (meta)genomic data to understand and eventually manipulate a plant-microbe symbiosis.
+Understanding and eventually manipulation of a plant-microbe symbiosis needs a perspective that integrates ecological, physiological, and (meta)genomic data.
+Indeed, breeding or even gene-editing assemblages of obligate symbionts is a paperwork nightmare and comes with a plethora of practical obstacles.
+But, for example, breeding symbiotic nitrogen acquisition in a root-nodule type symbiosis only through via plant properties seems odd to me.
+After all, it is the microbes that do the actual nitrogen acquisition.
 
-<!-- 
-chatgpt: Suggestions:
-	•	This paragraph could benefit from more specific examples or case studies that illustrate successful symbiosis breeding.
-	•	It might help to explain why breeding efforts should prioritize the symbiont over the host in more detail.
-	•	The integration of ecological, physiological, and genomic data could be elaborated on to provide a clearer picture of the process and its benefits. 
-  
-gemini: This section could benefit from a more concrete example of successful symbiosis breeding. You could briefly mention a specific case study to illustrate the concept.
-  -->
-
-  <!-- gemini: needs better transition. connect breeding efforts to holobiont somehow... -->
+With symbiosis breeding, I naively advocate breeding both the host and the symbionts who contribute a function to the symbiosis.
+Naively, because I omit discussion of all the practical and legislational barriers.
+Breeding a symbiosis requires a perspective including all relevant organisms, their genomes and their relations to each other.
+I would say a systems perspective, but equally valid, others would say a holistic perspective including every symbiont.
+In symbiosis literature, a new term was proposed for such an assemblage: a holobiont [@Zilber-Rosenberg2008].
 
 ## The holobiont concept
 
-The holobiont concept is a recent proposition in evolutionary jargon.
+The holobiont concept is a recent proposition in evolutionary jargon [@Zilber-Rosenberg2008; @Rosenberg2016].
 It proposes to think of a host and a symbiont as one unit of evolutionary selection.
 This is not a far fetch in the case of an obligate symbiosis where a microbiome is actively transferred to subsequent host generations.
 It might be odd even, to argue that systematically inherited genetic material should be regarded as a separate evolutionary unit based solely on the compartment it is housed in.
-We rarely find this useful for organelles either, although examples do exist in literature.
+We rarely find this useful for organelles either, although examples do exist in literature [@Keeling2010; @Perez-Escobar2016].
 The holobiont concept paves the way for some interesting thought experiments.
-Could a fast-evolving bacterial section of the hologenome (all genetic material of a holobiont) provide flexibility to the rigid host genome.
+Could a fast-evolving bacterial section of the hologenome (all genetic material of a holobiont) provide flexibility to the stationary host genome.
 This may explain the fast adaptations of microbiomes to their hosts.
 
 After advocating a systems biology perspective on symbiosis research, the holobiont concept seems fitting in this work.
-Yet, the concept is also criticised.
+Yet, the concept is also criticised [@Douglas2016].
 The holobiont is also argued to be a romantic over-simplification of a set of complex interactions.
 Holobiont members may interact beneficially as well as antagonistically.
 Additionally, a lack of consistency in a species consortium may challenge the evolutionary pressure exerted on them as a whole.
 Critics of the concept suggest that traditional ecological and evolutionary frameworks suffice for what could be called a holobiont.
-Additionally, they argue that existing frameworks are better equipped to handle nuances and conflicts between symbiosis partners.
+Where does one draw a line: a plant interacts with plastics, perhaps endosymbionts, external symbionts like mycorrhiza, pollinators and maybe animals for seed distribution.
+@Douglas2016 argues that existing frameworks are better equipped to handle nuances and conflicts between symbiosis partners.
 
 I have not decided on the matter yet, although I am inclined to agree with the critics for most scenarios.
-Yet, if we can occasionally find use in thinking of a single gene as an evolutionary unit, then perhaps the holobiont perspective has use as well.
-This model of how organisms co-exist will undoubtedly be wrong, but perhaps it is useful in some scenarios.
+Yet, if we can find use in thinking of a single gene as an evolutionary unit [@Dawkins2016], then perhaps the holobiont perspective has use as well.
+Either models will undoubtedly be wrong, but occasionally insightful.
 It seems unproductive to me, to use holobiont as a buzz-word, to elevate a consortium of organisms above others.
 In this thesis, my colleagues and I do use the word occasionally.
 Take it with a pinch of salt.
 
-<!-- 
-chatgpt Suggestions:
-	•	This paragraph could be more focused and succinct.
-	•	Elaborate on specific scenarios where the holobiont perspective is useful.
-	•	Provide a more detailed critique of the holobiont concept, citing specific literature or studies.
-	•	Clarify the practical implications of using the holobiont concept in your research.
-
-	•	This paragraph is already quite informative, but it could benefit from a more structured flow.
-	•	Introduce the diversity of cyanobacterial symbioses with an overarching statement.
-	•	Provide specific examples for each type of environment (marine, freshwater, terrestrial) and highlight key studies or findings.
-	•	Discuss the significance of non-obligate symbioses and their implications for ecological flexibility and resilience.
-	•	Include more references to scientific literature to support the examples and claims.
-
-gemini: The discussion of the holobiont concept is well-balanced, presenting both arguments and counterarguments. Consider adding a sentence or two highlighting the specific implications of the holobiont concept for your research on the Azolla symbiosis.
-
-   -->
+At the bottom line, biological entities exist at a huge scale range from the smallest molecules to entire ecosystems, or even the entire planet.
+Take any entity at any scale, and one can defend it as either being selfish or cooperative.
+The lesson I take from the holobiont polemic, is again to take a systems perspective; to emphasise relations and processes over the individual parts.
 
 # The _Azolla_ symbiosis
 
@@ -264,6 +262,13 @@ This is unlike the _Azolla_-_Nostoc_ symbiosis, where cyanobacteria are transfer
 <!-- Moss picture with punctiforme? -->
 
 <!-- 
+
+	•	This paragraph is already quite informative, but it could benefit from a more structured flow.
+	•	Introduce the diversity of cyanobacterial symbioses with an overarching statement.
+	•	Provide specific examples for each type of environment (marine, freshwater, terrestrial) and highlight key studies or findings.
+	•	Discuss the significance of non-obligate symbioses and their implications for ecological flexibility and resilience.
+	•	Include more references to scientific literature to support the examples and claims.
+
 
 chatgpt Suggestions:
 	•	This paragraph provides a good overview, but it could benefit from more detail on specific examples.
@@ -407,7 +412,7 @@ When attached to the megaspore, the microspore presumably swims to the megaspore
 
 <!-- pictures! -->
 
-## agricultural history
+## Agricultural history
 
 Application of _Azolla_ in agriculture does not require high-tech genomics solutions.
 In fact, _Azolla_ has been used historically as a bio-fertiliser in rice paddies for several millennia.
@@ -419,7 +424,7 @@ The nitrogen fixed can be incorporated into the soil after rice harvest, fertili
 Any surplus of the fern can be used as animal feed.
 Additionally, it is thought that an Azolla mat prevents mosquitoes from accessing the water to lay their eggs.
 
-## agricultural opportunities
+## Agricultural opportunities
 
 _Azolla_'s properties give it substantial agricultural potential.
 These are properties like rapid growth, high protein content, and it's aquatic life style.
@@ -468,7 +473,7 @@ Given Azolla’s rapid and invasive growth tendencies, these practices should be
 This section is well-researched and provides a compelling case for the potential of Azolla in agriculture. Consider adding a sentence or two summarizing the key challenges and opportunities for further research in this area.
  -->
 
-## the Azolla event
+## The Azolla event
 
 The _Azolla_ event is a spectacular story.
 So much so, that I often ended up poster presentations talking only about this geological fun-fact, rather than my own work.
@@ -635,7 +640,7 @@ Recent studies have highlighted its rapid growth rate, high protein content, and
 * Explore how modern genomics technologies can be used to fast-track the domestication and improvement of wild plants and their symbioses into novel crops, bypassing the traditional lengthy breeding processes.
   * tomato paper
 
-## introducing bioinformatics to a lab
+## Introducing bioinformatics to a lab
 
 * We're a small lab with limited resources
   * Discuss the limitations of existing genomics technologies, such as incomplete genome assemblies, challenges in differentiating host and symbiont DNA, and the need for advanced bioinformatics tools to interpret complex datasets.
@@ -651,7 +656,7 @@ Additionally, transcriptomics, which involves the analysis of gene expression pa
 
 * transition wet to try lab
 
-## future perspectives
+## Future perspectives
   
 Ethics:
 
