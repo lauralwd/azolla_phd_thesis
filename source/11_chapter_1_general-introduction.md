@@ -401,6 +401,7 @@ These are properties like rapid growth, high protein content, and it's aquatic l
 Firstly, as in rice paddies, _Azolla_ can be used as a bio-fertiliser, enhancing soil fertility by providing a natural source of nitrogen [@Watanabe1981].
 This reduces the need for synthetic fertilisers, promoting sustainable farming practices and reducing environmental impact.
 Studies have shown that incorporating _Azolla_ in rice cultivation can increase crop yields and improve soil health [@Watanabe1981;@bocchi2010].
+Especially when arable land is limited but fresh water is not, _Azolla_ may prove useful to farmers [@Lumpkin1980a].
 There are caveats naturally.
 _Azolla_ growth requires a big amount of fresh water, and incorporation of _Azolla_ as bio-fertiliser will underperform compared to synthetic fertiliser use.
 This practice is only feasible in areas where fresh water is plentiful and use of cheap but environmentally damaging synthetic fertiliser is discouraged.
@@ -408,36 +409,42 @@ This practice is only feasible in areas where fresh water is plentiful and use o
 Beyond its use as a bio-fertiliser, _Azolla_ is also explored as an alternative feed for livestock [@Brouwer2018].
 Its high protein content and rich nutrient profile make it an excellent supplement for animal diets [@becerra1990;@Bujak2022;@Brouwer2014].
 The current major protein crop is soy.
+It is massively imported for feed purposes.
 Currently, the Netherlands import more soy than we grow soy plants on the total area of the country [@BrouwerThesis].
 _Azolla_ could be an alternative plant that grows well in the Dutch temperate climate.
-Feeding _Azolla_ to poultry and cattle can be a more cost-effective and sustainable feed option.
-This application not only supports livestock production but also contributes to the recycling of nutrients within agricultural systems
-Unfortunately, high phenolic content in _Azolla_ ferns can inhibit digestion of the protein content [@Brouwer2018].
+This application may also contribute to the recycling of nutrients within agricultural systems
 
-In addition to its agricultural uses on land, _Azolla_ shows promise for use in aquatic environments, particularly in areas where land is unsuitable for traditional agriculture.
-_Azolla_ can grow in shallow, nutrient-rich waters, providing a valuable resource for farmers in regions with degraded or unusable lands.
-It could possibly even be used to retrieve phosphorus and iron that is locked and unavailable in agricultural soils under aerobic conditions.
-<!-- cite b-ware for this? -->
-When a meadow is flooded and covered with _Azolla_ ferns, the anoxic conditions may release Iron and Phosphorus from the soil.
-Its ability to thrive in such conditions makes it an ideal candidate for integrated farming systems, where it can enhance water quality, support aquaculture, and serve as a nutrient-rich feed and bio-fertiliser.
-[Azolla Fern | Project Regeneration](https://regeneration.org/nexus/azolla-fern)
-[Azolla: Botany, physiology, and use as a green manure | Economic Botany](https://link.springer.com/article/10.1007/BF02858627)
-[Agricultural Applications of Azolla: Exploring Azolla Miracles in Farming](https://www.asiafarming.com/agricultural-applications-of-azolla-exploring-azolla-miracles-in-farming)
-
-_Azolla_ is also thought capable of cleaning up contaminated or eutrophic water bodies through phytoremediation.
+_Azolla_ is also thought capable of cleaning up contaminated or eutrophic water bodies through phytoremediation [@Sood2012].
 This process involves using plants to remove, degrade, or stabilize environmental contaminants.
-_Azolla_ has shown a remarkable ability to absorb heavy metals such as lead, cadmium, and arsenic from polluted waters, thus reducing the levels of these harmful substances.
+It could possibly be leveraged to retrieve phosphorus and iron that is locked and unavailable in agricultural soils under aerobic conditions [@Scharer2009; @Temmink2018].
+When a meadow is flooded and covered with _Azolla_ ferns, the anoxic conditions may release Iron and Phosphorus from the soil [@Scharer2009].
+_Azolla_ is shown to absorb heavy metals such as lead, cadmium, and arsenic from polluted waters [@Sood2012].
 The plants may not be suitable for consumption or use as feed or fertiliser, but the contaminated ecosystem may be cleaner after the process.
-[Aquatic Microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change](https://link.springer.com/article/10.1007/s11356-015-5857-9)
-[Phytoremediation Potential of Aquatic Macrophyte, Azolla | Ambio](https://link.springer.com/article/10.1007/s13280-011-0159-z)
-Incorporating _Azolla_ in water management strategies may help restoring ecological balance to eutrophic and contaminated water bodies.
-Given Azolla’s rapid and invasive growth tendencies, these practices should be employed with caution.
-[Phytoremediation Potential of Aquatic Macrophyte, Azolla](https://link.springer.com/article/10.1007/s13280-011-0159-z)
-[Aquatic microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change](https://link.springer.com/article/10.1007/s11356-015-5857-9)
+Some studies suggest incorporating _Azolla_ in water management strategies.
+They argue it may help restoring ecological balance to eutrophic and contaminated water bodies [@Akhtar2016].
+Given Azolla’s rapid and invasive growth tendencies, I argue to practice extreme caution before implementing such measures.
 
-<!-- 
-This section is well-researched and provides a compelling case for the potential of Azolla in agriculture. Consider adding a sentence or two summarizing the key challenges and opportunities for further research in this area.
- -->
+Given all these special properties and agricultural opportunities, one may wonder why _Azolla_ is not used all around.
+There are naturally several caveats to using _Azolla_ in practice.
+Fresh water usage, and environmental risks of growing _Azolla_ are amongst those.
+Besides, _Azolla_ populations can collapse once _S. rufinasus_ populations settle on the plants.
+Pest control in an aquatic system is more complex than on land.
+Besides, since I'm advocating _Azolla_ as a sustainable alternative, chemical pest control is not desirable although perhaps not avoidable.
+Finally, when using _Azolla_ as feed for animals, the ferns high phenolic content in can inhibit digestion of the protein content [@Brouwer2018].
+
+## Azolla domestication
+
+Both history and recent usage of _Azolla_ in agriculture was always with local native strains.
+No cultivars exist, or has there ever been any _Azolla_ breeding to my knowledge.
+The caveats of _Azolla_ usage, like digestion inhibition, could be tackled with modern breeding tools.
+However, these tools require the _Azolla_ symbiosis to be domesticated [@Schluepmann2022].
+Collecting biodiversity is one of the first steps in domestication.
+The International Rice Research Institute (IRRI) did collect a notable amount of _Azolla_ strains [@Watanabe1992].
+Unfortunately, a decent portion of the _Azolla_ germplasm at IRRI was lost.
+Additionally, control of the sexual reproduction of the fern is essential, as detailed in \ref{it_takes_two}.
+Long term storage of the ferns spores was achieved in @Brouwer2014.
+Modern breeding however, requires genomic information to be established as well.
+Establishing the first _Azolla_ genome in @Li2018 was an essential step in the domestication process.
 
 ## The Azolla event
 
@@ -445,30 +452,25 @@ The _Azolla_ event is a spectacular story.
 So much so, that I often ended up poster presentations talking only about this geological fun-fact, rather than my own work.
 I hereby challenge my thesis committee not to mention the _Azolla_ event once during my defence.
 That being said, this hitch-hiker's guide is not complete without the story.
-Especially so, since it was this research line by Utrecht University geologists that brought _Azolla_ to the attention of the biology department.
+Especially so, since it was this research line by Utrecht University geologists that brought _Azolla_ to the attention of the biology department [@Bijl2014].
 A sequence of events that culminated in the _Azolla_ lab being born.
 
-During geological expeditions drilling for Arctic sediment cores, some peculiar structures were found.
+During geological expeditions drilling for Arctic sediment cores, some peculiar structures were found [@Brinkhuis2006].
 This discovery started an intriguing investigation into how one small plant affected Earth's climatic history.
 During the Arctic Coring Expedition (ACEX), researchers found strange arrow-shaped microfossils in a specific layer of all sediment cores.
 While initially puzzled, scientists eventually identified these as glochidia.
 These are the specialised microspore structures of _Azolla_.
 These spores were abundant over the entire Arctic ocean floor.
 This indicated that the Arctic Ocean had once been covered with extensive mats of _Azolla_.
-[Azolla event - Wikipedia](https://en.wikipedia.org/wiki/Azolla_event)
-[The Geological  Society](https://www.geolsoc.org.uk/Geoscientist/Archive/June-2014/The-Arctic-Azolla-event).
 
 Detailed analyses of the sediment cores revealed that _Azolla_ blooms persisted in the Arctic Ocean for nearly a million years during the Eocene epoch, around 49 million years ago.
 This period was characterized by nutrient-rich freshwater layers on the ocean surface, created by significant river runoff.
 The arctic ocean was more enclosed by landmasses then, fresh water supplied by multiple rivers made at least the top layer of this ocean fresh.
 These conditions facilitated the rapid growth and spread of _Azolla_, which formed dense mats across the Arctic.
-As these ferns photosynthesised, they absorbed large amounts of atmospheric CO2.
+As these ferns photosynthesised, they absorbed large amounts of atmospheric CO$_2$ [@Speelman2009].
 When they died and sank to the ocean floor, the carbon they had captured was buried in the anoxic sediments.
-This effectively sequestered the CO2 and reduced greenhouse gas concentrations in the atmosphere.
+This effectively sequestered the CO$_2$ and reduced greenhouse gas concentrations in the atmosphere.
 We now call this the Azolla Event.
-[Azolla event - Wikipedia](https://en.wikipedia.org/wiki/Azolla_event)
-[The Geological  Society](https://www.geolsoc.org.uk/Geoscientist/Archive/June-2014/The-Arctic-Azolla-event)
-[Arctic Azolla Event - Azolla Foundation](https://theazollafoundation.org/azolla/the-arctic-azolla-event-2/)
 
 The Azolla Event's impact on global climate was profound, contributing significantly to the transition from a greenhouse to an icehouse Earth.
 The extensive carbon sequestration by _Azolla_ helped to initiate a global cooling trend.
