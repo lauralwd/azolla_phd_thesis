@@ -94,7 +94,7 @@ A task well suited for biologists, who are trained from the onset to think at va
 In fact, my bachelor studies were organised this very way.
 Yet, somehow, something so obvious to a first-year biology student becomes an afterthought in reductionist scientific practice.
 
-## Symbiosis
+## Symbiosis jargon
 
 Perhaps the study of symbioses takes place in between the ambition of system understanding and the practice of mechanistic research.
 The methodology of the reductionist dogma remains the field standard that my colleagues and I want to adhere to, also in this work.
@@ -119,8 +119,7 @@ Hence, the time span of an interaction is a more robust approach.
 In this thesis, symbiosis typically refers to the first two categories; congruent with the general sentiment of the word.
 The latter three categories are thought of as general ecological interactions rather than symbioses, in the context of this document.
 
-
-### Symbiosis breeding
+## Symbiosis breeding
 
 The original premise of this PhD project includes thoughts on symbiosis breeding, specifically mutualist or commensalist associations.
 The organisms of choice here, are part of an obligate symbiosis focused on nutrient acquisition; specifically nitrogen.
@@ -501,9 +500,6 @@ They are typically rooted in substrate with leaves that float on the water surfa
 The Marsileaceae family its appearance is rather similar to the popular iron-cross chamber plant, but then aquatic and a fern.
 Marsileaceae members are characterized by their four-lobed leaves (in _Marsilea_) or cylindrical leaves (in _Pilularia_).
 This form  differs substantially from the floating leaf structures seen in Salviniaceae. [@Campbell1893]
-[Flora of New Zealand | Taxon Profile | Salviniaceae](https://www.nzflora.info/factsheet/Taxon/Salviniaceae.html)
-[Salviniales | Floating, Aquatic, Ferns | Britannica](https://www.britannica.com/plant/Salviniales)
-[Salviniaceae | SpringerLink](https://link.springer.com/chapter/10.1007/978-94-024-1157-7_17)
 
 ### Salviniaceae Family
 
@@ -516,18 +512,10 @@ _Salvinia_ species leaves are attached to the stem in groups of three, with two 
 This morphology supports the shoot-like origin for _Azolla_ roots as discussed before.
 Like _Azolla_, _Salivinia_ species are often seen as rapid invasive growers.
 In eutrophic ecosystems, specifically _Salvinia_ cuculata can cover a water surface fast, and effectively suffogate the submerged aquatic life.
-[Salviniaceae | SpringerLink](https://link.springer.com/chapter/10.1007/978-94-024-1157-7_17)
-[Salviniaceae | plant family | Britannica](https://www.britannica.com/plant/Salviniaceae)
 
 _Azolla_ is the only genus in the order with a symbiotic relationship with nitrogen-fixing cyanobacteria, _T azollae_.
 _Azolla_ species have a competitive advantage in eutrophic ecosystems with low-nitrogen.
 Six species are currently recognised, each with a specific global distribution.
-It needs little further introduction.
-[Salviniales | Floating, Aquatic, Ferns | Britannica](https://www.britannica.com/plant/Salviniales)
-[Salviniaceae | plant family | Britannica](https://www.britannica.com/plant/Salviniaceae).
-[NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=3190)
-[Britannica](https://www.britannica.com/plant/Salviniaceae).
-<!-- this paragraph still feels odd. -->
 
 # Methodology
 
@@ -535,7 +523,6 @@ To realise azolla potential in 21st centry challenges, we need a systems perspec
 To use modern breeding tools, a genomic understanding of the symbiosis is the fundament.
 That genomic understanding of the symbiosis, is what I work on here.
 It began with the first pub. of the Azolla genome just before I started my PhD.
-
 
 ## bioinformatics
 
@@ -653,7 +640,8 @@ By integrating genomic and metagenomic data, this work seeks to deepen our under
 I attempted to take a broader vantage point and less jargon than the remaining chapters.
 A lesser-than-formal tone hopefully made this chapter more fun to read to the broader scientific audience interested in my work.
 
-**Chapter \ref{foul_play}** (\nameref{foul_play} on page \pageref{foul_play}) details the initial discovery of prokaryotic DNA sequences in the _A. filiculoides_ genome assembly and includes the work that inspired this PhD project.
+**Chapter \ref{foul_play}** (\nameref{foul_play} on page \pageref{foul_play}) details the initial discovery of prokaryotic DNA sequences in the _A. filiculoides_ genome assembly.
+These bacteria associated with _Azolla_ were the main inspiration of this PhD project.
 We identify near complete bacterial genomes in whole contigs of this assembly and study these further.
 These bacteria are confirmed to be present in _A. filiculoides_ taken from the wild as well as from the lab.
 The Non-cyanobacterial prokaryotes are confirmed to be associated with all _Azolla_ species for which WGS data is available.
@@ -664,7 +652,7 @@ This hypothesis is falsified however, denitrification occurs only in microbes li
 In **chapter \ref{hidden_treasures}** (\nameref{hidden_treasures} on page \pageref{hidden_treasures}), I build further on the work of chapter \ref{foul_play}.
 This chapter details a workflow to enrich and study the genomes of bacteria associated with all sequenced _Azolla_ species.
 The workflow thoroughly removes plant DNA reads, and then assembles those of the remaining microbes.
-The process of separating distinct microbial genomes (binning) required extra binningsignals and manual curation for these were not part of the original experimental design.
+The process of separating distinct microbial genomes (binning) required extra binning signals and manual curation for these were not part of the original experimental design.
 Each represented species of the _Azolla_ genus yielded between 12 and 22 associated bacterial genomes.
 The majority of these genomes belong only to six taxonomical orders present in the majority of the entire _Azolla_ genus: Burkholderiales, Caulobacterales, Nevskiales, Nostocales, Rhizobiales and Sphingomonadales.
 The systematic presence of these taxonomic groups suggests they be selected for in the _Azolla_ symbiosis and they may be vertically transferred over host generations as is the main symbiont _N. azollae_.
