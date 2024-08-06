@@ -204,6 +204,7 @@ It lies on the water like a boat, suspending the stem and upper leaf lobe above.
 The upper lobe is thick; almost balloon-like, and typically dark green.
 Inside this the upper lobe, a special organ houses the symbiotic bacteria.
 The leaves typically grow in a compact cabbage-like fashion; giving the whole plant a fish-scale appearance.
+The earliest scientific description of the plant I could find is @Strasburger1873.
 
 <!-- insert macro photo Azolla, macro photo stem tip, microscope photo starting colony -->
 
@@ -223,7 +224,7 @@ I suspect this phenomenon may help in creating favourable conditions for the sym
 It may help in stratifying the water column, keeping nutrients from dying plants close to the plant roots for re-absorption.
 
 Interestingly, Azolla roots respond distinctly to typical plant hormones compared to flowering plant's roots [@deVries2016].
-Roots were likely invented twice in plant history: in lycophytes and ferns.
+Roots were likely invented twice in plant history: in lycophytes and ferns (reviewed in @Spencer2021).
 The fern-invented roots were passed down to seed plants.
 However, not all roots will have developed the same since their original invention.
 In seed plants, the hormone cytokinin promotes cell division in shoots and regulates differentiation growth in roots.
@@ -247,43 +248,18 @@ Cyanobacteria form mutualistic associations with a wide range of hosts, includin
 In marine systems, symbiosis partners can be sponges or diatoms.
 In freshwater systems, the _Azolla_ symbiosis is a prime example.
 Terrestrial hosts can be cycads (plants), mosses, but also lichens (fungi).
-Even some animals can be hosts: besides sponges, a flatworm  _Convoluta roscoffensis_ can host a cyanobacterial symbiont.
 These symbioses are mostly not obligate; most cyanobacteria can live independently from their host. [@Peters1991]
 
 The _Azolla_-_Nostoc_ symbiosis is perhaps most related to moss-cyanobacterium symbioses.
 Moss-cyanobacterium symbioses are particularly present in boreal and temperate regions.
-Host mosses like _Sphagnum_ and _Pleurozium schreberi_ harbour nitrogen-fixing cyanobacteria, primarily from the genus _Nostoc_ and _Anabaena_.
+Host mosses like _Sphagnum_ and _Pleurozium schreberi_ attract nitrogen-fixing cyanobacteria, primarily from the genus _Nostoc_ and _Anabaena_ [@Bay2013a].
 The cyanobacteria provide their host mosses with nitrogen by fixing atmospheric nitrogen [@Rousk2022].
-This relationship is a big competitive advantage in nutrient-poor environments  [@Alvarenga2022].
+This relationship is a big competitive advantage in nutrient-poor environments [@Alvarenga2022].
 The symbiosis significantly contributes to the nitrogen budget and supports the growth of both mosses and the surrounding plant community [@Calabria2020].
 In moss-cyanobacteria associations, the cyanobacteria are often acquired from the environment by each moss generation [@Liu2022].
 The cyanobacteria can also live without a host in these environments, and culturing and inoculation protocols are established.
-This is unlike the _Azolla_-_Nostoc_ symbiosis, where cyanobacteria are transferred through fern reproductive structures and the cyanobacteria cannot live without their host.
+This is unlike the _Azolla_-_Nostoc_ symbiosis, where cyanobacteria are transferred through fern reproductive structures and the cyanobacteria cannot live without their host [@Peters1991].
 <!-- Moss picture with punctiforme? -->
-
-<!-- 
-
-	•	This paragraph is already quite informative, but it could benefit from a more structured flow.
-	•	Introduce the diversity of cyanobacterial symbioses with an overarching statement.
-	•	Provide specific examples for each type of environment (marine, freshwater, terrestrial) and highlight key studies or findings.
-	•	Discuss the significance of non-obligate symbioses and their implications for ecological flexibility and resilience.
-	•	Include more references to scientific literature to support the examples and claims.
-
-
-chatgpt Suggestions:
-	•	This paragraph provides a good overview, but it could benefit from more detail on specific examples.
-	•	Adding information about the ecological roles and benefits of these symbioses would provide more depth.
-	•	Including specific studies or reviews that discuss these diverse symbiotic relationships would strengthen the argument.
-  - informative but too dense. Make it more concise
- -->
-
-In addition to nitrogen fixation, these symbioses also influence the broader ecosystem processes.
-The fixed nitrogen not only supports the mosses but also enriches the soil after part of the moss dies [@Calabria2020].
-This nitrogen benefits other plants and microorganisms in the ecosystem.
-Additionally, the presence of cyanobacteria enhances the mosses' ability to retain water and nutrients, thereby stabilizing soil and preventing erosion.
-This mutually beneficial relationship exemplifies the intricate connections between plants and microbes.
-It exemplifies the ecological importance of cyanobacterial symbioses.
-Initiation of these interactions takes a complex web of molecular signalling and metabolic exchange [@Liu2022].
 
 Cyanobacteria that associate with mosses, and also with Azolla, are often part of the Nostocaceae family.
 The Nostocaceae family comprises several genera of cyanobacteria known for their filamentous, colony-forming structures and their ability to fix nitrogen.
@@ -299,12 +275,14 @@ The genus name of _Azolla_'s cyanobacterial symbiont has also changed throughout
 
 _Azolla_ species form a unique symbiotic relationship with _Trichormus azollae_; the cyanobacterium resides in specialized leaf cavities of the fern.
 The symbiosis main function, from the host-plant perspective, is that _T. azollae_ sequesters di-nitrogen gas from the air and shares this with the host.
-Several papers claim to have cultured _T. azollae_ on standard cyanobacterial media like BG11.
+Several papers claim to have cultured _T. azollae_ on standard cyanobacterial media like BG11 [@Franche1985; @Zimmerman1987; @abd2013; @Parente2017].
 We have tried to do reproduce this ourselves, and have talked to scientists better equipped to do so than us.
 Yet all efforts failed.
 Additionally, I find that papers claiming a culturing protocol for _T. azollae_ lack proper checks.
 More often than not, these checks are a PCR for the very common nitrogenase gene, or a visual check for heterocysts common to many genera of cyanobacteria.
-I suspect these works describe cultures of other cyanobacteria, as have others [@Pereira2014].
+I suspect these works describe cultures of other cyanobacteria, as have others [@Pereira2014; @Ladha1982].
+Some independently sequenced genomes of these cultures showed remarkable genomic resemblance.
+Perhaps other (not per say symbiotic) cyanobacteria are systematically associated to Azolla, and are in fact culturable [@Pratte2021].
 
 Like the organisation of the Nostocaceae family, the genus name of _T azollae_ is also up for debate [@Pereira2014; @Baker2003].
 In most work of our lab, we write _Nostoc azollae_ when we refer to the symbiont.
@@ -335,13 +313,12 @@ It provides the genetic basis for understanding the metabolic potential of the m
 ### Symbiont genome degradation
 
 Genome degradation is a seemingly worrisome but is a normal and well-documented process for obligate symbioses.
-Organelles are extreme examples of this process.
+Organelles are extreme examples of this process [@Keeling2010].
 Symbiotic bacteria often lose genes that are unnecessary for their specialised lifestyles.
 In insects, this process is more elaborately studied than in plants, in part due to the strict obligate nature common to these symbioses [@Wernegreen2002].
-For example, _Buchnera aphidicola_, an endosymbiont of aphids, has reduced its genome to about 600-800 kilobases.
-This genome encodes only essential genes for amino acid synthesis and lost genes involved in DNA repair and regulatory functions [@Chong2019].
+For example, the genome of _Buchnera aphidicola_, an endosymbiont of aphids, encodes only essential genes for amino acid synthesis and lost genes involved in DNA repair and regulatory functions [@Chong2019].
 Similarly, _Wigglesworthia glossinidia_, a symbiont of tsetse flies, has a genome of approximately 700 kilobases.
-These 700kb contain genes vital for the biosynthesis of vitamins needed by the fly, but lack many metabolic pathways considered essential for free-living bacteria[@Heller2011].
+These 700kb contain genes vital for the biosynthesis of vitamins needed by the fly, but lack many metabolic pathways considered essential for free-living bacteria [@Heller2011].
 In an even more extreme case, _Carsonella ruddii_, the endosymbiont of psyllids, has the smallest known bacterial genome at about 160 kilobases.
 The symbiont has a minimal set of genes required for protein synthesis and essential nutrient production [@Khachane2007].
 These studies exemplify how genome reduction plays a part in symbiont's specialisation and their dependence on their hosts for other needs.
@@ -361,30 +338,24 @@ In return, _T. azollae_ is thought to get carbon compounds from the host plant.
 
 _Azolla_ naturally thrives in a variety of nutrient-rich freshwater environments including ponds, lakes, slow-moving streams, and wetlands.
 These habitats provide the ideal conditions for _Azolla_'s growth, such as abundant water and nutrient availability.
+_Azolla_ species are distributed globally, predominantly found in tropical, subtropical, and warm temperate regions.
+They are especially prevalent in Asia, Africa, and the Americas, where they are used in traditional agriculture [@Madeira2016a; @Lydia2023; @Watanabe1981].
 The fern forms dense mats on the water surface, which helps it outcompete other aquatic plants and algae.
-These floating mats are crucial for stabilizing the ecosystem by reducing water evaporation and providing a habitat for various microorganisms and small aquatic animals.
-[Azolla: A review of its biology and utilization](https://link.springer.com/article/10.1007/BF02857915)
+These floating mats are crucial for stabilizing the ecosystem by reducing water evaporation and providing a habitat for various microorganisms and small aquatic animals. [@Wagner1997b]
 
 Ecologists associate _Azolla_ often with unhealthy ecosystems, terming it invasive and dangerous.
 I argue that _Azolla_ is not a dangerous plant, nor invasive.
 Harmful levels of _Azolla_ growth are, in my opinion, a symptom of eutrophic ecosystems.
+Specifically phosphorus is linked to _Azolla_ growth, as it is independent of nitrogen [@Temmink2018].
+Eutrophication will lead to unhealthy ecological dynamics in aquatic systems one way or another [@VanderLee2018].
 Some fast grower will take advantage of this situation.
-Whether this is an algae, _Lemna_ (duckweed) or _Azolla_ is irrelevant.
-[A review of some ecological factors affecting the growth of Azolla spp.](https://cjes.guilan.ac.ir/article_1110.html).
-[ phosphorus heavy environments --> B-Ware paper ]
-
-_Azolla_ species are distributed globally, predominantly found in tropical, subtropical, and warm temperate regions.
-They are especially prevalent in Asia, Africa, and the Americas, where they are used in traditional agriculture.
-In regions such as Uganda, different _Azolla_ species have been identified across various agro-ecological zones.
-Factors such as rainfall and altitude significantly influence their distribution, with maximum rainfall creating waterlogged environments favourable for _Azolla_ growth.
-[Ecological distribution and genetic diversity of Azolla in Uganda](https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-023-04146-6)
-[Azolla: Botany, physiology, and use as a green manure](https://link.springer.com/article/10.1007/BF02858627)
+Whether this is an algae, _Lemna_ (duckweed) or _Azolla_ is irrelevant.  [@Sabetraftar2013]
 
 _Azolla_ is a fast grower, and can further damage eutrophic ecosystems by darkening the water column.
 It does however, also have natural enemies.
 For _Azolla_ agriculture, these would be considered pests.
-For conservation ecologists, these are considered pest control.
-Specifically the water fern weevil or _Stenopelmus rufinasus_, can significantly impact _Azolla_ populations by feeding on the fronds.
+For conservation ecologists, these are considered pest control [@Madeira2016a].
+Specifically the water fern weevil or _Stenopelmus rufinasus_, can significantly impact _Azolla_ populations by feeding on the fronds [@Hill1998].
 A _S. rufinasus_ swarm can decimate an _Azolla_ mat in days and even completely eradicate it.
 We have unwillingly empirically tested this theory several times.
 
@@ -393,7 +364,7 @@ An _Azolla_ mat is formed between few millimetres and 20 to 30 centimetres in ex
 The bottom of the mat is dark, and may be submerged by the weight of plants laying on top.
 Inside the _Azolla_ mat, the light quality changes.
 Specifically the red vs far-red light ratio.
-The plants perceive this light change, and adapt their growth.
+The plants perceive this light change, and adapt their growth as shown in chapter \ref{it_takes_two} \nameref{it_takes_two} or @Dijkhuizen2021.
 The internode distance (distance on the stem between leaves) increases, giving the plant an elongated appearance.
 This is a common response in plants to being overshadowed by other plants; they stretch out towards the light.
 
@@ -415,7 +386,7 @@ When attached to the megaspore, the microspore presumably swims to the megaspore
 ## Agricultural history
 
 Application of _Azolla_ in agriculture does not require high-tech genomics solutions.
-In fact, _Azolla_ has been used historically as a bio-fertiliser in rice paddies for several millennia.
+In fact, _Azolla_ has been used historically as a bio-fertiliser in rice paddies for several millennia [@Watanabe1981; @bocchi2010].
 [azolla foundation](https://theazollafoundation.org/azolla/azollas-use-in-the-east/)
 <!-- Jia Ssu Hsieh (Jia Si Xue) from 540 A.D., titled “The Art of Feeding the People” (Chih Min Tao Shu).  -->
 Rice paddies are often flooded to prevent weeds from growing there, but this provides opportunity for toxic cyanobacterial blooms, poisoning the rice.

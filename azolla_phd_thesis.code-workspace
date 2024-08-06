@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"grammarly.config.documentDialect": "british",
+		"cSpell.words": [
+			"Altschuler"
+		]
+	}
+}
