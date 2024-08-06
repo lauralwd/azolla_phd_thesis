@@ -222,6 +222,7 @@ Roots of individual plant fronts grabbed onto each other like rugby players lock
 This way, individual plants formed a cohesive mat, keeping together.
 I suspect this phenomenon may help in creating favourable conditions for the symbiosis.
 It may help in stratifying the water column, keeping nutrients from dying plants close to the plant roots for re-absorption.
+Azolla can rapidly and massively shed its roots, which may be a mechanism to leave a certain area [@Cohen2015a].
 
 Interestingly, Azolla roots respond distinctly to typical plant hormones compared to flowering plant's roots [@deVries2016].
 Roots were likely invented twice in plant history: in lycophytes and ferns (reviewed in @Spencer2021).
@@ -366,19 +367,19 @@ Inside the _Azolla_ mat, the light quality changes.
 Specifically the red vs far-red light ratio.
 The plants perceive this light change, and adapt their growth as shown in chapter \ref{it_takes_two} \nameref{it_takes_two} or @Dijkhuizen2021.
 The internode distance (distance on the stem between leaves) increases, giving the plant an elongated appearance.
-This is a common response in plants to being overshadowed by other plants; they stretch out towards the light.
+This is a common response in plants to being overshadowed by other plants; they stretch out towards the light [@Possart2013].
 
 ## Life cycle
 
 _Azolla_ is a fern genus, it makes no flowers but spores for reproductive purposes.
-Sporulation is triggered by a high far-red over red light ratio, and density of the plants in a mat.
-_Azolla_ makes two types of spores: Big megaspores, made in megasporocarps and small microspores made in microsporocarps.
+Sporulation is triggered by a high far-red over red light ratio, and density of the plants in a mat (Chapter \ref{it_takes_two}).
+_Azolla_ makes two types of spores: Big megaspores, made in megasporocarps and small microspores made in microsporocarps [@Schaffner1905].
 The cone-shaped megasporocarps can just be observed by the naked eye.
 They contain one megaspore as well as a resting colony of the symbiotic bacterium _T. azollae_.
 The microsporocarps are bigger, and contain many small massulae housed in microsporangia.
 Massulae are presumably non-living structures containing the microscopic microspore.
 _Azolla_ massulae are recognisable by their glochidia.
-Glochidia are arrow-like hair structures on the massulae surface that serve to hook onto the megaspore.
+Glochidia are arrow-like hair structures on the massulae surface that serve to hook onto the megaspore. [@Campbell1893]
 When attached to the megaspore, the microspore presumably swims to the megaspore, fertilises it and a plant grows out of it.
 
 <!-- pictures! -->
@@ -386,9 +387,7 @@ When attached to the megaspore, the microspore presumably swims to the megaspore
 ## Agricultural history
 
 Application of _Azolla_ in agriculture does not require high-tech genomics solutions.
-In fact, _Azolla_ has been used historically as a bio-fertiliser in rice paddies for several millennia [@Watanabe1981; @bocchi2010].
-[azolla foundation](https://theazollafoundation.org/azolla/azollas-use-in-the-east/)
-<!-- Jia Ssu Hsieh (Jia Si Xue) from 540 A.D., titled “The Art of Feeding the People” (Chih Min Tao Shu).  -->
+In fact, _Azolla_ has been used historically as a bio-fertiliser in rice paddies for several millennia [@Watanabe1981; @bocchi2010; @bujak2022].
 Rice paddies are often flooded to prevent weeds from growing there, but this provides opportunity for toxic cyanobacterial blooms, poisoning the rice.
 As a counter measure, a rapidly growing _Azolla_ mat can shield the water from light, preventing algal blooms.
 The nitrogen fixed can be incorporated into the soil after rice harvest, fertilising the soil.
@@ -397,27 +396,23 @@ Additionally, it is thought that an Azolla mat prevents mosquitoes from accessin
 
 ## Agricultural opportunities
 
-_Azolla_'s properties give it substantial agricultural potential.
-These are properties like rapid growth, high protein content, and it's aquatic life style.
-Firstly, as in rice paddies, _Azolla_ can be used as a bio-fertiliser, enhancing soil fertility by providing a natural source of nitrogen.
+_Azolla_'s properties give it substantial agricultural potential [@Lumpkin1980a].
+These are properties like rapid growth, high protein content, and it's aquatic life style [@Brouwer2014].
+Firstly, as in rice paddies, _Azolla_ can be used as a bio-fertiliser, enhancing soil fertility by providing a natural source of nitrogen [@Watanabe1981].
 This reduces the need for synthetic fertilisers, promoting sustainable farming practices and reducing environmental impact.
-Studies have shown that incorporating _Azolla_ in rice cultivation can increase crop yields and improve soil health.
-[Mapping current and future habitat suitability of Azolla spp., a biofertilizer for small-scale rice farming in Africa](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0291009)
-[Aquatic microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change](https://link.springer.com/article/10.1007/s11356-015-5857-9)
+Studies have shown that incorporating _Azolla_ in rice cultivation can increase crop yields and improve soil health [@Watanabe1981;@bocchi2010].
 There are caveats naturally.
 _Azolla_ growth requires a big amount of fresh water, and incorporation of _Azolla_ as bio-fertiliser will underperform compared to synthetic fertiliser use.
 This practice is only feasible in areas where fresh water is plentiful and use of cheap but environmentally damaging synthetic fertiliser is discouraged.
 
-Beyond its use as a bio-fertiliser, _Azolla_ is also explored as an alternative feed for livestock.
-Its high protein content and rich nutrient profile make it an excellent supplement for animal diets.
-The current protein crop is soy.
-Currently, the Netherlands import more soy than we grow soy plants on the total area of the country.
+Beyond its use as a bio-fertiliser, _Azolla_ is also explored as an alternative feed for livestock [@Brouwer2018].
+Its high protein content and rich nutrient profile make it an excellent supplement for animal diets [@becerra1990;@Bujak2022;@Brouwer2014].
+The current major protein crop is soy.
+Currently, the Netherlands import more soy than we grow soy plants on the total area of the country [@BrouwerThesis].
 _Azolla_ could be an alternative plant that grows well in the Dutch temperate climate.
-Research indicates that feeding _Azolla_ to poultry and cattle can improve growth rates and overall health, offering a cost-effective and sustainable feed option.
+Feeding _Azolla_ to poultry and cattle can be a more cost-effective and sustainable feed option.
 This application not only supports livestock production but also contributes to the recycling of nutrients within agricultural systems
-[oai_citation:3,www.ijfans.org](https://www.ijfans.org/uploads/paper/4712541d933bbc36ae42c66626db074d.pdf#:~:text=URL%3A%20https%3A%2F%2Fwww.ijfans.org%2Fuploads%2Fpaper%2F4712541d933bbc36ae42c66626db074d.pdf%0AVisible%3A%200%25%20) [oai_citation:4,Aquatic microphylla Azolla: a perspective paradigm for sustainable agriculture, environment and global climate change | Environmental Science and Pollution Research](https://link.springer.com/article/10.1007/s11356-015-5857-9).
-Unfortunately, high phenolic content in _Azolla_ ferns can inhibit digestion of the protein content.
-<!-- Paul -->
+Unfortunately, high phenolic content in _Azolla_ ferns can inhibit digestion of the protein content [@Brouwer2018].
 
 In addition to its agricultural uses on land, _Azolla_ shows promise for use in aquatic environments, particularly in areas where land is unsuitable for traditional agriculture.
 _Azolla_ can grow in shallow, nutrient-rich waters, providing a valuable resource for farmers in regions with degraded or unusable lands.
@@ -533,6 +528,14 @@ It needs little further introduction.
 <!-- this paragraph still feels odd. -->
 
 # Methodology
+
+To realise azolla potential in 21st centry challenges, we need a systems perspective on symbiosis functioning and modern breeding tools
+To use modern breeding tools, a genomic understanding of the symbiosis is the fundament.
+That genomic understanding of the symbiosis, is what I work on here.
+It began with the first pub. of the Azolla genome just before I started my PhD.
+
+
+## bioinformatics
 
 This thesis employs ample bioinformatics techniques.
 Yet, I have managed to not use the term once in this introduction so far.
