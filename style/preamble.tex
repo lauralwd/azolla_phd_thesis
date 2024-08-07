@@ -8,6 +8,17 @@
 % Headers and page numbering
 \usepackage{fancyhdr}
 
+% use the minitoc package for a table of contents at the beginning of each chapter
+\usepackage{minitoc}
+\mtcsettitle{minitoc}{Chapter Contents}
+\renewcommand{\mtcskip}{\vskip 0.2cm}
+% Remove the top and bottom horizontal lines of the minitoc
+\mtcsetrules{minitoc}{off}
+
+\mtcsettitle{parttoc}{Part Contents}
+\mtcsetdepth{parttoc}{2}
+
+
 % plain is used on chapter title pages and the thesis title pages unless overidden with \thispagestyle{somepagestyle}
 \fancypagestyle{plain}{
   \fancyhead{}                       % clear headers

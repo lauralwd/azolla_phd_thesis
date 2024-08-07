@@ -5,3 +5,6 @@
 
 <!-- Start new part -->
 \part{Preamble}
+<!-- include part mini toc -->
+\parttoc
+\clearpage

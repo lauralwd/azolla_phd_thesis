@@ -3,6 +3,7 @@
 \setcounter{page}{1}
 <!-- Start new part of the book, the scientific chapters (and gen-intro) -->
 \part{Chapters}
+\parttoc
 
 <!-- line numbers, to be removed in final version -->
 \resetlinenumber
@@ -29,6 +30,10 @@ Laura W Dijkhuizen^1^
 \normalsize
 \onehalfspacing
 \setlength{\parindent}{0.5in}
+
+<!-- have a mini table of contents -->
+\minitoc
+\newpage
 
 <!-- not sure about this paragraph. AI overlords suggest to remove it -->
 This hitch-hiker's guide is meant to be a friendly general introduction to this thesis.
