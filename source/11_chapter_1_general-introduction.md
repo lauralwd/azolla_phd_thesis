@@ -530,7 +530,8 @@ In eutrophic ecosystems, specifically _Salvinia_ cuculata can cover a water surf
 
 _Azolla_ is the only genus in the order with a symbiotic relationship with nitrogen-fixing cyanobacteria, _T azollae_.
 _Azolla_ species have a competitive advantage in eutrophic ecosystems with low-nitrogen.
-Six species are currently recognised, each with a specific global distribution.
+Between six and eight species are currently recognised, each with a specific global distribution.
+Here I maintain a list of six species:
 
 # Methodology
 
