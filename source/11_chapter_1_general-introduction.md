@@ -1,3 +1,4 @@
+\thispagestyle{plain}
 <!-- Start page numbering here, so that part II starts at page one in the table of contents -->
 \pagenumbering{arabic}
 \setcounter{page}{1}
