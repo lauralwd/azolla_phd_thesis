@@ -33,6 +33,11 @@ Laura W Dijkhuizen^1^
 
 <!-- have a mini table of contents -->
 \minitoc
+
+\section*{Abstract}
+
+This is where the abstract goes...
+
 \newpage
 
 <!-- not sure about this paragraph. AI overlords suggest to remove it -->
