@@ -15,6 +15,15 @@
 % Remove the top and bottom horizontal lines of the minitoc
 \mtcsetrules{minitoc}{off}
 
+% hack disable chapters starting at the right side but have them start either left or right.
+\makeatletter
+\renewcommand{\chapter}{%
+  \clearpage
+  \thispagestyle{plain}%
+  \global\@topnum\z@
+  \@afterindentfalse
+  \secdef\@chapter\@schapter}
+\makeatother
 
 
 % plain is used on chapter title pages and the thesis title pages unless overidden with \thispagestyle{somepagestyle}
