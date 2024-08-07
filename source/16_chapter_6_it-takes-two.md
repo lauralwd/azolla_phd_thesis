@@ -26,6 +26,10 @@ Henriette Schluepmann^1^
 \onehalfspacing
 \setlength{\parindent}{0.5in}
 
+<!-- have a mini table of contents -->
+\minitoc
+\newpage
+
 ## Abstract
 Water ferns of the genus _Azolla_ and the filamentous cyanobacteria _Nostoc azollae_ constitute a model symbiosis that enabled colonization of the water surface with traits highly desirable for development of more sustainable crops: their floating mats capture CO~2~ and fix N~2~ at high rates using light energy.
 Their mode of sexual reproduction is heterosporous.

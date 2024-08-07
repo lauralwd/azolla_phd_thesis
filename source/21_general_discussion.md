@@ -7,6 +7,11 @@
 \label{discussion}
 \newpage
 
+
+<!-- have a mini table of contents -->
+\minitoc
+\newpage
+
 ## roadmap to breeding a novel-symbiosis crop
 
 bla

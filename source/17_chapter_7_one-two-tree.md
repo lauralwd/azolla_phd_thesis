@@ -21,6 +21,12 @@ Henriette Schluepmann^1^
 \resetlinenumber
 \linenumbers
 
+
+<!-- have a mini table of contents -->
+\minitoc
+\newpage
+
+
 <!--
 General todo stuff:
 ~~Edit intro, workflow, Usecases~~

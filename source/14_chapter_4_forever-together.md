@@ -23,6 +23,10 @@ Henriette Schluepmann^1^.
 \onehalfspacing
 \setlength{\parindent}{0.5in}
 
+<!-- have a mini table of contents -->
+\minitoc
+\newpage
+
 ## Introduction
 Cyanobacterial symbiosis in general.
 

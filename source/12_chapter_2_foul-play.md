@@ -43,6 +43,10 @@ Chapter adapted from Dijkhuizen, L. W., Brouwer, P., Bolhuis, H., Reichart, G.-J
 \onehalfspacing
 \setlength{\parindent}{0.5in}
 
+<!-- have a mini table of contents -->
+\minitoc
+\newpage
+
 # Abstract
 Dinitrogen fixation by _Nostoc azollae_ residing in specialized leaf pockets supports prolific growth of the floating fern _Azolla filiculoides_.
 To evaluate contributions by further microorganisms, the _A. filiculoides_ microbiome and nitrogen metabolism in bacteria persistently associated with Azolla ferns were characterized.
