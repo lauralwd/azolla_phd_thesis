@@ -1,5 +1,6 @@
 <!-- This page is for an official declaration. -->
 
+<!-- suppress page nrs -->
 \thispagestyle{plain}
 
 \vspace*{\fill}
@@ -18,4 +19,5 @@ This statement is my way of proactively setting straight this oddity in the syst
 
 \vspace*{\fill}
 
+<!-- start main TOC on the right page -->
 \cleardoublepage

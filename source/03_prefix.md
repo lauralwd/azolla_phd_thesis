@@ -1,4 +1,4 @@
-<!-- (re-)Start page numbering of the pre-amble -->
+<!-- (re-)Start roman page numbering of the pre-amble -->
 \setcounter{page}{1}
 \pagenumbering{roman}
 <!-- Use the table of contents page style from here on out -->
