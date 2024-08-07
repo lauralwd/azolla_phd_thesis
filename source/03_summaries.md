@@ -1,9 +1,3 @@
-<!-- (re-)Start page numbering of the pre-amble -->
-\setcounter{page}{1}
-<!-- Use the table of contents page style from here on out -->
-\pagestyle{toc}
-
-\part{Preamble}
 \chapter*{Abstract}
 
 <!-- Add thumb mark for this part (instead of the chapter) -->
