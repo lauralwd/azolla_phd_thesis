@@ -1,5 +1,8 @@
+<!-- Start appendix part -->
 \appendix
 \part{Appendices}
+\cleardoublepage
+
 \setcounter{chapter}{0}
 \renewcommand\thechapter{\Alph{chapter}}
 
@@ -13,6 +16,11 @@
 \chapter{bUTQ application / BKO portfolio summary}
 \addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
 \label{BKO}
+\minitoc
+\clearpage
+
+
+
 This appendix chapter summarises my application for the basic University Teaching Qualification (bUTQ) or 'Basis Kwalificatie Onderwijs' (BKO) in Dutch.
 The summary is organised by the key competencies required for a successful application.
 For each application section, I selected key points, a quote, and a figure from the exit surveys.
