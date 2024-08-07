@@ -1,7 +1,7 @@
 \chapter*{Abbreviations}
 \addcontentsline{toc}{chapter}{Abbreviations}
 
-\pagestyle{toc}
+<!-- Force page nr on first page of this chapter -->
 \thispagestyle{toc}
 
 <!--
