@@ -1,5 +1,6 @@
 \chapter*{Abstract}
 \addcontentsline{toc}{chapter}{Abstract}
+\adjustmtc
 
 <!-- Force page nr on first page of abstract chapter -->
 \thispagestyle{toc}

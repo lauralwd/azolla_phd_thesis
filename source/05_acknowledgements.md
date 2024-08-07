@@ -1,5 +1,6 @@
 \chapter*{Acknowledgements}
 \addcontentsline{toc}{chapter}{Acknowledgements}
+\adjustmtc
 
 <!-- Force page nr on first page of this chapter -->
 \thispagestyle{toc}
