@@ -50,8 +50,8 @@ There will be a bit of humour, opinion, and informal writing.
 When imagining an ecosystem, one typically thinks of a forest with trees, animals, and insects.
 Perhaps some fish swim in a stream.
 All are idyllically thriving as a balanced part of a larger whole.
-The concept emphasises the abundance and complexity of interaction within the larger system, rather than the individualistic existence of the loose parts.
-Yet, when an average person imagines a biological experiment, they think of lab coats, petri dishes, and perhaps microscopes.
+The concept emphasises the abundance and complexity of interactions within the larger system, rather than the individualistic existence of the loose parts.
+Yet, when one imagines a biological experiment, they think of lab coats, petri dishes, and perhaps microscopes.
 They are not wrong; science has thrived under reductionism.
 Scientific experiments often strive to control one variable at a time to isolate its effects.
 All other variations are reduced by working with one species or strain at a time, treated exactly the same except for that one experimental variable.
@@ -68,31 +68,32 @@ For examples of the former, this thesis describes such a system.
 The latter, I find exemplified in recent attempts at microbiome editing.
 A microbiome is the collection of all microbial organisms associated with any organ or organism.
 Such a collection often contains millions of cells of hundreds of strains if not more.
-I think it is very optimistic to take one of these strains, edit it in some often genetic way, and expect robust change, and plenty of examples in literature support this opinion [@Bai2023].
+I think it is very optimistic to take one of these strains, edit it in some often genetic way, and expect robust change.
+Plenty of examples in literature support this opinion [@Bai2023; @Mueller2015a].
 Instead, a perspective of the entire (eco)system and ecological lessons from macroecology may be required for sustained microbiome editing [@Albright2022].
 It requires a system perspective.
 
-Even within the confines of a single cell, the reductionist view on biology is subject to scrutiny.
-Mechanistic studies research the workings of single components in the cell, and then perhaps place these into metabolic pathways.
+Even within the confines of a cell, the reductionist view on biology is subject to scrutiny.
+Mechanistic studies often research the workings of single components in the cell, and then perhaps place these into metabolic pathways.
 These pathways turn into a vast network of cause and effect.
 One can follow how one compound finds its way through the network, being turned into another compound.
 Or see how a signal at one point gets amplified and transmitted to some other point.
-"The cell's metabolism is a chemical machine, pursuing homeostasis or equilibrium"
+We have learned to view the cell's metabolism as a chemical machine pursuing homeostasis or equilibrium.
 This idea is over a century old [@Nicholson2019].
 
-@Nicholson2019 poses that perhaps we should abandon our view of the cell as a mechanical reductionist entity to be studied through its molecular components.
+@Nicholson2019 poses that perhaps we should abandon our view of the cell as a mechanical reductionist entity to be studied solely through its molecular components.
 The machine conception of the cell is a misleading representation of biological reality, he argues.
 An overview of cause-and-effect relations falls short of capturing the non-linearity, stochasticity, and plasticity of cellular behaviour [@Nicholson2019].
-Groups of cell's response to a stimulus is not gradual and homogenous.
-Instead their response switches on or off stochastically and heterogeneously[@Altschuler2010].
+Groups of cells' response to a stimulus is not gradual and homogenous.
+Instead their response switches on or off stochastically and heterogeneously [@Altschuler2010].
 Similarly, protein complexes are not static assemblies as engineered machines are.
 Instead, they self-organise with often multi-functional parts that come on and off constantly. [@Nicholson2019; @Dumont2014]
 Apply this state of flux to all parts of a network of metabolic reactions, and imagine the consequential chaos.
 This chaotic cell is a collection of semi-stable processes that constantly self-organise in alternate steady states.
-A system far from equilibrium, seemingly inefficient and costly, but flexible and robust as a consequence.
+A system far from equilibrium, seemingly inefficient and costly, but flexible and robust as a consequence [@Nicholson2019].
 @Nicholson2019 is a great read, and I will not blame anyone who puts away this thesis and picks up his article instead.
 
-In this section, I argue not for the complete abandonment of mechanistic research, but for complementing it with a systems biology perspective.
+In this section, I argue not for the abandonment of mechanistic research, but for complementing it with a systems biology perspective.
 A task well suited for biologists, who are trained from the onset to think at varying scales; from molecule to ecosystem.
 In fact, my bachelor studies were organised this very way.
 Yet, somehow, something so obvious to a first-year biology student becomes an afterthought in reductionist scientific practice.
@@ -100,10 +101,12 @@ Yet, somehow, something so obvious to a first-year biology student becomes an af
 # Symbiosis
 
 Perhaps the study of symbioses takes place in between the ambition of system understanding and the practice of mechanistic research.
-The methodology of the reductionist dogma remains the field standard that my colleagues and I want to adhere to, also in this work.
-Studying a young system requires to first laying the groundwork.
-But always asking what it means for a system as a whole.
-Or, more often than not, forced to work with the system as a whole; this work focuses on an obligate symbiosis.
+The molecular biology methods common to the reductionist dogma remain the field's standard that my colleagues and I want to adhere to, also in this work.
+We need to, for we study a young system.
+This requires to first do the groundwork.
+But we should always ask ourselves what our findings mean for the system as a whole.
+Or, more often than not, we are forced to work with the system as a whole.
+This work focuses on an obligate symbiosis.
 In the context of this thesis, one symbiont without the other is either not viable or deeply unhealthy.
 Studying them in isolation without the perspective of the entire symbiosis risks being short-sighted.
 
@@ -135,7 +138,7 @@ For symbiosis traits, breeding a symbiont should perhaps take precedence over br
 We advocated then, that breeding a functionally intertwined unit of organisms requires that systems biology perspective.
 Understanding and eventually manipulation of a plant-microbe symbiosis needs a perspective that integrates ecological, physiological, and (meta)genomic data.
 Indeed, breeding or even gene-editing assemblages of obligate symbionts is a paperwork nightmare and comes with a plethora of practical obstacles.
-But, for example, breeding symbiotic nitrogen acquisition in a root-nodule type symbiosis only through via plant properties seems odd to me.
+But, for example, breeding symbiotic nitrogen acquisition in a root-nodule type symbiosis only via plant properties seems odd to me.
 After all, it is the microbes that do the actual nitrogen acquisition.
 
 With symbiosis breeding, I naively advocate breeding both the host and the symbionts who contribute a function to the symbiosis.
@@ -149,7 +152,7 @@ In symbiosis literature, a new term was proposed for such an assemblage: a holob
 The holobiont concept is a recent proposition in evolutionary jargon [@Zilber-Rosenberg2008; @Rosenberg2016].
 It proposes to think of a host and a symbiont as one unit of evolutionary selection.
 This is not a far fetch in the case of an obligate symbiosis where a microbiome is actively transferred to subsequent host generations.
-It might be odd even, to argue that systematically inherited genetic material should be regarded as a separate evolutionary unit based solely on the compartment it is housed in.
+It might be odd even, to argue that systematically inherited DNA should be regarded as a separate evolutionary unit based solely on the compartment it is housed in.
 We rarely find this useful for organelles either, although examples do exist in literature [@Keeling2010; @Perez-Escobar2016].
 The holobiont concept paves the way for some interesting thought experiments.
 Could a fast-evolving bacterial section of the hologenome (all genetic material of a holobiont) provide flexibility to the stationary host genome.
@@ -161,13 +164,13 @@ The holobiont is also argued to be a romantic over-simplification of a set of co
 Holobiont members may interact beneficially as well as antagonistically.
 Additionally, a lack of consistency in a species consortium may challenge the evolutionary pressure exerted on them as a whole.
 Critics of the concept suggest that traditional ecological and evolutionary frameworks suffice for what could be called a holobiont.
-Where does one draw a line: a plant interacts with plastics, perhaps endosymbionts, external symbionts like mycorrhiza, pollinators and maybe animals for seed distribution.
+Where does one draw a line: a plant interacts with plastids, perhaps endosymbionts, external symbionts like mycorrhiza, pollinators and maybe animals for seed distribution.
 @Douglas2016 argues that existing frameworks are better equipped to handle nuances and conflicts between symbiosis partners.
 
 I have not decided on the matter yet, although I am inclined to agree with the critics for most scenarios.
 Yet, if we can find use in thinking of a single gene as an evolutionary unit [@Dawkins2016], then perhaps the holobiont perspective has use as well.
-Either models will undoubtedly be wrong, but occasionally insightful.
-It seems unproductive to me, to use holobiont as a buzz-word, to elevate a consortium of organisms above others.
+Either models will undoubtedly be wrong, but perhaps occasionally insightful.
+It seems unproductive to me, to use holobiont as a buzz-word; as a means to elevate a consortium of organisms above others.
 In this thesis, my colleagues and I do use the word occasionally.
 Take it with a pinch of salt.
 
@@ -179,10 +182,10 @@ The lesson I take from the holobiont polemic, is again to take a systems perspec
 
 This work discusses the genomics and metagenomics of a specific symbiosis: that between the floating fern genus _Azolla_, and a cyanobacterium _Nostoc azollae_.
 The Cyanobacterium supplies the symbioses with a surplus of nitrogen fixed from the air.
-Unlike most plants, _Azolla_ is not a terrestrial fern.
+Unlike most plants, _Azolla_ is not terrestrial.
 Instead, the symbiosis floats on water.
 _Azolla_ its aquatic lifestyle makes the fern highly dependent on fresh water.
-Even its name is derived from this property, 'Azo' is greek for 'dry' and 'allyo' for 'kill'.
+Even its name is derived from this property, ἄζος (Azos) is ancient greek for 'drought' and ὀλλύναι (ollunai) for 'killing'.
 The fern spreads horizontally over the water surface, darkening the water column.
 This property makes _Azolla_ as infamous under ecologists, as it is famous in symbiosis research [@Madeira2016a].
 Bigger plants break irregularly into smaller ones, genetically identical, but physically separate; forming a big green floating mat.
@@ -194,6 +197,7 @@ Its main function was to prevent toxic cyanobacteria from growing in the water.
 Any surplus was fed to livestock.
 Some of today's agricultural challenges seem to be a perfect fit for _Azolla_: limited arable land, nitrogen fertilizer excesses, and protein shortage [@Bijl2014].
 _Azolla_ is an amazingly interesting plant, in this section I'll elaborate shortly on all these statements.
+I mean to give some broader context that lacks from individual chapters' introductions.
 
 ## _Azolla_ physiology
 
@@ -216,6 +220,8 @@ Sporocarps are the ferns reproductive structures.
 The SAM also harbours a small colony with motile filaments of the cyanobacterium _T. azollae_.
 Both leaves and sporocarps encapsulate part of the starting colony during growth.
 This process ensures that all leaves have a colony of the symbiont. [@Campbell1893]
+
+Leaf cavity section!
 
 Azolla roots can be observed hanging loosely in the water like a thin curtain.
 On time-lapses, the roots were seen swirling and curling.
@@ -283,14 +289,14 @@ We have tried to do reproduce this ourselves, and have talked to scientists bett
 Yet all efforts failed.
 Additionally, I find that papers claiming a culturing protocol for _T. azollae_ lack proper checks.
 More often than not, these checks are a PCR for the very common nitrogenase gene, or a visual check for heterocysts common to many genera of cyanobacteria.
-I suspect these works describe cultures of other cyanobacteria, as have others [@Pereira2014; @Ladha1982].
+I suspect these works describe cultures of other cyanobacteria, as do others [@Pereira2014; @Ladha1982].
 Some independently sequenced genomes of these cultures showed remarkable genomic resemblance.
 Perhaps other (not per say symbiotic) cyanobacteria are systematically associated to Azolla, and are in fact culturable [@Pratte2021].
 
 Like the organisation of the Nostocaceae family, the genus name of _T azollae_ is also up for debate [@Pereira2014; @Baker2003].
 In most work of our lab, we write _Nostoc azollae_ when we refer to the symbiont.
-_N. azollae_ has undergone multiple reclassifications due to advances in molecular phylogenetics such as phylogenomics techniques.
-Traditionally, it has been referred to as _Anabaena azollae_[@].
+_N. azollae_ has undergone multiple reclassifications due to advances in phylogenetics.
+Traditionally, it has been referred to as _Anabaena azollae_.
 Most modern literature refers now to _Nostoc azollae_.
 Recent studies favour the classification of this cyanobiont as _Trichormus azollae_ based on comprehensive phylogenetic analyses.
 [@Baker2003]
@@ -313,19 +319,6 @@ Lacking many important metabolic genes, _T. azollae_ likely has a high degree of
 I find the Ran et al. paper essential reading for _Azolla_ symbiosis research.
 It provides the genetic basis for understanding the metabolic potential of the main symbiont of _Azolla_ ferns.
 
-### Symbiont genome degradation
-
-Genome degradation is a seemingly worrisome but is a normal and well-documented process for obligate symbioses.
-Organelles are extreme examples of this process [@Keeling2010].
-Symbiotic bacteria often lose genes that are unnecessary for their specialised lifestyles.
-In insects, this process is more elaborately studied than in plants, in part due to the strict obligate nature common to these symbioses [@Wernegreen2002].
-For example, the genome of _Buchnera aphidicola_, an endosymbiont of aphids, encodes only essential genes for amino acid synthesis and lost genes involved in DNA repair and regulatory functions [@Chong2019].
-Similarly, _Wigglesworthia glossinidia_, a symbiont of tsetse flies, has a genome of approximately 700 kilobases.
-These 700kb contain genes vital for the biosynthesis of vitamins needed by the fly, but lack many metabolic pathways considered essential for free-living bacteria [@Heller2011].
-In an even more extreme case, _Carsonella ruddii_, the endosymbiont of psyllids, has the smallest known bacterial genome at about 160 kilobases.
-The symbiont has a minimal set of genes required for protein synthesis and essential nutrient production [@Khachane2007].
-These studies exemplify how genome reduction plays a part in symbiont's specialisation and their dependence on their hosts for other needs.
-
 The genes in the _T. azollae_ genome sequence reveal the symbiont's metabolic potential, as well as its lost metabolic potential.
 These features tell us about the workings and evolution of the symbiosis.
 For example, @Ran2010 found pathways for the biosynthesis of phytohormones.
@@ -336,6 +329,21 @@ This costly process is powered by energy and redux from the cyanobacterium's own
 _T. azollae_'s photosynthesis uses a slightly different colour green than the plant does, so they compete less for the same light.
 This association allows _Azolla_ to thrive on nitrogen-poor or even nitrogen-free water.
 In return, _T. azollae_ is thought to get carbon compounds from the host plant.
+
+### Symbiont genome degradation
+
+Genome degradation seems worrisome but it is a normal and well-documented process for obligate symbioses.
+Organelles are extreme examples of this process [@Keeling2010].
+Symbiotic bacteria often lose genes that are unnecessary for their specialised lifestyles.
+In insects, this process is more elaborately studied than in plants, in part due to the strict obligate nature common to these symbioses [@Wernegreen2002].
+For example, the genome of _Buchnera aphidicola_, an endosymbiont of aphids, encodes only essential genes for amino acid synthesis and lost genes involved in DNA repair and regulatory functions [@Chong2019].
+Similarly, _Wigglesworthia glossinidia_, a symbiont of tsetse flies, has a genome of approximately 700 kilobases.
+These 700kb contain genes vital for the biosynthesis of vitamins needed by the fly, but lack many metabolic pathways considered essential for free-living bacteria [@Heller2011].
+In an even more extreme case, _Carsonella ruddii_, the endosymbiont of psyllids, has the smallest known bacterial genome at about 160 kilobases.
+The symbiont has a minimal set of genes required for protein synthesis and essential nutrient production [@Khachane2007].
+These studies exemplify how genome reduction plays a part in symbiont's specialisation and their dependence on their hosts for other needs.
+
+<!-- Should I lose this last paragraph/section? -->
 
 ## Ecology
 
@@ -349,25 +357,25 @@ These floating mats are crucial for stabilizing the ecosystem by reducing water 
 Ecologists associate _Azolla_ often with unhealthy ecosystems, terming it invasive and dangerous.
 I argue that _Azolla_ is not a dangerous plant, nor invasive.
 Harmful levels of _Azolla_ growth are, in my opinion, a symptom of eutrophic ecosystems.
-Specifically phosphorus is linked to _Azolla_ growth, as it is independent of nitrogen [@Temmink2018].
-Eutrophication will lead to unhealthy ecological dynamics in aquatic systems one way or another [@VanderLee2018].
+Specifically phosphorus is linked to _Azolla_ growth, as the fern grows independent of nitrogen [@Temmink2018].
+Eutrophication will lead to unhealthy ecological dynamics in aquatic systems in one way or another [@VanderLee2018].
 Some fast grower will take advantage of this situation.
-Whether this is an algae, _Lemna_ (duckweed) or _Azolla_ is irrelevant.  [@Sabetraftar2013]
+Whether this is an alga, _Lemna__ (duckweed) or _Azolla_ is irrelevant.  [@Sabetraftar2013]
 
 _Azolla_ is a fast grower, and can further damage eutrophic ecosystems by darkening the water column.
-It does however, also have natural enemies.
+It does, however, also have natural enemies.
 For _Azolla_ agriculture, these would be considered pests.
 For conservation ecologists, these are considered pest control [@Madeira2016a].
-Specifically the water fern weevil or _Stenopelmus rufinasus_, can significantly impact _Azolla_ populations by feeding on the fronds [@Hill1998].
+Specifically, the water fern weevil _Stenopelmus rufinasus_ can significantly impact _Azolla_ populations by feeding on the fronds [@Hill1998].
 A _S. rufinasus_ swarm can decimate an _Azolla_ mat in days and even completely eradicate it.
 We have unwillingly empirically tested this theory several times.
 
 When an _Azolla_ population has covered a water surface, the plants' growth is directed upwards.
-An _Azolla_ mat is formed between few millimetres and 20 to 30 centimetres in extreme scenario's.
-The bottom of the mat is dark, and may be submerged by the weight of plants laying on top.
+An _Azolla_ mat is formed between a few millimetres and 20 to 30 centimetres thick in extreme scenarios.
+The bottom of the mat is dark and may be submerged by the weight of plants laying on top.
 Inside the _Azolla_ mat, the light quality changes.
 Specifically the red vs far-red light ratio.
-The plants perceive this light change, and adapt their growth as shown in chapter \ref{it_takes_two} \nameref{it_takes_two} or @Dijkhuizen2021.
+The plants perceive this light change and adapt their growth as shown in chapter \ref{it_takes_two} \nameref{it_takes_two} or @Dijkhuizen2021.
 The internode distance (distance on the stem between leaves) increases, giving the plant an elongated appearance.
 This is a common response in plants to being overshadowed by other plants; they stretch out towards the light [@Possart2013].
 
@@ -375,9 +383,10 @@ This is a common response in plants to being overshadowed by other plants; they 
 
 _Azolla_ is a fern genus, it makes no flowers but spores for reproductive purposes.
 Sporulation is triggered by a high far-red over red light ratio, and density of the plants in a mat (Chapter \ref{it_takes_two}).
-_Azolla_ makes two types of spores: Big megaspores, made in megasporocarps and small microspores made in microsporocarps [@Schaffner1905].
+_Azolla_ makes two types of spores: Big megaspores, made in megasporocarps, and small microspores made in microsporocarps [@Schaffner1905].
 The cone-shaped megasporocarps can just be observed by the naked eye.
 They contain one megaspore as well as a resting colony of the symbiotic bacterium _T. azollae_.
+This colony was acquired from the starting colony at the SAM at the very beginning of spore develoment.
 The microsporocarps are bigger, and contain many small massulae housed in microsporangia.
 Massulae are presumably non-living structures containing the microscopic microspore.
 _Azolla_ massulae are recognisable by their glochidia.
@@ -387,39 +396,39 @@ When attached to the megaspore, the microspore presumably swims to the megaspore
 <!-- pictures! -->
 
 ## Agricultural history
-
-Application of _Azolla_ in agriculture does not require high-tech genomics solutions.
-In fact, _Azolla_ has been used historically as a bio-fertiliser in rice paddies for several millennia [@Watanabe1981; @bocchi2010; @bujak2022].
-Rice paddies are often flooded to prevent weeds from growing there, but this provides opportunity for toxic cyanobacterial blooms, poisoning the rice.
-As a counter measure, a rapidly growing _Azolla_ mat can shield the water from light, preventing algal blooms.
-The nitrogen fixed can be incorporated into the soil after rice harvest, fertilising the soil.
+The application of _Azolla__ in agriculture does not require high-tech genomics solutions.
+_Azolla_ has been used historically as a bio-fertiliser in rice paddies for several millennia [@Watanabe1981; @bocchi2010; @bujak2022].
+Rice paddies are often flooded to prevent weeds from growing there, but this provides an opportunity for toxic cyanobacterial blooms, poisoning the rice.
+As a countermeasure, a rapidly growing _Azolla_ mat can shield the water from light, preventing algal blooms.
+The nitrogen fixed can be incorporated into the soil after rice harvest; fertilising the soil.
 Any surplus of the fern can be used as animal feed.
 Additionally, it is thought that an Azolla mat prevents mosquitoes from accessing the water to lay their eggs.
 
 ## Agricultural opportunities
 
-_Azolla_'s properties give it substantial agricultural potential [@Lumpkin1980a].
+_Azolla_'s properties give it substantial agricultural potential [@Lumpkin1980a; @Brouwer2014].
 These are properties like rapid growth, high protein content, and it's aquatic life style [@Brouwer2014].
 Firstly, as in rice paddies, _Azolla_ can be used as a bio-fertiliser, enhancing soil fertility by providing a natural source of nitrogen [@Watanabe1981].
-This reduces the need for synthetic fertilisers, promoting sustainable farming practices and reducing environmental impact.
+This reduces the need for synthetic fertiliser; promoting sustainable farming practices and reducing environmental impact.
 Studies have shown that incorporating _Azolla_ in rice cultivation can increase crop yields and improve soil health [@Watanabe1981;@bocchi2010].
 Especially when arable land is limited but fresh water is not, _Azolla_ may prove useful to farmers [@Lumpkin1980a].
 There are caveats naturally.
-_Azolla_ growth requires a big amount of fresh water, and incorporation of _Azolla_ as bio-fertiliser will underperform compared to synthetic fertiliser use.
-This practice is only feasible in areas where fresh water is plentiful and use of cheap but environmentally damaging synthetic fertiliser is discouraged.
+_Azolla_ growth requires a big amount of fresh water, and the incorporation of _Azolla__ as bio-fertiliser will underperform compared to synthetic fertiliser use.
+This practice is only feasible in areas where fresh water is plentiful and the use of cheap but environmentally damaging synthetic fertiliser is discouraged.
 
 Beyond its use as a bio-fertiliser, _Azolla_ is also explored as an alternative feed for livestock [@Brouwer2018].
 Its high protein content and rich nutrient profile make it an excellent supplement for animal diets [@becerra1990;@Bujak2022;@Brouwer2014].
 The current major protein crop is soy.
 It is massively imported for feed purposes.
-Currently, the Netherlands import more soy than we grow soy plants on the total area of the country [@BrouwerThesis].
+Currently, the Netherlands imports more soy than we could grow soy plants in the total area of the country [@BrouwerThesis].
 _Azolla_ could be an alternative plant that grows well in the Dutch temperate climate.
 This application may also contribute to the recycling of nutrients within agricultural systems
 
 _Azolla_ is also thought capable of cleaning up contaminated or eutrophic water bodies through phytoremediation [@Sood2012].
 This process involves using plants to remove, degrade, or stabilize environmental contaminants.
-It could possibly be leveraged to retrieve phosphorus and iron that is locked and unavailable in agricultural soils under aerobic conditions [@Scharer2009; @Temmink2018].
+It could be leveraged to retrieve phosphorus and iron that are locked and unavailable in agricultural soils under aerobic conditions [@Scharer2009; @Temmink2018].
 When a meadow is flooded and covered with _Azolla_ ferns, the anoxic conditions may release Iron and Phosphorus from the soil [@Scharer2009].
+
 _Azolla_ is shown to absorb heavy metals such as lead, cadmium, and arsenic from polluted waters [@Sood2012].
 The plants may not be suitable for consumption or use as feed or fertiliser, but the contaminated ecosystem may be cleaner after the process.
 Some studies suggest incorporating _Azolla_ in water management strategies.
@@ -428,25 +437,27 @@ Given Azolla’s rapid and invasive growth tendencies, I argue to practice extre
 
 Given all these special properties and agricultural opportunities, one may wonder why _Azolla_ is not used all around.
 There are naturally several caveats to using _Azolla_ in practice.
-Fresh water usage, and environmental risks of growing _Azolla_ are amongst those.
+Fresh water usage and environmental risks of growing _Azolla_ are among those.
 Besides, _Azolla_ populations can collapse once _S. rufinasus_ populations settle on the plants.
 Pest control in an aquatic system is more complex than on land.
 Besides, since I'm advocating _Azolla_ as a sustainable alternative, chemical pest control is not desirable although perhaps not avoidable.
-Finally, when using _Azolla_ as feed for animals, the ferns high phenolic content in can inhibit digestion of the protein content [@Brouwer2018].
+Finally, when using _Azolla_ as feed for animals, the fern's high phenolic content can inhibit digestion of the protein content [@Brouwer2018].
 
 ## Azolla domestication
 
-Both history and recent usage of _Azolla_ in agriculture was always with local native strains.
-No cultivars exist, or has there ever been any _Azolla_ breeding to my knowledge.
+Both historic and recent agricultural _Azolla_ applications used local native strains.
+No _Azolla_ cultivars exist, or has there ever been any _Azolla_ breeding to my knowledge.
 The caveats of _Azolla_ usage, like digestion inhibition, could be tackled with modern breeding tools.
-However, these tools require the _Azolla_ symbiosis to be domesticated [@Schluepmann2022].
+With genomic insights and gene editing techniques, wild crops can be domesticated with incredible efficiency [@Li2018b; @Lemmon2018a].
+However, domestication of the _Azolla_ symbiosis has only yet begun [@Schluepmann2022].
 Collecting biodiversity is one of the first steps in domestication.
 The International Rice Research Institute (IRRI) did collect a notable amount of _Azolla_ strains [@Watanabe1992].
 Unfortunately, a decent portion of the _Azolla_ germplasm at IRRI was lost.
 Additionally, control of the sexual reproduction of the fern is essential, as detailed in \ref{it_takes_two}.
-Long term storage of the ferns spores was achieved in @Brouwer2014.
+Long-term storage of the ferns' spores was achieved in @Brouwer2014.
 Modern breeding however, requires genomic information to be established as well.
 Establishing the first _Azolla_ genome in @Li2018 was an essential step in the domestication process.
+Stable transformation or gene-editing of the symbiosis partners has yet to be unlocked and is the next major step in unlocking _Azolla_'s potential.
 
 ## The Azolla event
 
@@ -455,7 +466,8 @@ So much so, that I often ended up poster presentations talking only about this g
 I hereby challenge my thesis committee not to mention the _Azolla_ event once during my defence.
 That being said, this hitch-hiker's guide is not complete without the story.
 Especially so, since it was this research line by Utrecht University geologists that brought _Azolla_ to the attention of the biology department [@Bijl2014].
-A sequence of events that culminated in the _Azolla_ lab being born.
+A sequence of events that culminated in the Utrecht _Azolla_ lab being born.
+A sequence of events that I will shortly reminisce on; this being the last PhD thesis produced by said Utrecht _Azolla_ lab.
 
 During geological expeditions drilling for Arctic sediment cores, some peculiar structures were found [@Brinkhuis2006].
 This discovery started an intriguing investigation into how one small plant affected Earth's climatic history.
