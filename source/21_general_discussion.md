@@ -10,6 +10,11 @@
 
 <!-- have a mini table of contents -->
 \minitoc
+
+\section*{Abstract}
+
+This is where the abstract goes
+
 \newpage
 
 ## roadmap to breeding a novel-symbiosis crop

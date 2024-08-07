@@ -45,9 +45,9 @@ Chapter adapted from Dijkhuizen, L. W., Brouwer, P., Bolhuis, H., Reichart, G.-J
 
 <!-- have a mini table of contents -->
 \minitoc
-\newpage
 
-# Abstract
+\section*{Abstract}
+
 Dinitrogen fixation by _Nostoc azollae_ residing in specialized leaf pockets supports prolific growth of the floating fern _Azolla filiculoides_.
 To evaluate contributions by further microorganisms, the _A. filiculoides_ microbiome and nitrogen metabolism in bacteria persistently associated with Azolla ferns were characterized.
 A metagenomic approach was taken complemented by detection of N~2~O released and nitrogen isotope determinations of fern biomass.
@@ -58,6 +58,8 @@ Their annotation revealed genes for denitrification but not N~2~-fixation. ^15^N
 N~2~O was not detectably released from surface sterilized ferns with the Rhizobiales.
 N~2~-fixing _N. azollae_, we conclude, dominated the microbiome of Azolla ferns.
 The persistent but less abundant heterotrophic Rhizobiales bacteria possibly contributed to lowering O~2~ levels in leaf pockets but did not release detectable amounts of the strong greenhouse gas N~2~O.
+
+\newpage
 
 # Introduction
 Our growing global population is rapidly escalating the demand for nutritious food, requiring highly prolific and sustainable primary production.

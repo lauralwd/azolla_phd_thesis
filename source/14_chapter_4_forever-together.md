@@ -25,6 +25,11 @@ Henriette Schluepmann^1^.
 
 <!-- have a mini table of contents -->
 \minitoc
+
+\section*{Abstract}
+
+this is where the abstract goes
+
 \newpage
 
 ## Introduction

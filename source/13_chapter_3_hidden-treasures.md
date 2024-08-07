@@ -24,14 +24,14 @@ Henriette Schluepmann^1^.
 
 <!-- have a mini table of contents -->
 \minitoc
-\newpage
 
 <!---
 rewrite highlights
 check all figure legends
 --->
 
-# Abstract
+\section*{Abstract}
+
 Bacteria-host symbioses are present throughout the plant kingdom, and bacteria can contribute all kinds of functions to their hosts.
 The plant genus _Azolla_ is known to host multiple endophytic bacteria, which it transfers systematically to successive generations.
 Here we set out to assemble the genomes of bacteria associated with _Azolla_ by re-using non-metagenomic data already available in public repositories.
@@ -44,6 +44,8 @@ Bacteria from these orders occured in most species of the _Azolla_ genus.
 Rhizobiales and Burkholderiales were transferred over generations in _A. filiculoides_.
 Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus suggests these bacteria may be introduced in some common ancestor of _Azolla_ species.
 Consequently, they may be selected for in the evolution of the _Azolla_ holobiont.
+
+\newpage
 
 # Introduction
 Many bacteria associate with multicellular hosts and may convey specific metabolic properties or traits of benefit to their hosts.

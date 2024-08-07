@@ -24,6 +24,11 @@ Henriette Schluepmann^1^
 
 <!-- have a mini table of contents -->
 \minitoc
+
+\section*{Abstract}
+
+This is where the abstract goes
+
 \newpage
 
 
@@ -44,8 +49,6 @@ Henriette
 Sjef
 Run orthofinder anew on 1kP data...
 -->
-
-# Abstract
 
 # Introduction
 Life Science has entered the big-data age; we have an unprecedented detailed view on the storage and processing of information within biological systems.
