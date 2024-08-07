@@ -13,4 +13,4 @@ The \listoffigures will use short captions first, and the whole caption if none 
 See chapter 4 for more examples.
 -->
 
-\cleardoublepage
+\clearpage
