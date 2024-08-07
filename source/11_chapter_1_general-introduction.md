@@ -45,8 +45,6 @@ There will be a bit of humour, opinion, and informal writing.
 
 \newpage
 
-
-
 > _“A system is never the sum of its parts it's the product of their interaction.”_
 – Russell Ackoff (professor of systems sciences)
 
@@ -692,7 +690,7 @@ Pseudogenation is caused by high transposon activity early in the symbiosis, but
 A _N. azollae_ specific gene set was identified comparing many near complete genomes in the Nostocales family.
 A phylogenomics approach confirms that te organisation of genera in this family is paraphyletic, but places _N. azollae_ close to _Anabeana_ species.
 
-**Chapter \ref{partners_and_passengers}** (\nameref{partners_and_passengers} on page \pageref{partners_and_passengers}) is likely not going to happen...
+<!-- **Chapter \ref{partners_and_passengers}** (\nameref{partners_and_passengers} on page \pageref{partners_and_passengers}) is likely not going to happen... -->
 
 **Chapter \ref{it_takes_two}** (\nameref{it_takes_two} on page \pageref{it_takes_two}) provides building blocks for understanding and regulating the sexual reproduction and mode of transmission of the _Azolla_ & _N. azollae_ symbiosis.
 Such understanding is a pre-requisite for agricultural application of a novel crop symbiosis.
