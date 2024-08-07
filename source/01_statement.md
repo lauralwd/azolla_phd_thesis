@@ -1,7 +1,7 @@
 <!-- This page is for an official declaration. -->
 
 <!-- suppress page nrs -->
-\thispagestyle{plain}
+\pagestyle{plain}
 
 \vspace*{\fill}
 
