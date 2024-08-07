@@ -36,16 +36,16 @@ Laura W Dijkhuizen^1^
 
 \section*{Abstract}
 
-This is where the abstract goes...
-
-\newpage
-
 <!-- not sure about this paragraph. AI overlords suggest to remove it -->
 This hitch-hiker's guide is meant to be a friendly general introduction to this thesis.
 I attempted to make it palpable for all scientific audiences, not just (plant)biologists.
-Individual chapters have in-depth stand-alone introductions.
+Individual chapters already have in-depth stand-alone introductions.
 So here, I mean to give a broader context on symbiosis research, the amazing _Azolla_, and relevant genomics methodologies.
 There will be a bit of humour, opinion, and informal writing.
+
+\newpage
+
+
 
 > _“A system is never the sum of its parts it's the product of their interaction.”_
 – Russell Ackoff (professor of systems sciences)
