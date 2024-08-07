@@ -1,3 +1,4 @@
+\pagestyle{chapter}
 \singlespacing
 \setlength{\parindent}{0.0in}
 \addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
@@ -42,6 +43,8 @@ Red-dominated light suppresses the formation of dissemination stages in both gam
 FR-responsive transcripts included MIKCC homologues of CMADS1 and miR319-controlled GAMYB transcription factors in the fern, transporters in _N. azollae_, and ycf2 in chloroplasts.
 Loci of conserved miRNA in the fern lineage included miR172, yet FR only induced miR529 and miR535, and reduced miR319 and miR159.
 Phylogenomic analyses of MIKCC transcription factors suggested that control of flowering and flower organ specification may have originated from the diploid to haploid phase transition in the homosporous common ancestor of ferns and seed plants.
+
+\newpage
 
 # Introduction
 
