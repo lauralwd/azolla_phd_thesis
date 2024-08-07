@@ -3,7 +3,6 @@
 \setcounter{page}{1}
 <!-- Start new part of the book, the scientific chapters (and gen-intro) -->
 \part{Chapters}
-\parttoc
 
 <!-- line numbers, to be removed in final version -->
 \resetlinenumber

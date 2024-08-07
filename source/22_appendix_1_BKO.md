@@ -9,9 +9,6 @@
 
 
 <!-- have a mini table of contents -->
-\minitoc
-\newpage
-
 
 \chapter{bUTQ application / BKO portfolio summary}
 \addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
