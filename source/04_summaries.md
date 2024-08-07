@@ -1,4 +1,6 @@
 \chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
 
 <!-- Add thumb mark for this part (instead of the chapter) -->
 \addthumb{\thepart}{ \Large{P} }{white}{gray}

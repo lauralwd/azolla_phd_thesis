@@ -1,4 +1,6 @@
 \chapter*{Abbreviations}
+\addcontentsline{toc}{chapter}{Abbreviations}
+
 \pagestyle{toc}
 \thispagestyle{toc}
 
