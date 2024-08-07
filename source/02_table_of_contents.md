@@ -1,6 +1,3 @@
-\pagestyle{toc}
-
+\thispagestyle{plain}
 \tableofcontents
-\thispagestyle{toc}
-
 \cleardoublepage
