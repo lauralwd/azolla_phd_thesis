@@ -6,9 +6,15 @@
 \chapter{Personal Portfolio}
 \label{portfolio}
 
+\clearpage
+\minitoc
+\section*{Abstract}
+
+this is where the abstract goes
+
 \newpage
-\null
-\newpage
+
+# portfolio stuff
 \null
 \newpage
 

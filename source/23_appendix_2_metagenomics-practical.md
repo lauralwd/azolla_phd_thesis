@@ -6,6 +6,12 @@
 \chapter{Metagenomics practical}
 \label{metagenomics_practical}
 
+\clearpage
+\minitoc
+\section*{Abstract}
+
+\newpage
+
 # Development of this practical
 In the first year of my PhD, I got the opportunity to design a metagenomics practical for Master's students with a life sciences background.
 The practical introduces the Bash language and tries to learn the main concepts behind metagenomics through a hands-on approach.

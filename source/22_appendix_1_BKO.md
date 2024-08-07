@@ -16,10 +16,10 @@
 \chapter{bUTQ application / BKO portfolio summary}
 \addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
 \label{BKO}
-\minitoc
+
 \clearpage
-
-
+\minitoc
+\section*{Abstract}
 
 This appendix chapter summarises my application for the basic University Teaching Qualification (bUTQ) or 'Basis Kwalificatie Onderwijs' (BKO) in Dutch.
 The summary is organised by the key competencies required for a successful application.
@@ -33,7 +33,9 @@ The committee summarised that the application was very good and showed experienc
 They complimented a creative, motivated and motivating attitude and a self-critical view with openness to colleagues' and students' suggestions.
 
 \newpage
+
 # Portfolio
+
 Onderzoek vindt plaats in allerlei instituties, maar de universiteit is mijns inziens bij uitstek de plaats voor kruisbestuiving tussen onderzoek en onderwijs.
 Daarom ben ik dankbaar voor de kans om deze twee kerntaken te combineren tijdens mijn PhD.
 Gedurende mijn PhD heb ik mij kunnen ontwikkelen in allerlei vormen van onderwijs.
