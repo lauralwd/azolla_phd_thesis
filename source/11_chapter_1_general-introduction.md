@@ -42,12 +42,10 @@ Individual chapters have in-depth stand-alone introductions.
 So here, I mean to give a broader context on symbiosis research, the amazing _Azolla_, and relevant genomics methodologies.
 There will be a bit of humour, opinion, and informal writing.
 
-# Symbioses
-
 > _“A system is never the sum of its parts it's the product of their interaction.”_
 – Russell Ackoff (professor of systems sciences)
 
-## A system perspective
+# A system perspective
 
 When imagining an ecosystem, one typically thinks of a forest with trees, animals, and insects.
 Perhaps some fish swim in a stream.
@@ -99,7 +97,7 @@ A task well suited for biologists, who are trained from the onset to think at va
 In fact, my bachelor studies were organised this very way.
 Yet, somehow, something so obvious to a first-year biology student becomes an afterthought in reductionist scientific practice.
 
-## Symbiosis jargon
+# Symbiosis
 
 Perhaps the study of symbioses takes place in between the ambition of system understanding and the practice of mechanistic research.
 The methodology of the reductionist dogma remains the field standard that my colleagues and I want to adhere to, also in this work.
