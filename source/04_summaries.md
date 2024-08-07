@@ -1,6 +1,8 @@
 \chapter*{Abstract}
 \addcontentsline{toc}{chapter}{Abstract}
 
+<!-- Force page nr on first page of abstract chapter -->
+\thispagestyle{toc}
 
 <!-- Add thumb mark for this part (instead of the chapter) -->
 \addthumb{\thepart}{ \Large{P} }{white}{gray}

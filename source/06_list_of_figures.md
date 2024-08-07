@@ -2,6 +2,8 @@
 
 
 \listoffigures
+
+<!-- Force page nr on first page of this chapter -->
 \thispagestyle{toc}
 \addcontentsline{toc}{chapter}{List of Figures}
 

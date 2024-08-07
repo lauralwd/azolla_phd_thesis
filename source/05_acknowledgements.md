@@ -1,7 +1,7 @@
 \chapter*{Acknowledgements}
 \addcontentsline{toc}{chapter}{Acknowledgements}
 
-\pagestyle{toc}
+<!-- Force page nr on first page of this chapter -->
 \thispagestyle{toc}
 
 <!-- This is for acknowledging all of the people who helped out -->
