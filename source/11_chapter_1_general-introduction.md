@@ -89,6 +89,8 @@ The machine conception of the cell is a misleading representation of biological 
 An overview of cause-and-effect relations falls short of capturing the non-linearity, stochasticity, and plasticity of cellular behaviour [@Nicholson2019].
 Groups of cells' response to a stimulus is not gradual and homogenous.
 Instead their response switches on or off stochastically and heterogeneously [@Altschuler2010].
+<!-- like how radioactive matter decays. inherrent quantum randomness seems like a gradual predictable progress when one takes millions of molecules.
+Except radioactive decay, doesn't influence other molecules in complicated pathways. -->
 Similarly, protein complexes are not static assemblies as engineered machines are.
 Instead, they self-organise with often multi-functional parts that come on and off constantly. [@Nicholson2019; @Dumont2014]
 Apply this state of flux to all parts of a network of metabolic reactions, and imagine the consequential chaos.
@@ -106,7 +108,7 @@ Yet, somehow, something so obvious to a first-year biology student becomes an af
 Perhaps the study of symbioses takes place in between the ambition of system understanding and the practice of mechanistic research.
 The molecular biology methods common to the reductionist dogma remain the field's standard that my colleagues and I want to adhere to, also in this work.
 We need to, for we study a young system.
-This requires to first do the groundwork.
+This requires to first do some groundwork.
 But we should always ask ourselves what our findings mean for the system as a whole.
 Or, more often than not, we are forced to work with the system as a whole.
 This work focuses on an obligate symbiosis.
@@ -477,8 +479,7 @@ This discovery started an intriguing investigation into how one small plant affe
 During the Arctic Coring Expedition (ACEX), researchers found strange arrow-shaped microfossils in a specific layer of all sediment cores.
 While initially puzzled, scientists eventually identified these as glochidia.
 These are the specialised microspore structures of _Azolla_.
-These spores were abundant over the entire Arctic ocean floor.
-This indicated that the Arctic Ocean had once been covered with extensive mats of _Azolla_.
+The widespread presence of glochidia indicated that the Arctic Ocean had once been covered with mats of _Azolla_.
 
 Detailed analyses of the sediment cores revealed that _Azolla_ blooms persisted in the Arctic Ocean for nearly a million years during the Eocene epoch, around 49 million years ago.
 This period was characterized by nutrient-rich freshwater layers on the ocean surface, created by significant river runoff.
@@ -535,6 +536,15 @@ _Azolla_ is the only genus in the order with a symbiotic relationship with nitro
 _Azolla_ species have a competitive advantage in eutrophic ecosystems with low-nitrogen.
 Between six and eight species are currently recognised, each with a specific global distribution.
 Here I maintain a list of six species:
+
+* _Azolla filiculoides_
+* _Azolla rubra_
+* _Azolla caroliniana_
+* _Azolla microphylla_
+* _Azolla pinatta_
+* _Azolla nilotica_
+
+<!-- Maybe insert map with each their geographical distribution. -->
 
 # Methodology
 
