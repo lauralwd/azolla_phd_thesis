@@ -52,10 +52,12 @@ There will be a bit of humour, opinion, and informal writing.
 
 \newpage
 
-> _“A system is never the sum of its parts it's the product of their interaction.”_ \\
+> _“A system is never the sum of its parts it's the product of their interaction.”_
+
 – Russell Ackoff (professor of systems sciences)
 
-> _Biologists tend not to talk about the big ideas; we leave those to physicists. We biologists tend to be more comfortable with details, we like to count and list things._ \\
+> _"Biologists tend not to talk about the big ideas; we leave those to physicists. We biologists tend to be more comfortable with details, we like to count and list things."_
+
 – Sir Paul Nurse (Chief Executive Director Francis Crick Institute)
 
 # A system perspective
@@ -422,7 +424,7 @@ Additionally, it is thought that an Azolla mat prevents mosquitoes from accessin
 ## Agricultural opportunities
 
 _Azolla_'s properties give it substantial agricultural potential [@Lumpkin1980a; @Brouwer2014].
-These are properties like rapid growth, high protein content, and it's aquatic life style [@Brouwer2014].
+These are properties like rapid growth, nitrogen fertiliser independence, and high protein content [@Brouwer2014].
 Firstly, as in rice paddies, _Azolla_ can be used as a bio-fertiliser, enhancing soil fertility by providing a natural source of nitrogen [@Watanabe1981].
 This reduces the need for synthetic fertiliser; promoting sustainable farming practices and reducing environmental impact.
 Studies have shown that incorporating _Azolla_ in rice cultivation can increase crop yields and improve soil health [@Watanabe1981;@bocchi2010].
@@ -432,12 +434,14 @@ _Azolla_ growth requires a big amount of fresh water, and the incorporation of _
 This practice is only feasible in areas where fresh water is plentiful and the use of cheap but environmentally damaging synthetic fertiliser is discouraged.
 
 Beyond its use as a bio-fertiliser, _Azolla_ is also explored as an alternative feed for livestock [@Brouwer2018].
-Its high protein content and rich nutrient profile make it an excellent supplement for animal diets [@becerra1990;@Bujak2022;@Brouwer2014].
+Its high protein content and rich amino-acid profile make it an excellent supplement for animal diets [@becerra1990;@Bujak2022;@Brouwer2014].
 The current major protein crop is soy.
 It is massively imported for feed purposes.
 Currently, the Netherlands imports more soy than we could grow soy plants in the total area of the country [@BrouwerThesis].
 _Azolla_ could be an alternative plant that grows well in the Dutch temperate climate.
-This application may also contribute to the recycling of nutrients within agricultural systems
+This application may also contribute to the recycling of nutrients within agricultural systems.
+Again, there are challenges for including _Azolla_ in feed diets.
+A relatively high content of tannins and other polyphenols may inhibit _Azolla_'s digestibility.
 
 _Azolla_ is also thought capable of cleaning up contaminated or eutrophic water bodies through phytoremediation [@Sood2012].
 This process involves using plants to remove, degrade, or stabilize environmental contaminants.
@@ -457,9 +461,9 @@ Besides, _Azolla_ populations can collapse once _S. rufinasus_ populations settl
 Pest control in an aquatic system is more complex than on land.
 Besides, since I'm advocating _Azolla_ as a sustainable alternative, chemical pest control is not desirable although perhaps not avoidable.
 Finally, when using _Azolla_ as feed for animals, the fern's high phenolic content can inhibit digestion of the protein content [@Brouwer2018].
+<!-- This transition could be better. -->
 
 ## Azolla domestication
-
 Both historic and recent agricultural _Azolla_ applications used local native strains.
 No _Azolla_ cultivars exist, or has there ever been any _Azolla_ breeding to my knowledge.
 The caveats of _Azolla_ usage, like digestion inhibition, could be tackled with modern breeding tools.
@@ -469,7 +473,7 @@ Collecting biodiversity is one of the first steps in domestication.
 The International Rice Research Institute (IRRI) did collect a notable amount of _Azolla_ strains [@Watanabe1992].
 Unfortunately, a decent portion of the _Azolla_ germplasm at IRRI was lost.
 Additionally, control of the sexual reproduction of the fern is essential, as detailed in \ref{it_takes_two}.
-Long-term storage of the ferns' spores was achieved in @Brouwer2014.
+Storage and dissemination of those spores was demonstrated in @Brouwer2014.
 Modern breeding however, requires genomic information to be established as well.
 Establishing the first _Azolla_ genome in @Li2018 was an essential step in the domestication process.
 Stable transformation or gene-editing of the symbiosis partners has yet to be unlocked and is the next major step in unlocking _Azolla_'s potential.
