@@ -196,6 +196,27 @@ Take any entity at any scale, and one can defend it as either being selfish or c
 The lesson I take from the holobiont polemic, is again to take a systems perspective; to emphasise relations and processes over the individual parts.
 
 # The _Azolla_ symbiosis
+<!-- Perhaps this section needs re-organising.
+Claude says:
+Azolla physiology and life cycle
+- General Azolla physiology
+- Life cycle
+- Cyanobacterial symbiosis (general overview)
+- Trichormus azollae (specific symbiont details)
+
+Ecology and natural history
+- Natural habitats and distribution
+- Ecological role and interactions
+
+Agricultural history and opportunities
+- Traditional uses in agriculture
+- Modern agricultural potential
+
+Challenges and the need for domestication
+- Current limitations in Azolla use
+- Goals for domestication
+  
+ -->
 
 This work discusses the genomics and metagenomics of a specific symbiosis: that between the floating fern genus _Azolla_, and a cyanobacterium _Nostoc azollae_.
 The Cyanobacterium supplies the symbioses with a surplus of nitrogen fixed from the air.
