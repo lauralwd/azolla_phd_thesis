@@ -52,8 +52,11 @@ There will be a bit of humour, opinion, and informal writing.
 
 \newpage
 
-> _“A system is never the sum of its parts it's the product of their interaction.”_
+> _“A system is never the sum of its parts it's the product of their interaction.”_ \\
 – Russell Ackoff (professor of systems sciences)
+
+> _Biologists tend not to talk about the big ideas; we leave those to physicists. We biologists tend to be more comfortable with details, we like to count and list things._ \\
+– Sir Paul Nurse (Chief Executive Director Francis Crick Institute)
 
 # A system perspective
 
@@ -555,9 +558,6 @@ Here I maintain a list of six species:
 
 # Methodology
 
-> Biologists tend not to talk about the big ideas; we leave those to physicists. We biologists tend to be more comfortable with details, we like to count and list things.
-– Sir Paul Nurse (Chief Executive Director Francis Crick Institute)
-
 Several _Azolla_ properties make it an interesting plant for 21st century specific challenges.
 To fully realise that potential in practice, we need modern breeding tools and a system biology perspective on the functioning of the symbiosis.
 These modern breeding tools require a fundament of genomic knowledge and know-how.
@@ -755,6 +755,7 @@ About a quarter of My PhD I spend on teaching and developping myself as a Teache
 This effort was rewarded with a bUTQ or BKO in Dutch.
 The full portfolio is too lengthy to include, so this chapter summarises the original document.
 Secondly, an example of teaching material that is completely of my own design is included in **Appendix \ref{metagenomics_practical}** (\nameref{metagenomics_practical} on page \pageref{metagenomics_practical}) as mentioned before.
+In this practical, students do all major steps of chapter \ref{hidden_treasures} in a day or two.
 Finally, I include a short narrative CV on my non-science and non-teaching activities during my PhD and what I gained from them.
 
 <!-- gemini: Clearer Thesis Statement: While the introduction effectively sets the stage for the thesis, a more explicit thesis statement would be helpful. Consider adding a sentence or two at the end of the introduction summarizing the main research questions or objectives of your thesis. -->
