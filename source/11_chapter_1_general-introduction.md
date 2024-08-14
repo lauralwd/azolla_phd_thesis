@@ -506,10 +506,16 @@ To fully realise that potential in practice, we need modern breeding tools and a
 These modern breeding tools require a fundament of genomic knowledge and know-how.
 That genomic understanding of the _Azolla_ symbiosis, is what I work on here.
 
+The first part of this thesis focusses on the metagenomics of the _Azolla_ symbiosis.
+With metagenomics, I study the genomes of microbes associated to any organ or organism.
+In the last two chapters, my colleagues and I discuss the reproductive cycle of the _Azolla_ symbiosis.
+We try to find the molecular underpinning of this cycle compared to seed plants.
+To this end, we reconstruct the evolution of proteins essential to this process.
+
 ## Bioinformatics
 
 This thesis employs ample bioinformatics techniques.
-Yet, I have managed to not use the term once in this introduction so far.
+Yet, I have managed to not use the term once before this section of the introduction.
 Firstly, because this general introductions focusses on the plant and symbiosis biology first.
 And secondly because the definition of bioinformatics deserves a paragraph by itself.
 The typical image of bioinformatics revolves around computer science and application of tools, more than biology.
@@ -536,20 +542,79 @@ Instead, I mean set the context in which I am working.
 It is a point on the horizon that we are travelling towards.
 Genomic knowledge and know-how of the system, is merely a step towards that end-goal.
 
-## Bioinformatics for Molecular Breeding
+## genomics for breeding novel crops
 
-The practical use of bioinformatics in biology needs little defense.
-The advent of bioinformatics has revolutionised the field of molecular breeding.
+The practical use of bioinformatics in breeding needs little defense.
 Traditionally, plant breeding relied on phenotypic selection over multiple generations.
 This process can take decades or lifetimes depending on how fast a plant can produce offspring.
 However, with the advent of genomics and bioinformatics, this timeline can be drastically sped-up.
+Massive genome sequencing projects have enabled precision trait selection via techniques such as GWAS.
+Sequencing a cross' offspring enables accelerating breeding cycles.
+Finally, genomics has enabled molecular biologists to begin to unravel the regulatory networks that govern a crops growth.
+
+Despite this acceleration, breeding via crossing offspring is still slow and even detrimental to a crops gene pool.
+Repeated selection of certain traits has deluted out genetic variation in crops.
+Consequently, it has become harder to reintroduce traits like pest and disease resistance.
+
+However, with bioinformatic insights and modern molecular breeding, a solution is at hand.
+As a response to the genetic variation problem, researchers identified several key genes that needed disabling for the domestication of tomato.
+They took a wild tomato variety and disabled these genes with gene-editing techniques.
+The result was an edible tomato, not quite up to comercial standarts, but edible non-the-less.
+Millenia of selection and crossing, was reproduced in the lab in a matter of months.
+Additionally, this allows for keeping more genetic variability in the novel tomato variety its gene pool.
+
+When researching novel crops, we should be inspired by this story.
+It must be noted that _Azolla_ researchers lack a genome assembly and genomic understanding of the quality of tomato.
+More importantly we lack gene editing tools that are essential in the tomato example.
+But this example demonstrates that with the right genomic insight, and a robust gene editing protocol, domestication of novel crops is around the corner.
+With gene editing and knowledge of the metabolic pathways that inhibit _Azolla_ digestibility, future researchers may be able to increase it palpability.
+Control of the reproductive cycle of a plant is essential for its domestication.
+With genomic knowledge, the pathways involved in reproduction may be better understood and possibly manipulated.
+
+Before any reader is disappointed, this thesis is not describing editing of either the fern or the symbionts.
+My colleagues have tried, and made small steps forward, but did not achieve robust genetic editing.
+These advanced techniques need a genomic basis to be achieved.
+That basis, the genomics of the _Azolla_ symbiosis, is what is established in this thesis.
+When I joined the _Azolla_ lab in my Masters, I extracted and transported the DNA that would later be sequenced and assembled into the first _Azolla filiculoides_ genome by [@Li2017].
+The _Azolla filiculoides_ genome was the first fern ever to have its genome sequenced.
+In this thesis we use that genome for gaining insight in the workings of _Azolla_.
+We relate it to existing knowledge of other crops, and speculate how we may we use it in the future to manipulate the symbiosis.
+
+Studying fern genomics is a special challenge, for we have no other ferns' genome to compare with.
+To uncover the function of any gene, we emplore phylogenetics.
+By comparing DNA sequences of many versions of the same gene, we can calculate the probably evolutionary history of those sequences.
+This allows us to infer the function of a protein coding sequence in the context of others.
+In chapter \ref{one_two_tree} I describe this method in more detail.
+
+Breeding targets can be selected once the probable function of several _Azolla_ genes is established, and a gene editing protocol is in working order.
+Possible targets may include genes for yield stability and pest resistance.
+Alternatively, undesirable compounds may be removed, and diserable ones may be made more abundant.
+Nutrient aquisition and accumulation of for example phosphorus may be enhanced.
+
+Since growing gene-edited crops remains controversial, it remains a research tool for now.
+Removing a gene, or making it overactive remain the standard way to prove the function of any one gene.
+Establishing a gene editing protocol in _Azolla_ will provide the research community to do functional genomics in ferns backed by the context of the _Azolla_ genome.
+The only fern in which any kind of DNA modification has been established, does not have a genome sequence available.
+
+
+<!-- 
 High-throughput sequencing and advanced computational tools allow breeders and researchers to dissect the genetic basis of complex traits, enabling more efficient selection and breeding strategies
 [Bioinformatics approaches and applications in plant biotechnology | Journal of Genetic Engineering and Biotechnology | Full Text](https://jgeb.springeropen.com/articles/10.1186/s43141-022-00394-5).
 With GMO and gene editing technology, these insights can be tested in a living plant with amazing speed if a reliable transformation protocol is available
 [CRISPR-Cas9 based molecular breeding in crop plants: a review | Molecular Biology Reports](https://link.springer.com/article/10.1007/s11033-023-09086-w).
 
-Molecular breeding began with the study of DNA.
-A field that was later called genomics.
+[Bioinformatics approaches and applications in plant biotechnology | Journal of Genetic Engineering and Biotechnology | Full Text](https://jgeb.springeropen.com/articles/10.1186/s43141-022-00394-5)
+[Advances in Integrating Genomics and Bioinformatics in the Plant Breeding Pipeline](https://www.mdpi.com/2077-0472/8/6/75).
+[Bioinformatics in Plant Breeding and Research on Disease Resistance](https://www.mdpi.com/2223-7747/11/22/3118).
+
+[Impact of Bioinformatics on Plant Science Research and Crop Improvement | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-19318-8_2) 
+[Application of Bioinformatics in Crop Improvement | SpringerLink](https://link.springer.com/chapter/10.1007/978-981-16-2339-4_30). 
+
+-->
+
+## genomics for breeding a symbiosis
+
+Molecular breeding began with the study of DNA; a field that was later called genomics.
 It is then only logical to begin symbiosis breeding with meta-genomics.
 Metagenomics is the study of all DNA associated to any organ or organism.
 It differs from microbiome profiling.
@@ -561,37 +626,11 @@ By sequencing the genomes of both the host and the symbiont, researchers can ide
 The genes and pathways that are present of absent allow for directed hypothesis generation.
 Metagenomic insights may allow for the targeted manipulation of genes in symbionts to enhance some performance or plant productivity.
 
-[Bioinformatics approaches and applications in plant biotechnology | Journal of Genetic Engineering and Biotechnology | Full Text](https://jgeb.springeropen.com/articles/10.1186/s43141-022-00394-5)
-[Advances in Integrating Genomics and Bioinformatics in the Plant Breeding Pipeline](https://www.mdpi.com/2077-0472/8/6/75).
-[Bioinformatics in Plant Breeding and Research on Disease Resistance](https://www.mdpi.com/2223-7747/11/22/3118).
-
-Before any reader is disappointed, this thesis is not describing editing of either the fern or the symbionts.
-Our small lab has tried, made small steps forward, but did not achieve robust genetic editing.
-These advanced techniques need a genomic basis to be achieved.
-That basis, the genomics of the _Azolla_ symbiosis, is what is established in this thesis.
-When I joined the _Azolla_ lab in my Masters, I extracted and transported the DNA that would later be sequenced and assembled into the first _Azolla filiculoides_ genome by [@Li2017].
-The _Azolla filiculoides_ genome was the first fern ever to have its genome sequenced.
-
-## Bioinformatics of Novel Crops
-
-Bioinformatic insights and new breeding techniques could fast-track the domestication and improvement of wild plants into novel crops, bypassing traditional lengthy breeding processes.
-For instance, genome editing can be used to introduce beneficial traits identified by bioinformatic and experimental approaches.
-This was already demonstrated by editing key domestication genes in a wild poisonous tomato plant, to turn it into a more domesticated edible form. [cite tomato paper]
-This approach enables the precise manipulation of genes responsible for desirable traits such as enhanced nitrogen fixation, disease resistance, and abiotic stress tolerance.
-Additionally, it circumvents adverse effects of traditional breeding, like loss of genetic diversity as a side-effect of selection for desirable traits.
-
-[oai_citation:4,Bioinformatics approaches and applications in plant biotechnology | Journal of Genetic Engineering and Biotechnology | Full Text](https://jgeb.springeropen.com/articles/10.1186/s43141-022-00394-5) [oai_citation:5,Impact of Bioinformatics on Plant Science Research and Crop Improvement | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-19318-8_2) [oai_citation:6,Application of Bioinformatics in Crop Improvement | SpringerLink](https://link.springer.com/chapter/10.1007/978-981-16-2339-4_30).
-[Bioinformatics approaches and applications in plant biotechnology | Journal of Genetic Engineering and Biotechnology | Full Text](https://jgeb.springeropen.com/articles/10.1186/s43141-022-00394-5) [oai_citation:2,Impact of Bioinformatics on Plant Science Research and Crop Improvement | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-19318-8_2) [oai_citation:3,Application of Bioinformatics in Crop Improvement | SpringerLink](https://link.springer.com/chapter/10.1007/978-981-16-2339-4_30).
-
-The potential of _Azolla_ as a novel crop is particularly promising.
-Recent studies have highlighted its rapid growth rate, high protein content, and symbiotic nitrogen fixation capabilities.
-
 * Technological Approaches in This Thesis
   * Describe the specific genomics methodologies used in your research
   * such as whole-genome sequencing, metagenomics, and transcriptomics
   * and how these techniques have helped uncover the complexities of the Azolla-Nostoc symbiosis.
-* Explore how modern genomics technologies can be used to fast-track the domestication and improvement of wild plants and their symbioses into novel crops, bypassing the traditional lengthy breeding processes.
-  * tomato paper
+
 
 ## Introducing bioinformatics to a lab
 
