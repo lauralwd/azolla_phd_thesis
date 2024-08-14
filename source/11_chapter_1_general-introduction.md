@@ -548,12 +548,15 @@ Here I maintain a list of six species:
 
 # Methodology
 
-To realise azolla potential in 21st centry challenges, we need a systems perspective on symbiosis functioning and modern breeding tools
-To use modern breeding tools, a genomic understanding of the symbiosis is the fundament.
-That genomic understanding of the symbiosis, is what I work on here.
-It began with the first pub. of the Azolla genome just before I started my PhD.
+> Biologists tend not to talk about the big ideas; we leave those to physicists. We biologists tend to be more comfortable with details, we like to count and list things.
+– Sir Paul Nurse (Chief Executive Director Francis Crick Institute)
 
-## bioinformatics
+Several _Azolla_ properties make it an interesting plant for 21st century specific challenges.
+To fully realise that potential in practice, we need modern breeding tools and a system biology perspective on the functioning of the symbiosis.
+These modern breeding tools require a fundament of genomic knowledge and know-how.
+That genomic understanding of the _Azolla_ symbiosis, is what I work on here.
+
+## Bioinformatics
 
 This thesis employs ample bioinformatics techniques.
 Yet, I have managed to not use the term once in this introduction so far.
@@ -567,18 +570,26 @@ Like claiming ecologists only spend time in the field determining plant species,
 or claiming molecular biologist train all day to move miniature amounts of water around.
 These statements are perhaps ironic, have a bit of truth in them, but are not very helpful.
 
-**Bioinformatics is the study of information in biological systems.**
-<!-- Pauliens original paper -->
-A bioinformatician studies how information is stored in DNA with genomics or meta-genomics.
-We study how that information is processed and used with transcriptomics.
-How building instructions are used to make proteins with proteomics and structural bioinformatics.
-We study the meaning and change of information with comparative genomics over evolutionary time scales.
+The original definition of bioinformatics is much more interesting and helpful to understand bioinformatic works.
+**Bioinformatics is the study of information processes in biological systems** [@Hesper1970; @Hogeweg2011]**.**
+A bioinformatician may read that information from DNA with genomics or meta-genomics.
+We study how that information is transmitted within cells via RNA perhaps, and across millions of years of evolution.
+We study how information is used to make proteins with proteomics and structural bioinformatics.
+We study how information is used to make decisions in a cell.
 And how this all fits together with systems biology.
 
-## The Advent and Rise of Bioinformatics for Molecular Breeding
+In this work, we use bioinformatics to inquire the information storage or processing of _Azolla_ and associated microbes.
+This does come down to a lot of computer work and number crunching, counting of molecules and comparing their sequences to each other.
+But the tedious counting of molecules is a means to an end: understanding the system as a whole.
+I do not claim to address all listed bioinformatics questions for the _Azolla_ symbiosis, and certainly not that I understand the system as a whole.
+Instead, I mean set the context in which I am working.
+It is a point on the horizon that we are travelling towards.
+Genomic knowledge and know-how of the system, is merely a step towards that end-goal.
 
+## Bioinformatics for Molecular Breeding
+
+The practical use of bioinformatics in biology needs little defense.
 The advent of bioinformatics has revolutionised the field of molecular breeding.
-Bioinformatics provides an unprecedented insight and opportunity to accelerate breeding efforts.
 Traditionally, plant breeding relied on phenotypic selection over multiple generations.
 This process can take decades or lifetimes depending on how fast a plant can produce offspring.
 However, with the advent of genomics and bioinformatics, this timeline can be drastically sped-up.
