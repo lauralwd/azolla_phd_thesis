@@ -36,11 +36,18 @@ Laura W Dijkhuizen^1^
 
 \section*{Abstract}
 
-<!-- not sure about this paragraph. AI overlords suggest to remove it -->
 This hitch-hiker's guide is meant to be a friendly general introduction to this thesis.
-I attempted to make it palpable for all scientific audiences, not just (plant)biologists.
-Individual chapters already have in-depth stand-alone introductions.
+The thesis describes the genomics of the _Azolla_ symbiosis: that of _Azolla_ ferns, its main symbiont _Trichormus_ (or _Nostoc_) _azollae_, and other bacterial partners.
+Its chapters will discuss the discovery of those other bacterial partners and the identity and evolution of the main symbiont.
+The final chapters center around some methodology and control over the symbiosis' reproductive cycle.
+This is all new information on the _Azolla_ symbiosis, and I will argue important information for modern breeding of _Azolla_.
+There will be a lot of bioinformatics, some molecular biology and some ecology now and then.
+All individual chapters already have in-depth stand-alone introductions.
 So here, I mean to give a broader context on symbiosis research, the amazing _Azolla_, and relevant genomics methodologies.
+I will argue how a systems biology mindset may be required for symbiosis research.
+Then I will provide a broader context on the _Azolla_ symbiosis.
+And finally I will discuss bioinformatics techniques to address the relevant questions and hypotheses of this PhD project.
+I attempted to make this introduction palpable for all scientific audiences, not just (plant)biologists.
 There will be a bit of humour, opinion, and informal writing.
 
 \newpage
