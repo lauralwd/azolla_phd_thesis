@@ -632,15 +632,32 @@ The latter are most often 16S marker gene studies.
 These only provide inside in what organism are associated with a certain organ or organism.
 Metagenomics aims to reconstruct the full genomes of all those organism, revealing their full metabolic potential.
 With metagenomics we can investigate the toolkit of all symbionts associated to a certain host, and better understand their function.
-By sequencing the genomes of both the host and the symbiont, researchers can identify genes involved in key symbiotic functions such as nutrient exchange, stress tolerance, and pathogen resistance.
-The genes and pathways that are present of absent allow for directed hypothesis generation.
-Metagenomic insights may allow for the targeted manipulation of genes in symbionts to enhance some performance or plant productivity.
 
-* Technological Approaches in This Thesis
-  * Describe the specific genomics methodologies used in your research
-  * such as whole-genome sequencing, metagenomics, and transcriptomics
-  * and how these techniques have helped uncover the complexities of the Azolla-Nostoc symbiosis.
+By sequencing the genomes of both the host and the symbiont, researchers can identify genes involved in key symbiotic functions.
+These can include nutrient exchange, stress tolerance, and pathogen resistance.
+The genes and pathways that are present or absent allow for directed hypothesis generation.
+For example, it allows us to investigate any microbe's metabolic potential and relate this to that of other microbes' or to the hosts metabolism.
+In the _Azolla_ symbiosis specifically, we hypothesise that symbiosis partners may actually leach of nitrogen fixed by _T azollae_ in chapter \ref(foul_play).
+In the future, metagenomic insights may allow for the targeted manipulation of genes in symbionts to enhance some performance or plant productivity.
+Alternatively, understanding the niche of any microbe in a consortium, one might be able to swap out one microbe for the other to add or remove metabolic potential.
 
+Microbiome editing is a field much younger than editing single organisms.
+Even when working with a single strain of a single organism, successful editing is rare.
+A protocol to do so, often includes steps to kill or remove cells that were not edited.
+When editing a microbiome, or genes of a microbiome member, we must first assume we can grow this microbe in isolation.
+Then assume that a transformation or editing protocol is available.
+And finally assume that the newly transformed strain can replace the original and retake the niche of its wild type predecessor.
+An alternate approach is taking a similar strain or species with desired trains, and introducing it into an existing consortium.
+This is a challenging process and requires insights into the consortiums ecology to succeed [@Albright2022; @Bai2023].
+
+For _Azolla_ specifically, we have managed to grow several strains of bacteria in isolation (unpublished results).
+We have not yet managed to re-introduce microbes to the _Azolla_ leaf pockets.
+This is an essential step to stably modify the _Azolla_ microbial community.
+
+While _Azolla_ microbiome editing is a spectacular perspective of what might be possible in the future, we are not there yet.
+Instead, I focus here on identifying and describing the symbiosis partners.
+Specifically in chapter \ref(forever_together) I use sequencing data of several _Azolla_ species to retrieve microbial genomes associated to _Azolla_ as a whole genus.
+We later venture into meta-transcriptomics to inquiry what the active processes are in these microbes, but gain little signal to what genes are active in these microbes (Chapter \ref(it_takes_two)).
 
 ## Introducing bioinformatics to a lab
 
