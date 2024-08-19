@@ -546,7 +546,7 @@ Instead, I mean set the context in which I am working.
 It is a point on the horizon that we are travelling towards.
 Genomic knowledge and know-how of the system, is merely a step towards that end-goal of system understanding.
 
-## genomics for breeding novel crops
+## Genomics for breeding novel crops
 
 The practical use of bioinformatics in breeding needs little defense.
 Traditionally, plant breeding relied on phenotypic selection over multiple generations.
@@ -622,7 +622,7 @@ With GMO and gene editing technology, these insights can be tested in a living p
 
 -->
 
-## genomics for breeding a symbiosis
+## Genomics for breeding a symbiosis
 
 Molecular breeding began with the study of DNA; a field that was later called genomics.
 It is then only logical to begin symbiosis breeding with meta-genomics.
@@ -659,30 +659,107 @@ Instead, I focus here on identifying and describing the symbiosis partners.
 Specifically in chapter \ref(forever_together) I use sequencing data of several _Azolla_ species to retrieve microbial genomes associated to _Azolla_ as a whole genus.
 We later venture into meta-transcriptomics to inquiry what the active processes are in these microbes, but gain little signal to what genes are active in these microbes (Chapter \ref(it_takes_two)).
 
+<!-- Match generalness and Azolla-specificness of the last two sections to each other. I guess that's not the case now. -->
+
 ## Introducing bioinformatics to a lab
 
-* We're a small lab with limited resources
-  * Discuss the limitations of existing genomics technologies, such as incomplete genome assemblies, challenges in differentiating host and symbiont DNA, and the need for advanced bioinformatics tools to interpret complex datasets.
-* functional genomics in a symbiosis setting is hard.
-* documentation, challenges
-* instability of microbial consortia
-* high tech, expensive
+The _Azolla_ lab was housed in the molecular plant physiology group at Utrecht University before the former two were dissolved.
+It was quite a challenge to introduce bioinformatics techniques to a small lab of at most three employees with no bioinformatics history.
+This process started already during my Masters, when I started working on _Azolla_.
+It was a challenge in means of infrastructure, like storage and computing power.
+But this was quickly solved with some money from the group to build a computer and with hospitality of the local theoretical biology and bioinformatics group.
+The main challenge was building the know-how.
+As a computer savvy student at the time, with no bioinformatics training whatsoever, I was lucky to attend some PhD courses on bioinformatics techniques.
+Additionally, I was lucky to get advice from collaborators, specifically those in chapter \ref(fould_play), and from bioinformaticians and system administrators in the department.
+With some support and enthusiasm, together we managed to publish a first bioinformatics-centred paper within two years after the project started.
+Later, during my PhD, we diverged the bioinformatics toolkit of the lab quite a bit.
 
-Additionally, transcriptomics, which involves the analysis of gene expression patterns, can reveal how these interactions change under different environmental conditions, further informing breeding strategies
-[Advances in Integrating Genomics and Bioinformatics in the Plant Breeding Pipeline](https://www.mdpi.com/2077-0472/8/6/75).
+Despite the quick introduction of bioinformatics in the _Azolla_ lab, there was so much work to be done.
+As a lab, we wanted to improve upon the annotation of the existing _A. filiculoides_ genome assembly, sequence metagenomes and metatranscriptomes of small experimental _Azolla_ ecosystems (mesocosms), develop meta-transcriptomics or dual-transcriptomics protocols, and many more plans.
+These bioinformatics techniques would help us answer questions relevant for _Azolla_ domestication and general understanding of the symbiosis.
+But we struggled with the broadness of all these questions.
+Each technique often requires a different specialised protocol to prepare the experimental material in a proper way.
+Preparations of sequencing libraries are costly, as is sequencing itself.
+Then each technique requires special bioinformatic tools, each with their own manual and intricacies.
+In the end we did manage as a team to do metagenomics, transcriptomics, small RNA sequencing and metatranscriptomics.
+We contributed to a new genome annotation, started to sequence with a nanopore device and delved into phylogeny.
+Even with a small team, and limited experience, a lot is possible.
+However, without a transformation protocol for any of the symbiosis partners, bioinformatics often remains a descriptive discipline.
 
-### Documentation and reproducibility in bioinformatics
+As I and my colleagues have struggled with starting bioinformatics in a molecular context, so have our students.
+The _Azolla_ lab was a molecular biology lab, working on a novel crop with lots of opportunities for sustainability related research.
+We have learned the hard way that this does not attract you typical bioinformatics-trained student.
+Yet, also students in the lab needed to analyses bioinformatics-related data.
+The basic biology curriculum contains little coding, and to this day, biology students can easily finish the bachelor with minimal coding experience.
+With the current increase of datasets their size, this seems undesirable to me.
+Learning students the basics of coding distracts from the biological content of their internships.
+Additionally, it provides a lot of strain on the host lab.
 
-* transition wet to try lab
+As a wet-lab by training, moving to the computer lab came with challenges.
+One major one was documentation and lab journaling.
+It has always surprised me that despite the obviousness of lab journaling a wet lab experiment, students and staff hardly kept notes when doing computer work.
+Admittedly, I have struggled with this myself during my PhD.
+Physical written journals, word documents, long comment-lines in scripts, I have tried all these things.
+Bioinformatics education is relatively young compared to that for molecular biology.
+Maybe we need to learn biologists still how to properly keep notes on development, code and the underlying biology in a computer lab project.
+In the end, I settled upon splitting the development of code from the interpretation of results.
+I committed to writing read-me files in project folders and documenting changes in version control software like Git.
+Biological results, interpretations, and speculations I kept in a note-taking piece of software. 
+This dislodged the interpretation from the data files, but allows for more natural combining of results and ideas from various coding projects.
 
-## Future perspectives
+I am quite content with what we have achieved with _Azolla_ genomics.
+Especially considering the lab started from scratch only in 2014, and despite al limitations and challenges posed to us in my almost 7 years at the lab as a student, PhD candidate and part-time teacher.
+There is a lot more work to do, to understand and manipulate the symbiosis.
+I hope that other labs globally may pick up our work and find it useful for their own experiments.
+
+## Gene editing ethics
   
-Ethics:
+In this hitch-hikers' guide, I have written about the potential of the amazing _Azolla_, and how modern breeding techniques may propel _Azolla_'s potential even further.
+While doing so, I naïvely steered away from any ethical concerns of deploying crops with altered DNA into the environment.
 
-* GMO is a multi-million-dollar industry, did it help feed the people, or did it mostly feed the rich.
-* How can we make gene editing in general, and also symbioses editing techniques benefit the people.
-Future Directions and Technological Needs
-* Discuss the future directions for symbiosis research and the technological advancements needed to fully harness the potential of genomics in developing sustainable agricultural practices.
+Gene editing technology has value even if crops cannot be deployed into agricultural practice.
+It can serve a purpose in speeding up the breeding and research cycle and provide means to test hypotheses in more fundamental biological questions.
+
+Biologists have argued that it is rather ridiculous to ban gene-edited crops purely for them being gene edited.
+This legislation allows for a weird situation in which two genetically identical plants are either legal or illegal.
+One plant, made via costly, hard, and arguably polluting methods like traditional breeding and mutagenesis would be legal.
+The exact same plant made via efficient and fast gene editing would be illegal.
+Legislation that considers this argument and is permissive to gene edited crops in some capacity have been implemented in a long list of countries.
+These countries include the U.S., Canada, Argentina, Brazil, Japan and China.
+India and the U.K are in the progress of implementing similar legislation.
+The european union is very strict on gene-editing, classifying them as GMOs; to much dismay of European molecular biologists.
+
+Critisism on the technology includes off-target effects; basically unintended edits of the DNA.
+Frankly, I find this slightly hypocritical since the current industry standard like traditional breeding includes massive reduction of the gene pool.
+Similarly, with radiation based mutagenesis, off-target effects are not regulated either.
+off-target edits by gene editing are minimal or absent and vastly superior to those of traditional methods.
+
+I find societal critisism much more on point.
+The introduction of Genetically Modified Organisms (GMOs) was associated with promises similar to those of gene editing.
+Yet, one can wonder who benefited mostly from GMOs.
+Arguably, biochemical and breeding companies in developped rich countries have earned over the backs of farmers in typically under-developped countries.
+Sure there are exceptions, like golden rice, but the majority of GMO crops is sold by big companies.
+Then there is the risk of gene edited organisms being patented, a big wish of breeding companies.
+As a scientific community we like to argue that we develop gene editing technologies to feed the world.
+If that is our drive, then we should be wary to hand over the technology without limitations to the companies who made GMOs what they are today.
+In the end, it is up to legislators, but as scientists we do have a voice to influence legislation.
+Additionally, the plant biology community and breeding industry are tightly connected.
+As plant biologists, we should be careful in guarding our ethical boundaries, and beware of potential adverse implications of our work and our collaborations.
+
+In the science community, open science has recently gained a lot of popularity.
+It is an umbrella term that collects certain behaviours and practices that all share a common goal: making science more accessible and or reproducible.
+Perhaps we should apply a similar philosophy to gene editing techniques we develop.
+As we scientists are funded by public money, do our findings then also belong to the public?
+Should it be standard to publish and make available all DNA constructs for an experiment, as it is these days to publish all raw data.
+Should it perhaps be standard that our work cannot be used for for-profit applications.
+
+There are good arguments not to do so.
+Although idyllic, preventing companies to use our findings for profit, may deter them from using it at all.
+Hence, our findings would never benefit the public but remain in some dusty archive.
+
+It is quite a puzzle to implement gene editing in the most optimal way, not making mistakes made in the implementation of GMOs.
+Perhaps it will remain a research tool only in Europe, or maybe exceptions will be made when the exact same result can be achieved via traditional breeding like in the U.S., or gene-edited crops will be assessed on a case-by-base basis like in Canada.
+As a researcher I do believe in the potential of the technology for crop improvment in general, and for editing symbioses like the _Azolla_ symbiosis.
 
 <!-- 
 Through advanced sequencing technologies, this research characterizes the genomes of both _Azolla_ and _Nostoc azollae_, revealing the genetic basis of their symbiotic interaction.
