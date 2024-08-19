@@ -35,3 +35,20 @@
   \stopthumb
   <!-- clear double page so that the chapters start nicely on a new right page -->
   \cleardoublepage
+
+
+Goal: identify the microbes that are more stably associated with the Azolla genus, and hypothesise what they may do.
+
+Q: Are these even the same bacteria:
+A: ANI network of all microbes from hidden treasures, plus the ones from databases/papers associated to Azolla.
+
+Q: (presumably) Some look alike, do they share some history with Azolla?
+A: Per phylum? trees to see if they're one Azolla associated group, and do they show some co-evolution
+
+Q: Do they show signs of genome degradation:
+A: Score pseudogenes
+
+Q: What can we say about functionality?
+A: GO enrichment against a phylum/family representable group? Any hits in the dual RNA-seq maybe...
+
+future: kicking out microbes, and reintroducing them.
