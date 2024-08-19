@@ -39,12 +39,12 @@ Laura W Dijkhuizen^1^
 This hitch-hiker's guide is meant to be a friendly general introduction to this thesis.
 The thesis describes the genomics of the _Azolla_ symbiosis: that of _Azolla_ ferns, its main symbiont _Trichormus_ (or _Nostoc_) _azollae_, and other bacterial partners.
 Its chapters will discuss the discovery of those other bacterial partners and the identity and evolution of the main symbiont.
-The final chapters center around some methodology and control over the symbiosis' reproductive cycle.
+The final chapters center around the symbiosis' reproductive cycle and some methodology.
 This is all new information on the _Azolla_ symbiosis, and I will argue important information for modern breeding of _Azolla_.
 There will be a lot of bioinformatics, some molecular biology and some ecology now and then.
 All individual chapters already have in-depth stand-alone introductions.
-So here, I mean to give a broader context on symbiosis research, the amazing _Azolla_, and relevant genomics methodologies.
-I will argue how a systems biology mindset may be required for symbiosis research.
+So in this general introduction, I mean to give a broader context and perspective on symbiosis research, the amazing _Azolla_, and relevant genomics methodologies.
+I will argue how a systems biology mindset can benefit symbiosis research.
 Then I will provide a broader context on the _Azolla_ symbiosis.
 And finally I will discuss bioinformatics techniques to address the relevant questions and hypotheses of this PhD project.
 I attempted to make this introduction palpable for all scientific audiences, not just (plant)biologists.
@@ -55,6 +55,8 @@ There will be a bit of humour, opinion, and informal writing.
 > _“A system is never the sum of its parts it's the product of their interaction.”_
 
 – Russell Ackoff (professor of systems sciences)
+
+or...
 
 > _"Biologists tend not to talk about the big ideas; we leave those to physicists. We biologists tend to be more comfortable with details, we like to count and list things."_
 
