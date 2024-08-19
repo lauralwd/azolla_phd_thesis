@@ -504,7 +504,7 @@ Stable transformation or gene-editing of the symbiosis partners has yet to be un
 # Methodology
 
 Several _Azolla_ properties make it an interesting plant for 21st century specific challenges.
-To fully realise that potential in practice, we need modern breeding tools and a system biology perspective on the functioning of the symbiosis.
+To further realise that potential, we can make use of modern breeding tools and a system biology perspective on the functioning of the symbiosis.
 These modern breeding tools require a fundament of genomic knowledge and know-how.
 That genomic understanding of the _Azolla_ symbiosis, is what I work on here.
 
@@ -518,15 +518,17 @@ To this end, we reconstruct the evolution of proteins essential to this process.
 
 This thesis employs ample bioinformatics techniques.
 Yet, I have managed to not use the term once before this section of the introduction.
-Firstly, because this general introductions focusses on the plant and symbiosis biology first.
-And secondly because the definition of bioinformatics deserves a paragraph by itself.
+Firstly, because I chose to focus on the plant and symbiosis biology first.
+And secondly because the definition of bioinformatics deserves a paragraph by itself before we dive in deeper.
+
 The typical image of bioinformatics revolves around computer science and application of tools, more than biology.
 Too often, bioinformaticians are seen as a "number crunching by nerds who look at black terminal screens all day".
-Now there is truth in that definition, ask any of my old colleagues.
+Now there is truth in that definition, ask any of my old colleagues about how they picture me.
 But it doesn't quite do justice to the field as a whole.
-Like claiming ecologists only spend time in the field determining plant species,
-or claiming molecular biologist train all day to move miniature amounts of water around.
-These statements are perhaps ironic, have a bit of truth in them, but are not very helpful.
+One could similarly claim that ecologists only spend time in the field determining plant species,
+or that molecular biologist train all day to move miniature amounts of water around.
+These statements are perhaps ironic, and they have a bit of truth in them.
+But they are not very helpful for understanding the bigger picture behind these stereotypical acts.
 
 The original definition of bioinformatics is much more interesting and helpful to understand bioinformatic works.
 **Bioinformatics is the study of information processes in biological systems** [@Hesper1970; @Hogeweg2011]**.**
@@ -534,7 +536,7 @@ A bioinformatician may read that information from DNA with genomics or meta-geno
 We study how that information is transmitted within cells via RNA perhaps, and across millions of years of evolution.
 We study how information is used to make proteins with proteomics and structural bioinformatics.
 We study how information is used to make decisions in a cell.
-And how this all fits together with systems biology.
+And how this all fits together in a biological system.
 
 In this work, we use bioinformatics to inquire the information storage or processing of _Azolla_ and associated microbes.
 This does come down to a lot of computer work and number crunching, counting of molecules and comparing their sequences to each other.
@@ -542,7 +544,7 @@ But the tedious counting of molecules is a means to an end: understanding the sy
 I do not claim to address all listed bioinformatics questions for the _Azolla_ symbiosis, and certainly not that I understand the system as a whole.
 Instead, I mean set the context in which I am working.
 It is a point on the horizon that we are travelling towards.
-Genomic knowledge and know-how of the system, is merely a step towards that end-goal.
+Genomic knowledge and know-how of the system, is merely a step towards that end-goal of system understanding.
 
 ## genomics for breeding novel crops
 
@@ -555,28 +557,34 @@ Sequencing a cross' offspring enables accelerating breeding cycles.
 Finally, genomics has enabled molecular biologists to begin to unravel the regulatory networks that govern a crops growth.
 
 Despite this acceleration, breeding via crossing offspring is still slow and even detrimental to a crops gene pool.
-Repeated selection of certain traits has deluted out genetic variation in crops.
-Consequently, it has become harder to reintroduce traits like pest and disease resistance.
+Repeated selection of certain traits has diluted out genetic variation in crops.
+The reduced gene pool has led to tastier crops and bigger yields, but also made crops vulnerable to biotic and abiotic stresses.
+Reintroducing these traits of wild, non-domesticated strains via traditional crossing is challenging and slow.
 
 However, with bioinformatic insights and modern molecular breeding, a solution is at hand.
 As a response to the genetic variation problem, researchers identified several key genes that needed disabling for the domestication of tomato.
-They took a wild tomato variety and disabled these genes with gene-editing techniques.
-The result was an edible tomato, not quite up to comercial standarts, but edible non-the-less.
-Millenia of selection and crossing, was reproduced in the lab in a matter of months.
+They took a wild tomato variety and disabled these genes with gene-editing techniques [@Li2018b].
+The result was an edible tomato, not quite up to commercial standards, but edible non-the-less.
+Millennia of selection and crossing, was reproduced in the lab in a matter of months.
 Additionally, this allows for keeping more genetic variability in the novel tomato variety its gene pool.
 
 When researching novel crops, we should be inspired by this story.
+A process similar to that of tomato was achieved in a orphan crop ground cherry; a species relatively close to tomato [@Lemmon2018a].
+With knowledge of domestication gene targets in tomato, the orphaned crop its  undesirable characteristics were gene edited.
+The process resulted in a higher yielding crop, without loss of the genetic diversity and stress resilience of the wild crop.
+
 It must be noted that _Azolla_ researchers lack a genome assembly and genomic understanding of the quality of tomato.
 More importantly we lack gene editing tools that are essential in the tomato example.
-But this example demonstrates that with the right genomic insight, and a robust gene editing protocol, domestication of novel crops is around the corner.
-With gene editing and knowledge of the metabolic pathways that inhibit _Azolla_ digestibility, future researchers may be able to increase it palpability.
-Control of the reproductive cycle of a plant is essential for its domestication.
+But these examples demonstrate that with the right genomic insight, and a robust gene editing protocol, domestication of novel crops is around the corner.
+Future researchers might be able to work on _Azolla_'s lesser-than-optimal traits with gene editing backed with by genomics [@Schluepmann2022].
+They could try to increase it palpability, reduce its invasiveness, and increase its pest resistance for example.
+Control of the reproductive cycle of a plant is essential for its domestication (See chapter \ref(it_takes_two)).
 With genomic knowledge, the pathways involved in reproduction may be better understood and possibly manipulated.
 
 Before any reader is disappointed, this thesis is not describing editing of either the fern or the symbionts.
 My colleagues have tried, and made small steps forward, but did not achieve robust genetic editing.
 These advanced techniques need a genomic basis to be achieved.
-That basis, the genomics of the _Azolla_ symbiosis, is what is established in this thesis.
+That basis, the genomics of the _Azolla_ symbiosis, is what I work on in this thesis.
 When I joined the _Azolla_ lab in my Masters, I extracted and transported the DNA that would later be sequenced and assembled into the first _Azolla filiculoides_ genome by [@Li2017].
 The _Azolla filiculoides_ genome was the first fern ever to have its genome sequenced.
 In this thesis we use that genome for gaining insight in the workings of _Azolla_.
@@ -590,8 +598,8 @@ In chapter \ref{one_two_tree} I describe this method in more detail.
 
 Breeding targets can be selected once the probable function of several _Azolla_ genes is established, and a gene editing protocol is in working order.
 Possible targets may include genes for yield stability and pest resistance.
-Alternatively, undesirable compounds may be removed, and diserable ones may be made more abundant.
-Nutrient aquisition and accumulation of for example phosphorus may be enhanced.
+Alternatively, undesirable compounds may be removed, and desirable ones may be made more abundant.
+Nutrient acquisition and accumulation of for example phosphorus may be enhanced.
 
 Since growing gene-edited crops remains controversial, it remains a research tool for now.
 Removing a gene, or making it overactive remain the standard way to prove the function of any one gene.
