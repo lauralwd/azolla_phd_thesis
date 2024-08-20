@@ -504,47 +504,79 @@ Stable transformation or gene-editing of the symbiosis partners has yet to be un
 # Methodology
 
 Several _Azolla_ properties make it an interesting plant for 21st century specific challenges.
-To further realise that potential, we can make use of modern breeding tools and a system biology perspective on the functioning of the symbiosis.
-These modern breeding tools require a fundament of genomic knowledge and know-how.
+**To further realise that potential, we can make use of modern breeding tools and a system biology perspective on the functioning of the symbiosis.** <!-- This sentence is good, but it could be made more precise by specifying which "21st-century challenges" you are referring to and what the "systems biology perspective" specifically entails in this context. -->
+
+**These modern breeding tools require a fundament of genomic knowledge and know-how.** <!-- This statement is true, but it would be beneficial to elaborate on what kind of genomic knowledge and know-how is required. Are you referring to knowledge about specific genes, genomic sequences, or something else? Providing a brief example could help clarify this point. -->
+
 That genomic understanding of the _Azolla_ symbiosis, is what I work on here.
 
-The first part of this thesis focusses on the metagenomics of the _Azolla_ symbiosis.
-With metagenomics, I study the genomes of microbes associated to any organ or organism.
-In the last two chapters, my colleagues and I discuss the reproductive cycle of the _Azolla_ symbiosis.
-We try to find the molecular underpinning of this cycle compared to seed plants.
-To this end, we reconstruct the evolution of proteins essential to this process.
+**The first part of this thesis focuses on the metagenomics of the _Azolla_ symbiosis.** <!-- This is a clear statement. However, it could be useful to briefly explain what metagenomics involves for readers who may not be familiar with the term. Perhaps add a sentence or two defining metagenomics and its significance in studying symbioses. -->
+
+**With metagenomics, I study the genomes of microbes associated to any organ or organism.** <!-- This is a good introductory explanation, but it could be improved by specifying that metagenomics allows for the study of the collective genomes of the microbial community associated with _Azolla_. This clarification will help readers understand the breadth of the metagenomic approach. -->
+
+**In the last two chapters, my colleagues and I discuss the reproductive cycle of the _Azolla_ symbiosis.** <!-- This sentence is fine, but it might benefit from a brief explanation of why the reproductive cycle is important to the study of the symbiosis. What insights are you hoping to gain from this investigation? -->
+
+**We try to find the molecular underpinning of this cycle compared to seed plants.** <!-- This is an interesting point. It could be useful to add a sentence explaining why comparing the reproductive cycle of _Azolla_ to that of seed plants is scientifically significant. What broader questions or hypotheses are you addressing with this comparison? -->
+
+**To this end, we reconstruct the evolution of proteins essential to this process.** <!-- This sentence introduces a key part of your methodology, but it could be more informative. Consider briefly describing how reconstructing protein evolution helps in understanding the reproductive cycle and how this approach fits into your overall research strategy. -->
 
 ## Bioinformatics
 
-This thesis employs ample bioinformatics techniques.
-Yet, I have managed to not use the term once before this section of the introduction.
-Firstly, because I chose to focus on the plant and symbiosis biology first.
-And secondly because the definition of bioinformatics deserves a paragraph by itself before we dive in deeper.
+**This thesis employs ample bioinformatics techniques.** <!-- This is a straightforward introduction to this section, but consider adding a sentence that provides an overview of the specific bioinformatics techniques you used. This will prepare the reader for the details to follow. -->
 
-The typical image of bioinformatics revolves around computer science and application of tools, more than biology.
-Too often, bioinformaticians are seen as a "number crunching by nerds who look at black terminal screens all day".
-Now there is truth in that definition, ask any of my old colleagues about how they picture me.
-But it doesn't quite do justice to the field as a whole.
-One could similarly claim that ecologists only spend time in the field determining plant species,
-or that molecular biologist train all day to move miniature amounts of water around.
-These statements are perhaps ironic, and they have a bit of truth in them.
-But they are not very helpful for understanding the bigger picture behind these stereotypical acts.
+**Yet, I have managed to not use the term once before this section of the introduction.** <!-- This is an interesting and somewhat informal statement. You might consider rephrasing this to maintain a more formal tone, e.g., "Notably, the term bioinformatics has not been emphasized earlier in this introduction, as the focus was initially on the biological context." -->
 
-The original definition of bioinformatics is much more interesting and helpful to understand bioinformatic works.
-**Bioinformatics is the study of information processes in biological systems** [@Hesper1970; @Hogeweg2011]**.**
-A bioinformatician may read that information from DNA with genomics or meta-genomics.
-We study how that information is transmitted within cells via RNA perhaps, and across millions of years of evolution.
-We study how information is used to make proteins with proteomics and structural bioinformatics.
-We study how information is used to make decisions in a cell.
-And how this all fits together in a biological system.
+**Firstly, because I chose to focus on the plant and symbiosis biology first.** <!-- This is a reasonable justification. You might strengthen this point by explaining why you believe it was important to prioritize the biological context before introducing bioinformatics. -->
 
-In this work, we use bioinformatics to inquire the information storage or processing of _Azolla_ and associated microbes.
-This does come down to a lot of computer work and number crunching, counting of molecules and comparing their sequences to each other.
-But the tedious counting of molecules is a means to an end: understanding the system as a whole.
-I do not claim to address all listed bioinformatics questions for the _Azolla_ symbiosis, and certainly not that I understand the system as a whole.
-Instead, I mean set the context in which I am working.
-It is a point on the horizon that we are travelling towards.
-Genomic knowledge and know-how of the system, is merely a step towards that end-goal of system understanding.
+**And secondly because the definition of bioinformatics deserves a paragraph by itself before we dive in deeper.** <!-- This is a good point, but it could be expanded. Consider providing a concise definition of bioinformatics here to immediately ground the reader in what follows. -->
+
+**The typical image of bioinformatics revolves around computer science and application of tools, more than biology.** <!-- This is a common perception, but it might be helpful to directly challenge this misconception by explaining how bioinformatics bridges biology and computational sciences. -->
+
+**Too often, bioinformaticians are seen as "number crunching by nerds who look at black terminal screens all day."** <!-- While this adds a bit of humor, it may detract from the seriousness of the discussion. Consider rephrasing or omitting this statement to keep the tone professional. -->
+
+**Now there is truth in that definition, ask any of my old colleagues about how they picture me.** <!-- This sentence, while light-hearted, could be seen as too informal for an academic introduction. You might want to rephrase it or omit it to maintain a professional tone. -->
+
+**But it doesn't quite do justice to the field as a whole.** <!-- A good point—consider expanding on how bioinformatics encompasses much more than just data processing, emphasizing its role in hypothesis generation, data interpretation, and biological discovery. -->
+
+**One could similarly claim that ecologists only spend time in the field determining plant species, or that molecular biologist train all day to move miniature amounts of water around.** <!-- This analogy is effective for illustrating your point, but consider adding a sentence to clarify how bioinformatics, like these other fields, involves a broad range of activities beyond the stereotype. -->
+
+**These statements are perhaps ironic, and they have a bit of truth in them.** <!-- This could be made more concise by merging it with the previous sentence or by rephrasing it to directly address the broader contributions of bioinformatics. -->
+
+**But they are not very helpful for understanding the bigger picture behind these stereotypical acts.** <!-- This is a good conclusion to this analogy, but you could make it stronger by explicitly linking it back to the importance of bioinformatics in the study of biological systems. -->
+
+**The original definition of bioinformatics is much more interesting and helpful to understand bioinformatic works.** <!-- This is a strong statement. It would be helpful to immediately follow this with the actual definition to keep the reader engaged. -->
+
+**Bioinformatics is the study of information processes in biological systems [@Hesper1970; @Hogeweg2011].** <!-- This is a clear and concise definition. Consider following this up with an example that illustrates how this definition applies to your work. -->
+
+**A bioinformatician may read that information from DNA with genomics or meta-genomics.** <!-- This sentence is fine but could be more informative if you briefly explain how bioinformaticians extract and interpret this information. -->
+
+**We study how that information is transmitted within cells via RNA perhaps, and across millions of years of evolution.** <!-- This is a good point, but you could expand it by mentioning specific bioinformatics techniques used to study these processes, such as sequence alignment, phylogenetic analysis, or RNA-Seq. -->
+
+**We study how information is used to make proteins with proteomics and structural bioinformatics.** <!-- Again, this is a good point, but it could be enhanced by briefly mentioning specific tools or methods used in proteomics and structural bioinformatics, such as mass spectrometry or molecular modeling. -->
+
+**We study how information is used to make decisions in a cell.** <!-- This is an intriguing statement. Consider expanding on this by providing an example of how bioinformatics can reveal decision-making processes in cells, perhaps in the context of gene regulation or signal transduction pathways. -->
+
+**And how this all fits together in a biological system.** <!-- This is a strong concluding statement for this section, but it would be even more effective if you briefly mention how your research on _Azolla_ integrates these different aspects of bioinformatics. -->
+
+**In this work, we use bioinformatics to inquire the information storage or processing of _Azolla_ and associated microbes.** <!-- This is a good summary of your bioinformatics approach. You might enhance it by providing a specific example from your research that illustrates how bioinformatics was used to reveal new insights into the _Azolla_ symbiosis. -->
+
+**This does come down to a lot of computer work and number crunching, counting of molecules and comparing their sequences to each other.** <!-- This sentence reinforces the earlier points, but consider rephrasing to maintain a focus on the biological significance of these activities, rather than the mechanical aspects of the work. -->
+
+**But the tedious counting of molecules is a means to an end: understanding the system as a whole.** <!-- This is a strong statement that emphasizes the ultimate goal of your work. It might be helpful to link this directly to the broader themes of your thesis, such as the systems biology perspective on symbiosis. -->
+
+**I do not claim to address all listed bioinformatics questions for the _Azolla_ symbiosis, and certainly not that I understand the system as a whole.** <!-- This is a humble and realistic statement, but you might want to frame it more positively by emphasizing the specific contributions your work does make toward understanding the _Azolla_ symbiosis. -->
+
+**Instead, I mean to set the context in which I am working.** <!-- This sentence could be made more specific by briefly describing the context in which your work fits, such as the current state of knowledge on _Azolla_ symbiosis and the role of genomics in advancing this knowledge. -->
+
+**It is a point on the horizon that we are travelling towards.** <!-- This is a poetic statement, but consider rephrasing it to make it clearer and more direct, e.g., "It is a long-term goal that my research is helping to move towards." -->
+
+**Genomic knowledge and know-how of the system, is merely a step towards that end-goal of system understanding.** <!-- This is a strong concluding sentence that ties your work back to the broader goals of systems biology. Consider linking it to specific research questions or hypotheses addressed in your thesis. -->
+
+---
+
+### Final Comments:
+
+The methodology section of your introduction effectively sets the stage for the detailed research described in your thesis. It provides a clear overview of the bioinformatics
 
 ## Genomics for breeding novel crops
 
@@ -709,7 +741,7 @@ I committed to writing read-me files in project folders and documenting changes 
 Biological results, interpretations, and speculations I kept in a note-taking piece of software. 
 This dislodged the interpretation from the data files, but allows for more natural combining of results and ideas from various coding projects.
 
-<!-- some of the tools and good practices? jupy and R servers, web bases, notebooks!, small shared facility for students and staff to work on. -->
+<!-- some of the tools and good practices? jupy and R servers, web bases, notebooks!, small shared facility for students and staff to -->
 
 I am quite content with what we have achieved with _Azolla_ genomics.
 Especially considering the lab started from scratch only in 2014, and despite al limitations and challenges posed to us in my almost 7 years at the lab as a student, PhD candidate and part-time teacher.
