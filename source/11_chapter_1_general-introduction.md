@@ -563,104 +563,67 @@ Genomic knowledge and know-how of the system, is merely a step towards that end-
 
 ## Genomics for breeding novel crops
 
-**The practical use of bioinformatics in breeding needs little defense.**
-<!-- This opening statement sets the stage effectively, but it could be improved by briefly mentioning specific advances or successes in bioinformatics-driven breeding, which would naturally lead into the subsequent discussion. -->
-**Traditionally, plant breeding relied on phenotypic selection over multiple generations.**
-<!-- This sentence introduces the historical context well. However, it could benefit from immediately connecting this to the challenges of this approach, such as time consumption and variability in outcomes, which you then discuss in the following sentence. -->
-**This process can take decades or lifetimes depending on how fast a plant can produce offspring.**
-<!-- This is a strong continuation, highlighting the limitations of traditional breeding. It might be useful to mention here how such long timelines can hinder the rapid development of crops in response to new agricultural challenges. -->
-**However, with the advent of genomics and bioinformatics, this timeline can be drastically sped-up.**
-<!-- This sentence transitions well to modern methods. You might consider briefly noting how specific bioinformatics tools or techniques, like CRISPR or next-generation sequencing, have contributed to this acceleration, which will set up the discussion of these tools later. -->
-**Massive genome sequencing projects have enabled precision trait selection via techniques such as GWAS.**
-<!-- This sentence introduces an important technique. However, since GWAS may not be familiar to all readers, a brief explanation here or in a parenthetical could help maintain the flow while ensuring clarity. -->
-**Sequencing a cross' offspring enables accelerating breeding cycles.**
-<!-- This follows logically from the previous sentence, but it could be enhanced by explaining how sequencing informs decisions on which traits to select, which would tie into the broader theme of precision in modern breeding. -->
-**Finally, genomics has enabled molecular biologists to begin to unravel the regulatory networks that govern a crop's growth.**
-<!-- This is a critical point, but it would be more impactful if followed by an example of a specific regulatory network or pathway that has been elucidated, thus illustrating the practical applications of these genomic insights. -->
-**Despite this acceleration, breeding via crossing offspring is still slow and even detrimental to a crop's gene pool.**
-<!-- This sentence introduces a key challenge in breeding. It would be beneficial to expand slightly on why reduced genetic diversity is problematic, setting up the need for newer methods that maintain or even enhance genetic variability. -->
-**Repeated selection of certain traits has diluted out genetic variation in crops.**
-<!-- This is a crucial observation that connects directly to the previous sentence. A brief example of a crop that has suffered from reduced genetic diversity would reinforce this point and smoothly transition to discussing solutions. -->
-**The reduced gene pool has led to tastier crops and bigger yields, but also made crops vulnerable to biotic and abiotic stresses.**
-<!-- This sentence effectively presents the trade-offs in traditional breeding. To deepen the impact, consider mentioning specific types of stresses (e.g., disease, drought) and how these vulnerabilities have manifested in real-world scenarios. -->
-**Reintroducing these traits of wild, non-domesticated strains via traditional crossing is challenging and slow.**
-<!-- This sentence connects well to the problem of reduced genetic diversity. To strengthen the argument, it might be useful to briefly touch on why traditional crossing is slow and how modern techniques could address this, leading into the next point. -->
-**However, with bioinformatic insights and modern molecular breeding, a solution is at hand.**
-<!-- This is a strong transition. To maintain the momentum, consider specifying what these "bioinformatic insights" might include, such as genome-wide association studies or marker-assisted selection, which would tie back to earlier mentions of GWAS. -->
-**As a response to the genetic variation problem, researchers identified several key genes that needed disabling for the domestication of tomato.**
-<!-- This example is well-placed and effectively illustrates the application of genomics in breeding. It would be even more impactful if followed by a brief explanation of how these genes were identified, perhaps linking back to bioinformatic methods discussed earlier. -->
-**They took a wild tomato variety and disabled these genes with gene-editing techniques [@Li2018b].**
-<!-- This sentence is clear, but the impact could be enhanced by briefly mentioning the specific gene-editing technique used, such as CRISPR, which would also serve to educate readers less familiar with these technologies. -->
-**The result was an edible tomato, not quite up to commercial standards, but edible non-the-less.**
-<!-- This is an interesting outcome that highlights both the successes and limitations of early efforts. It might be useful to briefly discuss what specific improvements are needed to meet commercial standards, setting up the broader discussion of crop domestication. -->
-**Millennia of selection and crossing were reproduced in the lab in a matter of months.**
-<!-- This is a powerful statement that underscores the potential of modern techniques. To build on this, consider adding a sentence that speculates on how such rapid progress could revolutionize breeding practices across different crops, including _Azolla_. -->
-**Additionally, this allows for keeping more genetic variability in the novel tomato variety's gene pool.**
-<!-- This is a key advantage that addresses earlier concerns about genetic diversity. To reinforce the point, you could briefly mention how maintaining genetic variability contributes to resilience against environmental changes and diseases. -->
-**When researching novel crops, we should be inspired by this story.**
-<!-- This motivational statement works well, but it could be made more specific by linking it directly to your research on _Azolla_, suggesting that similar methods could be applied to enhance its domestication. -->
-**A process similar to that of tomato was achieved in an orphan crop, ground cherry; a species relatively close to tomato [@Lemmon2018a].**
-<!-- This is a good additional example that reinforces your argument. However, it might be helpful to define what an "orphan crop" is for readers who might not be familiar with the term, thus making the example more accessible. -->
-**With knowledge of domestication gene targets in tomato, the orphaned crop's undesirable characteristics were gene-edited.**
-<!-- This sentence continues the narrative effectively. It might be strengthened by specifying what the "undesirable characteristics" were, which would provide a clearer picture of the improvements achieved. -->
-**The process resulted in a higher-yielding crop, without loss of the genetic diversity and stress resilience of the wild crop.**
-<!-- This is an important outcome that ties back to earlier concerns about genetic diversity. It could be enhanced by briefly discussing the broader implications of maintaining stress resilience in the context of climate change or other environmental pressures. -->
-**It must be noted that _Azolla_ researchers lack a genome assembly and genomic understanding of the quality of tomato.**
-<!-- This is a critical caveat that appropriately tempers expectations. To make it more impactful, consider elaborating on how this gap in knowledge limits current breeding efforts for _Azolla_ and what steps could be taken to address it. -->
-**More importantly, we lack gene editing tools that are essential in the tomato example.**
-<!-- This sentence further highlights the challenges. It could be improved by briefly discussing which specific tools are missing and how developing these tools could unlock new possibilities for _Azolla_ research. -->
-**But these examples demonstrate that with the right genomic insight, and a robust gene-editing protocol, domestication of novel crops is around the corner.**
-<!-- This is a strong and optimistic conclusion to this section. You might strengthen it by directly linking it to your own research, suggesting how your work contributes to laying the groundwork for such advances in _Azolla_. -->
-**Future researchers might be able to work on _Azolla_'s lesser-than-optimal traits with gene editing backed by genomics [@Schluepmann2022].**
-<!-- This is a forward-looking statement that naturally follows the previous discussion. To enhance its impact, consider specifying which "lesser-than-optimal traits" are most pressing and how addressing them could make _Azolla_ a more viable crop. -->
-**They could try to increase its palatability, reduce its invasiveness, and increase its pest resistance, for example.**
-<!-- This sentence provides concrete examples of potential improvements. To deepen the discussion, you could briefly touch on the challenges associated with each of these goals and how genomics might help overcome them. -->
-**Control of the reproductive cycle of a plant is essential for its domestication (See chapter \ref{it_takes_two}).**
-<!-- This sentence introduces an important aspect of breeding. To strengthen the connection to the rest of the discussion, you might explain why controlling the reproductive cycle is particularly challenging for _Azolla_ and how genomic insights could help. -->
-**With genomic knowledge, the pathways involved in reproduction may be better understood and possibly manipulated.**
-<!-- This is a logical continuation. To make it more concrete, consider providing a specific example of a reproductive pathway that could be targeted, which would tie into the broader theme of using genomics for crop improvement. -->
-**Before any reader is disappointed, this thesis is not describing editing of either the fern or the symbionts.**
-<!-- This sentence sets clear expectations for the reader. It might be more effective if rephrased to maintain a formal tone, such as "It is important to clarify that this thesis does not focus on genetic editing of either the fern or its symbionts." -->
-**My colleagues have tried, and made small steps forward, but did not achieve robust genetic editing.**
-<!-- This is an honest and realistic statement. To add value, you could briefly discuss the nature of these small steps and what challenges still need to be overcome, providing a clear picture of the current state of research. -->
-**These advanced techniques need a genomic basis to be achieved.**
-<!-- This is a critical point that reinforces the importance of foundational research. You might enhance it by specifying what kind of genomic data is needed, such as high-quality genome assemblies or functional annotations, and how these would directly support the development of gene-editing protocols. -->
-**That basis, the genomics of the _Azolla_ symbiosis, is what I work on in this thesis.**
-<!-- This sentence effectively ties your research to the broader goals discussed. To make it more impactful, you could briefly mention how the genomic insights you are generating will contribute to overcoming the challenges mentioned earlier. -->
-**When I joined the _Azolla_ lab in my Masters, I extracted and transported the DNA that would later be sequenced and assembled into the first _Azolla filiculoides_ genome by [@Li2017].**
-<!-- This personal anecdote adds a human element to the narrative, which is engaging. However, to maintain a clear focus, it might be helpful to briefly explain how this experience influenced your research trajectory and what specific role you played in the genome assembly process. -->
-**The _Azolla filiculoides_ genome was the first fern ever to have its genome sequenced.**
-<!-- This is a significant milestone. To underscore its importance, consider mentioning the broader implications of having this genome available for fern research and how it opens up new possibilities for studying _Azolla_ and related species. -->
-**In this thesis, we use that genome for gaining insight in the workings of _Azolla_.**
-<!-- This is a clear statement of purpose. It would be beneficial to elaborate slightly on what specific aspects of _Azolla_'s biology you are investigating using the genome, linking it back to the broader goals of your research. -->
-**We relate it to existing knowledge of other crops, and speculate how we may use it in the future to manipulate the symbiosis.**
-<!-- This sentence effectively transitions to future applications. To make the connection stronger, consider providing a specific example of how insights from other crops have informed your understanding of _Azolla_ and what specific manipulations might be possible as a result. -->
-**Studying fern genomics is a special challenge, for we have no other ferns' genome to compare with.**
-<!-- This sentence introduces an important challenge. It could be improved by briefly discussing the implications of this lack of comparative data, such as difficulties in identifying gene functions or evolutionary relationships, and how you plan to address this challenge in your research. -->
-**To uncover the function of any gene, we employ phylogenetics.**
-<!-- This is a good introduction to your methodological approach. You might enhance it by briefly explaining why phylogenetics is particularly useful in this context, especially given the challenges mentioned in the previous sentence. -->
-**By comparing DNA sequences of many versions of the same gene, we can calculate the probable evolutionary history of those sequences.**
-<!-- This sentence clearly explains the method. To strengthen the connection to your broader research, consider adding a sentence that discusses how understanding the evolutionary history of genes can inform their functional annotation and relevance to the _Azolla_ symbiosis. -->
-**This allows us to infer the function of a protein-coding sequence in the context of others.**
-<!-- This is a logical continuation. To deepen the reader's understanding, you could briefly mention how these functional inferences are validated or what additional steps might be needed to confirm the predicted functions. -->
-**In chapter \ref{one_two_tree} I describe this method in more detail.**
-<!-- This sentence directs the reader to further details, which is useful. To maintain the narrative flow, you might want to briefly preview what readers can expect to learn from that chapter, such as specific examples of genes whose functions were inferred using phylogenetics. -->
-**Breeding targets can be selected once the probable function of several _Azolla_ genes is established, and a gene editing protocol is in working order.**
-<!-- This sentence effectively ties the discussion of gene function to practical outcomes. To make it more concrete, consider mentioning what specific traits or pathways might be targeted for improvement once these functions are established. -->
-**Possible targets may include genes for yield stability and pest resistance.**
-<!-- This is a good start to specifying potential targets. It might be even stronger if you briefly discuss why these particular traits are important for _Azolla_ and how improving them could enhance its viability as a crop. -->
-**Alternatively, undesirable compounds may be removed, and desirable ones may be made more abundant.**
-<!-- This sentence adds further potential applications. To deepen the discussion, consider providing examples of specific undesirable compounds in _Azolla_ that might be removed, and what desirable traits could be enhanced, tying this back to the goals of crop domestication. -->
-**Nutrient acquisition and accumulation of, for example, phosphorus may be enhanced.**
-<!-- This is a specific example that helps ground the discussion. To build on this, you could briefly explain why enhancing phosphorus accumulation is particularly beneficial and how it ties into broader agricultural or environmental goals. -->
-**Since growing gene-edited crops remains controversial, it remains a research tool for now.**
-<!-- This is an important point to acknowledge. To enrich the discussion, consider briefly mentioning the nature of the controversies surrounding gene-edited crops, such as regulatory, ethical, or public perception issues, and how these might impact the application of your research. -->
-**Removing a gene, or making it overactive remains the standard way to prove the function of any one gene.**
-<!-- This sentence explains a key aspect of gene function validation. To strengthen the narrative, you might briefly mention how this approach fits into the broader research process, such as by leading to potential applications or further experimentation. -->
-**Establishing a gene editing protocol in _Azolla_ will provide the research community with a tool to do functional genomics in ferns backed by the context of the _Azolla_ genome.**
-<!-- This is a strong statement of the potential impact of your work. To add depth, consider discussing how such a protocol could open up new research avenues not just for _Azolla_, but for other ferns or related plants as well. -->
-**The only fern in which any kind of DNA modification has been established, does not have a genome sequence available.**
-<!-- This is a critical point that underscores the novelty and importance of your work. To tie it back to the broader discussion, you could briefly mention how having a genome sequence available for _Azolla_ not only aids in functional genomics but also positions _Azolla_ as a model system for fern research. -->
+The practical use of bioinformatics in breeding needs little defense.
+Traditionally, plant breeding relied on phenotypic selection over multiple generations.
+This process can take decades or lifetimes depending on how fast a plant can produce offspring.
+However, with the advent of genomics and bioinformatics, this timeline can be drastically sped-up.
+For example, massive genome sequencing projects have enabled precision trait selection via techniques such as GWAS.
+Sequencing a cross' offspring enables accelerating breeding cycles.
+Finally, genomics has enabled molecular biologists to begin to unravel the regulatory networks that govern a crop's growth.
+<!-- GPT: This is a critical point, but it would be more impactful if followed by an example of a specific regulatory network or pathway that has been elucidated, thus illustrating the practical applications of these genomic insights. -->
+Despite this acceleration, breeding via crossing offspring is still slow and even detrimental to a crop's gene pool.
+Repeated selection of certain traits has diluted out genetic variation in crops.
+The reduced gene pool has led to tastier crops and bigger yields, but also made crops vulnerable to deseases, droughts or flooding.
+<!-- needs reference -->
+Reintroducing these traits of wild, non-domesticated strains via traditional crossing is challenging and slow.
+However, with bioinformatic insights and modern molecular breeding, a solution is at hand.
+As a response to the genetic variation problem, researchers identified several key genes that needed disabling for the domestication of tomato.
+They took a wild tomato variety and disabled these genes with gene-editing techniques, specifically CRISPR-Cas9 [@Li2018b].
+The result was a tomato very similar to standard domesticated commercial tomatoes.
+Millennia of selection and crossing were reproduced in the lab in a matter of months.
+Except that this de-novo domesticated tomato had better disease and salt tolerance than its commercial counterpart.
+Additionally, this technique allows for keeping more genetic variability in the novel tomato variety's gene pool.
+
+When researching novel crops like _Azolla_, we should be inspired by this story.
+A process similar to that of tomato was achieved in an orphan crop, ground cherry; a species relatively close to tomato [@Lemmon2018a].
+With knowledge of domestication gene targets in tomato, the orphaned crop's undesirable characteristics were gene-edited.
+Again, the process resulted in a higher-yielding crop, without loss of the genetic diversity and stress resilience of the wild crop.
+It must be noted that _Azolla_ researchers lack a genome assembly and genomic understanding of the quality of tomato.
+More importantly, we lack gene editing tools that are essential in the tomato example.
+But these examples demonstrate that with the right genomic insight, and a robust gene-editing protocol, domestication of novel crops is around the corner.
+With insight into the reproduction and genomics of the _Azolla_ symbiosis, this work might contribute to its future domestication.
+
+Future researchers might be able to work on _Azolla_'s lesser-than-optimal traits with gene editing backed by genomics [@Schluepmann2022].
+They could try to increase its palatability, reduce its invasiveness, and increase its pest resistance, for example.
+Control of the reproductive cycle of a plant is essential for its domestication (See chapter \ref{it_takes_two}).
+This is especially challenging since _Azolla_ is a fern which preserves its endophytic microbiome in spores.\
+With genomic knowledge, the pathways involved in reproduction may be better understood and possibly manipulated.
+It is important to clarify that this thesis does not focus on genetic editing of either the fern or its symbionts.
+My colleagues have tried, and made small steps forward, but did not achieve robust genetic editing.
+These advanced techniques need a genomic basis to be achieved, such as a high quality genome and functional annotation.
+That basis, the genomics of the _Azolla_ symbiosis, is what I work on in this thesis.
+When I joined the _Azolla_ lab in my Masters, I extracted and transported the DNA that would later be sequenced and assembled into the first _Azolla filiculoides_ genome by [@Li2017].
+It was a small role in a big consortium, but it further cemented my enthusiasm to work on _Azolla_ genomics.
+The _Azolla filiculoides_ genome was the first fern ever to have its genome sequenced together with _Salvinia cuculata_
+In this thesis, we use that genome for gaining insight in the workings of _Azolla_.
+We relate it to existing knowledge of other crops, and speculate how we may use it in the future to manipulate the symbiosis.
+Studying fern genomics is a special challenge, for we have no other ferns' genome to compare with.
+This complicates verification of genes their function and their evolutionary relationship to seedplant and non-seedplant counterparts.
+To uncover the function of any gene, we employ phylogenetics.
+By comparing DNA sequences of many versions of the same gene, we can calculate the probable evolutionary history of those sequences.
+This allows us to infer the function of a protein-coding sequence in the context of others.
+To be sure, proper verification in the lab is required.
+In chapter \ref{one_two_tree} I describe our phylogenetic method in more detail with several examples.
+Breeding targets can be selected once the probable function of several _Azolla_ genes is established, and a gene editing protocol is in working order.
+Possible targets may include genes for yield stability and pest resistance.
+Alternatively, undesirable compounds like tannins may be removed or reduced, and desirable ones may be made more abundant.
+Nutrient acquisition and accumulation of, for example, phosphorus may be enhanced.
+
+Since growing gene-edited crops remains controversial, it remains a research tool for now.
+Removing a gene, or making it overactive remains the standard way to prove the function of any one gene.
+Establishing a gene editing protocol in _Azolla_ will provide the research community with a tool to do functional genomics in ferns backed by the context of the _Azolla_ genome.
+The only fern in which any kind of DNA modification has been established, does not have a genome sequence available.
+Having _Azolla_ its genome sequence available, as well as storage and reproduction protocols, positions the fern as a non-seedplant model organisms.
 
 <!-- 
 High-throughput sequencing and advanced computational tools allow breeders and researchers to dissect the genetic basis of complex traits, enabling more efficient selection and breeding strategies
@@ -680,63 +643,40 @@ With GMO and gene editing technology, these insights can be tested in a living p
 ## Genomics for breeding a symbiosis
 
 Molecular breeding began with the study of DNA; a field that was later called genomics.
-<!-- This opening sentence effectively sets the historical context for the discussion. To make the transition smoother, you could briefly mention how genomics laid the foundation for more advanced techniques like metagenomics, which are central to this section. -->
 It is then only logical to begin symbiosis breeding with meta-genomics.
-<!-- This sentence follows logically from the previous one, but to strengthen the connection, consider explaining why metagenomics is particularly well-suited for studying symbiosis, perhaps by mentioning its ability to analyze complex microbial communities. -->
-Metagenomics is the study of all DNA associated with any organ or organism.
-<!-- This is a clear definition. However, to enhance the reader's understanding, it might be helpful to briefly contrast metagenomics with other genomic techniques, such as single-organism genomics, to highlight what makes metagenomics unique. -->
-It differs from microbiome profiling.
-<!-- This is an important distinction. To clarify the difference further, consider briefly describing what microbiome profiling entails (e.g., 16S rRNA gene sequencing) and why metagenomics offers a more comprehensive view. -->
+Metagenomics is the study of all DNA associated with any organ or organism, where genomics is the study of a single organism.
+Metagenomics differs from microbiome profiling.
 The latter are most often 16S marker gene studies.
-<!-- This sentence correctly identifies a common method used in microbiome profiling. It could be more impactful if you explain that 16S studies typically provide only taxonomic information, whereas metagenomics reveals functional potential by analyzing the entire genome. -->
-These only provide insight into what organisms are associated with a certain organ or organism.
-<!-- This sentence succinctly explains the limitation of 16S studies. To enhance the comparison, you might add that metagenomics allows for the reconstruction of microbial genomes, offering insights into metabolic pathways and interactions within the symbiosis. -->
+These only provide insight into the taxonomy of organisms associated with a certain organ or organism.
 Metagenomics aims to reconstruct the full genomes of all those organisms, revealing their full metabolic potential.
-<!-- This is a strong statement that highlights the advantages of metagenomics. To deepen the discussion, you could mention that this approach not only identifies "who is there" but also "what they are capable of doing," which is crucial for understanding symbiosis. -->
-With metagenomics, we can investigate the toolkit of all symbionts associated with a certain host, and better understand their function.
-<!-- This sentence ties the methodology to the broader research goals effectively. To reinforce this, you could provide a brief example of how understanding the metabolic toolkit of symbionts could inform breeding strategies for improving symbiotic efficiency or resilience. -->
-By sequencing the genomes of both the host and the symbiont, researchers can identify genes involved in key symbiotic functions.
-<!-- This sentence is clear and informative. To strengthen the narrative, consider specifying what key symbiotic functions you are particularly interested in, such as nutrient exchange or stress tolerance, and how identifying these genes could directly impact breeding efforts. -->
-These can include nutrient exchange, stress tolerance, and pathogen resistance.
-<!-- This is a good list of functions. To add depth, you could briefly explain why these particular functions are important for the success of a symbiosis and how improving them could benefit the host plant. -->
+With metagenomics, we can investigate the gene toolkit of all symbionts associated with a certain host, and better understand their function.
+
+By sequencing the genomes of both the host and the symbiont, researchers can hypothesise which genes are involved in symbiotic functions.
+These can include genes involved in nutrient exchange, stress tolerance, and pathogen resistance.
 The genes and pathways that are present or absent allow for directed hypothesis generation.
-<!-- This is a strong statement that connects genomic data to the research process. To enhance the impact, consider providing an example of a specific hypothesis that could be generated from metagenomic data in the context of symbiosis breeding. -->
 For example, it allows us to investigate any microbe's metabolic potential and relate this to that of other microbes' or to the host's metabolism.
-<!-- This sentence provides a concrete example of how metagenomic data can be used. To deepen the discussion, you could briefly mention how this information could be used to select or engineer symbionts that complement the host's metabolic needs, thereby enhancing the symbiosis. -->
 In the _Azolla_ symbiosis specifically, we hypothesize that symbiosis partners may actually leach off nitrogen fixed by _T. azollae_ in chapter \ref{foul_play}.
-<!-- This sentence ties your research directly to the thesis, which is effective. To make the hypothesis clearer, you might briefly explain the potential significance of nitrogen leaching in the symbiosis and how this could influence breeding strategies. -->
+These foul players might actually be parasites rather than mutualists.
 In the future, metagenomic insights may allow for the targeted manipulation of genes in symbionts to enhance some performance or plant productivity.
-<!-- This is a forward-looking statement that effectively connects metagenomics to practical applications. To strengthen this point, you could mention specific traits or functions that could be targeted for enhancement, such as improving nitrogen fixation or increasing stress tolerance. -->
+Cyanobacteria may accumulate more phosphorus for example for when this nutrient becomes scarce, or parasites may be removed from the system.
 Alternatively, understanding the niche of any microbe in a consortium, one might be able to swap out one microbe for another to add or remove metabolic potential.
-<!-- This is an intriguing idea that adds a layer of complexity to the discussion. To clarify, consider briefly discussing the challenges associated with swapping microbes, such as ensuring the stability of the microbial community or the compatibility of the new microbe with the host. -->
+Microbiome editing is a new and challenging field, we are often unaware of the many ecological relations between microbiome members [@Albright2022].
+
 Microbiome editing is a field much younger than editing single organisms.
-<!-- This sentence introduces the concept of microbiome editing well. To enhance the discussion, you could briefly explain what makes microbiome editing more challenging compared to editing single organisms, such as the complexity of interactions within the microbial community. -->
 Even when working with a single strain of a single organism, successful editing is rare.
-<!-- This statement emphasizes the difficulty of genetic editing. To build on this, you might mention specific factors that contribute to the rarity of successful editing, such as off-target effects or difficulties in delivering editing tools to the target cells. -->
 A protocol to do so often includes steps to kill or remove cells that were not edited.
-<!-- This is a good explanation of a key challenge in genetic editing. To deepen the discussion, consider mentioning the implications of this need for selective pressure, such as potential impacts on the viability or functionality of the edited organism. -->
-When editing a microbiome, or genes of a microbiome member, we must first assume we can grow this microbe in isolation.
-<!-- This sentence introduces a critical assumption in microbiome editing. To strengthen the point, you might briefly discuss why isolating and culturing symbiotic microbes can be particularly challenging and how this impacts the feasibility of microbiome editing. -->
-Then assume that a transformation or editing protocol is available.
-<!-- This is a logical next step in the process. To add depth, consider explaining the challenges of developing such protocols, particularly for non-model organisms or microbes that are difficult to culture. -->
+When editing a microbiome, or genes of a microbiome member, we must first assume we can grow this microbe in isolation while we now most microbes cannot.
+Then assume that a transformation or editing protocol is available, which is rarely the case for non-model organisms.
 And finally assume that the newly transformed strain can replace the original and retake the niche of its wild type predecessor.
-<!-- This is an important consideration. To enhance the discussion, you could mention the factors that influence whether a transformed strain can successfully establish itself within an existing microbial community, such as competition with other microbes or compatibility with the host environment. -->
 An alternate approach is taking a similar strain or species with desired traits, and introducing it into an existing consortium.
-<!-- This alternative approach is well-explained. To enrich the narrative, you might discuss the potential advantages and disadvantages of this approach compared to directly editing existing community members, such as ease of implementation versus potential ecological impacts. -->
 This is a challenging process and requires insights into the consortium's ecology to succeed [@Albright2022; @Bai2023].
-<!-- This sentence effectively emphasizes the complexity of microbiome editing. To build on this, you could briefly mention what specific ecological insights are necessary, such as understanding the interactions between microbes or the role of environmental factors in shaping the community. -->
+
 For _Azolla_ specifically, we have managed to grow several strains of bacteria in isolation (unpublished results).
-<!-- This is a significant achievement that contributes directly to the feasibility of microbiome editing in _Azolla_. To strengthen the point, consider briefly discussing what insights or advantages were gained from being able to culture these bacteria, and how this will inform future research efforts. -->
 We have not yet managed to re-introduce microbes to the _Azolla_ leaf pockets.
-<!-- This sentence honestly acknowledges a current limitation. To enhance the narrative, you could discuss the challenges encountered in attempting to re-introduce microbes and what steps you plan to take to overcome these hurdles. -->
 This is an essential step to stably modify the _Azolla_ microbial community.
-<!-- This sentence highlights the importance of re-introducing microbes. To deepen the discussion, you might explain why stable modification of the microbial community is critical for achieving the goals of symbiosis breeding, such as enhancing specific symbiotic functions. -->
 While _Azolla_ microbiome editing is a spectacular perspective of what might be possible in the future, we are not there yet.
-<!-- This sentence sets realistic expectations. To maintain momentum, you could follow up with a brief discussion of the next steps or research goals that need to be achieved to move closer to this future possibility. -->
 Instead, I focus here on identifying and describing the symbiosis partners.
-<!-- This is a clear statement of your current research focus. To tie it back to the broader discussion, you might explain how identifying and characterizing these partners lays the groundwork for future manipulation or enhancement of the symbiosis. -->
 Specifically in chapter \ref{forever_together}, I use sequencing data of several _Azolla_ species to retrieve microbial genomes associated with _Azolla_ as a whole genus.
-<!-- This sentence effectively directs the reader to a specific chapter for more detailed information. To strengthen the narrative, consider briefly summarizing the key findings or insights from this work and how they contribute to the overall goals of your research. -->
 We later venture into meta-transcriptomics to inquiry what the active processes are in these microbes, but gain little signal to what genes are active in these microbes (Chapter \ref{it_takes_two}).
 
 <!-- Match generalness and Azolla-specificness of the last two sections to each other. I guess that's not the case now. -->
@@ -746,65 +686,41 @@ We later venture into meta-transcriptomics to inquiry what the active processes 
 ## Introducing bioinformatics to a lab
 
 The _Azolla_ lab was housed in the molecular plant physiology group at Utrecht University before the former two were dissolved.
-<!-- This opening sentence provides necessary context about the lab's history. To make it more relevant to the methodology, consider briefly mentioning the lab's initial focus and how the transition to incorporating bioinformatics began. -->
+In its early days, the focus was on optimising growth and working on extracts of the _Azolla_ biomass.
 It was quite a challenge to introduce bioinformatics techniques to a small lab of at most three employees with no bioinformatics history.
-<!-- This sentence effectively introduces the challenges faced. To enhance the narrative, you could briefly describe the specific obstacles, such as the lack of computational resources or expertise, which would set up the discussion of how these were overcome. -->
 This process started already during my Masters, when I started working on _Azolla_.
-<!-- This personal connection adds depth to the narrative. To strengthen the point, consider elaborating on how your involvement during your Master’s degree influenced the lab's decision to incorporate bioinformatics, perhaps by highlighting a specific project or outcome. -->
 It was a challenge in means of infrastructure, like storage and computing power.
-<!-- This sentence identifies key logistical challenges. To enrich the discussion, you could mention how these challenges were addressed, such as through securing funding, collaborating with other groups, or acquiring new equipment. -->
 But this was quickly solved with some money from the group to build a computer and with hospitality of the local theoretical biology and bioinformatics group.
-<!-- This sentence effectively explains how the challenges were addressed. To add more detail, you could briefly describe the role of the theoretical biology and bioinformatics group in supporting this transition, whether through shared resources, expertise, or collaborative projects. -->
-The main challenge was building the know-how.
-<!-- This is a critical point. To provide a more comprehensive view, consider discussing the specific types of bioinformatics expertise that were needed, such as programming skills, data analysis techniques, or specific software knowledge, and how these were developed. -->
-As a computer savvy student at the time, with no bioinformatics training whatsoever, I was lucky to attend some PhD courses on bioinformatics techniques.
-<!-- This personal experience adds a relatable element to the narrative. To enhance the impact, you might briefly mention how these courses influenced your approach to bioinformatics in your research and what specific skills or techniques you gained. -->
+The main challenge was building the know-how of basic things: programming skills, handling NGS data, and doing science generally in a computer lab.
+As a computer savvy student at the time, with no bioinformatics training whatsoever, I was lucky to attend some PhD courses on bioinformatics techniques like metagenomics and RNAseq.
 Additionally, I was lucky to get advice from collaborators, specifically those in chapter \ref{foul_play}, and from bioinformaticians and system administrators in the department.
-<!-- This sentence emphasizes the importance of collaboration. To build on this, you could discuss how these collaborations shaped the development of bioinformatics capabilities in the lab, perhaps by providing specific examples of advice or techniques that were particularly valuable. -->
-With some support and enthusiasm, together we managed to publish a first bioinformatics-centered paper within two years after the project started.
-<!-- This is a significant achievement that highlights the rapid progress made. To provide more context, you could briefly summarize the key findings or contributions of this paper, and how it demonstrated the value of integrating bioinformatics into the lab's research. -->
-Later, during my PhD, we diverged the bioinformatics toolkit of the lab quite a bit.
-<!-- This sentence indicates further development of the lab's capabilities. To deepen the discussion, consider providing examples of specific tools or techniques that were added to the lab's repertoire, and how these expanded the scope of the research that could be conducted. -->
+With some support and enthusiasm, together we managed to publish a first bioinformatics-centred paper (Chapter \ref{foul_play}) within two years after the project started.
+Later, during my PhD, we diverged the bioinformatics toolkit of the lab quite a bit like small RNA sequencing, comparative genomics and nanopore sequencing.
+
 Despite the quick introduction of bioinformatics in the _Azolla_ lab, there was so much work to be done.
-<!-- This sentence acknowledges the ongoing challenges. To maintain the momentum, you could briefly outline the key areas where further development was needed, such as data management, analysis pipelines, or integrating bioinformatics with wet lab work. -->
 As a lab, we wanted to improve upon the annotation of the existing _A. filiculoides_ genome assembly, sequence metagenomes and metatranscriptomes of small experimental _Azolla_ ecosystems (mesocosms), develop meta-transcriptomics or dual-transcriptomics protocols, and many more plans.
-<!-- This sentence provides a comprehensive overview of the lab's goals. To make it more impactful, consider elaborating on why these specific areas were prioritized, how they align with the lab's broader research objectives, and what challenges were anticipated in achieving them. -->
 These bioinformatics techniques would help us answer questions relevant for _Azolla_ domestication and general understanding of the symbiosis.
-<!-- This is a clear statement of purpose. To tie it more closely to the methodology, you could mention how these techniques specifically contribute to addressing the research questions posed in earlier sections, and what outcomes you expect from their application. -->
 But we struggled with the broadness of all these questions.
-<!-- This sentence introduces a key challenge. To provide more insight, consider discussing why the broadness of the questions posed difficulties, such as by requiring diverse expertise, complex data integration, or interdisciplinary approaches, and how you attempted to manage this complexity. -->
 Each technique often requires a different specialized protocol to prepare the experimental material in a proper way.
-<!-- This is an important point that highlights the complexity of the work. To deepen the discussion, you could provide an example of a specific technique and the challenges associated with preparing the material for it, which would illustrate the need for careful planning and coordination. -->
 Preparations of sequencing libraries are costly, as is sequencing itself.
-<!-- This sentence highlights a practical challenge. To enhance the narrative, you could briefly discuss how these costs impacted the lab's research planning or prioritization, and whether any strategies were employed to mitigate these costs, such as through collaborations or funding applications. -->
 Then each technique requires special bioinformatic tools, each with their own manual and intricacies.
-<!-- This sentence emphasizes the technical challenges. To provide more context, consider mentioning how you and your colleagues approached learning and implementing these tools, perhaps by developing standard operating procedures, collaborating with experts, or attending specialized training. -->
 In the end, we did manage as a team to do metagenomics, transcriptomics, small RNA sequencing, and metatranscriptomics.
-<!-- This sentence highlights the success achieved despite the challenges. To deepen the impact, you might briefly summarize the key findings or insights gained from these techniques, and how they contributed to the lab's research goals. -->
 We contributed to a new genome annotation, started to sequence with a nanopore device, and delved into phylogeny.
-<!-- This sentence effectively lists the accomplishments. To enhance the narrative, consider explaining the significance of each achievement, such as how the new genome annotation improved the understanding of _Azolla_, or how nanopore sequencing and phylogenetics added new dimensions to the research. -->
 Even with a small team, and limited experience, a lot is possible.
-<!-- This sentence is an encouraging reflection on the team's achievements. To make it more actionable, you could discuss specific strategies or practices that helped the team succeed, such as fostering a collaborative environment, prioritizing key tasks, or leveraging external resources. -->
 However, without a transformation protocol for any of the symbiosis partners, bioinformatics often remains a descriptive discipline.
-<!-- This sentence acknowledges a limitation in the current work. To provide a more balanced perspective, you might discuss how descriptive bioinformatics still contributes valuable insights, such as by identifying potential targets for future transformation efforts or advancing the understanding of symbiosis mechanisms. -->
+
 As I and my colleagues have struggled with starting bioinformatics in a molecular context, so have our students.
-<!-- This sentence introduces an important consideration regarding education and training. To deepen the discussion, you could briefly describe the specific challenges students faced, such as learning new software, understanding complex data, or integrating bioinformatics with experimental work, and how the lab addressed these challenges. -->
 The _Azolla_ lab was a molecular biology lab, working on a novel crop with lots of opportunities for sustainability-related research.
-<!-- This sentence provides context about the lab's broader mission. To strengthen the connection to the methodology, you might discuss how the lab's focus on sustainability influenced the choice of bioinformatics techniques or research questions, and how these efforts align with broader environmental or agricultural goals. -->
 We have learned the hard way that this does not attract your typical bioinformatics-trained student.
-<!-- This is an honest observation that adds depth to the narrative. To make it more constructive, consider discussing how the lab adapted its approach to attract and train students, perhaps by developing interdisciplinary projects, offering targeted training, or collaborating with bioinformatics departments. -->
 Yet, also students in the lab needed to analyze bioinformatics-related data.
-<!-- This sentence emphasizes the necessity of bioinformatics skills. To enhance the narrative, you could briefly describe how the lab integrated bioinformatics training into student projects, and what resources or support were provided to help students succeed in this area. -->
 The basic biology curriculum contains little coding, and to this day, biology students can easily finish the bachelor with minimal coding experience.
-<!-- This sentence highlights a gap in the education system. To provide more context, you might discuss the implications of this gap for modern biological research, particularly in fields like genomics and bioinformatics, and how the lab has worked to bridge this gap for its students. -->
 With the current increase of datasets their size, this seems undesirable to me.
-<!-- This sentence effectively conveys your concern about the lack of coding skills in biology education. To strengthen the point, consider providing examples of how large datasets are becoming more common in biological research, and why coding skills are essential for handling and analyzing these data. -->
 Teaching students the basics of coding distracts from the biological content of their internships.
-<!-- This sentence introduces a key challenge in training students. To provide a more balanced perspective, you might discuss how the lab has worked to integrate coding instruction with biological research, ensuring that students gain both the necessary technical skills and a deep understanding of their biological projects. -->
 Additionally, it provides a lot of strain on the host lab.
 <!-- This sentence acknowledges the burden on the lab. To enhance the narrative, consider discussing how the lab managed this strain, perhaps by integrating bioinformatics training into the early stages of student projects, providing mentorship, or creating streamlined workflows that allowed students to learn coding in a more structured and less time-consuming way. -->
 But the students still need to be educated to do the bioinformatics work for their internship and later in their careers.
 <!-- This is a crucial point about the necessity of bioinformatics education. To make it more impactful, you could discuss the long-term benefits for students who acquire these skills, such as improved employability and the ability to tackle more complex research questions, thereby motivating the effort required to teach them. -->
+
 What we as a team have learned from these experiences is that introducing bioinformatics into a molecular biology lab is not just about acquiring the necessary tools and infrastructure.
 <!-- This sentence introduces a reflective conclusion, which is valuable. To deepen the reflection, consider adding that it also requires a cultural shift within the lab, where computational work is valued equally with experimental work, and where continuous learning and adaptation are encouraged. -->
 It also involves creating a supportive environment where students and researchers can develop the computational skills needed to analyze the increasingly complex datasets generated in modern biological research.
