@@ -261,7 +261,7 @@ The SAM also harbours a small colony with motile filaments of the cyanobacterium
 Both leaves and sporocarps encapsulate part of the starting colony during growth.
 This process ensures that all leaves have a colony of the symbiont. [@Campbell1893]
 
-Leaf cavity section!
+<!-- Leaf cavity section! -->
 
 Azolla roots can be observed hanging loosely in the water like a thin curtain.
 On time-lapses, the roots were seen swirling and curling.
@@ -578,7 +578,7 @@ More importantly we lack gene editing tools that are essential in the tomato exa
 But these examples demonstrate that with the right genomic insight, and a robust gene editing protocol, domestication of novel crops is around the corner.
 Future researchers might be able to work on _Azolla_'s lesser-than-optimal traits with gene editing backed with by genomics [@Schluepmann2022].
 They could try to increase it palpability, reduce its invasiveness, and increase its pest resistance for example.
-Control of the reproductive cycle of a plant is essential for its domestication (See chapter \ref(it_takes_two)).
+Control of the reproductive cycle of a plant is essential for its domestication (See chapter \ref{it_takes_two}).
 With genomic knowledge, the pathways involved in reproduction may be better understood and possibly manipulated.
 
 Before any reader is disappointed, this thesis is not describing editing of either the fern or the symbionts.
@@ -637,7 +637,7 @@ By sequencing the genomes of both the host and the symbiont, researchers can ide
 These can include nutrient exchange, stress tolerance, and pathogen resistance.
 The genes and pathways that are present or absent allow for directed hypothesis generation.
 For example, it allows us to investigate any microbe's metabolic potential and relate this to that of other microbes' or to the hosts metabolism.
-In the _Azolla_ symbiosis specifically, we hypothesise that symbiosis partners may actually leach of nitrogen fixed by _T azollae_ in chapter \ref(foul_play).
+In the _Azolla_ symbiosis specifically, we hypothesise that symbiosis partners may actually leach of nitrogen fixed by _T azollae_ in chapter \ref{foul_play}.
 In the future, metagenomic insights may allow for the targeted manipulation of genes in symbionts to enhance some performance or plant productivity.
 Alternatively, understanding the niche of any microbe in a consortium, one might be able to swap out one microbe for the other to add or remove metabolic potential.
 
@@ -656,8 +656,8 @@ This is an essential step to stably modify the _Azolla_ microbial community.
 
 While _Azolla_ microbiome editing is a spectacular perspective of what might be possible in the future, we are not there yet.
 Instead, I focus here on identifying and describing the symbiosis partners.
-Specifically in chapter \ref(forever_together) I use sequencing data of several _Azolla_ species to retrieve microbial genomes associated to _Azolla_ as a whole genus.
-We later venture into meta-transcriptomics to inquiry what the active processes are in these microbes, but gain little signal to what genes are active in these microbes (Chapter \ref(it_takes_two)).
+Specifically in chapter \ref{forever_together} I use sequencing data of several _Azolla_ species to retrieve microbial genomes associated to _Azolla_ as a whole genus.
+We later venture into meta-transcriptomics to inquiry what the active processes are in these microbes, but gain little signal to what genes are active in these microbes (Chapter \ref{it_takes_two}).
 
 <!-- Match generalness and Azolla-specificness of the last two sections to each other. I guess that's not the case now. -->
 
@@ -672,7 +672,7 @@ It was a challenge in means of infrastructure, like storage and computing power.
 But this was quickly solved with some money from the group to build a computer and with hospitality of the local theoretical biology and bioinformatics group.
 The main challenge was building the know-how.
 As a computer savvy student at the time, with no bioinformatics training whatsoever, I was lucky to attend some PhD courses on bioinformatics techniques.
-Additionally, I was lucky to get advice from collaborators, specifically those in chapter \ref(fould_play), and from bioinformaticians and system administrators in the department.
+Additionally, I was lucky to get advice from collaborators, specifically those in chapter \ref{foul_play}, and from bioinformaticians and system administrators in the department.
 With some support and enthusiasm, together we managed to publish a first bioinformatics-centred paper within two years after the project started.
 Later, during my PhD, we diverged the bioinformatics toolkit of the lab quite a bit.
 
@@ -708,6 +708,8 @@ In the end, I settled upon splitting the development of code from the interpreta
 I committed to writing read-me files in project folders and documenting changes in version control software like Git.
 Biological results, interpretations, and speculations I kept in a note-taking piece of software. 
 This dislodged the interpretation from the data files, but allows for more natural combining of results and ideas from various coding projects.
+
+<!-- some of the tools and good practices? jupy and R servers, web bases, notebooks!, small shared facility for students and staff to work on. -->
 
 I am quite content with what we have achieved with _Azolla_ genomics.
 Especially considering the lab started from scratch only in 2014, and despite al limitations and challenges posed to us in my almost 7 years at the lab as a student, PhD candidate and part-time teacher.
@@ -796,6 +798,10 @@ The full portfolio is too lengthy to include, so this chapter summarises the ori
 Secondly, an example of teaching material that is completely of my own design is included in **Appendix \ref{metagenomics_practical}** (\nameref{metagenomics_practical} on page \pageref{metagenomics_practical}) as mentioned before.
 In this practical, students do all major steps of chapter \ref{hidden_treasures} in a day or two.
 Finally, I include a short narrative CV on my non-science and non-teaching activities during my PhD and what I gained from them.
+
+
+<!-- add other appendeces  -->
+
 
 <!-- gemini: Clearer Thesis Statement: While the introduction effectively sets the stage for the thesis, a more explicit thesis statement would be helpful. Consider adding a sentence or two at the end of the introduction summarizing the main research questions or objectives of your thesis. -->
 
