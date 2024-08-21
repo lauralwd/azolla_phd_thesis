@@ -4,9 +4,9 @@
 
 # concise rephrasing
 
-> The section on XXXXXXX is too elaborate. Draft me a more concise version that keeps the main points.
+> This section of text is too elaborate. Draft me a more concise version that keeps the main points.
 > 
-> Write output in Markdown like the original text. Write one sentence per line and keep all references in the text.
+> Write in British English. Give output in Markdown code like the original text. Write one sentence per line and keep all references in the text.
 >
 # rewrite section
 
