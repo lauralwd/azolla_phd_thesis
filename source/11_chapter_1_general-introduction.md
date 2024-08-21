@@ -109,69 +109,67 @@ Yet somehow, something so obvious to a first-year biology student becomes an aft
 
 # Symbiosis
 
-Perhaps the study of symbioses takes place in between the ambition of system understanding and the practice of mechanistic research.
-The molecular biology methods common to the reductionist dogma remain the field's standard.
-My colleagues and I want to adhere to that standard, also in this work.
-We need to, for we study a young system.
-The study of a young system requires to first do some groundwork.
-But we should always ask ourselves what our findings mean for the system as a whole.
-Or, more often than not, we are forced to work with the system as a whole.
-This work focuses on an obligate symbiosis.
-Any experimental condition will affect all organisms in the symbiosis, and they influence each other.
-In the context of this thesis, one symbiont without the other is either not viable or deeply unhealthy.
-Studying them in isolation without the perspective of the entire symbiosis risks being short-sighted.
+The study of symbioses may lie at the intersection of system-level understanding and mechanistic research.
+The molecular biology methods associated with reductionist approaches remain standard in this field, and my colleagues and I adhere to these methods in our work.
+This adherence is necessary because we are studying a young system, which requires foundational groundwork.
+However, we should continually question what our findings mean for the system as a whole.
+In many cases, we are compelled to study the system in its entirety.
+This thesis focuses on an obligate symbiosis.
+Any experimental condition affects all organisms involved, and they influence each other.
+In this context, studying one symbiont without the other is either not viable or results in significant health issues.
+Thus, studying them in isolation without considering the entire symbiotic relationship risks being short-sighted.
 
-By definition, symbiosis is a long-term interaction of two or more organisms.
-They often can be categorised as:
+By definition, symbiosis is a long-term interaction between two or more organisms.
+These interactions can often be categorised as:
 
-* mutualism: when all partners benefit
-* commensalism: when one partner benefits, but does not harm others
-* amensalism: when one partner is unaffected, but still at the cost of another
-* parasitism: when one partner benefits at the cost of the others
-* competition: when all partners are harmed by the interaction.
+- Mutualism: when all partners benefit
+- Commensalism: when one partner benefits without harming others
+- Amensalism: when one partner is unaffected, but another is harmed
+- Parasitism: when one partner benefits at the expense of others
+- Competition: when all partners are harmed by the interaction
 
-The general public often assigns a positive connotation to the concept of symbiosis, referring to the first two categories.
-This is not always practical, for the type of interaction is often unknown at first.
-Hence, the time span of an interaction is a more robust approach.
-In this thesis, symbiosis typically refers to the first two categories; congruent with the general sentiment of the word.
-The latter three categories are thought of as general ecological interactions rather than symbioses, in the context of this document.
+The general public often associates symbiosis with positive interactions, typically referring to mutualism and commensalism.
+However, this is not always practical, as the nature of the interaction is often unknown at the outset.
+Therefore, considering the duration of the interaction is a more robust approach.
+In this thesis, symbiosis generally refers to mutualism and commensalism, aligning with the common understanding of the term.
+The latter three categories are considered general ecological interactions rather than symbioses in this context.
 
-## Symbiosis breeding
+## Symbiosis Breeding
 
-The original premise of this PhD project includes thoughts on symbiosis breeding, specifically mutualist or commensalist associations.
-The organisms involved in this study are part of an obligate symbiosis centered on nitrogen acquisition.
-We reasoned that the molecular pathways of host and symbiont would be intricately interconnected.
-Therefore, any breeding efforts should include both the plant and its symbiont.
+The original premise of this PhD project includes considerations of symbiosis breeding, particularly in mutualistic or commensalistic relationships.
+The organisms in this study are part of an obligate symbiosis centred on nitrogen acquisition.
+We reasoned that the molecular pathways of the host and symbiont are intricately interconnected.
+Therefore, any breeding efforts should involve both the plant and its symbiont.
 
-Traditionally, research has focused on breeding plant properties for increased symbiosis functioning, especially in nutrient acquisition.
-Notable examples are root-nodule and mycorrhizzal symbioses [@Liu2020; @Thirkell2022].
-However, breeding the symbiont may be just as crucial, if not more so.
-This requires a systems biology perspective, integrating ecological, physiological, and genomic data.
-While breeding symbioses is challenging, it seems impractical to ignore the symbiont when it plays a central role in the selected traits.
-This approach may seem naive, given the practical and legislative challenges.
+Traditionally, research on improving symbiotic functions focuses on breeding plants.
+Notable examples include root-nodule and mycorrhizal symbioses [@Liu2020; @Thirkell2022].
+However, breeding the symbiont may be equally, if not more, important.
+This requires a systems biology perspective that integrates ecological, physiological, and genomic data.
+While breeding symbioses is challenging, ignoring the symbiont when it plays a central role in the desired traits seems impractical.
+This approach may appear naive, given the practical and legislative challenges.
 
 Breeding symbioses demands a holistic perspective that considers all relevant organisms and their interactions.
 In the literature, this has been referred to as breeding a "holobiont" [@Zilber-Rosenberg2008].
 
-## The holobiont concept
+## The Holobiont Concept
 
 The holobiont concept is a recent proposal in evolutionary biology [@Zilber-Rosenberg2008; @Rosenberg2016].
 It suggests that hosts and their symbionts should be viewed as a single unit of evolutionary selection.
 This idea is particularly relevant in obligate symbioses, where the microbiome is inherited across generations.
-It might be odd even, to argue that systematically inherited DNA should be regarded as a separate evolutionary unit based solely on the compartment it is housed in.
-We rarely find this useful for organelles either, although examples do exist in literature [@Keeling2010; @Perez-Escobar2016].
-The concept opens up thought experiments.
-For example, could the fast-evolving bacterial section of the hologenome provide adaptability to the more static host genome.
-This flexibility might explain the rapid adaptation of microbiomes to their hosts.
+It may even seem odd to argue that systematically inherited DNA should be considered a separate evolutionary unit based solely on the compartment it resides in.
+We rarely find this useful for organelles either, although examples exist in the literature [@Keeling2010; @Perez-Escobar2016].
+The concept invites thought experiments.
+For example, could the rapidly evolving bacterial component of the hologenome provide adaptability to the more static host genome?
+This flexibility might explain the swift adaptation of microbiomes to their hosts.
 
 Critics argue that the concept oversimplifies complex interactions and that existing ecological frameworks are sufficient [@Douglas2016].
-Holobiont members may interact beneficially as well as antagonistically.
-The species composition of a holobiont may vary, challenging the evolutionary pressure exerted on the consortium as a whole.
+Holobiont members may interact both beneficially and antagonistically.
+The species composition of a holobiont can vary, complicating the evolutionary pressures on the consortium as a whole.
 Despite these criticisms, the concept can be useful in certain scenarios, particularly where the host and symbiont are tightly integrated.
-I have not decided on the matter yet, although I am inclined to agree with the critics for most scenarios.
-If we can think of a single gene as an evolutionary unit [@Dawkins2016], then perhaps there is value in considering the holobiont as well.
-Either models will undoubtedly be wrong, but perhaps occasionally insightful.
-However, it is important to use the term carefully, recognizing that it is one of many models to understand symbiosis and co-evolution.
+I have not yet reached a definitive conclusion on this matter, although I am inclined to agree with the critics in most scenarios.
+If we can consider a single gene as an evolutionary unit [@Dawkins2016], perhaps there is also value in considering the holobiont as one.
+Both models are undoubtedly imperfect, but they may occasionally offer valuable insights.
+However, it is important to use the term carefully, recognising that it is one of many models for understanding symbiosis and co-evolution.
 In this thesis, we occasionally use the term holobiont, acknowledging its potential insights while maintaining a cautious perspective.
 
 # The _Azolla_ symbiosis
