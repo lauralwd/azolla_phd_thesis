@@ -331,36 +331,14 @@ Lacking many important metabolic genes, _T. azollae_ likely has a high degree of
 I find the Ran et al. paper essential reading for _Azolla_ symbiosis research.
 It provides the genetic basis for understanding the metabolic potential of the main symbiont of _Azolla_ ferns.
 
-The genes in the _T. azollae_ genome sequence reveal the symbiont's metabolic potential, as well as its lost metabolic potential.
-These features tell us about the workings and evolution of the symbiosis.
-For example, @Ran2010 found pathways for the biosynthesis of phytohormones.
-These pathways may contribute to the growth and development of _Azolla_, indicating a two-way metabolic intertwined-ness between the two.
-Nitrogen gas is fixed with the nitrogenase enzyme into ammonium.
-This costly process is powered by energy and redux from the cyanobacterium's own photosynthesis which remains intact.
-[@Ran2010; @Eily2019; @Ray1979]
-_T. azollae_'s photosynthesis uses a slightly different colour green than the plant does, so they compete less for the same light.
-This association allows _Azolla_ to thrive on nitrogen-poor or even nitrogen-free water.
-In return, _T. azollae_ is thought to get carbon compounds from the host plant.
-
-### Symbiont genome degradation
-
-Genome degradation seems worrisome but it is a normal and well-documented process for obligate symbioses.
-Organelles are extreme examples of this process [@Keeling2010].
-Symbiotic bacteria often lose genes that are unnecessary for their specialised lifestyles.
-In insects, this process is more elaborately studied than in plants, in part due to the strict obligate nature common to these symbioses [@Wernegreen2002].
-For example, the genome of _Buchnera aphidicola_, an endosymbiont of aphids, encodes only essential genes for amino acid synthesis and lost genes involved in DNA repair and regulatory functions [@Chong2019].
-Similarly, _Wigglesworthia glossinidia_, a symbiont of tsetse flies, has a genome of approximately 700 kilobases.
-These 700kb contain genes vital for the biosynthesis of vitamins needed by the fly, but lack many metabolic pathways considered essential for free-living bacteria [@Heller2011].
-In an even more extreme case, _Carsonella ruddii_, the endosymbiont of psyllids, has the smallest known bacterial genome at about 160 kilobases.
-The symbiont has a minimal set of genes required for protein synthesis and essential nutrient production [@Khachane2007].
-These studies exemplify how genome reduction plays a part in symbiont's specialisation and their dependence on their hosts for other needs.
-
-<!-- Should I lose this last paragraph/section? 
-Gemini says lose or integrate in last paragraph.
-Perhaps make it a box?
-GTP: Suggestion: The final paragraph discussing genome reduction could be turned into a figure or table comparing different symbiotic organisms and their genome sizes/reductions.
-
--->
+The genes in the _T. azollae_ genome sequence reveal both its metabolic potential and its lost capabilities, shedding light on the workings and evolution of the symbiosis.
+For example, _T. azollae_ retains pathways for phytohormone biosynthesis, which may contribute to _Azolla_'s growth and development, indicating a metabolic interdependence between the symbiont and the host [@Ran2010]. 
+Nitrogen gas is fixed by the nitrogenase enzyme into ammonium, a process powered by the cyanobacterium's own photosynthesis  [@Ran2010; @Eily2019; @Ray1979].
+_T. azollae_'s photosynthesis uses a slightly different wavelength of light compared to the host, reducing competition and enabling _Azolla_ to thrive in nitrogen-poor environments. 
+However, _T. azollae_'s genome has undergone significant reductive evolution, losing many genes essential for a free-living cyanobacterium, making it highly specialized and dependent on the host. 
+This genome reduction, characterized by a high number of pseudogenes often disrupted by insertion sequences (IS elements), is a common feature in obligate symbioses [@Keeling2010; @Wernegreen2002]. 
+Examples from insect symbioses, such as _Buchnera aphidicola_ in aphids and _Wigglesworthia glossinidia_ in tsetse flies, demonstrate similar patterns of genome degradation, where only essential genes for the symbiotic relationship are retained [@Chong2019; @Heller2011]. 
+These parallels illustrate how genome reduction plays a crucial role in the specialization and dependence of symbionts within their hosts.
 
 ## Ecology
 
