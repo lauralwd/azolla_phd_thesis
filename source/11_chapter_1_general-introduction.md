@@ -654,8 +654,6 @@ There is still much work to do to understand and manipulate the symbiosis, and I
 
 # Outline of this thesis
 
-<!-- GPT: the outline is comprehensive, but consider reducing redundancy in descriptions of each chapter. Focus on the unique contribution of each chapter to avoid overlap. -->
-
 **Chapter \ref{general_intro}** (\nameref{general_intro} on page \pageref{general_intro}) is the current chapter.
 I attempted to take a broader vantage point and less jargon than the remaining chapters.
 A lesser-than-formal tone hopefully made this chapter more fun to read to the broader scientific audience interested in my work.
@@ -731,11 +729,15 @@ Secondly, an example of teaching material that is completely of my own design is
 In this practical, students do all major steps of chapter \ref{hidden_treasures} in a day or two.
 Finally, I include a short narrative CV on my non-science and non-teaching activities during my PhD and what I gained from them.
 
+**Appendix \ref{metagenomics_practical}** details the development of a computer practical on the basics of metagenomics with data and research questions taken from chapter \ref{foul_play}.
 
-<!-- add other appendeces  -->
+**Appendix \ref{portfolio}** contains a personal portfolio of non-research activities during my PhD.
+These activities made my time as a PhD more rounded and representative of the academic experience.
 
-
-<!-- gemini: Clearer Thesis Statement: While the introduction effectively sets the stage for the thesis, a more explicit thesis statement would be helpful. Consider adding a sentence or two at the end of the introduction summarizing the main research questions or objectives of your thesis. -->
+In summary, this thesis aims to explore the intricate symbiosis between _Azolla_ and its cyanobacterial partner _Trichormus azollae_, with a focus on understanding the genomic foundations that underpin this relationship. 
+Through a combination of genomic, metagenomic, and other bioinformatics approaches, this research seeks to shed light on evolution and the molecular mechanisms driving the symbiosis.
+Additionally, we assess the broader microbial community associated with _Azolla_, and evaluate the potential applications of this system in sustainable agriculture.
+By addressing these questions, the work presented here not only contributes to our fundamental understanding of symbioses but also explores practical avenues for harnessing _Azolla_'s unique capabilities in addressing some of the pressing agricultural challenges of our time.
 
 \nolinenumbers
 
