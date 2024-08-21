@@ -302,34 +302,24 @@ The genus name of _Azolla_'s cyanobacterial symbiont has also changed throughout
 
 ## _Anabaena_, _Nostoc_ or _Trichormus_ _azollae_
 
-<!-- The historical debate over the naming of the cyanobacterial symbiont is thorough but could be more concise. Focus on the most relevant points to the thesis. -->
 
-_Azolla_ species form a unique symbiotic relationship with _Trichormus azollae_; the cyanobacterium resides in specialized leaf cavities of the fern.
-The symbiosis main function, from the host-plant perspective, is that _T. azollae_ sequesters di-nitrogen gas from the air and shares this with the host.
-Several papers claim to have cultured _T. azollae_ on standard cyanobacterial media like BG11 [@Franche1985; @Zimmerman1987; @abd2013; @Parente2017].
-We have tried to do reproduce this ourselves, and have talked to scientists better equipped to do so than us.
-Yet all efforts failed.
-Additionally, I find that papers claiming a culturing protocol for _T. azollae_ lack proper checks.
-More often than not, these checks are a PCR for the very common nitrogenase gene, or a visual check for heterocysts common to many genera of cyanobacteria.
-I suspect these works describe cultures of other cyanobacteria, as do others [@Pereira2014; @Ladha1982].
-Some independently sequenced genomes of these cultures showed remarkable genomic resemblance.
-Perhaps other (not per say symbiotic) cyanobacteria are systematically associated to Azolla, and are in fact culturable [@Pratte2021].
-
-Like the organisation of the Nostocaceae family, the genus name of _T azollae_ is also up for debate [@Pereira2014; @Baker2003].
-In most work of our lab, we write _Nostoc azollae_ when we refer to the symbiont.
-_N. azollae_ has undergone multiple reclassifications due to advances in phylogenetics.
-Traditionally, it has been referred to as _Anabaena azollae_.
-Most modern literature refers now to _Nostoc azollae_.
-Recent studies favour the classification of this cyanobiont as _Trichormus azollae_ based on comprehensive phylogenetic analyses.
-[@Baker2003]
-Strictly speaking, _T. azollae_ is the only verified name of the symbiont [@Pereira2014].
-It is now also the standard in the NCBI taxonomy database: [NCBI: _T. azollae_](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=551115) (<https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=551115>).
+_Azolla_ species form a unique symbiotic relationship with the cyanobacterium _Trichormus azollae_, which resides in specialized leaf cavities of the fern.
+The primary function of _T. azollae_ is to fix nitrogen from the air and provide it to the host plant.
+Over the years, the cyanobiont has been classified under various genera, including _Anabaena_, _Nostoc_, and most recently, _Trichormus_.
+Traditionally, it was referred to as _Anabaena azollae_, but advances in phylogenetic analysis led to its reclassification [@Pereira2014; @Baker2003].
+Most modern literature now uses the name _Nostoc azollae_, though the latest studies favor _Trichormus azollae_ based on comprehensive phylogenetic evidence [@Baker2003].
+Strictly  speaking, _Trichormus azollae_ is the only verified name [@Pereira2014] and is now the standard in the NCBI taxonomy database ([NCBI: _T. azollae_](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=551115) (<https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=551115>).
 These taxonomic ambiguities arise from variations in morphological and genetic data that were considered for the phylogeny of the Nostocaceae family.
-Re-organisation of taxonomy will always be somewhat chaotic and possibly met by resistance.
-In this thesis both _Nostoc azollae_ and _Trichormus azollae_ are used.
+In this thesis, both _Nostoc azollae_ and _Trichormus azollae_ are used.
 The former is used in chapters that were published before this thesis was compiled, the latter in newer work.
 
 <!-- GTDB ANI calculations actually put it with anabaena rather than trichormus. WTF. -->
+
+The culturability of _Trichormus azollae_ has been a subject of debate in the scientific community.
+While several studies have claimed to culture _T. azollae_ on standard cyanobacterial media like BG11 [@Franche1985; @Zimmerman1987; @abd2013; @Parente2017], these attempts often lack rigorous verification.
+Efforts to reproduce these cultures have largely failed, suggesting that the reported cultures may have been misidentified or contaminated with other cyanobacteria [@Pereira2014; @Ladha1982].
+On conferences, I learned many more labs have tried to grow _T azollae_ and failed, but these negative results are rarely published.
+Perhaps other (not per say symbiotic) cyanobacteria are systematically associated to Azolla, and are in fact culturable [@Pratte2021].
 
 One of the key papers to understand _T. azollae_ is the original genome publication by Ran et al. [@Ran2010].
 The study found the genome of _T azollae_ has undergone substantial reductive evolution.
