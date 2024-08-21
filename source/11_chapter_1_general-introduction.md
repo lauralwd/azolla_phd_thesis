@@ -36,18 +36,18 @@ Laura W Dijkhuizen^1^
 
 \section*{Abstract}
 
-This hitch-hiker's guide is meant to be a friendly general introduction to this thesis.
-The thesis describes the genomics of the _Azolla_ symbiosis: that of _Azolla_ ferns, its main symbiont _Trichormus_ (or _Nostoc_) _azollae_, and other bacterial partners.
-Its chapters will discuss the discovery of those other bacterial partners and the identity and evolution of the main symbiont.
-The final chapters center around the symbiosis' reproductive cycle and some methodology.
-This is all new information on the _Azolla_ symbiosis, and I will argue important information for modern breeding of _Azolla_.
-All individual chapters already have in-depth stand-alone introductions.
-So in this general introduction, I mean to give a broader context and perspective on symbiosis research, the amazing _Azolla_, and relevant genomics methodologies.
-I will argue how a systems biology mindset can benefit symbiosis research.
-Then I will provide a broader context on the _Azolla_ symbiosis.
-And finally I will discuss bioinformatics techniques to address the relevant questions and hypotheses of this PhD project.
-I attempted to make this introduction palpable for all scientific audiences, not just (plant)biologists.
-There will be a bit of humour, opinion, and informal writing.
+This hitch-hiker's guide serves as a friendly, general introduction to this thesis.
+The thesis explores the genomics of the _Azolla_ symbiosis: the relationship between _Azolla_ ferns, their main symbiont _Trichormus_ (or _Nostoc_) _azollae_, and other bacterial partners.
+The chapters will discuss the discovery of these additional bacterial partners and the identity and evolution of the main symbiont.
+The final chapters focus on the symbiosis' reproductive cycle and some methodological approaches.
+This is all new information on the _Azolla_ symbiosis, which I argue is crucial for modern breeding of _Azolla_.
+Each chapter already contains in-depth, stand-alone introductions.
+Therefore, in this general introduction, I aim to provide broader context and perspective on symbiosis research, the remarkable _Azolla_, and relevant genomics methodologies.
+I will argue that a systems biology approach can greatly benefit symbiosis research.
+Next, I will offer a broader context on the _Azolla_ symbiosis.
+Finally, I will discuss bioinformatics techniques used to address the key questions and hypotheses of this PhD project.
+I have endeavoured to make this introduction accessible to all scientific audiences, not just (plant) biologists.
+There will be a touch of humour, personal opinion, and informal writing.
 
 \newpage
 
