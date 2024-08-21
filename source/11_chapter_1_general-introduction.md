@@ -142,7 +142,7 @@ They often can be categorised as:
 * competition: when all partners are harmed by the interaction.
 
 <!-- 
-gpt: add figure summarising the different kind of assocations
+gpt: add figure summarising the different kind of associations
 me: not worth my time...
  -->
 
@@ -154,27 +154,20 @@ The latter three categories are thought of as general ecological interactions ra
 
 ## Symbiosis breeding
 
-<!-- This section could be more concise. The detailed argument for breeding both host and symbionts is clear, but the point is repeated in various forms. Consider condensing this by merging similar ideas and removing redundancy. -->
-
 The original premise of this PhD project includes thoughts on symbiosis breeding, specifically mutualist or commensalist associations.
-The organisms of choice here, are part of an obligate symbiosis focused on nutrient acquisition; specifically nitrogen.
-At the time, we reasoned that molecular pathways of host and symbiont would be intricately interconnected.
-Hence, any breeding efforts of the host plant should not be limited to the plant physiology and genomics, but include those of its symbiont.
+The organisms involved in this study are part of an obligate symbiosis centered on nitrogen acquisition.
+We reasoned that the molecular pathways of host and symbiont would be intricately interconnected.
+Therefore, any breeding efforts should include both the plant and its symbiont.
 
-Typically, research into breeding symbioses focuses on breeding plant properties for increased symbiosis functioning [@Liu2020; @Thirkell2022].
-These functions revolve around nutrient acquisition in root-nodule type- and mycorrhizzal -symbioses.
-For symbiosis traits, breeding a symbiont should perhaps take precedence over breeding the host.
-We advocated then, that breeding a functionally intertwined unit of organisms requires that systems biology perspective.
-Understanding and eventually manipulation of a plant-microbe symbiosis needs a perspective that integrates ecological, physiological, and (meta)genomic data.
-Indeed, breeding or even gene-editing assemblages of obligate symbionts is a paperwork nightmare and comes with a plethora of practical obstacles.
-But, for example, breeding symbiotic nitrogen acquisition in a root-nodule type symbiosis only via plant properties seems odd to me.
-After all, it is the microbes that do the actual nitrogen acquisition.
+Traditionally, research has focused on breeding plant properties for increased symbiosis functioning, especially in nutrient acquisition.
+Notable examples are root-nodule and mycorrhizzal symbioses [@Liu2020; @Thirkell2022].
+However, breeding the symbiont may be just as crucial, if not more so.
+This requires a systems biology perspective, integrating ecological, physiological, and genomic data.
+While breeding symbioses is challenging, it seems impractical to ignore the symbiont when it plays a central role in the selected traits.
+This approach may seem naive, given the practical and legislative challenges.
 
-With symbiosis breeding, I naively advocate breeding both the host and the symbionts who contribute a function to the symbiosis.
-Naively, because I omit discussion of all the practical and legislational barriers.
-Breeding a symbiosis requires a perspective including all relevant organisms, their genomes and their relations to each other.
-I would say a systems perspective, but equally valid, others would say a holistic perspective including every symbiont.
-In symbiosis literature, a new term was proposed for such an assemblage: a holobiont [@Zilber-Rosenberg2008].
+Breeding symbioses demands a holistic perspective that considers all relevant organisms and their interactions.
+In the literature, this has been referred to as breeding a "holobiont" [@Zilber-Rosenberg2008].
 
 ## The holobiont concept
 
