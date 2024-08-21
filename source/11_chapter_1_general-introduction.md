@@ -55,58 +55,57 @@ There will be a touch of humour, personal opinion, and informal writing.
 
 – Russell Ackoff (professor of systems sciences)
 
-# A system perspective
+# A Systems Perspective
 
-When imagining an ecosystem, one typically thinks of a forest with trees, animals, and insects.
-Perhaps some fish swim in a stream.
-All are idyllically thriving as a balanced part of a larger whole.
+When imagining an ecosystem, one typically envisions a forest with trees, animals, and insects.
+Perhaps some fish swim in a stream, all idyllically thriving as a balanced part of a larger whole.
 
-The ecosystem concept emphasises the abundance and complexity of interactions within the larger system, rather than the individualistic existence of the loose parts.
-Yet, when one imagines a biological experiment, they think of lab coats, petri dishes, and perhaps microscopes.
-They are not wrong; science has thrived under reductionism.
+The ecosystem concept emphasises the abundance and complexity of interactions within the larger system, rather than the individual existence of its separate parts.
+However, when one imagines a biological experiment, the image often involves lab coats, petri dishes, and microscopes.
+This perception is not incorrect; science has thrived under reductionism.
 Scientific experiments often strive to control one variable at a time to isolate its effects.
-All other variations are reduced by working with one species or strain at a time, treated exactly the same except for that one experimental variable.
-The organism is dislodged from its natural environment to prevent it from meddling with the experiment.
-The ultimate goal is to gain mechanistic insight into the workings of a biological system; one part at a time.
-The underlying reasoning is that if we know the function of all its parts, we then know the system.
+All other variations are minimised by working with one species or strain at a time, treated identically except for that one experimental variable.
+The organism is removed from its natural environment to prevent it from meddling with the experiment.
+The ultimate goal is to gain mechanistic insight into the workings of a biological system, one part at a time.
+The underlying assumption is that if we understand the function of all its parts, we will understand the system as a whole.
 
 The reductionist dogma yielded considerable advances in biological research; this is undisputed.
-But I will argue that it occasionally falls short in encompassing emergent properties of a larger whole.
-The complexity of real-world biology does not always allow for isolating one variable from the rest of the system.
-Nor does changing one variable in a system always lead to robust change.
+However, I argue that it occasionally falls short in capturing the emergent properties of a larger whole.
+The complexity of real-world biology does not always allow for the isolation of a single variable from the rest of the system.
+Nor does changing one variable in a system always lead to predictable changes.
 For examples of the former, this thesis describes such a system.
-The latter, I find exemplified in recent attempts at microbiome editing.
-A microbiome is the collection of all microbial organisms associated with any organ or organism.
-Such a collection often contains millions of cells of hundreds of strains if not more.
-I think it is very optimistic to take one of these strains, edit it in some often genetic way, and expect robust change.
-Plenty of examples in literature support this opinion [@Bai2023; @Mueller2015a].
-Instead, a perspective of the entire (eco)system and ecological lessons from macroecology may be required for sustained microbiome editing [@Albright2022].
-It requires a system perspective.
+For the latter, recent attempts at microbiome editing exemplify this limitation.
+A microbiome is the collection of all microbial organisms associated with an organ or organism.
+Such a collection often contains millions of cells from hundreds of strains, if not more.
+It is overly optimistic to take one of these strains, edit it—often genetically—and expect a robust change.
+Plenty of examples in the literature support this view [@Bai2023; @Mueller2015a].
+Instead, a perspective of the entire (eco)system and lessons from macroecology may be required for sustained microbiome editing [@Albright2022].
+This necessitates a systems perspective.
 
-Even within the confines of a cell, the reductionist view on biology is subject to scrutiny.
-Mechanistic studies often research the workings of single components in the cell, and then perhaps place these into metabolic pathways.
-These pathways turn into a vast network of cause and effect.
-One can follow how one compound finds its way through the network, being turned into another compound.
-Or see how a signal at one point gets amplified and transmitted to some other point.
-We have learned to view the cell's metabolism as a chemical machine pursuing homeostasis or equilibrium.
-This idea is over a century old [@Nicholson2019].
+Even within the confines of a cell, the reductionist view of biology is subject to scrutiny.
+Mechanistic studies often investigate the workings of single components within the cell, perhaps placing them into metabolic pathways.
+These pathways form a vast network of cause and effect.
+One can trace how a compound navigates through the network, transforming into another compound.
+Or observe how a signal at one point gets amplified and transmitted to another.
+We have come to view the cell's metabolism as a chemical machine striving for homeostasis or equilibrium.
+This concept is over a century old [@Nicholson2019].
 
-@Nicholson2019 poses that perhaps we should abandon our view of the cell as a mechanical reductionist entity to be studied solely through its molecular components.
-The machine conception of the cell is a misleading representation of biological reality, he argues.
-An overview of cause-and-effect relations falls short of capturing the non-linearity, stochasticity, and plasticity of cellular behaviour [@Nicholson2019].
-Groups of cells' response to a stimulus is not gradual and homogenous.
-Instead their response switches on or off stochastically and heterogeneously [@Altschuler2010].
-Similarly, protein complexes are not static assemblies as engineered machines are.
-Instead, they self-organise with often multi-functional parts that come on and off constantly. [@Nicholson2019; @Dumont2014]
-Apply this state of flux to all parts of a network of metabolic reactions, and imagine the consequential chaos.
-This chaotic cell is a collection of semi-stable processes that constantly self-organise in alternate steady states.
-A system far from equilibrium, seemingly inefficient and costly, but flexible and robust as a consequence [@Nicholson2019].
-@Nicholson2019 is a great read, and I will not blame anyone who puts away this thesis and picks up his article instead.
+@Nicholson2019 suggests that we should perhaps abandon the view of the cell as a mechanical reductionist entity, studied solely through its molecular components.
+He argues that the machine conception of the cell is a misleading representation of biological reality.
+An overview of cause-and-effect relationships fails to capture the non-linearity, stochasticity, and plasticity of cellular behaviour [@Nicholson2019].
+Groups of cells do not respond to a stimulus gradually and homogeneously.
+Instead, their response is stochastic and heterogeneous, switching on or off unpredictably [@Altschuler2010].
+Similarly, protein complexes are not static assemblies like engineered machines.
+Instead, they self-organise, with multi-functional parts that constantly come together and separate [@Nicholson2019; @Dumont2014].
+Apply this state of flux to all parts of a metabolic network, and imagine the consequential chaos.
+This chaotic cell is a collection of semi-stable processes that continuously self-organise into alternative steady states.
+A system far from equilibrium, seemingly inefficient and costly, yet flexible and robust as a consequence [@Nicholson2019].
+@Nicholson2019 is an excellent read, and I would not fault anyone for setting aside this thesis to pick up his article instead.
 
-In this section, I argue not for the abandonment of mechanistic research, but for complementing it with a systems biology perspective.
-A task well suited for biologists, who are trained from the onset to think at varying scales; from molecule to ecosystem.
-In fact, my bachelor studies were organised this very way.
-Yet, somehow, something so obvious to a first-year biology student becomes an afterthought in reductionist scientific practice.
+In this section, I do not argue for the abandonment of mechanistic research, but for its complement with a systems biology perspective.
+This is a task well suited for biologists, who are trained from the outset to think across varying scales, from molecule to ecosystem.
+In fact, my bachelor studies were organised in this very way.
+Yet somehow, something so obvious to a first-year biology student becomes an afterthought in reductionist scientific practice.
 
 # Symbiosis
 
