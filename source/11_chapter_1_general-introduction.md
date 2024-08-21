@@ -342,20 +342,16 @@ These parallels illustrate how genome reduction plays a crucial role in the spec
 
 ## Ecology
 
-_Azolla_ naturally thrives in a variety of nutrient-rich freshwater environments including ponds, lakes, slow-moving streams, and wetlands.
-These habitats provide the ideal conditions for _Azolla_'s growth, such as abundant water and nutrient availability.
-_Azolla_ species are distributed globally, predominantly found in tropical, subtropical, and warm temperate regions.
-They are especially prevalent in Asia, Africa, and the Americas, where they are used in traditional agriculture [@Madeira2016a; @Lydia2023; @Watanabe1981].
-The fern forms dense mats on the water surface, which helps it outcompete other aquatic plants and algae.
-These floating mats are crucial for stabilizing the ecosystem by reducing water evaporation and providing a habitat for various microorganisms and small aquatic animals. [@Wagner1997b]
+_Azolla_ naturally thrives in various nutrient-rich freshwater environments, including ponds, lakes, slow-moving streams, and wetlands. 
+These habitats provide ideal conditions for _Azolla_'s growth, such as abundant water and nutrient availability. 
+_Azolla_ species are distributed globally, predominantly in tropical, subtropical, and warm temperate regions. 
+They are especially prevalent in Asia, Africa, and the Americas, where they have been traditionally used in agriculture [@Madeira2016a; @Lydia2023; @Watanabe1981]. 
+_Azolla_ forms dense mats on the water surface, outcompeting other aquatic plants and algae. 
+These mats help stabilize ecosystems by reducing water evaporation and providing habitats for microorganisms and small aquatic animals [@Wagner1997b].
 
-Ecologists associate _Azolla_ often with unhealthy ecosystems, terming it invasive and dangerous.
-I argue that _Azolla_ is not a dangerous plant, nor invasive.
-Harmful levels of _Azolla_ growth are, in my opinion, a symptom of eutrophic ecosystems.
-Specifically phosphorus is linked to _Azolla_ growth, as the fern grows independent of nitrogen [@Temmink2018].
-Eutrophication will lead to unhealthy ecological dynamics in aquatic systems in one way or another [@VanderLee2018].
-Some fast grower will take advantage of this situation, whether this is an alga, _Lemna__ (duckweed) or _Azolla_ is irrelevant.  [@Sabetraftar2013]
-
+Ecologists often associate _Azolla_ with unhealthy ecosystems, labeling it as invasive and dangerous. 
+However, I argue that _Azolla_ itself is not dangerous but rather a symptom of eutrophic conditions, particularly phosphorus enrichment [@Temmink2018]. 
+Eutrophication disrupts aquatic ecosystems, and _Azolla_ can exploit these conditions, similar to other fast-growing species like algae or _Lemna_ (duckweed) [@VanderLee2018]. 
 _Azolla_ has natural enemies.
 For _Azolla_ agriculture, these would be considered pests.
 For conservation ecologists, these are considered pest control [@Madeira2016a].
