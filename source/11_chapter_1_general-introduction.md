@@ -234,17 +234,13 @@ The SAM also harbours a small colony with motile filaments of the cyanobacterium
 Both leaves and sporocarps encapsulate part of the starting colony during growth.
 This process ensures that all leaves have a colony of the symbiont. [@Campbell1893]
 
-<!-- The sentence structure is somewhat repetitive. Consider revising for variety and conciseness. For example, instead of “This unique adaptation allows Azolla to house a stable population of T. azollae within its tissues,” consider “This adaptation ensures a stable T. azollae population within Azolla’s tissues.” -->
-
-The leaf cavity, or leaf pocket, of _Azolla_ is a specialised structure that plays a crucial role in its symbiosis with the cyanobacterium _Trichormus azollae_.
+The leaf cavity, or leaf pocket, of _Azolla_ is a specialised structure crucial to its symbiosis with the cyanobacterium _Trichormus azollae_.
 These cavities are located within the upper leaf lobes and serve as protective niches for the cyanobiont.
-This unique adaptation allows _Azolla_ to house a stable population of _T. azollae_ within its tissues.
-Thus ensuring a constant supply of fixed nitrogen to the plant as long as amply photosynthetic light is available.
-The cyanobacteria within these cavities are effectively sheltered from environmental fluctuations such as water and nutrient availability.
-The leaf cavity not only provides a habitat for _T. azollae_ but also facilitates a tightly regulated exchange of nutrients between the host and symbiont.
-The cyanobacteria contribute nitrogen compounds supporting the growth of _Azolla_.
-In return the fern presumably supplies other nutrients like phosphorus, creating a mutually beneficial relationship.
-This symbiotic arrangement within the leaf cavity is a prime example of the intricate evolutionary adaptations that have enabled _Azolla_ to thrive independent of nitrogen in water and soil.
+This adaptation ensures a stable population of _T. azollae_ within _Azolla_'s tissues, providing a plentyfull supply of fixed nitrogen.
+The cyanobacteria are sheltered from environmental fluctuations, such as changes in water and nutrient availability.
+The leaf cavity facilitates a regulated exchange of nutrients between the host and symbiont.
+_T. azollae_ contributes nitrogen compounds that support _Azolla_'s growth, while the fern likely supplies other essential nutrients like phosphorus.
+This mutually beneficial relationship is a key evolutionary adaptation that allows _Azolla_ to thrive in nitrogen-deficient environments.
 Understanding the structure and function of these leaf cavities is essential for unravelling the complexities of the _Azolla_ symbiosis.
 
 Azolla roots can be observed hanging loosely in the water like a thin curtain.
