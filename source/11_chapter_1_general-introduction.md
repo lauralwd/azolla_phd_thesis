@@ -575,18 +575,18 @@ We later venture into meta-transcriptomics to inquire what processes are active 
 ## Gene editing ethics
 
 Throughout this introduction, I've highlighted the potential of _Azolla_ and how modern breeding techniques could further enhance its value.
-However, Inaïvely steered away from any ethical implications of deploying gene-edited crops into the environment.
+However, I naïvely steered away from any ethical implications of deploying gene-edited crops into the environment.
 
 Gene editing offers immense value, even if such crops aren't introduced into agriculture.
 It can accelerate breeding cycles, test biological hypotheses, and advance fundamental research.
 Additionally, banning gene-edited crops solely because they involve gene editing leads to inconsistencies.
-For instance, two genetically identical plants might be treated differently when gene editing is illgal.
+For instance, two genetically identical plants might be treated differently when gene editing is illegal.
 The first crop, created through traditional methods, is legal, while the other, genetically identical crop made via efficient gene editing, is illegal.
 Countries like the U.S., Canada, and Brazil have embraced more permissive laws, while the European Union's strict classification of gene-edited crops as GMOs frustrates many scientists.
 
 Critics often point to off-target effects—unintended DNA changes—as a concern.
 However, this argument overlooks the fact that traditional breeding methods also cause significant, unregulated genetic alterations.
-Reseach has shown that off-target edits are very rare.
+Research has shown that off-target edits are very rare.
 
 Societal concerns about gene editing are more compelling.
 The promises made during the introduction of GMOs largely benefited biotech companies, often at the expense of farmers in developing countries.
@@ -596,18 +596,18 @@ We have a role in influencing legislation and ensuring our work is used ethicall
 
 The open science movement advocates for transparency and accessibility in research.
 Should we apply these principles to gene editing?
-Given that our research is publicly funded, should our findings also belong to the public? 
+Given that our research is publicly funded, should our findings also belong to the public?
 Perhaps we should make all DNA constructs publicly available, as we do with raw data, and consider restricting their use for profit.
 
 This is a complex issue.
 While preventing commercial exploitation might seem ideal, it could also deter companies from using our discoveries, limiting their public benefit.
 We must carefully consider how to implement gene editing responsibly, avoiding the pitfalls encountered with GMOs.
 
-In Europe, gene editing may remain a research tool, or, like in the U.S., exceptions might be made when traditional breeding could achieve the same results. 
-Alternatively, Canada’s case-by-case approach could offer a balanced path forward. 
+In Europe, gene editing may remain a research tool, or, like in the U.S., exceptions might be made when traditional breeding could achieve the same results.
+Alternatively, Canada’s case-by-case approach could offer a balanced path forward.
 As a researcher, I believe in the potential of gene editing for crop improvement and enhancing symbioses like _Azolla_, but it must be pursued thoughtfully.
 
-## Introducing bioinformatics to a lab
+## Introducing Bioinformatics to a Lab
 
 <!--  This section provides valuable insights into the challenges of integrating bioinformatics into a lab, but it could be shortened by focusing on the most impactful lessons learned. -->
 
