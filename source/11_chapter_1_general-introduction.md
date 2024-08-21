@@ -41,7 +41,6 @@ The thesis describes the genomics of the _Azolla_ symbiosis: that of _Azolla_ fe
 Its chapters will discuss the discovery of those other bacterial partners and the identity and evolution of the main symbiont.
 The final chapters center around the symbiosis' reproductive cycle and some methodology.
 This is all new information on the _Azolla_ symbiosis, and I will argue important information for modern breeding of _Azolla_.
-There will be a lot of bioinformatics, some molecular biology and some ecology now and then.
 All individual chapters already have in-depth stand-alone introductions.
 So in this general introduction, I mean to give a broader context and perspective on symbiosis research, the amazing _Azolla_, and relevant genomics methodologies.
 I will argue how a systems biology mindset can benefit symbiosis research.
@@ -67,17 +66,17 @@ or...
 When imagining an ecosystem, one typically thinks of a forest with trees, animals, and insects.
 Perhaps some fish swim in a stream.
 All are idyllically thriving as a balanced part of a larger whole.
-The concept emphasises the abundance and complexity of interactions within the larger system, rather than the individualistic existence of the loose parts.
+
+The ecosystem concept emphasises the abundance and complexity of interactions within the larger system, rather than the individualistic existence of the loose parts.
 Yet, when one imagines a biological experiment, they think of lab coats, petri dishes, and perhaps microscopes.
 They are not wrong; science has thrived under reductionism.
 Scientific experiments often strive to control one variable at a time to isolate its effects.
 All other variations are reduced by working with one species or strain at a time, treated exactly the same except for that one experimental variable.
 The organism is dislodged from its natural environment to prevent it from meddling with the experiment.
-We, scientists, call this: 'controlled conditions'.
 The ultimate goal is to gain mechanistic insight into the workings of a biological system; one part at a time.
 The underlying reasoning is that if we know the function of all its parts, we then know the system.
 
-The reductionist dogma yielded considerable advances in biological research; I wouldn't dream of debating this.
+The reductionist dogma yielded considerable advances in biological research; this is undisputed.
 But I will argue that it occasionally falls short in encompassing emergent properties of a larger whole.
 The complexity of real-world biology does not always allow for isolating one variable from the rest of the system.
 Nor does changing one variable in a system always lead to robust change.
@@ -120,12 +119,14 @@ Yet, somehow, something so obvious to a first-year biology student becomes an af
 # Symbiosis
 
 Perhaps the study of symbioses takes place in between the ambition of system understanding and the practice of mechanistic research.
-The molecular biology methods common to the reductionist dogma remain the field's standard that my colleagues and I want to adhere to, also in this work.
+The molecular biology methods common to the reductionist dogma remain the field's standard.
+My colleagues and I want to adhere to that standard, also in this work.
 We need to, for we study a young system.
-This requires to first do some groundwork.
+The study of a young system requires to first do some groundwork.
 But we should always ask ourselves what our findings mean for the system as a whole.
 Or, more often than not, we are forced to work with the system as a whole.
 This work focuses on an obligate symbiosis.
+Any experimental condition will affect all organisms in the symbiosis, and they influence each other.
 In the context of this thesis, one symbiont without the other is either not viable or deeply unhealthy.
 Studying them in isolation without the perspective of the entire symbiosis risks being short-sighted.
 
@@ -138,6 +139,11 @@ They often can be categorised as:
 * parasitism: when one partner benefits at the cost of the others
 * competition: when all partners are harmed by the interaction.
 
+<!-- 
+gpt: add figure summarising the different kind of assocations
+me: not worth my time...
+ -->
+
 The general public often assigns a positive connotation to the concept of symbiosis, referring to the first two categories.
 This is not always practical, for the type of interaction is often unknown at first.
 Hence, the time span of an interaction is a more robust approach.
@@ -145,6 +151,8 @@ In this thesis, symbiosis typically refers to the first two categories; congruen
 The latter three categories are thought of as general ecological interactions rather than symbioses, in the context of this document.
 
 ## Symbiosis breeding
+
+<!-- This section could be more concise. The detailed argument for breeding both host and symbionts is clear, but the point is repeated in various forms. Consider condensing this by merging similar ideas and removing redundancy. -->
 
 The original premise of this PhD project includes thoughts on symbiosis breeding, specifically mutualist or commensalist associations.
 The organisms of choice here, are part of an obligate symbiosis focused on nutrient acquisition; specifically nitrogen.
@@ -167,6 +175,8 @@ I would say a systems perspective, but equally valid, others would say a holisti
 In symbiosis literature, a new term was proposed for such an assemblage: a holobiont [@Zilber-Rosenberg2008].
 
 ## The holobiont concept
+
+<!-- Feedback: The concept of the holobiont is well-explained, but it feels repetitive in certain parts. For instance, the debate over the concept could be summarized more succinctly. -->
 
 The holobiont concept is a recent proposition in evolutionary jargon [@Zilber-Rosenberg2008; @Rosenberg2016].
 It proposes to think of a host and a symbiont as one unit of evolutionary selection.
@@ -210,7 +220,7 @@ This property makes _Azolla_ as infamous under ecologists, as it is famous in sy
 Bigger plants break irregularly into smaller ones, genetically identical, but physically separate; forming a big green floating mat.
 _Azolla_ mats are known for their high growth rate and high protein content.
 A mat can grow so spectacularly fast, that _Azolla_ is thought to have overgrown the entire north pole for some time in geological history [@Brinkhuis2006].
-This "_Azolla_ event" is associated with a steep decline in global CO2 concentration in the air.
+This "_Azolla_ event" contributed to a significant global CO$2$ decline in the atmosphere.
 Within human history, _Azolla_ has traditionally been used in rice paddy fields [@Wagner1997b;@Shi1988].
 Its main function was to prevent toxic cyanobacteria from growing in the water.
 Any surplus was fed to livestock.
@@ -240,17 +250,18 @@ The SAM also harbours a small colony with motile filaments of the cyanobacterium
 Both leaves and sporocarps encapsulate part of the starting colony during growth.
 This process ensures that all leaves have a colony of the symbiont. [@Campbell1893]
 
-## The Azolla Leaf Cavity
+<!-- The sentence structure is somewhat repetitive. Consider revising for variety and conciseness. For example, instead of “This unique adaptation allows Azolla to house a stable population of T. azollae within its tissues,” consider “This adaptation ensures a stable T. azollae population within Azolla’s tissues.” -->
 
 The leaf cavity, or leaf pocket, of _Azolla_ is a specialised structure that plays a crucial role in its symbiosis with the cyanobacterium _Trichormus azollae_.
-These cavities are located within the upper leaf lobes of _Azolla_ leaves and serve as protective niches where the cyanobiont resides.
+These cavities are located within the upper leaf lobes and serve as protective niches for the cyanobiont.
 This unique adaptation allows _Azolla_ to house a stable population of _T. azollae_ within its tissues.
 Thus ensuring a constant supply of fixed nitrogen to the plant as long as amply photosynthetic light is available.
 The cyanobacteria within these cavities are effectively sheltered from environmental fluctuations such as water and nutrient availability.
 The leaf cavity not only provides a habitat for _T. azollae_ but also facilitates a tightly regulated exchange of nutrients between the host and symbiont.
-The cyanobacteria contribute nitrogen compounds that are essential for the growth of _Azolla_, while the fern supplies organic carbon derived from photosynthesis, creating a mutually beneficial relationship.
-This symbiotic arrangement within the leaf cavity is a prime example of the intricate evolutionary adaptations that have enabled _Azolla_ to thrive in nutrient-poor aquatic environments.
-Understanding the structure and function of these leaf cavities is essential for unraveling the complexities of the _Azolla_ symbiosis and holds potential implications for biotechnological applications in sustainable agriculture.
+The cyanobacteria contribute nitrogen compounds supporting the growth of _Azolla_.
+In return the fern presumably supplies other nutrients like phosphorus, creating a mutually beneficial relationship.
+This symbiotic arrangement within the leaf cavity is a prime example of the intricate evolutionary adaptations that have enabled _Azolla_ to thrive independent of nitrogen in water and soil.
+Understanding the structure and function of these leaf cavities is essential for unravelling the complexities of the _Azolla_ symbiosis.
 
 Azolla roots can be observed hanging loosely in the water like a thin curtain.
 On time-lapses, the roots were seen swirling and curling.
@@ -286,7 +297,7 @@ Cyanobacteria form mutualistic associations with a wide range of hosts, includin
 In marine systems, symbiosis partners can be sponges or diatoms.
 In freshwater systems, the _Azolla_ symbiosis is a prime example.
 Terrestrial hosts can be cycads (plants), mosses, but also lichens (fungi).
-These symbioses are mostly not obligate; most cyanobacteria can live independently from their host. [@Peters1991]
+These symbioses are mostly facultative: most cyanobacteria can live independently from their host. [@Peters1991]
 
 The _Azolla_-_Nostoc_ symbiosis is perhaps most related to moss-cyanobacterium symbioses.
 Moss-cyanobacterium symbioses are particularly present in boreal and temperate regions.
@@ -310,6 +321,8 @@ The genus name of _Azolla_'s cyanobacterial symbiont has also changed throughout
 <!-- include phylogeny from a paper or database? -->
 
 ## _Anabaena_, _Nostoc_ or _Trichormus_ _azollae_
+
+<!-- The historical debate over the naming of the cyanobacterial symbiont is thorough but could be more concise. Focus on the most relevant points to the thesis. -->
 
 _Azolla_ species form a unique symbiotic relationship with _Trichormus azollae_; the cyanobacterium resides in specialized leaf cavities of the fern.
 The symbiosis main function, from the host-plant perspective, is that _T. azollae_ sequesters di-nitrogen gas from the air and shares this with the host.
@@ -372,7 +385,12 @@ In an even more extreme case, _Carsonella ruddii_, the endosymbiont of psyllids,
 The symbiont has a minimal set of genes required for protein synthesis and essential nutrient production [@Khachane2007].
 These studies exemplify how genome reduction plays a part in symbiont's specialisation and their dependence on their hosts for other needs.
 
-<!-- Should I lose this last paragraph/section? -->
+<!-- Should I lose this last paragraph/section? 
+Gemini says lose or integrate in last paragraph.
+Perhaps make it a box?
+GTP: Suggestion: The final paragraph discussing genome reduction could be turned into a figure or table comparing different symbiotic organisms and their genome sizes/reductions.
+
+-->
 
 ## Ecology
 
@@ -388,11 +406,9 @@ I argue that _Azolla_ is not a dangerous plant, nor invasive.
 Harmful levels of _Azolla_ growth are, in my opinion, a symptom of eutrophic ecosystems.
 Specifically phosphorus is linked to _Azolla_ growth, as the fern grows independent of nitrogen [@Temmink2018].
 Eutrophication will lead to unhealthy ecological dynamics in aquatic systems in one way or another [@VanderLee2018].
-Some fast grower will take advantage of this situation.
-Whether this is an alga, _Lemna__ (duckweed) or _Azolla_ is irrelevant.  [@Sabetraftar2013]
+Some fast grower will take advantage of this situation, whether this is an alga, _Lemna__ (duckweed) or _Azolla_ is irrelevant.  [@Sabetraftar2013]
 
-_Azolla_ is a fast grower, and can further damage eutrophic ecosystems by darkening the water column.
-It does, however, also have natural enemies.
+_Azolla_ has natural enemies.
 For _Azolla_ agriculture, these would be considered pests.
 For conservation ecologists, these are considered pest control [@Madeira2016a].
 Specifically, the water fern weevil _Stenopelmus rufinasus_ can significantly impact _Azolla_ populations by feeding on the fronds [@Hill1998].
@@ -441,9 +457,6 @@ Firstly, as in rice paddies, _Azolla_ can be used as a bio-fertiliser, enhancing
 This reduces the need for synthetic fertiliser; promoting sustainable farming practices and reducing environmental impact.
 Studies have shown that incorporating _Azolla_ in rice cultivation can increase crop yields and improve soil health [@Watanabe1981;@bocchi2010].
 Especially when arable land is limited but fresh water is not, _Azolla_ may prove useful to farmers [@Lumpkin1980a].
-There are caveats naturally.
-_Azolla_ growth requires a big amount of fresh water, and the incorporation of _Azolla__ as bio-fertiliser will underperform compared to synthetic fertiliser use.
-This practice is only feasible in areas where fresh water is plentiful and the use of cheap but environmentally damaging synthetic fertiliser is discouraged.
 
 Beyond its use as a bio-fertiliser, _Azolla_ is also explored as an alternative feed for livestock [@Brouwer2018].
 Its high protein content and rich amino-acid profile make it an excellent supplement for animal diets [@becerra1990;@Bujak2022;@Brouwer2014].
@@ -476,6 +489,10 @@ Finally, when using _Azolla_ as feed for animals, the fern's high phenolic conte
 <!-- This transition could be better. -->
 
 ## Azolla domestication
+
+<!-- Feedback: The history of Azolla breeding is interesting, but some parts could be shortened, particularly the discussion of challenges and caveats, which is repeated across sections.
+ -->
+
 Both historic and recent agricultural _Azolla_ applications used local native strains.
 No _Azolla_ cultivars exist, or has there ever been any _Azolla_ breeding to my knowledge.
 The caveats of _Azolla_ usage, like digestion inhibition, could be tackled with modern breeding tools.
@@ -512,11 +529,12 @@ Notably, the term has not been used once before this section of the introduction
 Firstly, because I chose to focus on the plant and symbiosis biology first.
 While my work my at times be heavy on the methods section, I try to put the biology first.
 And secondly because the definition of bioinformatics deserves a paragraph by itself before we dive in deeper.
+
 The typical image of bioinformatics revolves around computer science and application of tools, more than biology.
-Too often, bioinformaticians are seen as "number crunching by nerds who look at black terminal screens all day."
+Rather often, bioinformaticians are seen as "number crunchers who look at black screens all day."
 Now there is truth in that definition, ask any of my old colleagues about how they picture me.
 But it doesn't quite do justice to the field as a whole.
-One could similarly claim that ecologists only spend time in the field determining plant species, or that molecular biologist train all day to move miniature amounts of water around.
+One could similarly claim that ecologists only spend time in the field determining plant species, or that molecular biologist train all day to move miniscule amounts of water around.
 These statements are perhaps ironic, and they have a bit of truth in them.
 But they are not very helpful for understanding the bigger picture behind these stereotypical acts.
 The same goes for bioinformatics.
@@ -542,6 +560,10 @@ It is a long-term goal that my research helps to move towards better genomic und
 Genomic knowledge and know-how of the system, is merely a step towards that end-goal of system understanding.
 
 ## Genomics for breeding novel crops
+
+<!-- GPT: The narrative is strong, but consider providing a specific example of how genomic insights have led to practical breeding outcomes, to strengthen the argument.
+ -->
+<!-- GPT: A flowchart or diagram showing the process of genomics-driven breeding could enhance understanding. -->
 
 The practical use of bioinformatics in breeding needs little defense.
 Traditionally, plant breeding relied on phenotypic selection over multiple generations.
@@ -622,6 +644,8 @@ With GMO and gene editing technology, these insights can be tested in a living p
 
 ## Genomics for breeding a symbiosis
 
+<!-- The explanation of metagenomics versus microbiome profiling is informative, but could be made more concise. Focus on the key differences that are most relevant to the thesis -->
+
 Molecular breeding began with the study of DNA; a field that was later called genomics.
 It is then only logical to begin symbiosis breeding with meta-genomics.
 Metagenomics is the study of all DNA associated with any organ or organism, where genomics is the study of a single organism.
@@ -664,6 +688,8 @@ We later venture into meta-transcriptomics to inquiry what the active processes 
 <!-- move shorter gene ethics section here? -->
 
 ## Introducing bioinformatics to a lab
+
+<!--  This section provides valuable insights into the challenges of integrating bioinformatics into a lab, but it could be shortened by focusing on the most impactful lessons learned. -->
 
 The _Azolla_ lab was housed in the molecular plant physiology group at Utrecht University before the former two were dissolved.
 In its early days, the focus was on optimising growth and working on extracts of the _Azolla_ biomass.
@@ -741,6 +767,10 @@ There is a lot more work to do, to understand and manipulate the symbiosis.
 <!-- To add depth, you could briefly outline the most pressing questions or research goals that remain, and how the groundwork laid by your research might facilitate future advancements in these areas. -->
 I hope that other labs globally may pick up our work and find it useful for their own experiments.
 
+<!-- 
+Gemini: The author could consider summarizing the key achievements they are most proud of, highlighting specific challenges that were overcome, and outlining the most pressing research questions that remain. This would add depth and impact to the introduction.
+ -->
+
 
 <!-- 
 Through advanced sequencing technologies, this research characterizes the genomes of both _Azolla_ and _Nostoc azollae_, revealing the genetic basis of their symbiotic interaction.
@@ -749,6 +779,8 @@ By integrating genomic and metagenomic data, this work seeks to deepen our under
 -->
 
 # Outline of this thesis
+
+<!-- GPT: the outline is comprehensive, but consider reducing redundancy in descriptions of each chapter. Focus on the unique contribution of each chapter to avoid overlap. -->
 
 **Chapter \ref{general_intro}** (\nameref{general_intro} on page \pageref{general_intro}) is the current chapter.
 I attempted to take a broader vantage point and less jargon than the remaining chapters.
