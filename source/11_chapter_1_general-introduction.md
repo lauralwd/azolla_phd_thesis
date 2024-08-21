@@ -55,14 +55,6 @@ There will be a bit of humour, opinion, and informal writing.
 
 – Russell Ackoff (professor of systems sciences)
 
-<!-- 
-or...
-
-> _"Biologists tend not to talk about the big ideas; we leave those to physicists. We biologists tend to be more comfortable with details, we like to count and list things."_
-
-– Sir Paul Nurse (Chief Executive Director Francis Crick Institute) 
--->
-
 # A system perspective
 
 When imagining an ecosystem, one typically thinks of a forest with trees, animals, and insects.

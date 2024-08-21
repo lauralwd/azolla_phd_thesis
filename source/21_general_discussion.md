@@ -17,6 +17,14 @@ This is where the abstract goes
 
 \newpage
 
+<!-- 
+or...
+
+> _"Biologists tend not to talk about the big ideas; we leave those to physicists. We biologists tend to be more comfortable with details, we like to count and list things."_
+
+– Sir Paul Nurse (Chief Executive Director Francis Crick Institute) 
+-->
+
 ## roadmap to breeding a novel-symbiosis crop
 
 bla
