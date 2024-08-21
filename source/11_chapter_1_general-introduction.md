@@ -500,71 +500,33 @@ Genomic knowledge and know-how of the system, is merely a step towards that end-
 
 ## Genomics for breeding novel crops
 
-<!-- GPT: The narrative is strong, but consider providing a specific example of how genomic insights have led to practical breeding outcomes, to strengthen the argument.
- -->
-<!-- GPT: A flowchart or diagram showing the process of genomics-driven breeding could enhance understanding. -->
+Genomics and bioinformatics have revolutionized plant breeding by enabling unprecedented precision and speed in the selection of desirable traits.
+Where traditional breeding relied on time-consuming phenotypic selection across generations, modern genomics allows breeders to directly target specific genes associated with key traits.
+High-throughput sequencing, coupled with bioinformatics tools, enables the rapid identification of genetic markers linked to disease resistance, yield, and stress tolerance.
+This shift has not only accelerated breeding cycles but also opened new possibilities for improving crop resilience and productivity in ways previously unimaginable.
 
-The practical use of bioinformatics in breeding needs little defense.
-Traditionally, plant breeding relied on phenotypic selection over multiple generations.
-This process can take decades or lifetimes depending on how fast a plant can produce offspring.
-However, with the advent of genomics and bioinformatics, this timeline can be drastically sped-up.
-For example, massive genome sequencing projects have enabled precision trait selection via techniques such as GWAS.
-Sequencing a cross' offspring enables accelerating breeding cycles.
-Finally, genomics has enabled molecular biologists to begin to unravel the regulatory networks that govern a crop's growth.
-<!-- GPT: This is a critical point, but it would be more impactful if followed by an example of a specific regulatory network or pathway that has been elucidated, thus illustrating the practical applications of these genomic insights. -->
-Despite this acceleration, breeding via crossing offspring is still slow and even detrimental to a crop's gene pool.
-Repeated selection of certain traits has diluted out genetic variation in crops.
-The reduced gene pool has led to tastier crops and bigger yields, but also made crops vulnerable to deseases, droughts or flooding.
+Despite these advances, traditional breeding methods can still be slow and may inadvertently reduce genetic diversity.
+Repeated selection for specific traits can narrow a crop's gene pool, making it more vulnerable to diseases, droughts, or other stresses.
 <!-- needs reference -->
-Reintroducing these traits of wild, non-domesticated strains via traditional crossing is challenging and slow.
-However, with bioinformatic insights and modern molecular breeding, a solution is at hand.
-As a response to the genetic variation problem, researchers identified several key genes that needed disabling for the domestication of tomato.
-They took a wild tomato variety and disabled these genes with gene-editing techniques, specifically CRISPR-Cas9 [@Li2018b].
-The result was a tomato very similar to standard domesticated commercial tomatoes.
-Millennia of selection and crossing were reproduced in the lab in a matter of months.
-Except that this de-novo domesticated tomato had better disease and salt tolerance than its commercial counterpart.
-Additionally, this technique allows for keeping more genetic variability in the novel tomato variety's gene pool.
+To counter this, researchers have begun reintroducing desirable traits from wild relatives using modern molecular breeding techniques.
+One striking example is the de novo domestication of wild tomato varieties using CRISPR-Cas9 gene-editing technology [@Li2018b].
+By disabling key genes involved in domestication, researchers recreated domesticated traits in wild tomatoes, resulting in a crop that retained the stress resilience of its wild ancestors while gaining the desirable traits of commercial varieties.
 
-When researching novel crops like _Azolla_, we should be inspired by this story.
-A process similar to that of tomato was achieved in an orphan crop, ground cherry; a species relatively close to tomato [@Lemmon2018a].
-With knowledge of domestication gene targets in tomato, the orphaned crop's undesirable characteristics were gene-edited.
-Again, the process resulted in a higher-yielding crop, without loss of the genetic diversity and stress resilience of the wild crop.
-It must be noted that _Azolla_ researchers lack a genome assembly and genomic understanding of the quality of tomato.
-More importantly, we lack gene editing tools that are essential in the tomato example.
-But these examples demonstrate that with the right genomic insight, and a robust gene-editing protocol, domestication of novel crops is around the corner.
-With insight into the reproduction and genomics of the _Azolla_ symbiosis, this work might contribute to its future domestication.
+This approach has also been successfully applied to other crops, such as the ground cherry, an orphan crop related to tomatoes.
+Using knowledge gained from tomato genomics, researchers were able to gene-edit ground cherry, enhancing its yield and making it more suitable for agriculture [@Lemmon2018a].
+These examples highlight the power of genomic insights and gene-editing technologies to domesticate new crops rapidly, while preserving genetic diversity and enhancing resilience.
 
-Future researchers might be able to work on _Azolla_'s lesser-than-optimal traits with gene editing backed by genomics [@Schluepmann2022].
-They could try to increase its palatability, reduce its invasiveness, and increase its pest resistance, for example.
-Control of the reproductive cycle of a plant is essential for its domestication (See chapter \ref{it_takes_two}).
-This is especially challenging since _Azolla_ is a fern which preserves its endophytic microbiome in spores.\
-With genomic knowledge, the pathways involved in reproduction may be better understood and possibly manipulated.
-It is important to clarify that this thesis does not focus on genetic editing of either the fern or its symbionts.
-My colleagues have tried, and made small steps forward, but did not achieve robust genetic editing.
-These advanced techniques need a genomic basis to be achieved, such as a high quality genome and functional annotation.
-That basis, the genomics of the _Azolla_ symbiosis, is what I work on in this thesis.
-When I joined the _Azolla_ lab in my Masters, I extracted and transported the DNA that would later be sequenced and assembled into the first _Azolla filiculoides_ genome by [@Li2017].
-It was a small role in a big consortium, but it further cemented my enthusiasm to work on _Azolla_ genomics.
-The _Azolla filiculoides_ genome was the first fern ever to have its genome sequenced together with _Salvinia cuculata_
-In this thesis, we use that genome for gaining insight in the workings of _Azolla_.
-We relate it to existing knowledge of other crops, and speculate how we may use it in the future to manipulate the symbiosis.
-Studying fern genomics is a special challenge, for we have no other ferns' genome to compare with.
-This complicates verification of genes their function and their evolutionary relationship to seedplant and non-seedplant counterparts.
-To uncover the function of any gene, we employ phylogenetics.
-By comparing DNA sequences of many versions of the same gene, we can calculate the probable evolutionary history of those sequences.
-This allows us to infer the function of a protein-coding sequence in the context of others.
-To be sure, proper verification in the lab is required.
-In chapter \ref{one_two_tree} I describe our phylogenetic method in more detail with several examples.
-Breeding targets can be selected once the probable function of several _Azolla_ genes is established, and a gene editing protocol is in working order.
-Possible targets may include genes for yield stability and pest resistance.
-Alternatively, undesirable compounds like tannins may be removed or reduced, and desirable ones may be made more abundant.
-Nutrient acquisition and accumulation of, for example, phosphorus may be enhanced.
+For novel crops like _Azolla_, these technologies offer a pathway to overcome its current limitations.
+However, _Azolla_ researchers currently lack the extensive genomic resources available for crops like tomato.
+Moreover, robust gene-editing protocols have yet to be established for _Azolla_ and its symbionts.
+Still, with continued research into its genomics and reproduction, the domestication of _Azolla_ could follow a similar trajectory, transforming it into a valuable crop for sustainable agriculture. [@Schluepmann2022]
 
-Since growing gene-edited crops remains controversial, it remains a research tool for now.
-Removing a gene, or making it overactive remains the standard way to prove the function of any one gene.
-Establishing a gene editing protocol in _Azolla_ will provide the research community with a tool to do functional genomics in ferns backed by the context of the _Azolla_ genome.
-The only fern in which any kind of DNA modification has been established, does not have a genome sequence available.
-Having _Azolla_ its genome sequence available, as well as storage and reproduction protocols, positions the fern as a non-seedplant model organisms.
+Establishing a gene-editing protocol for _Azolla_ would not only facilitate its domestication but also provide a powerful tool for functional genomics in ferns.
+Although growing gene-edited crops remains controversial, these techniques are invaluable for understanding gene function and improving crop traits.
+With its genome sequenced and the potential for genetic modification, _Azolla_ is well-positioned to become a model organism among non-seed plants.
+
+In summary, while the road to _Azolla_ domestication is still long, the application of genomics and gene-editing technologies offers a promising future.
+As research progresses, these tools could help _Azolla_ realize its full potential as a sustainable crop, tailored to meet the challenges of modern agriculture.
 
 <!-- 
 High-throughput sequencing and advanced computational tools allow breeders and researchers to dissect the genetic basis of complex traits, enabling more efficient selection and breeding strategies
