@@ -574,52 +574,38 @@ We later venture into meta-transcriptomics to inquire what processes are active 
 
 ## Gene editing ethics
 
-In this hitch-hikers' guide, I have written about the potential of the amazing _Azolla_, and how modern breeding techniques may propel _Azolla_'s potential even further.
-While doing so, I naïvely steered away from any ethical concerns of deploying crops with altered DNA into the environment.
+Throughout this introduction, I've highlighted the potential of _Azolla_ and how modern breeding techniques could further enhance its value.
+However, Inaïvely steered away from any ethical implications of deploying gene-edited crops into the environment.
 
-Gene editing technology has value even if crops cannot be deployed into agricultural practice.
-It can serve a purpose in speeding up the breeding and research cycle and provide means to test hypotheses in more fundamental biological questions.
+Gene editing offers immense value, even if such crops aren't introduced into agriculture.
+It can accelerate breeding cycles, test biological hypotheses, and advance fundamental research.
+Additionally, banning gene-edited crops solely because they involve gene editing leads to inconsistencies.
+For instance, two genetically identical plants might be treated differently when gene editing is illgal.
+The first crop, created through traditional methods, is legal, while the other, genetically identical crop made via efficient gene editing, is illegal.
+Countries like the U.S., Canada, and Brazil have embraced more permissive laws, while the European Union's strict classification of gene-edited crops as GMOs frustrates many scientists.
 
-Biologists have argued that it is rather ridiculous to ban gene-edited crops purely for them being gene edited.
-This legislation allows for a weird situation in which two genetically identical plants are either legal or illegal.
-One plant, made via costly, hard, and arguably polluting methods like traditional breeding and mutagenesis would be legal.
-The exact same plant made via efficient and fast gene editing would be illegal.
-Legislation that considers this argument and is permissive to gene edited crops in some capacity have been implemented in a long list of countries.
-These countries include the U.S., Canada, Argentina, Brazil, Japan and China.
-India and the U.K are in the progress of implementing similar legislation.
-The european union is very strict on gene-editing, classifying them as GMOs; to much dismay of European molecular biologists.
+Critics often point to off-target effects—unintended DNA changes—as a concern.
+However, this argument overlooks the fact that traditional breeding methods also cause significant, unregulated genetic alterations.
+Reseach has shown that off-target edits are very rare.
 
-Critisism on the technology includes off-target effects; basically unintended edits of the DNA.
-Frankly, I find this slightly hypocritical since the current industry standard like traditional breeding includes massive reduction of the gene pool.
-Similarly, with radiation based mutagenesis, off-target effects are not regulated either.
-off-target edits by gene editing are minimal or absent and vastly superior to those of traditional methods.
+Societal concerns about gene editing are more compelling.
+The promises made during the introduction of GMOs largely benefited biotech companies, often at the expense of farmers in developing countries.
+The risk of gene-edited organisms being patented further complicates matters.
+If our goal as scientists is to feed the world, we must be cautious about how this technology is used and who controls it.
+We have a role in influencing legislation and ensuring our work is used ethically.
 
-I find societal critisism much more on point.
-The introduction of Genetically Modified Organisms (GMOs) was associated with promises similar to those of gene editing.
-Yet, one can wonder who benefited mostly from GMOs.
-Arguably, biochemical and breeding companies in developped rich countries have earned over the backs of farmers in typically under-developped countries.
-Sure there are exceptions, like golden rice, but the majority of GMO crops is sold by big companies.
-Then there is the risk of gene edited organisms being patented, a big wish of breeding companies.
-As a scientific community we like to argue that we develop gene editing technologies to feed the world.
-If that is our drive, then we should be wary to hand over the technology without limitations to the companies who made GMOs what they are today.
-In the end, it is up to legislators, but as scientists we do have a voice to influence legislation.
-Additionally, the plant biology community and breeding industry are tightly connected.
-As plant biologists, we should be careful in guarding our ethical boundaries, and beware of potential adverse implications of our work and our collaborations.
+The open science movement advocates for transparency and accessibility in research.
+Should we apply these principles to gene editing?
+Given that our research is publicly funded, should our findings also belong to the public? 
+Perhaps we should make all DNA constructs publicly available, as we do with raw data, and consider restricting their use for profit.
 
-In the science community, open science has recently gained a lot of popularity.
-It is an umbrella term that collects certain behaviours and practices that all share a common goal: making science more accessible and or reproducible.
-Perhaps we should apply a similar philosophy to gene editing techniques we develop.
-As we scientists are funded by public money, do our findings then also belong to the public?
-Should it be standard to publish and make available all DNA constructs for an experiment, as it is these days to publish all raw data.
-Should it perhaps be standard that our work cannot be used for for-profit applications.
+This is a complex issue.
+While preventing commercial exploitation might seem ideal, it could also deter companies from using our discoveries, limiting their public benefit.
+We must carefully consider how to implement gene editing responsibly, avoiding the pitfalls encountered with GMOs.
 
-There are good arguments not to do so.
-Although idyllic, preventing companies to use our findings for profit, may deter them from using it at all.
-Hence, our findings would never benefit the public but remain in some dusty archive.
-
-It is quite a puzzle to implement gene editing in the most optimal way, not making mistakes made in the implementation of GMOs.
-Perhaps it will remain a research tool only in Europe, or maybe exceptions will be made when the exact same result can be achieved via traditional breeding like in the U.S., or gene-edited crops will be assessed on a case-by-base basis like in Canada.
-As a researcher I do believe in the potential of the technology for crop improvment in general, and for editing symbioses like the _Azolla_ symbiosis.
+In Europe, gene editing may remain a research tool, or, like in the U.S., exceptions might be made when traditional breeding could achieve the same results. 
+Alternatively, Canada’s case-by-case approach could offer a balanced path forward. 
+As a researcher, I believe in the potential of gene editing for crop improvement and enhancing symbioses like _Azolla_, but it must be pursued thoughtfully.
 
 ## Introducing bioinformatics to a lab
 
