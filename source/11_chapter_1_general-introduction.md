@@ -347,17 +347,17 @@ These parallels illustrate how genome reduction plays a crucial role in the spec
 
 ## Ecology
 
-_Azolla_ naturally thrives in various nutrient-rich freshwater environments, including ponds, lakes, slow-moving streams, and wetlands. 
-These habitats provide ideal conditions for _Azolla_'s growth, such as abundant water and nutrient availability. 
-_Azolla_ species are distributed globally, predominantly in tropical, subtropical, and warm temperate regions. 
-They are especially prevalent in Asia, Africa, and the Americas, where they have been traditionally used in agriculture [@Madeira2016a; @Lydia2023; @Watanabe1981]. 
-_Azolla_ forms dense mats on the water surface, outcompeting other aquatic plants and algae. 
+_Azolla_ naturally thrives in various nutrient-rich freshwater environments, including ponds, lakes, slow-moving streams, and wetlands.
+These habitats provide ideal conditions for _Azolla_'s growth, such as abundant water and nutrient availability.
+_Azolla_ species are distributed globally, predominantly in tropical, subtropical, and warm temperate regions.
+They are especially prevalent in Asia, Africa, and the Americas, where they have been traditionally used in agriculture [@Madeira2016a; @Lydia2023; @Watanabe1981].
+_Azolla_ forms dense mats on the water surface, outcompeting other aquatic plants and algae.
 These mats help stabilize ecosystems by reducing water evaporation and providing habitats for microorganisms and small aquatic animals [@Wagner1997b].
 
 Ecologists often associate _Azolla_ with unhealthy ecosystems, labeling it as invasive and dangerous. 
-However, I argue that _Azolla_ itself is not dangerous but rather a symptom of eutrophic conditions, particularly phosphorus enrichment [@Temmink2018]. 
+However, I argue that _Azolla_ itself is not dangerous but rather a symptom of eutrophic conditions, particularly phosphorus enrichment [@Temmink2018].
 Eutrophication disrupts aquatic ecosystems, and _Azolla_ can exploit these conditions.
-This is similar to other fast-growing species like algae or _Lemna_ (duckweed) [@VanderLee2018]. 
+This is similar to other fast-growing species like algae or _Lemna_ (duckweed) [@VanderLee2018].
 
 _Azolla_ has natural enemies.
 For _Azolla_ agriculture, these would be considered pests.
@@ -392,6 +392,7 @@ When attached to the megaspore, the microspore presumably swims to the megaspore
 <!-- pictures! -->
 
 ## Agricultural history
+
 The application of _Azolla__ in agriculture does not require high-tech genomics solutions.
 _Azolla_ has been used historically as a bio-fertiliser in rice paddies for several millennia [@Watanabe1981; @bocchi2010; @bujak2022].
 Rice paddies are often flooded to prevent weeds from growing there, but this provides an opportunity for toxic cyanobacterial blooms, poisoning the rice.
@@ -402,47 +403,48 @@ Additionally, it is thought that an Azolla mat prevents mosquitoes from accessin
 
 ## Agricultural opportunities
 
-_Azolla_ has significant agricultural potential due to its rapid growth, nitrogen independence, and high protein content [@Lumpkin1980a; @Brouwer2014]. 
+_Azolla_ has significant agricultural potential due to its rapid growth, nitrogen independence, and high protein content [@Lumpkin1980a; @Brouwer2014].
 It can be used as a bio-fertilizer, enhancing soil fertility by providing a natural source of nitrogen.
-This practice reduces the need for synthetic fertilizers, which promotes sustainable farming practices [@Watanabe1981]. 
+This practice reduces the need for synthetic fertilizers, which promotes sustainable farming practices [@Watanabe1981].
 Incorporating _Azolla_ into rice cultivation has been shown to increase crop yields and improve soil health, particularly in regions where arable land is limited and water is plentiful [@Watanabe1981; @bocchi2010].
 
-Beyond bio-fertilization, _Azolla_ is explored as an alternative livestock feed due to its rich amino acid profile [@Brouwer2018]. 
+Beyond bio-fertilization, _Azolla_ is explored as an alternative livestock feed due to its rich amino acid profile [@Brouwer2018].
 Its high protein content and rich amino-acid profile make it an excellent supplement for animal diets [@becerra1990;@Bujak2022;@Brouwer2014].
 _Azolla_ could serve as a local protein source, reducing the reliance on imported crops like soy.
 Especially so in regions such as the Netherlands, where the demand for protein crops exceeds local production capacity [@BrouwerThesis].
 This application may also contribute to the recycling of nutrients within local agricultural systems.
 However, challenges remain, such as _Azolla_'s relatively high tannin content, which can inhibit protein digestibility.
 
-_Azolla_ is also considered for phytoremediation, helping to clean contaminated or eutrophic water bodies by absorbing heavy metals and retrieving nutrients like phosphorus and iron from soils [@Sood2012; @Scharer2009; @Temmink2018; @Akhtar2016]. 
-While promising, the use of _Azolla_ in phytoremediation should be approached with caution due to its potential invasiveness and the complexities of pest management in aquatic systems. 
+_Azolla_ is also considered for phytoremediation, helping to clean contaminated or eutrophic water bodies by absorbing heavy metals and retrieving nutrients like phosphorus and iron from soils [@Sood2012; @Scharer2009; @Temmink2018; @Akhtar2016].
+While promising, the use of _Azolla_ in phytoremediation should be approached with caution due to its potential invasiveness and the complexities of pest management in aquatic systems.
 Despite these challenges, _Azolla_'s unique properties offer substantial opportunities in addressing modern agricultural challenges.
 
-Despite _Azolla_'s many advantages, its widespread use faces several challenges. 
-These include the need for large amounts of fresh water and the environmental risks associated with its cultivation. 
-_Azolla_ populations are also vulnerable to collapse if _S. rufinasus_ weevils infest the plants, complicating pest control in aquatic systems. 
+Despite _Azolla_'s many advantages, its widespread use faces several challenges.
+These include the need for large amounts of fresh water and the environmental risks associated with its cultivation.
+_Azolla_ populations are also vulnerable to collapse if _S. rufinasus_ weevils infest the plants, complicating pest control in aquatic systems.
 Moreover, chemical pest control is not ideal for an aquatic crop, and a crop promoted as sustainable.
 Lastly, the fern’s high phenolic content can inhibit protein digestion when used as animal feed [@Brouwer2018].
 To fully realize _Azolla_ its potential, we may tackle these challenges through domestication of the fern through modern breeding tools and genomic insights.
 
 ## Azolla domestication
 
-<!-- Feedback: The history of Azolla breeding is interesting, but some parts could be shortened, particularly the discussion of challenges and caveats, which is repeated across sections.
- -->
+The potential for _Azolla_ as a sustainable agricultural resource is clear.
+Any caveats of _Azolla_ usage, like digestion inhibition, my be tackled through breeding programs.
+However, both historic and modern usage of _Azolla_ in agriculture relied on local native _Azolla_ strains.
+_Azolla_ has never been domesticated: the process of enhancing crops for human use.
+No formal _Azolla_ cultivars exist, and to my knowledge, there has never been any systematic breeding of _Azolla_.
 
-Both historic and recent agricultural _Azolla_ applications used local native strains.
-No _Azolla_ cultivars exist, or has there ever been any _Azolla_ breeding to my knowledge.
-The caveats of _Azolla_ usage, like digestion inhibition, could be tackled with modern breeding tools.
-With genomic insights and gene editing techniques, wild crops can be domesticated with incredible efficiency [@Li2018b; @Lemmon2018a].
-However, domestication of the _Azolla_ symbiosis has only yet begun [@Schluepmann2022].
-Collecting biodiversity is one of the first steps in domestication.
-The International Rice Research Institute (IRRI) did collect a notable amount of _Azolla_ strains [@Watanabe1992].
-Unfortunately, a decent portion of the _Azolla_ germplasm at IRRI was lost.
-Additionally, control of the sexual reproduction of the fern is essential, as detailed in \ref{it_takes_two}.
-Storage and dissemination of those spores was demonstrated in @Brouwer2014.
-Modern breeding however, requires genomic information to be established as well.
-Establishing the first _Azolla_ genome in @Li2018 was an essential step in the domestication process.
-Stable transformation or gene-editing of the symbiosis partners has yet to be unlocked and is the next major step in unlocking _Azolla_'s potential.
+With genomic insights and modern breeding tools, _Azolla_ could still be domesticated.
+The first step in any domestication process is the collection of biodiversity.
+The International Rice Research Institute (IRRI) collected a notable amount of _Azolla_ strains, although some of this germplasm has unfortunately been lost [@Watanabe1992].
+Control of sexual reproduction is another critical aspect, as detailed in \ref{it_takes_two}.
+The ability to store and disseminate spores has already been demonstrated [@Brouwer2014].
+These are important steps towards domestication.
+However, modern breeding requires genomic information as well.
+
+The establishment of the first _Azolla_ genome by [@Li2018] marked a significant milestone in _Azolla_ domestication.
+With this genomic information, along with emerging gene-editing techniques, wild _Azolla_ strains might be domesticated with greater efficiency [@Li2018; @Lemmon2018a].
+Stable transformation or gene-editing of the symbiosis partners remains a challenge that must be addressed still [@Schluepmann2022].
 
 # Methodology
 
