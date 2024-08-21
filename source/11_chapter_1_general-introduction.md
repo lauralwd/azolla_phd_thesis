@@ -242,10 +242,11 @@ This process ensures that all leaves have a colony of the symbiont. [@Campbell18
 
 ## The Azolla Leaf Cavity
 
-The leaf cavity, or leaf pocket, of _Azolla_ is a specialized structure that plays a crucial role in its symbiosis with the cyanobacterium _Trichormus azollae_.
-These cavities are located within the upper lobes of _Azolla_ leaves and serve as protective niches where the cyanobiont resides.
-This unique adaptation allows _Azolla_ to house a stable population of _T. azollae_ within its tissues, ensuring a constant supply of fixed nitrogen directly to the plant.
-The cyanobacteria within these cavities are effectively sheltered from environmental fluctuations, such as changes in light intensity and water availability, which might otherwise impede their nitrogen-fixing capabilities.
+The leaf cavity, or leaf pocket, of _Azolla_ is a specialised structure that plays a crucial role in its symbiosis with the cyanobacterium _Trichormus azollae_.
+These cavities are located within the upper leaf lobes of _Azolla_ leaves and serve as protective niches where the cyanobiont resides.
+This unique adaptation allows _Azolla_ to house a stable population of _T. azollae_ within its tissues.
+Thus ensuring a constant supply of fixed nitrogen to the plant as long as amply photosynthetic light is available.
+The cyanobacteria within these cavities are effectively sheltered from environmental fluctuations such as water and nutrient availability.
 The leaf cavity not only provides a habitat for _T. azollae_ but also facilitates a tightly regulated exchange of nutrients between the host and symbiont.
 The cyanobacteria contribute nitrogen compounds that are essential for the growth of _Azolla_, while the fern supplies organic carbon derived from photosynthesis, creating a mutually beneficial relationship.
 This symbiotic arrangement within the leaf cavity is a prime example of the intricate evolutionary adaptations that have enabled _Azolla_ to thrive in nutrient-poor aquatic environments.
