@@ -192,24 +192,25 @@ In this thesis, we occasionally use the term holobiont, acknowledging its potent
 
 # The _Azolla_ symbiosis
 
-This work discusses the genomics and metagenomics of a specific symbiosis: that between the floating fern genus _Azolla_, and a cyanobacterium _Nostoc azollae_.
-The Cyanobacterium supplies the symbioses with a surplus of nitrogen fixed from the air.
+This work discusses the genomics and metagenomics of a specific symbiosis: that between the floating fern genus _Azolla_ and the cyanobacterium _Nostoc azollae_.
+The cyanobacterium supplies the symbiosis with a surplus of nitrogen fixed from the air.
 Unlike most plants, _Azolla_ is not terrestrial.
 Instead, the symbiosis floats on water.
-_Azolla_ its aquatic lifestyle makes the fern highly dependent on fresh water.
-Even its name is derived from this property, ἄζος (Azos) is ancient greek for 'drought' and ὀλλύναι (ollunai) for 'killing'.
+_Azolla_’s aquatic lifestyle makes the fern highly dependent on fresh water.
+Even its name is derived from this property, ἄζος (Azos) is ancient Greek for 'drought' and ὀλλύναι (ollunai) for 'killing'.
 The fern spreads horizontally over the water surface, darkening the water column.
-This property makes _Azolla_ as infamous under ecologists, as it is famous in symbiosis research [@Madeira2016a].
-Bigger plants break irregularly into smaller ones, genetically identical, but physically separate; forming a big green floating mat.
+This property makes _Azolla_ as infamous among ecologists as it is famous in symbiosis research [@Madeira2016a].
+
+Bigger plants break irregularly into smaller ones, genetically identical but physically separate, forming a big green floating mat.
 _Azolla_ mats are known for their high growth rate and high protein content.
-A mat can grow so spectacularly fast, that _Azolla_ is thought to have overgrown the entire north pole for some time in geological history [@Brinkhuis2006].
-This "_Azolla_ event" contributed to a significant global CO$2$ decline in the atmosphere.
+A mat can grow so rapidly that _Azolla_ is thought to have overgrown the entire north pole during a period in geological history [@Brinkhuis2006].
+This "_Azolla_ event" contributed to a significant global CO₂ decline in the atmosphere.
 Within human history, _Azolla_ has traditionally been used in rice paddy fields [@Wagner1997b;@Shi1988].
 Its main function was to prevent toxic cyanobacteria from growing in the water.
 Any surplus was fed to livestock.
-Some of today's agricultural challenges seem to be a perfect fit for _Azolla_: limited arable land, nitrogen fertilizer excesses, and protein shortage [@Bijl2014].
-_Azolla_ is an amazingly interesting plant, in this section I'll elaborate shortly on all these statements.
-I mean to give some broader context that lacks from individual chapters' introductions.
+Some of today's agricultural challenges seem a perfect fit for _Azolla_: limited arable land, nitrogen fertilizer excesses, and protein shortage [@Bijl2014].
+_Azolla_ is an amazingly interesting plant.
+In this section, I'll elaborate shortly on all these statements, providing broader context that individual chapters' introductions may lack.
 
 ## _Azolla_ physiology
 
