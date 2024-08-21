@@ -331,14 +331,19 @@ Lacking many important metabolic genes, _T. azollae_ likely has a high degree of
 I find the Ran et al. paper essential reading for _Azolla_ symbiosis research.
 It provides the genetic basis for understanding the metabolic potential of the main symbiont of _Azolla_ ferns.
 
-The genes in the _T. azollae_ genome sequence reveal both its metabolic potential and its lost capabilities, shedding light on the workings and evolution of the symbiosis.
-For example, _T. azollae_ retains pathways for phytohormone biosynthesis, which may contribute to _Azolla_'s growth and development, indicating a metabolic interdependence between the symbiont and the host [@Ran2010]. 
+The genes in the _T. azollae_ genome sequence reveal both its metabolic potential and its lost capabilities.
+This metabolic insight sheds light on the workings and evolution of the symbiosis.
+For example, _T. azollae_ retains pathways for phytohormone biosynthesis, which may contribute to _Azolla_'s growth and development  [@Ran2010].
+This finding indicates a metabolic interdependence between the symbiont and the host. 
 Nitrogen gas is fixed by the nitrogenase enzyme into ammonium, a process powered by the cyanobacterium's own photosynthesis  [@Ran2010; @Eily2019; @Ray1979].
 _T. azollae_'s photosynthesis uses a slightly different wavelength of light compared to the host, reducing competition and enabling _Azolla_ to thrive in nitrogen-poor environments. 
-However, _T. azollae_'s genome has undergone significant reductive evolution, losing many genes essential for a free-living cyanobacterium, making it highly specialized and dependent on the host. 
-This genome reduction, characterized by a high number of pseudogenes often disrupted by insertion sequences (IS elements), is a common feature in obligate symbioses [@Keeling2010; @Wernegreen2002]. 
+
+However, _T. azollae_'s genome has undergone significant reductive evolution.
+It lost many genes essential for a free-living cyanobacterium, making it highly specialised and dependent on the host.
+This genome reduction is characterised by a high number of genes that are disrupted by insertion sequences (IS elements).
+Such pseudogenes are a common feature in obligate symbioses [@Keeling2010; @Wernegreen2002]. 
 Examples from insect symbioses, such as _Buchnera aphidicola_ in aphids and _Wigglesworthia glossinidia_ in tsetse flies, demonstrate similar patterns of genome degradation, where only essential genes for the symbiotic relationship are retained [@Chong2019; @Heller2011]. 
-These parallels illustrate how genome reduction plays a crucial role in the specialization and dependence of symbionts within their hosts.
+These parallels illustrate how genome reduction plays a crucial role in the specialisation and dependence of symbionts within their hosts.
 
 ## Ecology
 
