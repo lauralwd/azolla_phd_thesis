@@ -413,59 +413,56 @@ Stable transformation or gene-editing of the symbiosis partners remains a challe
 
 # Methodology
 
-Several _Azolla_ properties make it an interesting plant for 21st century specific challenges like the demand for plant based protein and agriculture on non-arable land.
-To further realise that potential, we can make use of modern breeding tools and a system biology perspective on the functioning of the symbiosis.
-These modern breeding tools require a fundament of genomic knowledge and know-how.
-One most know the genes of a symbiosis before one knows what gene to edit.
-That genomic understanding of the _Azolla_ symbiosis, is what I work on here.
-The first part of this thesis focuses on the metagenomics of the _Azolla_ symbiosis.
-With metagenomics, I study the collective genomes of microbes associated to _Azolla_, mapping out their (near) complete metabolic potential.
+Several _Azolla_ properties make it an interesting plant for addressing 21st-century challenges, such as the demand for plant-based protein and agriculture on non-arable land.
+To further realise this potential, we can utilise modern breeding tools and a systems biology perspective on the functioning of the symbiosis.
+These modern breeding tools require a foundation of genomic knowledge and expertise.
+One must understand the genes involved in a symbiosis before determining which genes to edit.
+This genomic understanding of the _Azolla_ symbiosis is the focus of this work.
+
+The first part of this thesis explores the metagenomics of the _Azolla_ symbiosis.
+Through metagenomics, I study the collective genomes of microbes associated with _Azolla_, mapping out their (near) complete metabolic potential.
 In the last two chapters, my colleagues and I discuss the reproductive cycle of the _Azolla_ symbiosis.
-Control of the reproductive cycle is essential for domesticating the symbiosis after all.
-We try to explore the molecular underpinning of this cycle.
-To this end, we reconstruct the evolution of proteins essential to this process.
+Control of the reproductive cycle is essential for domesticating the symbiosis.
+We aim to explore the molecular underpinnings of this cycle by reconstructing the evolution of proteins essential to this process.
 The resulting phylogenetic trees allow us to relate knowledge from other plants to _Azolla_ and ferns in general.
 
 ## Bioinformatics
 
-This thesis employs ample bioinformatics techniques.
-Notably, the term has not been used once before this section of the introduction.
+This thesis employs a variety of bioinformatics techniques.
+Interestingly, the term has not been used until this section of the introduction.
 Firstly, because I chose to focus on the plant and symbiosis biology first.
-While my work my at times be heavy on the methods section, I try to put the biology first.
-And secondly because the definition of bioinformatics deserves a paragraph by itself before we dive in deeper.
+While my work may at times be heavy on the methods, I aim to prioritise the biology.
+Secondly, the definition of bioinformatics deserves its own paragraph before we delve deeper.
 
-The typical image of bioinformatics revolves around computer science and application of tools, more than biology.
-Rather often, bioinformaticians are seen as "number crunchers who look at black screens all day."
-Now there is truth in that definition, ask any of my old colleagues about how they picture me.
-But it doesn't quite do justice to the field as a whole.
-One could similarly claim that ecologists only spend time in the field determining plant species, or that molecular biologist train all day to move miniscule amounts of water around.
-These statements are perhaps ironic, and they have a bit of truth in them.
-But they are not very helpful for understanding the bigger picture behind these stereotypical acts.
-The same goes for bioinformatics.
+The typical image of bioinformatics often centres on computer science and tool application, rather than biology.
+Bioinformaticians are sometimes perceived as "number crunchers who look at black screens all day."
+While there is some truth to this—ask any of my old colleagues how they picture me—it doesn't fully capture the field.
+One could similarly claim that ecologists only spend time in the field identifying plant species or that molecular biologists spend all day moving minuscule amounts of water around.
+These statements, while ironic and containing a kernel of truth, are not helpful for understanding the broader scope behind these stereotypical actions.
+The same holds true for bioinformatics.
 
-The original definition of bioinformatics is much more interesting and helpful to understand bioinformatic works.
-**Bioinformatics is the study of information processes in biological systems** [@Hesper1970; @Hogeweg2011]**.** 
-A bioinformatician may read that information from DNA with genomics or meta-genomics.
-We study how that information is transmitted within cells via RNA perhaps with RNAseq, and across millions of years of evolution with phylogenetics.
-We study how information is used to make proteins with proteomics and structural bioinformatics.
-We study how information is used to make decisions in a cell, and how this all fits together in a biological system.
+The original definition of bioinformatics is far more insightful and useful for understanding bioinformatic work.
+**Bioinformatics is the study of information processes in biological systems** [@Hesper1970; @Hogeweg2011].
+A bioinformatician may read that information from DNA through genomics or metagenomics.
+We study how that information is transmitted within cells via RNA, perhaps with RNAseq, and across millions of years of evolution through phylogenetics.
+We investigate how information is used to produce proteins with proteomics and structural bioinformatics.
+We examine how information is utilised to make decisions in a cell and how this all integrates into a biological system.
 
-In this work, we use bioinformatics to inquire the information storage or processing of _Azolla_ and associated microbes.
-This does come down to a lot of computer work and number crunching, counting of molecules and comparing their sequences to each other.
-But the tedious counting of molecules is a means to an end: understanding the system as a whole.
-In our case that means inquiring and getting to understand the identity and metabolic potential of all _Azolla_ associated microbes.
-Or alternatively to find out how reproduction cycle genes in _Azolla_ compare to homologous genes in seed plants.
+In this work, we use bioinformatics to investigate the information storage and processing of _Azolla_ and its associated microbes.
+This does involve a substantial amount of computer work, number crunching, molecule counting, and sequence comparisons.
+However, the tedious counting of molecules is a means to an end: understanding the system as a whole.
+In our case, this means identifying and understanding the metabolic potential of all _Azolla_-associated microbes or determining how reproduction cycle genes in _Azolla_ compare to homologous genes in seed plants.
 
-I do not claim to address all listed bioinformatics questions for the _Azolla_ symbiosis, and certainly not that I understand the system as a whole.
-Instead, I mean to set the context in which I am working.
-The _Azolla_ genome was the first genome to be ever published.
-With fern genomics we are just starting to delve into bioinformatics.
-It is a long-term goal that my research helps to move towards better genomic understanding of _Azolla_ and symbioses in general." -->
-Genomic knowledge and know-how of the system, is merely a step towards that end-goal of system understanding.
+I do not claim to address all bioinformatics questions related to the _Azolla_ symbiosis, nor do I claim to fully understand the system.
+Instead, I aim to set the context in which I am working.
+The _Azolla_ genome was the first fern genome ever published.
+We are just beginning to delve into fern genomics with bioinformatics.
+It is a long-term goal that my research contributes to a better genomic understanding of _Azolla_ and symbioses in general.
+Genomic knowledge and expertise are merely steps toward the ultimate goal of understanding the system.
 
-## Genomics for breeding novel crops
+## Genomics for Breeding Novel Crops
 
-Genomics and bioinformatics have revolutionized plant breeding by enabling unprecedented precision and speed in the selection of desirable traits.
+Genomics and bioinformatics have revolutionised plant breeding by enabling unprecedented precision and speed in selecting desirable traits.
 Where traditional breeding relied on time-consuming phenotypic selection across generations, modern genomics allows breeders to directly target specific genes associated with key traits.
 High-throughput sequencing, coupled with bioinformatics tools, enables the rapid identification of genetic markers linked to disease resistance, yield, and stress tolerance.
 This shift has not only accelerated breeding cycles but also opened new possibilities for improving crop resilience and productivity in ways previously unimaginable.
@@ -479,19 +476,19 @@ By disabling key genes involved in domestication, researchers recreated domestic
 
 This approach has also been successfully applied to other crops, such as the ground cherry, an orphan crop related to tomatoes.
 Using knowledge gained from tomato genomics, researchers were able to gene-edit ground cherry, enhancing its yield and making it more suitable for agriculture [@Lemmon2018a].
-These examples highlight the power of genomic insights and gene-editing technologies to domesticate new crops rapidly, while preserving genetic diversity and enhancing resilience.
+These examples highlight the power of genomic insights and gene-editing technologies to rapidly domesticate new crops while preserving genetic diversity and enhancing resilience.
 
 For novel crops like _Azolla_, these technologies offer a pathway to overcome its current limitations.
 However, _Azolla_ researchers currently lack the extensive genomic resources available for crops like tomato.
 Moreover, robust gene-editing protocols have yet to be established for _Azolla_ and its symbionts.
-Still, with continued research into its genomics and reproduction, the domestication of _Azolla_ could follow a similar trajectory, transforming it into a valuable crop for sustainable agriculture. [@Schluepmann2022]
+Still, with continued research into its genomics and reproduction, the domestication of _Azolla_ could follow a similar trajectory, transforming it into a valuable crop for sustainable agriculture [@Schluepmann2022].
 
 Establishing a gene-editing protocol for _Azolla_ would not only facilitate its domestication but also provide a powerful tool for functional genomics in ferns.
 Although growing gene-edited crops remains controversial, these techniques are invaluable for understanding gene function and improving crop traits.
 With its genome sequenced and the potential for genetic modification, _Azolla_ is well-positioned to become a model organism among non-seed plants.
 
 In summary, while the road to _Azolla_ domestication is still long, the application of genomics and gene-editing technologies offers a promising future.
-As research progresses, these tools could help _Azolla_ realize its full potential as a sustainable crop, tailored to meet the challenges of modern agriculture.
+As research progresses, these tools could help _Azolla_ realise its full potential as a sustainable crop, tailored to meet the challenges of modern agriculture.
 
 <!-- 
 High-throughput sequencing and advanced computational tools allow breeders and researchers to dissect the genetic basis of complex traits, enabling more efficient selection and breeding strategies
