@@ -609,94 +609,48 @@ As a researcher, I believe in the potential of gene editing for crop improvement
 
 ## Introducing Bioinformatics to a Lab
 
-<!--  This section provides valuable insights into the challenges of integrating bioinformatics into a lab, but it could be shortened by focusing on the most impactful lessons learned. -->
+The _Azolla_ lab was part of the molecular plant physiology group at Utrecht University before it was dissolved.
+In its early days, the lab focused on optimizing the growth and analysing extracts of _Azolla_ biomass.
+Introducing bioinformatics to a small lab of three employees with no prior experience was challenging.
+This process began during my Masters when I started working on _Azolla_.
+Infrastructure issues, such as storage and computing power, were quickly addressed with funding to build a computer and support from the local theoretical biology and bioinformatics group.
 
-The _Azolla_ lab was housed in the molecular plant physiology group at Utrecht University before the former two were dissolved.
-In its early days, the focus was on optimising growth and working on extracts of the _Azolla_ biomass.
-It was quite a challenge to introduce bioinformatics techniques to a small lab of at most three employees with no bioinformatics history.
-This process started already during my Masters, when I started working on _Azolla_.
-It was a challenge in means of infrastructure, like storage and computing power.
-But this was quickly solved with some money from the group to build a computer and with hospitality of the local theoretical biology and bioinformatics group.
-The main challenge was building the know-how of basic things: programming skills, handling NGS data, and doing science generally in a computer lab.
-As a computer savvy student at the time, with no bioinformatics training whatsoever, I was lucky to attend some PhD courses on bioinformatics techniques like metagenomics and RNAseq.
-Additionally, I was lucky to get advice from collaborators, specifically those in chapter \ref{foul_play}, and from bioinformaticians and system administrators in the department.
-With some support and enthusiasm, together we managed to publish a first bioinformatics-centred paper (Chapter \ref{foul_play}) within two years after the project started.
-Later, during my PhD, we diverged the bioinformatics toolkit of the lab quite a bit like small RNA sequencing, comparative genomics and nanopore sequencing.
+The main challenge was building foundational knowledge in programming, handling NGS data, and conducting computational science.
+As a computer-savvy student with no bioinformatics training, I was fortunate to attend PhD courses on bioinformatics techniques like metagenomics and RNAseq.
+I also received advice from collaborators and bioinformaticians in the department, which helped us publish our first bioinformatics-centered paper (Chapter \ref{foul_play}) within two years of starting the project.
+During my PhD, we expanded the lab’s bioinformatics toolkit to include small RNA sequencing, comparative genomics, and nanopore sequencing.
 
-Despite the quick introduction of bioinformatics in the _Azolla_ lab, there was so much work to be done.
-As a lab, we wanted to improve upon the annotation of the existing _A. filiculoides_ genome assembly, sequence metagenomes and metatranscriptomes of small experimental _Azolla_ ecosystems (mesocosms), develop meta-transcriptomics or dual-transcriptomics protocols, and many more plans.
-These bioinformatics techniques would help us answer questions relevant for _Azolla_ domestication and general understanding of the symbiosis.
-But we struggled with the broadness of all these questions.
-Each technique often requires a different specialized protocol to prepare the experimental material in a proper way.
-Preparations of sequencing libraries are costly, as is sequencing itself.
-Then each technique requires special bioinformatic tools, each with their own manual and intricacies.
-In the end, we did manage as a team to do metagenomics, transcriptomics, small RNA sequencing, and metatranscriptomics.
-We contributed to a new genome annotation, started to sequence with a nanopore device, and delved into phylogeny.
-Even with a small team, and limited experience, a lot is possible.
-However, without a transformation protocol for any of the symbiosis partners, bioinformatics often remains a descriptive discipline.
+As we faced challenges integrating bioinformatics into a molecular context, so did our students.
+The _Azolla_ lab, being a molecular biology lab focused on a novel crop with potential for sustainability research, struggled to attract students with bioinformatics training.
+These students needed to analyze bioinformatics-related data, but lacked basic computational training.
+Given the increasing size of experimental biology datasets, this lack of coding skills seemed undesirable to me.
+Teaching students the basics of coding is a strain on a hosting lab.
+We eventually developed a flexible co-supervision system among two PhDs and a PI.
+This work paid off, summarized in Chapter \ref{it_takes_two}, which humorously became known as “all student projects of the last years combined into one paper.”
 
-As I and my colleagues have struggled with starting bioinformatics in a molecular context, so have our students.
-The _Azolla_ lab was a molecular biology lab, working on a novel crop with lots of opportunities for sustainability-related research.
-We have learned the hard way that this does not attract your typical bioinformatics-trained student.
-Yet, also students in the lab needed to analyze bioinformatics-related data.
-The basic biology curriculum contains little coding, and to this day, biology students can easily finish the bachelor with minimal coding experience.
-With the current increase of datasets their size, this seems undesirable to me.
-Teaching students the basics of coding can be seen as either a valueble transferable skill, or a distraction from the biological content of their internships.
-Additionally, it provides a lot of strain on the host lab.
-Between two PhDs and a PI, we settled on a division of labour that matched our individual skills, a flexible co-supervision system.
-The fruit of this hard labour, is summarised in chapter \ref{it_takes_two}.
-My subtitle for this chapter has jokingly been: all student projects of the last years combined into one paper.
-The chapter contains a lot of data directly generated and analysed by students under our collective supervision.
 <!-- See where all students ended up via linked in? -->
 
-What we as a team have learned from these experiences is that introducing bioinformatics into a molecular biology lab is not just about acquiring the necessary tools and infrastructure.
-It also involves creating a supportive environment where students and researchers can develop the computational skills needed to analyze the increasingly complex datasets generated in modern biological research.
-An environment where continuous learning of both students and staff is celebrated and computational work is not secondary to experimental work.
-Our experience has shown that with the right support, even labs without a prior history in bioinformatics can successfully integrate these essential techniques into their research.
+Our experiences taught us that introducing bioinformatics into a molecular biology lab requires more than just acquiring tools and infrastructure.
+It involves creating a supportive environment where both students and researchers can develop the necessary computational skills; an environment where continuous learning is encouraged and computational work is valued alongside experimental work.
 
-As a wet-lab by training, moving to the computer lab came with more challenges.
-One major one was documentation and lab journaling.
-It has always surprised me that despite the obviousness of lab journaling a wet lab experiment, students and staff hardly kept notes when doing computer work.
-Admittedly, I have struggled with this myself during my PhD.
-Physical written journals, word documents, long comment-lines in scripts, I have tried all these things.
-Bioinformatics education is relatively young compared to that for molecular biology.
-Last decade saw an increase in attention for bioinformatics education in general.
-Maybe we need to include documentation and journaling in computer lab projects in that education as well.
-Perhaps professionals in the field have not settled on a standard yet themselves.
-In molecular biology labs at Utrecht University, maintaining a digital lab journal is standardised an obligatory.
-Yet, in a computer lab no such standard exists to my knowledge.
+Transitioning from the wet lab to the computer lab posed additional challenges, particularly with documentation and lab journaling.
+It surprised me that despite the obvious need for documenting wet lab experiments, students and staff rarely kept notes when doing computer work.
+I struggled with this myself during my PhD, trying various methods such as physical journals, Word documents, and long comment lines in scripts.
+Bioinformatics education is still relatively young, and perhaps documentation and journaling need to be emphasized more in computer lab projects.
+In molecular biology labs at Utrecht University, maintaining a digital lab journal is standardized and obligatory, but no such standard exists in the computer lab.
 
-My personal process started with writing loose scripts organised in folders and keeping analytical thoughts in separate notes.
-I later committed to writing read-me files in project folders and documenting code changes in version control software like Git.
-This became such a habit that even this thesis is also written in code (Markdown & LateX) and all versions are tracked in Git.
-Biological results, interpretations, and speculations I kept in separate digital notes.
-This dislodged the interpretation from the data files, but allows for more natural combining of results and ideas from various coding projects.
-Near the end of my PhD, I worked more with notebooks containing R, Python and BASH code.
-A notebook is one document integrating computer code, its output, and a research and development narrative.
+My personal process evolved from writing loose scripts organized in folders and keeping analytical thoughts in separate notes to committing to writing read-me files and using version control software like Git.
+This habit became so ingrained that even this thesis was written in code (Markdown & LaTeX) with all versions tracked in Git.
+Biological results, interpretations, and speculations were kept in separate digital notes, which allowed for a more natural combination of results and ideas from various coding projects.
+Near the end of my PhD, I started using code notebooks containing R, Python, and BASH code, which integrated code, output, and a research narrative.
 
-Working with notebooks was so successful, that I setup facilities for the entire lab to write code notebooks in a webbrowser.
-The notebooks code ran on our local server, using professional hardware and with direct access to all our data.
-Especially the phylogeny notebook became successful, we have published several of these associated with our papers.
-The development and results of this notebook are described in chapter \ref{one_two_tree}
+Working with code notebooks was so successful that I set up facilities for the entire lab to write code notebooks in a web browser.
+The code ran on our local server, using professional hardware with direct access to all our data.
+The phylogeny notebook, in particular, became successful, leading to several publications associated with our papers, as described in Chapter \ref{one_two_tree}.
 
-I am quite content with what we have achieved with _Azolla_ genomics.
-Especially considering the lab started from scratch only in 2014, and despite all limitations and challenges posed to us in my almost 7 years at the lab as a student, PhD candidate and part-time teacher.
-<!-- To strengthen the narrative, you could briefly summarize the key achievements that you are most proud of, such as specific discoveries, successful implementation of new techniques, or contributions to the field of symbiosis research. -->
-<!-- To make it more impactful, you might highlight specific challenges that were overcome, such as technical limitations, funding constraints, or the steep learning curve associated with adopting bioinformatics, and how these were addressed by the team. -->
-There is a lot more work to do, to understand and manipulate the symbiosis.
-<!-- To add depth, you could briefly outline the most pressing questions or research goals that remain, and how the groundwork laid by your research might facilitate future advancements in these areas. -->
-I hope that other labs globally may pick up our work and find it useful for their own experiments.
-
-<!-- 
-Gemini: The author could consider summarizing the key achievements they are most proud of, highlighting specific challenges that were overcome, and outlining the most pressing research questions that remain. This would add depth and impact to the introduction.
- -->
-
-
-<!-- 
-Through advanced sequencing technologies, this research characterizes the genomes of both _Azolla_ and _Nostoc azollae_, revealing the genetic basis of their symbiotic interaction.
-Metagenomic approaches further elucidate the broader microbial community associated with _Azolla_, identifying other potential endophytes that contribute to the fern's growth and resilience.
-By integrating genomic and metagenomic data, this work seeks to deepen our understanding of the molecular mechanisms driving the _Azolla_-_Nostoc_ symbiosis and to explore its applications in enhancing agricultural sustainability. 
--->
+Reflecting on our achievements, I am proud of what we accomplished with _Azolla_ genomics, especially considering the lab started from scratch in 2014.
+Despite the challenges and limitations, we made significant progress in my nearly seven years at the lab as a student, PhD candidate, and part-time teacher.
+There is still much work to do to understand and manipulate the symbiosis, and I hope that other labs around the world will find our work useful for their experiments.
 
 # Outline of this thesis
 
