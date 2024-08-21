@@ -402,42 +402,28 @@ Additionally, it is thought that an Azolla mat prevents mosquitoes from accessin
 
 ## Agricultural opportunities
 
-_Azolla_'s properties give it substantial agricultural potential [@Lumpkin1980a; @Brouwer2014].
-These are properties like rapid growth, nitrogen fertiliser independence, and high protein content [@Brouwer2014].
-Firstly, as in rice paddies, _Azolla_ can be used as a bio-fertiliser, enhancing soil fertility by providing a natural source of nitrogen [@Watanabe1981].
-This reduces the need for synthetic fertiliser; promoting sustainable farming practices and reducing environmental impact.
-Studies have shown that incorporating _Azolla_ in rice cultivation can increase crop yields and improve soil health [@Watanabe1981;@bocchi2010].
-Especially when arable land is limited but fresh water is not, _Azolla_ may prove useful to farmers [@Lumpkin1980a].
+_Azolla_ has significant agricultural potential due to its rapid growth, nitrogen independence, and high protein content [@Lumpkin1980a; @Brouwer2014]. 
+It can be used as a bio-fertilizer, enhancing soil fertility by providing a natural source of nitrogen.
+This practice reduces the need for synthetic fertilizers, which promotes sustainable farming practices [@Watanabe1981]. 
+Incorporating _Azolla_ into rice cultivation has been shown to increase crop yields and improve soil health, particularly in regions where arable land is limited and water is plentiful [@Watanabe1981; @bocchi2010].
 
-Beyond its use as a bio-fertiliser, _Azolla_ is also explored as an alternative feed for livestock [@Brouwer2018].
+Beyond bio-fertilization, _Azolla_ is explored as an alternative livestock feed due to its rich amino acid profile [@Brouwer2018]. 
 Its high protein content and rich amino-acid profile make it an excellent supplement for animal diets [@becerra1990;@Bujak2022;@Brouwer2014].
-The current major protein crop is soy.
-It is massively imported for feed purposes.
-Currently, the Netherlands imports more soy than we could grow soy plants in the total area of the country [@BrouwerThesis].
-_Azolla_ could be an alternative plant that grows well in the Dutch temperate climate.
-This application may also contribute to the recycling of nutrients within agricultural systems.
-Again, there are challenges for including _Azolla_ in feed diets.
-A relatively high content of tannins and other polyphenols may inhibit _Azolla_'s digestibility.
+_Azolla_ could serve as a local protein source, reducing the reliance on imported crops like soy.
+Especially so in regions such as the Netherlands, where the demand for protein crops exceeds local production capacity [@BrouwerThesis].
+This application may also contribute to the recycling of nutrients within local agricultural systems.
+However, challenges remain, such as _Azolla_'s relatively high tannin content, which can inhibit protein digestibility.
 
-_Azolla_ is also thought capable of cleaning up contaminated or eutrophic water bodies through phytoremediation [@Sood2012].
-This process involves using plants to remove, degrade, or stabilize environmental contaminants.
-It could be leveraged to retrieve phosphorus and iron that are locked and unavailable in agricultural soils under aerobic conditions [@Scharer2009; @Temmink2018].
-When a meadow is flooded and covered with _Azolla_ ferns, the anoxic conditions may release Iron and Phosphorus from the soil [@Scharer2009].
+_Azolla_ is also considered for phytoremediation, helping to clean contaminated or eutrophic water bodies by absorbing heavy metals and retrieving nutrients like phosphorus and iron from soils [@Sood2012; @Scharer2009; @Temmink2018; @Akhtar2016]. 
+While promising, the use of _Azolla_ in phytoremediation should be approached with caution due to its potential invasiveness and the complexities of pest management in aquatic systems. 
+Despite these challenges, _Azolla_'s unique properties offer substantial opportunities in addressing modern agricultural challenges.
 
-_Azolla_ is shown to absorb heavy metals such as lead, cadmium, and arsenic from polluted waters [@Sood2012].
-The plants may not be suitable for consumption or use as feed or fertiliser, but the contaminated ecosystem may be cleaner after the process.
-Some studies suggest incorporating _Azolla_ in water management strategies.
-They argue it may help restoring ecological balance to eutrophic and contaminated water bodies [@Akhtar2016].
-Given Azolla’s rapid and invasive growth tendencies, I argue to practice extreme caution before implementing such measures.
-
-Given all these special properties and agricultural opportunities, one may wonder why _Azolla_ is not used all around.
-There are naturally several caveats to using _Azolla_ in practice.
-Fresh water usage and environmental risks of growing _Azolla_ are among those.
-Besides, _Azolla_ populations can collapse once _S. rufinasus_ populations settle on the plants.
-Pest control in an aquatic system is more complex than on land.
-Besides, since I'm advocating _Azolla_ as a sustainable alternative, chemical pest control is not desirable although perhaps not avoidable.
-Finally, when using _Azolla_ as feed for animals, the fern's high phenolic content can inhibit digestion of the protein content [@Brouwer2018].
-<!-- This transition could be better. -->
+Despite _Azolla_'s many advantages, its widespread use faces several challenges. 
+These include the need for large amounts of fresh water and the environmental risks associated with its cultivation. 
+_Azolla_ populations are also vulnerable to collapse if _S. rufinasus_ weevils infest the plants, complicating pest control in aquatic systems. 
+Moreover, chemical pest control is not ideal for an aquatic crop, and a crop promoted as sustainable.
+Lastly, the fern’s high phenolic content can inhibit protein digestion when used as animal feed [@Brouwer2018].
+To fully realize _Azolla_ its potential, we may tackle these challenges through domestication of the fern through modern breeding tools and genomic insights.
 
 ## Azolla domestication
 
