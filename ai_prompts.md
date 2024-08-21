@@ -7,6 +7,12 @@
 > The section on XXXXXXX is too elaborate. Draft me a more concise version that keeps the main points.
 > 
 > Write output in Markdown like the original text. Write one sentence per line and keep all references in the text.
+>
+# rewrite section
+
+> In your feedback on this phd introduction, you the professor, decide to rewrite a section. Specifically the XXXXXXX section. 
+> 
+> Keep the formatting as we did before, and all the references from the original text.
 
 # English usage
 
