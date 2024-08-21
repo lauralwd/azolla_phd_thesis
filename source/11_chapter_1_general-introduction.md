@@ -545,46 +545,32 @@ With GMO and gene editing technology, these insights can be tested in a living p
 
 ## Genomics for breeding a symbiosis
 
-<!-- The explanation of metagenomics versus microbiome profiling is informative, but could be made more concise. Focus on the key differences that are most relevant to the thesis -->
+Molecular breeding has its roots in the study of DNA, leading into the field of genomics. 
+Consequently, symbiosis breeding relies then on metagenomics— the study of all DNA associated with a organ or organism. 
+Unlike traditional microbiome profiling, which often relies on 16S rRNA gene sequencing to identify microbial taxa, metagenomics aims to reconstruct full genomes of all associated organisms. 
+This approach reveals the complete metabolic potential of the symbionts, providing a more detailed understanding of their roles in the host’s biology.
 
-Molecular breeding began with the study of DNA; a field that was later called genomics.
-It is then only logical to begin symbiosis breeding with meta-genomics.
-Metagenomics is the study of all DNA associated with any organ or organism, where genomics is the study of a single organism.
-Metagenomics differs from microbiome profiling.
-The latter are most often 16S marker gene studies.
-These only provide insight into the taxonomy of organisms associated with a certain organ or organism.
-Metagenomics aims to reconstruct the full genomes of all those organisms, revealing their full metabolic potential.
-With metagenomics, we can investigate the gene toolkit of all symbionts associated with a certain host, and better understand their function.
-
-By sequencing the genomes of both the host and the symbiont, researchers can hypothesise which genes are involved in symbiotic functions.
-These can include genes involved in nutrient exchange, stress tolerance, and pathogen resistance.
-The genes and pathways that are present or absent allow for directed hypothesis generation.
-For example, it allows us to investigate any microbe's metabolic potential and relate this to that of other microbes' or to the host's metabolism.
+By sequencing both the host and symbiont genomes, researchers can hypothesize which genes are involved in key symbiotic functions.
+Such functions can center around nutrient exchange, stress tolerance, and pathogen resistance for example.
+This genomic data allows for targeted hypothesis generation, enabling the investigation of metabolic interactions and potential gene targets for enhancing symbiosis. 
 In the _Azolla_ symbiosis specifically, we hypothesize that symbiosis partners may actually leach off nitrogen fixed by _T. azollae_ in chapter \ref{foul_play}.
 These foul players might actually be parasites rather than mutualists.
-In the future, metagenomic insights may allow for the targeted manipulation of genes in symbionts to enhance some performance or plant productivity.
-Cyanobacteria may accumulate more phosphorus for example for when this nutrient becomes scarce, or parasites may be removed from the system.
-Alternatively, understanding the niche of any microbe in a consortium, one might be able to swap out one microbe for another to add or remove metabolic potential.
-Microbiome editing is a new and challenging field, we are often unaware of the many ecological relations between microbiome members [@Albright2022].
+Understanding these dynamics through metagenomics could lead to strategies for optimizing symbiotic efficiency, such as removing parasitic partners or enhancing beneficial ones.
 
-Microbiome editing is a field much younger than editing single organisms.
-Even when working with a single strain of a single organism, successful editing is rare.
-A protocol to do so often includes steps to kill or remove cells that were not edited.
-When editing a microbiome, or genes of a microbiome member, we must first assume we can grow this microbe in isolation while we now most microbes cannot.
-Then assume that a transformation or editing protocol is available, which is rarely the case for non-model organisms.
-And finally assume that the newly transformed strain can replace the original and retake the niche of its wild type predecessor.
-An alternate approach is taking a similar strain or species with desired traits, and introducing it into an existing consortium.
-This is a challenging process and requires insights into the consortium's ecology to succeed [@Albright2022; @Bai2023].
+Despite its promise, microbiome editing—particularly in complex symbiotic systems—remains a formidable challenge [@Bai2023].
+Editing a single microbial species is already difficult, often requiring the ability to grow the microbe in isolation and develop a transformation protocol.
+In a symbiotic system, these challenges are magnified by the need to reintroduce the modified microbe into the host and ensure it occupies the same ecological niche as the original strain [@Albright2022].
+Alternatively, one can introduce a similar strain with desirable traits into the symbiotic community.
+This approach requires deep ecological understanding to succeed [@Albright2022].
 
-For _Azolla_ specifically, we have managed to grow several strains of bacteria in isolation (unpublished results).
-We have not yet managed to re-introduce microbes to the _Azolla_ leaf pockets.
-This is an essential step to stably modify the _Azolla_ microbial community.
-While _Azolla_ microbiome editing is a spectacular perspective of what might be possible in the future, we are not there yet.
-Instead, I focus here on identifying and describing the symbiosis partners.
-Specifically in chapter \ref{forever_together}, I use sequencing data of several _Azolla_ species to retrieve microbial genomes associated with _Azolla_ as a whole genus.
-We later venture into meta-transcriptomics to inquiry what the active processes are in these microbes, but gain little signal to what genes are active in these microbes (Chapter \ref{it_takes_two}).
+In the _Azolla_ symbiosis, researchers have managed to isolate and culture several bacterial strains.However, reintroducing them into the _Azolla_ leaf pockets has yet to be achieved.
+This step is crucial for any future attempts at microbiome editing in _Azolla_.
+While these advanced techniques remain on the horizon, the focus now is on identifying and characterizing the symbiotic partners.
+In chapter \ref{forever_together}, sequencing data from multiple _Azolla_ species is used to retrieve microbial genomes associated with the genus.
+This effort provides a foundation for understanding the symbiosis at a genomic level.
 
-<!-- Match generalness and Azolla-specificness of the last two sections to each other. I guess that's not the case now. -->
+We later venture into meta-transcriptomics to inquire what processes are active in these microbes, but gain little signal to what genes are active in these microbes (Chapter \ref{it_takes_two}).
+
 
 <!-- move shorter gene ethics section here? -->
 
