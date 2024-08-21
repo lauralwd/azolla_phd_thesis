@@ -198,27 +198,6 @@ Take any entity at any scale, and one can defend it as either being selfish or c
 The lesson I take from the holobiont polemic, is again to take a systems perspective; to emphasise relations and processes over the individual parts.
 
 # The _Azolla_ symbiosis
-<!-- Perhaps this section needs re-organising.
-Claude says:
-Azolla physiology and life cycle
-- General Azolla physiology
-- Life cycle
-- Cyanobacterial symbiosis (general overview)
-- Trichormus azollae (specific symbiont details)
-
-Ecology and natural history
-- Natural habitats and distribution
-- Ecological role and interactions
-
-Agricultural history and opportunities
-- Traditional uses in agriculture
-- Modern agricultural potential
-
-Challenges and the need for domestication
-- Current limitations in Azolla use
-- Goals for domestication
-  
- -->
 
 This work discusses the genomics and metagenomics of a specific symbiosis: that between the floating fern genus _Azolla_, and a cyanobacterium _Nostoc azollae_.
 The Cyanobacterium supplies the symbioses with a surplus of nitrogen fixed from the air.
@@ -715,53 +694,52 @@ We have learned the hard way that this does not attract your typical bioinformat
 Yet, also students in the lab needed to analyze bioinformatics-related data.
 The basic biology curriculum contains little coding, and to this day, biology students can easily finish the bachelor with minimal coding experience.
 With the current increase of datasets their size, this seems undesirable to me.
-Teaching students the basics of coding distracts from the biological content of their internships.
+Teaching students the basics of coding can be seen as either a valueble transferable skill, or a distraction from the biological content of their internships.
 Additionally, it provides a lot of strain on the host lab.
-<!-- This sentence acknowledges the burden on the lab. To enhance the narrative, consider discussing how the lab managed this strain, perhaps by integrating bioinformatics training into the early stages of student projects, providing mentorship, or creating streamlined workflows that allowed students to learn coding in a more structured and less time-consuming way. -->
-But the students still need to be educated to do the bioinformatics work for their internship and later in their careers.
-<!-- This is a crucial point about the necessity of bioinformatics education. To make it more impactful, you could discuss the long-term benefits for students who acquire these skills, such as improved employability and the ability to tackle more complex research questions, thereby motivating the effort required to teach them. -->
+Between two PhDs and a PI, we settled on a division of labour that matched our individual skills, a flexible co-supervision system.
+The fruit of this hard labour, is summarised in chapter \ref{it_takes_two}.
+My subtitle for this chapter has jokingly been: all student projects of the last years combined into one paper.
+The chapter contains a lot of data directly generated and analysed by students under our collective supervision.
+<!-- See where all students ended up via linked in? -->
 
 What we as a team have learned from these experiences is that introducing bioinformatics into a molecular biology lab is not just about acquiring the necessary tools and infrastructure.
-<!-- This sentence introduces a reflective conclusion, which is valuable. To deepen the reflection, consider adding that it also requires a cultural shift within the lab, where computational work is valued equally with experimental work, and where continuous learning and adaptation are encouraged. -->
 It also involves creating a supportive environment where students and researchers can develop the computational skills needed to analyze the increasingly complex datasets generated in modern biological research.
-<!-- This sentence effectively wraps up the section. To strengthen the narrative, you might want to emphasize how this supportive environment was cultivated in your lab, possibly by highlighting specific initiatives such as collaborative projects, peer learning, or ongoing professional development opportunities. -->
+An environment where continuous learning of both students and staff is celebrated and computational work is not secondary to experimental work.
 Our experience has shown that with the right support, even labs without a prior history in bioinformatics can successfully integrate these essential techniques into their research.
-<!-- This final sentence is optimistic and encouraging. To make it even more actionable, you could suggest that other labs facing similar challenges could benefit from seeking out collaborations, investing in training, and gradually building their bioinformatics capacity, just as your lab has done. -->
 
-As a wet-lab by training, moving to the computer lab came with challenges.
-<!-- This sentence effectively sets up the transition from traditional wet-lab work to bioinformatics. To deepen the narrative, consider briefly outlining some of the specific challenges you encountered, such as adapting to new workflows, learning programming languages, or integrating computational work with experimental data. -->
+As a wet-lab by training, moving to the computer lab came with more challenges.
 One major one was documentation and lab journaling.
-<!-- This sentence introduces a critical aspect of research—documentation. To enhance the discussion, you could briefly mention why proper documentation is especially important in bioinformatics, where the complexity of data and analyses can easily lead to errors or difficulties in reproducing results. -->
 It has always surprised me that despite the obviousness of lab journaling a wet lab experiment, students and staff hardly kept notes when doing computer work.
-<!-- This observation highlights an important issue in the lab's transition to bioinformatics. To build on this point, you might discuss how this lack of documentation affected the research process, such as by making it difficult to track progress, troubleshoot issues, or replicate analyses. -->
 Admittedly, I have struggled with this myself during my PhD.
-<!-- This honest reflection adds a personal touch to the narrative. To make it more instructive, you could briefly describe specific instances where the lack of documentation created challenges for you, and how you addressed these issues over time. -->
 Physical written journals, word documents, long comment-lines in scripts, I have tried all these things.
-<!-- This sentence effectively conveys the experimentation with different documentation methods. To deepen the discussion, consider briefly evaluating the strengths and weaknesses of each approach, which would provide insights into why you ultimately settled on certain methods over others. -->
 Bioinformatics education is relatively young compared to that for molecular biology.
-<!-- This sentence provides important context for the challenges faced in documentation. To strengthen the narrative, you might discuss how this relative youth of the field contributes to the lack of standardized practices in areas like documentation and how this is gradually changing as the field matures. -->
-Maybe we need to learn biologists still how to properly keep notes on development, code and the underlying biology in a computer lab project.
-<!-- This sentence suggests a critical area for improvement in bioinformatics training. To make it more actionable, consider proposing specific strategies for teaching these skills, such as incorporating documentation best practices into bioinformatics curricula, providing templates or guidelines, or emphasizing the importance of documentation in research outputs. -->
-In the end, I settled upon splitting the development of code from the interpretation of results.
-<!-- This sentence introduces a practical solution. To enrich the narrative, you could briefly explain the reasoning behind this approach—how separating these tasks helped improve clarity, organization, or the overall research process. -->
-I committed to writing read-me files in project folders and documenting changes in version control software like Git.
-<!-- This is a strong and specific example of good practice. To enhance the impact, you might briefly discuss the benefits of using version control in bioinformatics, such as enabling collaboration, tracking changes, and ensuring the reproducibility of analyses. -->
-Biological results, interpretations, and speculations I kept in a note-taking piece of software.
-<!-- This sentence highlights a complementary documentation strategy. To provide more context, you could mention why this software was particularly effective for organizing your thoughts and insights, and how it helped integrate the biological aspects of your work with the computational components. -->
+Last decade saw an increase in attention for bioinformatics education in general.
+Maybe we need to include documentation and journaling in computer lab projects in that education as well.
+Perhaps professionals in the field have not settled on a standard yet themselves.
+In molecular biology labs at Utrecht University, maintaining a digital lab journal is standardised an obligatory.
+Yet, in a computer lab no such standard exists to my knowledge.
+
+My personal process started with writing loose scripts organised in folders and keeping analytical thoughts in separate notes.
+I later committed to writing read-me files in project folders and documenting code changes in version control software like Git.
+This became such a habit that even this thesis is also written in code (Markdown & LateX) and all versions are tracked in Git.
+Biological results, interpretations, and speculations I kept in separate digital notes.
 This dislodged the interpretation from the data files, but allows for more natural combining of results and ideas from various coding projects.
-<!-- This sentence acknowledges a trade-off in your approach. To deepen the discussion, consider explaining how you managed this disjunction, such as by regularly cross-referencing your notes with your data files or by maintaining a clear organizational structure in your projects. -->
+Near the end of my PhD, I worked more with notebooks containing R, Python and BASH code.
+A notebook is one document integrating computer code, its output, and a research and development narrative.
 
-
-<!-- some of the tools and good practices? jupy and R servers, web bases, notebooks!, small shared facility for students and staff to -->
+Working with notebooks was so successful, that I setup facilities for the entire lab to write code notebooks in a webbrowser.
+The notebooks code ran on our local server, using professional hardware and with direct access to all our data.
+Especially the phylogeny notebook became successful, we have published several of these associated with our papers.
+The development and results of this notebook are described in chapter \ref{one_two_tree}
 
 I am quite content with what we have achieved with _Azolla_ genomics.
-<!-- This sentence provides a reflective conclusion to the section. To strengthen the narrative, you could briefly summarize the key achievements that you are most proud of, such as specific discoveries, successful implementation of new techniques, or contributions to the field of symbiosis research. -->
 Especially considering the lab started from scratch only in 2014, and despite all limitations and challenges posed to us in my almost 7 years at the lab as a student, PhD candidate and part-time teacher.
-<!-- This sentence emphasizes the lab's rapid progress and resilience. To make it more impactful, you might highlight specific challenges that were overcome, such as technical limitations, funding constraints, or the steep learning curve associated with adopting bioinformatics, and how these were addressed by the team. -->
+<!-- To strengthen the narrative, you could briefly summarize the key achievements that you are most proud of, such as specific discoveries, successful implementation of new techniques, or contributions to the field of symbiosis research. -->
+<!-- To make it more impactful, you might highlight specific challenges that were overcome, such as technical limitations, funding constraints, or the steep learning curve associated with adopting bioinformatics, and how these were addressed by the team. -->
 There is a lot more work to do, to understand and manipulate the symbiosis.
-<!-- This sentence looks to the future, which is a good way to conclude. To add depth, you could briefly outline the most pressing questions or research goals that remain, and how the groundwork laid by your research might facilitate future advancements in these areas. -->
+<!-- To add depth, you could briefly outline the most pressing questions or research goals that remain, and how the groundwork laid by your research might facilitate future advancements in these areas. -->
 I hope that other labs globally may pick up our work and find it useful for their own experiments.
-<!-- This final sentence is optimistic and forward-looking. To enhance the narrative, you could discuss how the work you've done, including the documentation practices and methodologies you've developed, could serve as a model or resource for other labs, potentially accelerating progress in the study of _Azolla_ and symbiosis more broadly. -->
+
 
 <!-- 
 Through advanced sequencing technologies, this research characterizes the genomes of both _Azolla_ and _Nostoc azollae_, revealing the genetic basis of their symbiotic interaction.
