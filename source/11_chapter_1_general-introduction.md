@@ -356,7 +356,9 @@ These mats help stabilize ecosystems by reducing water evaporation and providing
 
 Ecologists often associate _Azolla_ with unhealthy ecosystems, labeling it as invasive and dangerous. 
 However, I argue that _Azolla_ itself is not dangerous but rather a symptom of eutrophic conditions, particularly phosphorus enrichment [@Temmink2018]. 
-Eutrophication disrupts aquatic ecosystems, and _Azolla_ can exploit these conditions, similar to other fast-growing species like algae or _Lemna_ (duckweed) [@VanderLee2018]. 
+Eutrophication disrupts aquatic ecosystems, and _Azolla_ can exploit these conditions.
+This is similar to other fast-growing species like algae or _Lemna_ (duckweed) [@VanderLee2018]. 
+
 _Azolla_ has natural enemies.
 For _Azolla_ agriculture, these would be considered pests.
 For conservation ecologists, these are considered pest control [@Madeira2016a].
