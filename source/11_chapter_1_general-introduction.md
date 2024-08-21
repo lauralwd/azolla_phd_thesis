@@ -96,8 +96,6 @@ The machine conception of the cell is a misleading representation of biological 
 An overview of cause-and-effect relations falls short of capturing the non-linearity, stochasticity, and plasticity of cellular behaviour [@Nicholson2019].
 Groups of cells' response to a stimulus is not gradual and homogenous.
 Instead their response switches on or off stochastically and heterogeneously [@Altschuler2010].
-<!-- like how radioactive matter decays. inherrent quantum randomness seems like a gradual predictable progress when one takes millions of molecules.
-Except radioactive decay, doesn't influence other molecules in complicated pathways. -->
 Similarly, protein complexes are not static assemblies as engineered machines are.
 Instead, they self-organise with often multi-functional parts that come on and off constantly. [@Nicholson2019; @Dumont2014]
 Apply this state of flux to all parts of a network of metabolic reactions, and imagine the consequential chaos.
@@ -132,11 +130,6 @@ They often can be categorised as:
 * amensalism: when one partner is unaffected, but still at the cost of another
 * parasitism: when one partner benefits at the cost of the others
 * competition: when all partners are harmed by the interaction.
-
-<!-- 
-gpt: add figure summarising the different kind of associations
-me: not worth my time...
- -->
 
 The general public often assigns a positive connotation to the concept of symbiosis, referring to the first two categories.
 This is not always practical, for the type of interaction is often unknown at first.
