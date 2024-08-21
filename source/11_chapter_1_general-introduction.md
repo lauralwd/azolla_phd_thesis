@@ -171,36 +171,24 @@ In the literature, this has been referred to as breeding a "holobiont" [@Zilber-
 
 ## The holobiont concept
 
-<!-- Feedback: The concept of the holobiont is well-explained, but it feels repetitive in certain parts. For instance, the debate over the concept could be summarized more succinctly. -->
-
-The holobiont concept is a recent proposition in evolutionary jargon [@Zilber-Rosenberg2008; @Rosenberg2016].
-It proposes to think of a host and a symbiont as one unit of evolutionary selection.
-This is not a far fetch in the case of an obligate symbiosis where a microbiome is actively transferred to subsequent host generations.
+The holobiont concept is a recent proposal in evolutionary biology [@Zilber-Rosenberg2008; @Rosenberg2016].
+It suggests that hosts and their symbionts should be viewed as a single unit of evolutionary selection.
+This idea is particularly relevant in obligate symbioses, where the microbiome is inherited across generations.
 It might be odd even, to argue that systematically inherited DNA should be regarded as a separate evolutionary unit based solely on the compartment it is housed in.
 We rarely find this useful for organelles either, although examples do exist in literature [@Keeling2010; @Perez-Escobar2016].
-The holobiont concept paves the way for some interesting thought experiments.
-Could a fast-evolving bacterial section of the hologenome (all genetic material of a holobiont) provide flexibility to the stationary host genome.
-This may explain the fast adaptations of microbiomes to their hosts.
+The concept opens up thought experiments.
+For example, could the fast-evolving bacterial section of the hologenome provide adaptability to the more static host genome.
+This flexibility might explain the rapid adaptation of microbiomes to their hosts.
 
-After advocating a systems biology perspective on symbiosis research, the holobiont concept seems fitting in this work.
-Yet, the concept is also criticised [@Douglas2016].
-The holobiont is also argued to be a romantic over-simplification of a set of complex interactions.
+Critics argue that the concept oversimplifies complex interactions and that existing ecological frameworks are sufficient [@Douglas2016].
 Holobiont members may interact beneficially as well as antagonistically.
-Additionally, a lack of consistency in a species consortium may challenge the evolutionary pressure exerted on them as a whole.
-Critics of the concept suggest that traditional ecological and evolutionary frameworks suffice for what could be called a holobiont.
-Where does one draw a line: a plant interacts with plastids, perhaps endosymbionts, external symbionts like mycorrhiza, pollinators and maybe animals for seed distribution.
-@Douglas2016 argues that existing frameworks are better equipped to handle nuances and conflicts between symbiosis partners.
-
+The species composition of a holobiont may vary, challenging the evolutionary pressure exerted on the consortium as a whole.
+Despite these criticisms, the concept can be useful in certain scenarios, particularly where the host and symbiont are tightly integrated.
 I have not decided on the matter yet, although I am inclined to agree with the critics for most scenarios.
-Yet, if we can find use in thinking of a single gene as an evolutionary unit [@Dawkins2016], then perhaps the holobiont perspective has use as well.
+If we can think of a single gene as an evolutionary unit [@Dawkins2016], then perhaps there is value in considering the holobiont as well.
 Either models will undoubtedly be wrong, but perhaps occasionally insightful.
-It seems unproductive to me, to use holobiont as a buzz-word; as a means to elevate a consortium of organisms above others.
-In this thesis, my colleagues and I do use the word occasionally.
-Take it with a pinch of salt.
-
-At the bottom line, biological entities exist at a huge scale range from the smallest molecules to entire ecosystems, or even the entire planet.
-Take any entity at any scale, and one can defend it as either being selfish or cooperative.
-The lesson I take from the holobiont polemic, is again to take a systems perspective; to emphasise relations and processes over the individual parts.
+However, it is important to use the term carefully, recognizing that it is one of many models to understand symbiosis and co-evolution.
+In this thesis, we occasionally use the term holobiont, acknowledging its potential insights while maintaining a cautious perspective.
 
 # The _Azolla_ symbiosis
 
