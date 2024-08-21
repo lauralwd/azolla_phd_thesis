@@ -505,49 +505,45 @@ With GMO and gene editing technology, these insights can be tested in a living p
 
 -->
 
-## Genomics for breeding a symbiosis
+## Genomics for Breeding a Symbiosis
 
-Molecular breeding has its roots in the study of DNA, leading into the field of genomics. 
-Consequently, symbiosis breeding relies then on metagenomics— the study of all DNA associated with a organ or organism. 
-Unlike traditional microbiome profiling, which often relies on 16S rRNA gene sequencing to identify microbial taxa, metagenomics aims to reconstruct full genomes of all associated organisms. 
+Molecular breeding has its roots in the study of DNA, leading to the field of genomics.
+Consequently, symbiosis breeding relies on metagenomics—the study of all DNA associated with an organ or organism.
+Unlike traditional microbiome profiling, which often relies on 16S rRNA gene sequencing to identify microbial taxa, metagenomics aims to reconstruct full genomes of all associated organisms.
 This approach reveals the complete metabolic potential of the symbionts, providing a more detailed understanding of their roles in the host’s biology.
 
-By sequencing both the host and symbiont genomes, researchers can hypothesize which genes are involved in key symbiotic functions.
-Such functions can center around nutrient exchange, stress tolerance, and pathogen resistance for example.
-This genomic data allows for targeted hypothesis generation, enabling the investigation of metabolic interactions and potential gene targets for enhancing symbiosis. 
-In the _Azolla_ symbiosis specifically, we hypothesize that symbiosis partners may actually leach off nitrogen fixed by _T. azollae_ in chapter \ref{foul_play}.
-These foul players might actually be parasites rather than mutualists.
-Understanding these dynamics through metagenomics could lead to strategies for optimizing symbiotic efficiency, such as removing parasitic partners or enhancing beneficial ones.
+By sequencing both the host and symbiont genomes, researchers can hypothesise which genes are involved in key symbiotic functions, such as nutrient exchange, stress tolerance, and pathogen resistance.
+This genomic data allows for targeted hypothesis generation, enabling the investigation of metabolic interactions and potential gene targets for enhancing symbiosis.
+In the _Azolla_ symbiosis, specifically, we hypothesise that some symbiosis partners might actually leach nitrogen fixed by _T. azollae_, as discussed in Chapter \ref{foul_play}.
+These "foul players" might be parasites rather than mutualists.
+Understanding these dynamics through metagenomics could lead to strategies for optimising symbiotic efficiency, such as removing parasitic partners or enhancing beneficial ones.
 
 Despite its promise, microbiome editing—particularly in complex symbiotic systems—remains a formidable challenge [@Bai2023].
 Editing a single microbial species is already difficult, often requiring the ability to grow the microbe in isolation and develop a transformation protocol.
 In a symbiotic system, these challenges are magnified by the need to reintroduce the modified microbe into the host and ensure it occupies the same ecological niche as the original strain [@Albright2022].
-Alternatively, one can introduce a similar strain with desirable traits into the symbiotic community.
-This approach requires deep ecological understanding to succeed [@Albright2022].
+Alternatively, one can introduce a similar strain with desirable traits into the symbiotic community, which requires a deep ecological understanding to succeed [@Albright2022].
 
-In the _Azolla_ symbiosis, researchers have managed to isolate and culture several bacterial strains.However, reintroducing them into the _Azolla_ leaf pockets has yet to be achieved.
+In the _Azolla_ symbiosis, researchers have managed to isolate and culture several bacterial strains; however, reintroducing them into the _Azolla_ leaf pockets has yet to be achieved.
 This step is crucial for any future attempts at microbiome editing in _Azolla_.
-While these advanced techniques remain on the horizon, the focus now is on identifying and characterizing the symbiotic partners.
-In chapter \ref{forever_together}, sequencing data from multiple _Azolla_ species is used to retrieve microbial genomes associated with the genus.
+While these advanced techniques remain on the horizon, the focus now is on identifying and characterising the symbiotic partners.
+In Chapter \ref{forever_together}, sequencing data from multiple _Azolla_ species is used to retrieve microbial genomes associated with the genus.
 This effort provides a foundation for understanding the symbiosis at a genomic level.
 
-We later venture into meta-transcriptomics to inquire what processes are active in these microbes, but gain little signal to what genes are active in these microbes (Chapter \ref{it_takes_two}).
+Later, we venture into meta-transcriptomics to investigate what processes are active in these microbes, though we gain little signal about which genes are active in these microbes (Chapter \ref{it_takes_two}).
 
+## Gene Editing Ethics
 
-## Gene editing ethics
+Throughout this introduction, I have highlighted the potential of _Azolla_ and how modern breeding techniques could further enhance its value.
+However, I have naively avoided discussing the ethical implications of deploying gene-edited crops into the environment.
 
-Throughout this introduction, I've highlighted the potential of _Azolla_ and how modern breeding techniques could further enhance its value.
-However, I naïvely steered away from any ethical implications of deploying gene-edited crops into the environment.
-
-Gene editing offers immense value, even if such crops aren't introduced into agriculture.
+Gene editing offers immense value, even if such crops are not introduced into agriculture.
 It can accelerate breeding cycles, test biological hypotheses, and advance fundamental research.
-Additionally, banning gene-edited crops solely because they involve gene editing leads to inconsistencies.
-For instance, two genetically identical plants might be treated differently when gene editing is illegal.
-The first crop, created through traditional methods, is legal, while the other, genetically identical crop made via efficient gene editing, is illegal.
+Banning gene-edited crops solely because they involve gene editing leads to inconsistencies.
+For instance, two genetically identical plants might be treated differently when gene editing is illegal: the first crop, created through traditional methods, is legal, while the other, created through efficient gene editing, is illegal.
 Countries like the U.S., Canada, and Brazil have embraced more permissive laws, while the European Union's strict classification of gene-edited crops as GMOs frustrates many scientists.
 
 Critics often point to off-target effects—unintended DNA changes—as a concern.
-However, this argument overlooks the fact that traditional breeding methods also cause significant, unregulated genetic alterations.
+However, this argument overlooks that traditional breeding methods also cause significant, unregulated genetic alterations.
 Research has shown that off-target edits are very rare.
 
 Societal concerns about gene editing are more compelling.
@@ -572,7 +568,7 @@ As a researcher, I believe in the potential of gene editing for crop improvement
 ## Introducing Bioinformatics to a Lab
 
 The _Azolla_ lab was part of the molecular plant physiology group at Utrecht University before it was dissolved.
-In its early days, the lab focused on optimizing the growth and analysing extracts of _Azolla_ biomass.
+In its early days, the lab focused on optimising the growth and analysing extracts of _Azolla_ biomass.
 Introducing bioinformatics to a small lab of three employees with no prior experience was challenging.
 This process began during my Masters when I started working on _Azolla_.
 Infrastructure issues, such as storage and computing power, were quickly addressed with funding to build a computer and support from the local theoretical biology and bioinformatics group.
@@ -584,24 +580,22 @@ During my PhD, we expanded the lab’s bioinformatics toolkit to include small R
 
 As we faced challenges integrating bioinformatics into a molecular context, so did our students.
 The _Azolla_ lab, being a molecular biology lab focused on a novel crop with potential for sustainability research, struggled to attract students with bioinformatics training.
-These students needed to analyze bioinformatics-related data, but lacked basic computational training.
+These students needed to analyse bioinformatics-related data but lacked basic computational training.
 Given the increasing size of experimental biology datasets, this lack of coding skills seemed undesirable to me.
 Teaching students the basics of coding is a strain on a hosting lab.
 We eventually developed a flexible co-supervision system among two PhDs and a PI.
-This work paid off, summarized in Chapter \ref{it_takes_two}, which humorously became known as “all student projects of the last years combined into one paper.”
-
-<!-- See where all students ended up via linked in? -->
+This work paid off, as summarised in Chapter \ref{it_takes_two}, which humorously became known as “all student projects of the last years combined into one paper.”
 
 Our experiences taught us that introducing bioinformatics into a molecular biology lab requires more than just acquiring tools and infrastructure.
-It involves creating a supportive environment where both students and researchers can develop the necessary computational skills; an environment where continuous learning is encouraged and computational work is valued alongside experimental work.
+It involves creating a supportive environment where both students and researchers can develop the necessary computational skills, and where continuous learning is encouraged, and computational work is valued alongside experimental work.
 
 Transitioning from the wet lab to the computer lab posed additional challenges, particularly with documentation and lab journaling.
 It surprised me that despite the obvious need for documenting wet lab experiments, students and staff rarely kept notes when doing computer work.
 I struggled with this myself during my PhD, trying various methods such as physical journals, Word documents, and long comment lines in scripts.
-Bioinformatics education is still relatively young, and perhaps documentation and journaling need to be emphasized more in computer lab projects.
-In molecular biology labs at Utrecht University, maintaining a digital lab journal is standardized and obligatory, but no such standard exists in the computer lab.
+Bioinformatics education is still relatively young, and perhaps documentation and journaling need to be emphasised more in computer lab projects.
+In molecular biology labs at Utrecht University, maintaining a digital lab journal is standardised and obligatory, but no such standard exists in the computer lab.
 
-My personal process evolved from writing loose scripts organized in folders and keeping analytical thoughts in separate notes to committing to writing read-me files and using version control software like Git.
+My personal process evolved from writing loose scripts organised in folders and keeping analytical thoughts in separate notes to committing to writing read-me files and using version control software like Git.
 This habit became so ingrained that even this thesis was written in code (Markdown & LaTeX) with all versions tracked in Git.
 Biological results, interpretations, and speculations were kept in separate digital notes, which allowed for a more natural combination of results and ideas from various coding projects.
 Near the end of my PhD, I started using code notebooks containing R, Python, and BASH code, which integrated code, output, and a research narrative.
