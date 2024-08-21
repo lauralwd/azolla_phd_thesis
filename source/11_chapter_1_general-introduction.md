@@ -272,49 +272,47 @@ The genus name of _Azolla_'s cyanobacterial symbiont has also changed over the y
 
 <!-- include phylogeny from a paper or database? -->
 
-## _Anabaena_, _Nostoc_ or _Trichormus_ _azollae_
+## _Anabaena_, _Nostoc_, or _Trichormus_ _azollae_
 
-
-_Azolla_ species form a unique symbiotic relationship with the cyanobacterium _Trichormus azollae_, which resides in specialized leaf cavities of the fern.
+_Azolla_ species form a unique symbiotic relationship with the cyanobacterium _Trichormus azollae_, which resides in specialised leaf cavities of the fern.
 The primary function of _T. azollae_ is to fix nitrogen from the air and provide it to the host plant.
 Over the years, the cyanobiont has been classified under various genera, including _Anabaena_, _Nostoc_, and most recently, _Trichormus_.
 Traditionally, it was referred to as _Anabaena azollae_, but advances in phylogenetic analysis led to its reclassification [@Pereira2014; @Baker2003].
-Most modern literature now uses the name _Nostoc azollae_, though the latest studies favor _Trichormus azollae_ based on comprehensive phylogenetic evidence [@Baker2003].
-Strictly  speaking, _Trichormus azollae_ is the only verified name [@Pereira2014] and is now the standard in the NCBI taxonomy database ([NCBI: _T. azollae_](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=551115) (<https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=551115>).
-These taxonomic ambiguities arise from variations in morphological and genetic data that were considered for the phylogeny of the Nostocaceae family.
+Most modern literature now uses the name _Nostoc azollae_, though the latest studies favour _Trichormus azollae_ based on comprehensive phylogenetic evidence [@Baker2003].
+Strictly speaking, _Trichormus azollae_ is the only verified name [@Pereira2014] and is now the standard in the NCBI taxonomy database ([NCBI: _T. azollae_](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=551115)).
+These taxonomic ambiguities arise from variations in morphological and genetic data considered in the phylogeny of the Nostocaceae family.
 In this thesis, both _Nostoc azollae_ and _Trichormus azollae_ are used.
-The former is used in chapters that were published before this thesis was compiled, the latter in newer work.
+The former is used in chapters published before this thesis was compiled, and the latter in newer work.
 
-<!-- GTDB ANI calculations actually put it with anabaena rather than trichormus. WTF. -->
+<!-- GTDB ANI calculations actually put it with Anabaena rather than Trichormus. WTF. -->
 
 The culturability of _Trichormus azollae_ has been a subject of debate in the scientific community.
 While several studies have claimed to culture _T. azollae_ on standard cyanobacterial media like BG11 [@Franche1985; @Zimmerman1987; @abd2013; @Parente2017], these attempts often lack rigorous verification.
 Efforts to reproduce these cultures have largely failed, suggesting that the reported cultures may have been misidentified or contaminated with other cyanobacteria [@Pereira2014; @Ladha1982].
-On conferences, I learned many more labs have tried to grow _T azollae_ and failed, but these negative results are rarely published.
-Perhaps other (not per say symbiotic) cyanobacteria are systematically associated to Azolla, and are in fact culturable [@Pratte2021].
+At conferences, I learned that many more labs have tried to grow _T. azollae_ and failed, though these negative results are rarely published.
+Perhaps other (not necessarily symbiotic) cyanobacteria are systematically associated with _Azolla_ and are, in fact, culturable [@Pratte2021].
 
-One of the key papers to understand _T. azollae_ is the original genome publication by Ran et al. [@Ran2010].
-The study found the genome of _T azollae_ has undergone substantial reductive evolution.
-It contains many broken genes that would otherwise be considered essential for a free-living cyanobacterium.
-The genome does contain a complete set of genes required for nitrogen fixation, highlighting the cyanobacterium's crucial role in providing fixed nitrogen to the symbiosis.
-These broken genes, or pseudogenes, are often damaged by insertion sequences (IS elements).
-_T. azollae_'s genome contains a high amount of IS elements, indicating ongoing and substantial genome reduction and instability.
-Lacking many important metabolic genes, _T. azollae_ likely has a high degree of specialization and dependence on the host plant.
-I find the Ran et al. paper essential reading for _Azolla_ symbiosis research.
-It provides the genetic basis for understanding the metabolic potential of the main symbiont of _Azolla_ ferns.
+One of the key papers for understanding _T. azollae_ is the original genome publication by Ran et al. [@Ran2010].
+The study found that the genome of _T. azollae_ has undergone substantial reductive evolution, containing many broken genes that would otherwise be considered essential for a free-living cyanobacterium.
+However, the genome retains a complete set of genes required for nitrogen fixation, highlighting the cyanobacterium's crucial role in providing fixed nitrogen to the symbiosis.
+These broken genes, or pseudogenes, are often disrupted by insertion sequences (IS elements).
+_T. azollae_'s genome contains a high number of IS elements, indicating ongoing and substantial genome reduction and instability.
+Lacking many important metabolic genes, _T. azollae_ likely has a high degree of specialisation and dependence on the host plant.
+I consider the Ran et al. paper essential reading for _Azolla_ symbiosis research.
+It provides the genetic basis for understanding the metabolic potential of _Azolla_'s main symbiont.
 
 The genes in the _T. azollae_ genome sequence reveal both its metabolic potential and its lost capabilities.
 This metabolic insight sheds light on the workings and evolution of the symbiosis.
-For example, _T. azollae_ retains pathways for phytohormone biosynthesis, which may contribute to _Azolla_'s growth and development  [@Ran2010].
-This finding indicates a metabolic interdependence between the symbiont and the host. 
-Nitrogen gas is fixed by the nitrogenase enzyme into ammonium, a process powered by the cyanobacterium's own photosynthesis  [@Ran2010; @Eily2019; @Ray1979].
-_T. azollae_'s photosynthesis uses a slightly different wavelength of light compared to the host, reducing competition and enabling _Azolla_ to thrive in nitrogen-poor environments. 
+For example, _T. azollae_ retains pathways for phytohormone biosynthesis, which may contribute to _Azolla_'s growth and development [@Ran2010].
+This finding indicates a metabolic interdependence between the symbiont and the host.
+Nitrogen gas is fixed by the nitrogenase enzyme into ammonium, a process powered by the cyanobacterium's photosynthesis [@Ran2010; @Eily2019; @Ray1979].
+_T. azollae_'s photosynthesis uses a slightly different wavelength of light compared to the host, reducing competition and enabling _Azolla_ to thrive in nitrogen-poor environments.
 
 However, _T. azollae_'s genome has undergone significant reductive evolution.
 It lost many genes essential for a free-living cyanobacterium, making it highly specialised and dependent on the host.
-This genome reduction is characterised by a high number of genes that are disrupted by insertion sequences (IS elements).
-Such pseudogenes are a common feature in obligate symbioses [@Keeling2010; @Wernegreen2002]. 
-Examples from insect symbioses, such as _Buchnera aphidicola_ in aphids and _Wigglesworthia glossinidia_ in tsetse flies, demonstrate similar patterns of genome degradation, where only essential genes for the symbiotic relationship are retained [@Chong2019; @Heller2011]. 
+This genome reduction is characterised by a high number of genes disrupted by insertion sequences (IS elements).
+Such pseudogenes are a common feature in obligate symbioses [@Keeling2010; @Wernegreen2002].
+Examples from insect symbioses, such as _Buchnera aphidicola_ in aphids and _Wigglesworthia glossinidia_ in tsetse flies, demonstrate similar patterns of genome degradation, where only essential genes for the symbiotic relationship are retained [@Chong2019; @Heller2011].
 These parallels illustrate how genome reduction plays a crucial role in the specialisation and dependence of symbionts within their hosts.
 
 ## Ecology
@@ -324,42 +322,38 @@ These habitats provide ideal conditions for _Azolla_'s growth, such as abundant 
 _Azolla_ species are distributed globally, predominantly in tropical, subtropical, and warm temperate regions.
 They are especially prevalent in Asia, Africa, and the Americas, where they have been traditionally used in agriculture [@Madeira2016a; @Lydia2023; @Watanabe1981].
 _Azolla_ forms dense mats on the water surface, outcompeting other aquatic plants and algae.
-These mats help stabilize ecosystems by reducing water evaporation and providing habitats for microorganisms and small aquatic animals [@Wagner1997b].
+These mats help stabilise ecosystems by reducing water evaporation and providing habitats for microorganisms and small aquatic animals [@Wagner1997b].
 
-Ecologists often associate _Azolla_ with unhealthy ecosystems, labeling it as invasive and dangerous. 
+Ecologists often associate _Azolla_ with unhealthy ecosystems, labelling it as invasive and dangerous.
 However, I argue that _Azolla_ itself is not dangerous but rather a symptom of eutrophic conditions, particularly phosphorus enrichment [@Temmink2018].
-Eutrophication disrupts aquatic ecosystems, and _Azolla_ can exploit these conditions.
-This is similar to other fast-growing species like algae or _Lemna_ (duckweed) [@VanderLee2018].
+Eutrophication disrupts aquatic ecosystems, and _Azolla_ can exploit these conditions, similar to other fast-growing species like algae or _Lemna_ (duckweed) [@VanderLee2018].
 
 _Azolla_ has natural enemies.
 For _Azolla_ agriculture, these would be considered pests.
-For conservation ecologists, these are considered pest control [@Madeira2016a].
+For conservation ecologists, they are considered pest control [@Madeira2016a].
 Specifically, the water fern weevil _Stenopelmus rufinasus_ can significantly impact _Azolla_ populations by feeding on the fronds [@Hill1998].
 A _S. rufinasus_ swarm can decimate an _Azolla_ mat in days and even completely eradicate it.
 We have unwillingly empirically tested this theory several times.
 
 When an _Azolla_ population has covered a water surface, the plants' growth is directed upwards.
-An _Azolla_ mat is formed between a few millimetres and 20 to 30 centimetres thick in extreme scenarios.
+An _Azolla_ mat can reach a thickness of a few millimetres to 20 to 30 centimetres in extreme scenarios.
 The bottom of the mat is dark and may be submerged by the weight of plants laying on top.
-Inside the _Azolla_ mat, the light quality changes.
-Specifically the red vs far-red light ratio.
+Inside the _Azolla_ mat, the light quality changes, particularly the red vs far-red light ratio.
 The plants perceive this light change and adapt their growth as shown in chapter \ref{it_takes_two} \nameref{it_takes_two} or @Dijkhuizen2021.
 The internode distance (distance on the stem between leaves) increases, giving the plant an elongated appearance.
 This is a common response in plants to being overshadowed by other plants; they stretch out towards the light [@Possart2013].
 
-## Life cycle
+## Life Cycle
 
-_Azolla_ is a fern genus, it makes no flowers but spores for reproductive purposes.
-Sporulation is triggered by a high far-red over red light ratio, and density of the plants in a mat (Chapter \ref{it_takes_two}).
-_Azolla_ makes two types of spores: Big megaspores, made in megasporocarps, and small microspores made in microsporocarps [@Schaffner1905].
-The cone-shaped megasporocarps can just be observed by the naked eye.
-They contain one megaspore as well as a resting colony of the symbiotic bacterium _T. azollae_.
-This colony was acquired from the starting colony at the SAM at the very beginning of spore develoment.
-The microsporocarps are bigger, and contain many small massulae housed in microsporangia.
-Massulae are presumably non-living structures containing the microscopic microspore.
-_Azolla_ massulae are recognisable by their glochidia.
-Glochidia are arrow-like hair structures on the massulae surface that serve to hook onto the megaspore. [@Campbell1893]
-When attached to the megaspore, the microspore presumably swims to the megaspore, fertilises it and a plant grows out of it.
+_Azolla_ is a fern genus that produces spores, not flowers, for reproductive purposes.
+Sporulation is triggered by a high far-red over red light ratio and the density of the plants in a mat (Chapter \ref{it_takes_two}).
+_Azolla_ produces two types of spores: large megaspores, made in megasporocarps, and small microspores, made in microsporocarps [@Schaffner1905].
+The cone-shaped megasporocarps are visible to the naked eye.
+They contain one megaspore and a resting colony of the symbiotic bacterium _T. azollae_, acquired from the starting colony at the SAM at the beginning of spore development.
+The microsporocarps are larger and contain many small massulae housed in microsporangia.
+Massulae are non-living structures containing the microscopic microspore.
+_Azolla_ massulae are recognisable by their glochidia, arrow-like hair structures on the massulae surface that hook onto the megaspore [@Campbell1893].
+When attached to the megaspore, the microspore presumably swims to the megaspore, fertilises it, and a new plant grows.
 
 <!-- pictures! -->
 
