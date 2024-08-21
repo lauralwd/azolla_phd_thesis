@@ -172,113 +172,103 @@ Both models are undoubtedly imperfect, but they may occasionally offer valuable 
 However, it is important to use the term carefully, recognising that it is one of many models for understanding symbiosis and co-evolution.
 In this thesis, we occasionally use the term holobiont, acknowledging its potential insights while maintaining a cautious perspective.
 
-# The _Azolla_ symbiosis
+# The _Azolla_ Symbiosis
 
-This work discusses the genomics and metagenomics of a specific symbiosis: that between the floating fern genus _Azolla_ and the cyanobacterium _Nostoc azollae_.
+This work explores the genomics and metagenomics of a specific symbiosis: that between the floating fern genus _Azolla_ and the cyanobacterium _Nostoc azollae_.
 The cyanobacterium supplies the symbiosis with a surplus of nitrogen fixed from the air.
-Unlike most plants, _Azolla_ is not terrestrial.
-Instead, the symbiosis floats on water.
+Unlike most plants, _Azolla_ is not terrestrial; instead, it floats on water.
 _Azolla_’s aquatic lifestyle makes the fern highly dependent on fresh water.
-Even its name is derived from this property, ἄζος (Azos) is ancient Greek for 'drought' and ὀλλύναι (ollunai) for 'killing'.
+Even its name reflects this dependency: ἄζος (Azos) is ancient Greek for 'drought' and ὀλλύναι (ollunai) for 'killing'.
 The fern spreads horizontally over the water surface, darkening the water column.
-This property makes _Azolla_ as infamous among ecologists as it is famous in symbiosis research [@Madeira2016a].
+This property makes _Azolla_ both infamous among ecologists and renowned in symbiosis research [@Madeira2016a].
 
-Bigger plants break irregularly into smaller ones, genetically identical but physically separate, forming a big green floating mat.
+Larger plants break into smaller ones, genetically identical but physically separate, forming a large green floating mat.
 _Azolla_ mats are known for their high growth rate and high protein content.
-A mat can grow so rapidly that _Azolla_ is thought to have overgrown the entire north pole during a period in geological history [@Brinkhuis2006].
-This "_Azolla_ event" contributed to a significant global CO₂ decline in the atmosphere.
-Within human history, _Azolla_ has traditionally been used in rice paddy fields [@Wagner1997b;@Shi1988].
-Its main function was to prevent toxic cyanobacteria from growing in the water.
-Any surplus was fed to livestock.
-Some of today's agricultural challenges seem a perfect fit for _Azolla_: limited arable land, nitrogen fertilizer excesses, and protein shortage [@Bijl2014].
-_Azolla_ is an amazingly interesting plant.
-In this section, I'll elaborate shortly on all these statements, providing broader context that individual chapters' introductions may lack.
+A mat can grow so rapidly that _Azolla_ is believed to have overgrown the entire North Pole during a period in geological history [@Brinkhuis2006].
+This "_Azolla_ event" contributed to a significant global decline in atmospheric CO₂.
+In human history, _Azolla_ has been traditionally used in rice paddy fields [@Wagner1997b;@Shi1988].
+Its main function was to prevent toxic cyanobacteria from growing in the water, with any surplus being fed to livestock.
+Some of today's agricultural challenges, such as limited arable land, nitrogen fertiliser excesses, and protein shortages, seem a perfect fit for _Azolla_ [@Bijl2014].
+_Azolla_ is an incredibly interesting plant.
+In this section, I'll briefly elaborate on these points, providing broader context that the individual chapters' introductions may lack.
 
-## _Azolla_ physiology
+## _Azolla_ Physiology
 
 _Azolla_ stems spread horizontally over the water surface.
 At stem nodes, leaves and roots are attached.
-_Azolla_ leaves are highly adapted to the fern's living style.
-They are bi-lobed; both lobes being directed either up- or down-ward.
-The lower lobe is razor-thin, translucent-looking and concave.
-It lies on the water like a boat, suspending the stem and upper leaf lobe above.
-The upper lobe is thick; almost balloon-like, and typically dark green.
-Inside this the upper lobe, a special organ houses the symbiotic bacteria.
-The leaves typically grow in a compact cabbage-like fashion; giving the whole plant a fish-scale appearance.
-The earliest scientific description of the plant I could find is @Strasburger1873.
+_Azolla_ leaves are highly adapted to the fern's aquatic lifestyle.
+They are bi-lobed, with both lobes directed either up- or downward.
+The lower lobe is razor-thin, translucent, and concave, lying on the water like a boat, suspending the stem and upper leaf lobe above.
+The upper lobe is thick, almost balloon-like, and typically dark green.
+Inside the upper lobe, a specialised organ houses the symbiotic bacteria.
+The leaves grow in a compact, cabbage-like fashion, giving the whole plant a fish-scale appearance.
+The earliest scientific description of the plant I could find is by @Strasburger1873.
 
 <!-- insert macro photo Azolla, macro photo stem tip, microscope photo starting colony -->
 
-All organs find their origin at the tip of the stem, at the shoot apical meristem (SAM).
-The SAM produces primordia, little bulges, which develop into leaves, roots, and sporocarps.
-Sporocarps are the ferns reproductive structures.
+All organs originate from the tip of the stem, at the shoot apical meristem (SAM).
+The SAM produces primordia, small bulges that develop into leaves, roots, and sporocarps.
+Sporocarps are the fern's reproductive structures.
 The SAM also harbours a small colony with motile filaments of the cyanobacterium _T. azollae_.
-Both leaves and sporocarps encapsulate part of the starting colony during growth.
-This process ensures that all leaves have a colony of the symbiont. [@Campbell1893]
+Both leaves and sporocarps encapsulate part of this starting colony during growth, ensuring that all leaves contain a colony of the symbiont [@Campbell1893].
 
 The leaf cavity, or leaf pocket, of _Azolla_ is a specialised structure crucial to its symbiosis with the cyanobacterium _Trichormus azollae_.
-These cavities are located within the upper leaf lobes and serve as protective niches for the cyanobiont.
-This adaptation ensures a stable population of _T. azollae_ within _Azolla_'s tissues, providing a plentyfull supply of fixed nitrogen.
+These cavities, located within the upper leaf lobes, serve as protective niches for the cyanobiont.
+This adaptation ensures a stable population of _T. azollae_ within _Azolla_'s tissues, providing a plentiful supply of fixed nitrogen.
 The cyanobacteria are sheltered from environmental fluctuations, such as changes in water and nutrient availability.
 The leaf cavity facilitates a regulated exchange of nutrients between the host and symbiont.
 _T. azollae_ contributes nitrogen compounds that support _Azolla_'s growth, while the fern likely supplies other essential nutrients like phosphorus.
 This mutually beneficial relationship is a key evolutionary adaptation that allows _Azolla_ to thrive in nitrogen-deficient environments.
 Understanding the structure and function of these leaf cavities is essential for unravelling the complexities of the _Azolla_ symbiosis.
 
-Azolla roots can be observed hanging loosely in the water like a thin curtain.
-On time-lapses, the roots were seen swirling and curling.
+_Azolla_ roots can be observed hanging loosely in the water like a thin curtain.
+Time-lapses show the roots swirling and curling.
 <!-- insert link to time-lapse -->
-Roots of individual plant fronts grabbed onto each other like rugby players locking shoulders in a scrum
-This way, individual plants formed a cohesive mat, keeping together.
+Roots of individual plant fronts grab onto each other like rugby players locking shoulders in a scrum, forming a cohesive mat that keeps the plants together.
 I suspect this phenomenon may help in creating favourable conditions for the symbiosis.
-It may help in stratifying the water column, keeping nutrients from dying plants close to the plant roots for re-absorption.
-Azolla can rapidly and massively shed its roots, which may be a mechanism to leave a certain area [@Cohen2015a].
+It may help in stratifying the water column, keeping nutrients from decaying plants close to the roots for re-absorption.
+_Azolla_ can rapidly and massively shed its roots, which may be a mechanism for leaving a certain area [@Cohen2015a].
 
-Interestingly, Azolla roots respond distinctly to typical plant hormones compared to flowering plant's roots [@deVries2016].
-Roots were likely invented twice in plant history: in lycophytes and ferns (reviewed in @Spencer2021).
-The fern-invented roots were passed down to seed plants.
-However, not all roots will have developed the same since their original invention.
-In seed plants, the hormone cytokinin promotes cell division in shoots and regulates differentiation growth in roots.
-In contrast to the typical response, _Azolla_ roots' cell division is promoted by cytokinin [@deVries2016].
-This finding suggests that Azolla roots have an origin as a shoot structure.
-They are analogous to plant roots; similar in appearance but separate in origin.
+Interestingly, _Azolla_ roots respond distinctly to typical plant hormones compared to those of flowering plants [@deVries2016].
+Roots were likely invented twice in plant history: once in lycophytes and ferns, and later in seed plants (reviewed in @Spencer2021).
+The roots invented by ferns were passed down to seed plants, though not all roots developed the same way since their origin.
+In seed plants, the hormone cytokinin promotes cell division in shoots and regulates growth differentiation in roots.
+In contrast, cytokinin promotes cell division in _Azolla_ roots [@deVries2016].
+This finding suggests that _Azolla_ roots have an origin as a shoot structure, making them analogous to plant roots—similar in appearance but separate in origin.
 
-The specifics of _Azolla_ root's origin are not of major consequence to this work.
-It does highlight and illustrate that the evolutionary history of _Azolla_ deviated from that of seed plants a very long time ago.
-Educated guesses made with a seed-plant background, may be false more often than one thinks.
-Now let me also express my dislike for the term "primitive plants".
-As if ferns have not diversified, adapted, and evolved since their origin.
+The specifics of _Azolla_ root origin are not of major consequence to this work.
+However, they highlight that the evolutionary history of _Azolla_ diverged from that of seed plants a long time ago.
+Educated guesses made with a seed-plant background may be incorrect more often than one might think.
+I also want to express my dislike for the term "primitive plants," as if ferns have not diversified, adapted, and evolved since their origin.
 I hope this thesis, even this introduction, will help in appreciating the intricacies of the _Azolla_ symbiosis life cycle.
-We can discuss "primitiveness" further compared to the brute force of non-pollinated flowers or the extravaganza of a magnolia.
+We can discuss "primitiveness" further compared to the brute force of non-pollinated flowers or the extravagance of a magnolia.
 
-## Cyanobacterial symbiosis
+## Cyanobacterial Symbiosis
 
-Cyanobacterial symbioses are widespread and diverse.
-They span various ecosystems: like marine environments, freshwater systems, and terrestrial habitats.
+Cyanobacterial symbioses are widespread and diverse, spanning various ecosystems, including marine environments, freshwater systems, and terrestrial habitats.
 Cyanobacteria form mutualistic associations with a wide range of hosts, including plants, fungi, protists, and even animals.
 In marine systems, symbiosis partners can be sponges or diatoms.
 In freshwater systems, the _Azolla_ symbiosis is a prime example.
-Terrestrial hosts can be cycads (plants), mosses, but also lichens (fungi).
-These symbioses are mostly facultative: most cyanobacteria can live independently from their host. [@Peters1991]
+Terrestrial hosts can include cycads (plants), mosses, and lichens (fungi).
+Most of these symbioses are facultative, meaning that most cyanobacteria can live independently from their host [@Peters1991].
 
-The _Azolla_-_Nostoc_ symbiosis is perhaps most related to moss-cyanobacterium symbioses.
-Moss-cyanobacterium symbioses are particularly present in boreal and temperate regions.
-Host mosses like _Sphagnum_ and _Pleurozium schreberi_ attract nitrogen-fixing cyanobacteria, primarily from the genus _Nostoc_ and _Anabaena_ [@Bay2013a].
+The _Azolla_-_Nostoc_ symbiosis is perhaps most closely related to moss-cyanobacterium symbioses, particularly in boreal and temperate regions.
+Host mosses like _Sphagnum_ and _Pleurozium schreberi_ attract nitrogen-fixing cyanobacteria, primarily from the genera _Nostoc_ and _Anabaena_ [@Bay2013a].
 The cyanobacteria provide their host mosses with nitrogen by fixing atmospheric nitrogen [@Rousk2022].
-This relationship is a big competitive advantage in nutrient-poor environments [@Alvarenga2022].
-The symbiosis significantly contributes to the nitrogen budget and supports the growth of both mosses and the surrounding plant community [@Calabria2020].
-In moss-cyanobacteria associations, the cyanobacteria are often acquired from the environment by each moss generation [@Liu2022].
-The cyanobacteria can also live without a host in these environments, and culturing and inoculation protocols are established.
-This is unlike the _Azolla_-_Nostoc_ symbiosis, where cyanobacteria are transferred through fern reproductive structures and the cyanobacteria cannot live without their host [@Peters1991].
+This relationship offers a substantial competitive advantage in nutrient-poor environments [@Alvarenga2022].
+The symbiosis significantly contributes to the nitrogen budget, supporting the growth of both mosses and the surrounding plant community [@Calabria2020].
+In moss-cyanobacterium associations, the cyanobacteria are often acquired from the environment by each moss generation [@Liu2022].
+The cyanobacteria can also live without a host in these environments, with culturing and inoculation protocols well established.
+This is unlike the _Azolla_-_Nostoc_ symbiosis, where the cyanobacteria are transferred through fern reproductive structures and cannot live without their host [@Peters1991].
 <!-- Moss picture with punctiforme? -->
 
-Cyanobacteria that associate with mosses, and also with Azolla, are often part of the Nostocaceae family.
+Cyanobacteria that associate with mosses, and also with _Azolla_, are often part of the Nostocaceae family.
 The Nostocaceae family comprises several genera of cyanobacteria known for their filamentous, colony-forming structures and their ability to fix nitrogen.
 The family includes genera such as _Nostoc_, _Anabaena_, _Trichormus_, and _Cylindrospermum_.
-These genera share common features like the presence of specialised heterocyst cells that fix nitrogen under aerobic conditions [@Adams2000].
+These genera share common features, such as the presence of specialised heterocyst cells that fix nitrogen under aerobic conditions [@Adams2000].
 Phylogenetic studies have shown that the relationships among these genera are complex.
-Within a single genus, significant genetic diversity can be observed and several species were moved between genera [@komarek2010; @kastovsky2024].
-The genus name of _Azolla_'s cyanobacterial symbiont has also changed throughout the years.
+Significant genetic diversity exists within a single genus, and several species have been moved between genera [@komarek2010; @kastovsky2024].
+The genus name of _Azolla_'s cyanobacterial symbiont has also changed over the years.
 
 <!-- include phylogeny from a paper or database? -->
 
