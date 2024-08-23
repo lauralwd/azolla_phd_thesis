@@ -37,7 +37,7 @@ this is where the abstract goes
 *Azolla* is a genus of aquatic ferns.
 _Azolla_ forms a symbiotic relationship with the cyanobacterium *Trichormus azollae*, which resides within specialised leaf cavities [@Campbell1893].
 All _Azolla_ species have a symbiosis with _T. azollae_, but other ferns in the Salviniaceae family do not.
-*N. azollae* fixes atmospheric nitrogen, providing a vital nutrient to its host, while *Azolla* offers a protective environment and presumably access to photosynthetic products and other nutrients [@Ran2010].
+*T. azollae* fixes atmospheric nitrogen, providing a vital nutrient to its host, while *Azolla* offers a protective environment and presumably access to photosynthetic products and other nutrients [@Ran2010].
 The naming of the cyanobacterial symbiont has been subject to change.
 Here I use _T. azollae_, as I explain in the general introduction of this thesis on page \pageref{t_azollae_debate}.
 
@@ -45,38 +45,61 @@ The *Azolla*-*Nostoc* symbiosis is unique due to its mode of transmission.
 Most plant-microbe associations are acquired horizontally from the environment.
 Contrastingly, *T. azollae* is vertically transmitted across generations of *Azolla* inside reproductive structures known as megasporocarps [@Perkins1993; @Zheng2009].
 This strict vertical transmission ensures that each new generation of *Azolla* is pre-inoculated with its symbiotic cyanobacterium, maintaining the partnership across evolutionary timescales.
-High genetic similarity across *N. azollae* strains found in different *Azolla* species suggests a single evolutionary origin of this symbiosis [@Dijkhuizen2021].
+_T azollae_ DNA is as strictly inherited as plastid DNA.
+
+High genetic similarity across *T. azollae* strains found in different *Azolla* species suggests a single evolutionary origin of this symbiosis [@Dijkhuizen2021].
 Some studies theorised multiple Cyanobacteria are part of the symbiosis [@Papaefthimiou2008], but in Chapter \ref{hidden_treasures} we found this to not be the case.
 Alternatively, some cyanobacteria may be closely associated with _Azolla_ externally [@Pratte2021].
 
-The relationship between *Azolla* and *N. azollae* has evolved under selective pressures that have shaped the genome of the cyanobiont [@Ran2010].
+The relationship between *Azolla* and *T. azollae* has evolved under selective pressures that have shaped the genome of the cyanobiont [@Ran2010].
 _T azollae_'s life cycle is tightly integrated with and adapted to that of its host fern [@Zheng2009].
-The genome of *N. azollae* has undergone significant reductive evolution, characterised by a high number of pseudogenes and the presence of numerous insertion sequences (IS elements) [@Ran2010].
-This genome reduction is indicative of *N. azollae*’s adaptation to an obligate symbiotic lifestyle [@Ran2010;@Warshan2018].
+The genome of *T. azollae* has undergone significant reductive evolution, characterised by a high number of pseudogenes and the presence of numerous insertion sequences (IS elements) [@Ran2010].
+This genome reduction is indicative of *T. azollae*’s adaptation to an obligate symbiotic lifestyle [@Ran2010;@Warshan2018].
 For many functions necessary for free-living cyanobacteria have been lost, relying instead on the host plant for certain metabolic needs.
 Similar patterns of genome degradation are observed in other obligate symbionts [@Keeling2010; @Wernegreen2002].
 Additionally, certain are enriched in to symbiotic cyanobacteria like transport, chemotaxis and nutrient uptake [@Warshan2018].
 
 Recent genomic studies have sought to unravel the complexities of this symbiosis by examining the genomes of *Azolla* and its associated microbial community.
-Advances in sequencing technologies have allowed researchers to not only sequence the genome of *N. azollae* but also to explore the broader metagenomic context of *Azolla*’s microbiome [@Li2018; @Dijkhuizen2018].
-In particular, efforts have been made to reconstruct microbial genomes from publicly available sequencing data, highlighting the diverse bacterial communities that coexist with *N. azollae* within the *Azolla* holobiont (Chapter \ref{hidden_treasures}) [@Dijkhuizen2018; @Banach2019].
+Advances in sequencing technologies have allowed researchers to not only sequence the genome of *T. azollae* but also to explore the broader metagenomic context of *Azolla*’s microbiome [@Li2018; @Dijkhuizen2018].
+In particular, efforts have been made to reconstruct microbial genomes from publicly available sequencing data, highlighting the diverse bacterial communities that coexist with *T. azollae* within the *Azolla* holobiont (Chapter \ref{hidden_treasures}) [@Dijkhuizen2018; @Banach2019].
 This broader view of the *Azolla* microbiome provides insights into how various microbial partners might contribute to the overall functionality of the symbiosis.
 
-This chapter aims to extend our understanding of the *Azolla*-*Nostoc* symbiosis by exploring the genetic diversity and evolutionary history of *N. azollae* across different *Azolla* species.
-Here we gather and supplement data of _N. azollae_ and _Azolla_ plasmids associated with the _Azolla_ genus and study their evolution in context of other cyanobacterial symbioses.
-We add long-read data to further resolve the structure of the fragmented _N. azollae_ genome assembly associated with _A. filiculoides_ as sequenced in chapter \ref{hidden_treasures}.
+This chapter aims to extend our understanding of the *Azolla*-*Nostoc* symbiosis by exploring the genetic diversity and evolutionary history of *T. azollae* across different *Azolla* species.
+We compare the diversity and evolution of the symbiont, to that of the ferns plastids.
+
+Not all cyanobiont or plastid genomes are publicly available.
+So here we gather and supplement data of _T. azollae_ and _Azolla_ plasmids associated with the _Azolla_ genus and study their evolution in context of other cyanobacterial symbioses.
+We add long-read data to further resolve the structure of the fragmented _T. azollae_ genome assembly associated with _A. filiculoides_ as sequenced in chapter \ref{hidden_treasures}.
 We also add long read data of _A. pinnata_, the only Azolla species that has not been sequenced yet.
 Finally, we add sequencing data of an Azolla strain of unknown taxonomy to us namded Bordeaux after its sampling location.
-With this data on _N. azollae_ and the _Azolla_ genus plastids, we describe the genomic variety of the main symbiont and its co-evolution with its host.
-We assess the degradation that _N. azollae_ underwent in becoming a obligate symbiont, how this degradation diversified in the various host species, and we attempt to time degradation in the _N. azollae_ phylogeny.
-Finally, we aim to embed the _N. azollae_ evolution in a broader perspective of Nostocales taxonomy, hopefully solving the issue of the _N. azollae_ genus name.
-Within this broader perspective of Nostocales genomes, some symbiotic, some not, we hope to identify clusters of genes shared by symbiotic Nostocales Cyanobacteria and perhaps shared by N. azollae specifically.
+
+With this data on _T. azollae_ and the _Azolla_ genus plastids, we describe the genomic variety of the main symbiont and its co-evolution with its host.
+We assess the degradation that _T. azollae_ underwent in becoming a obligate symbiont, how this degradation diversified in the various host species, and we attempt to time degradation in the _T. azollae_ phylogeny.
+Finally, we aim to embed the _T. azollae_ evolution in a broader perspective of Nostocales taxonomy, hopefully solving the issue of the _T. azollae_ genus name.
+Within this broader perspective of Nostocales genomes, some symbiotic, some not, we hope to identify clusters of genes shared by symbiotic Nostocales Cyanobacteria and perhaps shared by T. azollae specifically.
 
 Through this analysis, we aim to understand better the genomic and evolutionary dynamics that underlie the *Azolla*-*Nostoc* symbiosis, shedding light on the processes that govern symbiotic interactions and the co-evolution of plants and their microbial partners.
 By doing so, we hope to contribute to a deeper understanding of the role of obligate cyanobacterial symbiosis in plant evolution.
 _Azolla_-_Trichormus_ understanding may positively impact future _Azolla_-based agriculture and biotechnology.
 
 # Methods
+
+## Data Collection and Sequencing
+
+We collected samples from three *Azolla* species: *A. filiculoides*, *A. pinnata*, and an unknown *Azolla* strain named 'Bordeaux.'
+Genomic DNA was extracted from whole plant fronds using the nanopore community protocol.
+Samples were sequenced using nanopore long-read sequencing technology, and data were basecalled with Guppy software.
+Sequencing data was uploaded to EBI ENA under accession `EBI accession`.
+
+## read baiting
+Baited reads, selected based on homology to known reference genomes, were used to reduce assembly size and possibly enhance accuracy.
+Nanopore sequencing reads were by mapping against this reference a with minimap2 [@Li2018a] and samtools [@Li2009] and then assembled with flye [@Kolmogorov2019].
+
+## Genome Assembly
+
+Long-read sequencing data were processed using de novo assembly techniques.
+We utilised Flye for genome assembly, focusing on reconstructing chromosome-length assemblies of *Nostoc azollae* genomes and *Azolla* chloroplast and mitochondrial genomes.
+
 Anvio pangenomics
 IQtree
 
@@ -98,49 +121,56 @@ When multiple samples are available, taking the longest insert size.
 
 # Results
 
-### De novo assembly of missing _N. azollae_ strains and _Azolla_ chloroplasts and mitochondria.
-We aim to to perform comparative genomes and study co-evolution of _N. azollae_ and its host.
-To achieve this, we gather all _N. azollae_ and _Azolla_ plastid genomes that are not available publicly yet.
-First, we use nanopore sequencing to assemble chromosome length assemblies of _N. azollae_ taken the from: the _A. filiculoides_ Galgenwaard strain, from _A. pinnata_, and from _A. sp_ indicated as Bordeaux.
-_A pinnata_ is the only _Azolla_ species that has not been sequenced yet, and it is relativelly far removed from _A. filiculoides_ in the _Azolla_ genus phylogeny (+@fig:fig3_data_overview).
-We extracted DNA of whole plant fronts using procol `nanopore community protocol`.
-DNA was made into a library with protocol `protocol` and sequenced on a `flowcell` flowcell.
-Sequencing data was basecalled with guppy `guppy version` and uploaded to EBI ENA under accession `EBI accession`.
+## De novo assembly of missing _T. azollae_ strains and _Azolla_ chloroplasts and mitochondria.
 
-Armed with sequencing data for all _Azolla_ species, we set out to reconstruct the genomes of _N. azollae_, and the _Azolla_ chloroplasts and mitochondria.
-In doing so, we chose de-novo assembly algorithms and supply these with baited reads.
-Baited reads are selected based on their homology to a reference genome of the cyanobacterium or a plastid.
-The _A. filiculoides_ chloroplast reference genome is available at fernbase [@Li2018] and the _N. azollae_ genome was published by @Ran2010, but the mitochondrial sequence remains unknown.
+We aim to to perform comparative genomes and study co-evolution of _T. azollae_ and its host via host plasmids.
+To achieve this, we must first acquire all _T. azollae_ and _Azolla_ plastid genomes that are not available publicly yet.
+
+### _T.azollae_ and the _Azolla_ chloroplast
+
+First, we use nanopore sequencing to assemble chromosome length assemblies of _T. azollae_ taken the from the _A. filiculoides_ Galgenwaard strain.
+The original genome assembly was based on 454 sequencing data and was assembled with CAP5 [@Ran2010].
+In previous attempts we failed to assemble a closed _T. azollae_ genome with this data, or with illumina data with various fragment lengths.
+This initial nanopore assembly establishes the sequencing and assembly protocol in our lab.
+Additionally, the de-novo nanopore assembly confirmed the genome structure of _T. azollae_ as published by @Ran2010.
+
+<!-- insert figure/table -->
+
+Armed with a working protocol and sequencing data for all _Azolla_ species, we then proceeded with _T. azollae_ genome assemblies for _A. pinnata_, and from _A. sp_ indicated as Bordeaux.
+_A pinnata_ is the only _Azolla_ species that has not been sequenced yet, and it is relativelly far removed from _A. filiculoides_ in the _Azolla_ genus phylogeny (+@fig:fig3_data_overview).
+The _A pinnate assembly turned out high quality and single chromosome (+ some fragmented plasmids). The _A. sp._ Bordeax assembly turned out highly fragmented and low quality due to low sequencing depth. (+fig:fig4_Nazollae_nanopore_assemblies).
+
+### The Azolla mitochondrium
+
+Azolla's mitochondrial sequence remains unknown despite the _A. filiculoides_ chloroplast reference genome being available at fernbase [@Li2018] and the _T. azollae_ genome being published by @Ran2010.
 Baiting mitochondrium DNA reads of all _Azolla_ species requires a mitochodrium draft genome.
 The mitochodrium genome sequence is likely assembled in bulk DNA assemblies from previous studies.
 It did however, not appear in the metagenome analysis of chapter \ref{hidden_treasures}, hence we start looking for it in the latest _A. filiculoides_ genome assembly.
-We took the _A filiculoides_ genome assembly version 2 [@gungur2022], alligned _A.filiculoides_ Illumina reads to it [@Li2018] and performed metagenomic binning on this assembly with metabat2 `cite metabat2`.
+
+The persuit of the mitochondrial genome started with the _A filiculoides_ genome assembly version 2 [@gungur2022].
+We alligned _A.filiculoides_ Illumina reads to it [@Li2018] and performed metagenomic binning on this assembly with metabat2 `cite metabat2`.
 Contigs of these bins were mapped with blastn to known fern mitochondrial genomes of _Ophioglossum californicum_ and _Psilotum nudum_ `ref`.
 One bin stood out in particular but was many times the expected size of a mitochondrium: near 4.2M instead of between 400kb and 300kb.
 Contigs of this bin were highly redudant, and the bin likely contained various configurations of the mitochondrial genome.
+
 Since assembly of PacBio RSII reads with canu had been unsuccessful in resolving the mitochodrium structure, we opted to use the newly acquired nanopore reads of _A. filiculoides_.
 The bin was subsetted based on blastn bitscores to _O californicum_ and _P nudum_ mitochondrial genomes, and this subset was used to bait nanopore reads.
 These nanopore reads were then assembled with flye [@Kolmogorov2019] and the assembly graph was inspected in Bandage `cite bandage`.
-The assembly totalled at 3.2Mbase, and contained various subgraphs that showed homology to _N. azollae_ and the _A. filiculoides_ chloroplast.
+The assembly totalled at 3.2Mbase, and contained various subgraphs that showed homology to _T. azollae_ and the _A. filiculoides_ chloroplast.
 One circular subgraph showed homology to the _O californicum_ and _P nudum_ mitochondria (+@fig:fig4_mitochondrium_assembly_selection A).
 This mitochodrium subgraph contained 188kb of DNA, more than half in a single contig.
 Smaller redundant contigs were idintified via blast all-vs-all (+@fig:fig4_mitochondrium_assembly_selection B) and then removed.
 Six contigs remained with minimal redundancy (+@fig:fig4_mitochondrium_assembly_selection C), together constituting the first draft genome of an _Azolla_ mitochondrium of 141kb in total.
 The mitochondria assembly was polished twice with pilon using Illumina reads of the same _Azolla filiculoides_ lab strain, and then annotated using the chlorobox online interface `chlorobox`.
 
-```
-Idea, I can make a many panel figure displaying the various bandage images
-and their similarity to references, but I don't think it is important enough...
-```
 
-With reference sequences available for all genomes of interest, we proceed in baiting nanopore reads by organellar genome, _N. azollae_ genome, or fern nuclear genome.
-An extended _A. filiculoides_ reference genome was constructed from the _A. filiculoides_ nuclear genome and chloroplast [@Li2018], _N. azollae_ [@Ran2010], and the draft mitochondrial genome constructed here.
-Nanopore sequencing reads were selected by mapping against this reference a with minimap2 [@Li2018a] and samtools [@Li2009] and then assembled with flye [@Kolmogorov2019].
+flye
+
 These de-novo assemblies were then examined in Bandage `bandage` for homology to their reference.
 The amount of DNA per genome differed substantially in the bulk nanopore library.
-_N. azollae_ sequencing was the most abundant, ranging between 65Mbase and 2.7Gbase (+@fig:fig4_assembly_stats; Sequencing input; _N. azollae_).
+_T. azollae_ sequencing was the most abundant, ranging between 65Mbase and 2.7Gbase (+@fig:fig4_assembly_stats; Sequencing input; _T. azollae_).
 Chloroplast DNA was the second most abundant, ranging between 24 and 240Mbase (+@fig:fig4_assembly_stats; Sequencing input; chloroplast) but still amounting to over 100x coverage over the short genome (+@fig:fig4_assembly_stats; Coverage; chloroplast).
-Mitochondrial DNA however, was very sparse in the DNA extraction ranging between ,3 and 3Mbase (+@fig:fig4_assembly_stats; Sequencing input; mitochondrium), ammounting to no more than 1.5% compared to the _N. azollae_ and nomore than 10x Coverage (+@fig:fig4_assembly_stats; Coverage; mitochondrium).
+Mitochondrial DNA however, was very sparse in the DNA extraction ranging between ,3 and 3Mbase (+@fig:fig4_assembly_stats; Sequencing input; mitochondrium), ammounting to no more than 1.5% compared to the _T. azollae_ and nomore than 10x Coverage (+@fig:fig4_assembly_stats; Coverage; mitochondrium).
 Nanopore reads had an N50 between 7 and 13kb, except for the _A. sp._ 'Bordeaux' sample.
 These long reads wil aid in resolving the fragmented assemblies as seen in chapter \ref{hidden_treasures}.
 
@@ -156,9 +186,9 @@ insert table with
 
 Next, we assemble the _Azolla_ chloroplast and mitochondrium genomes from nanopore data.
 The _A. filiculoides_ chloroplast reference sequence was taken from fernbase.
-Chloroplasts of other _Azolla_ species were assembled by @Li2018 for comparative phylogenomics of fern and _N. azollae_, but these are not publicly available.
+Chloroplasts of other _Azolla_ species were assembled by @Li2018 for comparative phylogenomics of fern and _T. azollae_, but these are not publicly available.
 Therefore, we set out to assemble these de-novo with nanopore first, and then with Illumina reads.
-Nanopore reads were processed as for _N. azollae_.
+Nanopore reads were processed as for _T. azollae_.
 Chloroplast nanopore assemblies were resolved to no more than 9 fragments, and to chromosome scale only in the case of _A. sp._ 'Bordeaux' (+@fig:fig4_assembly_stats; chloroplast ; Assembled contig count & Assembled N50).
 Despite being fragmented, these assembly graphs were circular and have a size approximate to that of the reference.
 This indicates some repetitive regions are not resolved propperly in the assembly process, but the draft genomes are most likely complete (+@fig:fig4_chloroplast_nanopore_assemblies).
@@ -201,23 +231,23 @@ insert table with Illumina assembly stats
 * hits to reference
 * coverage min,mean,max?
 
-### All _N. azollae_ are highly similar in terms of ANI and gene content but have some unique features
-Armed with _N. azollae_ of all known _Azolla_ strains, we wonder how similar these genomes are in gene content, and if they can be considered separate species or if they are the same.
-All available _N. azollae_ genomes and the reference from @Ran2010 were processed in an Anvi'o pangenomics workflow [GitHub page].
+## All _T. azollae_ are highly similar in terms of ANI and gene content but have some unique features
+Armed with _T. azollae_ of all known _Azolla_ strains, we wonder how similar these genomes are in gene content, and if they can be considered separate species or if they are the same.
+All available _T. azollae_ genomes and the reference from @Ran2010 were processed in an Anvi'o pangenomics workflow [GitHub page].
 This workflow finds ORFs, tries to functionally annotate these via either NCBI COGs or KEGG KOFAMS, and then maps all ORFs to all ORFs with blastp to then cluster these genes in gene clusters that systematically co-occur in the various genomes.
 Additionally, Average Nucleotide Identity (ANI) was determined over all regions of the entire genomes that mapped to each other.
 
-![Pangenome summary of _Nostoc azollae_ strains representative of the entire _Azolla_ genus. _N. azollae_ genomes were scanned for ORFs and clustered (MCL=7) on co-occurence frequencies of these ORFs in the various genomes (centre dendrogram). The frequency in which gene clusters occur in a genome is shown as barplots drawn as concentric semi-circles around the dendrogram. These barplots are log10 transformed due to high differences in copy numbers, the y-axes range from 0 to 100 copies. Outside the frequency barplots, SCMG clusters are indicated in Bordeaux red (SCG Clusters) and functional annotation is shown in bright green (NCBI COGGs and KEGG KOFAM). Homogenity of clusters is calculated as geometric (few gaps is high homogeneity), functional (matching amino acid residues is high homogeneity) and a combined version of these two. The final semi circle shows a manual binning of gene clusters in biologically meaningfull groups, including a phylogenomic_core set of genes, used for building a phylogenomic tree. Adjacent to the geneclusters, several plots are shown. These depict total genome length, GC content, Completion and Redundancy (based on SCMG analysis), genes per kb, Singleton gene clusters, total number of gene clusters, and a matrix showing ANI calculations of all genomes against each other. ANI values in the heatmap range from 90% to 100%. Finally, a phylogenomic tree is shown which is also used to order the genomes.](source/figures/fig4_Nostoc_azollae_pangenome.pdf){#fig:fig4_Nazollae_pangenome short-caption="Pangenome summary of Nostoc azollae strains"}
+![Pangenome summary of _Nostoc azollae_ strains representative of the entire _Azolla_ genus. _T. azollae_ genomes were scanned for ORFs and clustered (MCL=7) on co-occurence frequencies of these ORFs in the various genomes (centre dendrogram). The frequency in which gene clusters occur in a genome is shown as barplots drawn as concentric semi-circles around the dendrogram. These barplots are log10 transformed due to high differences in copy numbers, the y-axes range from 0 to 100 copies. Outside the frequency barplots, SCMG clusters are indicated in Bordeaux red (SCG Clusters) and functional annotation is shown in bright green (NCBI COGGs and KEGG KOFAM). Homogenity of clusters is calculated as geometric (few gaps is high homogeneity), functional (matching amino acid residues is high homogeneity) and a combined version of these two. The final semi circle shows a manual binning of gene clusters in biologically meaningfull groups, including a phylogenomic_core set of genes, used for building a phylogenomic tree. Adjacent to the geneclusters, several plots are shown. These depict total genome length, GC content, Completion and Redundancy (based on SCMG analysis), genes per kb, Singleton gene clusters, total number of gene clusters, and a matrix showing ANI calculations of all genomes against each other. ANI values in the heatmap range from 90% to 100%. Finally, a phylogenomic tree is shown which is also used to order the genomes.](source/figures/fig4_Nostoc_azollae_pangenome.pdf){#fig:fig4_Nazollae_pangenome short-caption="Pangenome summary of Nostoc azollae strains"}
 
-All genomes of _N. azollae_ taken from various _Azolla_ hosts are highly similar both in ANI and in gene content but have some unique features. 
+All genomes of _T. azollae_ taken from various _Azolla_ hosts are highly similar both in ANI and in gene content but have some unique features. 
 All genomes count similar amount of gene clusters except the Bordeaux strain.
-The Euazolla section is very similar in ANI `over ...%` but both rhizosperma species are no more than `...%` similar to any other _N. azollae_.
-Strictly speaking, this means that the _N. azollae_ from _A. pinnata_ and _A. nilotica_ are separate species from the _N. azollae_ in the Eukazolla section.
+The Euazolla section is very similar in ANI `over ...%` but both rhizosperma species are no more than `...%` similar to any other _T. azollae_.
+Strictly speaking, this means that the _T. azollae_ from _A. pinnata_ and _A. nilotica_ are separate species from the _T. azollae_ in the Eukazolla section.
 For the manuscript, we chose not do make this disctinction.
-The Bordeaux strain genome assembly stands out for it misses many of the genes shared by other _N. azollae_.
+The Bordeaux strain genome assembly stands out for it misses many of the genes shared by other _T. azollae_.
 These are likely missing due to the poor assembly quality, data input was minimal in this assembly and well below the recommended coverage for assembly with flye (10x vs 40x minimum).
 Regardless, all genomes show low redundancy and high completion scores. 
-A big majority of genes is shared amongst all N. azollae. (N. azollae core), not regarding any genes missing in the Bordeaux strain.
+A big majority of genes is shared amongst all T. azollae. (T. azollae core), not regarding any genes missing in the Bordeaux strain.
 Within this core genome, a substantial amount of genes has functional annotation (ncbi COG or KEGG KOFAM). `count percentage`
 Outside this group, the frequency of functional annotation is less. `count percentage`
 
@@ -231,7 +261,7 @@ Outside this group, the frequency of functional annotation is less. `count perc
 ```
 The same analysis is running over the weekend of the chloroplast and mitochondrium, trees should mirror. That will be the next results sub-section. Do these trees mirror.
 
-![Comparative phylogenimcs on _Azolla_ associated _N. azollae and chloroplasts. Phylogenomic trees were infered on a manually selected set of single copy genes with good allignement scores in the pangenomc analyses (+@fig:fig4_Nazollae_pangenome) and +@fig:fig4_chloroplast_pangenome). Partitioned allignments were processed in IQtree, performing model selection and maximum likelihood tree inference. Matching host species are connected by green ribons; matching samples by blue ones. Inconsistencies in the speciation pattern are indicated by coloured circles.](source/figures/fig4_coevolution_trees.pdf){#fig:fig4_coevolution_trees short-caption="Comparative phylogenomics of Nostoc azollae and Azolla chloroplasts"}
+![Comparative phylogenimcs on _Azolla_ associated _T. azollae and chloroplasts. Phylogenomic trees were infered on a manually selected set of single copy genes with good allignement scores in the pangenomc analyses (+@fig:fig4_Nazollae_pangenome) and +@fig:fig4_chloroplast_pangenome). Partitioned allignments were processed in IQtree, performing model selection and maximum likelihood tree inference. Matching host species are connected by green ribons; matching samples by blue ones. Inconsistencies in the speciation pattern are indicated by coloured circles.](source/figures/fig4_coevolution_trees.pdf){#fig:fig4_coevolution_trees short-caption="Comparative phylogenomics of Nostoc azollae and Azolla chloroplasts"}
 
 **co-evolution**
 * Wierd co-evolution tree in @Li2018. Let's do this again and assembly the chloroplasts anew. (and mito to get rid of that too...)
@@ -273,12 +303,12 @@ About genomics of a symbiont:
 
 **Other stuff:**
 * Sufficient data for puryfying selection? Likely not.
-* Crispr: lacking immunity in N. azollae -> plant must keep its house clean
+* Crispr: lacking immunity in T. azollae -> plant must keep its house clean
 ```
 
 **Evolution**
 
-* Is the gene content of N. azollae special, symbiotic toolkit?
+* Is the gene content of T. azollae special, symbiotic toolkit?
    - pangenomics multiple nostocs
 
 * So much debate about which species it is, can we sovle that here?
@@ -303,7 +333,7 @@ _Nostoc azollae_ main symbiont of _Azolla_
 
 
 
-Symbiosis co-evolution. How does _N. azollae_ compare to other known examples.
+Symbiosis co-evolution. How does _T. azollae_ compare to other known examples.
  * Exception in Li et al tree?
    - compare to chloroplast, how about mitochondrium?
  * Common introduction in the genus.
@@ -312,14 +342,14 @@ Symbiosis co-evolution. How does _N. azollae_ compare to other known examples.
  * Symbiosis bottleneck, did this occur in _Azolla's_  main symbiont? At what stage in the symbiosis.
 
 **Nostoc in the Azolla symbiosis**
-N. azollae rappid introduction and degradation solidified its presence in the Azolla symbiosis.
+T. azollae rappid introduction and degradation solidified its presence in the Azolla symbiosis.
 
 * Co-evolution is ... awaiting trees ...
-* N. azollae is basically one species, except for pinnata and nilotica, but what does that even mean...
+* T. azollae is basically one species, except for pinnata and nilotica, but what does that even mean...
 * Pseudogenation has come to a standstill
 
 
-beta-lactam antibiotic genes, rhizosperma may have different way of keeping their leafpocket clean and this is aided by N. azollae. Nazollae defends its niche?
+beta-lactam antibiotic genes, rhizosperma may have different way of keeping their leafpocket clean and this is aided by T. azollae. Nazollae defends its niche?
 
 DNA repair and maintainance enriched in rhizosperma --> diversified degradation bewteen rhizosperma and Eukazolla?
 
@@ -355,13 +385,13 @@ skipped
 
 ![Assembly and subsetting of _A. filiculoides_ mitochodrium genome. (A) Flye assembly graph of nanopore reads suspected to be mitocondrial. The assembly graph visualisation was made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches colour coded by blast hits and connections between these contigs as grey transparent lines. Blast hits of the _Psilotum nudum_ and _Ophioglossum californicum_ mitocondrial genomes (orange and red), the _Azolla filiculoides_ chloroplast (green) and _Nostoc azollae_ (cyan blue) are indicated in the assembly graph. A mitocondrial subgraph (indicated in red square) was selected for futher processing. B Blast all-vs-all visualisation with circo's of the mitocondrial subgraph. Several contigs are fully represented in contig 11. (C) Mitocondrial draft assembly manually rid of redundancy. Blast all-vs-all visualisation with circos.](source/figures/fig4_mitochondrium_assembly_selection.pdf){#fig:fig4_mitochondrium_assembly_selection short-caption="Assembly of Azolla filiculoides mitochondrial genomes"}
 
-![Assembly summary of _N. azollae_ flye assemblies. Assembly graph visualisations were made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches as randomly coloured strips and connections between these contigs as grey transparent lines. Statistics (right) were also generated with Bandage.](source/figures/fig4_Nazollae_nanopore_assemblies.pdf){#fig:fig4_Nazollae_nanopore_assemblies short-caption="Assembly summary of flye assemblies"}
+![Assembly summary of _T. azollae_ flye assemblies. Assembly graph visualisations were made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches as randomly coloured strips and connections between these contigs as grey transparent lines. Statistics (right) were also generated with Bandage.](source/figures/fig4_Nazollae_nanopore_assemblies.pdf){#fig:fig4_Nazollae_nanopore_assemblies short-caption="Assembly summary of flye assemblies"}
 
 ![Assembly summary of chloroplast flye assemblies. Assembly graph visualisations were made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches as randomly coloured strips and connections between these contigs as grey transparent lines. Statistics (right) were also generated with Bandage.](source/figures/fig4_chloroplast_nanopore_assemblies.pdf){#fig:fig4_chloroplast_nanopore_assemblies short-caption="Assembly summary of chloroplast flye assemblies"}
 
 ![Assembly summary of mitochondrium flye assemblies. Assembly graph visualisations were made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches as randomly coloured strips and connections between these contigs as grey transparent lines. Statistics (right) were also generated with Bandage.](source/figures/fig4_mitochondrium_nanopore_assemblies.pdf){#fig:fig4_mitochondrium_nanopore_assemblies short-caption="Assembly summary of mitochondrium flye assemblies"}
 
-![Assembly graphs of chloroplast SPAdes assemblies with baited Illumina reads. Assembly graph visualisations were made with Bandage `cite bandage`. The graphs depict contiguous DNA streches as randomly coloured strips and connections between these contigs as grey transparent lines. Illumina reads of serveral _Azolla_ species were selected based on homology to the _Azolla_ filiculoides_ draft mitochondrium and assembled with SPAdes. These species are _A. nilotica_, _A. caroliniana_ 1 & 2, _A. microphylla_, _A. mexicana_ and _A. rubra_. Species names are indicated above snapshots of the assembly graph, as well as the total assembly size and amount of contigs.](source/figures/fig4_chloroplast_spades_assemblies.pdf){#fig:fig4_chloroplast_spades_assemblies short-caption="Assembly summary of N. azollae flye assemblies"}
+![Assembly graphs of chloroplast SPAdes assemblies with baited Illumina reads. Assembly graph visualisations were made with Bandage `cite bandage`. The graphs depict contiguous DNA streches as randomly coloured strips and connections between these contigs as grey transparent lines. Illumina reads of serveral _Azolla_ species were selected based on homology to the _Azolla_ filiculoides_ draft mitochondrium and assembled with SPAdes. These species are _A. nilotica_, _A. caroliniana_ 1 & 2, _A. microphylla_, _A. mexicana_ and _A. rubra_. Species names are indicated above snapshots of the assembly graph, as well as the total assembly size and amount of contigs.](source/figures/fig4_chloroplast_spades_assemblies.pdf){#fig:fig4_chloroplast_spades_assemblies short-caption="Assembly summary of T. azollae flye assemblies"}
 
 ![Pangenome summary of _Azolla_ mitochondria. Mitochondrial genomes were scanned for ORFs and clustered (MCL=7) on co-occurence frequencies of these ORFs in the various genomes (centre dendrogram). The frequency in which gene clusters occur in a genome is shown as barplots drawn as concentric semi-circles around the dendrogram. Outside the frequency barplots, functional annotation is shown in bright green (NCBI COGGs and KEGG KOFAM). Homogenity of clusters is calculated as geometric (few gaps is high homogeneity), functional (matching amino acid residues is high homogeneity) and a combined version of these two. Adjacent to the geneclusters, several plots are shown. These depict total genome length, GC content, genes per kb, Singleton gene clusters and total number of gene clusters.](source/figures/fig4_Azolla_mitochondrium_pangenome.pdf){#fig:fig4_mitochondrium_pangenome short-caption="Pangenome summary of Azolla mitochondria"}
 
