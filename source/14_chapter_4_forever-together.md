@@ -32,30 +32,37 @@ this is where the abstract goes
 
 \newpage
 
-## Introduction
-Cyanobacterial symbiosis in general.
+# Introduction
 
-_Nostoc azollae_ main symbiont of _Azolla_
- * Main symbiont, N-fixation.
- * present in All _Azolla_
- * cap exchange experiments
- * genus name debate
+*Azolla* is a genus of aquatic ferns.
+_Azolla_ forms a symbiotic relationship with the cyanobacterium *Trichormus azollae*, which resides within specialised leaf cavities [@Campbell1893].
+All _Azolla_ species have a symbiosis with _T. azollae_, but other ferns in the Salviniaceae family do not.
+*N. azollae* fixes atmospheric nitrogen, providing a vital nutrient to its host, while *Azolla* offers a protective environment and presumably access to photosynthetic products and other nutrients [@Ran2010].
+The naming of the cyanobacterial symbiont has been subject to change.
+Here I use _T. azollae_, as I explain in the general introduction of this thesis on page \pageref{t_azollae_debate}.
 
-Symbiosis co-evolution. How does _N. azollae_ compare to other known examples.
- * very strict inheritance
- * Exception in Li et al tree?
-   - compare to chloroplast, how about mitochondrium?
- * Common introduction in the genus.
+The *Azolla*-*Nostoc* symbiosis is unique due to its mode of transmission.
+Most plant-microbe associations are acquired horizontally from the environment.
+Contrastingly, *T. azollae* is vertically transmitted across generations of *Azolla* inside reproductive structures known as megasporocarps [@Perkins1993; @Zheng2009].
+This strict vertical transmission ensures that each new generation of *Azolla* is pre-inoculated with its symbiotic cyanobacterium, maintaining the partnership across evolutionary timescales.
+High genetic similarity across *N. azollae* strains found in different *Azolla* species suggests a single evolutionary origin of this symbiosis [@Dijkhuizen2021].
+Some studies theorised multiple Cyanobacteria are part of the symbiosis [@Papaefthimiou2008], but in Chapter \ref{hidden_treasures} we found this to not be the case.
+Alternatively, some cyanobacteria may be closely associated with _Azolla_ externally [@Pratte2021].
 
-_N. azollae_ was first sequenced by @Ran2010, taken from _Azolla filiculoides_.
+The relationship between *Azolla* and *N. azollae* has evolved under selective pressures that have shaped the genome of the cyanobiont [@Ran2010].
+_T azollae_'s life cycle is tightly integrated with and adapted to that of its host fern [@Zheng2009].
+The genome of *N. azollae* has undergone significant reductive evolution, characterised by a high number of pseudogenes and the presence of numerous insertion sequences (IS elements) [@Ran2010].
+This genome reduction is indicative of *N. azollae*’s adaptation to an obligate symbiotic lifestyle [@Ran2010;@Warshan2018].
+For many functions necessary for free-living cyanobacteria have been lost, relying instead on the host plant for certain metabolic needs.
+Similar patterns of genome degradation are observed in other obligate symbionts [@Keeling2010; @Wernegreen2002].
+Additionally, certain are enriched in to symbiotic cyanobacteria like transport, chemotaxis and nutrient uptake [@Warshan2018].
 
-* Its genome is heavily degraded
-* Symbiosis bottleneck, did this occur in _Azolla's_  main symbiont? At what stage in the symbiosis.
+Recent genomic studies have sought to unravel the complexities of this symbiosis by examining the genomes of *Azolla* and its associated microbial community.
+Advances in sequencing technologies have allowed researchers to not only sequence the genome of *N. azollae* but also to explore the broader metagenomic context of *Azolla*’s microbiome [@Li2018; @Dijkhuizen2018].
+In particular, efforts have been made to reconstruct microbial genomes from publicly available sequencing data, highlighting the diverse bacterial communities that coexist with *N. azollae* within the *Azolla* holobiont (Chapter \ref{hidden_treasures}) [@Dijkhuizen2018; @Banach2019].
+This broader view of the *Azolla* microbiome provides insights into how various microbial partners might contribute to the overall functionality of the symbiosis.
 
-
-genome degradation, transfer modes, facultativeness @Russel2020
-
-
+This chapter aims to extend our understanding of the *Azolla*-*Nostoc* symbiosis by exploring the genetic diversity and evolutionary history of *N. azollae* across different *Azolla* species.
 Here we gather and supplement data of _N. azollae_ and _Azolla_ plasmids associated with the _Azolla_ genus and study their evolution in context of other cyanobacterial symbioses.
 We add long-read data to further resolve the structure of the fragmented _N. azollae_ genome assembly associated with _A. filiculoides_ as sequenced in chapter \ref{hidden_treasures}.
 We also add long read data of _A. pinnata_, the only Azolla species that has not been sequenced yet.
@@ -65,7 +72,11 @@ We assess the degradation that _N. azollae_ underwent in becoming a obligate sym
 Finally, we aim to embed the _N. azollae_ evolution in a broader perspective of Nostocales taxonomy, hopefully solving the issue of the _N. azollae_ genus name.
 Within this broader perspective of Nostocales genomes, some symbiotic, some not, we hope to identify clusters of genes shared by symbiotic Nostocales Cyanobacteria and perhaps shared by N. azollae specifically.
 
-## Methods
+Through this analysis, we aim to understand better the genomic and evolutionary dynamics that underlie the *Azolla*-*Nostoc* symbiosis, shedding light on the processes that govern symbiotic interactions and the co-evolution of plants and their microbial partners.
+By doing so, we hope to contribute to a deeper understanding of the role of obligate cyanobacterial symbiosis in plant evolution.
+_Azolla_-_Trichormus_ understanding may positively impact future _Azolla_-based agriculture and biotechnology.
+
+# Methods
 Anvio pangenomics
 IQtree
 
@@ -75,11 +86,11 @@ Mauve
 
 Github
 
-### nanopore sequencing
+## nanopore sequencing
 flowcells,
 postprocessing
 
-### data
+## data
 table on the mags we have from chapter \ref{hidden treasures}
 
 read data, same as chap3, but skipping Afiliculoides since that is the reference already.
@@ -286,6 +297,20 @@ while the megasporocarps keep these.
 ```
 
 ## Discussion
+
+_Nostoc azollae_ main symbiont of _Azolla_
+ * cap exchange experiments
+
+
+
+Symbiosis co-evolution. How does _N. azollae_ compare to other known examples.
+ * Exception in Li et al tree?
+   - compare to chloroplast, how about mitochondrium?
+ * Common introduction in the genus.
+
+
+ * Symbiosis bottleneck, did this occur in _Azolla's_  main symbiont? At what stage in the symbiosis.
+
 **Nostoc in the Azolla symbiosis**
 N. azollae rappid introduction and degradation solidified its presence in the Azolla symbiosis.
 

@@ -274,6 +274,8 @@ The genus name of _Azolla_'s cyanobacterial symbiont has also changed over the y
 
 ## Azolla's cyanobacterial symbiont
 
+\label{t_azollae_discussion
+}
 _Azolla_ species form a unique symbiotic relationship with the cyanobacterium _Trichormus azollae_, which resides in specialised leaf cavities of the fern.
 The primary function of _T. azollae_ is to fix nitrogen from the air and provide it to the host plant.
 Over the years, the cyanobiont has been classified under various genera, including _Anabaena_, _Nostoc_, and most recently, _Trichormus_.
