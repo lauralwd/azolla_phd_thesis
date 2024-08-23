@@ -468,11 +468,13 @@ High-throughput sequencing, coupled with bioinformatics tools, enables the rapid
 This shift has not only accelerated breeding cycles but also opened new possibilities for improving crop resilience and productivity in ways previously unimaginable.
 
 Despite these advances, traditional breeding methods can still be slow and may inadvertently reduce genetic diversity.
-Repeated selection for specific traits can narrow a crop's gene pool, making it more vulnerable to diseases, droughts, or other stresses.
-<!-- needs reference -->
-To counter this, researchers have begun reintroducing desirable traits from wild relatives using modern molecular breeding techniques.
+Repeated selection for specific traits can narrow a crop's gene pool, making it more vulnerable to diseases, droughts, or other stresses [@Sun2022].
+Plant breeders' lobby groups warn current policy exacerbates the problem [@Louwaars2018].
+To counter this, researchers have begun reintroducing desirable traits from wild relatives using modern molecular breeding techniques [@Kumar2021].
 One striking example is the de novo domestication of wild tomato varieties using CRISPR-Cas9 gene-editing technology [@Li2018b].
 By disabling key genes involved in domestication, researchers recreated domesticated traits in wild tomatoes, resulting in a crop that retained the stress resilience of its wild ancestors while gaining the desirable traits of commercial varieties.
+
+<!-- More references needed from here on out -->
 
 This approach has also been successfully applied to other crops, such as the ground cherry, an orphan crop related to tomatoes.
 Using knowledge gained from tomato genomics, researchers were able to gene-edit ground cherry, enhancing its yield and making it more suitable for agriculture [@Lemmon2018a].
@@ -489,21 +491,6 @@ With its genome sequenced and the potential for genetic modification, _Azolla_ i
 
 In summary, while the road to _Azolla_ domestication is still long, the application of genomics and gene-editing technologies offers a promising future.
 As research progresses, these tools could help _Azolla_ realise its full potential as a sustainable crop, tailored to meet the challenges of modern agriculture.
-
-<!-- 
-High-throughput sequencing and advanced computational tools allow breeders and researchers to dissect the genetic basis of complex traits, enabling more efficient selection and breeding strategies
-[Bioinformatics approaches and applications in plant biotechnology | Journal of Genetic Engineering and Biotechnology | Full Text](https://jgeb.springeropen.com/articles/10.1186/s43141-022-00394-5).
-With GMO and gene editing technology, these insights can be tested in a living plant with amazing speed if a reliable transformation protocol is available
-[CRISPR-Cas9 based molecular breeding in crop plants: a review | Molecular Biology Reports](https://link.springer.com/article/10.1007/s11033-023-09086-w).
-
-[Bioinformatics approaches and applications in plant biotechnology | Journal of Genetic Engineering and Biotechnology | Full Text](https://jgeb.springeropen.com/articles/10.1186/s43141-022-00394-5)
-[Advances in Integrating Genomics and Bioinformatics in the Plant Breeding Pipeline](https://www.mdpi.com/2077-0472/8/6/75).
-[Bioinformatics in Plant Breeding and Research on Disease Resistance](https://www.mdpi.com/2223-7747/11/22/3118).
-
-[Impact of Bioinformatics on Plant Science Research and Crop Improvement | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-19318-8_2) 
-[Application of Bioinformatics in Crop Improvement | SpringerLink](https://link.springer.com/chapter/10.1007/978-981-16-2339-4_30). 
-
--->
 
 ## Genomics for Breeding a Symbiosis
 
@@ -523,13 +510,15 @@ Editing a single microbial species is already difficult, often requiring the abi
 In a symbiotic system, these challenges are magnified by the need to reintroduce the modified microbe into the host and ensure it occupies the same ecological niche as the original strain [@Albright2022].
 Alternatively, one can introduce a similar strain with desirable traits into the symbiotic community, which requires a deep ecological understanding to succeed [@Albright2022].
 
-In the _Azolla_ symbiosis, researchers have managed to isolate and culture several bacterial strains; however, reintroducing them into the _Azolla_ leaf pockets has yet to be achieved.
+In the _Azolla_ symbiosis, we have managed to isolate and culture several bacterial strains [@Banach2019;@Cohen2004;@Caudales1998;@Nierzwicki-Bauer1991].
+However, reintroducing them into the _Azolla_ leaf pockets has yet to be achieved.
 This step is crucial for any future attempts at microbiome editing in _Azolla_.
 While these advanced techniques remain on the horizon, the focus now is on identifying and characterising the symbiotic partners.
 In Chapter \ref{forever_together}, sequencing data from multiple _Azolla_ species is used to retrieve microbial genomes associated with the genus.
 This effort provides a foundation for understanding the symbiosis at a genomic level.
 
-Later, we venture into meta-transcriptomics to investigate what processes are active in these microbes, though we gain little signal about which genes are active in these microbes (Chapter \ref{it_takes_two}).
+Later, we venture into meta-transcriptomics to investigate what processes are active in these microbes.
+Unfortunately, we gain little signal about which genes are active in these microbes (Chapter \ref{it_takes_two}).
 
 ## Gene Editing Ethics
 
