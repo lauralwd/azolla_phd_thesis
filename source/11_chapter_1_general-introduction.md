@@ -272,7 +272,7 @@ The genus name of _Azolla_'s cyanobacterial symbiont has also changed over the y
 
 <!-- include phylogeny from a paper or database? -->
 
-## _Anabaena_, _Nostoc_, or _Trichormus_ _azollae_
+## Azolla's cyanobacterial symbiont
 
 _Azolla_ species form a unique symbiotic relationship with the cyanobacterium _Trichormus azollae_, which resides in specialised leaf cavities of the fern.
 The primary function of _T. azollae_ is to fix nitrogen from the air and provide it to the host plant.
@@ -315,7 +315,7 @@ Such pseudogenes are a common feature in obligate symbioses [@Keeling2010; @Wern
 Examples from insect symbioses, such as _Buchnera aphidicola_ in aphids and _Wigglesworthia glossinidia_ in tsetse flies, demonstrate similar patterns of genome degradation, where only essential genes for the symbiotic relationship are retained [@Chong2019; @Heller2011].
 These parallels illustrate how genome reduction plays a crucial role in the specialisation and dependence of symbionts within their hosts.
 
-## Ecology
+## Azolla Ecology
 
 _Azolla_ naturally thrives in various nutrient-rich freshwater environments, including ponds, lakes, slow-moving streams, and wetlands.
 These habitats provide ideal conditions for _Azolla_'s growth, such as abundant water and nutrient availability.
@@ -411,7 +411,7 @@ The establishment of the first _Azolla_ genome by [@Li2018] marked a significant
 With this genomic information, along with emerging gene-editing techniques, wild _Azolla_ strains might be domesticated more efficiently [@Li2018; @Lemmon2018a].
 Stable transformation or gene-editing of the symbiosis partners remains a challenge that still needs to be addressed [@Schluepmann2022].
 
-# Methodology
+# Approach
 
 Several _Azolla_ properties make it an interesting plant for addressing 21st-century challenges, such as the demand for plant-based protein and agriculture on non-arable land.
 To further realise this potential, we can utilise modern breeding tools and a systems biology perspective on the functioning of the symbiosis.
