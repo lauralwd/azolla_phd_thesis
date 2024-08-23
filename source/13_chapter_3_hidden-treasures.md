@@ -32,18 +32,16 @@ check all figure legends
 
 \section*{Abstract}
 
-Bacteria-host symbioses are present throughout the plant kingdom, and bacteria can contribute all kinds of functions to their hosts.
-The plant genus _Azolla_ is known to host multiple endophytic bacteria, which it transfers systematically to successive generations.
-Here we set out to assemble the genomes of bacteria associated with _Azolla_ by re-using non-metagenomic data already available in public repositories.
-Sequencing data from six _Azolla_ species was filtered and assembled with a fully reproducible workflow made in the conda and snakemake frameworks.
-Intensive filtering of host DNA data reduced computational requirements but did not increase assembly quality of the bacterial genomes.
-Binning signals from differing _Azolla_ strains or even species, and taxonomy-based signals increased binning quality but required careful manual curation during the binning process.
-The method consisting in automatic workflow and manual curation yielded between 11 and 21 bacterial genomes per _Azolla_ species.
-The majority of these genomes belongs to only six taxonomical orders (Burkholderiales, Caulobacteriales, Nevskiales, Nostocales, Rhizobiales and Sphingomonadales).
-Bacteria from these orders occured in most species of the _Azolla_ genus.
-Rhizobiales and Burkholderiales were transferred over generations in _A. filiculoides_.
-Taxonomic consistency of bacterial genomes associated with the _Azolla_ genus suggests these bacteria may be introduced in some common ancestor of _Azolla_ species.
-Consequently, they may be selected for in the evolution of the _Azolla_ holobiont.
+Bacteria-host symbioses are present throughout the plant kingdom, contributing diverse functions to their hosts.
+The plant genus *Azolla* is known to harbour multiple endophytic bacteria, which it systematically transfers to successive generations.
+This study aimed to assemble the genomes of bacteria associated with *Azolla* by re-using non-metagenomic data available in public repositories.
+Sequencing data from six *Azolla* species were filtered and assembled using a fully reproducible workflow built with the conda and snakemake frameworks.
+Although intensive filtering of host DNA reduced computational requirements, it did not enhance the quality of bacterial genome assembly.
+Binning signals from different *Azolla* strains, species, and taxonomy-based approaches improved binning quality but required careful manual curation.
+This method yielded between 11 and 21 bacterial genomes per *Azolla* species, mainly belonging to six taxonomical orders: Burkholderiales, Caulobacteriales, Nevskiales, Nostocales, Rhizobiales, and Sphingomonadales.
+These bacterial orders were found across multiple *Azolla* species, with Rhizobiales and Burkholderiales demonstrating vertical transmission in *A. filiculoides*.
+The consistency in bacterial taxonomy associated with the *Azolla* genus suggests these bacteria may have been introduced in a common ancestor of *Azolla* species.
+Consequently, they may have been selected for throughout the evolution of the *Azolla* holobiont, playing a potentially significant role in its ecological success.
 
 \newpage
 
