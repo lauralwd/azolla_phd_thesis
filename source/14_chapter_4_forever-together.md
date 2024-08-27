@@ -34,6 +34,17 @@ this is where the abstract goes
 
 # Introduction
 
+<!-- 
+1: 
+mitochondrial genome for filiculoides
+all cyanobiont genomes
+This was a bit of a manual search, hence it's a result.
+
+2: All N. azollae are the same
+
+
+ -->
+
 *Azolla* is a genus of aquatic ferns.
 _Azolla_ forms a symbiotic relationship with the cyanobacterium *Trichormus azollae*, which resides within specialised leaf cavities [@Campbell1893].
 All _Azolla_ species have a symbiosis with _T. azollae_, but other ferns in the Salviniaceae family do not.
@@ -121,24 +132,37 @@ When multiple samples are available, taking the longest insert size.
 
 # Results
 
-## De novo assembly of missing _T. azollae_ strains and _Azolla_ chloroplasts and mitochondria.
+## De novo assembly of missing _T. azollae_ strains and _Azolla_ plastids.
 
 We aim to to perform comparative genomes and study co-evolution of _T. azollae_ and its host via host plasmids.
 To achieve this, we must first acquire all _T. azollae_ and _Azolla_ plastid genomes that are not available publicly yet.
+These genomes were assembled either from public _Azolla_ sequencing data, or newly acquired nanopore data with assemblers appropriate for either a bacterial or plastid genomes and the right data type (+@fig:fig4_assembly_stats).
 
-### _T.azollae_ and the _Azolla_ chloroplast
+![Assembly statistics of all newly acquired cyanobiont and plastid genomes.](source/figures/fig4_chloroplast_nanopore_assemblies.pdf){#fig:fig4_assembly_stats short-caption="Assembly statistics of all newly acquired cyanobiont and plastid genomes."}
 
-First, we use nanopore sequencing to assemble chromosome length assemblies of _T. azollae_ taken the from the _A. filiculoides_ Galgenwaard strain.
-The original genome assembly was based on 454 sequencing data and was assembled with CAP5 [@Ran2010].
-In previous attempts we failed to assemble a closed _T. azollae_ genome with this data, or with illumina data with various fragment lengths.
-This initial nanopore assembly establishes the sequencing and assembly protocol in our lab.
-Additionally, the de-novo nanopore assembly confirmed the genome structure of _T. azollae_ as published by @Ran2010.
+### _T.azollae_ genomes
 
-<!-- insert figure/table -->
+The nanopore sequencing and assembly protocol was new to the lab so we sought some measure of verification.
+As a first experiment, nanopore sequencing was used to assemble chromosome length assemblies of _T. azollae_ taken the from the _A. filiculoides_ Galgenwaard strain.
+Sequencing produced sufficient reads of sufficient length to proceed with assembly (+@fig:fig4_assembly_stats; Sequencing input and read N50).
+This initial nanopore assembly produced a perfect round assembly with two plasmids for the _A. filiculoides_ strain of the cyanobiont (+fig:fig4_Nazollae_nanopore_assemblies; _Azolla filiculoides_ 'lab').
+Succesfull sequencing and assembly established the sequencing and assembly protocol in our lab.
 
-Armed with a working protocol and sequencing data for all _Azolla_ species, we then proceeded with _T. azollae_ genome assemblies for _A. pinnata_, and from _A. sp_ indicated as Bordeaux.
-_A pinnata_ is the only _Azolla_ species that has not been sequenced yet, and it is relativelly far removed from _A. filiculoides_ in the _Azolla_ genus phylogeny (+@fig:fig3_data_overview).
-The _A pinnate assembly turned out high quality and single chromosome (+ some fragmented plasmids). The _A. sp._ Bordeax assembly turned out highly fragmented and low quality due to low sequencing depth. (+fig:fig4_Nazollae_nanopore_assemblies).
+Armed with a working protocol, we sequenced _A. pinnata_; the one _Azolla_ species that has not been subjected to whole genome sequencing yet..
+_A pinnata_ is the only _Azolla_ species that has not been sequenced yet, and it is relatively far removed from _A. filiculoides_ in the _Azolla_ genus phylogeny (+@fig:fig3_data_overview).
+The same protocol was applied to an _Azolla_ strain indicated as 'Bordeaux', and another indicated as 'Anzali'.
+Both are named after their sampling location in France and Iran respectively.
+However, the 'Anzali' strains DNA extractions and library preparations were unsuccessful.
+Presumably, secondary metabolites in this particular strain inhibit one of the molecular steps in the protocols.
+Sequencing did succeed for _A. pinnata_ and to a lesser extent for _A sp._ Bordeaux (+@fig:fig4_assembly_stats; Sequencing input and read N50).
+
+_T. azollae_ reads from the _A. pinnata_ and _A. sp._ 'Bordeaux were baited and assembled.
+The _A pinnata_ assembly turned out high quality and single chromosome in addition to some fragmented plasmids.
+The _A. sp._ Bordeax assembly turned out highly fragmented and low quality due to low sequencing depth. (+fig:fig4_Nazollae_nanopore_assemblies).
+
+![Assembly summary of _T. azollae_ flye assemblies. Assembly graph visualisations were made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches as randomly coloured strips and connections between these contigs as grey transparent lines. Statistics (right) were also generated with Bandage.](source/figures/fig4_Nazollae_nanopore_assemblies.pdf){#fig:fig4_Nazollae_nanopore_assemblies short-caption="Graphical assembly summary of Flye assemblies"}
+
+### The _Azolla_ chloroplast
 
 ### The Azolla mitochondrium
 
@@ -232,6 +256,12 @@ insert table with Illumina assembly stats
 * coverage min,mean,max?
 
 ## All _T. azollae_ are highly similar in terms of ANI and gene content but have some unique features
+
+<!-- 
+The original genome assembly of _T. azollae_ from _A. filiculoides_ was based on 454 sequencing data and was assembled with CAP5 [@Ran2010].
+In previous attempts we failed to assemble a closed _T. azollae_ genome with this data, or with illumina data with various fragment lengths. 
+-->
+
 Armed with _T. azollae_ of all known _Azolla_ strains, we wonder how similar these genomes are in gene content, and if they can be considered separate species or if they are the same.
 All available _T. azollae_ genomes and the reference from @Ran2010 were processed in an Anvi'o pangenomics workflow [GitHub page].
 This workflow finds ORFs, tries to functionally annotate these via either NCBI COGs or KEGG KOFAMS, and then maps all ORFs to all ORFs with blastp to then cluster these genes in gene clusters that systematically co-occur in the various genomes.
@@ -326,7 +356,15 @@ while the megasporocarps keep these.
   but nog the losing part.
 ```
 
-## Discussion
+# Discussion
+
+## Acquiring genomes
+
+protocol is not robust yet. Plant DNA extraction remains a challenge, even within a genus results may vary.
+But we do now have _T azollae_ genomes of alle species!
+
+
+## bal bla bla
 
 _Nostoc azollae_ main symbiont of _Azolla_
  * cap exchange experiments
@@ -385,7 +423,7 @@ skipped
 
 ![Assembly and subsetting of _A. filiculoides_ mitochodrium genome. (A) Flye assembly graph of nanopore reads suspected to be mitocondrial. The assembly graph visualisation was made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches colour coded by blast hits and connections between these contigs as grey transparent lines. Blast hits of the _Psilotum nudum_ and _Ophioglossum californicum_ mitocondrial genomes (orange and red), the _Azolla filiculoides_ chloroplast (green) and _Nostoc azollae_ (cyan blue) are indicated in the assembly graph. A mitocondrial subgraph (indicated in red square) was selected for futher processing. B Blast all-vs-all visualisation with circo's of the mitocondrial subgraph. Several contigs are fully represented in contig 11. (C) Mitocondrial draft assembly manually rid of redundancy. Blast all-vs-all visualisation with circos.](source/figures/fig4_mitochondrium_assembly_selection.pdf){#fig:fig4_mitochondrium_assembly_selection short-caption="Assembly of Azolla filiculoides mitochondrial genomes"}
 
-![Assembly summary of _T. azollae_ flye assemblies. Assembly graph visualisations were made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches as randomly coloured strips and connections between these contigs as grey transparent lines. Statistics (right) were also generated with Bandage.](source/figures/fig4_Nazollae_nanopore_assemblies.pdf){#fig:fig4_Nazollae_nanopore_assemblies short-caption="Assembly summary of flye assemblies"}
+
 
 ![Assembly summary of chloroplast flye assemblies. Assembly graph visualisations were made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches as randomly coloured strips and connections between these contigs as grey transparent lines. Statistics (right) were also generated with Bandage.](source/figures/fig4_chloroplast_nanopore_assemblies.pdf){#fig:fig4_chloroplast_nanopore_assemblies short-caption="Assembly summary of chloroplast flye assemblies"}
 
