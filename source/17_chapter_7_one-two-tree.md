@@ -649,6 +649,24 @@ The specific site of expression hints that Jasmonate signaling may be important 
 
 # Discussion
 
+This chapter and the corresponding workflow aim to provide novice users with a reproducible approach for infering phylogeny.
+The workflow uses open-source and state-the-art tools that require expert knowledge for usage.
+Usage of these tools is made feasible for novices by embeding the tools in structred coding notebook with pre-written code and instructions.
+This way, I attempt to provide novices with the best tools available to work on comparative genomics and evolutionary biology questions.
+This chapter outlines the step-by-step process, from data acquisition to tree visualization.
+It is a companion piece to the workflow itself, explaining the steps and providing required background.
+And finally, providing context and limitations of this workflow in a rapidly changing landscape of bioinformatics tools.
+
+## notes
+This chapter and the corresponding workflow aim to provide novice users with a reproducible approach for infering phylogeny.
+The workflow uses open-source and state-the-art tools that require expert knowledge for usage.
+Usage of these tools is made feasible for novices by embeding the tools in structred coding notebook with pre-written code and instructions.
+This way, I attempt to provide novices with the best tools available to work on comparative genomics and evolutionary biology questions.
+This chapter outlines the step-by-step process, from data acquisition to tree visualization.
+It is a companion piece to the workflow itself, explaining the steps and providing required background.
+And finally, providing context and limitations of this workflow in a rapidly changing landscape of bioinformatics tools.
+
+## notes
 
 orthofinder2
 
@@ -657,6 +675,27 @@ gene function inference in non-model organisms, crops
 model assumption testing: https://academic.oup.com/gbe/article/11/12/3341/5571717?login=true
 
 phylogenomics
+
+## Landscape of phylogeny workflows
+
+Many phylogentics tools exist, including tools and complete workflows that arguably are more user friendly than mine.
+I think of these tools on a spectrum from user involvement, to automation.
+Tools like MEGA X create single trees with some user refinement.
+On the other side of the spectrum a tool like Orthofinder 2 generates trees of all genes in a genome automatically.
+Additionally, databases of pre-computed trees are freely available.
+One can wonder what warrants yet another phylogenetics tool.
+
+It is tempting to think that if tools exist on a spectrum ranging from atrisanal to automation, that the man-hour-costing variants are simply too costly, and prone to human error.
+This might be true, but I would counter arguing the automated versions are unspecific and miss signal and nuance by using a one-for-all approach.
+Automated tools are required when the size of a project demands so, and occasional wrong results are merely a statistic.
+Visit a bioinformatics symposium or conference, and one will find examples of interesting biological exceptions and curiosities not picked up by broad general algorithms.
+Here I present a workflow clearly on the artisanal side of the spectrum.
+It requires careful selection, curation, iteration and interpretation.
+I attempt to be more thorough than MEGA X, as explained in the introduction section of this chapter.
+Yet, this workflow is not as thorough or as flexible as tools like ETE3 and GoToTree.
+These tools I consider more powerful and appropriate for experts. 
+My work sits in between, providing tools and current best practices to novice users in a structured workflow.
+
 
 \newpage
 \null
