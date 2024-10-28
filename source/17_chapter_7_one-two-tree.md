@@ -27,7 +27,11 @@ Henriette Schluepmann^1^
 
 \section*{Abstract}
 
-This is where the abstract goes
+This chapter presents a reproducible workflow for constructing phylogenetic trees using open-source tools within a JuPyter notebook environment.
+Aimed at novices, the workflow includes command-line-based steps for data acquisition, sequence alignment, multiple sequence alignment (MSA) trimming, tree inference, and visualization.
+By integrating best practices and state-of-the-art software, the workflow addresses challenges in phylogenetic analysis, such as managing large datasets whilst ensuring reproducibility.
+Three case studies from the Azolla lab demonstrate its application, highlighting phylogenetic inference to address evolutionary and functional questions in non-model plant species.
+This workflow offers an accessible yet rigorous approach to phylogenetic research, promoting transparency and reproducibility in comparative genomics.
 
 \newpage
 
