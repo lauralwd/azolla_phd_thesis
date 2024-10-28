@@ -1,4 +1,4 @@
-\pagestyle{chapter}
+ \pagestyle{chapter}
 \singlespacing
 \setlength{\parindent}{0.0in}
 \addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
@@ -51,29 +51,31 @@ Run orthofinder anew on 1kP data...
 -->
 
 # Introduction
+
 Life Science has entered the big-data age; we have an unprecedented detailed view on the storage and processing of information within biological systems.
 This view is possible due to the ever decreasing prices of sequencing of DNA, RNA and protein.
 Consequently, biologist are challenged less with acquiring data and more with its organising, processing and interpreting.
 Phylogenetics is one answer to that challenge.
-Phylogenetics organises sequences by their hypothesised evolution: in phylogenetic trees.
-Afterall, how does anything in biology make sense except in the light of evolution.
+Phylogenetics organises sequences by their inferred evolution: in phylogenetic trees.
+After all, how does anything in biology make sense except in the light of evolution.
 
 This chapter accompanies a practical workflow to infer phylogenetic trees.
 It is an interactive document on GitHub which I made and used during my PhD and may be used and improved by others as well.
-This work does not try to sumarise the background needed to propperly read trees and collect data as @VanHooff2019, nor does it summarise recent technological advantages in the field as @Kapli2020.
+This work does not try to summarise the background needed to properly read trees and collect data as @VanHooff2019 does, nor does it summarise recent technological advantages in the field as @Kapli2020.
 Hence, consider these two works as essential reading before bringing this workflow into practice.
-I do include a basic introduction of phylogeny: the bare minimum to understand the design choices made and use cases examplified.
+I do include a basic introduction of phylogeny: the bare minimum to understand the design choices made and use cases exemplified.
 
-With my phylogeny workflow, I aim to provide a practical guide aiding novice users in making phylogenies.
+With my phylogeny workflow, I aim to provide a practical guide aiding novice users in making phylogenies with state-of-the-art tools.
 In this document I summarise the workflow, the choices I made in designing it, and examples of its implementation.
-The workflow itself, may be considered similar to @Hall2013, who presents a step by step guide for infering phylogeny in MEGA5.
-This work differentiates itself by using commandline tools only, emphasising documentation of intermediate files, and using only open source algorithms.
-By using the Command Line tools (CML), I aim to circumvent limitations of other existing all-in-one or web based solutions.
+The workflow itself, may be considered similar to @Hall2013, who presents a step by step guide for inferring phylogeny in MEGA5.
+This work differentiates itself by using command line (CML) tools only, emphasising documentation of intermediate files, and using only open source algorithms.
+By using CML tools , I aim to circumvent limitations of other existing all-in-one or web based solutions.
 This presents a steeper learning curve for a novice user, but increased freedom to implement any other tool of choice and to log and share analyses with peers via Git or other means.
 The workflow is openly available online and I have documented my use of it on GitHub and Zenodo, as summarised  here in the 'Use cases' section.
-Via this route I aim to inspire other reseachers to also make their analyses more reproducible and share their code towards more reproducible research.
+Via this route I aim to inspire other researchers to also make their analyses more reproducible and share their code towards more reproducible research.
 
 ## Key concepts in Phylogeny
+
 In principle, two types of phylogenetic trees exist: gene trees, and species trees.
 These will remain hypothetical for one can not observe how proteins or species have evolved in the past.
 Gene trees depict the hypothetical pattern in which several sequences are related to each other.
@@ -85,7 +87,7 @@ However, in practice, researchers often make gene trees instead.
 Gene trees may seem inconsistent with with species trees due to gene duplications or losses.
 Occasionally, horizontal gene transfer might even occur.
 Gene trees can be reconciled into species trees to infer such events.
-The relation between gene an species trees as well as how to read them is excelently explained in @VanHooff2019.
+The relation between gene an species trees as well as how to read them is excellently explained in @VanHooff2019.
 
 `dummy figure species vs gene trees and orthology and paralogy, `
 
@@ -93,22 +95,23 @@ Gene trees allow us to answer basic but important questions in comparative genom
 When presented with many gene sequences that are similar (analogs), we should only work with sequences that share a common ancestor (homologs).
 We may use gene trees to see if these homologs are a result of a gene duplication (paralogs) or a speciation (orthologs).
 Orthology is a key concept for reading phylogenetic trees and in detail explained in @VanHooff2019.
-If two sequences were separated because of speciation, and we assume they are the only copies both species their genomes, then we may conclude that selection presure has occured on this particular gene.
+If two sequences were separated because of speciation, we then assume they are the only copies both species their genomes.
+Consequently, we conclude that selection pressure has occurred on this particular gene in both seperate genomes.
 Hence, when reading a phylogenetic gene tree, we often assume that orthologous genes are functionally similar.
-Orthology inference is an invaluable tool in transfering biological meaning from one biological sequence with a validated function, to another, with no such validation.
-It is inherently different from "mere" homology or even anology.
+Orthology inference is an invaluable tool in transferring biological meaning from one biological sequence with a validated function, to another, with no such validation.
+It is inherently different from "mere" homology or even analogy.
 
 The _Azolla_ lab has particular interest in such a tool.
 We are not only involved in the genomics of a novel crop but more specifically of the very first genome of a fern ever sequenced.
 Until recently, no gene its function in Azolla was ever verified and we have no close relative to compare _Azolla_ sequences with.
 Hence, homology and comparative genomics are invaluable in assigning meaning to the genome sequences we acquired in @Li2018 and @Gungor_cornicinine.
 While often, gene function is attributed on mere homology, there are cases where several homologs are present in a genome.
-We used gene trees to attribute these homologs to any one orthologous group via gene trees.
+We used gene trees to attribute these homologs to any one orthologous group.
 One examples was included in this thesis before in chapter \ref{it_takes_two} in +@fig:fig6_8.
 A second example can be found in the supplemental material of the same publication and in figure +@fig:fig7_MIKC^C^_phylogeny.
 
 There are several ways to infer trees from sequences, here I categorise them in three groups.
-These methods and other key concepts in modern day phylogenetics are excelently reviewed in @Kapli2020.
+These methods and other key concepts in modern day phylogenetics are excellently reviewed in @Kapli2020.
 Almost all methods involve aligning sequences ---often amino acid sequences--- to each other.
 All methods then use synapomorphies ---shared differences--- to group sequences together.
 The first group of methods is the simplest: Neighbour Joining (NJ).
@@ -119,24 +122,26 @@ Consequently, NJ is rarely used and not considered a state-of-the-art method in 
 The second group of methods concerns Maximum Likelihood tree inference (ML).
 These methods do not infer distance matrices, but infer trees directly from the sequence alignment.
 Then it calculates the likelihood of this tree (a hypothesis) given the alignment (the data).
-This likelihood is calculated given a certian model of evolution [@Sullivan2005; @Felsenstein2004].
-Next, the methods searches through a virtual space of posible trees (treespace), and returns the tree with the best likelihood.
-A third group builds forth on the advances of ML tree inference but within a Baysian framework of statistics.
-I consider Baysian approaches too advanced for the audience that this workflow is aimed at, hence I won't discuss them or include them in the workflow.
+This likelihood is calculated given a certain model of evolution [@Sullivan2005; @Felsenstein2004].
+Next, ML methods search through a virtual space of possible trees (tree space), and returns the tree with the best likelihood.
+A third group builds forth on the advances of ML tree inference but within a Bayesian framework of statistics.
+I consider Bayesian approaches too advanced for the audience that this workflow is aimed at, hence I won't discuss them or include them in the workflow.
 In the workflow presented here, I use ML tree inference with IQTree [@Nguyen2015].
 One of the main advantages of IQtree is that it includes software to find an appropriate model of evolution given an input alignment [@Kalyaanamoorthy2017].
 
 ## Availability
+
 This remainder of this chapter summarises relevant data and software, my design considerations in making this workflow, and finally three use cases of the _Azolla_ lab.
 This workflow includes gathering data from the 1kP project [@Leebens-Mack2019], alignment of protein sequences, trimming of this alignment and tree inference via frequentist methods.
 Additionally, several examples of the workflow in practice are included to demonstrate its application in tackling biological questions of the _Azolla_ lab.
 This workflow is openly available and usable under a Creative Commons License at [GitHub.com/lauralwd/lauras_phylogeny_wf](https://github.com/lauralwd/lauras_phylogeny_wf)
 
 # Methods
-The state-of-the-art tools required for phylogenetics are often desgined for Linux systems.
+
+The state-of-the-art tools required for phylogenetics are often designed for Linux systems.
 Using BASH scripts ---BASH being the Linux-native programming language--- can be a steep learning curve for novice users.
-Therefor I use JuPyter notebooks [@Ragan-Kelley2014] to supply the user of the workflow with written instructions and pre-written BASH code.
-A JuPyter notebook is an interacive document in which the user can run said code, as well as journal their decissions and observations
+Therefore I use JuPyter notebooks [@Ragan-Kelley2014] to supply the user of the workflow with written instructions and pre-written BASH code.
+A JuPyter notebook is an interactive document in which the user can run said code, as well as journal their decisions and observations
 
 Software installation on Linux can be challenging, especially if certain versions of software may be incompatible.
 Therefore I make use of the conda or miniconda frameworks ([conda.io](www.conda.io)) to supply any user with a ready made software environment that has all the required tools available.
@@ -147,7 +152,7 @@ The recommended route is to install git and miniconda3 following the miniconda3 
 For Linux and MacOS systems, this runs natively.
 For Windows systems, we have had good experience using the Windows Sublayer for Linux (WSL).
 In our experience, these three systems all run miniconda3 without any issue.
-When git and miniconda3 are installed on your system, the required software may be installed via the following BASH commands:
+When Git and miniconda3 are installed on your system, the required software may be installed via the following BASH commands:
 ```
 git clone https://github.com/lauralwd/lauras_phylogeny_wf.git
 cd lauras_phylogeny_wf
@@ -160,8 +165,8 @@ The virtual environment that contains the installed software can then be activat
 conda activate phylogenetics
 ```
 
-A small snippit of the `conda_environment.yaml` file is included below.
-It details the relevant software and exact version and build so any future researcher may reproduce results exacly.
+A small snippet of the `conda_environment.yaml` file is included below.
+It details the relevant software and exact version and build so any future researcher may reproduce results exactly.
 
 ```
 name: phylogenetics
@@ -178,7 +183,7 @@ dependencies:
   - python=3.9.4=hffdb5ce_0_cpython
 ```
 
-Finally, a user may make use of Git versioning software to document progress of their workflow, and possibly maintain multiple versions thereoff.
+Finally, a user may make use of Git versioning software to document progress of their workflow, and possibly maintain multiple versions thereof.
 Git can store and tracks changes in the JuPyter notebooks, some ---but not all--- data files, and the conda environment specification.
 Whenever any file is changed; i.e. an analysis step is done, this change can be appended to the Git history (+@fig:fig7_git_zenodo A).
 When done well, this 'commit' to the Git history contains a very short written explanation of the added history.
@@ -188,13 +193,14 @@ This might be a short line like `added raw data from 1kP project`, or `trimmed a
 
 A Git repository containing the workflow may be uploaded online to services like GitHub or GitLab or a self-hosted Git server.
 This does not only provide instant back-ups of the workflow but also facilitates collaboration on the project with state-of-the-art versioning software.
-Indeed, using Git for this purpose could be considered relativelly advanced and one may argue that users of this level may not need the guidance that this workflow is designed to provide.
+Indeed, using Git for this purpose could be considered relatively advanced and one may argue that users of this level may not need the guidance that this workflow is designed to provide.
 Even without collaboration, the back-up functionality is valuable.
 Uploading to a closed GitHub repository keeps the unpublished work private but backed up online.
 At time of publication, a GitHub repository can be made public and linked to Zenodo.
 Zenodo then archives the work and provides a citable DOI reference. (+@fig:fig7_git_zenodo B)
 
 ## Data
+
 Phylogenetics is in the first place a comparative exercise, hence to gain insight in the evolution of any protein sequence, one must compare it to related sequences with a shared origin.
 As plant biologists studying ferns, we are challenged by a lack of seed-free plant genomes available to us.
 Luckily, the recent 1kP project [@Leebens-Mack2019] provides solution by collecting the genomes and assembled transcriptomes of 1000 plant species.
@@ -238,10 +244,10 @@ Genome assembly based data can reasonably be assumed to be complete.
 In phylogenetics, this is relevant for all paralogs that a species may contain will be present in the dataset.
 For transcriptome assembled data, this assumption does not hold.
 Paralogs may not be simultaneously expressed and therefore absent from the dataset.
-Alternativelly, paralogs may be assembled as a single sequence.
-Absence of paralogs in the dataset and the phylogeny infered thereoff is relevant for it may cause wrong inference of speciation and duplication nodes.
-Consequently, orthlogy inference may be faulty as well.
-To somewhat mitigate this shortcomming, we chose to include a substantial amount of species in our phylogenies.
+Alternatively, paralogs may be assembled as a single sequence.
+Absence of paralogs in the dataset and the phylogeny inferred thereof is relevant for it may cause wrong inference of speciation and duplication nodes.
+Consequently, orthology inference may be faulty as well.
+To somewhat mitigate this shortcoming, we chose to include a substantial amount of species in our phylogenies.
 I argue that if one species does not express both paralogs simultaneously, then maybe another will.
 To make our trees and the orthology and paralogy patterns easier interpretable, I colour code six main clades of the Viridiplantae in my trees.
 These are the Algae, Bryophytes, Lycophytes, Monilophytes, Gymnosperms and Angiosperms (+@tbl:tbl7_1kP_sample_counts; +@tbl:tbl7_clade_colours).
@@ -269,26 +275,28 @@ The original link ([jlmwiki.plantbio.uga.edu/onekp/v2/](http://jlmwiki.plantbio.
 The authors were made aware of this early 2022 but as of yet there is no alternative way to access this data.
 
 ## Alternative tools
-Existing tools that house a complete workflow from gathering sequences up to infering a ML tree are rare.
+
+Existing tools that house a complete workflow from gathering sequences up to inferring a ML tree are rare.
 The one tool that is best known for this purpose is MEGA X [@Kumar2016].
 MEGA X is often found in literature and has substantially contributed to making phylogenic tools available to the broad public.
 The software is especially attractive to novice users for it runs on Windows, has a graphical user interface, and includes all steps from beginning to end.
-I find it especially usefull for smaller phylogenies, no more than 50 sequences.
+I find it especially useful for smaller phylogenies, no more than 50 sequences.
 
-My main critisism on the MEGA software is that inferior NJ based methods are presented as equally good options to ML methods and the exact method in which MEGA X implements the ML methodology is unknown to the public.
-Recent literature shows that MEGA X users often employ the fast but inferior NJ method where reasonably an ML tree should be have been created.
+My main criticism on the MEGA software is that inferior NJ based methods are presented as equally good options to ML methods and the exact method in which MEGA X implements the ML methodology is unknown to the public.
+A search of recent literature shows that MEGA X users often employ the fast but inferior NJ method where reasonably an ML tree should be have been created.
 I did a short inquiry into citations of @Kumar2016 sorted by date in google scholar so google algorithms do not play into sampling bias.
 Out of the 50 most recent citations, 40 publications were publicly accessible and contained a phylogeny.
 Of these, 17 contained a ML tree, 22 a NJ tree, and one a maximum parsimony tree .
 None of these phylogenetic studies were of such a size that ML methods could not have been used.
-A secondary objection to the use of propriatary software, is the use of propriatary file formats where the field typically employs standardized file formats.
+A secondary objection to the use of proprietary software, is the use of proprietary file formats where the field typically employs standardized file formats.
 
 Using the state-of-the-art tools in the Linux CML is a steep learning curve, explaining and validating the niche of a tool like MEGA X.
-This workflow aims to improve on MEGA X shortcommings by providing all the state-of-the-art CML tools at a reduced learning curve.
+This workflow aims to improve on MEGA X shortcomings by providing all the state-of-the-art CML tools at a reduced learning curve.
 Doing so in a JuPy notebook makes it easy to document and journal while doing the analysis.
 Finally, it eases to transition to bigger datasets that GUI desktop software often is not tailored to.
 
 # Workflow
+
 The workflow consists of 6 Major steps.
 The software choices are tailored to strike a balance between relavitvelly big datasets and userfriendlyness.
 These steps are:
@@ -319,11 +327,13 @@ These steps are:
   \end{enumerate}
 
 
-`Should this be a figure`
+`Should this be a figure` 
+<!-- Yes it should be a figure -->
 
 For each of these step, I will highlight some design choices and indicate if these can be done online as well as in the workflow.
 
 ## Acquiring data
+
 The workflow examplifies two specific datasources.
 In the use by the _Azolla_ lab, we have employed the 1kP dataset intensivelly, however we also examplify blast searches as an input.
 For phylogenies spanning all land plants ---the Viridiplantae--- we exclusively use amino acid sequences.
@@ -341,8 +351,9 @@ Finally, we also add sequences of inquiry, those that we'd like to place in cont
 Acquiring data from NCBI blastP can be done online completely, subsetting orthorgroups of the 1kP has no online alternatives.
 
 ## Aligning the dataset
+
 Now that we have a collection of homologous sequences, the next step is to align these to each other.
-Two of the famous tools to this end are ClustalOMAGA (previously known as clustalW) and MUSCLE [@Sievers2014; @Edgar2004].
+Two of the famous tools to this end are ClustalOMEGA (previously known as clustalW) and MUSCLE [@Sievers2014; @Edgar2004].
 Both tools however, are single-threaded; meaning they can use only one CPU cores where modern computers often have several.
 They are outperformed in most cases by more modern tools, espicially for big or gappy datasets [@Pais2014].
 The transcriptome data of the 1kP occasionally contains mis-assemblies that cause such big gaps in an MSA.
@@ -368,7 +379,7 @@ The various fast or slow configurations produce overall quite similar results at
 Espicially the most conserved regions are near identical for each algorithm
 (+@fig:fig7_align_examples A, B, C).
 The regions with barely any sequence content will be filtered out in a later step, this is typically quite a proportion of an alignment with many sequences (+@fig:fig7_align_examples D).
-Hence,  I'm searching by eye those columns with substantial sequence content that are not extremely conserved and see how they align.
+Hence, I'm searching by eye those columns with substantial sequence content that are not extremely conserved and see how they align.
 Ideally, by optimisting this step, some extra phylogenetic signal might be gained from these medium-conserved regions.
 At worst, one might erroneously align regions that are not homologous but analogous to each other.
 
@@ -412,6 +423,7 @@ Actually, just do this in the jalview format and view menu's that makes life a l
 ![Multiple Sequence Alignments by MAFFT. A dataset of MIKC^C^ sequences from the 1kP project was subsetted and then alinged with mafft auto (A) linsi (B) and einsi (C). Panels A, B and C depict sections of the original MSA, panel D depicts the full einsi alingment. MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graps underneath each MSA depict Conservation, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_examples.pdf){#fig:fig7_align_examples short-caption="MSA algorithms compared.}
 
 ## Trimming
+
 Big MSAs, especially those based on transcriptome data, are not optimal for phylogeny inference.
 Phylogeny inference is driven by synapomorphies, shared diferences between a majority of sequences.
 The inference is hampered whenever a major fraction of sequences contains no content at all (gaps), or when a conserved region is missing from a particular sequence.
@@ -449,6 +461,7 @@ To our knowledge there are no online tools that achieve a similar finesse of fil
 When restricted to online tools, the column occupancy filter in the online version of MAFFT is an obvious and convenient choice.
 
 ## Fast phylogeny inference
+
 Full phylogeny inference and non-parametric bootstrapping can take a considerable amount of time.
 Therefore, it is wise to explore the likely outcome tree with a fast tree inference program that does not perform bootstrapping.
 This allows for a preliminary view into the final result and observe potential mistakes, remove or add sequences of interest.
@@ -462,6 +475,7 @@ However, a regular tree inference without bootstrapping would be a reasonably fa
 Regular tree inference is described in the next section.
 
 ## Full phylogeny inference
+
 For phylogeny inference, we supply a ML option only for we see very few good arguments to resort to NJ or MP methods instead.
 In this workflow we use IQTree for modelfitting, phylogenetic tree inference, and calculating bootstrap support [@Nguyen2015; @Kalyaanamoorthy2017].
 These are three distinct steps, especially the first often is not included in phylogeny software.
@@ -474,7 +488,7 @@ A major propperty of interpreting phylogenies, is support values.
 These support values, often called boostrap values, can be determined in several ways.
 Next we'll discuss three support estimation methods.
 Firstly, the slow and simple but time-tested method of Felsensteins bootstrap, or 'regular bootstraps'.
-Second, we'll discuss an uqualy slow alternative that is more suited to bigger trees: transfer bootstrap [@Lemoine2018].
+Second, we'll discuss an equaly slow alternative that is more suited to bigger trees: transfer bootstrap [@Lemoine2018].
 These fist two methods are slow, but behave reasonably linear and are easily interpretable.
 They are often indicated as non-parametric methods.
 Thirdly, we'll discuss faster parametric options such as IQTree's UltraFastBootstrap.
@@ -557,6 +571,7 @@ Optionally, more data can be added onto the tree, such as the MSA, RNA-seq data,
 We discuss these options further in the Usecases section.
 
 # Usecases
+
 In this section, I discuss several use cases of this phylogeny workflow in the _Azolla_ lab.
 Firstly, that of several leucoanthocyanidin reductase (LAR) homologs found in _Azolla_.
 This project was actually the inspiration for creating this workflow.
@@ -568,6 +583,7 @@ The 2-OGD family is one of the biggest enzyme families in land plants.
 We wanted to study how ferns have developed differently from land plants, and infer the functionality of a specific fern 2-OGD gene that was differentially expressed in an RNA-seq experiment.
 
 ## LAR
+
 The LAR enzyme is member of the PIP family of enzymes.
 In context of _Azolla_ biology, it is an interesting enzyme for it is a key enzyme in the production of both anthocyanodins, as well as epicatechin; a notorious digestion inhibiting polyphenol.
 The _Azolla_ genome contains several LAR like enzymes (homologs) that may all play a role in anthocyan metabolism.
@@ -609,8 +625,6 @@ More genome based data of seed-free plants and functional characterisation of tr
 
 ![Azolla MIKC^C^ phylogenetic analysis and response to FR. The Azolla MIKCC gene model encoded by Azfi_s0028.g024032 was annotated manually. Sequences extracted from the genome browsers of each species were aligned with MAFFT E-INS-i [@Katoh2013], then trimmed with trimAl [@Capella-Gutierrez2009]. First a draft phylogeny was computed with IQTREE [@Nguyen2015], then this draft phylogeny served as a guide for alignment optimization with PRANK [@Loytynoja2014] of the untrimmed original MAFFT E-INS-i alignment. This optimized alignment was then trimmed again with trimAl and used for inference of the final phylogeny with IQTREE. Bootstrap values are transfer bootstraps calculated with 1000 nonparametric bootstrap trees [@Lemoine2018]. Transfer bootstrap assays similarity of nodes rather than binary identical or nonidentical nodes in bootstrap trees: it therefore tends to be more informative for bigger trees. All code is deposited on github.com/lauralwd/MIKC_tree. The tree was rooted on a group of algal sequences. Nodes with bootstrap support equal or greater than 50% are indicated. Branches are color coded as per their plant lineage.](source/figures/fig7_MIKCc_phylogeny.pdf){#fig:fig7_MIKCc_phylogeny short-caption="Azolla MIKCc phylogenetic analysis and response to FR"}
 
-
-
 ## 2-OGD
 In another inquiry into _Azolla_ secondary metabolism, we examined a 2-oxoglutarate dependent dioxygenase (2-OGD) enzymes evolution.
 This 2-OGD gene was significantly differentially expressed in an RNA-seq experiment [@Gungor_cornicinine].
@@ -633,7 +647,8 @@ The aminoacid residues in the active side that bind jasmonate are conserved in b
 Therefore we conclude these sequences are most likely _A. filiculoides_ JOX1 and JOX2.
 The specific site of expression hints that Jasmonate signaling may be important in _Azolla_ symbiosis communication.
 
-# discussion
+# Discussion
+
 
 orthofinder2
 
