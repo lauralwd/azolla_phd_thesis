@@ -142,6 +142,8 @@ Using BASH scripts ---BASH being the Linux-native programming language--- can be
 Therefore I use JuPyter notebooks [@Ragan-Kelley2014] to supply the user of the workflow with written instructions and pre-written BASH code.
 A JuPyter notebook is an interactive document in which the user can run said code, as well as journal their decisions and observations
 
+<!-- Consider shortening the explanation on conda and providing a visual reference (e.g., a brief command flow diagram for installing dependencies) to enhance readability. -->
+
 Software installation on Linux can be challenging, especially if certain versions of software may be incompatible.
 Therefore I make use of the conda or miniconda frameworks ([conda.io](www.conda.io)) to supply any user with a ready made software environment that has all the required tools available.
 This environment also contains the software required to run the JuPyter notebooks.
@@ -190,6 +192,12 @@ When done well, this 'commit' to the Git history contains a very short written e
 This might be a short line like `added raw data from 1kP project`, or `trimmed aligned fasta file and document parameter choice`.
 
 ![Online documentation of the phylogeny workflow on R2R3 MYB phylogeny in chapter \ref{it_takes_two} figure +@fig:fig6_8. The Git history shown on GitHub (A) details steps taken in finalising the phylogeny and the resulting figure. The finalised Git repository and all important files are archived on zenodo (B) with a DOI ([https://doi.org/10.5281/zenodo.3959056](https://doi.org/10.5281/zenodo.3959056)) ](source/figures/fig7_git_zenodo.pdf){#fig:fig7_git_zenodo short-caption="Online phylogeny workflow documentation"}
+
+<!-- 	3.	Git Workflow Discussion:
+	•	Splitting this into smaller sections might improve clarity:
+	•		1.	Explaining Git and GitHub functionality briefly.
+	•		2.	Detailing the benefits for version control and reproducibility in phylogenetics.
+-->
 
 A Git repository containing the workflow may be uploaded online to services like GitHub or GitLab or a self-hosted Git server.
 This does not only provide instant back-ups of the workflow but also facilitates collaboration on the project with state-of-the-art versioning software.
@@ -241,11 +249,11 @@ Table: Transcriptome sample counts per clade of the Viridiplantae. {#tbl:tbl7_1k
 Transcriptome assembled coding sequences do present a set of challenges that one must be aware of when doing phylogenetic work.
 The 1kP project [@Leebens-Mack2019] published assembled transcriptomes for over 1000 plant species (+@tbl:tbl7_1kP_sample_counts) and included 26 species with sequenced genomes in their dataset as well.
 Genome assembly based data can reasonably be assumed to be complete.
-In phylogenetics, this is relevant for all paralogs that a species may contain will be present in the dataset.
+In phylogenetics, this is relevant for all homologs that a species may contain will be present in the dataset.
 For transcriptome assembled data, this assumption does not hold.
-Paralogs may not be simultaneously expressed and therefore absent from the dataset.
-Alternatively, paralogs may be assembled as a single sequence.
-Absence of paralogs in the dataset and the phylogeny inferred thereof is relevant for it may cause wrong inference of speciation and duplication nodes.
+Homologs may not be simultaneously expressed and therefore absent from the dataset.
+Alternatively, homologs may be assembled as a single sequence.
+Absence of paralogs or orthologs in the dataset and the phylogeny inferred thereof is relevant for it may cause wrong inference of speciation and duplication nodes.
 Consequently, orthology inference may be faulty as well.
 To somewhat mitigate this shortcoming, we chose to include a substantial amount of species in our phylogenies.
 I argue that if one species does not express both paralogs simultaneously, then maybe another will.
@@ -423,16 +431,21 @@ Actually, just do this in the jalview format and view menu's that makes life a l
 
 ## Trimming
 
+Trimming optimizes MSA by removing noise from gapped regions and low-quality sequences.
 Big MSAs, especially those based on transcriptome data, are not optimal for phylogeny inference.
 Phylogeny inference is driven by synapomorphies, shared differences between a majority of sequences.
 The inference is hampered whenever a major fraction of sequences contains no content at all (gaps), or when a conserved region is missing from a particular sequence.
 Therefore, I trim the MSA to remove data that is not aligned well, and may disrupt the evolutionary signal we attempt to uncover.
+
+### Column based trimming
 
 The simplest and perhaps most effective trimming method is removing gaps by removing columns ---removing shared amino acid residues--- in the MSA that contain no content in the majority of sequences.
 Gap regions are easily identified in a visualised MSA as a blocky pattern (+@fig:fig7_align_examples)
 These regions often represent insertions or mis-assemblies in specific taxa.
 Regardless, gaps contain little to no phylogenetic informative information.
 Column filtering is easy and can be done visually in tools like jalview, or even directly when aligning in the online version of MAFFT [@Katoh2019].
+
+### Sequence based trimming
 
 A second filter concerns that of rows, of sequences in the MSA, that align poorly to the bulk of sequences.
 When a sequence contains insertions fragments not shared by the majority of sequences these are easily filtered out in the column filter.
@@ -445,6 +458,8 @@ This is another reason I often make relatively large trees in the _Azolla_ lab w
 By including more species I hope to add a certain robustness to this risk.
 
 ![Optimisation of MAFFT MSAs. The top two panels contain overviews of a MAFFT MSA of the MIKC^C^ orthogroup subset trimmed for column content (A) versus an MAFFT MSA of the same data that was realigned with prank and then trimmed for column content. In the bottom two panels two MSA overviews are displayed of a subset of 2OGD enzyme sequences from transcriptome data. One alignment was made with MAFFT and then trimmed for column content only (C) and the other was trimmed for both column and sequence content (D). MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in panels C & D. The four bar graphs underneath panels A & B depict Conservation, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_trimprank.pdf){#fig:fig7_align_trimprank short-caption="MSA improvement via trimming and indel-realignment"}
+
+### trimAL trims both columns and sequences
 
 The tool of choice to tackle both filters at once, is trimAL [@Capella-Gutierrez2009].
 TrimAL allows to set a gap threshold, as well as parameters to filter out sequences.
@@ -483,6 +498,8 @@ The basics include fitting a substitution matrix of amino acid exchange rates of
 Additionally, more advanced parameters are assessed such as heterogeneity of the speed in which MSA positions evolve over time amongst the entries in the MSA: Rate heterogeneity.
 For the audience of this workflow, we recommend to use IQtree's build in extended model fitter by using the option `-m MFP` --- short for Model Finder and Phylogeny.
 
+### Phylogeny support valuesw
+
 A major property of interpreting phylogenies, is support values.
 These support values, often called bootstrap values, can be determined in several ways.
 Next we'll discuss three support estimation methods.
@@ -492,6 +509,8 @@ These fist two methods are slow, but behave reasonably linear and are easily int
 They are often indicated as non-parametric methods.
 Thirdly, we'll discuss faster parametric options such as IQTree's UltraFastBootstrap.
 These methods behave non-linearly and are harder to interpret but find a use case in estimating support of very big trees or of preliminary small trees.
+
+### Felsenstein's bootstrap
 
 Support estimation by bootstrapping is an important step in assessing reliability of any phylogeny.
 After the main phylogeny is established, one can choose to bootstrap it for $b$ times, typically $b=100$.
@@ -511,6 +530,8 @@ Yet, when repeating the tree inferences with modified datasets, these nodes appe
 If a single sequence its placement is highly variable ---a rogue taxon--- it will have huge impact on the support values of deep nodes despite the placement of the majority of taxa being highly reliable.
 We observe that for big trees, FBS is often uninformative for deeper nodes.
 
+### Transfer Bootstrap
+
 TransferBootStraps (TBS) present an alternative support criterion that was designed to circumvent this exact issue found in bigger phylogenies [@Lemoine2018].
 When calculating TBS for any node, it takes a non-binary approach.
 A node's bootstrap isn't regarded as either good $i=1$ or false $i=0$ as in FBS.
@@ -526,6 +547,8 @@ TBS values of shallow nodes typically represent those of FBS, and TBS values of 
 In the _Azolla_ lab we found that TBS assigns more meaningful support values to deep nodes.
 The method is however not wide spread in the field, and its usage should be clearly stated for correct interpretation of phylogeny support values.
 
+### Parametric support methods
+
 Both FBS and TBS are slow methods for they require to redo a full phylogenetic inference $b$ times.
 Modern phylogeny inference tools often have faster parametric methods that calculate support.
 IQTree has such a method called UltraFastBootstrap (UFB) [@Hoang2018], which the authors recommend to pair with the Shimodaira-Hasegawa approximate Likelihood Ratio Test (SH-aLRT) [@Guindon2010].
@@ -537,6 +560,9 @@ Per the IQTree manual, a UFB support of 95% corresponds to a 95% probability tha
 One might be inclined to think a 90% UFB support is also quite believable.
 In our use however, we have observed 90% UFB nodes that became 20%FBS nodes once non-parametric bootstrapping was done.
 
+### Choosing a support method
+
+<!-- A concise comparison table for FBS and TBS, with pros, cons, and recommended use cases, could improve clarity and user decision-making. -->
 Support estimation in phylogeny comes in many shapes and forms with each their own pro's and cons.
 We recommend to use non-parametric methods such as FBS and TBS in final results for ease of interpretation and reliability.
 We resort to UFB and SH-aLRT for very big phylogenies only.
@@ -585,6 +611,9 @@ We wanted to study how ferns have developed differently from land plants, and in
 
 The LAR enzyme is member of the PIP family of enzymes.
 In context of _Azolla_ biology, it is an interesting enzyme for it is a key enzyme in the production of both anthocyanidins, as well as epicatechin; a notorious digestion inhibiting polyphenol.
+When pitching _Azolla_ as a future crop, digestion inhibition is an important trait for breeding efforts.
+In use-case, we identify and organise the LAR enzymes present in the _Azolla_ genome and infer their function for future experiments and possible breeding efforts.
+
 The _Azolla_ genome contains several LAR like enzymes (homologs) that may all play a role in anthocyan metabolism.
 In this case-study, we use phylogeny to infer the relation of all _Azolla_ LAR homologs in the perspective of the entire PIP family of enzymes in land plants.
 Elucidating the function of these homologs is a typical example of an orthology research question.
@@ -613,7 +642,10 @@ Ostensibly, ferns have radiated their own set of unique PIP enzymes, as seed pla
 
 By definition, ferns and seed plants have different methods of sexual reproduction.
 In chapter \ref{it_takes_two} we take interest in finding the fern transcription factors behind the transition to sexual reproduction.
-We use RNAseq to find these transcription factors and then place these in a phylogeny with seed plant ABCDE genes responsible for flower organ identity.
+The rationale here, is that we can infer the evolution of sexual reproduction of plants from the evolution of transcription factors controlling the reproductive organs of those plants.
+
+We use RNAseq and homology searches to find transcription factors active in _A. filiculoides_ during sexual reproduction.
+Then, we place these in a phylogeny with seed plant ABCDE genes responsible for flower organ identity.
 The exact methods are detailed in chapter \ref{it_takes_two}.
 I highlight it here for our use of prank INDEL realignment (as demonstrated in +@fig:fig7_align_trimprank A vs. B) for this was a major step in acquiring a well supported phylogeny (+@fig:fig7_MIKCc_phylogeny).
 
@@ -627,9 +659,11 @@ More genome based data of seed-free plants and functional characterisation of tr
 
 ## 2-OGD
 
-In another inquiry into _Azolla_ secondary metabolism, we examined a 2-oxoglutarate dependent dioxygenase (2-OGD) enzymes evolution.
-This 2-OGD gene was significantly differentially expressed in an RNA-seq experiment [@Gungor_cornicinine].
-Again an orthogroup of 2-OGD genes was obtained from the 1kP, subsetted and amended with sequences with their functions characterised.
+In an RNAseq experiment of a colleague, several genes were significantly differentially regulated.
+The functional annotation of these genes was doubtful.  Homology searches indicated it was a a 2-oxoglutarate dependent dioxygenase (2-OGD) enzyme [@Gungor_cornicinine]; the biggest enzyme family in plants.
+A phylogeny workflow was started to place the _Azolla_ genes of interest and homologs in context of all 2-OGD evolution.
+
+An orthogroup of 2-OGD genes was obtained from the 1kP, subsetted and amended with sequences with their functions characterised.
 The differentially expressed gene and other 2-OGD genes from _A. filiculoides_ genomes version 1 and version 2 were added as well.
 Sequences were aligned with MAFFT L-INS-i, and trimmed with trimAL for columns and sequence content (+@fig:fig7_align_trimprank C & D).
 A first IQTree phylogeny with UFBootstrap was used to find the main clades in which the sequence of interest was placed (data not shown).
@@ -699,6 +733,8 @@ I hope this helps novices to advance quickly while giving experts space to explo
 
 ## Application to Biological Research Questions
 
+<!-- talk about 1kP here for non model organisms -->
+
 In this chapter I demonstrate the workflow on three biological questions from the _Azolla_-lab.
 We were confronted with the need to generate our own trees due to working with a non-model organism whose genome is not available in the big databases.
 Cloning and verification of genes from a fern is costly and very labour intensive.
@@ -706,6 +742,8 @@ Phylogenetic inquire guided selection of cloning candidates, by inferring a more
 Still, a manual phylogeny workflow is more time consuming than an automated one, or by even assuming function from a simple blast search.
 But the high level of certainty warrants the time invested in a manual workflow, when one considers how much experimental time may be lost when cloning and verifying the wrong gene in the wet lab.
 A workflow like this may be of use for labs who are not experienced in comparative genomics, but who can use similar insights when working with species with limited genomic resources available.
+
+<!-- Functional verifycation is so important. Phylogenies remain hypothetical -->
 
 ## Future Directions and Potential Improvements
 
@@ -727,7 +765,7 @@ The workflow's future development should continue to prioritize reproducibility,
 
 # Supplemental
 
-![Phylogeny of 2-OGD genes across land plant lineages. 2-OGD protein sequences were obtained from the 1kp orthogroup database (Ka-Shu Wong et al., 2019), sub-sampled and supplemented with guide- and A. filiculoides 2-OGD sequences. The former were used for clade annotation, the latter are indicated in green for A. filiculoides genome version 1 (Azfi; Li et al., 2018) and version 2 (Afi v2). Sequences were aligned with MAFFT-einsi (Katoh et al., 2019), and then trimmed using trimAL (Capella-Gutiérrez et al., 2009). The phylogeny was computed with IQtree (Nguyen et al.,2015) with 200 bootstraps. Bootstrap support shown here are transfer bootstraps (Lemoine et al, 2018). The tree was annotated in iTOL (Letunic and Bork, 2019) and Inkscape. All code and data can be found on www.github.com/LauraLWD/2OGD_phylogeny](source/figures/fig7_2OGD_phylogeny.svg){#fig:fig7_2OGD_phylogeny short-caption="Phylogeny of 2-OGD genes across land plant lineages."}
+![Phylogeny of 2-OGD genes across land plant lineages. 2-OGD protein sequences were obtained from the 1kp orthogroup database (Ka-Shu Wong et al., 2019), sub-sampled and supplemented with guide- and A. filiculoides 2-OGD sequences. The former were used for clade annotation, the latter are indicated in green for A. filiculoides genome version 1 (Azfi; Li et al., 2018) and version 2 (Afi v2). Sequences were aligned with MAFFT-einsi (Katoh et al., 2019), and then trimmed using trimAL (Capella-Gutiérrez et al., 2009). The phylogeny was computed with IQtree (Nguyen et al.,2015) with 200 bootstraps. Bootstrap support shown here are transfer bootstraps (Lemoine et al, 2018). The tree was annotated in iTOL (Letunic and Bork, 2019) and Inkscape. All code and data can be found on www.github.com/LauraLWD/2OGD_phylogeny](source/figures/fig7_2OGD_phylogeny.pdf){#fig:fig7_2OGD_phylogeny short-caption="Phylogeny of 2-OGD genes across land plant lineages."}
 
 \nolinenumbers
 
