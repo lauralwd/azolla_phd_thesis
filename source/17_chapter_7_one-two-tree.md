@@ -727,7 +727,7 @@ The workflow's future development should continue to prioritize reproducibility,
 
 # Supplemental
 
-![source/figures/fig7_2OGD_phylogeny.pdf](source/figures/fig7_2OGD_phylogeny.pdf){#fig:fig7_2OGD_phylogeny short-caption="missing fig"}
+![Phylogeny of 2-OGD genes across land plant lineages. 2-OGD protein sequences were obtained from the 1kp orthogroup database (Ka-Shu Wong et al., 2019), sub-sampled and supplemented with guide- and A. filiculoides 2-OGD sequences. The former were used for clade annotation, the latter are indicated in green for A. filiculoides genome version 1 (Azfi; Li et al., 2018) and version 2 (Afi v2). Sequences were aligned with MAFFT-einsi (Katoh et al., 2019), and then trimmed using trimAL (Capella-Gutiérrez et al., 2009). The phylogeny was computed with IQtree (Nguyen et al.,2015) with 200 bootstraps. Bootstrap support shown here are transfer bootstraps (Lemoine et al, 2018). The tree was annotated in iTOL (Letunic and Bork, 2019) and Inkscape. All code and data can be found on www.github.com/LauraLWD/2OGD_phylogeny](source/figures/fig7_2OGD_phylogeny.svg){#fig:fig7_2OGD_phylogeny short-caption="Phylogeny of 2-OGD genes across land plant lineages."}
 
 \nolinenumbers
 
