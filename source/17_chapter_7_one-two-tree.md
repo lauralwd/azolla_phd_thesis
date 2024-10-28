@@ -38,8 +38,6 @@ This workflow offers an accessible yet rigorous approach to phylogenetic researc
 <!--
 General todo stuff:
 - go over all comments.
-- Are all paper references ok
-- are all figure references ok
 - nice code highlighting for bash, yaml, etc blocks?
 - Am I happy with the discussion
 - Spellcheck
@@ -159,7 +157,7 @@ For Windows systems, we have had good experience using the Windows Sublayer for 
 In our experience, these three systems all run miniconda3 without any issue.
 When Git and miniconda3 are installed on your system, the required software may be installed via the following BASH commands:
 
-```{bash}
+```shell
 git clone https://github.com/lauralwd/lauras_phylogeny_wf.git
 cd lauras_phylogeny_wf
 conda env create -f conda_environment.yaml
@@ -167,14 +165,14 @@ conda env create -f conda_environment.yaml
 
 The virtual environment that contains the installed software can then be activated via
 
-```{bash}
+```shell
 conda activate phylogenetics
 ```
 
 A small snippet of the `conda_environment.yaml` file is included below.
 It details the relevant software and exact version and build so any future researcher may reproduce results exactly.
 
-```{yaml}
+```yaml
 name: phylogenetics
 channels:
   - conda-forge
@@ -747,14 +745,14 @@ Still, a manual phylogeny workflow is more time consuming than an automated one,
 But the high level of certainty warrants the time invested in a manual workflow, when one considers how much experimental time may be lost when cloning and verifying the wrong gene in the wet lab.
 A workflow like this may be of use for labs who are not experienced in comparative genomics, but who can use similar insights when working with species with limited genomic resources available.
 
-<!-- Functional verifycation is so important. Phylogenies remain hypothetical -->
+<!-- Functional verification is so important. Phylogenies remain hypothetical -->
 
 ## Future Directions and Potential Improvements
 
 Future development of this workflow should not focus on automation, or reducing user input, but on guiding the process better and making it conceptually easier.
 I want the workflow to be more professional and simple by moving advanced coding options to supplementary files, for occasional usage.
 By increasing simplicity, I hope modularity may be increased; to make it easier to use one's own favourite aligning tool or trimming tool rather than those I suggest.
-Finally, I hope to better guide the visualiusation section of the workflow. This now happens mostly outside of the notebook in a webtool: iToL.
+Finally, I hope to better guide the visualisation section of the workflow. This now happens mostly outside of the notebook in a web tool: iToL.
 However, some of iToL its functionality has been hidden behind paywalls since I first used it.
 Alternate visualisation tools should ideally stay on ones computer, without need for an internet connection, and be scriptable and reproducible.
 Finally, in teaching I have discovered how effective video tutorials can be to educate students.
