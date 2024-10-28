@@ -659,18 +659,6 @@ This chapter outlines the step-by-step process, from data acquisition to tree vi
 It is a companion piece to the workflow itself, explaining the steps and providing required background.
 And finally, providing context and limitations of this workflow in a rapidly changing landscape of bioinformatics tools.
 
-## notes
-
-orthofinder2
-
-gene function inference in non-model organisms, crops
-
-model assumption testing: <https://academic.oup.com/gbe/article/11/12/3341/5571717?login=true>
-
-phylogenomics
-
-cool: `SNPhylo`, trees on snips of whole genomes
-
 ## Landscape of phylogeny workflows
 
 Many phylogenetics tools exist, including tools and complete workflows that arguably are more user friendly than mine.
@@ -695,6 +683,41 @@ Yet, this workflow is not as thorough or as flexible as tools like ETE3 and GoTo
 These tools I consider more powerful and appropriate for experts.
 My work sits in between, providing tools and current best practices to novice users in a structured workflow.
 
+## Workflow Efficacy and Limitations
+
+This workflow is limited in that it tackles one use case, with one workflow with a certain start and end.
+Another limitation is the steep learning curve for beginners in command-line-based tools, which limits accessibility for non-experts.
+Advanced frameworks like ETE3 and GoToTree3 provide a much more flexible framework to achieve many more goals.
+Overall, despite some technical limitations, the workflow provides a practical balance of accuracy and computational efficiency.
+I attempt not to school a user to a fully equipped comparative genomics expert, but merely to guide the human-input process exploring the evolutionary context of ones favourite gene through phylogeny.
+
+The use of command-line tools may still present a barrier for some users, who might find graphical user interfaces more intuitive.
+Here, I chose not to compromise in using less than the state-of-the-art tools available, hence "condemning" my users to the command line.
+For expert users, the workflow’s modularity allows them to adjust parameters or swap out tools based on specific research needs, providing flexibility and control over the analysis.
+Using the command line interface in a notebook format also encourages documenting parameter choices and results.
+I hope this helps novices to advance quickly while giving experts space to explore alternative configurations.
+
+## Application to Biological Research Questions
+
+In this chapter I demonstrate the workflow on three biological questions from the _Azolla_-lab.
+We were confronted with the need to generate our own trees due to working with a non-model organism whose genome is not available in the big databases.
+Cloning and verification of genes from a fern is costly and very labour intensive.
+Phylogenetic inquire guided selection of cloning candidates, by inferring a more precise function of many similar genes (analogs) into functional groups (orthologs).
+Still, a manual phylogeny workflow is more time consuming than an automated one, or by even assuming function from a simple blast search.
+But the high level of certainty warrants the time invested in a manual workflow, when one considers how much experimental time may be lost when cloning and verifying the wrong gene in the wet lab.
+A workflow like this may be of use for labs who are not experienced in comparative genomics, but who can use similar insights when working with species with limited genomic resources available.
+
+## Future Directions and Potential Improvements
+
+Future development of this workflow should not focus on automation, or reducing user input, but on guiding the process better and making it conceptually easier.
+I want the workflow to be more professional and simple by moving advanced coding options to supplementary files, for occasional usage.
+By increasing simplicity, I hope modularity may be increased; to make it easier to use one's own favourite aligning tool or trimming tool rather than those I suggest.
+Finally, I hope to better guide the visualiusation section of the workflow. This now happens mostly outside of the notebook in a webtool: iToL.
+However, some of iToL its functionality has been hidden behind paywalls since I first used it.
+Alternate visualisation tools should ideally stay on ones computer, without need for an internet connection, and be scriptable and reproducible.
+Finally, in teaching I have discovered how effective video tutorials can be to educate students.
+Ideally, this workflow is also accompanied by a video workflow.
+The workflow's future development should continue to prioritize reproducibility, ease of use, and expandability, ensuring it meets evolving needs in phylogenetic research.
 
 \newpage
 \null
