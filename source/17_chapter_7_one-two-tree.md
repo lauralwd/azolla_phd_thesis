@@ -116,26 +116,27 @@ A second example can be found in the supplemental material of the same publicati
 There are several ways to infer trees from sequences, here I categorise them in three groups.
 These methods and other key concepts in modern day phylogenetics are excellently reviewed in @Kapli2020.
 Almost all methods involve aligning sequences ---often amino acid sequences--- to each other.
-All methods then use synapomorphies ---shared differences--- to group sequences together.
+These alignments of multiple sequences are called Multiple Sequence Alignments or MSAs.
+All methods then use synapomorphies in these MSAs ---shared differences--- to group sequences together.
 The first group of methods is the simplest: Neighbour Joining (NJ).
-NJ methods create a distance matrix from this alignment, and a tree from this distance matrix.
+NJ methods create a distance matrix from this MSA, and a tree from this distance matrix.
 NJ methods are akin to hierarchical clustering methods and incredibly efficient.
 The method is however not very robust for sequences that are more divergent from the majority of the data or when sequences are distantly related.
 Consequently, NJ is rarely used and not considered a state-of-the-art method in most use-cases.
 The second group of methods concerns Maximum Likelihood tree inference (ML).
-These methods do not infer distance matrices, but infer trees directly from the sequence alignment.
-Then it calculates the likelihood of this tree (a hypothesis) given the alignment (the data).
+These methods do not infer distance matrices, but infer trees directly from the MSA.
+Then it calculates the likelihood of this tree (a hypothesis) given the MSA (the data).
 This likelihood is calculated given a certain model of evolution [@Sullivan2005; @Felsenstein2004].
 Next, ML methods search through a virtual space of possible trees (tree space), and returns the tree with the best likelihood.
 A third group builds forth on the advances of ML tree inference but within a Bayesian framework of statistics.
 I consider Bayesian approaches too advanced for the audience that this workflow is aimed at, hence I won't discuss them or include them in the workflow.
 In the workflow presented here, I use ML tree inference with IQTree [@Nguyen2015].
-One of the main advantages of IQtree is that it includes software to find an appropriate model of evolution given an input alignment [@Kalyaanamoorthy2017].
+One of the main advantages of IQtree is that it includes software to find an appropriate model of evolution given an input MSA [@Kalyaanamoorthy2017].
 
 ## Availability
 
 This remainder of this chapter summarises relevant data and software, my design considerations in making this workflow, and finally three use cases of the _Azolla_ lab.
-This workflow includes gathering data from the 1kP project [@Leebens-Mack2019], alignment of protein sequences, trimming of this alignment and tree inference via frequentist methods.
+This workflow includes gathering data from the 1kP project [@Leebens-Mack2019], MSA of protein sequences, trimming of this MSA and tree inference via frequentist methods.
 Additionally, several examples of the workflow in practice are included to demonstrate its application in tackling biological questions of the _Azolla_ lab.
 This workflow is openly available and usable under a Creative Commons License at [GitHub.com/lauralwd/lauras_phylogeny_wf](https://github.com/lauralwd/lauras_phylogeny_wf)
 
@@ -324,7 +325,7 @@ These steps are:
       \begin{itemize}
       \item mafft
       \end{itemize}
-  \item Alignment trimming
+  \item MSA trimming
       \begin{itemize}
       \item trimAL
       \end{itemize}
@@ -377,9 +378,9 @@ MAFFT has multiple configurations with each their own use case.
 For big datasets, the algorithm defaults to fast progressive alignment methods.
 Automatic choice of algorithm is based on the count of sequences only, and not on biological information.
 Hence I recommend to specifically choose the slower iterative refining methods based on the nature of the gene.
-Naturally, it is good practice to try multiple methods and compare the alignments by eye to see how they perform.
+Naturally, it is good practice to try multiple methods and compare the MSAs by eye to see how they perform.
 The iterative methods require considerable more compute time compared to the fast methods.
-I consider this investment justified for the quality of alignment is determining for the quality of the phylogeny.
+I consider this investment justified for the quality of MSA is determining for the quality of the phylogeny.
 The MAFFT manual explains my 3 favourite presents that we have used successfully in the _Azolla_ lab.
 
 * E-INS-i: For sequences with multiple conserved domains and long gaps.
@@ -390,26 +391,26 @@ When comparing alignment configurations to each other visually, I aim to maximis
 The various fast or slow configurations produce overall quite similar results at first sight.
 Especially the most conserved regions are near identical for each algorithm
 (+@fig:fig7_align_examples A, B, C).
-The regions with barely any sequence content will be filtered out in a later step, this is typically quite a proportion of an alignment with many sequences (+@fig:fig7_align_examples D).
+The regions with barely any sequence content will be filtered out in a later step, this is typically quite a proportion of an MSA with many sequences (+@fig:fig7_align_examples D).
 Hence, I'm searching by eye those columns with substantial sequence content that are not extremely conserved and see how they align.
 Ideally, by optimising this step, some extra phylogenetic signal might be gained from these medium-conserved regions.
 At worst, one might erroneously align regions that are not homologous but analogous to each other.
 
-In the example alignments in +@fig:fig7_align_examples, the 'auto' alignment was discarded first due to lack of structure in gappy regions.
-The linsi and einsi alignments were assessed as near equal in quality; we preceded with the einsi version.
-Regardless, both alignments performed insufficiently in the gap regions.
-I estimate, by studying various versions of similar MIKC^C^ alignments, that some structure may be hidden in those regions and was not uncovered by the MAFFT alignment.
+In the example MSAs in +@fig:fig7_align_examples, the 'auto' MSA was discarded first due to lack of structure in gappy regions.
+The linsi and einsi MSAs were assessed as near equal in quality; we preceded with the einsi version.
+Regardless, both MSAs performed insufficiently in the gap regions.
+I estimate, by studying various versions of similar MIKC^C^ MSAs, that some structure may be hidden in those regions and was not uncovered by the MAFFT MSA.
 
-For alignments of reasonable size, no more than a couple of hundreds of sequences, these medium-conserved gappy INDEL regions may be re-aligned with a dedicated INDEL realigner such as prank [@Loytynoja2014].
+For MSAs of reasonable size, no more than a couple of hundreds of sequences, these medium-conserved gappy INDEL regions may be re-aligned with a dedicated INDEL realigner such as prank [@Loytynoja2014].
 When successful, INDEL realignment can bring structure into medium-conserved regions for correct phylogenetic inference.
 In my experience, this can help in reducing noise from such regions by separating non-homologous residues into separate sections.
 This clears up the phylogenetic signal between groups that don't share INDELs and may improve the signal within these groups.
-INDEL realignment does not work for alignments with several hundreds to thousands of sequences for the software cannot handle these numbers.
+INDEL realignment does not work for MSAs with several hundreds to thousands of sequences for the software cannot handle these numbers.
 
 In the _Azolla_ lab I used INDEL realignment for optimising a MIKC^C^ MSA (+@fig:fig7_align_trimprank A & B).
 A MAFFT MSA that was trimmed for a minimum of 10% sequence content per column shows clear structure in conserved domains (+@fig:fig7_align_trimprank A).
 However medium-conserved regions contain little structure and non-homologous residues may be aligned to each other.
-I realigned the MIKC^C^MSA with prank supported by an ML guide tree of a more strict trim of the same alignment.
+I realigned the MIKC^C^MSA with prank supported by an ML guide tree of a more strict trim of the same MSA.
 The resulting MSA was trimmed for 10% column content as well and shows clear structure in the medium-conserved regions previously not seen (+@fig:fig7_align_trimprank B).
 After realignment, the region between the main conserved domains contains multiple INDELS unique to specific groups of sequences(+@fig:fig7_align_trimprank B).
 Before realignment these regions seemed forced together and would have diluted the phylogenetic signal with false synapomorphies
@@ -421,7 +422,7 @@ It is however limited in its performance when using the three configurations men
 For big datasets, it pays off to run the alignment locally.
 
 <!---
-make jalview alignment svgs smaller by removing all text fields:
+make jalview MSA svgs smaller by removing all text fields:
 
 expanding the svg to a long format:
 xmlstarlet ed -d text jalview.svg > intermediate.svg
@@ -431,7 +432,7 @@ cat intermediate.svg | grep -v '<g transform' | grep -v 'sans-serif' | grep -v '
 Actually, just do this in the jalview format and view menu's that makes life a lot easier!
 --->
 
-![Multiple Sequence Alignments by MAFFT. A dataset of MIKC^C^ sequences from the 1kP project was subsetted and then aligned with mafft auto (A) linsi (B) and einsi (C). Panels A, B and C depict sections of the original MSA, panel D depicts the full einsi alignment. MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graphs underneath each MSA depict Conservation, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_examples.pdf){#fig:fig7_align_examples short-caption="MSA algorithms compared.}
+![Multiple Sequence Alignments by MAFFT. A dataset of MIKC^C^ sequences from the 1kP project was subsetted and then aligned with mafft auto (A) linsi (B) and einsi (C). Panels A, B and C depict sections of the original MSA, panel D depicts the full einsi MSA. MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in this figure. The four bar graphs underneath each MSA depict Conservation, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_examples.pdf){#fig:fig7_align_examples short-caption="MSA algorithms compared.}
 
 ## Trimming
 
@@ -461,7 +462,7 @@ When removing entire sequences from a dataset, one risks to also remove essentia
 This is another reason I often make relatively large trees in the _Azolla_ lab when we make use of the 1kP data.
 By including more species I hope to add a certain robustness to this risk.
 
-![Optimisation of MAFFT MSAs. The top two panels contain overviews of a MAFFT MSA of the MIKC^C^ orthogroup subset trimmed for column content (A) versus an MAFFT MSA of the same data that was realigned with prank and then trimmed for column content. In the bottom two panels two MSA overviews are displayed of a subset of 2OGD enzyme sequences from transcriptome data. One alignment was made with MAFFT and then trimmed for column content only (C) and the other was trimmed for both column and sequence content (D). MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in panels C & D. The four bar graphs underneath panels A & B depict Conservation, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_trimprank.pdf){#fig:fig7_align_trimprank short-caption="MSA improvement via trimming and indel-realignment"}
+![Optimisation of MAFFT MSAs. The top two panels contain overviews of a MAFFT MSA of the MIKC^C^ orthogroup subset trimmed for column content (A) versus an MAFFT MSA of the same data that was realigned with prank and then trimmed for column content. In the bottom two panels two MSA overviews are displayed of a subset of 2OGD enzyme sequences from transcriptome data. One MSA was made with MAFFT and then trimmed for column content only (C) and the other was trimmed for both column and sequence content (D). MSAs were visualised with jalview and coloured via the clustal colouring scheme. Only the colouring scheme is retained in panels C & D. The four bar graphs underneath panels A & B depict Conservation, Quality, Consensus and Occupancy from top to bottom.](source/figures/fig7_align_trimprank.pdf){#fig:fig7_align_trimprank short-caption="MSA improvement via trimming and indel-realignment"}
 
 ### trimAL trims both columns and sequences
 
@@ -473,7 +474,7 @@ Filtering sequences is less straight forward.
 This works by setting a threshold for determining conserved amino acid residues first.
 The second threshold determines how much of these conserved sites must be present in any sequence of the dataset.
 When done well, the major conserved regions are present in the vast majority of sequences and the horizontal banding is absent (+@fig:fig7_align_trimprank C vs. +@fig:fig7_align_trimprank D).
-In the section on 2 OGD phylogeny, we demonstrate a visual exploration to summarise the behaviour of these parameters for the alignments shown in panels C & D of +@fig:fig7_align_trimprank.
+In the section on 2 OGD phylogeny, we demonstrate a visual exploration to summarise the behaviour of these parameters for the MSAs shown in panels C & D of +@fig:fig7_align_trimprank.
 
 To our knowledge there are no online tools that achieve a similar finesse of filtering MSAs as trimAL does.
 When restricted to online tools, the column occupancy filter in the online version of MAFFT is an obvious and convenient choice.
@@ -497,8 +498,8 @@ Regular tree inference is described in the next section.
 For phylogeny inference, we supply a ML option only for we see very few good arguments to resort to NJ or MP methods instead.
 In this workflow we use IQTree for model fitting, phylogenetic tree inference, and calculating bootstrap support [@Nguyen2015; @Kalyaanamoorthy2017].
 These are three distinct steps, especially the first often is not included in phylogeny software.
-The details of fitting a model of evolution to an alignment are beyond the scope of this manuscript.
-The basics include fitting a substitution matrix of amino acid exchange rates of nucleotide exchange rates to those observed in an alignment [@Sullivan2005; @Felsenstein2004].
+The details of fitting a model of evolution to an MSA are beyond the scope of this manuscript.
+The basics include fitting a substitution matrix of amino acid exchange rates of nucleotide exchange rates to those observed in an MSA [@Sullivan2005; @Felsenstein2004].
 Additionally, more advanced parameters are assessed such as heterogeneity of the speed in which MSA positions evolve over time amongst the entries in the MSA: Rate heterogeneity.
 For the audience of this workflow, we recommend to use IQtree's build in extended model fitter by using the option `-m MFP` --- short for Model Finder and Phylogeny.
 
@@ -659,7 +660,7 @@ Many genes may be missing from the 1kP dataset due to it being transcriptome bas
 Genes involved in the transition to sexual reproduction are after all not ubiquitously expressed nor abundantly expressed when considering bulk tissue RNA extractions.
 More genome based data of seed-free plants and functional characterisation of transcription factors may allow us to better interpret a phylogeny like this one.
 
-![Azolla MIKC^C^ phylogenetic analysis and response to FR. The Azolla MIKCC gene model encoded by Azfi_s0028.g024032 was annotated manually. Sequences extracted from the genome browsers of each species were aligned with MAFFT E-INS-i [@Katoh2013], then trimmed with trimAl [@Capella-Gutierrez2009]. First a draft phylogeny was computed with IQTREE [@Nguyen2015], then this draft phylogeny served as a guide for alignment optimization with PRANK [@Loytynoja2014] of the untrimmed original MAFFT E-INS-i alignment. This optimized alignment was then trimmed again with trimAl and used for inference of the final phylogeny with IQTREE. Bootstrap values are transfer bootstraps calculated with 1000 non-parametric bootstrap trees [@Lemoine2018]. Transfer bootstrap assays similarity of nodes rather than binary identical or non-identical nodes in bootstrap trees: it therefore tends to be more informative for bigger trees. All code is deposited on github.com/lauralwd/MIKC_tree. The tree was rooted on a group of algal sequences. Nodes with bootstrap support equal or greater than 50% are indicated. Branches are color coded as per their plant lineage.](source/figures/fig7_MIKCc_phylogeny.pdf){#fig:fig7_MIKCc_phylogeny short-caption="Azolla MIKCc phylogenetic analysis and response to FR"}
+![Azolla MIKC^C^ phylogenetic analysis and response to FR. The Azolla MIKCC gene model encoded by Azfi_s0028.g024032 was annotated manually. Sequences extracted from the genome browsers of each species were aligned with MAFFT E-INS-i [@Katoh2013], then trimmed with trimAl [@Capella-Gutierrez2009]. First a draft phylogeny was computed with IQTREE [@Nguyen2015], then this draft phylogeny served as a guide for alignment optimization with PRANK [@Loytynoja2014] of the untrimmed original MAFFT E-INS-i MSA. This optimized MSA was then trimmed again with trimAl and used for inference of the final phylogeny with IQTREE. Bootstrap values are transfer bootstraps calculated with 1000 non-parametric bootstrap trees [@Lemoine2018]. Transfer bootstrap assays similarity of nodes rather than binary identical or non-identical nodes in bootstrap trees: it therefore tends to be more informative for bigger trees. All code is deposited on github.com/lauralwd/MIKC_tree. The tree was rooted on a group of algal sequences. Nodes with bootstrap support equal or greater than 50% are indicated. Branches are color coded as per their plant lineage.](source/figures/fig7_MIKCc_phylogeny.pdf){#fig:fig7_MIKCc_phylogeny short-caption="Azolla MIKCc phylogenetic analysis and response to FR"}
 
 ## 2-OGD
 
