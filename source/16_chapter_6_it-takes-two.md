@@ -235,20 +235,51 @@ Both ammonium and nitrate added individually inhibited sporocarp formation (data
 The ratio of mega- to microsporocarp was approximately equal over nine weeks of induction with FR (Supplementary Figure S1F).
 Additionally, the marker SOC1-like from _A. filiculoides_ [@Brouwer2014], was maximally induced when sporocarps became visible four weeks after FR induction started (Supplementary Figure S1G).
 
-| Megaspores: Massulae   | Galgenwaard | Krommerijn | Hoogwoud | Gran Canaria | Den Bosch | Nijmegen | Nieuwebrug | Groningen |
-| ---------------------- | ----------- | ---------- | -------- | ------------ | --------- | -------- | ---------- | --------- |
-| Galgenwaard            | \>1000      | 17         |          | 1            |           | 13       |            | 2         |
-| Krommerijn             | 1           |            |          |              | 16        |          | 2          |           |
-| Hoogwoud               |             |            | 20       |              |           |          |            | 2         |
-| Gran Canaria[^crosses] | 17          |            |          |              | \>40      | 1        |            |           |
-| Den Bosch              |             | 9          |          | 1            |           |          |            |           |
-| Nijmegen               |             | 12         |          | 33           |           |          | 2          |           |
-| Nieuwebrug             |             | 6          | 3        |              |           | 22       |            |           |
-| Groningen              |             |            | 1        |              |           |          | 5          |           |
+\begin{threeparttable}
+\begin{longtable}[]{@{}
+   >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.25}}
+   >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.15}}
+   >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.08}}
+   >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.08}}
+   >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.08}}
+   >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.08}}
+   >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.08}}
+   >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.08}}
+   >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.08}}@{}}
+  
+\caption{Sporeling counts obtained from random crosses of \emph{A. filiculoides} strains collected in the Netherlands and Spain (Gran Canaria).
+\label{tbl:tbl6_crosses}}\tabularnewline
 
-Table: Sporeling counts obtained from random crosses of _A. filiculoides_ strains collected in the Netherlands and Spain (Gran Canaria). {#tbl:tbl6_crosses}
+\toprule
+    Megaspores: Massulae        &
+    \rotatebox{45}{Galgenwaard} &
+    \rotatebox{45}{Krommerijn}  &
+    \rotatebox{45}{Hoogwoud}    &
+    \rotatebox{45}{Gran Canaria\tnote{a}} &
+    \rotatebox{45}{Den Bosch}   &
+    \rotatebox{45}{Nijmegen}    &
+    \rotatebox{45}{Nieuwebrug}  &
+    \rotatebox{45}{Groningen}   \\
+\midrule
+\endhead
 
-[^crosses]: crosses involving megaspores from the Gran Canaria strain reproducibly germinated late, generally after 5 weeks instead of 2-3 weeks.
+Galgenwaard            & $>1000$     & 17         &          & 1            &           & 13       &            & 2         \\
+Krommerijn             & 1           &            &          &              & 16        &          & 2          &           \\
+Hoogwoud               &             &            & 20       &              &           &          &            & 2         \\
+Gran Canaria\tnote{a}  & 17          &            &          &              & $>40$     & 1        &            &           \\
+Den Bosch              &             & 9          &          & 1            &           &          &            &           \\
+Nijmegen               &             & 12         &          & 33           &           &          & 2          &           \\
+Nieuwebrug             &             & 6          & 3        &              &           & 22       &            &           \\
+Groningen              &             &            & 1        &              &           &          & 5          &           \\
+
+\bottomrule
+\end{longtable}
+
+\begin{tablenotes}
+  \footnotesize
+  \item[a] crosses involving megaspores from the Gran Canaria strain reproducibly germinated late, generally after 5 weeks instead of 2-3 weeks.
+\end{tablenotes}
+\end{threeparttable}
 
 ## FR-induced sporocarps are viable which permits crossing for breeding
  We next wondered whether the sporocarps induced with FR were viable.
@@ -310,26 +341,53 @@ These changes in light harvesting-related transcripts were small, however, compa
 We conclude that a one-week induction of reproductive structures with FR may have caused few and small transcriptional changes reflecting light-harvesting adaptations in _N. azollae_.
 The larger differential accumulation of transporter transcripts may reflect more important changes in metabolite trafficking and communication with the host fern.
 
-| _A. filiculoides_ locus | baseMean | Log2Fold Change | DESeq2 padj | Mercator 4.0 annotation              | Closest _Arabidopsis_ Homolog               |
-| ----------------------- | -------- | --------------- | ----------- | ------------------------------------ | ------------------------------------------- |
-| Azfi\_s0028.g024032     | 9        | 7.22            | 0.001       | 15.5.14 MADS/AGL                     | AGL20/SOC1, MIKCC                           |
-| Azfi\_s0113.g045874     | 155      | 6.41            | 0.002       | 15.5.2 R2R3MYB                       | AtMYB 32 (AT4G34990.1), R2R3MYB VIII-E\*    |
-| Azfi\_s0083.g038807     | 59       | 5.75            | 0           | 15.5.32 Basic Helix-Loop-Helix       | EDA33, IND1, INDEHISCENT (AT4G00120.1)      |
-| Azfi\_s0003.g007560     | 8        | 5.27            | 0.011       | 15.5.32 Basic Helix-Loop-Helix       | FIT1 (regulates iron transport)             |
-| Azfi\_s0003.g007559     | 34       | 3.49            | 0           | 15.5.32 Basic Helix-Loop-Helix       | FIT1 (regulates iron transport)             |
-| Azfi\_s0096.g043715     | 31       | 3.13            | 0.001       | 15.5.7 DREB subfamily A-2 of ERF/AP2 | AT5G18450.1                                 |
-| Azfi\_s0003.g007710     | 1778     | 2.82            | 0           | 15.5.14 MADS/AGL                     | AGL6, MIKCC                                 |
-| Azfi\_s0015.g013719     | 111      | 2.57            | 0           | 15.5.2 G2-like, GARP                 | HHO2, NIGT1.2                               |
-| Azfi\_s0112.g045798     | 66       | 2.2             | 0           | 15.5.51.1 NF-Y component NF-YA       | AT5G12840.4                                 |
-| Azfi\_s0014.g013539     | 105      | 2.07            | 0.005       | 15.5.2 R2R3MYB                       | LOF2, R2R3MYB V [^R2R3]                     |
-| Azfi\_s0015.g014012     | 165      | 1.99            | 0.026       | 15.5.17 NAC domain                   | NAC025                                      |
-| Azfi\_s0004.g008455     | 103      | 1.93            | 0.003       | 15.5.2 R2R3MYB                       | miRNA319 controlled GAMYB 33, R2R3MYB VII [^R2R3] |
-| Azfi\_s0132.g049213     | 63       | \-2.35          | 0.004       | 15.5.32 Basic Helix-Loop-Helix       | No hits                                     |
-| Azfi\_s0182.g056462     | 10       | \-4.46          | 0.049       | 15.5.3 HD-ZIP I/II                   | HB16                                        |
+\begin{sidewaystable}
+\begin{threeparttable}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.3}}@{}}
 
-Table: Transcription factors with largest changes in transcript abundance in sporophytes in TL with versus without FR. TF with homology to TF related to flowering are bold type. {#tbl:tbl6_TFs}
+\caption{\label{tbl:tbl6_TFs}Transcription factors with largest changes
+in transcript abundance in sporophytes in TL with versus without FR. TF
+with homology to TF related to flowering are bold type.}\tabularnewline
 
-[^R2R3]: R2R3 MYB classification according to @Jiang2020a.
+\toprule
+    \emph{A. filiculoides} &
+    baseMean &
+    Log2 Fold Change &
+    DESeq2 p-adj &
+    Mercator 4.0 annotation &
+    Closest Arabidopsis homolog \\
+\midrule
+\endfirsthead
+\toprule
+
+Azfi\_s0028.g024032 & 9     & 7.22  & 0.001 & 15.5.14 MADS/AGL                  & AGL20/SOC1,MIKCC \\
+Azfi\_s0113.g045874 & 155   & 6.41  & 0.002 & 15.5.2 R2R3MYB                    & AtMYB 32 (AT4G34990.1), R2R3MYB VIII-E* \\
+Azfi\_s0083.g038807 & 59    & 5.75  & 0     & 15.5.32 Basic Helix-Loop-Helix    & EDA33, IND1, INDEHISCENT (AT4G00120.1) \\
+Azfi\_s0003.g007560 & 8     & 5.27  & 0.011 & 15.5.32 Basic Helix-Loop-Helix    & FIT1 (regulates iron transport) \\
+Azfi\_s0003.g007559 & 34    & 3.49  & 0     & 15.5.32 Basic Helix-Loop-Helix    & FIT1 (regulates iron transport) \\
+Azfi\_s0096.g043715 & 31    & 3.13  & 0.001 & 15.5.7 DREB subfamily A-2 of ERF/AP2 & AT5G18450.1 \\
+Azfi\_s0003.g007710 & 1778  & 2.82  & 0     & 15.5.14 MADS/AGL                  & AGL6, MIKCC \\
+Azfi\_s0015.g013719 & 111   & 2.57  & 0     & 15.5.2 G2-like, GARP              & HHO2, NIGT1.2 \\
+Azfi\_s0112.g045798 & 66    & 2.2   & 0     & 15.5.51.1 NF-Y component NF-YA    & AT5G12840.4 \\
+Azfi\_s0014.g013539 & 105   & 2.07  & 0.005 & 15.5.2 R2R3MYB                    & LOF2, R2R3MYB V \tnote{a} \\
+Azfi\_s0015.g014012 & 165   & 1.99  & 0.026 & 15.5.17 NAC domain                & NAC025 \\
+Azfi\_s0004.g008455 & 103   & 1.93  & 0.003 & 15.5.2 R2R3MYB                    & miRNA319 controlled GAMYB 33, R2R3MYB VII \tnote{a} \\
+Azfi\_s0132.g049213 & 63    & -2.35 & 0.004 & 15.5.32 Basic Helix-Loop-Helix    & No hits \\
+Azfi\_s0182.g056462 & 10    & -4.46 & 0.049 & 15.5.3 HD-ZIP I/II                & HB16 \\
+
+\end{longtable}
+\begin{tablenotes}
+  \footnotesize
+  \item[a] R2R3 MYB classification according to Jiang \& Rao (2020).
+\end{tablenotes}
+\end{threeparttable}
+\end{sidewaystable}
 
 ## FR alters transcripts from MIKCC and R2R3MYB TF related to those of the IF of seed plants
 
