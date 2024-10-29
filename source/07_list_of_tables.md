@@ -5,13 +5,12 @@
 <!-- no minitoc -->
 \adjustmtc
 
+<!-- Force page nr on first page of this chapter -->
+\thispagestyle{toc}
+
 \makeatletter
 \let\@cftmakelottitle\relax
 \listoftables
 \makeatother
-
-
-<!-- Force page nr on first page of this chapter -->
-\thispagestyle{toc}
 
 \cleardoublepage
