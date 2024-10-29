@@ -3,7 +3,7 @@
 \setlength{\parindent}{0.0in}
 \addthumb{Chapter \thechapter}{\Large{\thechapter}}{white}{gray}
 
-\chapter{Forever together: One \emph{Nostoc azollae} is symbiont to all Azolla species}
+\chapter{Forever together: One \emph{Nostoc azollae} is symbiont to all \emph{Azolla} species}
 \label{forever_together}
 
 \footnotesize
@@ -423,6 +423,9 @@ The node placing *A. caroliniana* with *A. mexicana* and *A. microphylla* does h
 Another method would be to select certain marker genes from the plant genome, then de-novo assemble these for the other *Azolla* species, and use these for a phylogeny.
 This effort is beyond the scope of this work, but could elucidate the topology of the *Azolla* phylogeny and the strictness of the symbiosis.
 
+## mode of transmission paper:
+
+https://www.biorxiv.org/content/10.1101/2024.05.20.592813v1.full
 
 ## bal bla bla
 
