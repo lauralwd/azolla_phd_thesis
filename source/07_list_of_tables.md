@@ -7,3 +7,5 @@
 
 <!-- Force page nr on first page of this chapter -->
 \thispagestyle{toc}
+
+\cleardoublepage
