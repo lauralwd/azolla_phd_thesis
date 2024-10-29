@@ -1,4 +1,6 @@
+<!-- start new chapter but don't increase counter -->
 \chapter*{Abstract}
+<!-- but do add this chapter to the ToC -->
 \addcontentsline{toc}{chapter}{Abstract}
 \adjustmtc
 
