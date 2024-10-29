@@ -1,4 +1,8 @@
+<!-- start new chapter but don't increase counter -->
+\chapter*{List of Figures}
+<!-- but do add this chapter to the ToC -->
 \addcontentsline{toc}{chapter}{List of Figures}
+<!-- no minitoc -->
 \adjustmtc
 
 \listoffigures

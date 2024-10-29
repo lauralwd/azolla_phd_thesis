@@ -1,5 +1,8 @@
+<!-- start new chapter but don't increase counter -->
 \chapter*{Abbreviations}
+<!-- but do add this chapter to the ToC -->
 \addcontentsline{toc}{chapter}{Abbreviations}
+<!-- no minitoc -->
 \adjustmtc
 
 <!-- Force page nr on first page of this chapter -->
