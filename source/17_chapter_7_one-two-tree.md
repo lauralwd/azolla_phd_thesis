@@ -39,7 +39,6 @@ This workflow offers an accessible yet rigorous approach to phylogenetic researc
 General todo stuff:
 - go over all comments.
 - nice code highlighting for bash, yaml, etc blocks?
-- Am I happy with the discussion
 - Spellcheck
 - Make Orthology figure
 - Make workflow figures
@@ -614,7 +613,8 @@ We wanted to study how ferns have developed differently from land plants, and in
 The LAR enzyme is member of the PIP family of enzymes.
 In context of _Azolla_ biology, it is an interesting enzyme for it is a key enzyme in the production of both anthocyanidins, as well as epicatechin; a notorious digestion inhibiting polyphenol.
 When pitching _Azolla_ as a future crop, digestion inhibition is an important trait for breeding efforts.
-In use-case, we identify and organise the LAR enzymes present in the _Azolla_ genome and infer their function for future experiments and possible breeding efforts.
+In this use-case, we identify and organise the LAR enzymes present in the _Azolla_ genome and infer their function for future experiments and possible breeding efforts.
+Additionally, we identify two LAR-like groups (WLAR1 & WLAR2) which diverged specifically in ferns and have no seed-plant orthologs.
 
 The _Azolla_ genome contains several LAR like enzymes (homologs) that may all play a role in anthocyan metabolism.
 In this case-study, we use phylogeny to infer the relation of all _Azolla_ LAR homologs in the perspective of the entire PIP family of enzymes in land plants.
@@ -661,9 +661,10 @@ More genome based data of seed-free plants and functional characterisation of tr
 
 ## 2-OGD
 
-In an RNAseq experiment of a colleague, several genes were significantly differentially regulated.
+In an RNAseq experiment in the _Azolla_ lab, several genes were significantly differentially regulated.
 The functional annotation of these genes was doubtful.  Homology searches indicated it was a a 2-oxoglutarate dependent dioxygenase (2-OGD) enzyme [@gungor2024]; the biggest enzyme family in plants.
 A phylogeny workflow was started to place the _Azolla_ genes of interest and homologs in context of all 2-OGD evolution.
+Correct classification of these 2-OGD genes was key for proper interpretation of the RNAseq results.
 
 An orthogroup of 2-OGD genes was obtained from the 1kP, subsetted and amended with sequences with their functions characterised.
 The differentially expressed gene and other 2-OGD genes from _A. filiculoides_ genomes version 1 and version 2 were added as well.
@@ -671,9 +672,10 @@ Sequences were aligned with MAFFT L-INS-i, and trimmed with trimAL for columns a
 A first IQTree phylogeny with UFBootstrap was used to find the main clades in which the sequence of interest was placed (data not shown).
 These clades, and an outcrop were extracted into a second subset from the former subset.
 Then, a non-parametric phylogeny was inferred with TBS support.
-The tree was coloured per clade (@tbl:tbl7_1kP_sample_counts) and irrelevant clades were collapsed in iToL (@fig:fig7_2OGD_phylogeny_small).
-Afterwards, the original subset was also used for TBS (@fig:fig7_2OGD_phylogeny).
-This tree is submitted for publication @gungor2024 and the full analysis is openly available on Github ([github.com/lauralwd/2OGD_phylogeny](https://github.com/lauralwd/2OGD_phylogeny)).
+The tree was coloured per clade (@tbl:tbl7_1kP_sample_counts) and we collapsed clades that were not of particular interest to this RNAseq experiment (@fig:fig7_2OGD_phylogeny_small).
+Afterwards, the original subset was also used for a tree with TBS support values (@fig:fig7_2OGD_phylogeny).
+This big tree provides an overview over all of 2-OGD evolution in land plants, with special interest for non-seed plants.
+This tree is published in @gungor2024 and the full analysis is openly available on Github ([github.com/lauralwd/2OGD_phylogeny](https://github.com/lauralwd/2OGD_phylogeny)).
 
 ![Phylogeny of 2-OGD genes encoding FLS, ANS and JOX across land plant lineages. 2-OGD protein sequences were obtained from the 1kp orthogroup database [@Leebens-Mack2019], sub-sampled and supplemented with guide- and _A. filiculoides_ 2-OGD sequences. The former were used for clade annotation, the latter are indicated in green for _A. filiculoides_ genome version 1 [@Li2018] and version 2 (Afi_v2) [@gungor2024]). An initial phylogeny (@fig:fig7_2OGD_phylogeny) was computed to place _A. filiculoides_ genes in the broad 2-OGD phylogeny. From this broad phylogeny, FLS, ANS, JOX and out-group sequences were selected to compute a more accurate tree. Sequences were aligned with MAFFT-linsi [@Katoh2013], and then trimmed using trimAL [@Capella-Gutierrez2009]. The phylogeny was computed with IQtree [@Nguyen2015] with 200 non-parametric bootstraps and transfer-bootstrap values were calculated with booster [@Lemoine2018]. The tree was annotated in iTOL and Inkscape [@Letunic2019].  ](source/figures/fig7_2OGD_phylogeny_small.pdf){#fig:fig7_2OGD_phylogeny_small width=50% short-caption="Phylogeny of 2-OGD genes encoding FLS, ANS and JOX across land plant lineages."}
 
