@@ -24,7 +24,7 @@ This practical sets the bar high for students with ample experience.
 In order to teach it effectively, I learned about and used cognitive load theory in redesigning the practical.
 The exercises are based on the data from chapter \ref{foul_play}, but with the methods in mind of chapter \ref{hidden_treasures}.
 As I say to my students, during this practical, you will re-do the analyses of my first research chapter, but better and within a day or two.
-Specifically, students will recreate figure 5 from the first research chapter of this thesis (+@fig:fig:fig2_4) and surpass the level of insight we gained in the same chapter.
+Specifically, students will recreate figure 5 from the first research chapter of this thesis (@fig:fig:fig2_4) and surpass the level of insight we gained in the same chapter.
 
 This task is quite a challenge on two completely different fronts.
 Firstly, the conceptual front.
@@ -49,7 +49,7 @@ In the context of the course, I taught metagenomics as the third topic and ensur
 On the first day, I introduced bioinformatics in general and taught some basic BASH coding required for the rest of the course.
 After letting this settle in long-term memory overnight, I continue with "general" genomics.
 As for the metagenomics part, students watched a pre-recorded lecture the day before.
-The genomics practical is a linear workflow in BASH (+@fig:mgp_workflow).
+The genomics practical is a linear workflow in BASH (@fig:mgp_workflow).
 Hence, it's a substantial but reasonable increase in difficulty from the first day.
 On the other hand, the metagenomics practical is less linear and includes aggregation of data and referring back to files generated sometime earlier.
 Hence students have learned about genomics and basic bash by the time they are confronted with the concepts of metagenomics, non-linear workflows, and medium-advanced bash skills like variables and loops.
@@ -66,11 +66,11 @@ In the section on structural biology, these different levels of the central dogm
 The practical is openly available and GitHub, with instructions and recorded YouTube tutorials for those interested in trying it out.
 The GitHub repository contains instructions on installing the software and getting the data.
 I chose open source tools only, as is common in the field.
-Software is installed and maintained via the conda framework, and I teach students to exercise code in JuPyter notebooks; mixing various kinds of code and documentation in a single interface (See +@fig:mgp_jupy_1; +@fig:mgp_jupy_2 at the end of this appendix).
+Software is installed and maintained via the conda framework, and I teach students to exercise code in JuPyter notebooks; mixing various kinds of code and documentation in a single interface (See @fig:mgp_jupy_1; @fig:mgp_jupy_2 at the end of this appendix).
 Find the repository at [GitHub.com/lauralwd/metagenomicspractical](https://github.com/lauralwd/metagenomicspractical/) and a dedicated website at [lauradijkhuizen.com/metagenomicspractical](https://lauralwd.github.io/metagenomicspractical/).
 I have no way of knowing if people other than my students use this practicle, but it does seem to be the case based on comments on my youtube videos.
 Additionally, the practical and its data were used for an MSc thesis from Aalborg University (@NiklasFichte2022).
-Answers and pre-filled code are available in a separate branch of the GitHub repository called 'example' (+@fig:mgp_jupy_2).
+Answers and pre-filled code are available in a separate branch of the GitHub repository called 'example' (@fig:mgp_jupy_2).
 Renders of the empty and pre-filled workflow are available as a GitHub pages website in the 'gh-pages' branch and online at the practical webpage [here](https://lauralwd.github.io/metagenomicspractical/).
 
 ![Metagenome assembly of _Azolla filiculoides_ associated bacteria. Data was taken from chapter \ref{foul_play} and assembled with SPAdes (@Nurk2017). The metagenome assembly graph was visualised with Bandage. A fasta file resembling the sequences of this graph was the main inputs of this practical.](source/figures/mgp_assembly.png){#fig:mgp_assembly short-caption="metagenomics workflow assembly"}
@@ -80,10 +80,10 @@ This practical is aimed at Master's students in Life Sciences with minimal exper
 However, I also found it suited for bachelor's students with bioinformatics experience within a single day.
 When supplied with several days and sufficient supervision, bachelor's students with programming experience also successfully completed the practical.
 This practical starts by discussing a metagenomics workflow from a biological context, acquiring sequencing data and genome assembly.
-Metagenome assembly is a resource- and time-intensive process; hence I have done this already (+@fig:mgp_assembly).
+Metagenome assembly is a resource- and time-intensive process; hence I have done this already (@fig:mgp_assembly).
 Then, the student takes over.
 First, a short BASH introduction or refresher is included since I don't expect students to be fluent in the programming language.
-In a nutshell, students extract individual microbial genomes from the metagenome assembly, check their quality, and annotate genes coded in these genomes (+@fig:mgp_nitrogen_metabolism).
+In a nutshell, students extract individual microbial genomes from the metagenome assembly, check their quality, and annotate genes coded in these genomes (@fig:mgp_nitrogen_metabolism).
 This practical includes the following steps (and depends on the following tools):
 
 1. (back)mapping (bwa+samtools)
@@ -92,7 +92,7 @@ This practical includes the following steps (and depends on the following tools)
 4. annotation (Prokka)
 5. BONUS: phylogeny reconstruction (IQTree)
 
-![Nitrogen metabolism of bacteria associated with _Azolla filiculoides_. Data was taken from chapter \ref{foul_play} and processed according to the metagenomics practical described in this appendix. This figure is one of the final results of the practical and arguably an improvement over the published version (+@fig:fig:fig2_4).](source/figures/mgp_nitrogen_metabolism.png){#fig:mgp_nitrogen_metabolism short-caption="metagenomics practical end result nitrogen metabolism"}
+![Nitrogen metabolism of bacteria associated with _Azolla filiculoides_. Data was taken from chapter \ref{foul_play} and processed according to the metagenomics practical described in this appendix. This figure is one of the final results of the practical and arguably an improvement over the published version (@fig:fig:fig2_4).](source/figures/mgp_nitrogen_metabolism.png){#fig:mgp_nitrogen_metabolism short-caption="metagenomics practical end result nitrogen metabolism"}
 
 After this practical, a student should be able to name and explain the steps of a simple metagenomics workflow.
 Starting at acquiring sequencing data, all the way to annotating individual draft genomes.

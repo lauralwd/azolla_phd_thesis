@@ -91,7 +91,7 @@ High sequence identity amongst _N. azollae_ genomes taken from various _Azolla_ 
 Consequently, all _N. azollae_ strains endophytic to _Azolla_ are likely the same cyanobacterial genus, perhaps even species.
 At the fern Shoot Apical Meristem (SAM) lies a -somewhat ironically named- seed colony of motile _N. azollae_ filaments [Chapter \ref{it_takes_two}\; @Dijkhuizen2021, @Campbell1893].
 Developing leaves encapsulate part of this seed colony as inoculum for every leaf's new cavity [@Campbell1893; @Nierzwicki-Bauer1989; @Perkins1993].
-_Azolla_ ferns systematically transfer their symbiotic cyanobacteria to the next generations via their megaspores (+@fig:fig1_life-cycle).
+_Azolla_ ferns systematically transfer their symbiotic cyanobacteria to the next generations via their megaspores (@fig:fig1_life-cycle).
 The method of innoculation of these megasporocarps is thought to be similar to that of leaves [@Campbell1893; @Nierzwicki-Bauer1989; @Perkins1993].
 However, recent papers theorised that the symbiont entered the fern megaspores via small channels [@Ran2010; @Zheng2009].
 We theorise that early developing spore primordia of either gender encapsulate part of the cyanobacterial seed-colony based on confocal imagery [Chapter \ref{it_takes_two}\; @Dijkhuizen2021], thereby mirroring the mechanism by which leaves are innoculated.
@@ -140,7 +140,7 @@ The resulting genomes of all the _Azolla_ associated bacteria constitute the _Az
 # Methods
 
 ## Tools and data availability
-In this study, we use various metagenomics tools to acquire genomes of bacterial endophytes associated with an entire genus of hosts from publicly available bulk DNA extractions (+@fig:fig3_data_overview).
+In this study, we use various metagenomics tools to acquire genomes of bacterial endophytes associated with an entire genus of hosts from publicly available bulk DNA extractions (@fig:fig3_data_overview).
 Sequenced DNA of various sources was iteratively filtered with BWA [@Li2009a] and assembled into contigs with SPAdes [@Nurk2017].
 Data was filtered in the first filter stage by mapping against a curated reference consisting of host nuclear DNA and chloroplast DNA by @Li2018 (Azfiv1.1 fernbase) (host filtered).
 For the _Azolla_ genus, only the genome of _Azolla filiculoides_ is available; hence this was used for filtering all _Azolla_ species studied here.
@@ -150,7 +150,7 @@ Only contigs classified as eukaryotic were kept in the filter.
 The reads passing the filter were assembled with SPAdes in metagenomics mode.
 This first filtering step was not expected to perform equally well for all _Azolla_ species, especially those more phylogenetically distant to the reference genome.
 Hence in a second filter, eukaryotic contigs were identified in each of the host filtered assemblies and used as a second filter tailored to a specific sequencing library.
-These double-filtered reads were then assembled again with SPAdes metagenomics mode (+@fig:fig3_filtering_and_assembly\-A).
+These double-filtered reads were then assembled again with SPAdes metagenomics mode (@fig:fig3_filtering_and_assembly\-A).
 Only after this second filtering, step hybrid assemblies were generated when multiple sequencing libraries were available per biological sample.
 
 After assembly, scaffolds were binned into Metagenome Assembled Genomes (MAGs) with several tools, then curated manually in Anvi'o [@Eren2015].
@@ -177,22 +177,22 @@ Conda environments used in this study can be found in [github.com/lauralwd/Azoll
 \end{sidewaysfigure}
 
 ## Data
-Sequencing data used here represented six of seven species in the _Azolla_ genus and was generated as part of three studies (+@fig:fig3_data_overview).
-These species are part of two subgenera, the _Rhizosperma_ section of the genus comprising _Azolla pinata_ and _Azolla nilotica_, and the _Euazolla_ section comprising the other four species (+@fig:fig3_data_overview\-A)
+Sequencing data used here represented six of seven species in the _Azolla_ genus and was generated as part of three studies (@fig:fig3_data_overview).
+These species are part of two subgenera, the _Rhizosperma_ section of the genus comprising _Azolla pinata_ and _Azolla nilotica_, and the _Euazolla_ section comprising the other four species (@fig:fig3_data_overview\-A)
 Within the _Euazolla_ section, two subclusters of closely related species can be distinguished; firstly _A. rubra_ and _A. filiculoides_ and secondly _A. mexicana_, _A. microphylla_ and _A. carolinana_.
 These subclusters diverged between 10 and 20M years ago.
-The _Rhizosperma_ section is represented only by _A. nilotica_ here and is estimated to have diverged from the _Euazolla_  section approximately 50M years ago (+@fig:fig3_data_overview\-A) [@Metzgar2007].
+The _Rhizosperma_ section is represented only by _A. nilotica_ here and is estimated to have diverged from the _Euazolla_  section approximately 50M years ago (@fig:fig3_data_overview\-A) [@Metzgar2007].
 The first published data of _Azolla_ Whole Genome Sequencing (WGS) data was Chapter \ref{foul_play} [@Dijkhuizen2018].
-In that study, we sampled _A. filiculoides_ from triplicate whole plant fractions and triplicate leaf-pocket enriched fractions (P1,2,3 and L1,2,3 respectively; +@fig:fig3_data_overview\-B).
-Secondly, the _Azolla_ genome project [@Li2018] published short-read sequencing data of six _Azolla_ species, including _A. filiculoides_ and long-read sequencing of _A. filiculoides_ (+@fig:fig3_data_overview\-B).
-Sequencing data is mainly generated on Illumina platforms with typical insert sizes of 400 to 800bp and typically yielding approximately 30Gbase of DNA, except for the P and L samples which yield 2 to 3Gbase per sample (+@fig:fig3_data_overview\-B).
+In that study, we sampled _A. filiculoides_ from triplicate whole plant fractions and triplicate leaf-pocket enriched fractions (P1,2,3 and L1,2,3 respectively; @fig:fig3_data_overview\-B).
+Secondly, the _Azolla_ genome project [@Li2018] published short-read sequencing data of six _Azolla_ species, including _A. filiculoides_ and long-read sequencing of _A. filiculoides_ (@fig:fig3_data_overview\-B).
+Sequencing data is mainly generated on Illumina platforms with typical insert sizes of 400 to 800bp and typically yielding approximately 30Gbase of DNA, except for the P and L samples which yield 2 to 3Gbase per sample (@fig:fig3_data_overview\-B).
 Both studies' their _A. filiculoides_ samples originate from the same Ditch in Utrecht, the Netherlands.
-One sample was treated to remove the most abundant symbiont: _N. azollae_; it is indicated as the no-cyano sample (+@fig:fig3_data_overview\-B).
-All samples acquired from the International Rice Research Institute (IRRI) were maintained for approximately two decades by the IRRI by vegetative propagation [@Watanabe1992] (+@fig:fig3_data_overview\-B).
-These plant strains were sampled at various locations around the globe (+@fig:fig3_data_overview\-C): _Azolla nilotica_, _Azolla rubra_, _Azolla mexicana_, _Azolla microphylla_ and two _Azolla carolinana_ samples which may actualy be a new species [Chapter \ref{it_takes_two}\; @Dijkhuizen2021].
+One sample was treated to remove the most abundant symbiont: _N. azollae_; it is indicated as the no-cyano sample (@fig:fig3_data_overview\-B).
+All samples acquired from the International Rice Research Institute (IRRI) were maintained for approximately two decades by the IRRI by vegetative propagation [@Watanabe1992] (@fig:fig3_data_overview\-B).
+These plant strains were sampled at various locations around the globe (@fig:fig3_data_overview\-C): _Azolla nilotica_, _Azolla rubra_, _Azolla mexicana_, _Azolla microphylla_ and two _Azolla carolinana_ samples which may actualy be a new species [Chapter \ref{it_takes_two}\; @Dijkhuizen2021].
 The third data source is the seminal paper introducing the _N. azollae_ genome sequence [@Ran2010].
 This paper includes ion-torrent sequencing of the primary symbiont of _A. filiculoides_ which was extracted and purified on a sorbitol gradient.
-Data of the latter study was acquired from SRA: for the first and last studies via the accession numbers listed in +@fig:fig3_data_overview\-B.
+Data of the latter study was acquired from SRA: for the first and last studies via the accession numbers listed in @fig:fig3_data_overview\-B.
 Data from the _Azolla_ genome project was made available to our lab before it was uploaded to a repository.
 Unfortunately, we cannot link the sample identities of the data made available to us with those uploaded to NCBI SRA.
 Hence,  we refer to the study as a whole.
@@ -203,13 +203,13 @@ In total, this study examines eighteen sequencing libraries, taken from nine bio
 ## Filtering of _Azolla_ sequencing data against host DNA reduces assembly size and the computational requirements thereof
 First, we set out to rid raw WGS data from plant DNA to ease the assembly of the bacteria whose genomes are also present in this data.
 Filtering DNA reads reduces input diversity and hence reduces complexity in the assembly graph, possibly improving metagenome assembly quality.
-The bioinformatic workflow developed here takes short-read DNA sequencing data as the main input, then iteratively removes host reads and finally assembles the remainder into contigs (+@fig:fig3_filtering_and_assembly\-A).
+The bioinformatic workflow developed here takes short-read DNA sequencing data as the main input, then iteratively removes host reads and finally assembles the remainder into contigs (@fig:fig3_filtering_and_assembly\-A).
 The first stage of host DNA removal is achieved by mapping DNA reads that passed trimmomatic Quality Control (QC) to the _A. filiculoides_ reference genome [@Bolger2014; @Li2009; @Li2018], then assembling the remaining reads into contigs with SPAdes in metagenomics mode [@Nurk2017] (host filtered).
-QC removed, on average, 4.4% and no more than 7% of reads of any sequencing libraries (+@fig:fig3_filtering_and_assembly\-B; bottom).
-Filtering with the reference genome reduced read input substantially for _A. filiculoides_ (51% of reads for lab samples and 79% for no-cyano samples; +@fig:fig3_filtering_and_assembly\-B; bottom; _Azolla filiculoides_).
-Filtering efficiency diminished substantially even for species phylogenetically close (+@fig:fig3_data_overview\-A) to the reference genome such as _A. rubra_ 24% (+@fig:fig3_filtering_and_assembly\-B; bottom; _Azolla rubra_), and other species in the _Azolla_ section of the genus (between 18% and 20%) (+@fig:fig3_filtering_and_assembly\-B; bottom).
-This first filtering step removed only 8% of reads for the phylogenetically distant _A. nilotica_ (+@fig:fig3_filtering_and_assembly\-B; bottom; _Azolla nilotica_).
-After this first filtering step (host filtered), assemblies were typically around 600 Mbase and likely contained substantial amounts of host DNA (+@fig:fig3_filtering_and_assembly\-B; top).
+QC removed, on average, 4.4% and no more than 7% of reads of any sequencing libraries (@fig:fig3_filtering_and_assembly\-B; bottom).
+Filtering with the reference genome reduced read input substantially for _A. filiculoides_ (51% of reads for lab samples and 79% for no-cyano samples; @fig:fig3_filtering_and_assembly\-B; bottom; _Azolla filiculoides_).
+Filtering efficiency diminished substantially even for species phylogenetically close (@fig:fig3_data_overview\-A) to the reference genome such as _A. rubra_ 24% (@fig:fig3_filtering_and_assembly\-B; bottom; _Azolla rubra_), and other species in the _Azolla_ section of the genus (between 18% and 20%) (@fig:fig3_filtering_and_assembly\-B; bottom).
+This first filtering step removed only 8% of reads for the phylogenetically distant _A. nilotica_ (@fig:fig3_filtering_and_assembly\-B; bottom; _Azolla nilotica_).
+After this first filtering step (host filtered), assemblies were typically around 600 Mbase and likely contained substantial amounts of host DNA (@fig:fig3_filtering_and_assembly\-B; top).
 
 ![Filtering and assembly of DNA sequencing of the _Azolla_ genus. Sequencing filtering workflow and guide to the graph (A). Quantities of sequencing input in Gbase (B; bottom), corresponding assembly output during the process (B; top), and the peak RAM usage during the assembly process (B; RAM usage). The bottom panel shows consecutive sequencing quantities at raw, trimmed, host filtered, and double filtered stages. At the latter two stages, sequencing data was assembled with SPAdes. The upper half of panel B shows assembly RAM usage in Gbyte and assembly sizes in MBase for both filtering stages of single sequencing library assemblies and hybrid assemblies if applicable.](source/figures/fig3_sequencing-filtering-and-assembly.pdf){#fig:fig3_filtering_and_assembly short-caption="Filtering and assembly of Azolla genus DNA sequencing"}
 
@@ -217,14 +217,14 @@ To further improve filtering efficiency, a second filtering strategy was applied
 Assembled contigs of all host filtered assemblies were classified with CAT [@VonMeijenfeldt2019]
 Next, contigs classified as eukaryotic were used as a second filter specific for that particular sequencing library.
 These contigs did not contain substantial amounts (1Mbase or higher in all assemblies combined; [lauradijkhuizen.com/blog/AGMB](lauradijkhuizen.com/blog/AGMB)) of DNA classified as anything other than streptophyta hence the assemblies contain only one eukaryote: _Azolla_ ferns.
-The efficacy of this second stage of host DNA removal was typically opposite to the former stage: being least effective for _A. filiculoides_ (no more than 11%) and _A. rubra_ (25%), whilst most effective for those farther removed in the phylogeny; i.e. 42% for _A. microphylla_ and 56% of _A. nilotica_ (+@fig:fig3_filtering_and_assembly\-B bottom filtered vs double filtered).
-Combined, both filtering approaches removed between 50% and 64% of reads from plant samples maintained in the lab and not experimentally treated (+@fig:fig3_filtering_and_assembly\-B trimmed vs double filtered).
-The double filtered reads were assembled again with SPAdes in metagenomics mode, both as single libraries or hybrid assemblies when multiple sequencing libraries or read types were available per biological sample (+@fig:fig3_filtering_and_assembly\-B top; H).
-Assembly sizes were reduced substantially after the second filtering step for all species except for _A. filiculoides_ samples with lower insert sizes (+@fig:fig3_filtering_and_assembly\-B top).
-Metagenome assembly sizes typically varied from 160 to 250 Mbase, except for the _A. filiculoides_ wild sample (738 Mbase), the sterilised _A. filiculoides_ no-cyano sample (60 Mbase), and the _A. caroliniana_ 2 sample (456 Mbase) (+@fig:fig3_filtering_and_assembly\-B top).
-The double filter reduced assembly size by 60% to 70% (+@fig:fig3_filtering_and_assembly\-B top).
-Reduced assembly size and host DNA contamination make manual binning feasible, and metagenome assembly sizes (+@fig:fig3_filtering_and_assembly\-B top) indicate that all assemblies likely contain multiple bacterial genomes.
-Secondly, removing host DNA from the assembly input substantially reduces computational requirements for assembly in terms of peak RAM usage (+@fig:fig3_filtering_and_assembly\-B RAM usage).
+The efficacy of this second stage of host DNA removal was typically opposite to the former stage: being least effective for _A. filiculoides_ (no more than 11%) and _A. rubra_ (25%), whilst most effective for those farther removed in the phylogeny; i.e. 42% for _A. microphylla_ and 56% of _A. nilotica_ (@fig:fig3_filtering_and_assembly\-B bottom filtered vs double filtered).
+Combined, both filtering approaches removed between 50% and 64% of reads from plant samples maintained in the lab and not experimentally treated (@fig:fig3_filtering_and_assembly\-B trimmed vs double filtered).
+The double filtered reads were assembled again with SPAdes in metagenomics mode, both as single libraries or hybrid assemblies when multiple sequencing libraries or read types were available per biological sample (@fig:fig3_filtering_and_assembly\-B top; H).
+Assembly sizes were reduced substantially after the second filtering step for all species except for _A. filiculoides_ samples with lower insert sizes (@fig:fig3_filtering_and_assembly\-B top).
+Metagenome assembly sizes typically varied from 160 to 250 Mbase, except for the _A. filiculoides_ wild sample (738 Mbase), the sterilised _A. filiculoides_ no-cyano sample (60 Mbase), and the _A. caroliniana_ 2 sample (456 Mbase) (@fig:fig3_filtering_and_assembly\-B top).
+The double filter reduced assembly size by 60% to 70% (@fig:fig3_filtering_and_assembly\-B top).
+Reduced assembly size and host DNA contamination make manual binning feasible, and metagenome assembly sizes (@fig:fig3_filtering_and_assembly\-B top) indicate that all assemblies likely contain multiple bacterial genomes.
+Secondly, removing host DNA from the assembly input substantially reduces computational requirements for assembly in terms of peak RAM usage (@fig:fig3_filtering_and_assembly\-B RAM usage).
 Likely due to a reduced size of the assembly graph.
 
 filter stage    | superkingdom  | contig count |scaffold count | total scaffold length (Mb) | median scaffold length (kb) | average scaffold length (kb)
@@ -244,12 +244,12 @@ Table: Assembly statistics per superkingdom before and after the second filterin
 Filtering input sequencing data reduced assembly size.
 Next, we investigate the efficacy of this filtering approach in terms of taxonomic complexity and quality of the assembly.
 The main rationale for this intensive filtering approach was to decrease complexity in the metagenome assembly graph, thereby improving the length and quality of assembled bacterial contigs.
-The double filtering step substantially reduced total assembly size (+@fig:fig3_filtering_and_assembly\-B top) and length distributions of eukaryotic contigs (+@fig:fig3_filter_length_distributions Eukaryota, +@tbl:tbl3_1).
-This also applied to contigs which were not assigned a taxonomy or did not yield any open reading frames (+@tbl:tbl3_1).
+The double filtering step substantially reduced total assembly size (@fig:fig3_filtering_and_assembly\-B top) and length distributions of eukaryotic contigs (@fig:fig3_filter_length_distributions Eukaryota, @tbl:tbl3_1).
+This also applied to contigs which were not assigned a taxonomy or did not yield any open reading frames (@tbl:tbl3_1).
 These latter two taxonomical categories often had similar depth/length distributions as scaffolds assigned Eukaryota ([lauradijkhuizen.com/blog/AGMB](lauradijkhuizen.com/blog/AGMB)).
-In contrast, bacterial assembly size and length distributions were practically identical between the two different filtering stages (+@fig:fig3_filter_length_distributions Bacteria), although the average and median scaffold size did increase slightly (+@tbl:tbl3_1 Bacteria).
-Contigs assigned as Archeal in the host filtered assembly were not classified as such in the double filtered assembly (+@fig:fig3_filter_length_distributions Archaea).
-Similarly, viral contigs often were only assembled in the host filtered assembly (+@fig:fig3_filter_length_distributions Viruses).
+In contrast, bacterial assembly size and length distributions were practically identical between the two different filtering stages (@fig:fig3_filter_length_distributions Bacteria), although the average and median scaffold size did increase slightly (@tbl:tbl3_1 Bacteria).
+Contigs assigned as Archeal in the host filtered assembly were not classified as such in the double filtered assembly (@fig:fig3_filter_length_distributions Archaea).
+Similarly, viral contigs often were only assembled in the host filtered assembly (@fig:fig3_filter_length_distributions Viruses).
 These classifications were rare in all assembled metagenomes and may be false classifications or derived from viral fragments incorporated into genomes of either _Azolla_ species or of associated bacteria.
 The bacterial fractions of the various metagenome assemblies ranges bewteen 46 and 89 Mbp, counting scaffolds longer than 2.5 kbp only.
 The filtering approach, we conclude, did not substantially improve assembly quality of prokaryote genome fragments, but also had no negative effect.
@@ -271,7 +271,7 @@ The filtering approach, we conclude, did not substantially improve assembly qual
 \end{figure}
 
 ## Filtered metagenome assemblies contain distinct microbial genomes systematically reoccurring in the _Azolla_ genus
-The double filtered assemblies contain numerous bacterial contigs of each _Azolla_ species sampled here (+@fig:fig3_filter_length_distributions Bacteria).
+The double filtered assemblies contain numerous bacterial contigs of each _Azolla_ species sampled here (@fig:fig3_filter_length_distributions Bacteria).
 Next, we wondered if these contigs may be attributed to a specific taxonomy.
 In doing so, we take a genus perspective and inquire wether we can summarise a whole genus' metagenome considering its contig taxonomy and abundance, now assessing scaffolds rather than contigs.
 Abundance here, is abundance in the assembly graph.
@@ -279,17 +279,17 @@ We choose to continue here with scaffolds rather than contigs.
 Scaffolds are combinations of contiguous (contigs) pieces of DNA.
 These combinations are supported by molecular evidence like Illumina read pairs or long read sequencing when applicable.
 With the genus perspective in mind, we developped an interactive tool to browse through the metagenome assemblies obtained after the differing filtering, plotting scaffold size, abundance and taxonomy at any level.
-A snapshot of a result using this tool is depicted in +@fig:fig3_Azolla_genus_metagenome_order summarising the _Azolla_ genus-wide metagenome at the order level.
+A snapshot of a result using this tool is depicted in @fig:fig3_Azolla_genus_metagenome_order summarising the _Azolla_ genus-wide metagenome at the order level.
 The online version may be browsed at [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB).
-The metagenomes of the _Azolla_ genus group into approximate bacterial genomes quite distinctly when examining them by their abundance, length, and taxonomy as determined by CAT (+@fig:fig3_Azolla_genus_metagenome_order).
+The metagenomes of the _Azolla_ genus group into approximate bacterial genomes quite distinctly when examining them by their abundance, length, and taxonomy as determined by CAT (@fig:fig3_Azolla_genus_metagenome_order).
 These genomes can be recognised as clusters of scaffolds with equal abundance and taxonomy but varying scaffold lengths.
-For example; many Rhizobiales genomes were found in all _Azolla_ species sampled here (+@fig:fig3_Azolla_genus_metagenome_order blue).
-All samples but the no-cyano sample (+@fig:fig3_Azolla_genus_metagenome_order Azfil_minuscyano) show that the most abundant species in the metagenome is a Nostocales cyanobacterium (+@fig:fig3_Azolla_genus_metagenome_order cyan blue).
-Scaffolds assigned Nostocales are peculiar in that they have a high variance in abundance; standard deviations vary in the various samples from 300 to 600 (arbitrary unit representing depth in the assembly graph; +@fig:fig3_Azolla_genus_metagenome_order; [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB); Draw selection over cluster -> Selection details table).
+For example; many Rhizobiales genomes were found in all _Azolla_ species sampled here (@fig:fig3_Azolla_genus_metagenome_order blue).
+All samples but the no-cyano sample (@fig:fig3_Azolla_genus_metagenome_order Azfil_minuscyano) show that the most abundant species in the metagenome is a Nostocales cyanobacterium (@fig:fig3_Azolla_genus_metagenome_order cyan blue).
+Scaffolds assigned Nostocales are peculiar in that they have a high variance in abundance; standard deviations vary in the various samples from 300 to 600 (arbitrary unit representing depth in the assembly graph; @fig:fig3_Azolla_genus_metagenome_order; [lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB); Draw selection over cluster -> Selection details table).
 In contrast, other distinguishable microbial genomes show a typical abundance standard deviation often lower than 1, but in almost all cases lower than 10 ([lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB); Draw selection over cluster -> Selection details table).
-This abundance pattern of _Nostoc azollae_ is typical of its eroded genome with many transposons and repetitive regions and may explain why the assembled length of this MAG is shorter than the reference; 4Mbase instead of the previoulsy published 6Mbase (+@tbl:tbl3_2) [@Ran2010].
+This abundance pattern of _Nostoc azollae_ is typical of its eroded genome with many transposons and repetitive regions and may explain why the assembled length of this MAG is shorter than the reference; 4Mbase instead of the previoulsy published 6Mbase (@tbl:tbl3_2) [@Ran2010].
 Nevertheless, it might also reflect an upper limit to assembly depth.
-Plotting the scaffolds of all assemblies by taxonomy and abundance, we conclude, allows one to distinguish individual bacterial genomes in each of the _Azolla_ species sampled in this study (+@fig:fig3_Azolla_genus_metagenome_order).
+Plotting the scaffolds of all assemblies by taxonomy and abundance, we conclude, allows one to distinguish individual bacterial genomes in each of the _Azolla_ species sampled in this study (@fig:fig3_Azolla_genus_metagenome_order).
 The interactive online figure allows to browse through the bacterial diversity of the genus-wide metagenome before binning into MAGs and, therefore, represents an excellent control to verify the quality of the derived results.
 
 \begin{figure}
@@ -315,22 +315,22 @@ The interactive online figure allows to browse through the bacterial diversity o
 
 
 With the visual summary of the whole genus' metagenome, we observed key patterns.
-Metagenomes of the _Azolla_ genus show clear similarities in terms of taxonomy at the order level (+@fig:fig3_Azolla_genus_metagenome_order).
+Metagenomes of the _Azolla_ genus show clear similarities in terms of taxonomy at the order level (@fig:fig3_Azolla_genus_metagenome_order).
 Taxonomy of bacteria is represented by coloured clusters of scaffolds which are mostly reproducible for the sample replicates, and within a particular species.
-Comparing the various _Azolla_ species (+@fig:fig3_Azolla_genus_metagenome_order vertical panels), these clusters are often similar in number and taxonomy, indicating that these metagenomes resemble each other at least at this level of taxonomy.
-After the Nostocales, the order with the highest number of distinct genomes across the genus is the Rhizobiales (+@fig:fig3_Azolla_genus_metagenome_order blue): in all host species, multiple Rhizobiales genomes can be distinguished at various levels of relative scaffold abundance.
+Comparing the various _Azolla_ species (@fig:fig3_Azolla_genus_metagenome_order vertical panels), these clusters are often similar in number and taxonomy, indicating that these metagenomes resemble each other at least at this level of taxonomy.
+After the Nostocales, the order with the highest number of distinct genomes across the genus is the Rhizobiales (@fig:fig3_Azolla_genus_metagenome_order blue): in all host species, multiple Rhizobiales genomes can be distinguished at various levels of relative scaffold abundance.
 The total amount of Rhizobiales DNA ranges from 16 to 44 Mbase over the different samples ([lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB) taxa table).
-The third order with the highest number of species is the Burkholderiales (+@fig:fig3_Azolla_genus_metagenome_order mustard yellow).
-Burkholderiales are rarely the most abundant but they are present in all host species except for _A. rubra_; amounting for up to 17 Mbase per assembly ([lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB) taxa table) in one or two clusters (+@fig:fig3_Azolla_genus_metagenome_order mustard yellow) per sample.
-Three other notable orders reoccurring in several metagenome assemblies are the Caulobacterales, Nevskiales and Sphingomonadales (+@fig:fig3_Azolla_genus_metagenome_order light green, dark green and prink respectively).
+The third order with the highest number of species is the Burkholderiales (@fig:fig3_Azolla_genus_metagenome_order mustard yellow).
+Burkholderiales are rarely the most abundant but they are present in all host species except for _A. rubra_; amounting for up to 17 Mbase per assembly ([lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB) taxa table) in one or two clusters (@fig:fig3_Azolla_genus_metagenome_order mustard yellow) per sample.
+Three other notable orders reoccurring in several metagenome assemblies are the Caulobacterales, Nevskiales and Sphingomonadales (@fig:fig3_Azolla_genus_metagenome_order light green, dark green and prink respectively).
 Each of these last three orders occurs in at least five of the six host species, accounts for one or two clusters per sample.
-All these orders of bacteria are found in sequence data from different studies (+@fig:fig3_data_overview), reducing the odds that these are artificial contaminants of the lab extracting the DNA, or growth facilities maintaining the ferns.
+All these orders of bacteria are found in sequence data from different studies (@fig:fig3_data_overview), reducing the odds that these are artificial contaminants of the lab extracting the DNA, or growth facilities maintaining the ferns.
 Conversely, several orders do not systematically reoccur in multiple species.
 The bacillales, Rhodopspirillales, and Sphingomonadales occur only in one biological sample each.
 These bacteria may be epiphytes that were not properly washed off, or endophytes not shared by any other host species.
 
 Metagenome assemblies likely do not fully represent all bacteria in the original plant samples.
-All assemblies contain highly abundant bacterial genome fragments, _N. azollae_ contigs are typically covered 500 times in the SPAdes assembly graph (+@fig:fig3_Azolla_genus_metagenome_order cyan blue).
+All assemblies contain highly abundant bacterial genome fragments, _N. azollae_ contigs are typically covered 500 times in the SPAdes assembly graph (@fig:fig3_Azolla_genus_metagenome_order cyan blue).
 Yet all but the _A. filiculoides_ 'minus-cyano' assembly contain scaffolds covered between one and two times.
 When approaching the least abundant scaffolds, scaffold length diminishes to less than 1Kb, reflecting the lower abundance limit of assembly.
 This lower limit region contains a substantial amount of scaffolds from different orders of taxonomy.
@@ -351,38 +351,38 @@ Then, these automatically generated bins were imported into Anvi'o and curated m
 
 We first examine the species for which the sequencing data was designed for a metagenome study, and hence the binning process likely the most reliable: _A. filiculoides_ 'wild'.
 The study design includes biological replicate samples of whole plants and leaf-pocket enriched 'juice'.
-Separating the different bins in this metagenome assembly benefits from differential sampling and the consequent differential abundance of genomes per sample (+@fig:fig3_Azfil_wild_binning).
+Separating the different bins in this metagenome assembly benefits from differential sampling and the consequent differential abundance of genomes per sample (@fig:fig3_Azfil_wild_binning).
 Additionally, the PacBio RSII long-read sequencing of the _A. filiculoides_ minus-cyano sample was used as an additional binning signal to distinguish bins; this data was used for scaffolding the assembly of the _A. filiculoides_ wild sample.
-The _A. filiculoides_ 'wild' sample metagenome contains multiple high-quality bins (+@tbl:tbl3_2), many of taxonomical orders seen in +@fig:fig3_Azolla_genus_metagenome_order.
-Binning yielded seven high-quality bins in total (completeness > 90% redundancy < 10%), three medium-quality bins (completeness > 60%), and several low-quality bins likely representing partial genomes of low abundant bacteria. (+@tbl:tbl3_2).
+The _A. filiculoides_ 'wild' sample metagenome contains multiple high-quality bins (@tbl:tbl3_2), many of taxonomical orders seen in @fig:fig3_Azolla_genus_metagenome_order.
+Binning yielded seven high-quality bins in total (completeness > 90% redundancy < 10%), three medium-quality bins (completeness > 60%), and several low-quality bins likely representing partial genomes of low abundant bacteria. (@tbl:tbl3_2).
 Despite the metagenomic study design, not all bins could be resolved to high quality.
 This may be related to the relatively low input of DNA sequencing data in the assembly, hence not allowing to sufficiently resolve lowly abundant microbial genomes.
 
 Next we attempt to assess if certain bins may be enriched in leaf-juice samples, and therefore prevalent inside the leaf cavities of _A. filiculoides_as endophytes.
-Differential sampling, comparing the whole plant to leaf cavity enrichments, allows estimating whether a bin is more abundant in the leaf cavities (+@fig:fig3_Azfil_wild_binning green rings vs blue rings).
+Differential sampling, comparing the whole plant to leaf cavity enrichments, allows estimating whether a bin is more abundant in the leaf cavities (@fig:fig3_Azfil_wild_binning green rings vs blue rings).
 The bacteria represented by these bins are likely endophytes of _A. filiculoides_.
-Their abundance ratio is also shown in +@tbl:tbl3_2 (abundance ratio).
-Several bins enriched in the leaf pockets are 'Rhizobium','Rhizobiales','Curvibacter', and 'Ferrovibrio' (+@fig:fig3_Azfil_wild_binning ; +@tbl:tbl3_2 abundance ratio).
+Their abundance ratio is also shown in @tbl:tbl3_2 (abundance ratio).
+Several bins enriched in the leaf pockets are 'Rhizobium','Rhizobiales','Curvibacter', and 'Ferrovibrio' (@fig:fig3_Azfil_wild_binning ; @tbl:tbl3_2 abundance ratio).
 Rhizobium and Curvibacter are also two of the most abundant bins besides the Cyanobacterial symbiont.
 The former three are abundant in PacBio long-read sequencing of the _A. filiculoides_ minus-cyano sample as is the 'rest 2' bin.
 This abundance indicates these bacteria survived stringent surface sterilisation and antibiotic (Erythromycin) regime removing the main symbiont _N. azollae_.
-Conversely, MAGs of similar taxonomy are detected in the _A. filiculoides_ 'lab' (+@fig:fig3_Azfil_lab_binning) and 'minus-cyano' assemblies (+@fig:fig3_Azfil_minus_cyano_binning).
-In the _A. filiculoides_ 'minus-cyano' sample, specifically the Rhizobiales and Burkholderiales orders recruit reads from the _A. filiculoides_  'wild' binning signals (blue and green rings in +@fig:fig3_Azfil_lab_binning \& +@fig:fig3_Azfil_minus_cyano_binning).
-The Burkholderiales and Rhizobiales orders that many _A. filiculoides_ bins belong to (+@tbl:tbl3_2 taxonomical order) were also systematically present in all other _Azolla_ species (+@fig:fig3_Azolla_genus_metagenome_order)
+Conversely, MAGs of similar taxonomy are detected in the _A. filiculoides_ 'lab' (@fig:fig3_Azfil_lab_binning) and 'minus-cyano' assemblies (@fig:fig3_Azfil_minus_cyano_binning).
+In the _A. filiculoides_ 'minus-cyano' sample, specifically the Rhizobiales and Burkholderiales orders recruit reads from the _A. filiculoides_  'wild' binning signals (blue and green rings in @fig:fig3_Azfil_lab_binning \& @fig:fig3_Azfil_minus_cyano_binning).
+The Burkholderiales and Rhizobiales orders that many _A. filiculoides_ bins belong to (@tbl:tbl3_2 taxonomical order) were also systematically present in all other _Azolla_ species (@fig:fig3_Azolla_genus_metagenome_order)
 Their presence supports the notion that bacteria from these orders have been associating with _Azolla_ species systematically.
 In contrast, a second cyanobacterium species in the _A. filiculoides_ 'wild' assembly is present only outside the ferns and not in the leaf cavity-enriched fraction nor in the lab-derived assemblies.
 Additionally, a Caulobacter bin, of which the corresponding order was present throughout the _Azolla_ genus, is not enriched in the leaf-juice reflecting the leaf cavity contents.
-It is therefore likely located elsewhere in the fern; it may possibly be epiphytic (+@fig:fig3_Azfil_wild_binning; Caulobacter).
+It is therefore likely located elsewhere in the fern; it may possibly be epiphytic (@fig:fig3_Azfil_wild_binning; Caulobacter).
 Finally, the Ferrovibrio bin is four times more abundant in leaf juice samples and the bin recruits reads from the _A. filiculoides_ 'minus-cyano' sample.
 This bin belongs to the Rhodopspirillales order, as does the Rhodospirillaceae bin.
-This order may be unique to _A. filiculoides_ (+@fig:fig3_Azolla_genus_metagenome_order Purple).
+This order may be unique to _A. filiculoides_ (@fig:fig3_Azolla_genus_metagenome_order Purple).
 The differential sampling approach further allows us to recognise singleton bins present in only one biological replicate like 'rest 5'.
-The 'rest 2' bin was not assigned a taxonomical name due to bad SCMG quality in Anvi'o (+@tbl:tbl3_2 Anvi'o completeness).
-CheckM quality of this bin is good, however(+@tbl:tbl3_2 CheckM completeness), and it is remarkably abundant in the stringently sterilised minus-cyano sample (+@tbl:tbl3_2 PacBio mean coverage).
+The 'rest 2' bin was not assigned a taxonomical name due to bad SCMG quality in Anvi'o (@tbl:tbl3_2 Anvi'o completeness).
+CheckM quality of this bin is good, however(@tbl:tbl3_2 CheckM completeness), and it is remarkably abundant in the stringently sterilised minus-cyano sample (@tbl:tbl3_2 PacBio mean coverage).
 Taxonomy of the 'rest 2' bin is assigned as the Nevsiales order which often occurs in other _Azolla_ species.
 Despite this bin not being enriched in leaf pocket samples, it may be an endophyte still for it survived the stringent sterilisation process that the _A. filiculoides_ 'minus-cyano' sample was subjected to.
 
-![Anvi'o overview of the _A. filiculoides_ 'wild' metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 179Mbase of DNA in 26120 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (light green), scaffold abundance in PacBio reads from the _A. filiculoides_ 'lab' sample (yellow). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_2.](source/figures/fig3_Azfil_wild_binning.pdf){#fig:fig3_Azfil_wild_binning short-caption="Anvi'o overview of the A. filiculoides 'wild' metagenome"}
+![Anvi'o overview of the _A. filiculoides_ 'wild' metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 179Mbase of DNA in 26120 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (light green), scaffold abundance in PacBio reads from the _A. filiculoides_ 'lab' sample (yellow). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in @tbl:tbl3_2.](source/figures/fig3_Azfil_wild_binning.pdf){#fig:fig3_Azfil_wild_binning short-caption="Anvi'o overview of the A. filiculoides 'wild' metagenome"}
 
 \begin{threeparttable}
 \begin{longtable}[]{@{}
@@ -459,25 +459,25 @@ No automated binning algorithm can implement these binding signals while account
 Using Anvi'o [@Eren2015], it is possible to visualise the aforementioned extraneous binning signals and bin scaffolds manually whilst accounting for the nature of different binning signals appropriately.
 Within Anvi'o, all metadata was plotted per metagenome assembly.
 Next, scaffolds were binned manually, guided at first by automated binning methods but primarily by scaffold depth in the native sequencing libraries for that particular biological sample.
-Scaffold depth was often the clearest binning signal in these samples (i.e. +@fig:fig3_Azmic_binning _A. microphylla_).
+Scaffold depth was often the clearest binning signal in these samples (i.e. @fig:fig3_Azmic_binning _A. microphylla_).
 Abundance in _A. filiculoides_ 'wild' sequencing was used carefully when applicable and checked with anvi'o clustering based only on k-mer profiles.
 Abundance in the _A. filiculoides_ 'wild' samples was not informative for most bins, but it was for some.
-The 'Rhizobiales1' bin (+@fig:fig3_Azmic_binning Rhizobiales1) recruited reads from all _A. filiculoides_ 'wild' sequencing samples, indicating it may be a shared bacterium between the two host species.
+The 'Rhizobiales1' bin (@fig:fig3_Azmic_binning Rhizobiales1) recruited reads from all _A. filiculoides_ 'wild' sequencing samples, indicating it may be a shared bacterium between the two host species.
 The 'Bradyrhizobiaceae' bin is nearly as abundant as the main cyanobacterium, but recruits no reads from extraneous binning signals.
 The third most abundant bin is 'Nevskia' from the Nevskiales order.
-Manual binning of _A. microphylla_ yielded nineteen MAGs, of which eleven can be considered high quality and four medium quality, all with appropriate genome sizes (+@tbl:tbl3_MAGs_azmic).
+Manual binning of _A. microphylla_ yielded nineteen MAGs, of which eleven can be considered high quality and four medium quality, all with appropriate genome sizes (@tbl:tbl3_MAGs_azmic).
 
-In some metagenomes, the extraneous binning signals provided helpful information for some bins, for example, in _A. rubra_ and _A. mexicana_ (+@fig:fig3_Azrub_binning; +@fig:fig3_Azmex_binning).
-In other metagenomes, like _A. microphylla_, the extraneous binning signals provided little to no additional information for clustering (+@fig:fig3_Azmic_binning).
+In some metagenomes, the extraneous binning signals provided helpful information for some bins, for example, in _A. rubra_ and _A. mexicana_ (@fig:fig3_Azrub_binning; @fig:fig3_Azmex_binning).
+In other metagenomes, like _A. microphylla_, the extraneous binning signals provided little to no additional information for clustering (@fig:fig3_Azmic_binning).
 In such cases, abundance in the native sequencing library and k-mer clustering were used to disentangle bins from one another.
-Exceptionally, clustering dendrograms showed better clusters when clustering only on k-mer content and not on abundance data, in particular for _A. nilotica_ and _A. carolinana_ '1' (+@fig:fig3_Aznil_binning; +@fig:fig3_Azcar_1_binning).
+Exceptionally, clustering dendrograms showed better clusters when clustering only on k-mer content and not on abundance data, in particular for _A. nilotica_ and _A. carolinana_ '1' (@fig:fig3_Aznil_binning; @fig:fig3_Azcar_1_binning).
 Finally, scaffold taxonomy was considered as an indication to support specific groupings of scaffolds.
 Scaffold taxonomy often showed discrete patterns matching the input dendrogram and binning when other binning signals were already distinctive, further solidifying CAT taxonomy as a valuable binning signal.
 Few exceptions do exist in the data, for example _A. filiculoides_ 'wild' bins 'rest4', 'rest2' and 'Polaromonas', warranting caution in using CAT taxonomy without crossreferencing with other data.
-Regardless these exceptions, CAT taxonomy helped considerably when other binning signals were lacking, for example, in the case of the _A. caroliniana_ '2' metagenome (+@fig:fig3_Azcar_2_binning).
+Regardless these exceptions, CAT taxonomy helped considerably when other binning signals were lacking, for example, in the case of the _A. caroliniana_ '2' metagenome (@fig:fig3_Azcar_2_binning).
 In no case of manual metagenome binning was CAT taxonomy used as input for the clustering dendrograms in any of the Anvi'o figures.
 
-![Anvi'o overview of the _A. microphylla_ metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 184 Mbase of DNA in 17965 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. microphylla_ sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_MAGs_azmic.](source/figures/fig3_Azmic_binning.pdf ){#fig:fig3_Azmic_binning short-caption="Anvi'o overview of the A. microphylla metagenome"}
+![Anvi'o overview of the _A. microphylla_ metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 184 Mbase of DNA in 17965 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. microphylla_ sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in @tbl:tbl3_MAGs_azmic.](source/figures/fig3_Azmic_binning.pdf ){#fig:fig3_Azmic_binning short-caption="Anvi'o overview of the A. microphylla metagenome"}
 
 \begin{threeparttable}
 
@@ -542,15 +542,15 @@ Burkholderiales     & rest3                     & 1.62 &   0 &  0 &  20 & 0 \\
 Manual binning with extraneous binning signals worked well for individual metagenome assemblies.
 Next, we validate that this method produced high quality bins for all metagenomes binned here and compare it against automated binning approaches algorithms.
 Validation of binning is considered a prerequisite before continuing analyses.
-Manual binning provided between 12 and 21 bins for all metagenome assemblies which were not sterilised in the lab (+@tbl:tbl3_4 total nr. of bins).
-These bins together explain between 95 and 100% of each metagenome assembly (+@tbl:tbl3_4 metagenome fraction in bins).
+Manual binning provided between 12 and 21 bins for all metagenome assemblies which were not sterilised in the lab (@tbl:tbl3_4 total nr. of bins).
+These bins together explain between 95 and 100% of each metagenome assembly (@tbl:tbl3_4 metagenome fraction in bins).
 Binning quality is assessed via SCMG scoring in two separate programs: Anvi'o [@Eren2015]and CheckM [@Parks2015], resulting in a completeness and redundancy percentage per bin per method.
-The majority of bins resulting from the manual method are considered high-quality bins (+@tbl:tbl3_4 bins passing QC).
+The majority of bins resulting from the manual method are considered high-quality bins (@tbl:tbl3_4 bins passing QC).
 In order to compare automated methods to the manual appraoch, we plotted the completeness and rundancy percentages per method, per metagenome, ranked by completeness.
-Automated binning approaches like Concoct within Anvi'o and Metabat2 were often near-equally good in distinguishing bins of high quality (+@fig:fig3_binning_QC_anvio & +@fig:fig3_binning_QC_checkm) as the manual approach.
+Automated binning approaches like Concoct within Anvi'o and Metabat2 were often near-equally good in distinguishing bins of high quality (@fig:fig3_binning_QC_anvio & @fig:fig3_binning_QC_checkm) as the manual approach.
 
-The manual approach, however, succeeds in improving bin quality of those bins of medium quality (i.e. +@fig:fig3_binning_QC_anvio; _A. filiculoides_ 'minus-cyano') and low quality (i.e. +@fig:fig3_binning_QC_anvio; _A. mexicana_).
-Additionally, the manual method creates fewer bins compared to the automated methods (+@fig:fig3_binning_QC_anvio; black numbers: Concoct & Metabat2 vs Manual), while the amount of bins of high-quality increases or remains stable (+@fig:fig3_binning_QC_anvio; green numbers).
+The manual approach, however, succeeds in improving bin quality of those bins of medium quality (i.e. @fig:fig3_binning_QC_anvio; _A. filiculoides_ 'minus-cyano') and low quality (i.e. @fig:fig3_binning_QC_anvio; _A. mexicana_).
+Additionally, the manual method creates fewer bins compared to the automated methods (@fig:fig3_binning_QC_anvio; black numbers: Concoct & Metabat2 vs Manual), while the amount of bins of high-quality increases or remains stable (@fig:fig3_binning_QC_anvio; green numbers).
 This effectively means the diversity in a metagenome is explained with fewer genomes and of higher quality.
 Hence, the manual method allows to more reliably study the genomes of more bacteria associated with a sample.
 
@@ -595,30 +595,30 @@ Species \& Sample                                         &
 
 \end{threeparttable}
 
-![Binning quality control in Anvi'o [@Eren2015] of various binning methods. The quality of bins was assessed as completeness (dark green) and redundancy (red) by scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies (horizontal panels), comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual; vertical panels). Numbers in the panels show the total number of bins created by a particular method for a particular assembly (black) and those bins passing QC criteria of completeness above 90% and redundancy below 10% (Dark green). Grey lines in the figure also indicate these thresholds. Similar statistics were generated with CheckM [@Parks2015], utilising a different set of SCMGs. See +@fig:fig3_binning_QC_checkm](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_anvio short-caption="Binning QC with Anvi'o"}
+![Binning quality control in Anvi'o [@Eren2015] of various binning methods. The quality of bins was assessed as completeness (dark green) and redundancy (red) by scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies (horizontal panels), comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual; vertical panels). Numbers in the panels show the total number of bins created by a particular method for a particular assembly (black) and those bins passing QC criteria of completeness above 90% and redundancy below 10% (Dark green). Grey lines in the figure also indicate these thresholds. Similar statistics were generated with CheckM [@Parks2015], utilising a different set of SCMGs. See @fig:fig3_binning_QC_checkm](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_anvio short-caption="Binning QC with Anvi'o"}
 
 Next, we assessed if we could specificity of bin taxonomy as an additional quality metric.
 Bins were processed with CAT [@VonMeijenfeldt2019] mode for bins: BAT.
 Since taxonomy is now determined for long bins rather than short scaffolds, classification is likely more specific since more ORFs can be taken into account in the classification process when classifying bins.
 First, we compare the number of bins without classification for all host species and the three different binning methods.
-Again, the manual method outperforms the two automated methods: it created fewer bins without taxonomy on practically all levels of taxonomy in all metagenome assemblies (+@fig:fig3_binning_QC_no_taxonomy).
+Again, the manual method outperforms the two automated methods: it created fewer bins without taxonomy on practically all levels of taxonomy in all metagenome assemblies (@fig:fig3_binning_QC_no_taxonomy).
 Nearly all bins are assigned a taxonomy in all samples at the order level.
 Given the high generally QC scores and increased specificity of taxonomy, these binned metagenomes are ready to be studied in more detail.
 
 ![Counts of bins without taxonomic classification. Bin taxonomy was determined with BAT [@VonMeijenfeldt2019], and then counts of bins without taxonomy are shown as line plots for various levels of taxonomy (x-axis) and individual metagenome assemblies (vertical panels). Different binning methods (Concoct, Metabat2, Manual) are depicted in red, green and blue, respectively.](source/figures/fig3_binning_QC_no_taxonomy.pdf){#fig:fig3_binning_QC_no_taxonomy width=80% short-caption="Binning QC as unclassfied bins"}
 
 ## Systematic occurrence of taxonomical orders in the entire _Azolla_ genus
-Next, we assessed whether bins of certain taxonomical orders reoccur systematically in the _Azolla_ genus as scaffolds did in +@fig:fig3_Azolla_genus_metagenome_order.
+Next, we assessed whether bins of certain taxonomical orders reoccur systematically in the _Azolla_ genus as scaffolds did in @fig:fig3_Azolla_genus_metagenome_order.
 Since the binning process has concluded satisfactory, bins are now termed MAGs.
-At the level of Phylum, The majority of bins are classified as cyanobacteria and proteobacteria (+@fig:fig3_binning_QC_all_taxonomy; Phylum), the latter being dominated by Alphaproteobacteria at the class level (+@fig:fig3_binning_QC_all_taxonomy; class).
+At the level of Phylum, The majority of bins are classified as cyanobacteria and proteobacteria (@fig:fig3_binning_QC_all_taxonomy; Phylum), the latter being dominated by Alphaproteobacteria at the class level (@fig:fig3_binning_QC_all_taxonomy; class).
 This is concordant with the unbinned metagenome assemblies ([lauradijkhuizen.com/blog/AGMB](https://www.lauradijkhuizen.com/blog/AGMB); Taxonomy level=Phylum ; Taxonomy level=class).
-However, betaproteobactera are also present in all _Azolla_ samples, and gammaproteobacteria in all non-sterilised samples in the _Euazolla_ section of the _Azolla_ genus (+@fig:fig3_data_overview).
-Specifically, at the order level (+@tbl:tbl3_5; +@fig:fig3_binning_QC_all_taxonomy; order), Rhizobiales bacteria can be found in multiple bins associated with any of the _Azolla_ species examined, ranging from 4 to 8 bins.
+However, betaproteobactera are also present in all _Azolla_ samples, and gammaproteobacteria in all non-sterilised samples in the _Euazolla_ section of the _Azolla_ genus (@fig:fig3_data_overview).
+Specifically, at the order level (@tbl:tbl3_5; @fig:fig3_binning_QC_all_taxonomy; order), Rhizobiales bacteria can be found in multiple bins associated with any of the _Azolla_ species examined, ranging from 4 to 8 bins.
 Burkholderiales bacteria can be found in all but one biological sample and in all of the examined species.
-These two orders of bacteria are also the two orders present in the _A. filiculoides_ minus-cyano sample (+@fig:fig3_Azfil_minus_cyano_binning), and were found to be endophytic in _A. filiculoides_ 'wild' (+@tbl:tbl3_2).
+These two orders of bacteria are also the two orders present in the _A. filiculoides_ minus-cyano sample (@fig:fig3_Azfil_minus_cyano_binning), and were found to be endophytic in _A. filiculoides_ 'wild' (@tbl:tbl3_2).
 Both types of evidence support their endophytic status in both _A. filiculoides_ and possibly the _Azolla_ genus as a whole.
 Caulobacterales and Nevskiales were found in all _Azolla_ species in the _Euazolla_ section; all species except for _A. nilotica_.
-The former is found to be epiphytic in _A. filiculoides_, the later may be endophytic (+@tbl:tbl3_2).
+The former is found to be epiphytic in _A. filiculoides_, the later may be endophytic (@tbl:tbl3_2).
 Additionally, the Sphingomonadales order was found in all species except for _A. rubra_.
 The latter three orders were not systematically found in all _Azolla_ species but were found in plants sampled at different locations and sequenced in different labs.
 At the level of family and genus, few common denominators remain.
@@ -680,11 +680,11 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 \end{sidewaysfigure}
 
 # Discussion
-In this study, we assembled high-quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (+@fig:fig3_data_overview) through a process of thorough filtering (+@fig:fig3_filtering_and_assembly).
-Filtering substantially reduced the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (+@fig:fig3_filter_length_distributions).
-Each species' metagenome assembly contained several distinct bacterial genomes, and these metagenomes resembled each other in terms of taxonomy (+@fig:fig3_Azolla_genus_metagenome_order).
-Manual binning (+@fig:fig3_Azfil_wild_binning; +@fig:fig3_Azmic_binning) allowed to retrieve these MAGs better than automated binning approaches (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_no_taxonomy) and provide them to the _Azolla_ and plant-microbe research community.
-Several orders of bacteria are systematically associated with the _Azolla_ genus as a whole (+@fig:fig3_binning_QC_all_taxonomy; order).
+In this study, we assembled high-quality MAGs from non-metagenomic sequencing data of 6 species of the _Azolla_ genus (@fig:fig3_data_overview) through a process of thorough filtering (@fig:fig3_filtering_and_assembly).
+Filtering substantially reduced the fraction of eukaryotic DNA whilst not impacting Bacterial assembly quality (@fig:fig3_filter_length_distributions).
+Each species' metagenome assembly contained several distinct bacterial genomes, and these metagenomes resembled each other in terms of taxonomy (@fig:fig3_Azolla_genus_metagenome_order).
+Manual binning (@fig:fig3_Azfil_wild_binning; @fig:fig3_Azmic_binning) allowed to retrieve these MAGs better than automated binning approaches (@fig:fig3_binning_QC_anvio; @fig:fig3_binning_QC_no_taxonomy) and provide them to the _Azolla_ and plant-microbe research community.
+Several orders of bacteria are systematically associated with the _Azolla_ genus as a whole (@fig:fig3_binning_QC_all_taxonomy; order).
 
 ## Metagenome assemblies can be retrieved from publicly available non-metagenomic data
 Acquiring metagenomes from public sequencing data not originally meant for metagenome assembly is feasible and may be further applied to shed light on the mechanisms of host-microbe symbioses.
@@ -696,7 +696,7 @@ Such signals could be extracted from raw sequencing data, for example, by search
 
 Our approach allowed us to find bacteria associated with hosts studied in the past and paved the way to further mine host-bacteria interactions in _Azolla_ specifically.
 In particular, the approach allowed us to broaden our scope from only _A. filiculoides_ as in \ref{foul_play} [@Dijkhuizen2018], to the entire _Azolla_ genus.
-This broadened perspective allowed to identify commonalities even at the level of taxonomy (+@fig:fig3_Azolla_genus_metagenome_order; +@fig:fig3_binning_QC_all_taxonomy).
+This broadened perspective allowed to identify commonalities even at the level of taxonomy (@fig:fig3_Azolla_genus_metagenome_order; @fig:fig3_binning_QC_all_taxonomy).
 Since whole genomes are available, we can now wonder what pathways are shared between the genomes that are ostensibly shared between hosts.
 Expanding this method beyond _Azolla_ to other host species known to host bacterial symbionts may allow to gather a broad pallete of host-associated metagenomes without the need to specifically extract these bacteria from their biological enviroment.
 Comparative genomics of thise of host-associated bacteria can shed light on the commonalities of the associations, albeit genes, pathways or their taxonomy.
@@ -705,14 +705,14 @@ Alternatively there might be certain metabolites or excretion systems shared amo
 Possibly, these symbiosis facilitating genes differ per host, hence the anaysis may need to consider host-range as well.
 
 High-quality MAGs can be assembled from bulk DNA extractions with minimal filtering, but this process requires manual curation and interpretation.
-The double filtering of bulk DNA sequencing proved effective in removing host DNA even if only a related host genome was available (+@fig:fig3_filtering_and_assembly).
-Metagenome assemblies of double filtered data showed clean and distinct clusters of scaffolds resembling single bacterial genomes (+@fig:fig3_Azolla_genus_metagenome_order).
-The approach was, however, unnecessarily costly, for assembly quality did not increase (+@fig:fig3_filter_length_distributions; +@tbl:tbl3_1).
+The double filtering of bulk DNA sequencing proved effective in removing host DNA even if only a related host genome was available (@fig:fig3_filtering_and_assembly).
+Metagenome assemblies of double filtered data showed clean and distinct clusters of scaffolds resembling single bacterial genomes (@fig:fig3_Azolla_genus_metagenome_order).
+The approach was, however, unnecessarily costly, for assembly quality did not increase (@fig:fig3_filter_length_distributions; @tbl:tbl3_1).
 The k-mer spaces in which these genomes are assembled are presumably so distinct that they do not overlap in a De Bruijn graph even before filtering.
 Therefore, the co-assembly of these genomes would not create ambiguities which the assembler could not solve.
 By this argument, filtering of the bulk DNA extraction may even be obsolete; @Delmont2016 showed that bacterial genomes could be extracted from a bulk assembly of host and symbionts.
 Particularly for very big host genomes, as is the case for the _Azolla_ genus, removing host DNA with a single host filtering step may be the preferable and faster approach than (re)assembling the host's genome in the process.
-At the very least, host filtering allows to assemble a metagenome with fewer RAM resources (+@fig:fig3_filtering_and_assembly\-B; RAM usage) and hence allows for bigger hybrid assemblies.
+At the very least, host filtering allows to assemble a metagenome with fewer RAM resources (@fig:fig3_filtering_and_assembly\-B; RAM usage) and hence allows for bigger hybrid assemblies.
 Alternatively, host scaffolds can be removed after assembly using CAT taxonomy, thereby relaxing resource requirements for the manual binning process.
 The Anvi'o interactive interface was essential in manual binning, but the feasibility of this process was reduced substantially with very large metagenome assemblies such as that of _A. rubra_ at 200 MBase.
 We estimate that the beneficial effect of filtering after assembly on manual binning feasibility would equal the double filtering step.
@@ -728,24 +728,24 @@ In the data used here, this differential sampling is often not present.
 Instead, we build on the assumption that some microbes may be shared amongst different _Azolla_ species and use sequencing data of related species to differentiate different microbial genomes from each other.
 Such extraneous binning signals may provide false motivation to exclude a certain part of a microbe's genome that is present in the assembly but not in the data used as a binning signal.
 Therefore, we consider manual curation a requirement when using such binning signals while appropriately valuing and cross-referencing the different binding signals available.
-In binning the _Azolla_ species studied here, binning signals of related samples were occasionally informative in the manual binning process (+@fig:fig3_Azmex_binning), but some samples not (+@fig:fig3_Azmic_binning).
+In binning the _Azolla_ species studied here, binning signals of related samples were occasionally informative in the manual binning process (@fig:fig3_Azmex_binning), but some samples not (@fig:fig3_Azmic_binning).
 This method can be informative only when genomes in a metagenome are expected to be shared between two different host DNA extractions.
 The feasibility of this approach depends on the community complexity, relatedness of the samples available, and similarity of microbes in those samples.
 
 Scaffold taxonomy determined by CAT proved to be a valuable additional binning signal when differential abundance was lacking.
-CAT classifications often overlapped well with bins demarcated clearly by other binning signals (+@fig:fig3_Azfil_wild_binning; +@fig:fig3_Azmic_binning; +@fig:fig3_Azfil_lab_binning; +@fig:fig3_Azfil_minus_cyano_binning; +@fig:fig3_Azmex_binning; +@fig:fig3_Aznil_binning; +@fig:fig3_Azrub_binning; +@fig:fig3_Azcar_1_binning; +@fig:fig3_Azcar_2_binning).
+CAT classifications often overlapped well with bins demarcated clearly by other binning signals (@fig:fig3_Azfil_wild_binning; @fig:fig3_Azmic_binning; @fig:fig3_Azfil_lab_binning; @fig:fig3_Azfil_minus_cyano_binning; @fig:fig3_Azmex_binning; @fig:fig3_Aznil_binning; @fig:fig3_Azrub_binning; @fig:fig3_Azcar_1_binning; @fig:fig3_Azcar_2_binning).
 This result further confirms the robustness of CAT scaffold classifications and its use case for manual binning when depth and k-mer profiles are lacking.
-The specificity of CAT taxonomy differed substantially: some bins were reliably and reproducibly classified at the genus level (+@fig:fig3_Azmic_binning; Nevskia) while others only were classified at the phylum level (+@fig:fig3_Azmic_binning; Bacteriodetes).
+The specificity of CAT taxonomy differed substantially: some bins were reliably and reproducibly classified at the genus level (@fig:fig3_Azmic_binning; Nevskia) while others only were classified at the phylum level (@fig:fig3_Azmic_binning; Bacteriodetes).
 Database bias surely plays a role in this specificity issue.
 Despite this bias, our results show that for the scaffolds within a single bin, both the taxonomy and specificity thereof are consistent.
 Single copy marker gene validation with both CheckM and Anvi'o supported the quality of bins for which CAT classification was instrumental in their reconstruction.
-Manual binning even proved more effective compoared to automated binning approaches; explaining metagenomes in less bins of higher quality (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_checkm).
+Manual binning even proved more effective compoared to automated binning approaches; explaining metagenomes in less bins of higher quality (@fig:fig3_binning_QC_anvio; @fig:fig3_binning_QC_checkm).
 
 Our view on these methods is that a researcher should bin primarily on the differential abundance in sample-native sequencing libraries and scaffold k-mer profiles.
 When those primary binning signals are unclear, extraneous binning signals and scaffold taxonomy may be used in an advising manner.
 Additionally, when using extraneous binning signals, these potential MAGs should be cross-referenced with the k-mer profile only clustering of scaffolds to resolve conflicts.
-This manual approach yielded fewer bins per metagenome, which were of higher quality as determined by SCMG analyses (+@fig:fig3_binning_QC_anvio; +@fig:fig3_binning_QC_checkm; manual vs Metabat2 and Concoct).
-Additionally, the specificity of the taxonomy of these bins as determined by BAT increased (+@fig:fig3_binning_QC_no_taxonomy; Manual vs Metabat2 and Concoct), indicating that the complete gene content of these bins was more like known genomes of similar taxonomy.
+This manual approach yielded fewer bins per metagenome, which were of higher quality as determined by SCMG analyses (@fig:fig3_binning_QC_anvio; @fig:fig3_binning_QC_checkm; manual vs Metabat2 and Concoct).
+Additionally, the specificity of the taxonomy of these bins as determined by BAT increased (@fig:fig3_binning_QC_no_taxonomy; Manual vs Metabat2 and Concoct), indicating that the complete gene content of these bins was more like known genomes of similar taxonomy.
 Manual binning and manual curation of extraneous binning signals allowed for a more parsimonious solution of the _Azolla_ genus metagenome, providing MAGs of higher quality.
 
 ## microbiome vertical transmission in _Azolla_
@@ -757,25 +757,25 @@ _A. filiculoides_ sequenced by @Li2018 was taken from a Ditch near the Galgenwaa
 Several years later, in 2015, we went to the same ditch to sequence _A. filiculoides_ for Chapter \ref{foul_play} [@Dijkhuizen2018].
 The _Azolla_ population in this ditch does not survive the winter, and hence we reason the microbes sequenced in Chapter \ref{foul_play} [@Dijkhuizen2018] have survived three generations, either through direct vertical transfer via the ferns megaspores or via re-inoculation from the surrounding environment.
 Secondly, the presence of the same microbes in the thoroughly sterilised _A. filiculoides_ minus-cyano provides further indication that these microbes are endophytic and, in that way, survived the sterilisation process.
-The genomes present in both 2012 and 2015 _A. filiculoides_ are most easily extracted from the binning overview of the _A. filiculoides_ 'lab' strain (+@fig:fig3_Azfil_lab_binning).
+The genomes present in both 2012 and 2015 _A. filiculoides_ are most easily extracted from the binning overview of the _A. filiculoides_ 'lab' strain (@fig:fig3_Azfil_lab_binning).
 Several MAGs are clearly present in the native 'lab' strain sequencing (black), the 'wild' strain sequencing leaf pocket (blue) and whole plant (green), and finally in the 'minus-cyano' strain (yellow).
-These MAGs are the 'Rhizobiaceae endophytic', 'Ralstonia 1', and 'Burkholderiales' (+@fig:fig3_Azfil_lab_binning).
-The former two are also clearly present in the _A. filiculoides_ minus-cyano data (+@fig:fig3_Azfil_lab_binning yellow).
-Bins of the same taxonomy are also present in the metagenome of _A. filiculoides_ minus-cyano (+@fig:fig3_Azfil_minus_cyano_binning).
+These MAGs are the 'Rhizobiaceae endophytic', 'Ralstonia 1', and 'Burkholderiales' (@fig:fig3_Azfil_lab_binning).
+The former two are also clearly present in the _A. filiculoides_ minus-cyano data (@fig:fig3_Azfil_lab_binning yellow).
+Bins of the same taxonomy are also present in the metagenome of _A. filiculoides_ minus-cyano (@fig:fig3_Azfil_minus_cyano_binning).
 These results and the visual detection of bacteria in _Azolla_ megaspores, make it very likely that these bacteria are indeed vertically transmitted, at the very least in _A. filiculoides_.
 Other MAGs might also be endophytic and vertically transmitted, but their abundance is lower than the detection limit in the sequencing of \ref{foul_play} [@Dijkhuizen2018].
 
 Systematic association of a taxonomic group with the _Azolla_ genus may -given the known mechanism of transfer- imply these bacteria are endophytic and vertically transmitted as well.
-The two most abundant orders in the whole _Azolla_ genus were found to be endophyic in _A. filiculoides_ 'wild': Rhizobiales and Burkholderiales (+@fig:fig3_Azfil_wild_binning).
-However, especially the Rhizobiales order was represented by many MAGs, not all endophytic (+@tbl:tbl3_2).
-The Nevskiales order may also be endophytic, since it survived stringent sterilisation of the _A. filiculoides_ 'minus-cyano' sample (+@fig:fig3_Azfil_wild_binning rest2).
-These three orders are all widely reoccuring throughout the entire genus (+@fig:fig3_binning_QC_all_taxonomy order).
+The two most abundant orders in the whole _Azolla_ genus were found to be endophyic in _A. filiculoides_ 'wild': Rhizobiales and Burkholderiales (@fig:fig3_Azfil_wild_binning).
+However, especially the Rhizobiales order was represented by many MAGs, not all endophytic (@tbl:tbl3_2).
+The Nevskiales order may also be endophytic, since it survived stringent sterilisation of the _A. filiculoides_ 'minus-cyano' sample (@fig:fig3_Azfil_wild_binning rest2).
+These three orders are all widely reoccuring throughout the entire genus (@fig:fig3_binning_QC_all_taxonomy order).
 It is tempting, perhaps reasonable, to then extrapolate that these orders are endophytes of other _Azolla_ ferns too.
 The Spingomondadales for example, may be subject to this reasonoing for it is present in all but one _Azolla_ host, and on a deeper level of taxonomy only accounts for two genera: Novosphingobium and Sphingomonas.
 Yet, a counter-example also exits within our data: Caulobacteriales.
-Caulobacterales are associated with all _Azolla_ species, but its genome was found to be epi-phytic in _A. filiculoides_ 'wild' (+@tbl:tbl3_2 Caulobacter).
+Caulobacterales are associated with all _Azolla_ species, but its genome was found to be epi-phytic in _A. filiculoides_ 'wild' (@tbl:tbl3_2 Caulobacter).
 Another exception to the theory are the Rhodospirillales.
-This group is endophytic to _A. filiculoides_ 'wild' (+@tbl:tbl3_2 Rhodospirillales) yet unique to this host (+@fig:fig3_binning_QC_all_taxonomy).
+This group is endophytic to _A. filiculoides_ 'wild' (@tbl:tbl3_2 Rhodospirillales) yet unique to this host (@fig:fig3_binning_QC_all_taxonomy).
 Concluding, we propose there is a certain modularity to the _Azolla_ genus metagenome.
 We theorise that some bacteria are, like the main symbiont _N. azollae_, capable of being vertically transmitted; specifically bacteria in the Rhizobiales Burkholderiales and Nevskiales orders.
 These bacteria likely have some niche in the symbiosis, hence their relatives are often atracted to the ferns but in a facultative nature.
@@ -802,18 +802,18 @@ Alternatively, FISH may pinpoint the exact location of the bacteria whose genome
 Inspired by the holobiont concept [@Zilber-Rosenberg2008] and the mechanism for vertical transfer in _Azolla_ ferns, it makes sense to study a symbiosis like _Azolla_ from the genus perspective rather than a single species.
 Systematically _Azolla_ associated bacteria besides the primary symbiont are predominantly proteobacteria, mostly Alphaproteobacteria and Betaproteobacteria (fig:fig3_binning_QC_all_taxonomy; Phylum & class).
 These classes have often been seen as endophytes to plants before [@Frank2018].
-More specifically, _Azolla_ ferns systematically harbour microbes of six taxonomical orders (+@tbl:tbl3_5; fig:fig3_binning_QC_all_taxonomy; order).
+More specifically, _Azolla_ ferns systematically harbour microbes of six taxonomical orders (@tbl:tbl3_5; fig:fig3_binning_QC_all_taxonomy; order).
 Beyond the level of order, no clear taxonomical pattern is distinguishable other than the main symbiont _N. azollae_ (fig:fig3_binning_QC_all_taxonomy; family & genus).
 The Nostocales order encompasses only the main symbiont _N. azollae_ and was highly abundant in all species, contradicting theories that other cyanobacterial strains may inhibit _Azolla_ ferns at lower abundances [@Papaefthimiou2008].
 This one other cyanobacterial bin found associated with _A. filiculoides_ 'wild' was epiphytic.
 The two most prominent orders, Burkholderiales and Rhizobiales, were already identified in Chapter \ref{foul_play} [@Dijkhuizen2018].
 However, their genomes across the entire _Azolla_ genus were not published before, nor was it clear that multiple Rhizobiales and Burkholderiales genomes are systematically associated with single species of the _Azolla_ genus.
-The remaining three orders, Caulobacterales, Nevskiales and Sphingomonadales, were seen before in \ref{foul_play} [@Dijkhuizen2018] (+@fig:fig2_2; +@fig:fig2_3), but not as whole genomes across the entire genus.
-Only the Nevskiales may be endophytic for it survived stringed sterilisation of _A. filiculoides_ 'minus-cyano' (+@tbl:tbl3_2 rest2)
+The remaining three orders, Caulobacterales, Nevskiales and Sphingomonadales, were seen before in \ref{foul_play} [@Dijkhuizen2018] (@fig:fig2_2; @fig:fig2_3), but not as whole genomes across the entire genus.
+Only the Nevskiales may be endophytic for it survived stringed sterilisation of _A. filiculoides_ 'minus-cyano' (@tbl:tbl3_2 rest2)
 
 Despite intensive sequencing efforts, this study does not exhaust the diversity of _Azolla_ associated microbes.
-All assemblies except for _A. filiculoides_ minus_cyano contained many scaffolds near the lower abundance limit of assembly (+@fig:fig3_Azolla_genus_metagenome_order) and in concordance binning yielded many bins with only fractions of genomes (+@fig:fig3_Azfil_wild_binning +@tbl:tbl3_2).
-Still, between 11 and 21 bacterial genomes were found with any _Azolla_ species analysed here (+@tbl:tbl3_4).
+All assemblies except for _A. filiculoides_ minus_cyano contained many scaffolds near the lower abundance limit of assembly (@fig:fig3_Azolla_genus_metagenome_order) and in concordance binning yielded many bins with only fractions of genomes (@fig:fig3_Azfil_wild_binning @tbl:tbl3_2).
+Still, between 11 and 21 bacterial genomes were found with any _Azolla_ species analysed here (@tbl:tbl3_4).
 
 The new availability of all MAG sequences allows for studying the bacteria of the _Azolla_ genus through the perspective of comparative genomics.
 We may now inquire, for example, if _Azolla_ associated bacteria share a common ancestor and a common introduction in the _Azolla_ genus, if their metabolism is similar, and if their genomes have adapted to the symbiotic lifestyle.
@@ -839,7 +839,7 @@ Alternatively, facultative, or passing symbionts, may provide a pool of genetic 
 All _Azolla_ metagenomes considered here contain multiple Rhizobiales genomes.
 In _A. filiculoides_, several of these are considered endophytic, and several epiphytic.
 The symbiotic lifestyle can cause genome degradation of bacterial symbionts.
-Genome degradation of _N. azollae_ can even be seen by its varying abundance profile (+@fig:fig3_Azolla_genus_metagenome_order cyan blue).
+Genome degradation of _N. azollae_ can even be seen by its varying abundance profile (@fig:fig3_Azolla_genus_metagenome_order cyan blue).
 No other bacterial genome shows this pattern, yet some of them are likely endophytic and vertically transmitted over generations.
 Inflow of genetic material of related bacteria may be a method for _Azolla_ to keep its Rhizobiales endophytes young and free of genome degradation, similarly as was described for shellfish in @Russell2020.
 
@@ -969,23 +969,23 @@ We gladly share all genomes of bacteria associated with the _Azolla_ genus with 
 | _Azolla caroliniana_ 2            | Rhizobiales        | Rhizobiales3              | 4.03       | 100          | 6            | 98            | 1             |
 | _Azolla caroliniana_ 2            | Nostocales         | Trichormus                | 4.72       | 97           | 4            | 98            | 0             |
 
-Table: MAG statistics for all samples except those _A. filiculoides_ 'wild' and _A. microphylla_ which are shown in +@tbl:tbl3_2 and +@tbl:tbl3_MAGs_azmic respectively. {#tbl:tbl3_all_MAGs}
+Table: MAG statistics for all samples except those _A. filiculoides_ 'wild' and _A. microphylla_ which are shown in @tbl:tbl3_2 and @tbl:tbl3_MAGs_azmic respectively. {#tbl:tbl3_all_MAGs}
 
 \normalsize
 
-![Anvi'o overview of the _A. filiculoides_ 'lab' metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 116 Mbase of DNA in 9467 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. filiculoides_ 'lab' sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (light green), and scaffold abundance in PacBio reads from the _A. filiculoides_ 'lab' sample (yellow). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_2.](source/figures/fig3_Azfil_lab_binning.pdf){#fig:fig3_Azfil_lab_binning short-caption="Anvi'o overview of the A. filiculoides 'lab' metagenome"}
+![Anvi'o overview of the _A. filiculoides_ 'lab' metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 116 Mbase of DNA in 9467 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. filiculoides_ 'lab' sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (light green), and scaffold abundance in PacBio reads from the _A. filiculoides_ 'lab' sample (yellow). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in @tbl:tbl3_2.](source/figures/fig3_Azfil_lab_binning.pdf){#fig:fig3_Azfil_lab_binning short-caption="Anvi'o overview of the A. filiculoides 'lab' metagenome"}
 
-![Anvi'o overview of the _A. filiculoides_ 'minus-cyano' metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 37 Mbase of DNA in 971 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. filiculoides_ 'minus-cyano' sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (light green), scaffold abundance in PacBio reads from the _A. filiculoides_ 'lab' sample (yellow). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_all_MAGs.](source/figures/fig3_Azfil_minus_cyano_binning.pdf){#fig:fig3_Azfil_minus_cyano_binning short-caption="Anvi'o overview of the A. filiculoides 'minus-cyano' metagenome"}
+![Anvi'o overview of the _A. filiculoides_ 'minus-cyano' metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 37 Mbase of DNA in 971 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. filiculoides_ 'minus-cyano' sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (light green), scaffold abundance in PacBio reads from the _A. filiculoides_ 'lab' sample (yellow). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in @tbl:tbl3_all_MAGs.](source/figures/fig3_Azfil_minus_cyano_binning.pdf){#fig:fig3_Azfil_minus_cyano_binning short-caption="Anvi'o overview of the A. filiculoides 'minus-cyano' metagenome"}
 
-![Anvi'o overview of the _A. rubra_ metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 104 Mbase of DNA in 7601 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. rubra_ sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_all_MAGs.](source/figures/fig3_Azrub_binning.pdf ){#fig:fig3_Azrub_binning short-caption="Anvi'o overview of the A. rubra metagenome"}
+![Anvi'o overview of the _A. rubra_ metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 104 Mbase of DNA in 7601 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. rubra_ sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in @tbl:tbl3_all_MAGs.](source/figures/fig3_Azrub_binning.pdf ){#fig:fig3_Azrub_binning short-caption="Anvi'o overview of the A. rubra metagenome"}
 
-![Anvi'o overview of the _A. mexicana_ metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 196 Mbase of DNA in 16132 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. mexicana_ sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_all_MAGs.](source/figures/fig3_Azmex_binning.pdf ){#fig:fig3_Azmex_binning short-caption="Anvi'o overview of the A. mexicana metagenome"}
+![Anvi'o overview of the _A. mexicana_ metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 196 Mbase of DNA in 16132 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. mexicana_ sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in @tbl:tbl3_all_MAGs.](source/figures/fig3_Azmex_binning.pdf ){#fig:fig3_Azmex_binning short-caption="Anvi'o overview of the A. mexicana metagenome"}
 
-![Anvi'o overview of the _A. nilotica_ metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 175 Mbase of DNA in 15333 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. nilotica_ sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_all_MAGs.](source/figures/fig3_Aznil_binning.pdf ){#fig:fig3_Aznil_binningshort-caption="Anvi'o overview of the A. nilotica metagenome"}
+![Anvi'o overview of the _A. nilotica_ metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 175 Mbase of DNA in 15333 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. nilotica_ sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in @tbl:tbl3_all_MAGs.](source/figures/fig3_Aznil_binning.pdf ){#fig:fig3_Aznil_binningshort-caption="Anvi'o overview of the A. nilotica metagenome"}
 
-![Anvi'o overview of the _A. caroliniana_ '1' metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 164 Mbase of DNA in 15854 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. carolinana_ '1' sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_all_MAGs.](source/figures/fig3_Azcar_1_binning.pdf ){#fig:fig3_Azcar_1_binning short-caption="Anvi'o overview of the A. caroliniana '1' metagenome"}
+![Anvi'o overview of the _A. caroliniana_ '1' metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 164 Mbase of DNA in 15854 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. carolinana_ '1' sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in @tbl:tbl3_all_MAGs.](source/figures/fig3_Azcar_1_binning.pdf ){#fig:fig3_Azcar_1_binning short-caption="Anvi'o overview of the A. caroliniana '1' metagenome"}
 
-![Anvi'o overview of the _A. caroliniana_ '2' metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 150 Mbase of DNA in 12358 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. carolinana_ '2' sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in +@tbl:tbl3_all_MAGs.](source/figures/fig3_Azcar_2_binning.pdf ){#fig:fig3_Azcar_2_binning short-caption="Anvi'o overview of the A. caroliniana '2' metagenome"}
+![Anvi'o overview of the _A. caroliniana_ '2' metagenome assembly and binning into MAGs. The centre dendrogram reflects a hierarchical clustering of 150 Mbase of DNA in 12358 scaffolds. The clustering is based on 4-mer profiles and differential abundance in biological samples. In the dendrogram, each leaf is one scaffold (or split in Anvi'o). In circles around the dendrogram, metadata about the scaffolds is displayed. This metadata is, in order of inside to outside: split-parent, scaffold length, scaffold GC content (dark green), scaffold abundance in _A. carolinana_ '2' sequencing (black), scaffold abundance in leaf cavity enriched samples (blue), scaffold abundance in whole plant samples (green). Then follow several coloured rings representing taxonomy determined by CAT, starting at the kingdom level down to the species level. The before-last red ring indicates the presence of any ribosomal RNA genes in a scaffold (drastically influencing the depth of the scaffold and, therefore, the binning process). The final ring indicates in which bin a scaffold was categorised. The corresponding bins, their size and estimated completeness are shown in @tbl:tbl3_all_MAGs.](source/figures/fig3_Azcar_2_binning.pdf ){#fig:fig3_Azcar_2_binning short-caption="Anvi'o overview of the A. caroliniana '2' metagenome"}
 
 ![Binning quality control in CheckM [@Parks2015] of various binning methods. The quality of bins was assessed as completeness (dark green) and redundancy (red) by scoring SCMGs. Bin quality was assessed for all bins of all metagenome assemblies (horizontal panels), comparing two automated binning methods (Metabat2 and Concoct) and the manual method described here (Manual; vertical panels). Numbers in the panels show the total number of bins created by a particular method for a particular assembly (black) and those bins passing QC criteria of completeness above 90% and redundancy below 10% (Dark green). These thresholds are also indicated by grey lines in the figure.](source/figures/fig3_binning_QC_anvio.pdf ){#fig:fig3_binning_QC_checkm short-caption="Binning QC with CheckM"}
 

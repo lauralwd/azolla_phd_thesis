@@ -59,7 +59,7 @@ Een positief en veilig studieklimaat is enorm belangrijk voor onderwijs; positie
 Andersom merkte ik ook hoe gebrek aan een positief studieklimaat leren in de weg kan zitten.
 Ervaring heeft me geleerd dat niets zo stimulerend en activerend werkt op studenten als een gevoel van autonomie en bekwaamheid om een uitdaging aan te kunnen.
 Ik probeer praktisch onderwijs zodanig in te richten, met oplopende graad van uitdaging en daarmee een oplopende graad van bekwaamheid.
-Een praktische onderwijssetting, zij het een werkcollege of een practicum, is voor mij geslaagd als een student zich vrij voelt om elke vraag te stellen aan mij of aan een collega (+@fig:fig_bko-1).
+Een praktische onderwijssetting, zij het een werkcollege of een practicum, is voor mij geslaagd als een student zich vrij voelt om elke vraag te stellen aan mij of aan een collega (@fig:fig_bko-1).
 
 Uit een anonieme exit enquête:
 _`The smaller group was very positive, made you really feel like a class, overall vibe was really good. Also mainly because Laura was very positive and wanted to help everyone, she was really open and always so cheerful. What I also really appreci­ated were the (coffee) breaks in between lectures. Really gave you time to refocus`_
@@ -77,7 +77,7 @@ Gedurende mijn coördinatie verenigde ik de onderdelen en maakte meer ruimte te 
 Ik heb alle cursusonderdelen opnieuw gerangschikt naargelang naar het centrale dogma van de biologie.
 Elke dag begon met een korte uitleg van de relaties tussen dit onderdeel en de overigen.
 Door het benadrukken van overeenkomsten tussen onderdelen, zowel methodisch als thematisch, denk ik de cognitieve belasting van de onderdelen verminderd te hebben.
-Dit concludeer ik onder andere uit de steeds (succesvollere en) snellere afronding van practica Studenten bevestigden achteraf dat zij dit als zeer prettig ervaren hebben (+@fig:fig_bko-5).
+Dit concludeer ik onder andere uit de steeds (succesvollere en) snellere afronding van practica Studenten bevestigden achteraf dat zij dit als zeer prettig ervaren hebben (@fig:fig_bko-5).
 De gemiddelde score op de vraag "This course has improved my understanding of the concepts and princicples of the subject matter" steeg naar 3.9, vergeleken met een 3.5 in april 2021 en een 3,2 en 2.8 in 2019 voordat ik het coördinatorschap overnam.
 De april 2021 versie werd online gegeven als gevolg van de COVID-19 pandemie.
 
@@ -124,7 +124,7 @@ Daarmee kreeg ik ook de vrijheid om die volledig the hervormen naar mijn eigen v
 Gedurende de verschillende versies van de cursus kon ik die blijven verbeteren met goede feedback als gevolg.
 Veel belangrijker dan een quote positieve feedback, vind ik de toename van vertrouwen waarmee ik studenten terug de onderzoeksomgeving instuur.
 Ik vroeg studenten voor en na mijn cursus of ze zelfverzekerd een bioinformatica experiment zouden voorstellen tijdens een stage of cursus.
-Dat vertrouwen was duidelijk toegenomen na de cursus (+@fig:fig_bko-9 & +@fig:fig_bko-10).
+Dat vertrouwen was duidelijk toegenomen na de cursus (@fig:fig_bko-9 & @fig:fig_bko-10).
 
 Uit een anoniemme exit enquête:
 _`Laura's lectures were very clear, but some of the guest lecturerers went a bit too fast. This made some lectures difficult to understand, especially when you are not really familiar with the topic.`_
@@ -138,7 +138,7 @@ Deze toename was voor mij een teken dat ik goed op weg was met deze cursus en ee
 ## Organisatorische kwaliteiten
 Communicatie met studenten, verwachtingenmanagement en aansluiting bij voorkennis zijn heel belangrijk om een cursus tot zijn recht te laten komen.
 In mijn bijdragen aan verschillende cursussen in de biologie bachelor zag ik zowel geslaagde als niet geslaagde voorbeelden van deze drie organisatorische handelingen.
-Om de juiste verwachtingen te creëren licht ik de studenten ruim van te voren in over de onderwijsvormen, vereisten en examinering van mijn cursus (+@fig:fig_bko-12).
+Om de juiste verwachtingen te creëren licht ik de studenten ruim van te voren in over de onderwijsvormen, vereisten en examinering van mijn cursus (@fig:fig_bko-12).
 Eerst schriftelijk via een complete en duidelijke e-mail, daarna aan het begin van de IntroBioinfo cursus met een start-college.
 Die duidelijkheid schiep ruimte om tijdens de cursus informeler te handelen en dichterbij de studenten te staan.
 Mededocenten waardeerde de centrale organisatie vanuit mij en de lastenverlichting die dat voor hen met zich meebracht.

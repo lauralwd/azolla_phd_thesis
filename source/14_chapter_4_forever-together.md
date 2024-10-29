@@ -131,7 +131,7 @@ Github
 
 ## novoplasty
 
-De-novo assemblies of plastids turned out to be highly fragmented and too big compared to the reference, even when reference sequences were taken into account during assembly using the SPAdes `--trusted-contigs` option (+@fig:fig4_chloroplast_spades_assemblies).
+De-novo assemblies of plastids turned out to be highly fragmented and too big compared to the reference, even when reference sequences were taken into account during assembly using the SPAdes `--trusted-contigs` option (@fig:fig4_chloroplast_spades_assemblies).
 The de-novo SPAdes algorithm seemed to be too cautious in collapsing similar contigs into one, and hence created bubbles in the assembly graph.
 The resulting fragmented assembly contains gene fragments and duplicates and hence is unsuited for phylogenomic analyses as we aim to perform here.
 SPAdes assemblies of the mitochondrium were plagued by similar issues (data not shown).
@@ -157,7 +157,7 @@ When multiple samples are available, taking the longest insert size.
 
 We aim to to perform comparative genomes and study co-evolution of *T. azollae* and its host via host plasmids.
 To achieve this, we must first acquire all *T. azollae* and *Azolla* plastid genomes that are not available publicly yet.
-These genomes were assembled either from public *Azolla* sequencing data, or newly acquired nanopore data with assemblers appropriate for either a bacterial or plastid genomes and the right data type (+@fig:fig4_assembly_stats).
+These genomes were assembled either from public *Azolla* sequencing data, or newly acquired nanopore data with assemblers appropriate for either a bacterial or plastid genomes and the right data type (@fig:fig4_assembly_stats).
 
 ![Assembly statistics of all newly acquired cyanobiont and plastid genomes.](source/figures/fig4_assembly_stats.pdf){#fig:fig4_assembly_stats short-caption="Assembly statistics of all newly acquired cyanobiont and plastid genomes."}
 
@@ -166,25 +166,25 @@ These genomes were assembled either from public *Azolla* sequencing data, or new
 As a first experiment, nanopore sequencing was used to assemble chromosome length assemblies of *T. azollae* taken the from the *A. filiculoides* Galgenwaard strain.
 The original genome assembly of *T. azollae* from *A. filiculoides* was based on 454 sequencing data and was assembled with CAP5 [@Ran2010].
 CAP5 was a pioneering program, but is known to handle repetition poorly; hence we sought to confirm the original *T azollae* genome assembly.
-In previous attempts we failed to assemble a closed *T. azollae* genome with the original 454 data, or with illumina data with various fragment lengths (+@fig:fig4_assembly_stats; *Nostoc azollae*).
+In previous attempts we failed to assemble a closed *T. azollae* genome with the original 454 data, or with illumina data with various fragment lengths (@fig:fig4_assembly_stats; *Nostoc azollae*).
 These assemblies were scattered of thousands of contigs.
 
 The nanopore sequencing and assembly protocol was new to the lab so this experiment also served as a proof of concept of the technique in our hands.
-Sequencing produced sufficient reads of sufficient length after baiting to proceed with assembly (+@fig:fig4_assembly_stats; Sequencing input and read N50).
-This initial nanopore assembly produced a perfect round assembly with two plasmids for the *A. filiculoides* strain of the cyanobiont (+@fig:fig4_Nazollae_nanopore_assemblies; *Azolla filiculoides* 'lab').
+Sequencing produced sufficient reads of sufficient length after baiting to proceed with assembly (@fig:fig4_assembly_stats; Sequencing input and read N50).
+This initial nanopore assembly produced a perfect round assembly with two plasmids for the *A. filiculoides* strain of the cyanobiont (@fig:fig4_Nazollae_nanopore_assemblies; *Azolla filiculoides* 'lab').
 Successful sequencing and assembly established the sequencing and assembly protocol in our lab.
 
 Armed with a working protocol, we sequenced *A. pinnata*.
-*A. pinnata* is the only *Azolla* species that has not been sequenced yet, and it is relatively far removed from *A. filiculoides* in the *Azolla* genus phylogeny (+@fig:fig3_data_overview).
+*A. pinnata* is the only *Azolla* species that has not been sequenced yet, and it is relatively far removed from *A. filiculoides* in the *Azolla* genus phylogeny (@fig:fig3_data_overview).
 The same protocol was applied to an *Azolla* strain indicated as 'Bordeaux', and another indicated as 'Anzali'.
 Both are named after their sampling location in France and Iran respectively.
 However, the 'Anzali' strains DNA extractions and library preparations were unsuccessful.
 Presumably, secondary metabolites in this particular strain inhibit one of the molecular steps in the protocols.
-Sequencing did succeed for *A. pinnata* and to a lesser extent for *A sp.* Bordeaux (+@fig:fig4_assembly_stats; Sequencing input and read N50).
+Sequencing did succeed for *A. pinnata* and to a lesser extent for *A sp.* Bordeaux (@fig:fig4_assembly_stats; Sequencing input and read N50).
 
 *T. azollae* reads from the *A. pinnata* and *A. sp.* 'Bordeaux were baited and assembled.
 The *A pinnata* assembly turned out high quality and single chromosome in addition to some fragmented plasmids.
-The *A. sp.* Bordeax assembly turned out highly fragmented and low quality due to low sequencing depth. (+@fig:fig4_Nazollae_nanopore_assemblies).
+The *A. sp.* Bordeax assembly turned out highly fragmented and low quality due to low sequencing depth. (@fig:fig4_Nazollae_nanopore_assemblies).
 With a complete collection of *Azolla* cyanobionts, we turn to the *Azolla* chloroplasts.
 
 ![Assembly summary of *T. azollae* flye assemblies. Assembly graph visualisations were made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches as randomly coloured strips and connections between these contigs as grey transparent lines. Statistics (right) were also generated with Bandage.](source/figures/fig4_Nazollae_nanopore_assemblies.pdf){#fig:fig4_Nazollae_nanopore_assemblies short-caption="Graphical assembly summary of Flye assemblies"}
@@ -193,15 +193,15 @@ With a complete collection of *Azolla* cyanobionts, we turn to the *Azolla* chlo
 
 The *A. filiculoides* chloroplast reference genome is available at fernbase [@Li2018], and allows for baiting chloroplast reads of other *Azolla* species.
 Chloroplasts of other *Azolla* species were also assembled by @Li2018 for comparative phylogenomics of fern and *T. azollae*, but we could not find these in the repositories.
-First assembly attempts with SPAdes were not up to standard (+@fig:fig4_chloroplast_spades_assemblies), hence we proceeded with a plastid specific assembler: NOVOPlasty.
+First assembly attempts with SPAdes were not up to standard (@fig:fig4_chloroplast_spades_assemblies), hence we proceeded with a plastid specific assembler: NOVOPlasty.
 <!-- [CITE novoplasty] -->
-This method resulted in chloroplast assemblies of appropriate length for all *Azolla* species included here (+@fig:fig4_assembly_stats; chloroplast; Assembled length) and the majority of these assemblies was contained within a single contig in all cases (+@fig:fig4_assembly_stats; chloroplast; Assembled N50).
+This method resulted in chloroplast assemblies of appropriate length for all *Azolla* species included here (@fig:fig4_assembly_stats; chloroplast; Assembled length) and the majority of these assemblies was contained within a single contig in all cases (@fig:fig4_assembly_stats; chloroplast; Assembled N50).
 Two novoplasty chloroplast assemblies were succesfully circularised, namely: *A. caroliniana* '2' and *A. rubra*.
 
 For nanopore data, we used Flye as for the *T. azollae* genomes.
-Assembly sizes were very similar for the entire genus with a median contig count of 3 and size of approximately 150kb (+@fig:fig4_assembly_stats; chloroplast) similar to the reference [@Li2018].
+Assembly sizes were very similar for the entire genus with a median contig count of 3 and size of approximately 150kb (@fig:fig4_assembly_stats; chloroplast) similar to the reference [@Li2018].
 The assembly structure is rarely resolved to a single contig.
-Instead the structure is resolved to a shape similar to two loops connected by a stick (+@fig:fig_chloroplast_nanopore_assemblies; +fig:fig4_chloroplast_spades_assemblies).
+Instead the structure is resolved to a shape similar to two loops connected by a stick (@fig:fig4_chloroplast_nanopore_assemblies; +fig:fig4_chloroplast_spades_assemblies).
 The actual chloroplast genome structure may be variable.
 With all chloroplast and cyanobiont genomes, we finally set our sights to the *Azolla* mitochondrial genomes.
 
@@ -228,30 +228,30 @@ The bin was subsetted based on blastn bitscores to *O californicum* and *P nudum
 This subset was used to bait nanopore reads.
 These nanopore reads were then assembled with flye [@Kolmogorov2019] and the assembly graph was inspected in Bandage `cite bandage`.
 The assembly totalled at 3.2Mbase, and contained various subgraphs that showed homology to *T. azollae* and the *A. filiculoides* chloroplast.
-One circular subgraph showed homology to the *O californicum* and *P nudum* mitochondria (+@fig:fig4_mitochondrium_assembly_selection A).
+One circular subgraph showed homology to the *O californicum* and *P nudum* mitochondria (@fig:fig4_mitochondrium_assembly_selection A).
 This mitochodrium subgraph contained 188kb of DNA, more than half in a single contig.
-Smaller redundant contigs were identified via blast all-vs-all (+@fig:fig4_mitochondrium_assembly_selection B) and then removed.
-Six contigs remained with minimal redundancy (+@fig:fig4_mitochondrium_assembly_selection C), together constituting the first draft genome of an *Azolla* mitochondrium of 141kb in total.
+Smaller redundant contigs were identified via blast all-vs-all (@fig:fig4_mitochondrium_assembly_selection B) and then removed.
+Six contigs remained with minimal redundancy (@fig:fig4_mitochondrium_assembly_selection C), together constituting the first draft genome of an *Azolla* mitochondrium of 141kb in total.
 The mitochondria assembly was polished twice with pilon using Illumina reads of the same *Azolla filiculoides* lab strain, and then annotated using the chlorobox online interface `chlorobox`.
 
 ![Assembly and subsetting of *A. filiculoides* mitochodrium genome. (A) Flye assembly graph of nanopore reads suspected to be mitocondrial. The assembly graph visualisation was made with Bandage `cite bandage`. The graphs (left) depict contiguous DNA streches colour coded by blast hits and connections between these contigs as grey transparent lines. Blast hits of the *Psilotum nudum* and *Ophioglossum californicum* mitocondrial genomes (orange and red), the *Azolla filiculoides* chloroplast (green) and *Nostoc azollae* (cyan blue) are indicated in the assembly graph. A mitocondrial subgraph (indicated in red square) was selected for futher processing. B Blast all-vs-all visualisation with circo's of the mitocondrial subgraph. Several contigs are fully represented in contig 11. (C) Mitocondrial draft assembly manually rid of redundancy. Blast all-vs-all visualisation with circos.](source/figures/fig4_mitochondrium_assembly_selection.pdf){#fig:fig4_mitochondrium_assembly_selection short-caption="Assembly of Azolla filiculoides mitochondrial genomes"}
 
 With a first draft mitochondrial genome for *A. filiculoides*, we proceeded to gather the plastid genome for other *Azolla* species via the apropriate baiting methods.
-Mitochondrial DNA however, was very sparse in all DNA extraction ranging between ,3 and 3Mbase (+@fig:fig4_assembly_stats; Sequencing input; mitochondrium).
-The mitocondrial fractions thus amounts to no more than 1.5% compared to the *T. azollae* faction and nomore than 10x Coverage (+@fig:fig4_assembly_stats; Coverage; mitochondrium).
+Mitochondrial DNA however, was very sparse in all DNA extraction ranging between ,3 and 3Mbase (@fig:fig4_assembly_stats; Sequencing input; mitochondrium).
+The mitocondrial fractions thus amounts to no more than 1.5% compared to the *T. azollae* faction and nomore than 10x Coverage (@fig:fig4_assembly_stats; Coverage; mitochondrium).
 Nanopore experiments yielded more mitochondrial DNA reads with better N50 values between 7 and 13kb, except for the *A. sp.* 'Bordeaux' sample.
-Despite the limited data input and consequential insufficient coverage for assembly, nanopore assemblies of the mitochondrial genome are resolved to no more than 8 contigs (+@fig:fig4_assembly_stats; mitochondrium).
-However, these contigs are not interconnected (+@fig:fig4_mitochondrium_nanopore_assemblies).
+Despite the limited data input and consequential insufficient coverage for assembly, nanopore assemblies of the mitochondrial genome are resolved to no more than 8 contigs (@fig:fig4_assembly_stats; mitochondrium).
+However, these contigs are not interconnected (@fig:fig4_mitochondrium_nanopore_assemblies).
 More importantly, the low coverage and noisy character of nanopore reads suggests that these assemblies may contain a substantial amount of errors.
 
 Mitochondrial genomes assembled from Illumina reads proved equeally ellusive.
 The default NOVOPlasty algorithm uses the sequence of maturase K (MatK) to start the assembly.
 These assemblies were unusable.
 An alternative seed sequence was found in cox1, taken directly from the draft mitochondrial genome assembly of *A. filiculoides*.
-Using this seed sequence, assemblies were acquired with similar lengths as the nanopore mitchondrium reference, except for *A. nilotica* (+@fig:fig4_assembly_stats; mitochondrium; Assembled length).
+Using this seed sequence, assemblies were acquired with similar lengths as the nanopore mitchondrium reference, except for *A. nilotica* (@fig:fig4_assembly_stats; mitochondrium; Assembled length).
 This indicates that likely the *A. filiculoides* mitochodrium sequence is substantially shorter than that of *P nudum* and *O californicum*.
 
-The mitochondrium Illumina assemblies are still quite fragmented compared to their nanopore counterparts (+@fig:fig4_assembly_stats; mitochondrium; Assembled contig count & Assembled N50).
+The mitochondrium Illumina assemblies are still quite fragmented compared to their nanopore counterparts (@fig:fig4_assembly_stats; mitochondrium; Assembled contig count & Assembled N50).
 Overall, the chloroplast assemblies of nanopore and Illumina origin are of high quality, near complete and suitable for futher analyses.
 The mitochodrium genomes assembled here are likely incomplete and fragmented.
 Still, these are the very first Azolla mitochondrial draft genomes now publicly available.
