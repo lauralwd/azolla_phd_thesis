@@ -254,19 +254,21 @@ These classifications were rare in all assembled metagenomes and may be false cl
 The bacterial fractions of the various metagenome assemblies ranges bewteen 46 and 89 Mbp, counting scaffolds longer than 2.5 kbp only.
 The filtering approach, we conclude, did not substantially improve assembly quality of prokaryote genome fragments, but also had no negative effect.
 
-\begin{sidewaysfigure}
 \begin{figure}
+\raggedright
 \hypertarget{fig:fig3_filter_length_distributions}{%
-\centering
-\includegraphics{source/figures/fig3_figure-filter-length-distributions.pdf}
-\caption[Length distributions of \emph{Azolla} sp. metagenome assemblies]{Length distributions of \emph{Azolla} sp. metagenome assemblies per kingdom before and after the second filtering stage.
-  Metagenome assemblies of individual sequencing libraries (\cref{fig:fig3_data_overview}) were filtered with the \emph{A. filiculoides} genome (Host filtered; red) and with a library specific subset of eukaryotic contigs (Double filtered; blue; \cref{fig:fig3_filtering_and_assembly}).
-  Scaffolds of metagenome assemblies then were assigned taxonomy with CAT (Von Meijenfeldt \emph{et al}. 2019), and their length distributions were plotted as boxplot per taxonomic kingdom (vertical panels: Viruses, Eukaryota, Bacteria and Archae) and per sequencing library (horizontal panels).
-  The width of the boxplot is proportional to the number of scaffolds represented (\cref{tbl:tbl3_1}).}
-\label{fig:fig3_filter_length_distributions}
+  \begin{minipage}{\textwidth}
+  \center
+  \vspace{0pt}
+  \includegraphics[angle=90, height=.9\textheight]{source/figures/fig3_figure-filter-length-distributions.pdf}
+  \caption[Length distributions of \emph{Azolla} sp. metagenome assemblies]{Length distributions of \emph{Azolla} sp. metagenome assemblies per kingdom before and after the second filtering stage.
+    Metagenome assemblies of individual sequencing libraries (\cref{fig:fig3_data_overview}) were filtered with the \emph{A. filiculoides} genome (Host filtered; red) and with a library specific subset of eukaryotic contigs (Double filtered; blue; \cref{fig:fig3_filtering_and_assembly}).
+    Scaffolds of metagenome assemblies then were assigned taxonomy with CAT (Von Meijenfeldt \emph{et al}. 2019), and their length distributions were plotted as boxplot per taxonomic kingdom (vertical panels: Viruses, Eukaryota, Bacteria and Archae) and per sequencing library (horizontal panels).
+    The width of the boxplot is proportional to the number of scaffolds represented (\cref{tbl:tbl3_1}).}
+  \label{fig:fig3_filter_length_distributions}
+  \end{minipage}
 }
 \end{figure}
-\end{sidewaysfigure}
 
 ## Filtered metagenome assemblies contain distinct microbial genomes systematically reoccurring in the _Azolla_ genus
 The double filtered assemblies contain numerous bacterial contigs of each _Azolla_ species sampled here (+@fig:fig3_filter_length_distributions Bacteria).
@@ -290,11 +292,11 @@ Nevertheless, it might also reflect an upper limit to assembly depth.
 Plotting the scaffolds of all assemblies by taxonomy and abundance, we conclude, allows one to distinguish individual bacterial genomes in each of the _Azolla_ species sampled in this study (+@fig:fig3_Azolla_genus_metagenome_order).
 The interactive online figure allows to browse through the bacterial diversity of the genus-wide metagenome before binning into MAGs and, therefore, represents an excellent control to verify the quality of the derived results.
 
-\begin{sidewaysfigure}
 \begin{figure}
 \hypertarget{fig:fig3_Azolla_genus_metagenome_order}{%
+  \begin{minipage}{\textwidth}
   \centering
-  \includegraphics{source/figures/fig3_Azolla_genus_metagenome_order.pdf}
+  \includegraphics[width=1.3\textwidth, angle=90]{source/figures/fig3_Azolla_genus_metagenome_order.pdf}
   \caption[A Genus-wide metagenome assembly of six \emph{Azolla} species.]{A Genus-wide metagenome assembly of six \emph{Azolla} species.
     Scaffolds of double filtered metagenome assemblies (\cref{fig:fig3_filtering_and_assembly}-A.)
     were assigned an approximate taxonomy with CAT (VonMeijenfeldt \emph{et al}. (2019)).
@@ -306,10 +308,11 @@ The interactive online figure allows to browse through the bacterial diversity o
     Additionally, scaffolds are filtered if they have less than 5 ORFs classified or when a taxonomic group amounts to less than 2Mbase in the entire figure.
     An \href{https://utrecht-university.shinyapps.io/Azolla_genus-wide_metagenome_taxonomy/}{online interactive version of this figure} can be manipulated to modify these filters and assumptions and to include more assemblies done in the \emph{Azolla} metagenome project.
     }
-    \label{fig:fig3_Azolla_genus_metagenome_order}
+  \label{fig:fig3_Azolla_genus_metagenome_order}
+  \end{minipage}
 }
 \end{figure}
-\end{sidewaysfigure}
+
 
 With the visual summary of the whole genus' metagenome, we observed key patterns.
 Metagenomes of the _Azolla_ genus show clear similarities in terms of taxonomy at the order level (+@fig:fig3_Azolla_genus_metagenome_order).
@@ -602,7 +605,7 @@ Again, the manual method outperforms the two automated methods: it created fewer
 Nearly all bins are assigned a taxonomy in all samples at the order level.
 Given the high generally QC scores and increased specificity of taxonomy, these binned metagenomes are ready to be studied in more detail.
 
-![Counts of bins without taxonomic classification. Bin taxonomy was determined with BAT [@VonMeijenfeldt2019], and then counts of bins without taxonomy are shown as line plots for various levels of taxonomy (x-axis) and individual metagenome assemblies (vertical panels). Different binning methods (Concoct, Metabat2, Manual) are depicted in red, green and blue, respectively.](source/figures/fig3_binning_QC_no_taxonomy.pdf){#fig:fig3_binning_QC_no_taxonomy short-caption="Binning QC as unclassfied bins"}
+![Counts of bins without taxonomic classification. Bin taxonomy was determined with BAT [@VonMeijenfeldt2019], and then counts of bins without taxonomy are shown as line plots for various levels of taxonomy (x-axis) and individual metagenome assemblies (vertical panels). Different binning methods (Concoct, Metabat2, Manual) are depicted in red, green and blue, respectively.](source/figures/fig3_binning_QC_no_taxonomy.pdf){#fig:fig3_binning_QC_no_taxonomy width=80% short-caption="Binning QC as unclassfied bins"}
 
 ## Systematic occurrence of taxonomical orders in the entire _Azolla_ genus
 Next, we assessed whether bins of certain taxonomical orders reoccur systematically in the _Azolla_ genus as scaffolds did in +@fig:fig3_Azolla_genus_metagenome_order.
@@ -667,7 +670,7 @@ Sphingomonadales  & 1 & 0 & 0 & 2 & 1 & 1 & 0 & 1 & 1 \\
 \begin{figure}
 \hypertarget{fig:fig3_binning_QC_all_taxonomy}{%
 \centering
-\includegraphics{source/figures/fig3_binning_QC_all_taxonomy.pdf}
+\includegraphics[angle=180]{source/figures/fig3_binning_QC_all_taxonomy.pdf}
 \caption[Heatmap of MAG taxonomy of the \emph{Azolla} genus.]{Heatmap of MAG taxonomy of the \emph{Azolla} genus. MAG taxonomy (horizontal axis) for all metagenome assemblies (vertical axis) at various levels of taxonomy (horizontal panels).
   Quantity is indicated as a shade ranging from dark blue to bright yellow.
   }
