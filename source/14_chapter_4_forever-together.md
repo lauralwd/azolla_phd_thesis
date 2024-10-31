@@ -388,6 +388,13 @@ while the megasporocarps keep these.
 
 # Discussion
 
+read this
+```
+Plastid genomes and phylogenomics of liverworts (Marchantiophyta): conserved genome structure but highest relative plastid substitution rate in land plants
+S Dong, S Zhang, L Zhang, H Wu, B Goffinet, Y Liu
+Molecular Phylogenetics and Evolution, 2021
+```
+
 ## Acquiring genomes
 
 DNA assembly has become easier but is still no trivial task.

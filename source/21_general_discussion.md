@@ -54,6 +54,16 @@ Subdivide in the metagenome
 - no such degradation in other microbes, hence the 'additional' microbes are not exclusively vertically transfered
   -Not so crazy similarity of other bacteria --> this result isn't even in a chapter... That needs fixing.
 
+More consistency/nonconsistency data
+```
+https://assets-eu.researchsquare.com/files/rs-3214610/v1/1dfc6290-fe74-4298-ba0e-2e24e9c5c9d3.pdf?c=1729901789
+```
+
+But this exists:
+```
+https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.001207
+```
+
 ## Evolution and transfer
 
 Transmission modes
@@ -64,6 +74,34 @@ The ecosystem can't be exclusively vertical transmission
 
 - There must be some flux in and out of the ecosystem for these bacteria. How would they otherwise survive the bottleneck?
 - clam shell paper is nice here
+
+## passengers hitching a ride, or tightly controlled guest list by the host
+
+Control of cyanobacteria is possible @gungor2024
+
+Fern immuunsystems?
+
+```
+Erbils paper
+https://onlinelibrary.wiley.com/doi/pdf/10.1111/pce.15010
+```
+
+```
+From Janina Katharina von Dahlen Dissertation:
+https://docserv.uni-duesseldorf.de/servlets/DerivateServlet/Derivate-71686/Expression%2C%20Regulation%20&%20Evolution%20of%20the%20Plant%20Immune%20System.pdf
+In a fourth publication, we analyzed putative genes coding for phytohormones: Salicylic and jasmonic
+acid from the water fern Azolla filiculoides (A. filiculoides). We were able to show that A. filiculoides
+possesses most genes and protein domains to produce and perceive both phytohormones, but is likely
+to be insensitive towards jasmonic acid. This observation is further supported by recent studies
+reporting that most basal lineages of plants do not produce jasmonic acid in sufficient amounts, but
+instead produce dn-OPDA, a precursor of jasmonic acid. Furthermore, our data suggest that salicylic
+acid might be involved in the communication of the water fern with its nitrogen-fixation cyanobiont as
+the amount of the cyanobiont increases after long-term salicylic acid treatment.
+
+
+https://royalsocietypublishing.org/doi/full/10.1098/rstb.2023.0362
+
+```
 
 ## Function
 
@@ -91,7 +129,44 @@ Comparison to other symbioses
 - Compare to insect-microbe symbioses.
 - Are plant symbioses more multipartite, conclusion for general plant-bac symbioses?
 
+```
+[PDF] Two draft genomes of fungal leaf endophytes from tropical gymnosperms
+JC Villarreal Aguilar, O Meléndez, R Bethancourt… - Microbiology Resource …, 2024
+Two ascomycetes, Neofusicoccum sp. and Xylaria sp., were isolated from healthy
+leaves of the tropical gymnosperms Zamia pseudoparasitica (Z2) and Zamia nana
+(Z50) from Panama. The two draft genomes possess a broad predicted repertoire of …
+https://journals.asm.org/doi/pdf/10.1128/mra.00511-24
+```
+
+compare to cycads
+```
+https://link.springer.com/article/10.1007/s10886-024-01511-z
+```
+
+
+Compare to lichens
+
+```
+Reflections on lichens as ecosystems
+DL Hawksworth, M Grube
+New Phytologist, 2024
+
+How to build a lichen: from metabolite release to symbiotic interplay
+G Pichler, L Muggia, FC Carniel, M Grube, I Kranner
+New Phytologist, 2023
+
+Photobiont diversity in lichen symbioses from extreme environments
+R De Carolis, A Cometto, P Moya, E Barreno, M Grube, M Tretiach, SD Leavitt …
+Frontiers in microbiology, 2022
+```
+
 symbiosis functioning: CSP?
+
+```
+Comparative phylotranscriptomics reveals ancestral and derived root nodule symbiosis programmes
+C Libourel, J Keller, L Brichet, AC Cazalé, S Carrère, T Vernié, JM Couzigou …
+Nature Plants, 2023
+```
 
 # Methodology
 
@@ -129,6 +204,9 @@ Artisanal vs fully automated
 # Azolla for the bio-based economy
 
 ## symbiosis breeding
+
+Nazollae engineering
+https://pubs.acs.org/doi/full/10.1021/acssynbio.3c00583
 
 ## Environmental regulation of Azolla reproduction
 

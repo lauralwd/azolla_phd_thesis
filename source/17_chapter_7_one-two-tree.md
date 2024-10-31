@@ -688,6 +688,12 @@ The specific site of expression hints that Jasmonate signalling may be important
 
 # Discussion
 
+
+```
+RNAseq data for phylogeny such a good idea... waiting for the 1000 plant genomes!
+https://academic.oup.com/aob/advance-article/doi/10.1093/aob/mcae110/7732916
+```
+
 This chapter and the corresponding workflow aim to provide novice users with a reproducible approach for inferring phylogeny.
 Its use is demonstrated in three usecases from Azolla lab publications.
 The workflow uses open-source and state-the-art tools that require expert knowledge for usage.
