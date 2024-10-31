@@ -33,10 +33,124 @@ In this theses, I try to find and light all these perspective on the _Azolla_ sy
 To do so, I develop new workflows to process data of genomic, transcriptomic and metagenomic origin.
 I will discuss my work in X main discussion points, namely:
 
-1. asdf
-2. asdf
-3. adsf
+1. The genus metagenome: a consistent partnership or modular accessory genome
+2. Methodological advances
+3. Future research directions
+4. Azolla for the bio-based economy
 
+# The genus metagenome: a consistent partnership or modular accessory genome
+
+## Genus metagenome
+
+Genus metagenome. Explaining it's consistency from a systems biology perspective.
+
+- genus metagenome concept is completely new
+- holobiont like
+- Example of how a systems biology view on the genus, tells us about the relations between a single plant in your hand and the microbes within.
+
+Subdivide in the metagenome
+
+- Nostocs are all near-identical and heavily degraded because of evo-bottleneck
+- no such degradation in other microbes, hence the 'additional' microbes are not exclusively vertically transfered
+  -Not so crazy similarity of other bacteria --> this result isn't even in a chapter... That needs fixing.
+
+## Evolution and transfer
+
+Transmission modes
+
+- fixedness in genus suggests so.
+
+The ecosystem can't be exclusively vertical transmission
+
+- There must be some flux in and out of the ecosystem for these bacteria. How would they otherwise survive the bottleneck?
+- clam shell paper is nice here
+
+## Function
+
+Fixed consistent partners vs ITSNTS (Its The Song Not The Singers)  in flux community that conserves functions.
+
+- The community is a like, but not identical. Is it the species or their functions that are preserved.
+- A community may be seen as a sequence logo rather than a fixed sequence, probabilities af a certain taxon ocuring rather than a simple list.
+- Evolutionary presure to keep the species in depends on their function in the mini-ecosystem.
+- human gut microbiome paper
+
+Function: completing small ecosystem can be function enough.
+
+- They may be living off debris from Nazollae, or the leaf pocket in general and provide a cycle like that.
+- Over-romatic to think that rhizobiales also fix nitrogen, or burkholderiales promote growth etc.
+
+Environment vs multipartitie organism.
+
+- vesicles
+
+## other symbioses
+
+Comparison to other symbioses
+
+- Compare to other non-rhizosphere symbioses.
+- Compare to insect-microbe symbioses.
+- Are plant symbioses more multipartite, conclusion for general plant-bac symbioses?
+
+symbiosis functioning: CSP?
+
+# Methodology
+
+## metagenome
+
+Genus metagenome comparison
+
+harvest metagenomes from repo-data
+
+## phylogeny/orthology
+
+Artisanal vs fully automated
+
+## Dual RNAseq?
+
+# future directions
+
+## All the P&P stuff
+
+- evolution bottleneck? Confirm absense genome degradation.
+- trees
+- and more in the P&P notes
+
+## A system in which microbes can be added and subtracted at will
+
+- If we conclude that additional microbes are iterchangable, we should be able to reproduce this in the lab somehow.
+- Shoot APEX is the place to be
+
+## Azolla as a Fern model
+
+- ferns being underrepresented and all
+
+## how many other genus-metagenomes may be hidden out there in the databases right now?
+
+# Azolla for the bio-based economy
+
+## symbiosis breeding
+
+## Environmental regulation of Azolla reproduction
+
+Azolla agricultural opportunities
+
+## roadmap
+
+refer to book
+
+practical obstacles
+
+ethical obstacles?
+
+# Conclusion
+
+- General PMI and studying them as complex systems from a systems biology perspective.
+- first genus metagenome
+- map fixedness of symbiosis parters in evolutionary time
+- fern and symbiosis model
+- explore methods for fern and symbiosis research
+- fundament for a system to manipulate Azolla symbioses
+- agricultural opportunities: life cycle control
 
 # AI input
 
@@ -70,7 +184,7 @@ I will discuss my work in X main discussion points, namely:
      - Throughout the Thesis: Each chapter tackles specific methodological challenges, contributing to the development of new techniques and approaches.
 4. Potential Applications of Azolla in Sustainable Agriculture and Biotechnology  // Symbiosis breeding?
    - In the General Introduction:
-     - Sustainable Crop Potential: Discusses how Azolla’s rapid growth, high protein content, and nitrogen-fixing ability make it a promising candidate for sustainable agriculture, biofertilizers, and climate change mitigation.
+     - Sustainable Crop Potential: Discusses how Azolla’s rapid growth, high protein content, and nitrogen-fixing ability make it a promising candidate for sustainable agriculture, bio-fertilizers, and climate change mitigation.
      - Domestication and Breeding: Emphasizes the importance of understanding the symbiosis for effective domestication, breeding programs, and maximizing agricultural benefits.
    - Return in the Chapters:
      - Chapter 1: Explores the genomic basis of Azolla’s nitrogen-fixing symbiosis, providing insights that could enhance its agricultural utility.
@@ -334,7 +448,9 @@ Selection for reduced genome size lower in extracellular symbionts than
  intracellular ones?
 
 \newpage
-### CSP fragment
+
+## CSP fragment
+
 Many plant species are known to interact with bacteria systematically and even transmit these systematically [@Frank2018; @Pinto-Carbo2018], but the mechanisms underpinning symbiosis are often unclear.
 The best known mechanism is termed the common symbiosis pathway, variations of this common pathway facilitate both Rhizobiales-legume and mycohorriza symbiosis [@Genre2016].
 But other symbioses, like Cuanobacteria-plant symbises and ... , are not facilitated by this pathway [@Li2018] `more examples would be nice`.
@@ -350,6 +466,7 @@ The plant genome does add complexity, but other than that ...
 \newpage
 
 ## Bacteria associated with plants as a modular subset of the hologenome
+
 Microbial genomes may encode and convey traits to a host when in symbiosis.
 The most obvious example is _Azolla_ its independence of nitrogen in the surrounding water or sediment, a trait conveyed by _N. azollae_.
 Bacterial genomes are substantially more fluid in their structure and content than their eukaryotic hosts.
@@ -370,9 +487,8 @@ No particular mode of transmission of genetic material is more or less relevant 
 
 Bad jokes
 
-* payed fern genomic services on onlyferns.com
-* Unlike the Azolla-nostoc symbioses, reading the full extent of this thesis is facultative.
-
+- payed fern genomic services on onlyferns.com
+- Unlike the Azolla-nostoc symbioses, reading the full extent of this thesis is facultative.
 <!-- close the last page of this section as required for removing the thumb index on next "part page" -->
 \newpage
 \null
