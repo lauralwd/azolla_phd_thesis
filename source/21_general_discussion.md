@@ -7,7 +7,6 @@
 \label{discussion}
 \newpage
 
-
 <!-- have a mini table of contents -->
 \minitoc
 
@@ -25,14 +24,179 @@ or...
 – Sir Paul Nurse (Chief Executive Director Francis Crick Institute) 
 -->
 
-## roadmap to breeding a novel-symbiosis crop
+This thesis discusses the genomics of the intricate symbiosis between the genus _Azolla_, its cyanobacterial partner _T. azollae_ and additional bacterial partners.
+This tightly intertwined mutualism makes _Azolla_ an interesting novel-crop independent of Nitrogen fertiliser, as well as a notorious weed threatening aquatic ecosystems.
+Study of the _Azolla_ genus can favour a botanic lens, by exploring the genomics of the first fern genome and shedding light on an under-represented branch of plant research.
+It can favour a plant-microbe-interaction lens, juxtaposing the obligate mutualism of the host and the cyanobiont vs the seemingly free to leave bacterial co-inhabitants.
+And it can favour a agronomic view, controlling _Azolla_ development, growth and dissemination to employ _Azolla_ as a protein crop independent of controversial nitrogen fertilisation.
+In this theses, I try to find and light all these perspective on the _Azolla_ symbiosis.
+To do so, I develop new workflows to process data of genomic, transcriptomic and metagenomic origin.
+I will discuss my work in X main discussion points, namely:
 
-bla
+1. asdf
+2. asdf
+3. adsf
 
-# left-over notes from the hidden treasures chapter:
 
+# AI input
 
+## General introduction themes
 
+1. The Importance of Studying Plant Symbiosis, Specifically the Azolla-Nostoc System
+   - In the General Introduction:
+     - Emphasis on Symbiotic Relationships: The introduction highlights the critical role of symbiosis in plant biology, ecology, and evolution. It underscores how symbiotic interactions contribute to nutrient acquisition, adaptation to environmental stresses, and biodiversity.
+     - Unique Features of the Azolla-Nostoc Symbiosis: The Azolla-Nostoc partnership is introduced as a remarkable example of obligate symbiosis, where the fern and cyanobacterium are tightly integrated, both physiologically and developmentally.
+   - Return in the Chapters:
+     - Chapter 1: Delves into the genomic foundations of the Azolla-Nostoc symbiosis, exploring how their genomes reflect a long-term co-evolution and mutual dependence.
+     - Chapter 2: Expands the focus to include other microbial partners, emphasizing that the symbiosis is multipartite and involves a complex microbiome.
+     - Chapter 4: Investigates the genetic diversity of Nostoc azollae across different Azolla species, highlighting the importance of the symbiosis in evolutionary studies.
+     - Chapter 6: Explores how environmental factors influence the symbiotic relationship, particularly in reproductive development.
+2. Systems Biology Approach (and maybe The Holobiont Concept)
+   - In the General Introduction:
+     - Holobiont as an Evolutionary Unit: The introduction presents the concept of the holobiont, where the host and its associated microbiome are considered a single evolutionary and functional entity.
+     - Need for Systems Biology: Emphasizes that understanding such complex systems requires an integrative approach that considers all components and their interactions.
+   - Return in the Chapters:
+     - Chapter 1: serendipity, see organism as a whole.
+     - Chapter 2: Provides evidence supporting the holobiont concept by characterizing the persistent microbial community associated with Azolla and demonstrating how these microbes contribute to the host’s functionality.
+     - Chapter 6: Utilizes dual RNA sequencing to simultaneously profile gene expression in both Azolla and Nostoc azollae, reflecting a systems biology approach.
+     - Throughout the Thesis: The research consistently integrates genomic, transcriptomic, and environmental data to understand the symbiosis as a whole.
+3. Challenges and Opportunities in Studying Complex Symbiotic Systems // Symbiosis breeding?
+   - In the General Introduction:
+     - Methodological Challenges: Acknowledges the difficulties in studying multipartite symbioses, such as disentangling host and symbiont genomes, functional annotation in non-model organisms, and the need for advanced bioinformatics tools.
+     - Opportunities for Discovery: Highlights that overcoming these challenges can lead to significant insights into symbiosis, evolution, and potential applications.
+   - Return in the Chapters:
+     - Chapter 2: Demonstrates innovative methods to assemble microbial genomes from non-metagenomic data, addressing the challenge of studying low-abundance symbionts.
+     - Chapter 7: Presents a practical phylogenetics workflow to infer evolutionary relationships, overcoming limitations in existing tools and making advanced analyses accessible.
+     - Throughout the Thesis: Each chapter tackles specific methodological challenges, contributing to the development of new techniques and approaches.
+4. Potential Applications of Azolla in Sustainable Agriculture and Biotechnology  // Symbiosis breeding?
+   - In the General Introduction:
+     - Sustainable Crop Potential: Discusses how Azolla’s rapid growth, high protein content, and nitrogen-fixing ability make it a promising candidate for sustainable agriculture, biofertilizers, and climate change mitigation.
+     - Domestication and Breeding: Emphasizes the importance of understanding the symbiosis for effective domestication, breeding programs, and maximizing agricultural benefits.
+   - Return in the Chapters:
+     - Chapter 1: Explores the genomic basis of Azolla’s nitrogen-fixing symbiosis, providing insights that could enhance its agricultural utility.
+     - Chapter 2: Identifies additional microbial partners that might contribute to plant growth and stress resistance, offering new avenues for crop improvement.
+     - Chapter 6: Investigates environmental cues that regulate reproduction, informing strategies for propagation and containment in agricultural settings.
+5. Evolutionary Dynamics and Genomic Adaptations in Symbiosis
+   - In the General Introduction:
+     - Co-Evolution and Genome Evolution: Introduces the concept that long-term symbiotic relationships can lead to significant genomic changes, such as genome reduction in symbionts and co-adaptation between host and symbiont genomes.
+     - Evolutionary Questions: Poses questions about how symbiotic relationships influence evolutionary trajectories and genomic architecture.
+   - Return in the Chapters:
+     - Chapter 1: Examines the extent of genome degradation in Nostoc azollae and its implications for symbiosis.
+     - Chapter 4: Compares the genomes of Nostoc azollae from different Azolla species to understand evolutionary patterns and timing of genomic changes.
+     - Chapter 6: Explores the evolutionary origins of reproductive control mechanisms in Azolla, connecting them to broader plant evolutionary processes.
+6. Environmental Regulation of Symbiotic Interactions and Reproduction
+   - In the General Introduction:
+     - Environmental Influences: Highlights how environmental factors, such as light and nutrient availability, can regulate symbiotic interactions and developmental processes.
+     - Adaptive Responses: Discusses the importance of understanding these responses for both ecological studies and practical applications.
+   - Return in the Chapters:
+     - Chapter 6: Focuses on how far-red light and canopy density induce sexual reproduction in Azolla, affecting both the host and its symbiotic partners.
+     - Chapter 2: Considers how environmental factors might influence the composition and function of the associated microbiome.
+7. Role of Microbial Endophytes Beyond the Primary Symbiont
+   - In the General Introduction:
+     - Diversity of the Microbiome: Introduces the idea that the symbiotic relationship extends beyond the primary cyanobacterium to include other bacterial endophytes with potential functional roles.
+     - Functional Implications: Suggests that these additional microbes might contribute to nutrient cycling, growth promotion, or stress tolerance.
+   - Return in the Chapters:
+     - Chapter 2: Characterizes the diverse bacterial community associated with Azolla, identifying potential roles in nitrogen cycling and hormone production.
+     - Chapter 4: Investigates the consistency of microbial associations across different Azolla species, supporting the idea of a co-evolved microbiome.
+8. Methodological Advances in Genomics and Bioinformatics
+   - In the General Introduction:
+     - Need for Advanced Tools: Emphasizes that studying complex symbiotic systems requires cutting-edge genomic and bioinformatic methods.
+     - Open Science and Reproducibility: Advocates for open-source tools and workflows to enhance reproducibility and accessibility.
+   - Return in the Chapters:
+     - Chapter 1: Serendipity
+     - Chapter 2: Develops methods to extract microbial genomes from bulk sequencing data, contributing to metagenomic methodologies.
+     - Chapter 7: Provides an open-source phylogenetics workflow, facilitating evolutionary analyses in non-model organisms.
+     - Throughout the Thesis: The research employs and advances bioinformatics tools, demonstrating their importance in modern biological research.
+9. Ethical and Practical Considerations in Manipulating Symbiotic Systems
+   - In the General Introduction:
+     - Responsibility in Research: Addresses the ethical implications of manipulating symbioses, including potential ecological impacts and regulatory considerations.
+     - Challenges in Application: Highlights practical challenges in applying research findings to agriculture or biotechnology.
+   - Return in the Chapters:
+     - Chapter 6: Discusses the difficulties in genetically manipulating Nostoc azollae and the need for careful consideration of ecological consequences.
+     - Throughout the Thesis: Reflects on the implications of the research for sustainable practices and the importance of responsible innovation.
+10. Contribution to Broader Scientific Understanding and Future Directions
+    - In the General Introduction:
+      - Relevance to Plant Biology and Evolution: Positions the study within the broader context of plant science, emphasizing its potential contributions to understanding fundamental biological processes.
+      - Call for Further Research: Identifies gaps in knowledge and encourages continued exploration.
+    - Return in the Chapters:
+      - Chapter 4: Uses comparative genomics to place Nostoc azollae within the broader context of cyanobacterial evolution.
+      - Chapter 6: Suggests that findings on reproductive control mechanisms could inform studies in other plant lineages.
+      - Conclusion and Future Work: The final chapters synthesize findings and propose future research directions.
+
+## themes
+
+1. Symbiosis composition
+   1. Azolla-Nostoc is a special type of symbiosis
+   2. fixed-ness of a symbiosis, how important is it.
+   3. co-evoltuion and vertical transmission
+   4. functions of non-Nazollae bacteria
+   5. didn't manage to prove vertical transfer with public datasets
+   6. inquire genome degradation in additional microbes.
+2. Genome degradation in N. azollae?
+   1. reduction and specialisation in the symbiosis.
+3. Domestication and control of Azolla
+   1. FR light and control of reproduction
+   2. learn about ferns
+   3. provide knowledge for implementing in biobased economy
+4. Methodology
+   1. MEtagenomics of non-metagenomic data. Should have done more experiments?
+   2. Dual RNAseq
+   3. phylogeny for
+
+Another list:
+
+1. Systems biology in symbiosis research
+   1. This perspective in this thesis.
+    - everything leaf pocket? Think of niche for additional bacteria in foulplay.
+    - find other symbionts because of systematic overview and genus perspective
+2. Holobiont/many organisms perspective
+   1. nitrogen cycle
+   2. genome reduction
+   3. more data to find how fixed the symbiosis composition is, and how the transfer works.
+3. Work on tools to explore the data
+   1. metagenomics/ dualRNA / phylogeny
+   2. careful data minging. How much symbions could be hidden out there in the data already available to us?
+4. Symbiosis breeding
+5. Azolla agriculture
+   1. real opportunities
+   2. real risks
+6. The future of Azolla
+   1. Azolla as a symbiosis model
+   2. Azolla as a fern research model
+      1. single cell to map how ferns cell-clusters differ from seed plants -> Bert
+   3. Azolla as a protein crop
+
+More ideas:
+
+- researching a fern, automatically relating everything we find to seed-plants and how often we might be wrong...
+  - Bert's single cell experiment
+  - Phylogenetic trees in which we find new paralogous groups specific to ferns
+  - First fern genomes, we're only starting to scratch the surface.  Plus the annotations aren't exactly great.
+- What does Azolla research contribute to PI as a whole
+
+```chatgpt critisism
+   - Clarity on Endophyte Roles: While you’ve identified persistent endophytes, their functional roles remain speculative. In the general discussion, it would strengthen your argument to acknowledge this limitation and suggest experimental approaches to verify their contributions to the symbiosis.
+   - Balance between Holism and Reductionism: While advocating for a systems biology approach, it’s important to recognize that reductionist methods are still valuable. Discuss how integrating both approaches can provide a more comprehensive understanding.
+   - Addressing Contradictory Evidence: Some studies suggest the presence of multiple cyanobacterial species in Azolla. In your discussion, consider reconciling these differences, possibly by examining methodological variations or ecological factors.
+   - Ethical Nuances in Symbiosis Manipulation: When discussing breeding and genetic manipulation, delve deeper into the ethical complexities. Consider the potential impacts on natural populations and the environment.
+   - Methodological Transparency: Ensure that any limitations in your metagenomic analyses, such as potential biases in sequencing or assembly, are openly discussed. This transparency will add credibility to your conclusions.
+```
+
+# Notes
+
+Sarah says: discuss three take home messages from your thesis. And maybe one thing that is the biggest weakness, or also the biggest strength.
+
+Possible tak-homes:
+
+- Consistent bacterial symbionts in Azolla suggest a selective advantage to the symbiosis as a whole
+  - Find recent papers to back/refute that
+  - What could the advantage be
+  - Are there recent systems with a similar consistent microbiome (that is not root)
+- Symbiosis genomics for sustainable agriculture
+  - lot's of hard work, feasibility
+  - Task of a research lab or of industry?
+
+# left-over notes from the hidden treasures chapter
 
 I have said nothing of membrane vesicles from both cyano's and bact observed by
 at least @Zheng2009
@@ -89,7 +253,6 @@ _N. azollae_ can't be cultered.
 
 ITSNTS versus "simple altruism"
 
-
 \newpage
 Microbiology and ecology need, in the end, a reductionist approach to piece
 appart the nuts and bolts co-existance.
@@ -111,7 +274,6 @@ Counting parents and assuming randomness ignores that the persistance of genetic
 material can move in a range of strictness.
 On the one hand (near) 100% strict, such as _N. azollae_
 
-
 If we conclude there is strict holobiont like inheritance of a slection of
 microbes,
 with that bottleneck maternal mechanism,
@@ -121,7 +283,6 @@ Is this a matter of not having the tools to do so (as a fern) Seems not, for
 facultative cyanobacterial and moss symbioses exist as well. Hence at leaset the
 potential for facultative symbiosis was present in the common ancestor of ferns
 and mosses.
-
 
 1. assuming variation in a population of microbes across members of a host
 species
@@ -134,7 +295,6 @@ the many-partent-argument.
 
 ITSNTS and redundancy in the mags we find. Redundancy in singers implies
 redunancy in the parts of the song they sing.
-
 
 microbes recycling dead azolla and making nutrients available again.
 
@@ -159,7 +319,6 @@ This assumtion is not the case for Azolla, Azolla is part of a family (or even
 Nitrogen fixing cyanobacteria should be available in the potential living e
 nvironment even of what I envision as the most recent common ancestor of Azolla.
 
-
 If the host plant provides niches to microbes, thereby defining the processes/songs,
  and even just a part of microbes is systematic part of that song (permanent singers).
 Then does it even matter if part of the singers is swapped in and out?
@@ -171,10 +330,8 @@ Evolution of these heritable parts of the hologenome may define in advance the
 niche to be filled, even if the gene to fill that niche is one another genome.
 How then, does this differ from traditional co-evolution...?
 
-
 Selection for reduced genome size lower in extracellular symbionts than
  intracellular ones?
-
 
 \newpage
 ### CSP fragment
@@ -183,10 +340,7 @@ The best known mechanism is termed the common symbiosis pathway, variations of t
 But other symbioses, like Cuanobacteria-plant symbises and ... , are not facilitated by this pathway [@Li2018] `more examples would be nice`.
 Mining the genomes of symbiotic bacteria already hidden away in host sequencing data may allow comparative genomics of symbionts on a large scale and further elucidation of the mechanisms of plant-microbe symbioses.
 
-
 `root nodule bacteria diversity; disporiensis diversity`
-
-
 
 In microbial ecology, natural low diversity, low complexity populations are rare.
 This is such an example, perhaps many plant-microbe associations are.
@@ -215,6 +369,7 @@ Alternatively, symbionts may need to reinnoculate their host annew every generat
 No particular mode of transmission of genetic material is more or less relevant to be included in a hologenome, instead the holobiont term must be a usefull concept in research applied appropriately.
 
 Bad jokes
+
 * payed fern genomic services on onlyferns.com
 * Unlike the Azolla-nostoc symbioses, reading the full extent of this thesis is facultative.
 
