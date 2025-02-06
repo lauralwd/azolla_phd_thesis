@@ -9,11 +9,11 @@
 
 <!-- have a mini table of contents -->
 \minitoc
-
+<!--
 \section*{Abstract}
 
 This is where the abstract goes
-
+-->
 \newpage
 
 <!-- 
@@ -30,30 +30,51 @@ In the general introduction, I shared my view on the field and introduced main c
 
 - A systems perspective and how it played a role in this thesis
 - Symbiosis research in general and symbiosis breeding
-- The Azolla symbiosis specificaly, subdivided in 
-  - 
+- The Azolla symbiosis specifically, subdivided in:
+  - Non-model and novel crop
+  - The Azolla symbiosis
 
 The fourth general section of the introduction, Approach, will be revisted in all sections where applicable.
 Finally I will draw some conclusions and reflect on the future of Azolla research and Azolla agronomy.
 
 <!--
-Study of the _Azolla_ genus can favour a botanic lens, by exploring the genomics of the first fern genome and shedding light on an under-represented branch of plant research.
-It can favour a plant-microbe-interaction lens, juxtaposing the obligate mutualism of the host and the cyanobiont vs the seemingly free to leave bacterial co-inhabitants.
-And it can favour a agronomic view, controlling _Azolla_ development, growth and dissemination to employ _Azolla_ as a protein crop independent of controversial nitrogen fertilisation.
-In this theses, I try to find and light all these perspective on the _Azolla_ symbiosis.
-To do so, I develop new workflows to process data of genomic, transcriptomic and metagenomic origin.
-I will discuss my work in X main discussion points, namely:
--->
+Bastiaans structure
 
+pillar 1: whats left to discover
+- Unchartered sequences hide in unexplored microbiomes at low abundance
+- Novel biology hides in known sequences
+pillar 2: future data and uncovering phenotype
+- metagenomics provides insights into what microorganisms are doing
+- the microbiome can be observed with other meta-omics approaches
+- integrating different datasets at global scale
+pillar 3: future computation
+- lanrger datsets require new approaches to metagenomic interpretaion
+- sifting out noise in taxonomic annotations
+- metagenomics embraces long sequencing reads
+conclusion
+-->
 
 # Systems perspective
 
-## systems perspective in this thesis
+The systems perspective has helped us contextualise findings and theories within the Azolla symbiosis.
+This initially manifested as an ecological lens through which to observe the Azolla leaf pocket.
+Later an evolutionary lens through which to observe, understand and hypothesise about the lesser abundant microbes in the leafpocket.
 
-How did the systems perspective help in this thesis?
-I'm thinking everything leafpocket. We have plant physiology and genetics, then microbial genomics of degrading obligate symbionts, and microbial ecology of other microbes. All reconciled in one view of a tiny tiny organ.
+## the Azolla leaf pocket as an ecological or evolutionary system
 
-Second, the finding of a systematic overview and pangenome of all Azolla symbionts.
+The Azolla leaf pocket famously houses _T. azollae_.
+A single interaction between host and symbiont can easily be explained in simple phrases. 
+_T. azollae_ provides nitrogen to its Azolla host; Azolla plants provide shelter and light for _T. azollae_; _T. azollae inherits vertically with Azolla spores.
+When multiple players enter the stage, the interactions become complexer; a systems perspective is needed to theorise how parties interact.
+Here follow three examples:
+
+- Rhizobiales microbes in Azolla leaf pockets do not leach of fixed nitrogen, but may play a part in within-leaf-pocket nutrient cycles that the host plant cannot provide.
+- The microbes might reduce oxygen presure thereby improving nitrogen fixation in an environment filled with and surrounded by photosynthesising leaf and cyanobacterial cells.
+- Recurrent microbes in the Azolla leaf pocket may supplement or fix lost metabolic potential that _T. azollae_ needs to function.
+
+These theories involve plant physiology, the genomics of symbiont genome degradation and embed it in an microbial ecological system.
+I would argue that the systems perspective has been essential in making sense of anything in the leaf pocket that involves multiple parties.
+This is without talking about different transfer modes of microbes to subsequent host generations and the effect on their evolution nor of modularity of the microbiome.
 
 **Making sense of a microbiome, evolutionary hypotheses:** Is this a small group of bacteria maintained by the plant, or conversely,
 How do these bacteria co-exist in this special niche with generational bottleneck.
@@ -79,7 +100,42 @@ damaged ones.
 That's why these microbes don't show signs of degradation...
 How then does _N. azollae_ escape this... Is multiple genome coppies sufficient?
 
-## Type of host microbe association
+### self-sustaining ecosystem hypothesis
+
+The leaf pocket ecosystem:
+_N. azollae_ is an autotroph in a highly closed leaf pocket.
+Presumably, all elements that can't be fixed photosynthetically or with energy
+from photosynthesis, are delivered by the plant.
+What about the excretory and dead _N. azollae_ material however
+It's unreasonable to expect _N. azollae_ has the genetic capacity to completely
+recycle it's own decaying material.
+Perhaps the plant can remove this organic waste itself, just as it can remove
+fixed N and supply all nutrients for _N. azollae_
+Alternatively, the bacteria inside the leaf pocket may form some closed nutrient
+cycle.
+The "additional" microbiome feeds of _N. azollae_ waste, decomposing it to
+inorganic form to be recycled again by _N. azollae_ (or the plant).
+One wonders if the low abundance of "additional microbes" is sufficient to
+fulfil that role in the cycle however...
+Again, it may be "waiting" there for a later life stage of the leaf pocket, we
+sampled material that's "too fresh".
+Also, there is presumablyy no requirement to close the nutrient cycle since the
+plant has to be able to support _N. azollae_ with nutrients.
+Perhaps
+With ideas from [@rillig2019]
+
+Again a completely different hypothesis: The "additional microbiome" adds some
+function that was lost/damaged in _N. azollae_, perhaps connecting to the reason
+_N. azollae_ can't be cultered.
+
+ITSNTS versus "simple altruism"
+
+## Placing host microbe association on a spectrum of inheritance strictness
+
+The ecosystem can't be exclusively vertical transmission
+
+- There must be some flux in and out of the ecosystem for these bacteria. How would they otherwise survive the bottleneck?
+- clam shell paper is nice here
 
 Each host-microbe association can be placed on a spectrum of strict organelle like inherritance, and messy random associations. Azolla-nostoc is on one side, and some Azolla groups seem to be on the spectrum. And then there are loose association, based on the data we have. Functional inference differs for where you are on this spectrum: organelle like: just look at the genome vs loose association: what are the functions that are often contributed. Functional microbiome understanding requires a systems perspective. 
 
@@ -89,31 +145,11 @@ Each host-microbe association can be placed on a spectrum of strict organelle li
   - assess degradation
   - symbiosis marker genes --> CSP
 
-## CSP
+### link findings to holobiont discussion
 
-Does it exist? 
+foul play and hidden treasures, and forever together actually.
 
-symbiosis functioning: CSP?
-
-```
-Comparative phylotranscriptomics reveals ancestral and derived root nodule symbiosis programmes
-C Libourel, J Keller, L Brichet, AC Cazalé, S Carrère, T Vernié, JM Couzigou …
-Nature Plants, 2023
-```
-
-**fragment:** Many plant species are known to interact with bacteria systematically and even transmit these systematically [@Frank2018; @Pinto-Carbo2018], but the mechanisms underpinning symbiosis are often unclear.
-The best known mechanism is termed the common symbiosis pathway, variations of this common pathway facilitate both Rhizobiales-legume and mycohorriza symbiosis [@Genre2016].
-But other symbioses, like Cuanobacteria-plant symbises and ... , are not facilitated by this pathway [@Li2018] `more examples would be nice`.
-Mining the genomes of symbiotic bacteria already hidden away in host sequencing data may allow comparative genomics of symbionts on a large scale and further elucidation of the mechanisms of plant-microbe symbioses.
-
-`root nodule bacteria diversity; disporiensis diversity`
-
-In microbial ecology, natural low diversity, low complexity populations are rare.
-This is such an example, perhaps many plant-microbe associations are.
-The plant genome does add complexity, but other than that ...
-[@Rillig2019]
-
-## Functional "duiding"
+## What does the association spectrum mean for functional inference
 
 organelle style vs loose style: ITSNTS
 
@@ -207,35 +243,7 @@ Evolution of these heritable parts of the hologenome may define in advance the
 niche to be filled, even if the gene to fill that niche is one another genome.
 How then, does this differ from traditional co-evolution...?
 
-### self-sustaining ecosystem hypothesis
 
-The leaf pocket ecosystem:
-_N. azollae_ is an autotroph in a highly closed leaf pocket.
-Presumably, all elements that can't be fixed photosynthetically or with energy
-from photosynthesis, are delivered by the plant.
-What about the excretory and dead _N. azollae_ material however
-It's unreasonable to expect _N. azollae_ has the genetic capacity to completely
-recycle it's own decaying material.
-Perhaps the plant can remove this organic waste itself, just as it can remove
-fixed N and supply all nutrients for _N. azollae_
-Alternatively, the bacteria inside the leaf pocket may form some closed nutrient
-cycle.
-The "additional" microbiome feeds of _N. azollae_ waste, decomposing it to
-inorganic form to be recycled again by _N. azollae_ (or the plant).
-One wonders if the low abundance of "additional microbes" is sufficient to
-fulfil that role in the cycle however...
-Again, it may be "waiting" there for a later life stage of the leaf pocket, we
-sampled material that's "too fresh".
-Also, there is presumablyy no requirement to close the nutrient cycle since the
-plant has to be able to support _N. azollae_ with nutrients.
-Perhaps
-With ideas from [@rillig2019]
-
-Again a completely different hypothesis: The "additional microbiome" adds some
-function that was lost/damaged in _N. azollae_, perhaps connecting to the reason
-_N. azollae_ can't be cultered.
-
-ITSNTS versus "simple altruism"
 
 ### Bacteria associated with plants as a modular subset of the hologenome
 
@@ -257,9 +265,14 @@ Alternatively, symbionts may need to reinnoculate their host annew every generat
 ...
 No particular mode of transmission of genetic material is more or less relevant to be included in a hologenome, instead the holobiont term must be a usefull concept in research applied appropriately.
 
+
+
 ## Systems perspective vs reductionist
 
 Complementing each other.
+
+--> one two tree, systems perspective to find candidates for reductionist experiment
+--> Systems perspective needed to make sense of non-linear network of pathways? 
 
 Microbiology and ecology need, in the end, a reductionist approach to piece
 appart the nuts and bolts co-existance.
@@ -267,14 +280,33 @@ We need at least a way to manipulate the microbial community of a plant organ,
 or simulate this in microcosms to come to the level of hypothesis testing.
 [@rillig2019]
 
-## Phylogeny and functional extrapolation to ferns
-
 # Symbiosis research
+
+Why symbiosis research:
+- extending breeding target to genomes closely associated to host organisms.
+- keep this broad, and non-Azolla specific for we will tackle that later.
 
 ## Nazollae breeding
 
 Nazollae engineering
 https://pubs.acs.org/doi/full/10.1021/acssynbio.3c00583
+
+plug all Nazollae transformation work we did in the lab and mention my contributions
+
+But how can we easily determine those extended breeding targets in close genomes, do they even exist for a crop? 
+Maybe we can find them in repositories --queue transition next section:
+
+### Lessons from Nazollae's degraded genome for how all cyano symbioses work?
+
+Assuming there is substantial overlap between bryophyte and lycphyte cyanobacterial symbioses... you get the point. 
+
+--> forever together.
+
+note there's no proof of genes moving from cyano's to the host, Li et al.
+
+### Dual-RNAseq as a technology for symbiosis understanding
+
+Technically very hard, hope that this technique will develop and become as mainstream as regular RNAseq sequencing has become these
 
 ## genus metagenome
 
@@ -303,6 +335,21 @@ But this exists:
 https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.001207
 ```
 
+# Azolla as a non-model novel crop
+
+## Phylogeny and functional extrapolation to ferns
+
+## Azolla as a Fern model
+
+- ferns being under-represented and all
+
+## Domestication
+ -> it takes two and one two tree
+1. Domestication and control of Azolla
+   1. FR light and control of reproduction
+   2. learn about ferns
+   3. provide knowledge for implementing in biobased economy
+
 # The Azolla symbiosis
 
 ## consistent partnership suggests selective advantage
@@ -320,22 +367,15 @@ https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.001207
 
 ## Evolution and transfer
 
-Transmission modes
-
-- fixedness in genus suggests so.
-
-The ecosystem can't be exclusively vertical transmission
-
-- There must be some flux in and out of the ecosystem for these bacteria. How would they otherwise survive the bottleneck?
-- clam shell paper is nice here
-
-evolution bottleneck? Confirm absence genome degradation.
-
+This may be redundant with other sections... 
+I gues the focus here is, what I would like to do in future experiments, what are the interesting Azolla questions that remain?
 
 ## who controls who
 
-I have said nothing of membrane vesicles from both cyano's and bact observed by
-at least @Zheng2009
+Is it a question of who controls who, or a question of how do they work together, and what means do they have to communicate to each other, and how have these means evolved.
+
+
+I have said nothing of membrane vesicles from both cyano's and bact observed by at least @Zheng2009
 
 passengers hitching a ride, or tightly controlled guest list by the host
 
@@ -366,6 +406,37 @@ the amount of the cyanobiont increases after long-term salicylic acid treatment.
 https://royalsocietypublishing.org/doi/full/10.1098/rstb.2023.0362
 
 ```
+
+
+
+### Is there such a thing as a Common Symbiosis Pathway
+
+Does it exist? 
+
+symbiosis functioning: CSP?
+
+```
+Comparative phylotranscriptomics reveals ancestral and derived root nodule symbiosis programmes
+C Libourel, J Keller, L Brichet, AC Cazalé, S Carrère, T Vernié, JM Couzigou …
+Nature Plants, 2023
+```
+
+**fragment:** Many plant species are known to interact with bacteria systematically and even transmit these systematically [@Frank2018; @Pinto-Carbo2018], but the mechanisms underpinning symbiosis are often unclear.
+The best known mechanism is termed the common symbiosis pathway, variations of this common pathway facilitate both Rhizobiales-legume and mycohorriza symbiosis [@Genre2016].
+But other symbioses, like Cuanobacteria-plant symbises and ... , are not facilitated by this pathway [@Li2018] `more examples would be nice`.
+Mining the genomes of symbiotic bacteria already hidden away in host sequencing data may allow comparative genomics of symbionts on a large scale and further elucidation of the mechanisms of plant-microbe symbioses.
+
+`root nodule bacteria diversity; disporiensis diversity`
+
+In microbial ecology, natural low diversity, low complexity populations are rare.
+This is such an example, perhaps many plant-microbe associations are.
+The plant genome does add complexity, but other than that ...
+[@Rillig2019]
+
+### A system in which microbes can be added and subtracted at will
+
+- If we conclude that additional microbes are iterchangable, we should be able to reproduce this in the lab somehow.
+- Shoot APEX is the place to be
 
 ## other nostocaeae symbioses
 
@@ -406,36 +477,17 @@ R De Carolis, A Cometto, P Moya, E Barreno, M Grube, M Tretiach, SD Leavitt …
 Frontiers in microbiology, 2022
 ```
 
-## Azolla as a Fern model
-
-- ferns being under-represented and all
-
-1. Domestication and control of Azolla
-   1. FR light and control of reproduction
-   2. learn about ferns
-   3. provide knowledge for implementing in biobased economy
-
-### A system in which microbes can be added and subtracted at will
-
-- If we conclude that additional microbes are iterchangable, we should be able to reproduce this in the lab somehow.
-- Shoot APEX is the place to be
-
-### Extrapolating function from seedplants?
-
-
+# The future of Azolla research
 
 ## Azolla agriculture, how this thesis contributes.
 
 ## The future of Azolla research
+
    1. Azolla as a symbiosis model
    2. Azolla as a fern research model
       1. single cell to map how ferns cell-clusters differ from seed plants -> Bert
    3. Azolla ecological research
    4. Azolla as a protein crop
-
-# Other stuff...
-
-## Introducing Bioinformatics to a lab, reproducible computing?
 
 # Conclusion
 
@@ -447,10 +499,8 @@ Frontiers in microbiology, 2022
 - fundament for a system to manipulate Azolla symbioses
 - agricultural opportunities: life cycle control
 
-# Notes
 
-
-
+<!--
 ## AI input
 
 1. The Importance of Studying Plant Symbiosis, Specifically the Azolla-Nostoc System
@@ -534,7 +584,7 @@ Frontiers in microbiology, 2022
       - Chapter 6: Suggests that findings on reproductive control mechanisms could inform studies in other plant lineages.
       - Conclusion and Future Work: The final chapters synthesize findings and propose future research directions.
 
-
+-->
 
 
 
