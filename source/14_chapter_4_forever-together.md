@@ -101,48 +101,122 @@ section on plastids
 
 # Methods
 
-## Data Collection and Sequencing
+## Sample Collection and DNA Extraction
 
-We collected samples from three *Azolla* species: *A. filiculoides*, *A. pinnata*, and an unknown *Azolla* strain named 'Bordeaux.'
-Genomic DNA was extracted from whole plant fronds using the nanopore community protocol.
-Samples were sequenced using nanopore long-read sequencing technology, and data were basecalled with Guppy software.
+Samples were collected from *Azolla filiculoides*, *A. pinnata*, and an unidentified *Azolla* strain ('Bordeaux'). 
+The *A. filiculoides* strain originated from the Galgenwaard ditch, Utrecht, the Netherlands. 
+Plants were maintained under laboratory conditions prior to DNA extraction.
+
+Genomic DNA was extracted from whole Azolla fronds using a modified version of the Nanopore high-molecular-weight DNA extraction protocol for plant material (Nanopore Community protocol: “High molecular weight gDNA extracted from fever tree leaves (Cinchona pubescens)”). 
+The main modification was grinding the plant tissue in liquid nitrogen before transferring to Carlson lysis buffer to preserve high-molecular-weight DNA.
+DNA extractions were checked for integrity using agarose gel electrophoresis and quantified using a Qubit Fluorometer (Thermo Fisher Scientific).
+
+## Nanopore Sequencing and Basecalling
+
+Library preparation was performed using the Oxford Nanopore Technologies (ONT) high-throughput ligation sequencing kit.
+DNA libraries were loaded onto MinION R9.4.1 flowcells and sequenced using MinKNOW.
+Flowcells were checked before sequencing using ONT’s built-in quality control tools to assess pore activity.
+A nuclease flush was applied to allow for flowcell re-use when applicable.
+
+Basecalling was performed post-sequencing using Guppy (ONT) with the “super-accurate” basecalling model.
+The following parameters were used for basecalling:
+
+```bash
+~/bin/ont-guppy/bin/guppy_basecaller                     \
+      -i <input-folder>                                  \
+      -s <output-folder>                                 \
+      --compress_fastq                                   \
+      -x "cuda:0"                                        \
+      -c ~/bin/ont-guppy/data/dna_r9.4.1_450bps_sup.cfg  \
+      --gpu_runners_per_device 8                         \
+      --num_callers 8                                    \
+      --chunk_size 700                                   \
+      --chunks_per_runner 512                            \
+      --trim_primers                                     \
+      --trim_adapters                                    \
+      --do_read_splitting
+```
+
+For barcoded libraries, demultiplexing was performed during basecalling using:
+
+```bash
+      --barcode_kits EXP-NBD104                         \
+      --trim_barcodes
+```
+
 Sequencing data was uploaded to EBI ENA under accession `EBI accession`.
 
-## read baiting
+## Read Baiting and Subsampling
 
-Baited reads, selected based on homology to known reference genomes, were used to reduce assembly size and possibly enhance accuracy.
-Nanopore sequencing reads were by mapping against this reference a with minimap2 [@Li2018a] and samtools [@Li2009] and then assembled with flye [@Kolmogorov2019].
+To extract relevant sequencing reads while minimizing host contamination, read baiting was performed using minimap2 [@Li2018a] and samtools [@Li2009].
+ genomes of Nostoc azollae, Azolla plastids, and previously sequenced Azolla mitochondria were used for targeted read selection.
+ Reads mapping to reference sequences were selected using:
 
-<!-- Plastid Illumina reads were baited in a similar fashion as the nanopore reads but using BWA [@Li2009a] rather than minimap2 and then assembled with SPAdes [@Nurk2017]. -->
+```bash
+minimap2 -ax map-ont <reference-genome> <nanopore_reads.fastq.gz> | \
+samtools view -b | samtools sort -o <sorted_reads.bam>
+```
+
+```bash
+samtools view -h <sorted_reads.bam> '<target-region>' | \
+samtools fastq | pigz --best -p $(nproc) > <output.fastq.gz>
+```
 
 ## Genome Assembly
 
-Long-read sequencing data were processed using de novo assembly techniques.
-We utilised Flye for genome assembly, focusing on reconstructing chromosome-length assemblies of *Nostoc azollae* genomes and *Azolla* chloroplast and mitochondrial genomes.
+De novo genome assembly was performed using Flye [@Kolmogorov2019], a long-read assembler optimized for nanopore sequencing that outperformed Canu in our hands (data not shown).
+Initial assemblies were evaluated using Bandage for visualization of contig connectivity.
 
-Anvio pangenomics
-IQtree
+Plastid Illumina reads were baited from public *Azolla* data [@Li2018] when available.
+This happened in a similar fashion as the nanopore reads but using BWA [@Li2009a] rather than minimap2.
+For comparison, they were assembled with SPAdes [@Nurk2017].
 
-R & ggplot2
-
-Mauve
-
-Github
-
-## novoplasty
+### Plastid genome assembly
 
 De-novo assemblies of plastids turned out to be highly fragmented and too big compared to the reference, even when reference sequences were taken into account during assembly using the SPAdes `--trusted-contigs` option (@fig:fig4_chloroplast_spades_assemblies).
 The de-novo SPAdes algorithm seemed to be too cautious in collapsing similar contigs into one, and hence created bubbles in the assembly graph.
 The resulting fragmented assembly contains gene fragments and duplicates and hence is unsuited for phylogenomic analyses as we aim to perform here.
 SPAdes assemblies of the mitochondrium were plagued by similar issues (data not shown).
 Hence, we resorted to an alternative method for assembling plastid genomes: NOVOplasty `NOVOplasty`.
-NOVOplasty is not a graph assembler but itteratively extends a seed sequence known to be from a plastid; a Rubisco DNA sequence in the case of the chloroplast.
+NOVOplasty is not a graph assembler but iteratively extends a seed sequence known to be from a plastid; a Rubisco DNA sequence in the case of the chloroplast.
 It does not rely on baiting reads, but can work with bulk DNA from a WGS project.
 
-## nanopore sequencing
+## Genome Annotation and Pangenome Analysis
 
-flowcells,
-postprocessing
+Genome annotation and pangenome analyses were conducted using Anvi’o 7.1.  
+Snakemake was used to automate processing workflows.  
+Pangenomes were generated separately for *T. azollae*, *Azolla* chloroplasts, and mitochondria.  
+Core and accessory genes were identified using MCL clustering, with homogeneity thresholds set to distinguish functionally conserved genes from more variable accessory elements.  
+Average Nucleotide Identity (ANI; ANIm with MUMmer via PyANI) matrices were generated with Anvi'o to assess genome-wide similarity.
+Core genes were extracted and binned manually for phylogenomic analyses.
+
+## Phylogenetic Analysis
+
+Phylogenomic reconstructions were based on core genes identified from the pangenomes.  
+IQ-TREE was used for maximum likelihood phylogenies.  
+Trees were inferred from concatenated alignments of core genes with best-fit evolutionary models selected automatically.  
+
+## ## Pipeline Automation and data availibility
+
+All steps, from raw data processing to pangenome assembly and phylogenomic inference, were automated using Snakemake.  
+The pipeline was configured to ensure reproducibility, with dependencies managed via conda environments.
+The pipeline and all scripts are available at [github.com/lauralwd/Nostoc_azollae_pangenomics](https://github.com/lauralwd/Nostoc_azollae_pangenomics).
+
+To ensure consistency, Snakemake rules were executed with the following commands:
+
+```bash
+snakemake --use-conda all_azolla_associated_pangenomes
+snakemake --use-conda all_azolla_associated_phylogenomics
+```
+
+Visualisations of pangenome clustering were created using:
+
+```bash
+anvi-display-pan -g ./data/anvio_genomes_storage/Nazollae_GENOMES.db \
+                 -p data/anvio_pangenomes/Nazollae/Nazollae_mcl7-PAN.db \
+                 --title 'Nostoc azollae pangenome'
+```
+
 
 ## data
 
