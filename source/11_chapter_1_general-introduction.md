@@ -119,29 +119,29 @@ And in my PhD, I focus on one specific symbiosis.
 # Symbiosis
 
 The study of symbioses may lie at the intersection of system-level understanding and mechanistic research.
+Symbiosis is a compound word derived from the Greek σύν (syn; together) and βίωσις (biosis; living).
+It refers to a long term interaction of multiple organisms living together.
 The molecular biology methods associated with reductionist approaches remain standard in this field, and my colleagues and I adhere to these methods in our work.
 This adherence is necessary because we are studying a young system, which requires foundational groundwork.
 However, we should continually question what our findings mean for the system as a whole.
 In many cases, we are compelled to study the system in its entirety.
 This thesis focuses on an obligate symbiosis.
 Any experimental condition affects all organisms involved, and they influence each other.
-In this context, studying one symbiont without the other is either not viable or results in significant health issues.
-Thus, studying them in isolation without considering the entire symbiotic relationship risks being short-sighted.
 
-By definition, symbiosis is a long-term interaction between two or more organisms.
-These interactions can often be categorised as:
+Symbiosis is defined as a long-term biological interaction between two or more organisms.
+The concept is often associated with positive interactions between all parties, but per this is not required.
+Strictly speaking, only one party needs to benefit to sustain the interaction over time, even if this is at the cost of others.
+Symbioses can be subcategorised in:
 
 - Mutualism: when all partners benefit
 - Commensalism: when one partner benefits without harming others
-- Amensalism: when one partner is unaffected, but another is harmed
 - Parasitism: when one partner benefits at the expense of others
-- Competition: when all partners are harmed by the interaction
 
-The general public often associates symbiosis with positive interactions, typically referring to mutualism and commensalism.
-However, this is not always practical, as the nature of the interaction is often unknown at the outset.
-Therefore, considering the duration of the interaction is a more robust approach.
-In this thesis, symbiosis generally refers to mutualism and commensalism, aligning with the common understanding of the term.
-The latter three categories are considered general ecological interactions rather than symbioses in this context.
+Defining symbiosis as a positive interaction like mutualism or commensalism is also impractical.
+The nature of any interaction is often unknown at the outset or may change over time.
+In this thesis, symbiosis generally refers to mutualism and commensalism, aligning with the popular understanding of the term.
+Specific types of symbioses will be indicated as such when required.
+
 
 ## Symbiosis Breeding
 
