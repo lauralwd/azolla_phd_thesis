@@ -76,14 +76,14 @@ The reductionist approach yielded considerable advances in biological research; 
 However, I argue that it occasionally falls short in capturing the emergent properties of a larger whole.
 The complexity of real-world biology does not always allow for the isolation of a single variable from the rest of the system.
 Nor does changing one variable in a system always lead to predictable changes.
-For examples of the former, this thesis describes such a system.
-For the latter, recent attempts at microbiome editing exemplify this limitation.
-A microbiome is the collection of all microbial organisms associated with an organ or organism.
-Such a collection often contains millions of cells from hundreds of strains, if not more.
-It is overly optimistic to take one of these strains, edit it—often genetically—and expect a robust change.
-Plenty of examples in the literature support this view [@Bai2023; @Mueller2015a].
-Instead, a perspective of the entire (eco)system and lessons from macroecology may be required for sustained microbiome editing [@Albright2022].
-This necessitates a systems perspective.
+For examples of the former, you will find this thesis describes such a system: a plant who's main symbiont cannot survive without its host.
+For the latter, recent attempts at microbiome\footnote{A microbiome is the collection of all microbial organisms associated with an organ or organism.} editing\footnote{Microbiome editing refers to the stable intentional modification of a microbiome by adding or subtracting microbes or metabolic functions in microbes.} exemplify this limitation.
+Such a collection often contains millions of cells from hundreds of species or strains, if not more.
+Experiments that attempt microbiome editing by replacing a single edited microbe often fail to effect lasting change [@Bai2023; @Mueller2015a].
+Instead, a perspective of the entire (eco)system and lessons from ecology may be required for sustained microbiome editing [@Albright2022].
+From the systems perspective, it makes more sense to edit the microbiome as a whole.
+In practice, one can engineer synthetic groups or edit pre-existing consortia of bacteria that support a new functionality.
+Additional, one may manipulate the microbiome environment to favour the newly edited bacteria (reviewed in @Bai2023).
 
 Even within the confines of a cell, the reductionist view of biology is subject to scrutiny.
 Mechanistic studies often investigate the workings of single components within the cell, perhaps placing them into metabolic pathways.
@@ -102,10 +102,10 @@ Similarly, protein complexes are not static assemblies like engineered machines.
 Instead, they self-organise, with multi-functional parts that constantly come together and separate [@Nicholson2019; @Dumont2014].
 Apply this state of flux to all parts of a metabolic network, and imagine the consequential chaos.
 This chaotic cell is a collection of semi-stable processes that continuously self-organise into alternative steady states.
-A system far from equilibrium, seemingly inefficient and costly, yet flexible and robust as a consequence [@Nicholson2019].
-@Nicholson2019 is an excellent read, and I would not fault anyone for setting aside this thesis to pick up his article instead.
+It is not a machine but a system seemingly inefficient and costly, yet flexible and robust as a consequence [@Nicholson2019].
 
-In this section, I do not argue for the abandonment of mechanistic research, but for its complement with a systems biology perspective.
+In this section, I do not argue for the abandonment of mechanistic research, nor to elevate systems biology above other discipline.
+Instead I hope to convince any biologist to think about their subject's surrounding system a bit more.
 This is a task well suited for biologists, who are trained from the outset to think across varying scales, from molecule to ecosystem.
 In fact, my bachelor studies were organised in this very way.
 Yet somehow, something so obvious to a first-year biology student becomes an afterthought in reductionist scientific practice.
