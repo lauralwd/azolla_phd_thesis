@@ -110,6 +110,12 @@ This is a task well suited for biologists, who are trained from the outset to th
 In fact, my bachelor studies were organised in this very way.
 Yet somehow, something so obvious to a first-year biology student becomes an afterthought in reductionist scientific practice.
 
+Personally, I have always been interested in understanding systems, their parts and their interactions.
+At an early age that was machines and computers, taking them apart and putting them back together.
+During high school it became biology and music.
+For my studies, I focussed on ecology and plants.
+And in my PhD, I focus on one specific symbiosis.
+
 # Symbiosis
 
 The study of symbioses may lie at the intersection of system-level understanding and mechanistic research.
