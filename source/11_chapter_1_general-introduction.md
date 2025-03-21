@@ -36,8 +36,11 @@ Laura W Dijkhuizen^1^
 
 \section*{Abstract}
 
-This hitch-hiker's guide serves as a friendly, general introduction to this thesis.
-The thesis explores the genomics of the _Azolla_ symbiosis: the relationship between _Azolla_ ferns, their main symbiont _Trichormus_ (or _Nostoc_) _azollae_, and other bacterial partners.
+This hitch-hiker's guide\footnote{Referring to the famous eighties book series 'A Hitch-hikers Guide to the Galaxy', not the preferred means of travel by you the reader.} serves as a general introduction to this thesis.
+The thesis explores the genomics of the _Azolla_ symbiosis.
+A symbiosis; derived from the Greek σύν (together) and βίωσις (living), refers to a long term interaction of multiple organisms living together.
+In this work, that is the relationship between _Azolla_ ferns, their main symbiont
+_Trichormus_\footnote{\emph{Azolla}'s main cyanobacterial symbiont is known under many names. \emph{Trichormus, Nostoc} and \emph{Anabaena azollae}. I refer to it here as \emph{Trichormus azollae} based on the work of @Pereira2014.} (or _Nostoc_) _azollae_, and other bacterial partners.
 The chapters will discuss the discovery of these additional bacterial partners and the identity and evolution of the main symbiont.
 The final chapters focus on the symbiosis' reproductive cycle and some methodological approaches.
 This is all new information on the _Azolla_ symbiosis, which I argue is crucial for modern breeding of _Azolla_.
@@ -69,7 +72,7 @@ The organism is removed from its natural environment to prevent it from meddling
 The ultimate goal is to gain mechanistic insight into the workings of a biological system, one part at a time.
 The underlying assumption is that if we understand the function of all its parts, we will understand the system as a whole.
 
-The reductionist dogma yielded considerable advances in biological research; this is undisputed.
+The reductionist approach yielded considerable advances in biological research; this is undisputed.
 However, I argue that it occasionally falls short in capturing the emergent properties of a larger whole.
 The complexity of real-world biology does not always allow for the isolation of a single variable from the rest of the system.
 Nor does changing one variable in a system always lead to predictable changes.
