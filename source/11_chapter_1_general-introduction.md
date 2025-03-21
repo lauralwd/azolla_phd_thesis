@@ -349,7 +349,7 @@ We have unwillingly empirically tested this theory several times.
 When an _Azolla_ population has covered a water surface, the plants' growth is directed upwards.
 An _Azolla_ mat can reach a thickness of a few millimetres to 20 to 30 centimetres in extreme scenarios.
 The bottom of the mat is dark and may be submerged by the weight of plants laying on top.
-Inside the _Azolla_ mat, the light quality changes, particularly the red vs far-red light ratio.
+Inside the _Azolla_ mat, the light quality changes, particularly the red vs far-red\footnote{Far-red (FR) light ratio refers to the balance between red (660 nm) and far-red (730 nm) wavelengths. Plants use changes in this ratio to detect competition from neighboring plants, influencing their growth and development responses, such as elongation and flowering.} light ratio.
 The plants perceive this light change and adapt their growth as shown in chapter \ref{it_takes_two} \nameref{it_takes_two} or @Dijkhuizen2021.
 The internode distance (distance on the stem between leaves) increases, giving the plant an elongated appearance.
 This is a common response in plants to being overshadowed by other plants; they stretch out towards the light [@Possart2013].
@@ -391,7 +391,7 @@ _Azolla_ could serve as a local protein source, reducing reliance on imported cr
 This application may also contribute to the recycling of nutrients within local agricultural systems.
 However, challenges remain, such as _Azolla_'s relatively high tannin content, which can inhibit protein digestibility.
 
-_Azolla_ is also considered for phytoremediation, helping to clean contaminated or eutrophic water bodies by absorbing heavy metals and retrieving nutrients like phosphorus and iron from soils [@Sood2012; @Scharer2009; @Temmink2018; @Akhtar2016].
+_Azolla_ is also considered for phytoremediation\footnote{Phytoremediation is the use of plants to remove, transfer, stabilize, or destroy contaminants in soil, water, or air.}, helping to clean contaminated or eutrophic water bodies by absorbing heavy metals and retrieving nutrients like phosphorus and iron from soils [@Sood2012; @Scharer2009; @Temmink2018; @Akhtar2016].
 While promising, the use of _Azolla_ in phytoremediation should be approached with caution due to its potential invasiveness and the complexities of pest management in aquatic systems.
 Despite these challenges, _Azolla_'s unique properties offer substantial opportunities in addressing modern agricultural challenges.
 
